@@ -22,22 +22,21 @@ The  case study is to investigate an image involving intellectual property theft
 
 Topics Covered
 
-| Labs | Topics Covered |
-| --- | ----------- |
-| Lab 0 | Environment Setting Up |
-| Lab 1 | Windows Registry  |
-| Lab 2 | Windows Event and XML |
-| Lab 3 | Web History and SQL |
-| Lab 4 | Email Investigation  |
-| Lab 5 | File Change History and USN Journal  |
-| Lab 6 | Network Evidence and shellbag |
-| Lab 7 | Network Drive and Windows shellbag |
-| Lab 8 | $MFT (Master File Table) Analysis |
-| Lab 9 | Windows Search History |
-| Lab 10 | Windows Volume Shadow Copy Analysis |
-| Lab 11 | Data Carving |
-
-
+| Labs | Topics Covered |Size of PPTs |
+| --- | ----------- |----------- |
+| Lab 0 | Environment Setting Up | 2M  |
+| Lab 1 | Windows Registry  | 3M |
+| Lab 2 | Windows Event and XML |3M |
+| Lab 3 | Web History and SQL | 3M|
+| Lab 4 | Email Investigation  |3M |
+| Lab 5 | File Change History and USN Journal  |2M |
+| Lab 6 | Network Evidence and shellbag |2M |
+| Lab 7 | Network Drive and Windows shellbag |5M |
+| Lab 8 | $MFT (Master File Table) Analysis |4M |
+| Lab 9 | Windows Search History | 4M|
+| Lab 10 | Windows Volume Shadow Copy Analysis |6M |
+| Lab 11 | Data Carving |3M |
+| Lab 12 | Crack Windows Passwords  | 2M|
 
 ---
 ### Email Harassment
