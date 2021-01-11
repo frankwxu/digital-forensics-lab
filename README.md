@@ -1,5 +1,9 @@
 # Digital Forensics Lab
-Free Hands-on Digital Forensics Labs for Students and Faculty 
+Free Hands-on Digital Forensics Labs for Students and Faculty. The features of hands-on lab include:
+- Purely based on Linux: Maily use Kali Linux
+- Comprehansive: Cover many topics in digial forensics. 
+- Free: All tools are open source
+- Upated: The project is funded by DOJ and NSF and will keep updating. 
 ---
 
 ## Table of Contents  (updating)
