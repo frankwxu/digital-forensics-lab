@@ -1,7 +1,7 @@
 # Digital Forensics Lab
 Free Hands-on Digital Forensics Labs for Students and Faculty 
 
-### Table of Contents  (updating)
+## Table of Contents  (updating)
 - [NIST Data Leakage](#Nist%20Data%20Leakage)
 - [Email Harassment](#Email%20Harassment)
 - [Illegel Image Possesion](#Illegel%20Image%20Possesion)
