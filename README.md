@@ -3,6 +3,7 @@ Free Hands-on Digital Forensics Labs for Students and Faculty
 ---
 
 ## Table of Contents  (updating)
+=================
 - Case Study
   * [NIST Data Leakage](#Nist%20Data%20Leakage)
   * [Email Harassment](#Email%20Harassment)
@@ -45,9 +46,9 @@ The  case study is to investigate an image involving intellectual property theft
 * https://github.com/libyal/libvshadow
 * https://github.com/prolsen/recentfilecache-parser
 
-=====================================================
-### Contribution
 
+### Contribution
+==========
 * Frank Xu
 * Malcolm Hayward 
 * Richard (Max) Wheeless
