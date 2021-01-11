@@ -45,8 +45,9 @@ The  case study is to investigate an image involving intellectual property theft
 * https://github.com/libyal/libvshadow
 * https://github.com/prolsen/recentfilecache-parser
 
-### Contribution
 =====================================================
+### Contribution
+
 * Frank Xu
 * Malcolm Hayward 
 * Richard (Max) Wheeless
