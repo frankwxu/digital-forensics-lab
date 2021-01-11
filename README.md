@@ -19,9 +19,9 @@ The  case study is to investigate an image involving intellectual property theft
 * Each lab has an PPT with lab screenshots
 
 ---
-#### Email Harassment
+### Email Harassment
 ---
-#### Illegel Image Possesion
+### Illegel Image Possesion
 ---
 ### Tools used
 * Wine
