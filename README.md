@@ -12,9 +12,9 @@
 
 ## Table of Contents  (updating)
 - Case Study
-  * [NIST Data Leakage](#Nist%20Data%20Leakage)
+  * [NIST Data Leakage](#NIST%20Data%20Leakage)
   * [Email Harassment](#Email%20Harassment)
-  * [Illegel Image Possesion](#Illegel%20Image%20Possesion)
+  * [Illegel Image Possesion](#Illegel-Image-Possesion)
 - [Tools Used](#Tools%20used)
 
 
