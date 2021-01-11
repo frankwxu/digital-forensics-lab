@@ -1,7 +1,6 @@
 # Digital Forensics Lab
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="100" height="100">
-![BJA](https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png&s=250)
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="150">
 
 ### Features of hands-on lab
 ===================
