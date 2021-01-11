@@ -8,6 +8,8 @@ Free Hands-on Digital Forensics Labs for Students and Faculty
   * [Email Harassment](#Email%20Harassment)
   * [Illegel Image Possesion](#Illegel%20Image%20Possesion)
 - [Tools Used](#Tools%20used)
+
+
 ---
 ### NISTst Data Leakage
 The  case study is to investigate an image involving intellectual property theft. The study include 
@@ -43,3 +45,8 @@ The  case study is to investigate an image involving intellectual property theft
 * https://github.com/libyal/libvshadow
 * https://github.com/prolsen/recentfilecache-parser
 
+### Contribution
+=====================================================
+* Frank Xu
+* Malcolm Hayward 
+* Richard (Max) Wheeless
