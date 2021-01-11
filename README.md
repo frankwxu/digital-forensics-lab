@@ -12,18 +12,42 @@ Free Hands-on Digital Forensics Labs for Students and Faculty
 
 ---
 ### NIST Data Leakage
+==============
+
 The  case study is to investigate an image involving intellectual property theft. The study include 
 
 * A large and complex image created by [NIST](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html)
 * 13 hands-on labs/topics in digital forensics
 * Each lab has an PPT with lab screenshots
 
+Topics Covered
+
+| Labs | Topics Covered |
+| --- | ----------- |
+| Lab 0 | Environment Setting Up |
+| Lab 1 | Windows Registry  |
+| Lab 2 | Windows Event and XML |
+| Lab 3 | Web History and SQL |
+| Lab 4 | Email Investigation  |
+| Lab 5 | File Change History and USN Journal  |
+| Lab 6 | Network Evidence and shellbag |
+| Lab 7 | Network Drive and Windows shellbag |
+| Lab 8 | $MFT (Master File Table) Analysis |
+| Lab 9 | Windows Search History |
+| Lab 10 | Windows Volume Shadow Copy Analysis |
+| Lab 11 | Data Carving |
+
+
+
 ---
 ### Email Harassment
+=========
 ---
 ### Illegel Image Possesion
+============
 ---
 ### Tools used
+========
 * Wine
 * https://github.com/AtesComp/Vinetto
 * https://github.com/Arthelon/imgclip
@@ -47,7 +71,7 @@ The  case study is to investigate an image involving intellectual property theft
 
 
 ## Contribution
-==========
+=============
 * Frank Xu
 * Malcolm Hayward 
 * Richard (Max) Wheeless
