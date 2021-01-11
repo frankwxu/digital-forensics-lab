@@ -1,5 +1,6 @@
 # Digital Forensics Lab
 
+![BJA](https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png "BJA Text")
 
 ### Features of hands-on lab
 ===================
