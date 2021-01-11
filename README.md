@@ -3,7 +3,6 @@ Free Hands-on Digital Forensics Labs for Students and Faculty
 ---
 
 ## Table of Contents  (updating)
-=================
 - Case Study
   * [NIST Data Leakage](#Nist%20Data%20Leakage)
   * [Email Harassment](#Email%20Harassment)
