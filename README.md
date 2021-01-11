@@ -1,5 +1,5 @@
 # Digital Forensics Lab
-Free Hands-on Digital Forensics Labs for Students and Faculty. 
+
 
 ### Features of hands-on lab
 ===================
