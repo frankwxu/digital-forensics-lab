@@ -3,9 +3,11 @@ Free Hands-on Digital Forensics Labs for Students and Faculty
 ---
 
 ## Table of Contents  (updating)
-- [NIST Data Leakage](#Nist%20Data%20Leakage)
-- [Email Harassment](#Email%20Harassment)
-- [Illegel Image Possesion](#Illegel%20Image%20Possesion)
+- Case Study
+  * [NIST Data Leakage](#Nist%20Data%20Leakage)
+  * [Email Harassment](#Email%20Harassment)
+  * [Illegel Image Possesion](#Illegel%20Image%20Possesion)
+- [Tools Used](#Tools%20used)
 ---
 ### NISTst Data Leakage
 The  case study is to investigate an image involving intellectual property theft. The study include 
@@ -14,7 +16,12 @@ The  case study is to investigate an image involving intellectual property theft
 * 13 hands-on labs/topics in digital forensics
 * Each lab has an PPT with lab screenshots
 
-The list of tools used 
+---
+#### Email Harassment
+---
+#### Illegel Image Possesion
+---
+### Tools used
 * Wine
 * https://github.com/AtesComp/Vinetto
 * https://github.com/Arthelon/imgclip
@@ -35,9 +42,4 @@ The list of tools used
 * pip install analyzeMFT
 * https://github.com/libyal/libvshadow
 * https://github.com/prolsen/recentfilecache-parser
-
----
-#### Email Harassment
----
-#### Illegel Image Possesion
 
