@@ -12,10 +12,10 @@
 
 ## Table of Contents  (updating)
 - Case Study
-  * [NIST Data Leakage](#NIST%20Data%20Leakage)
-  * [Email Harassment](#Email%20Harassment)
+  * [NIST Data Leakage](#NIST-Data-Leakage)
+  * [Email Harassment](#Email-Harassment)
   * [Illegel Image Possesion](#Illegel-Image-Possesion)
-- [Tools Used](#Tools%20used)
+- [Tools Used](#Tools-Used)
 
 
 ---
@@ -53,7 +53,7 @@ Topics Covered
 ### Illegel Image Possesion
 ============
 ---
-### Tools used
+### Tools Used
 ========
 * Wine
 * https://github.com/AtesComp/Vinetto
