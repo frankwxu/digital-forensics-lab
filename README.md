@@ -7,9 +7,9 @@
 - Hands-on Digital Forensics Labs: designed for Students and Faculty
 - Linux-based lab: All labs are purely based on Kali Linux
 - Lab screenshots: Each lab has a PPT with lab screenshots
-- Comprehansive: Cover many topics in digial forensics
+- Comprehensive: Cover many topics in digital forensics
 - Free: All tools are open source
-- Upated: The project is funded by DOJ and will keep updating 
+- Updated: The project is funded by DOJ and will keep updating 
 ---
 
 ## Table of Contents  (updating)
@@ -19,16 +19,14 @@
   * [Investigating Email Harassment](#Investigating-Email-Harassment)
 - [Tools Used](#Tools-Used)
 
-
 ---
 ### Investigate NIST Data Leakage
 ==============
 
-The  case study is to investigate an image involving intellectual property theft. The study include 
+The case study is to investigate an image involving intellectual property theft. The study include 
 
-* A large and complex case study created by NIST. You can access the [Senario, DD/Encase images](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html). You can also find the [solutions](https://www.cfreds.nist.gov/data_leakage_case/leakage-answers.pdf) in their website. 
+* A large and complex case study created by NIST. You can access the [Senario, DD/Encase images](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html). You can also find the [solutions](https://www.cfreds.nist.gov/data_leakage_case/leakage-answers.pdf) on their website. 
 * 13 hands-on labs/topics in digital forensics
-
 
 **Topics Covered**
 
@@ -49,10 +47,10 @@ The  case study is to investigate an image involving intellectual property theft
 | Lab 12 | Crack Windows Passwords  | 2M|
 
 ---
-### Investigating Illegel Possesion of Images
+### Investigating Illegal Possession of Images
 =====================
 
-The case study is to investigate the illegel possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). The copy of the image is also available in the repository.
+The case study is to investigate the illegal possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). A copy of the image is also available in the repository.
 
 **Topics Covered**
 
@@ -61,10 +59,10 @@ The case study is to investigate the illegel possession of Rhino images. This im
 | Lab 0 | HTTP Analysis using Wireshark (text)  | 3M  |
 | Lab 1 | HTTP Analysis using Wireshark (image)  | 6M |
 | Lab 2 | The Sleuth Kid Tutorial  | 1M |
-| Lab 3 | Rhion Possesion Investigation 1: File recovering |9M |
-| Lab 4 | Rhion Possesion Investigation 2: Steganography | 4M|
-| Lab 5 | Rhion Possesion Investigation 3: Extract Evidence from FTP Traffic  |3M |
-| Lab 6 | Rhion Possesion Investigation 4: Extract Evidence from HTTP Traffic  |5M |
+| Lab 3 | Rhion Possession Investigation 1: File recovering |9M |
+| Lab 4 | Rhion Possession Investigation 2: Steganography | 4M|
+| Lab 5 | Rhion Possession Investigation 3: Extract Evidence from FTP Traffic  |3M |
+| Lab 6 | Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic  |5M |
 
 ### Investigating Email Harassment
 =========
@@ -78,7 +76,6 @@ The case study is to investigate the harassment email sent by a student to a fac
 | Lab 0 | Investigating Harassment Email using Wireshark  | 3M  |
 | Lab 1 | t-shark Forensic Introduction  | 2M |
 | Lab 2 | Investigating Harassment Email using t-shark  | 2M |
-
 
 ---
 ### Tools Used
@@ -104,9 +101,10 @@ The case study is to investigate the harassment email sent by a student to a fac
 * https://github.com/libyal/libvshadow
 * https://github.com/prolsen/recentfilecache-parser
 
-
 ## Contribution
 =============
 * Frank Xu
 * Malcolm Hayward 
 * Richard (Max) Wheeless
+
+
