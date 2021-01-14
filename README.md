@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="150">
 
-### Features of hands-on lab
+### Features of hands-on labs
 ===================
 - Hands-on Digital Forensics Labs: designed for Students and Faculty
 - Linux-based lab: All labs are purely based on Kali Linux
