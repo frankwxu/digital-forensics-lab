@@ -27,7 +27,7 @@ The  case study is to investigate an image involving intellectual property theft
 
 * A large and complex image created by [NIST](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html)
 * 13 hands-on labs/topics in digital forensics
-* Each lab has an PPT with lab screenshots
+* Each lab has a PPT with lab screenshots
 
 Topics Covered
 
@@ -41,7 +41,7 @@ Topics Covered
 | Lab 5 | File Change History and USN Journal  |2M |
 | Lab 6 | Network Evidence and shellbag |2M |
 | Lab 7 | Network Drive and Windows shellbag |5M |
-| Lab 8 | $MFT (Master File Table) Analysis |4M |
+| Lab 8 | Master File Table ($MFT) Analysis |4M |
 | Lab 9 | Windows Search History | 4M|
 | Lab 10 | Windows Volume Shadow Copy Analysis |6M |
 | Lab 11 | Data Carving |3M |
