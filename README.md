@@ -26,7 +26,7 @@
 
 The  case study is to investigate an image involving intellectual property theft. The study include 
 
-* A large and complex [image](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html) created by NIST
+* A large and complex case study created by NIST. You can access the [Senario, DD/Encase images](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html). You can also find the [solutions](https://www.cfreds.nist.gov/data_leakage_case/leakage-answers.pdf) in their website. 
 * 13 hands-on labs/topics in digital forensics
 
 
