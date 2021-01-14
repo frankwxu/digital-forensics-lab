@@ -14,14 +14,14 @@
 
 ## Table of Contents  (updating)
 - Case Study
-  * [Investigate NIST Data Leakage](#NIST-Data-Leakage)
-  * [Investigate Illegel Possesion of Images](#Illegel-Possesion-of-Images)
-  * [Investigate Email Harassment](#Email-Harassment)
+  * [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
+  * [Investigating Illegel Possesion of Images](#Investigating-Illegel-Possesion-of-Images)
+  * [Investigating Email Harassment](#Investigating-Email-Harassment)
 - [Tools Used](#Tools-Used)
 
 
 ---
-### NIST Data Leakage
+### Investigate NIST Data Leakage
 ==============
 
 The  case study is to investigate an image involving intellectual property theft. The study include 
@@ -49,7 +49,7 @@ The  case study is to investigate an image involving intellectual property theft
 | Lab 12 | Crack Windows Passwords  | 2M|
 
 ---
-### Illegel Possesion of Images
+### Investigating Illegel Possesion of Images
 =====================
 
 The case study is to investigate the illegel possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). The copy of the image is also available in the repository.
@@ -66,7 +66,7 @@ The case study is to investigate the illegel possession of Rhino images. This im
 | Lab 5 | Rhion Possesion Investigation 3: Extract Evidence from FTP Traffic  |3M |
 | Lab 6 | Rhion Possesion Investigation 4: Extract Evidence from HTTP Traffic  |5M |
 
-### Email Harassment
+### Investigating Email Harassment
 =========
 
 The case study is to investigate the harassment email sent by a student to a faculty member. The case is hosted by digitalcorpora.org. You can access the [senario description](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario) and [network traffic](http://downloads.digitalcorpora.org/corpora/scenarios/2008-nitroba/nitroba.pcap) from their website. The repository only provides lab instructions.   
