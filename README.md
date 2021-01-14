@@ -5,6 +5,7 @@
 ### Features of hands-on lab
 ===================
 - Hands-on Digital Forensics Labs: Designed for Students and Faculty
+- Each lab has a PPT with lab screenshots
 - Purely based on Linux: Using Kali Linux
 - Comprehansive: Cover many topics in digial forensics
 - Free: All tools are open source
@@ -13,9 +14,9 @@
 
 ## Table of Contents  (updating)
 - Case Study
-  * [NIST Data Leakage](#NIST-Data-Leakage)
-  * [Email Harassment](#Email-Harassment)
-  * [Illegel Image Possesion](#Illegel-Image-Possesion)
+  * [Investigate NIST Data Leakage](#NIST-Data-Leakage)
+  * [Investigate Email Harassment](#Email-Harassment)
+  * [Investigate Illegel Possesion of Images](#Illegel-Possesion-of-Images)
 - [Tools Used](#Tools-Used)
 
 
@@ -25,9 +26,9 @@
 
 The  case study is to investigate an image involving intellectual property theft. The study include 
 
-* A large and complex image created by [NIST](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html)
+* A large and complex [image](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html) created by NIST
 * 13 hands-on labs/topics in digital forensics
-* Each lab has a PPT with lab screenshots
+
 
 Topics Covered
 
