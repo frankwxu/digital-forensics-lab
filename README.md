@@ -5,7 +5,7 @@
 ### Features of hands-on labs
 ===================
 - Hands-on Digital Forensics Labs: designed for Students and Faculty
-- Linux-based lab: All labs are purely based on Kali Linux
+- Linux-based lab: All labs are purely based on [Kali Linux](https://www.kali.org/downloads/)
 - Lab screenshots: Each lab has a PPT with lab screenshots
 - Comprehensive: Cover many topics in digital forensics
 - Free: All tools are open source
