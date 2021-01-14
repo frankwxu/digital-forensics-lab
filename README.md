@@ -30,7 +30,7 @@ The  case study is to investigate an image involving intellectual property theft
 * 13 hands-on labs/topics in digital forensics
 
 
-Topics Covered
+**Topics Covered**
 
 | Labs | Topics Covered |Size of PPTs |
 | --- | ----------- |----------- |
@@ -54,7 +54,7 @@ Topics Covered
 
 The case study is to investigate the illegel possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). The copy of the image is also available in the repository.
 
-Topics Covered
+**Topics Covered**
 
 | Labs | Topics Covered |Size of PPTs |
 | --- | ----------- |----------- |
@@ -64,14 +64,14 @@ Topics Covered
 | Lab 3 | Rhion Possesion Investigation 1: File recovering |9M |
 | Lab 4 | Rhion Possesion Investigation 2: Steganography | 4M|
 | Lab 5 | Rhion Possesion Investigation 3: Extract Evidence from FTP Traffic  |3M |
-| Lab 6 | Rhion Possesion Investigation 3: Extract Evidence from HTTP Traffic  |5M |
+| Lab 6 | Rhion Possesion Investigation 4: Extract Evidence from HTTP Traffic  |5M |
 
 ### Email Harassment
 =========
 
 The case study is to investigate the harassment email sent by a student to a faculty member. The case is hosted by digitalcorpora.org. You can access the [senario description](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario) and [network traffic](http://downloads.digitalcorpora.org/corpora/scenarios/2008-nitroba/nitroba.pcap) from their website. The repository only provides lab instructions.   
 
-Topics Covered
+**Topics Covered**
 
 | Labs | Topics Covered |Size of PPTs |
 | --- | ----------- |----------- |
