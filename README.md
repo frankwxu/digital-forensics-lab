@@ -15,8 +15,8 @@
 ## Table of Contents  (updating)
 - Case Study
   * [Investigate NIST Data Leakage](#NIST-Data-Leakage)
-  * [Investigate Email Harassment](#Email-Harassment)
   * [Investigate Illegel Possesion of Images](#Illegel-Possesion-of-Images)
+  * [Investigate Email Harassment](#Email-Harassment)
 - [Tools Used](#Tools-Used)
 
 
