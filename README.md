@@ -69,7 +69,7 @@ Topics Covered
 ### Email Harassment
 =========
 
-The case study is to investigate the harassment email sent by a student to a faculty member. The case is hosted by https://digitalcorpora.org/. You can access the [senario description](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario) and [network traffic](http://downloads.digitalcorpora.org/corpora/scenarios/2008-nitroba/nitroba.pcap) from their website. The repository only provide lab instructions.   
+The case study is to investigate the harassment email sent by a student to a faculty member. The case is hosted by digitalcorpora.org. You can access the [senario description](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario) and [network traffic](http://downloads.digitalcorpora.org/corpora/scenarios/2008-nitroba/nitroba.pcap) from their website. The repository only provides lab instructions.   
 
 Topics Covered
 
@@ -78,7 +78,7 @@ Topics Covered
 | Lab 0 | Investigating Harassment Email using Wireshark  | 3M  |
 | Lab 1 | t-shark Forensic Introduction  | 2M |
 | Lab 2 | Investigating Harassment Email using t-shark  | 2M |
----
+
 
 ---
 ### Tools Used
