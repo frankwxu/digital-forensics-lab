@@ -48,11 +48,27 @@ Topics Covered
 | Lab 12 | Crack Windows Passwords  | 2M|
 
 ---
+### Illegel Possesion of Images
+============
+The case study is to investigate the illegel possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). The copy of the image is also available in the repository.
+
+Topics Covered
+
+| Labs | Topics Covered |Size of PPTs |
+| --- | ----------- |----------- |
+| Lab 0 | HTTP Analysis using Wireshark (text)  | 3M  |
+| Lab 1 | HTTP Analysis using Wireshark (image)  | 6M |
+| Lab 2 | The Sleuth Kid Tutorial  | 1M |
+| Lab 3 | Rhion Possesion Investigation 1: File recovering |9M |
+| Lab 4 | Rhion Possesion Investigation 2: Steganography | 4M|
+| Lab 5 | Rhion Possesion Investigation 3: Extract Evidence from FTP Traffic  |3M |
+| Lab 6 | Rhion Possesion Investigation 3: Extract Evidence from HTTP Traffic  |5M |
+
+
 ### Email Harassment
 =========
 ---
-### Illegel Image Possesion
-============
+
 ---
 ### Tools Used
 ========
