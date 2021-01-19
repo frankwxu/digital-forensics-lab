@@ -92,28 +92,28 @@ The case study is to investigate the harassment email sent by a student to a fac
 
 ========
 
-| Name                    | version    | vendor                                                          | Installation                   |
-| ----------------------- | ---------- | --------------------------------------------------------------- | ------------------------------ |
-| Wine                    | 6.0        | https://source.winehq.org/git/wine.git/                         |                                |
-| Vinetto                 | 0.98       | https://github.com/AtesComp/Vinetto                             |                                |
-| imgclip                 | 05.12.2017 | https://github.com/Arthelon/imgclip                             |                                |
-| Tree                    | 06.01.2020 | https://github.com/kddeisz/tree                                 | apt-get install tree           |
-| RegRipper               | 3.0        | https://github.com/keydet89/RegRipper3.0                        |                                |
-| Windows-Prefetch-Parser | 05.01.2016 | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  |                                |
-| python-evtx             | 05.21.2020 | https://github.com/williballenthin/python-evtx                  | apt-get install python3-evtx   |
-| xmlstarlet              | 1.6.1      | https://github.com/fishjam/xmlstarlet                           | apt-get install xmlstarlet     |
-| hivex                   | 09.15.2020 | https://github.com/libguestfs/hivex                             | apt-get install libhivex-bin   |
-| libesedb                | 01.01.2021 | https://github.com/libyal/libesedb                              | apt-get install libesedb-utils |
-| pasco-project           | 02.09.2017 | https://annsli.github.io/pasco-project/                         | apt-get install pasco          |
-| libpff                  | 01.17.2021 | https://github.com/libyal/libpff                                | apt-get install pff-tools      |
-| USN-Record-Carver       | 05.21.2017 | https://github.com/PoorBillionaire/USN-Record-Carver            | pip install usncarve           |
-| USN-Journal-Parser      | 1212.2018  | https://github.com/PoorBillionaire/USN-Journal-Parser           | pip install usnparser          |
-| JLECmd                  | 1.4.0.0    | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip |                                |
-| libnl-utils             | 3.2.27     | https://packages.ubuntu.com/xenial/libs/libnl-utils             | apt-get install libnl-utils    |
-| time_decode             | 12.13.2020 | https://github.com/digitalsleuth/time_decode                    | pip3 install time-decode       |
-| analyzeMFT              | 2.0.4      | https://github.com/dkovar/analyzeMFT                            | pip install analyzeMFT         |
-| libvshadow              | 12.20.2020 | https://github.com/libyal/libvshadow                            |                                |
-| recentfilecache-parser  | 02.13.2018 | https://github.com/prolsen/recentfilecache-parser               |                                |
+| Name                    | version    | vendor                                                          |
+| ----------------------- | ---------- | --------------------------------------------------------------- |
+| Wine                    | 6.0        | https://source.winehq.org/git/wine.git/                         |
+| Vinetto                 | 0.98       | https://github.com/AtesComp/Vinetto                             |
+| imgclip                 | 05.12.2017 | https://github.com/Arthelon/imgclip                             |
+| Tree                    | 06.01.2020 | https://github.com/kddeisz/tree                                 |
+| RegRipper               | 3.0        | https://github.com/keydet89/RegRipper3.0                        |
+| Windows-Prefetch-Parser | 05.01.2016 | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  |
+| python-evtx             | 05.21.2020 | https://github.com/williballenthin/python-evtx                  |
+| xmlstarlet              | 1.6.1      | https://github.com/fishjam/xmlstarlet                           |
+| hivex                   | 09.15.2020 | https://github.com/libguestfs/hivex                             |
+| libesedb                | 01.01.2021 | https://github.com/libyal/libesedb                              |
+| pasco-project           | 02.09.2017 | https://annsli.github.io/pasco-project/                         |
+| libpff                  | 01.17.2021 | https://github.com/libyal/libpff                                |
+| USN-Record-Carver       | 05.21.2017 | https://github.com/PoorBillionaire/USN-Record-Carver            |
+| USN-Journal-Parser      | 1212.2018  | https://github.com/PoorBillionaire/USN-Journal-Parser           |
+| JLECmd                  | 1.4.0.0    | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip |
+| libnl-utils             | 3.2.27     | https://packages.ubuntu.com/xenial/libs/libnl-utils             |
+| time_decode             | 12.13.2020 | https://github.com/digitalsleuth/time_decode                    |
+| analyzeMFT              | 2.0.4      | https://github.com/dkovar/analyzeMFT                            |
+| libvshadow              | 12.20.2020 | https://github.com/libyal/libvshadow                            |
+| recentfilecache-parser  | 02.13.2018 | https://github.com/prolsen/recentfilecache-parser               |
 
 ## Contribution
 
