@@ -17,16 +17,3 @@
 | insider-disgruntled-harassing        |                                                                                       |
 | illegal-possessor                    | An individual that owns, produces, distributes illegal information and device         |
 | online- predators                    | An individual that makes sexual advances to minors.                                   |
-
-============
-
-```
-{
-"external_references": [
-    {
-      "source_name": "threat-actor-type",
-      "external_id": "CAPEC-550"
-    }
-]
-}
-```
