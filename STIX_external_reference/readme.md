@@ -59,3 +59,8 @@
   "Computer": "DC01.contoso.local"
 }
 ```
+
+references:
+
+- https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4608
+- [Event Logging Structures](https://docs.microsoft.com/en-us/windows/win32/eventlog/event-logging-structures?redirectedfrom=MSDN)
