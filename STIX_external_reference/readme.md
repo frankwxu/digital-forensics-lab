@@ -1,6 +1,6 @@
 # Cyber-observable Objects for Digital Forensics
 
-The goal of the project is to create a list of customized STIX™ Cyber-observable Objects for facilitating digital forensic investigations. We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is:
+The goal of the project is to create a list of customized STIX™ Cyber-observable Objects for facilitating digital forensic investigations. We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type:
 
 - The value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
 
@@ -8,31 +8,11 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 
 ## Table of Contents (updating)
 
-- Case Study
-  - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
-  - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images)
-  - [Investigating Email Harassment](#Investigating-Email-Harassment)
-- [Tools Used](#Tools-Used)
-
-## threat-actor-type-ov external reference
-
-| Vocabulary Value                     | Description                                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------------------- |
-| criminal-intellectual-property-theft | An individual that intentionally deprives someone of his or her intellectual property |
-| criminal-ransomware                  |                                                                                       |
-| criminal-business-email-compromise   |                                                                                       |
-| criminal-identity-theft              |                                                                                       |
-| criminal-spoofing-and-phishing       |                                                                                       |
-| criminal-memory-laundry              |                                                                                       |
-| insider-disgruntled-sabotage         |                                                                                       |
-| insider-disgruntled-violence         |                                                                                       |
-| insider-disgruntled-theft            |                                                                                       |
-| insider-disgruntled-fraud            |                                                                                       |
-| insider-disgruntled-espionage        |                                                                                       |
-| insider-disgruntled-embarrassing     |                                                                                       |
-| insider-disgruntled-harassing        |                                                                                       |
-| illegal-possessor                    | An individual that owns, produces, distributes illegal information and device.        |
-| online- predators                    | An individual that makes sexual advances to minors.                                   |
+- SCOs for digital forensics
+  - [Windows Event Object](#Windows-Event-Object)
+  - [Browser History Event Object](#Browser-History-Event-Object)
+- Other extension
+  - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
 
 ## Windows Event Object
 
@@ -146,6 +126,26 @@ Vocabulary Name: browser-name-ov
 | 360-secure      | 360 Secure Browser             |
 | tor             |                                |
 | other           |                                |
+
+## threat-actor-type-ov external reference
+
+| Vocabulary Value                     | Description                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------------------- |
+| criminal-intellectual-property-theft | An individual that intentionally deprives someone of his or her intellectual property |
+| criminal-ransomware                  |                                                                                       |
+| criminal-business-email-compromise   |                                                                                       |
+| criminal-identity-theft              |                                                                                       |
+| criminal-spoofing-and-phishing       |                                                                                       |
+| criminal-memory-laundry              |                                                                                       |
+| insider-disgruntled-sabotage         |                                                                                       |
+| insider-disgruntled-violence         |                                                                                       |
+| insider-disgruntled-theft            |                                                                                       |
+| insider-disgruntled-fraud            |                                                                                       |
+| insider-disgruntled-espionage        |                                                                                       |
+| insider-disgruntled-embarrassing     |                                                                                       |
+| insider-disgruntled-harassing        |                                                                                       |
+| illegal-possessor                    | An individual that owns, produces, distributes illegal information and device.        |
+| online- predators                    | An individual that makes sexual advances to minors.                                   |
 
 # references:
 
