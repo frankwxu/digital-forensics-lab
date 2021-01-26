@@ -137,15 +137,15 @@ The Windows Kernel-Mode Plug (pnp) and Play Manager SDO represents an event reco
 
 The completed log properties can be access [Microsoft office docs- Format of a text log section body](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body)
 
-| Property Name             | Type       | Description                                                                                                                   |
-| ------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| type (required)           | string     | The value of this property MUST be x-pnp-evt.                                                                                 |
-| id (required)             | identifier | The ID of a browser history record.                                                                                           |
-| entry_prefix              | enum       | The values of this property MUST come from the message-type-ov enumeration.                                                   |
-| time_stamp                | timestamp  | Indicates the system time when the logged event occurred.                                                                     |
-| event_category            | string     | Indicates the category of SetupAPI operation that made the log entry. MUST be one of predefined Event_category field strings. |
-| formatted_message         | string     | Contains the specific information that applies to the log entry.                                                              |
-| belongs_to_ref (required) | identifier | The relation describes that event is a part of file or artifact (e.g., cache, memory), e.g., steupAPI.log                     |
+| Property Name             | Type       | Description                                                                                                                                                |
+| ------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required)           | string     | The value of this property MUST be x-pnp-evt.                                                                                                              |
+| id (required)             | identifier | The ID of a browser history record.                                                                                                                        |
+| entry_prefix              | enum       | The values of this property MUST come from the message-type-ov enumeration.                                                                                |
+| time_stamp                | timestamp  | Indicates the system time when the logged event occurred.                                                                                                  |
+| event_category            | string     | Indicates the category of SetupAPI operation that made the log entry. MUST be one of predefined Event_category operation strings, e.g.device installation. |
+| formatted_message         | string     | Contains the specific information that applies to the log entry.                                                                                           |
+| belongs_to_ref (required) | identifier | The relation describes that event is a part of file or artifact (e.g., cache, memory), e.g., steupAPI.log                                                  |
 
 ### Message Type Vocabulary
 
@@ -155,7 +155,20 @@ Vocabulary Name: message-type-ov
 | --------------- | -------------------------------------------------------------------- |
 | error           | An Error message                                                     |
 | warning         | An warning message                                                   |
-| other           | Information message other than an error message or a warning message |
+| other-info      | Information message other than an error message or a warning message |
+
+```json
+{
+  "type": "x-pnp-evt",
+  "spec_version": "2.1",
+  "id": "x-pnp-evt--58959aae-d1e0-4e12-a879-270efe33c6e3",
+  "entry_prefix": "other-info",
+  "time_stamp": "2021-01-06T20:03:22.000Z",
+  "event_category": "device installation",
+  "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
+  "belongs_to_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
+}
+```
 
 ---
 
