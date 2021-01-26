@@ -11,6 +11,7 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 - SCOs for digital forensics
   - [Windows Event Object](#Windows-Event-Object)
   - [Browser History Event Object](#Browser-History-Event-Object)
+  - [Plug and Play (PnP) Event Object](<#Plug-and-Play-(PnP)-Event-Object>)
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
 
@@ -127,7 +128,7 @@ Vocabulary Name: browser-name-ov
 | tor             |                                |
 | other           |                                |
 
-### Plug and Play (PnP) Event Object
+## Plug and Play (PnP) Event Object
 
 **Type Name:** x-pnp-evt
 
