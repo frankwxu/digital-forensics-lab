@@ -52,6 +52,8 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 | forwarded-events |             |
 
 ```json
+
+### Examples
 {
   "type": "x-windows-evt",
   "spec_version": "2.1",
@@ -93,6 +95,8 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 | ------ | ----------------- | ------ | ----------- |
 
 ```json
+
+### Examples
 {
   "type": "x-browser-history-evt",
   "spec_version": "2.1",
@@ -159,6 +163,8 @@ Vocabulary Name: message-type-ov
 | other-info      | Information message other than an error message or a warning message |
 
 ```json
+
+### Examples
 {
   "type": "x-pnp-evt",
   "spec_version": "2.1",
