@@ -127,6 +127,36 @@ Vocabulary Name: browser-name-ov
 | tor             |                                |
 | other           |                                |
 
+### Plug and Play (PnP) Event Object
+
+**Type Name:** x-pnp-evt
+
+The Windows Kernel-Mode Plug (pnp) and Play Manager SDO represents an event recorded by Plug and Play Manager. PnP is a combination of hardware technology and software techniques that enables a PC to recognize when a device is added to the system. With PnP, the system configuration can change with little or no input from the user.
+
+### Properties
+
+The completed log properties can be access [Microsoft office docs- Format of a text log section body](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body)
+
+| Property Name             | Type       | Description                                                                                                                   |
+| ------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| type (required)           | string     | The value of this property MUST be x-pnp-evt.                                                                                 |
+| id (required)             | identifier | The ID of a browser history record.                                                                                           |
+| entry_prefix              | enum       | The values of this property MUST come from the message-type-ov enumeration.                                                   |
+| time_stamp                | timestamp  | Indicates the system time when the logged event occurred.                                                                     |
+| event_category            | string     | Indicates the category of SetupAPI operation that made the log entry. MUST be one of predefined Event_category field strings. |
+| formatted_message         | string     | Contains the specific information that applies to the log entry.                                                              |
+| belongs_to_ref (required) | identifier | The relation describes that event is a part of file or artifact (e.g., cache, memory), e.g., steupAPI.log                     |
+
+### Message Type Vocabulary
+
+Vocabulary Name: message-type-ov
+
+| ocabulary Value | Description                                                          |
+| --------------- | -------------------------------------------------------------------- |
+| error           | An Error message                                                     |
+| warning         | An warning message                                                   |
+| other           | Information message other than an error message or a warning message |
+
 ---
 
 ## threat-actor-type-ov external reference
@@ -156,3 +186,4 @@ Vocabulary Name: browser-name-ov
 - https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc
 - https://github.com/williballenthin/python-evtx
 - https://www.loggly.com/ultimate-guide/windows-logging-basics/#:~:text=The%20Windows%20event%20log%20contains,For%20example%2C%20IIS%20Access%20Logs.
+- https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body
