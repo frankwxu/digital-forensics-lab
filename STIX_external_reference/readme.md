@@ -18,7 +18,7 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 
 **Type Name:** x-windows-evt
 
-## Properties
+### Properties
 
 | Property Name             | Type       | Description                                                                            |
 | ------------------------- | ---------- | -------------------------------------------------------------------------------------- |
@@ -33,12 +33,12 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 | user_account_ref          | identifier | The user account that is associated with the evewnt.                                   |
 | belongs_to_ref (required) | identity   | The relation describes that event is a part of file or artifact (e.g., cache, memory). |
 
-## Relationships
+### Relationships
 
 | Source | Relationship Type | Target | Description |
 | ------ | ----------------- | ------ | ----------- |
 
-## Log Name Enumeration
+### Log Name Enumeration
 
 **Enumeration Name:** log-name-enum
 
@@ -70,7 +70,7 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 
 **Type Name:** x-browser-history-evt
 
-## Properties
+### Properties
 
 | Property Name             | Type       | Description                                                                            |
 | ------------------------- | ---------- | -------------------------------------------------------------------------------------- |
@@ -86,7 +86,7 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 | user_account_ref          | identifier | The user account that is associated with record.                                       |
 | belongs_to_ref (required) | identifier | The relation describes that event is a part of file or artifact (e.g., cache, memory). |
 
-## Relationships
+### Relationships
 
 | Source | Relationship Type | Target | Description |
 | ------ | ----------------- | ------ | ----------- |
@@ -108,7 +108,7 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 }
 ```
 
-## Browser Name Open Vocabulary
+### Browser Name Open Vocabulary
 
 Vocabulary Name: browser-name-ov
 
@@ -126,6 +126,8 @@ Vocabulary Name: browser-name-ov
 | 360-secure      | 360 Secure Browser             |
 | tor             |                                |
 | other           |                                |
+
+---
 
 ## threat-actor-type-ov external reference
 
