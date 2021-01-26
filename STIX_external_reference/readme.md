@@ -1,8 +1,8 @@
 # Cyber-observable Objects for Digital Forensics
 
-## The goal of the project is to create a list of customized STIX™ Cyber-observable Objects for facilitating digital forensic investigations. We follow the STIX specification for [customizing objects] (https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is:
+### The goal of the project is to create a list of customized STIX™ Cyber-observable Objects for facilitating digital forensic investigations. We follow the STIX specification for [customizing objects] (https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is:
 
-- The value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), <br>a hyphen and then the name. For example, x-example-com-customobject.
+- The value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
 
 ---
 
