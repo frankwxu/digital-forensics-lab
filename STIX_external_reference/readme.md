@@ -12,8 +12,9 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
   - [Windows Event Object](#Windows-Event-Object)
   - [Browser History Event Object](#Browser-History-Event-Object)
   - [Plug and Play (PnP) Event Object](<#Plug-and-Play-(PnP)-Event-Object>)
-  - [Shimcache Event Object](#Shimcache-Event-Object)
   - [Recent File Cache Event Object](#-Recent-FileCache-Event-Object)
+- Property Extension for Windows™ Registry Key Object
+  - [Shimcache Event Object](#Shimcache-Event-Object)
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
 
@@ -179,40 +180,6 @@ Vocabulary Name: message-type-ov
 }
 ```
 
-## Shimcache Event Object
-
-**Type Name:** x-shimcache-evt
-
-Shimcache is created to identify application compatibility issues. Two actions/events that can cause the Shimcache to record an entry:
-(1) A file is executed and (2) A user interactively browses a directory.
-
-### Properties
-
-| Property Name           | Type       | Description                                                                                  |
-| ----------------------- | ---------- | -------------------------------------------------------------------------------------------- |
-| type (required)         | string     | The value of this property MUST be x-shimcache-evt.                                          |
-| id (required)           | identifier | The ID of a Shimcache Event Object.                                                          |
-| last_modified_time      | tiemstamp  |                                                                                              |
-| last_updated_time       | tiemstamp  |                                                                                              |
-| execution_flag          | string     | A process execution flag. It is set during process creation/execution.                       |
-| file_ref                | identifier | The relation describes that event is associated with compatibility issues of an application. |
-| registry_ref (required) | identifier | It MUST be one of windows-registry-key with key contans AppCompatCache                       |
-
-### Examples
-
-```json
-{
-  "type": "x-shimcache-evt",
-  "spec_version": "2.1",
-  "id": "x-shimcache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
-  "last_modified_time": "2021-01-06T20:03:22.000Z",
-  "event_category": "device installation",
-  "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
-  "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
-  "belongs_to_ref": "windows-registry-key--176353bd-b61d-4944-b0cd-0b98783c50b5"
-}
-```
-
 ## Recent File Cache Event Object
 
 **Type Name:** x-recent-file-cache-evt
@@ -239,6 +206,40 @@ The object contains a reference to a program that recently executed.
   "execution_time ": "2021-01-06T20:03:22.000Z",
   "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
   "belongs_to_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
+}
+```
+
+## Shimcache Event Object
+
+**Type Name:** x-shimcache-evt
+
+Shimcache is created to identify application compatibility issues. Two actions/events that can cause the Shimcache to record an entry:
+(1) A file is executed and (2) A user interactively browses a directory.
+
+### Properties
+
+| Property Name           | Type       | Description                                                                                  |
+| ----------------------- | ---------- | -------------------------------------------------------------------------------------------- |
+| type (required)         | string     | The value of this property MUST be x-shimcache-evt.                                          |
+| id (required)           | identifier | The ID of a Shimcache Event Object.                                                          |
+| last_modified_time      | tiemstamp  |                                                                                              |
+| last_updated_time       | tiemstamp  |                                                                                              |
+| execution_flag          | string     | A process execution flag. It is set during process creation/execution.                       |
+| file_ref                | identifier | The relation describes that event is associated with compatibility issues of an application. |
+| registry_ref (required) | identifier | The type MUST be windows-registry-key with the key contains AppCompatCache                   |
+
+### Examples
+
+```json
+{
+  "type": "x-shimcache-evt",
+  "spec_version": "2.1",
+  "id": "x-shimcache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
+  "last_modified_time": "2021-01-06T20:03:22.000Z",
+  "event_category": "device installation",
+  "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
+  "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
+  "belongs_to_ref": "windows-registry-key--176353bd-b61d-4944-b0cd-0b98783c50b5"
 }
 ```
 
