@@ -1,8 +1,31 @@
 # Cyber-observable Objects for Digital Forensics
 
-The goal of the project is to create a list of customized STIX™ Cyber-observable Objects for facilitating digital forensic investigations. We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type:
+The goal of the project is to customize STIX™ for facilitating the sharing of Cyber Forensic Intelligence as well as building the foundations for automated digital forensic investigations. The extension includes:
 
-- The value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
+- create a list of customized STIX™ Cyber-observable Objects. We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is that the value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
+- Property extension for Windows™ Registry Key Object. We focus on extending the data property of registry value as the data may contain rich information that needs to be organized and formalized as digital evidence. The pattern of the extension is shown below. Note that **x_data:[]** is the extended property that contains formalized information of data.
+
+```json
+{
+  "type": "windows-registry-key",
+  "spec_version": "2.1",
+  "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+  "key": "hkey_local_machine\\system\\bar\\foo",
+  "values": [
+    {
+      "name": "Foo",
+      "data": "x_data",
+      "data_type": "REG_BINARY"
+    }
+  ],
+  "x_data": [
+    {
+      "type": "x-extended-type",
+      "id": "x-extended-type--83aee86d-1523-4111-938e-8edc8a6c804f"
+    }
+  ]
+}
+```
 
 ---
 
@@ -232,14 +255,29 @@ Shimcache is created to identify application compatibility issues. Two actions/e
 
 ```json
 {
-  "type": "x-shimcache-evt",
+  "type": "windows-registry-key",
   "spec_version": "2.1",
-  "id": "x-shimcache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
-  "last_modified_time": "2021-01-06T20:03:22.000Z",
-  "event_category": "device installation",
-  "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
-  "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
-  "belongs_to_ref": "windows-registry-key--176353bd-b61d-4944-b0cd-0b98783c50b5"
+  "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+  "key": "hkey_local_machine\\system\\bar\\foo",
+  "values": [
+    {
+      "name": "Foo",
+      "data": "x_data",
+      "data_type": "REG_BINARY"
+    }
+  ],
+  "x_data": [
+    {
+      "type": "x-shimcache-evt",
+      "spec_version": "2.1",
+      "id": "x-shimcache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
+      "last_modified_time": "2021-01-06T20:03:22.000Z",
+      "event_category": "device installation",
+      "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
+      "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
+      "belongs_to_ref": "windows-registry-key--176353bd-b61d-4944-b0cd-0b98783c50b5"
+    }
+  ]
 }
 ```
 
