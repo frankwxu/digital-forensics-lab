@@ -3,7 +3,7 @@
 The goal of the project is to customize STIX™ for facilitating the sharing of Cyber Forensic Intelligence as well as building the foundations for automated digital forensic investigations. The extension includes:
 
 - create a list of customized STIX™ Cyber-observable Objects. We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is that the value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
-- property extension for Windows™ Registry Key Object. We focus on extending the data property of registry value as the data may contain rich information that needs to be organized and formalized as digital evidence. The pattern of the extension is shown below. Note that **x_data** is assigned to **"data"** (e.g., **"data": "x_data"**) and **x_data:[]** is the extended property that contains formalized information of data.
+- property extension for Windows™ Registry Key Object. We focus on extending the data property of registry value as the data may contain rich information that needs to be organized and formalized as digital evidence. The pattern of the extension is shown below. Note that the string **"x_data"** is assigned to **"data"** (e.g., **"data": "x_data"**) as a place holder and **x_data:[]** is the extended property that contains formalized information of data.
 
 ```json
 {
