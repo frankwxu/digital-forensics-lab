@@ -12,6 +12,8 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
   - [Windows Event Object](#Windows-Event-Object)
   - [Browser History Event Object](#Browser-History-Event-Object)
   - [Plug and Play (PnP) Event Object](<#Plug-and-Play-(PnP)-Event-Object>)
+  - [Shimcache Event Object](#Shimcache-Event-Object)
+  - [Recent File Cache Event Object](#-Recent-FileCache-Event-Object)
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
 
@@ -78,7 +80,7 @@ The goal of the project is to create a list of customized STIX™ Cyber-observab
 | Property Name             | Type       | Description                                                                            |
 | ------------------------- | ---------- | -------------------------------------------------------------------------------------- |
 | type (required)           | string     | The value of this property MUST be browser-history.                                    |
-| id (required)             | identifier | The ID of a browser history record.                                                    |
+| id (required)             | identifier | The ID of a browser history event object.                                              |
 | url                       | string     |                                                                                        |
 | title                     | string     | The title of a web page has been visited.                                              |
 | visit_time                | timestamp  | The last time visited.                                                                 |
@@ -145,7 +147,7 @@ The completed log properties can be access [Microsoft office docs- Format of a t
 | Property Name             | Type       | Description                                                                                                                                                |
 | ------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | type (required)           | string     | The value of this property MUST be x-pnp-evt.                                                                                                              |
-| id (required)             | identifier | The ID of a browser history record.                                                                                                                        |
+| id (required)             | identifier | The ID of a Plug and Play (PnP) Event object.                                                                                                              |
 | entry_prefix              | enum       | The values of this property MUST come from the message-type-ov enumeration.                                                                                |
 | time_stamp                | timestamp  | Indicates the system time when the logged event occurred.                                                                                                  |
 | event_category            | string     | Indicates the category of SetupAPI operation that made the log entry. MUST be one of predefined Event_category operation strings, e.g.device installation. |
@@ -173,6 +175,69 @@ Vocabulary Name: message-type-ov
   "time_stamp": "2021-01-06T20:03:22.000Z",
   "event_category": "device installation",
   "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
+  "belongs_to_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
+}
+```
+
+## Shimcache Event Object
+
+**Type Name:** x-shimcache-evt
+
+Shimcache is created to identify application compatibility issues. Two actions/events that can cause the Shimcache to record an entry:
+(1) A file is executed and (2) A user interactively browses a directory.
+
+### Properties
+
+| Property Name           | Type       | Description                                                                                  |
+| ----------------------- | ---------- | -------------------------------------------------------------------------------------------- |
+| type (required)         | string     | The value of this property MUST be x-shimcache-evt.                                          |
+| id (required)           | identifier | The ID of a Shimcache Event Object.                                                          |
+| last_modified_time      | tiemstamp  |                                                                                              |
+| last_updated_time       | tiemstamp  |                                                                                              |
+| execution_flag          | string     | A process execution flag. It is set during process creation/execution.                       |
+| file_ref                | identifier | The relation describes that event is associated with compatibility issues of an application. |
+| registry_ref (required) | identifier | It MUST be one of windows-registry-key with key contans AppCompatCache                       |
+
+### Examples
+
+```json
+{
+  "type": "x-shimcache-evt",
+  "spec_version": "2.1",
+  "id": "x-shimcache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
+  "last_modified_time": "2021-01-06T20:03:22.000Z",
+  "event_category": "device installation",
+  "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
+  "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
+  "belongs_to_ref": "windows-registry-key--176353bd-b61d-4944-b0cd-0b98783c50b5"
+}
+```
+
+## Recent File Cache Event Object
+
+**Type Name:** x-recent-file-cache-evt
+
+The object contains a reference to a program that recently executed.
+
+### Properties
+
+| Property Name             | Type       | Description                                                                                    |
+| ------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
+| type (required)           | string     | The value of this property MUST be x-recent-file-cache-evt.                                    |
+| id (required)             | identifier | The ID of a Recent File Cache Event Object.                                                    |
+| execution_time            | tiemstamp  |                                                                                                |
+| file_ref (required)       | identifier | The relation references the file that is recently executed.                                    |
+| belongs_to_ref (required) | identifier | The relation describes that event is a part of file (e.g., RecentFileCache.bcf or Amcache.hve) |
+
+### Examples
+
+```json
+{
+  "type": "x-recent-file-cache-evt",
+  "spec_version": "2.1",
+  "id": "x-recent-file-cache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
+  "execution_time ": "2021-01-06T20:03:22.000Z",
+  "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
   "belongs_to_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
 }
 ```
