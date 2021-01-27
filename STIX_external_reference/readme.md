@@ -258,7 +258,7 @@ Shimcache is created to identify application compatibility issues. Two actions/e
   "type": "windows-registry-key",
   "spec_version": "2.1",
   "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
-  "key": "hkey_local_machine\\system\\bar\\foo",
+  "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\AppCompatCache\\",
   "values": [
     {
       "name": "Foo",
