@@ -38,7 +38,8 @@ The goal of the project is to customize STIX™ for facilitating the sharing of 
   - [File Visit Event Object](#File-Visit-Event-Object)
     - [Example 1: RecentFileCache](#example-1)
     - [Example 2: Shimcache](#example-2)
-    - [Example 3: UserAssist](#example-2)
+    - [Example 3: UserAssist](#example-3)
+    - [Example 4: Prefetch](#example-4)
 - Property Extension for Windows™ Registry Key Object
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
@@ -252,6 +253,7 @@ Vocabulary Name: file-visit-event-common-name-ov
 | user-assist       | On a Windows System, every GUI-based programs launched from the desktop are tracked in this registry key |
 | shim-cache        | Shimcache is created to identify application compatibility issues.                                       |
 | recent-file-cache | RecentFileCache.bcf only containes references to programs that recently executed.                        |
+| prefetch          |                                                                                                          |
 
 ### Example 1
 
@@ -333,7 +335,7 @@ An example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001
     "type": "x-file-visit-evt",
     "spec_version": "2.1",
     "id": "x-file-visit-evt--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
-    "visit_type": "executed",
+    "visit_type": "execution",
     "visit_time ": "2021-01-06T20:03:22.000Z",
     "visit_file_ref": "file--674f8200-b56a-473b-9b1d-32a911ac5387",
     "common_name": "user-assist",
@@ -352,6 +354,38 @@ An example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001
     "spec_version": "2.1",
     "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "key": "HKEY_USERS\\S-1-5-21-394942887-4226445097-2438273937-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserAssist"
+  }
+]
+```
+
+### Example 4
+
+Prefetch preloads most frequently used software into memory. The example shows the chrome.exe-999b1ba.pf contains chrome.exe-999b1ba.exe, the time when the exe file is executed, last time executed, and how many times it was exeucted.
+
+```json
+[
+  {
+    "type": "x-file-visit-evt",
+    "spec_version": "2.1",
+    "id": "x-file-visit-evt--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
+    "visit_type": "execution",
+    "visit_time ": "2021-01-06T20:03:22.000Z",
+    "count": 71,
+    "visit_file_ref": "file--674f8200-b56a-473b-9b1d-32a911ac5387",
+    "common_name": "prefetch",
+    "belongs_to_ref": "file--2ba37ae7-2745-5082-9dfd-9486dad41016"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--150c4200-02c6-475d-ac44-2d4e65de9f36",
+    "name": "chrome.exe-999b1ba.exe "
+  },
+  {
+    "type": "windows-registry-key",
+    "spec_version": "2.1",
+    "id": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "name": "chrome.exe-999b1ba.pf "
   }
 ]
 ```
