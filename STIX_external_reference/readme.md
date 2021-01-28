@@ -35,9 +35,11 @@ The goal of the project is to customize STIX™ for facilitating the sharing of 
   - [Windows Event Object](#Windows-Event-Object)
   - [Browser History Event Object](#Browser-History-Event-Object)
   - [Plug and Play (PnP) Event Object](<#Plug-and-Play-(PnP)-Event-Object>)
-  - [Recent File Cache Event Object](#-Recent-FileCache-Event-Object)
+  - [File Visit Event Object](#File-Visit-Event-Object)
+    - [Example 1: RecentFileCache](#example-1)
+    - [Example 2: Shimcache](#example-2)
+    - [Example 3: UserAssist](#example-2)
 - Property Extension for Windows™ Registry Key Object
-  - [Shimcache Event Object](#Shimcache-Event-Object)
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
 
@@ -203,82 +205,155 @@ Vocabulary Name: message-type-ov
 }
 ```
 
-## Recent File Cache Event Object
+## File Visit Event Object
 
-**Type Name:** x-recent-file-cache-evt
+**Type Name:** x-file-visit-evt
 
-The object contains a reference to a program that recently executed.
+The File Visit Event object represents properties associasted with when a file is visited by an operating system, including when a file is read, modified, executed, preloaded. The event may be saved in different forms, e.g., file, cache, Windows registry, etc. If the event is saved in registry, it MUST saved in the data field of a registry values.
 
 ### Properties
 
-| Property Name             | Type       | Description                                                                                    |
-| ------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
-| type (required)           | string     | The value of this property MUST be x-recent-file-cache-evt.                                    |
-| id (required)             | identifier | The ID of a Recent File Cache Event Object.                                                    |
-| execution_time            | tiemstamp  |                                                                                                |
-| file_ref (required)       | identifier | The relation references the file that is recently executed.                                    |
-| belongs_to_ref (required) | identifier | The relation describes that event is a part of file (e.g., RecentFileCache.bcf or Amcache.hve) |
+| Property Name             | Type       | Description                                                                                                                                            |
+| ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| type (required)           | string     | The value of this property MUST be x-file-visit-evt.                                                                                                   |
+| id (required)             | identifier | The ID of a File Visit Event object.                                                                                                                   |
+| visit_type                | enum       | Specifies the visit options defined for the visit. The values of this property MUST come from the file-visit-type-enum enumeration.                    |
+| visit_time                | timestamp  | Specifies the time a file was visited.                                                                                                                 |
+| visit_file_guid           | string     | The GUID of an application, e.g., {A3D53349-6E61-4557-8FC7-0028EDCEEBF6}} is Windows 8.                                                                |
+| count                     | integer    | The total number of times the program has visited.                                                                                                     |
+| visit_file_ref (required) | identifier | The relation references the file that is recently visited.                                                                                             |
+| common_name               | string     | Specifies the common name of source artifacts where the event is retrived from. It MUST come from the file-visit-event-common-name-ov open vocabulary. |
+| belongs_to_ref (required) | identifier | The relation describes that event is a part of file (e.g., RecentFileCache.bcf or Amcache.hve), registry, or artifact.                                 |
 
-### Examples
+### File Visit Type Enum
+
+Vocabulary Name: file-visit-type-enum
+
+| Vocabulary Value | Description                                                          |
+| ---------------- | -------------------------------------------------------------------- |
+| creation         | A file was visited for creation.                                     |
+| reading          | A file was visited for reading.                                      |
+| modification     | A file was was visited for modification (content is to be modified). |
+| updating         | The meta data of a file was visited for changing (e.g. permissions)  |
+| execution        | A file was visited for execution.                                    |
+| deletion         | A file was visited for deletion.                                     |
+| preloadomg       | A file was visited for preloading to memory.                         |
+| prefetching      | A file was visited for prefetching to memory.                        |
+| loading          | A file was visited for loading to memory.                            |
+| unloadeding      | A file was visited for unloadig from memory.                         |
+| unknown          |                                                                      |
+
+### File Visit Event Common Name Vocabulary
+
+Vocabulary Name: file-visit-event-common-name-ov
+
+| Vocabulary Value  | Description                                                                                              |
+| ----------------- | -------------------------------------------------------------------------------------------------------- |
+| user-assist       | On a Windows System, every GUI-based programs launched from the desktop are tracked in this registry key |
+| shim-cache        | Shimcache is created to identify application compatibility issues.                                       |
+| recent-file-cache | RecentFileCache.bcf only containes references to programs that recently executed.                        |
+
+### Example 1
+
+RecentFileCache.bcf only containes references to programs that recently executed. setuputility.exe is recently executed.
 
 ```json
-{
-  "type": "x-recent-file-cache-evt",
-  "spec_version": "2.1",
-  "id": "x-recent-file-cache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
-  "execution_time ": "2021-01-06T20:03:22.000Z",
-  "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
-  "belongs_to_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
-}
+[
+  {
+    "type": "x-file-visit-evt",
+    "spec_version": "2.1",
+    "id": "x-file-visit-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
+    "visit_type": "execution",
+    "visit_time ": "2021-01-06T20:03:22.000Z",
+    "visit_file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
+    "common_name": "recent-file-cache",
+    "belongs_to_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
+    "size": 25536,
+    "name": "setuputility.exe "
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--176353bd-b61d-4944-b0cd-0b98783c50b5",
+    "hashes": {
+      "SHA-256": "fe90a7e910cb3a4739bed9180e807e93fa70c90f25a8915476f5e4bfbac681db"
+    },
+    "size": 51164,
+    "name": "RecentFileCache.bcf"
+  }
+]
 ```
 
-## Shimcache Event Object
-
-**Type Name:** x-shimcache-evt
+### Example 2
 
 Shimcache is created to identify application compatibility issues. Two actions/events that can cause the Shimcache to record an entry:
 (1) A file is executed and (2) A user interactively browses a directory.
 
-### Properties
+```json
+[
+  {
+    "type": "x-file-visit-evt",
+    "spec_version": "2.1",
+    "id": "x-file-visit-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
+    "visit_type": "executed",
+    "visit_time ": "2021-01-06T20:03:22.000Z",
+    "visit_file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
+    "common_name": "shim-cache",
+    "belongs_to_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--150c4200-02c6-475d-ac44-2d4e65de9f36",
+    "size": 5536,
+    "name": "twext.dll "
+  },
+  {
+    "type": "windows-registry-key",
+    "spec_version": "2.1",
+    "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\AppCompatCache\\"
+  }
+]
+```
 
-| Property Name           | Type       | Description                                                                                  |
-| ----------------------- | ---------- | -------------------------------------------------------------------------------------------- |
-| type (required)         | string     | The value of this property MUST be x-shimcache-evt.                                          |
-| id (required)           | identifier | The ID of a Shimcache Event Object.                                                          |
-| last_modified_time      | tiemstamp  |                                                                                              |
-| last_updated_time       | tiemstamp  |                                                                                              |
-| execution_flag          | string     | A process execution flag. It is set during process creation/execution.                       |
-| file_ref                | identifier | The relation describes that event is associated with compatibility issues of an application. |
-| registry_ref (required) | identifier | The type MUST be windows-registry-key with the key contains AppCompatCache                   |
+### Example 3
 
-### Examples
+Windows System, every GUI-based programs launched from the desktop are tracked in this registry key HKEY_USERS\{SID}\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist.
+An example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001.
 
 ```json
-{
-  "type": "windows-registry-key",
-  "spec_version": "2.1",
-  "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
-  "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\AppCompatCache\\",
-  "values": [
-    {
-      "name": "Foo",
-      "data": "x_data",
-      "data_type": "REG_BINARY"
-    }
-  ],
-  "x_data": [
-    {
-      "type": "x-shimcache-evt",
-      "spec_version": "2.1",
-      "id": "x-shimcache-evt--83aee86d-1523-4111-938e-8edc8a6c804f",
-      "last_modified_time": "2021-01-06T20:03:22.000Z",
-      "event_category": "device installation",
-      "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
-      "file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
-      "belongs_to_ref": "windows-registry-key--176353bd-b61d-4944-b0cd-0b98783c50b5"
-    }
-  ]
-}
+[
+  {
+    "type": "x-file-visit-evt",
+    "spec_version": "2.1",
+    "id": "x-file-visit-evt--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
+    "visit_type": "executed",
+    "visit_time ": "2021-01-06T20:03:22.000Z",
+    "visit_file_ref": "file--674f8200-b56a-473b-9b1d-32a911ac5387",
+    "common_name": "user-assist",
+    "belongs_to_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--150c4200-02c6-475d-ac44-2d4e65de9f36",
+    "count": "1",
+    "size": 55136,
+    "name": "WINWORD.EXE "
+  },
+  {
+    "type": "windows-registry-key",
+    "spec_version": "2.1",
+    "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "key": "HKEY_USERS\\S-1-5-21-394942887-4226445097-2438273937-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserAssist"
+  }
+]
 ```
 
 ---
@@ -311,3 +386,11 @@ Shimcache is created to identify application compatibility issues. Two actions/e
 - https://github.com/williballenthin/python-evtx
 - https://www.loggly.com/ultimate-guide/windows-logging-basics/#:~:text=The%20Windows%20event%20log%20contains,For%20example%2C%20IIS%20Access%20Logs.
 - https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body
+
+```
+
+```
+
+```
+
+```
