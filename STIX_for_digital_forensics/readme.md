@@ -42,6 +42,7 @@ The goal of the project is to customize STIX™ for facilitating the sharing of 
     - [Example 4: Prefetch](#Example-4-Prefetch)
     - [Example 5: USNJournal](#Example-5-USNJournal)
     - [Example 6: Shellbags](#Example-6-Shellbags)
+    - [Example 6: Jumplist](#Example-7-Jumplist)
 - Property Extension for Windows™ Registry Key Object
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
@@ -262,6 +263,7 @@ Vocabulary Name: file-visit-type-enum
 | muicache         | Support multiple language for software.                                                  |
 | usnjournal       | Store Update Sequence Number Journal.                                                    |
 | shellbags        | Store user preferences for GUI folder display within Windows Explorer.                   |
+| jumplist         | Represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button.  |
 
 ### Example 1: RecentFileCache
 
@@ -461,10 +463,44 @@ Windows uses the Shellbag keys to store user preferences for GUI folder display 
     "type": "file",
     "spec_version": "2.1",
     "id": "file--14a4a46c-0957-4b9d-900d-35cb8379055c",
-    "hashes":{
-      "MD5":"1741ab33fd6a05a4963564f36a043afc"
+    "hashes": {
+      "MD5": "1741ab33fd6a05a4963564f36a043afc"
     },
     "name": "UsrClass_informat.dat"
+  }
+]
+```
+
+### Example 7: Jumplist
+
+Jumplist represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button. The following example shows a Jumplist of Word 2010 Pinned and Recent accessed files.
+
+```json
+[
+  {
+    "type": "x-file-visit-evt",
+    "spec_version": "2.1",
+    "id": "x-file-visit-evt--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
+    "visit_type": "read",
+    "visit_time ": "2021-01-06T20:03:22.000Z",
+    "visit_file_ref": "file--28d2e12c-c56c-4aaf-aeed-d0b69ccc601c",
+    "common_name": "jumplist",
+    "belongs_to_ref": "file--14a4a46c-0957-4b9d-900d-35cb8379055c"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--28d2e12c-c56c-4aaf-aeed-d0b69ccc601c",
+    "name": "winter_whether_advisory.zip"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--14a4a46c-0957-4b9d-900d-35cb8379055c",
+    "hashes": {
+      "MD5": "9857b91a6427496e72d779893e6d49fb"
+    },
+    "name": "a7bd71699cd38d1c.automaticDestinations-ms"
   }
 ]
 
@@ -496,6 +532,10 @@ Windows uses the Shellbag keys to store user preferences for GUI folder display 
 - https://github.com/williballenthin/python-evtx
 - https://www.loggly.com/ultimate-guide/windows-logging-basics/#:~:text=The%20Windows%20event%20log%20contains,For%20example%2C%20IIS%20Access%20Logs.
 - https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body
+
+```
+
+```
 
 ```
 
