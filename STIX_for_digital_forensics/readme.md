@@ -165,7 +165,7 @@ Vocabulary Name: browser-name-ov
 | tor             |                                |
 | other           |                                |
 
-## Plug and Play (PnP) Event Object
+## Plug and Play PnP Event Object
 
 **Type Name:** x-pnp-evt
 
