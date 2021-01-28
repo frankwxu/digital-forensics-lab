@@ -37,10 +37,10 @@ The goal of the project is to customize STIX™ for facilitating the sharing of 
   - [Plug and Play (PnP) Event Object](<#Plug-and-Play-(PnP)-Event-Object>)
   - [File Visit Event Object](#File-Visit-Event-Object)
     - [Example 1: RecentFileCache](#Example-1-RecentFileCache)
-    - [Example 2: Shimcache](#Example-2:-Shimcache)
-    - [Example 3: UserAssist](#Example-3:-UserAssist)
-    - [Example 4: Prefetch](#Example-4:-Prefetch)
-    - [Example 5: USNJournal](#Example-5:-USNJournal)
+    - [Example 2: Shimcache](#Example-2-Shimcache)
+    - [Example 3: UserAssist](#Example-3-UserAssist)
+    - [Example 4: Prefetch](#Example-4-Prefetch)
+    - [Example 5: USNJournal](#Example-5-USNJournal)
 - Property Extension for Windows™ Registry Key Object
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
