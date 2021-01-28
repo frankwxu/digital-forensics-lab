@@ -248,12 +248,13 @@ Vocabulary Name: file-visit-type-enum
 
 Vocabulary Name: file-visit-event-common-name-ov
 
-| Vocabulary Value  | Description                                                                                              |
-| ----------------- | -------------------------------------------------------------------------------------------------------- |
-| user-assist       | On a Windows System, every GUI-based programs launched from the desktop are tracked in this registry key |
-| shim-cache        | Shimcache is created to identify application compatibility issues.                                       |
-| recent-file-cache | RecentFileCache.bcf only containes references to programs that recently executed.                        |
-| prefetch          |                                                                                                          |
+| Vocabulary Value | Description                                                                                              |
+| ---------------- | -------------------------------------------------------------------------------------------------------- |
+| userassist       | On a Windows System, every GUI-based programs launched from the desktop are tracked in this registry key |
+| shimcache        | Shimcache is created to identify application compatibility issues.                                       |
+| recentfilecache  | RecentFileCache.bcf only containes references to programs that recently executed.                        |
+| prefetch         |                                                                                                          |
+| muicache         | To support multiple language for software                                                                |
 
 ### Example 1
 
@@ -268,7 +269,7 @@ RecentFileCache.bcf only containes references to programs that recently executed
     "visit_type": "execution",
     "visit_time ": "2021-01-06T20:03:22.000Z",
     "visit_file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
-    "common_name": "recent-file-cache",
+    "common_name": "recentfilecache",
     "belongs_to_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
   },
   {
@@ -305,7 +306,7 @@ Shimcache is created to identify application compatibility issues. Two actions/e
     "visit_type": "executed",
     "visit_time ": "2021-01-06T20:03:22.000Z",
     "visit_file_ref": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
-    "common_name": "shim-cache",
+    "common_name": "shimcache",
     "belongs_to_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016"
   },
   {
@@ -338,7 +339,7 @@ An example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001
     "visit_type": "execution",
     "visit_time ": "2021-01-06T20:03:22.000Z",
     "visit_file_ref": "file--674f8200-b56a-473b-9b1d-32a911ac5387",
-    "common_name": "user-assist",
+    "common_name": "userassist",
     "belongs_to_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016"
   },
   {
