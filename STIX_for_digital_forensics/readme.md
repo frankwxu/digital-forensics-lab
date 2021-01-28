@@ -41,6 +41,7 @@ The goal of the project is to customize STIX™ for facilitating the sharing of 
     - [Example 3: UserAssist](#Example-3-UserAssist)
     - [Example 4: Prefetch](#Example-4-Prefetch)
     - [Example 5: USNJournal](#Example-5-USNJournal)
+    - [Example 6: Shellbags](#Example-6-Shellbags)
 - Property Extension for Windows™ Registry Key Object
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
@@ -213,7 +214,7 @@ Vocabulary Name: message-type-ov
 
 **Type Name:** x-file-visit-evt
 
-The File Visit Event object represents properties associasted with when a file is visited by an operating system, including when a file is read, modified, executed, preloaded. The event may be saved in different forms, e.g., file, cache, Windows registry, etc. If the event is saved in registry, it MUST saved in the data field of a registry values.
+The File Visit Event object represents properties associasted with when a file/directory is visited by an operating system, including when a file is read, modified, executed, preloaded. The event may be saved in different forms, e.g., file, cache, Windows registry, etc. If the event is saved in registry, it MUST saved in the data field of a registry values.
 
 ### Properties
 
@@ -227,7 +228,7 @@ The File Visit Event object represents properties associasted with when a file i
 | count                     | integer    | The total number of times the program has visited.                                                                                                     |
 | visit_file_ref (required) | identifier | The relation references the file that is recently visited.                                                                                             |
 | common_name               | string     | Specifies the common name of source artifacts where the event is retrived from. It MUST come from the file-visit-event-common-name-ov open vocabulary. |
-| belongs_to_ref (required) | identifier | The relation describes that event is a part of file (e.g., RecentFileCache.bcf or Amcache.hve), registry, or artifact.                                 |
+| belongs_to_ref (required) | identifier | The relation describes that event is a part of file (e.g., RecentFileCache.bcf or Amcache.hve), registry, artifact, or or directory.                   |
 
 ### File Visit Type Enum
 
@@ -258,8 +259,9 @@ Vocabulary Name: file-visit-type-enum
 | shimcache        | Shimcache is created to identify application compatibility issues.                       |
 | recentfilecache  | RecentFileCache.bcf only containes references to programs that recently executed.        |
 | prefetch         |                                                                                          |
-| muicache         | Support multiple language for software                                                   |
-| usnjournal       | Update Sequence Number Journal                                                           |
+| muicache         | Support multiple language for software.                                                  |
+| usnjournal       | Store Update Sequence Number Journal.                                                    |
+| shellbags        | Store user preferences for GUI folder display within Windows Explorer.                   |
 
 ### Example 1: RecentFileCache
 
@@ -391,6 +393,9 @@ Prefetch preloads most frequently used software into memory. The example shows t
     "type": "file",
     "spec_version": "2.1",
     "id": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "hashes": {
+      "MD5": "af15a4b4b0c8378d1206336962d7b5b9"
+    },
     "name": "chrome.exe-999b1ba.pf "
   }
 ]
@@ -422,10 +427,46 @@ USN (Update Sequence Number) Journal records all files changes (e.g.., rename) t
     "type": "file",
     "spec_version": "2.1",
     "id": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "hashes": {
+      "MD5": "eaeb631cc86f85835dcad66766b8f3cc"
+    },
     "name": "UsnJrnl_2020-11-28.csv"
   }
 ]
 ```
+
+### Example 6: Shellbags
+
+Windows uses the Shellbag keys to store user preferences for GUI folder display within Windows Explorer to improve user experience and “remember” preferences. The following example descrbes a USB drive is visited.
+
+```json
+[
+  {
+    "type": "x-file-visit-evt",
+    "spec_version": "2.1",
+    "id": "x-file-visit-evt--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
+    "visit_type": "read",
+    "visit_time ": "2021-01-06T20:03:22.000Z",
+    "visit_file_ref": "file--28d2e12c-c56c-4aaf-aeed-d0b69ccc601c",
+    "common_name": "shellbags",
+    "belongs_to_ref": "file--14a4a46c-0957-4b9d-900d-35cb8379055c"
+  },
+  {
+    "type": "directory",
+    "spec_version": "2.1",
+    "id": "directory--28d2e12c-c56c-4aaf-aeed-d0b69ccc601c",
+    "name": "My Computer\\E:\\"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--14a4a46c-0957-4b9d-900d-35cb8379055c",
+    "hashes":{
+      "MD5":"1741ab33fd6a05a4963564f36a043afc"
+    },
+    "name": "UsrClass_informat.dat"
+  }
+]
 
 ## threat-actor-type-ov external reference
 
@@ -455,6 +496,8 @@ USN (Update Sequence Number) Journal records all files changes (e.g.., rename) t
 - https://github.com/williballenthin/python-evtx
 - https://www.loggly.com/ultimate-guide/windows-logging-basics/#:~:text=The%20Windows%20event%20log%20contains,For%20example%2C%20IIS%20Access%20Logs.
 - https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body
+
+```
 
 ```
 
