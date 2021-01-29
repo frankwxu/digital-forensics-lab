@@ -36,14 +36,14 @@ The goal of the project is to customize STIX™ for facilitating the sharing of 
   - [Browser History Event Object](#Browser-History-Event-Object)
   - [Plug and Play (PnP) Event Object](#Plug-and-Play-PnP-Event-Object)
   - [File Visit Event Object](#File-Visit-Event-Object)
-    - [Example 1: RecentFileCache](#Example-1-RecentFileCache)
-    - [Example 2: Shimcache](#Example-2-Shimcache)
-    - [Example 3: UserAssist](#Example-3-UserAssist)
-    - [Example 4: Prefetch](#Example-4-Prefetch)
-    - [Example 5: USNJournal](#Example-5-USNJournal)
-    - [Example 6: Shellbags](#Example-6-Shellbags)
-    - [Example 7: Jumplist](#Example-7-Jumplist)
-    - [Example 8: Lnk]($Example-8-Lnk)
+    - [Type 1: RecentFileCache](#Example-1-RecentFileCache)
+    - [type 2: Shimcache](#Example-2-Shimcache)
+    - [Type 3: UserAssist](#Example-3-UserAssist)
+    - [TYpe 4: Prefetch](#Example-4-Prefetch)
+    - [Type 5: USNJournal](#Example-5-USNJournal)
+    - [Type 6: Shellbags](#Example-6-Shellbags)
+    - [Type 7: Jumplist](#Example-7-Jumplist)
+    - [Type 8: Lnk]($Example-8-Lnk)
 - Property Extension for Windows™ Registry Key Object
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
@@ -276,7 +276,7 @@ Vocabulary Name: file-visit-type-enum
 | shellbags        | Store user preferences for GUI folder display within Windows Explorer.                   |
 | jumplist         | Represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button.  |
 
-### Example 1: RecentFileCache
+### Type 1: RecentFileCache
 
 RecentFileCache.bcf only containes references to programs that recently executed. setuputility.exe is recently executed.
 
@@ -312,7 +312,7 @@ RecentFileCache.bcf only containes references to programs that recently executed
 ]
 ```
 
-### Example 2: Shimcache
+### Type 2: Shimcache
 
 Shimcache is created to identify application compatibility issues. Two actions/events that can cause the Shimcache to record an entry:
 (1) A file is executed and (2) A user interactively browses a directory.
@@ -345,10 +345,10 @@ Shimcache is created to identify application compatibility issues. Two actions/e
 ]
 ```
 
-### Example 3: UserAssist
+### Type 3: UserAssist
 
 Windows System, every GUI-based programs launched from the desktop are tracked in this registry key HKEY_USERS\{SID}\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist.
-An example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001.
+An Example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001.
 
 ```json
 [
@@ -379,9 +379,9 @@ An example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001
 ]
 ```
 
-### Example 4: Prefetch
+### Type 4: Prefetch
 
-Prefetch preloads most frequently used software into memory. The example shows the chrome.exe-999b1ba.pf contains chrome.exe-999b1ba.exe, the time when the exe file is executed, last time executed, and how many times it was exeucted.
+Prefetch preloads most frequently used software into memory. The Typeshows the chrome.exe-999b1ba.pf contains chrome.exe-999b1ba.exe, the time when the exe file is executed, last time executed, and how many times it was exeucted.
 
 ```json
 [
@@ -414,7 +414,7 @@ Prefetch preloads most frequently used software into memory. The example shows t
 ]
 ```
 
-### Example 5: USNJournal
+### Type 5: USNJournal
 
 USN (Update Sequence Number) Journal records all files changes (e.g.., rename) that are made to volume.
 
@@ -448,9 +448,9 @@ USN (Update Sequence Number) Journal records all files changes (e.g.., rename) t
 ]
 ```
 
-### Example 6: Shellbags
+### Type 6: Shellbags
 
-Windows uses the Shellbag keys to store user preferences for GUI folder display within Windows Explorer to improve user experience and “remember” preferences. The following example descrbes a USB drive is visited.
+Windows uses the Shellbag keys to store user preferences for GUI folder display within Windows Explorer to improve user experience and “remember” preferences. The following Type descrbes a USB drive is visited.
 
 ```json
 [
@@ -482,9 +482,9 @@ Windows uses the Shellbag keys to store user preferences for GUI folder display 
 ]
 ```
 
-### Example 7: Jumplist
+### Type 7: Jumplist
 
-Jumplist represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button. The following example shows a Jumplist of Word 2010 Pinned and Recent accessed files.
+Jumplist represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button. The following Type shows a Jumplist of Word 2010 Pinned and Recent accessed files.
 
 ```json
 [
@@ -516,7 +516,7 @@ Jumplist represents a list of items and tasks displayed as a menu on a Windows 7
 ]
 ```
 
-### Example 8: Lnk
+### Type 8: Lnk
 
 lnk is a shortcut or "link" used by Windows as a reference to an original file, folder, or application. The example describes an event is generated when a file is accessed by a link.
 
