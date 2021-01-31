@@ -2,7 +2,7 @@
 
 The goal of the project is to explore and build an extended STIX™ (xSTIX), to exchange Cyber Forensic Intelligence (CFI). While STIX focuses on understanding, responding to, and mitigating computer-based attacks, the xSTIX allows cyber forensics communities to better understand what and how digital evidence is left on hosts and networks during these attacks and to reconstruct digital forensic-based crime scenes after attacks.
 
-The xSTIX includes a set of Cyber Forensic Objects (CFO)s. CFOs are CFI domain objects that are corresponding to concepts used in hosts and networks but are more intensively used for CFI, e.g., the concepts of file and webpage visits. Each CFO represents an event generated and recorded by firmware, drivers, operating systems, and software applications. The recorded event is often used to meet functional or non-functional requirements of a feature/system. For example, the Windows security feature requires logging all security-related activities for auditing; Google drive records all files' status for a faster local and remote files synchronization. CFOs are different from STIX Cyber-Observable Data objects because CFOs are pre-processed data in the context of CFI instead of raw data that Cyber-observable Objects want to describe.
+The xSTIX includes a set of Cyber Forensic Objects (CFOs). CFOs are CFI domain objects that are corresponding to concepts used in hosts and networks but are more intensively used for CFI, e.g., the concepts of file and webpage visits. Each CFO represents an event generated and recorded by firmware, drivers, operating systems, and software applications. The recorded event is often used to meet functional or non-functional requirements of a feature/system. For example, the Windows security feature requires logging all security-related activities for auditing; Google drive records all files' status for a faster local and remote files synchronization. CFOs are different from STIX Cyber-Observable Data objects because CFOs are pre-processed data in the context of CFI instead of raw data that Cyber-observable Objects want to describe.
 
 We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is that the value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
 
@@ -10,7 +10,7 @@ We follow the STIX specification for [customizing objects](https://docs.oasis-op
 
 ## Table of Contents (updating)
 
-- SCOs for digital forensics
+- Cyber Forensic Objects (CFOs)
   - [Windows Event Object](#Windows-Event-Object)
   - [Webpage Visit Event Object](#Webpage-Visit-Event-Object)
   - [Plug and Play (PnP) Event Object](#Plug-and-Play-PnP-Event-Object)
@@ -26,7 +26,8 @@ We follow the STIX specification for [customizing objects](https://docs.oasis-op
     - [RMU]($RMU)
     - [MFT]($MFT)
     - [AppLog](#AppLog)
-- Property Extension for Windows™ Registry Key Object
+- Property Extension
+  - [Extension for Windows Registry Key Object](#Extension-for-Windows-Registry-Key-Object)
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
 
@@ -686,9 +687,33 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
 
 ---
 
-## Property Extension for Windows™ Registry Key Object
+## Extension for Windows Registry Key Object
 
+We focus on extending the data property of registry value as the data may contain rich information that needs to be organized and formalized as digital evidence. The pattern of the extension is shown below. Note that the string **"x_data"** is assigned to **"data"** (e.g., **"data": "x_data"**) as a place holder and **x_data:[]** is the extended property that contains formalized information of data.
+
+```json
+{
+  "type": "windows-registry-key",
+  "spec_version": "2.1",
+  "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+  "key": "hkey_local_machine\\system\\bar\\foo",
+  "values": [
+    {
+      "name": "Foo",
+      "data": "x_data",
+      "data_type": "REG_BINARY"
+    }
+  ],
+  "x_data": [
+    {
+      "type": "x-extended-type",
+      "id": "x-extended-type--83aee86d-1523-4111-938e-8edc8a6c804f"
+    }
+  ]
+}
 ```
+
+---
 
 ## threat-actor-type-ov external reference
 
@@ -718,6 +743,8 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
 - https://github.com/williballenthin/python-evtx
 - https://www.loggly.com/ultimate-guide/windows-logging-basics/#:~:text=The%20Windows%20event%20log%20contains,For%20example%2C%20IIS%20Access%20Logs.
 - https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body
+
+```
 
 ```
 
