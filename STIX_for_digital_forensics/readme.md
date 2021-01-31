@@ -26,6 +26,7 @@ We follow the STIX specification for [customizing objects](https://docs.oasis-op
     - [RMU]($RMU)
     - [MFT]($MFT)
     - [AppLog](#AppLog)
+  - [Investigation Tool](#Investigation-Tool)
 - Property Extension
   - [Extension for Windows Registry Key Object](#Extension-for-Windows-Registry-Key-Object)
 - Other extension
@@ -685,7 +686,58 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
 ]
 ```
 
----
+## Investigation Tool
+
+**Type Name:** x-investigation-tool
+
+Investigation Tools are software that can be used by cyber investigators to perform digital forensic investigations. This CFO MUST NOT be used to characterize malware and SDO tools.
+
+### Optional Common Properties: external_references
+
+### Investigation Tool Specific Properties
+
+| Property Name   | Type                    | Description                                                                                  |
+| --------------- | ----------------------- | -------------------------------------------------------------------------------------------- |
+| type (required) | string                  | The value of this property MUST be x-file-visit-evt.                                         |
+| id (required)   | identifier              | The ID of a Investigation Tool object.                                                       |
+| last_modified   | timestamps              | The last modified date of the tool.                                                          |
+| description     | string                  | A description that provides more details and context about the Tool                          |
+| tool_types      | list of type open-vocab | The values for this property SHOULD come from the investigation-tool-type-ov open vocabulary |
+| aliases         | list of type string     | Alternative names used to identify this Tool.                                                |
+| tool_version    | string                  | The version identifier associated with the Tool.                                             |
+
+## Investigation Tool Type Vocabulary
+
+**Vocabulary Name:** investigation-tool-type-ov
+Investigation Tool Type is an open vocabulary that describes the type of the tools used for cyber investigations. It doesn't include common software, such as MS office, database etc.
+
+| Vocabulary Value   | Description                                                                                                     |
+| ------------------ | --------------------------------------------------------------------------------------------------------------- |
+| decryption         | Tools used to perform decryption tasks.                                                                         |
+| data-recovering    | Tools used to process of retrieving inaccessible, lost, corrupted, damaged or formatted data from disk storage. |
+| data-carving       | Tools used to reassemble useful information from raw data fragments when no filesystem metadata is available.   |
+| anti-steganography | Tools used to against steganography.                                                                            |
+| extraction         | Tools used to extract information from file systems.                                                            |
+| parsing            | Tools used to parse and/or decode files, including registry parsers and log parsers.                            |
+| dump               | Tools used to dump information from cache or memory.                                                            |
+| unknown            | There is not enough information available to determine the type of tool.                                        |
+
+```json
+{
+  "type": "x-investigation-tool",
+  "spec_version": "2.1",
+  "id": "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
+  "name": "LogFileParser",
+  "tool_types": ["parsing"],
+  "description": "This program parsing $LogFile records and transaction entries.",
+  "external_references": [
+    {
+      "source_name": "LogFileParser",
+      "url": "https://github.com/jschicht/LogFileParser"
+    }
+  ]
+}
+```
 
 ## Extension for Windows Registry Key Object
 
