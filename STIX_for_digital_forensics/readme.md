@@ -705,7 +705,7 @@ Investigation Tools are software that can be used by cyber investigators to perf
 | tool_types      | list of type open-vocab | The values for this property SHOULD come from the investigation-tool-type-ov open vocabulary. |
 | aliases         | list of type string     | Alternative names used to identify this investigation tool.                                   |
 | tool_version    | string                  | The version identifier associated with the investigation tool.                                |
-| software_ref    | identifier              | Specifier the software that is used as the investigation tool.                                |
+| software_ref    | identifier              | Specifier the software product (if CPE or SWID is known) used as the investigation tool.      |
 
 ## Investigation Tool Type Vocabulary
 
@@ -723,6 +723,10 @@ Investigation Tool Type is an open vocabulary that describes the type of the too
 | parse              | Tools used to parse and/or decode files, including registry parsers and log parsers.                            |
 | dump               | Tools used to dump information from cache or memory.                                                            |
 | unknown            | There is not enough information available to determine the type of tool.                                        |
+
+### Examples
+
+Use an open-source software to parse and decode $LogFile records
 
 ```json
 {
