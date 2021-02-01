@@ -696,15 +696,16 @@ Investigation Tools are software that can be used by cyber investigators to perf
 
 ### Investigation Tool Specific Properties
 
-| Property Name   | Type                    | Description                                                                                  |
-| --------------- | ----------------------- | -------------------------------------------------------------------------------------------- |
-| type (required) | string                  | The value of this property MUST be x-file-visit-evt.                                         |
-| id (required)   | identifier              | The ID of a Investigation Tool object.                                                       |
-| last_modified   | timestamps              | The last modified date of the tool.                                                          |
-| description     | string                  | A description that provides more details and context about the Tool                          |
-| tool_types      | list of type open-vocab | The values for this property SHOULD come from the investigation-tool-type-ov open vocabulary |
-| aliases         | list of type string     | Alternative names used to identify this Tool.                                                |
-| tool_version    | string                  | The version identifier associated with the Tool.                                             |
+| Property Name   | Type                    | Description                                                                                   |
+| --------------- | ----------------------- | --------------------------------------------------------------------------------------------- |
+| type (required) | string                  | The value of this property MUST be x-file-visit-evt.                                          |
+| id (required)   | identifier              | The ID of a Investigation Tool object.                                                        |
+| last_modified   | timestamps              | The last modified date of the investigation tool.                                             |
+| description     | string                  | A description that provides more details and context about the investigation tool.            |
+| tool_types      | list of type open-vocab | The values for this property SHOULD come from the investigation-tool-type-ov open vocabulary. |
+| aliases         | list of type string     | Alternative names used to identify this investigation tool.                                   |
+| tool_version    | string                  | The version identifier associated with the investigation tool.                                |
+| software_ref    | identifier              | Specifier the software that is used as the investigation tool.                                |
 
 ## Investigation Tool Type Vocabulary
 
@@ -714,11 +715,12 @@ Investigation Tool Type is an open vocabulary that describes the type of the too
 | Vocabulary Value   | Description                                                                                                     |
 | ------------------ | --------------------------------------------------------------------------------------------------------------- |
 | decryption         | Tools used to perform decryption tasks.                                                                         |
-| data-recovering    | Tools used to process of retrieving inaccessible, lost, corrupted, damaged or formatted data from disk storage. |
+| decode             | Tools used to decode data in a readable form.                                                                   |
+| data-recovery      | Tools used to process of retrieving inaccessible, lost, corrupted, damaged or formatted data from disk storage. |
 | data-carving       | Tools used to reassemble useful information from raw data fragments when no filesystem metadata is available.   |
 | anti-steganography | Tools used to against steganography.                                                                            |
-| extraction         | Tools used to extract information from file systems.                                                            |
-| parsing            | Tools used to parse and/or decode files, including registry parsers and log parsers.                            |
+| data_extraction    | Tools used to extract information from file systems.                                                            |
+| parse              | Tools used to parse and/or decode files, including registry parsers and log parsers.                            |
 | dump               | Tools used to dump information from cache or memory.                                                            |
 | unknown            | There is not enough information available to determine the type of tool.                                        |
 
@@ -728,8 +730,8 @@ Investigation Tool Type is an open vocabulary that describes the type of the too
   "spec_version": "2.1",
   "id": "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
   "name": "LogFileParser",
-  "tool_types": ["parsing"],
-  "description": "This program parsing $LogFile records and transaction entries.",
+  "tool_types": ["decode", "parse"],
+  "description": "This program decodes and parses $LogFile records and transaction entries.",
   "external_references": [
     {
       "source_name": "LogFileParser",
