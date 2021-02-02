@@ -53,24 +53,24 @@ The Windows Event Record object represents an event recorded by Windows OS, incl
 
 ### Properties
 
-| Property Name              | Type       | Description                                                                                                                                                    |
-| -------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| type (required)            | string     | The value of this property MUST be x-windows-evt-record.                                                                                                       |
-| record_number              | string     | Specified the number of the record.                                                                                                                            |
-| time_generated             | timestamp  | Specified the time at which this entry was submitted.                                                                                                          |
-| time_written               | timestamp  | Specified the time at which this entry was received by the service to be written to the log.                                                                   |
-| event_source               | string     | Specifies name of the name of the software or the name of a subcomponent of the application if the application is large that logs the event.                   |
-| event_id                   | integer    | The value is specific to the event source for the event, and is used with source name to locate a description string in the message file for the event source. |
-| event_id_string            | integer    | Specified the description string of event_id.                                                                                                                  |
-| event_type                 | string     | It MUST be one EventType defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                            |
-| event_category             | enum       | Categories help to organize events                                                                                                                             |
-| user_account_ref(required) | identifier | The user account that is associated with the evewnt.                                                                                                           |
-| saved_to_ref(required)     | identity   | Specifies object type that event object belongs to. It MUST be a type of file or artifact                                                                      |
+| Property Name              | Type       | Description                                                                                                                                                        |
+| -------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| type (required)            | string     | The value of this property MUST be x-windows-evt-record.                                                                                                           |
+| record_number              | string     | Specified the number of the record.                                                                                                                                |
+| time_generated             | timestamp  | Specified the time at which this entry was submitted.                                                                                                              |
+| time_written               | timestamp  | Specified the time at which this entry was received by the service to be written to the log.                                                                       |
+| event_source               | string     | Specifies the name of the software or the name of a subcomponent of the application if the application is large that logs the event.                               |
+| event_id                   | integer    | The value is specific to the event source for the event, and is used with the source name to locate a description string in the message file for the event source. |
+| event_id_string            | integer    | Specified the description string of event_id.                                                                                                                      |
+| event_type                 | string     | It MUST be one EventType defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                                |
+| event_category             | enum       | Categories help to organize events                                                                                                                                 |
+| user_account_ref(required) | identifier | The user account that is associated with the event.                                                                                                                |
+| saved_to_ref(required)     | identity   | Specifies object type that event object belongs to. It MUST be a type of file or artifact                                                                          |
 
 Notes:
 
-- event_source has a few types, such as application, secuirty, system, customlog, etc.
-- user_account_ref can be retrived based on SID.
+- event_source has a few types, such as application, security, system, customlog, etc.
+- user_account_ref can be retrieved based on SID.
 
 ### Relationships
 
@@ -148,14 +148,14 @@ The Webpage Visit Event object represents a single visit to a webpage.
 | Property Name          | Type       | Description                                                                                |
 | ---------------------- | ---------- | ------------------------------------------------------------------------------------------ |
 | type (required)        | string     | The value of this property MUST be browser-history.                                        |
-| entry_id               | string     | Specifies the unqie entry ID in a file (i.e., save_to_ref) that the event saved to.        |
-| url_ref                | identifier | Specify a visit to a url.                                                                  |
-| title                  | string     | Speify the title of a web page (if a URL is a webpage) that has been visited.              |
+| entry_id               | string     | Specifies the unique entry ID in a file (i.e., save_to_ref) that the event saved to.       |
+| url_ref                | identifier | Specify a visit to a URL.                                                                  |
+| title                  | string     | Specifies the title of a web page (if a URL is a webpage) that has been visited.           |
 | visit_time             | timestamp  | The last time visited.                                                                     |
 | visit_count            | integer    | The number of times visited                                                                |
 | browser_ref            | identifier | The value type for this property SHOULD software.                                          |
-| file_requested_ref     | identifier | The ID of the file the http requested.                                                     |
-| user_account_ref       | identifier | The user account that is associated with record.                                           |
+| file_requested_ref     | identifier | The ID of the file the HTTP requested.                                                     |
+| user_account_ref       | identifier | The user account that is associated with the record.                                       |
 | saved_to_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact. |
 
 ### Relationships
@@ -205,26 +205,26 @@ The Plug and Play (PnP) Event object represents an event recorded by Windows Ker
 
 ### Properties
 
-The completed log properties can be access [Microsoft office docs- Format of a text log section body](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body)
+The completed log properties can be accessed [Microsoft office docs- Format of a text log section body](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body)
 
-| Property Name          | Type       | Description                                                                                                                                                |
-| ---------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| type (required)        | string     | The value of this property MUST be x-pnp-evt.                                                                                                              |
-| entry_prefix           | enum       | The values of this property MUST come from the message-type-ov enumeration.                                                                                |
-| time_stamp             | timestamp  | Indicates the system time when the logged event occurred.                                                                                                  |
-| event_category         | string     | Indicates the category of SetupAPI operation that made the log entry. MUST be one of predefined Event_category operation strings, e.g.device installation. |
-| formatted_message      | string     | Contains the specific information that applies to the log entry.                                                                                           |
-| saved_to_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact (e.g., cache, memory), e.g., steupAPI.log                        |
+| Property Name          | Type       | Description                                                                                                                                                    |
+| ---------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required)        | string     | The value of this property MUST be x-pnp-evt.                                                                                                                  |
+| entry_prefix           | enum       | The values of this property MUST come from the message-type-ov enumeration.                                                                                    |
+| time_stamp             | timestamp  | Indicates the system time when the logged event occurred.                                                                                                      |
+| event_category         | string     | Indicates the category of SetupAPI operation that made the log entry. MUST be one of the predefined Event_category operation strings, e.g.device installation. |
+| formatted_message      | string     | Contains the specific information that applies to the log entry.                                                                                               |
+| saved_to_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact (e.g., cache, memory), e.g., steupAPI.log                            |
 
 ### Message Type Vocabulary
 
 Vocabulary Name: message-type-ov
 
-| ocabulary Value | Description                                                          |
-| --------------- | -------------------------------------------------------------------- |
-| error           | An Error message                                                     |
-| warning         | An warning message                                                   |
-| other-info      | Information message other than an error message or a warning message |
+| Vocabulary Value | Description                                                          |
+| ---------------- | -------------------------------------------------------------------- |
+| error            | An Error message                                                     |
+| warning          | An warning message                                                   |
+| other-info       | Information message other than an error message or a warning message |
 
 ### Examples
 
@@ -249,17 +249,17 @@ The File Visit Event object represents properties that are associasted with a fi
 
 ### Properties
 
-| Property Name             | Type       | Description                                                                                                                                                    |
-| ------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| type (required)           | string     | The value of this property MUST be x-file-visit-evt.                                                                                                           |
-| visit_type                | enum       | Specifies how file was visited. The values of this property MUST come from the file-visit-type-enum enumeration.                                               |
-| visit_time                | timestamp  | Specifies the time a file was visited.                                                                                                                         |
-| visit_file_guid           | string     | The GUID of an application, e.g., {A3D53349-6E61-4557-8FC7-0028EDCEEBF6}} is Windows 8.                                                                        |
-| visit_count               | integer    | The total number of times the program has visited.                                                                                                             |
-| visit_file_ref (required) | identifier | Specifies the file or directory that was recently visited.                                                                                                     |
-| record_reason             | open-vocab | Specifies a resaon why an event is recorded. It MUST come from the file-visit-evt-record-reason-ov open vocabulary.                                            |
-| created_by_software_ref   | identifier | The softwre that is used to capture and save the event. The value of this property MUST be the identifier for a SCO software object.                           |
-| saved_to_ref(required)    | identifier | Specifies object type that event object belongs to. It MUST be a type of file (e.g., RecentFileCache.bcf or Amcache.hve), registry, artifact, or or directory. |
+| Property Name             | Type       | Description                                                                                                                                                 |
+| ------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required)           | string     | The value of this property MUST be x-file-visit-evt.                                                                                                        |
+| visit_type                | enum       | Specifies how the file was visited. The values of this property MUST come from the file-visit-type-enum enumeration.                                        |
+| visit_time                | timestamp  | Specifies the time a file was visited.                                                                                                                      |
+| visit_file_guid           | string     | The GUID of an application, e.g., {A3D53349-6E61-4557-8FC7-0028EDCEEBF6}} is Windows 8.                                                                     |
+| visit_count               | integer    | The total number of times the program has visited.                                                                                                          |
+| visit_file_ref (required) | identifier | Specifies the file or directory that was recently visited.                                                                                                  |
+| record_reason             | open-vocab | Specifies a reason why an event is recorded. It MUST come from the file-visit-evt-record-reason-ov open vocabulary.                                         |
+| created_by_software_ref   | identifier | The software that is used to capture and save the event. The value of this property MUST be the identifier for an SCO software object.                      |
+| saved_to_ref(required)    | identifier | Specifies object type that event object belongs to. It MUST be a type of file (e.g., RecentFileCache.bcf or Amcache.hve), registry, artifact, or directory. |
 
 ### File Visit Type Enum
 
@@ -270,7 +270,7 @@ Vocabulary Name: file-visit-type-enum
 | creation         | A file was visited for creation.                                              |
 | reading          | A file was visited for reading.                                               |
 | modification     | A file was was visited for modification (content is to be modified).          |
-| updating         | The meta data of a file was visited for changing (e.g. permissions)           |
+| updating         | The metadata of a file was visited for changing (e.g. permissions)            |
 | execution        | A file was visited for execution.                                             |
 | deletion         | A file was visited for deletion.                                              |
 | preloading       | A file was visited for preloading to memory.                                  |
@@ -288,9 +288,9 @@ Vocabulary Name: file-visit-type-enum
 | ---------------- | ---------------------------------------------------------------------------------------- |
 | userassist       | Track every GUI-based programs launched from the desktop in the userassist registry key. |
 | shimcache        | Shimcache is created to identify application compatibility issues.                       |
-| recentfilecache  | RecentFileCache.bcf only containes references to programs that recently executed.        |
+| recentfilecache  | RecentFileCache.bcf only contains references to programs that recently executed.         |
 | prefetch         |                                                                                          |
-| muicache         | Support multiple language for software.                                                  |
+| muicache         | Support multiple languages for software.                                                 |
 | usnjournal       | Store Update Sequence Number Journal.                                                    |
 | shellbag         | Store user preferences for GUI folder display within Windows Explorer.                   |
 | jumplist         | Represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button.  |
@@ -301,7 +301,7 @@ Vocabulary Name: file-visit-type-enum
 
 ### RecentFileCache
 
-RecentFileCache.bcf only containes references to programs that recently executed. setuputility.exe is recently executed.
+RecentFileCache.bcf only contains references to programs that were recently executed. setuputility.exe is recently executed.
 
 ```json
 [
@@ -382,7 +382,7 @@ Shimcache is created to identify application compatibility issues. Two actions/e
 ### UserAssist
 
 Windows System, every GUI-based programs launched from the desktop are tracked in this registry key HKEY_USERS\{SID}\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist.
-An Example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001.
+An Example of a Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001.
 
 ```json
 [
@@ -416,7 +416,7 @@ An Example of Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-1001
 
 ### Prefetch
 
-Prefetch preloads most frequently used software into memory. The Typeshows the chrome.exe-999b1ba.pf contains chrome.exe-999b1ba.exe, the time when the exe file is executed, last time executed, and how many times it was exeucted.
+Prefetch preloads the most frequently used software into memory. The Typeshows the chrome.exe-999b1ba.pf contains chrome.exe-999b1ba.exe, the time when the executable file is executed, last time executed, and how many times it was executed.
 
 ```json
 [
@@ -452,7 +452,7 @@ Prefetch preloads most frequently used software into memory. The Typeshows the c
 
 ### USNJournal
 
-USN (Update Sequence Number) Journal records all files changes (e.g.., rename) that are made to volume.
+USN (Update Sequence Number) Journal records all files' changes (e.g.., rename) that are made to a volume.
 
 ```json
 [
@@ -487,7 +487,7 @@ USN (Update Sequence Number) Journal records all files changes (e.g.., rename) t
 
 ### Shellbags
 
-Windows uses the Shellbag keys to store user preferences for GUI folder display within Windows Explorer to improve user experience and “remember” preferences. The following Type descrbes a USB drive is attached/visited.
+Windows uses the Shellbag keys to store user preferences for GUI folder display within Windows Explorer to improve user experience and “remember” preferences. The following Type describes a USB drive is attached/visited.
 
 ```json
 [
@@ -726,7 +726,7 @@ Investigation Tools are software that can be used by cyber investigators to perf
 ## Investigation Tool Type Vocabulary
 
 **Vocabulary Name:** investigation-tool-type-ov
-Investigation Tool Type is an open vocabulary that describes the type of the tools used for cyber investigations. It doesn't include common software, such as MS office, database etc.
+Investigation Tool Type is an open vocabulary that describes the type of tools used for cyber investigations. It doesn't include common software, such as MS Office, database, etc.
 
 | Vocabulary Value   | Description                                                                                                     |
 | ------------------ | --------------------------------------------------------------------------------------------------------------- |
