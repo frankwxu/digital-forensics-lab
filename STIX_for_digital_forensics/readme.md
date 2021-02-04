@@ -4,33 +4,40 @@
 
 The goal of the project is to explore and build an extended STIX™ (xSTIX), to exchange Cyber Forensic Intelligence (CFI). While STIX focuses on understanding, responding to, and mitigating computer-based attacks, the xSTIX allows cyber forensics communities to better understand what and how digital evidence is left on hosts and networks during these attacks and to reconstruct digital forensic-based crime scenes after attacks.
 
-The xSTIX includes a set of Cyber Forensic Objects (CFOs). CFOs are CFI domain objects that are corresponding to concepts used in hosts and networks but are more intensively used for CFI, e.g., the concepts of file and webpage visits. Each CFO represents an event generated and recorded by firmware, drivers, operating systems, and software applications. The recorded event is often used to meet functional or non-functional requirements of a feature/system. For example, the Windows security feature requires logging all security-related activities for auditing; Google drive records all files' status for a faster local and remote files synchronization. CFOs are different from STIX Cyber-Observable Data objects because CFOs are pre-processed data in the context of CFI instead of raw data that Cyber-observable Objects want to describe.
+The xSTIX includes a set of Cyber Forensic Objects (CFOs). These CFOs are categrized as follows:
+
+- **Cyber Forensic Domain Objects (CFDOs):** CFDOs are CFI domain objects that are corresponding to concepts used in hosts and networks but are more intensively used for CFI, e.g., the concepts of file and webpage visits. Each CFO represents an event generated and recorded by firmware, drivers, operating systems, and software applications. The recorded event is often used to meet functional or non-functional requirements of a feature/system. For example, the Windows security feature requires logging all security-related activities for auditing; Google drive records all files' status for a faster local and remote files synchronization. CFOs are different from STIX Cyber-Observable Data objects because CFOs are pre-processed data in the context of CFI instead of raw data that Cyber-observable Objects want to describe.
+
+- **Cyber Forensic observable Objects (CFOOs).** CFOOs are the extensions to STX SCO. They are used to describe Cyber-observable Objects that typically used for computer forensics. For example, a disk image object represents a computer file containing the contents and structure of a disk volume or of an entire data storage device, such as a hard disk drive, tape drive, floppy disk, optical disc, or USB flash drive.
 
 ## Extension Format
 
-- Objects: We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is that the value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
-- [Required Properties](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_xzbicbtscatx):
+- CFOs: We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is that the value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
+- [Required Properties for all CFOs](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_xzbicbtscatx):
   - **type** (string)： The value of this property MUST be one of CFOs.
   - **spec_version** (string): The current version is 2.1, i.e., **"spec_version": "2.1"**.
   - **id** (identifier): This id MUST meet the requirements of the identifier type [see STIX section 2.9](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_64yvzeku5a5c).
+- Additional Required Properties for CFDOs
   - **created** (timestamp): The created property represents the time at which the object was originally created by an investigator (i.e., object creator).
   - **modified** (timestamp): The modified property is only used by CFOs that support versioning and represents the time that this particular version of the object was last modified.
   - **created_by_ref**(identifier): The object creator is the entity (e.g., system, organization, instance of a tool) that generates the id property for a given object. It is optional in STIX SDO.
-- [Common Properties used in CFOs](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_xzbicbtscatx)
+- [Common Properties used in all CFOs](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_xzbicbtscatx)
   - external_references (list of type external-reference): The external_references property specifies a list of external references which refers to non-STIX information. This property is used to provide one or more URLs, descriptions, or IDs to records in other systems.
 
 ---
 
 ## Table of Contents (updating)
 
-- Cyber Forensic Objects (CFOs)
-  - [Windows Event Record Object](#Windows-Event-Record-Object)
-  - [Webpage Visit Record Object](#Webpage-Visit-Record-Object)
-  - [Plug and Play (PnP) Event Record Object](#Plug-and-Play-PnP-Event-Record-Object)
-  - [File Visit Event Object](#File-Visit-Event-Object)
+- Cyber Forensic Domain Objects (CFDOs)
+
+  - [Software Lifecycle](#Software-Lifecycle)
+  - [Windows Event Object](#Windows-Event-Object)
+  - [Webpage Visit Object](#Webpage-Visit-Object)
+  - [Plug and Play (PnP) Event Object](#Plug-and-Play-PnP-Event-Object)
+  - [File Visit Object](#File-Visit-Object)
     - [RecentFileCache](#RecentFileCache)
     - [Shimcache](#Shimcache)
-    - [UserAssist](#TUserAssist)
+    - [UserAssist](#UserAssist)
     - [Prefetch](#Prefetch)
     - [USNJournal](#USNJournal)
     - [Shellbags](#Shellbags)
@@ -39,17 +46,23 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs). CFOs are CFI domain o
     - [RMU]($RMU)
     - [MFT]($MFT)
     - [AppLog](#AppLog)
+  - [Disk Image Object](#Disk-Image-Object)
   - [Investigation Tool](#Investigation-Tool)
+
+- Cyber Forensic observable Objects (CFOOs)
+
+  - [Disk Partition Object](#Disk-Partition-Object)
+
 - Property Extension
   - [Extension for Windows Registry Key Object](#Extension-for-Windows-Registry-Key-Object)
 - Other extension
   - [threat-actor-type-ov external reference](#threat-actor-type-ov-external-reference])
 
-## Windows Event Record Object
+## Windows Event Object
 
-**Type Name:** x-windows-evt-record
+**Type Name:** x-windows-evt
 
-The Windows Event Record object represents an event recorded by Windows OS, including applicatioin, security, steup, system, and forwarded-events.
+The Windows Event object represents an event recorded by Windows OS, including applicatioin, security, steup, system, and forwarded-events.
 
 ### ID Contributing Properties
 
@@ -88,7 +101,7 @@ Notes:
 ```json
 [
   {
-    "type": "x-windows-evt-record",
+    "type": "x-windows-evt",
     "spec_version": "2.1",
     "id": "x-windows-evt--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "record_number": "12145",
@@ -155,11 +168,11 @@ Notes:
 }
 ```
 
-## Webpage Visit Record Object
+## Webpage Visit Object
 
-**Type Name:** x-webpage-visit-record
+**Type Name:** x-webpage-visit
 
-The Webpage Visit Record object represents a single visit to a webpage.
+The Webpage Visit object represents a single visit to a webpage.
 
 ### ID Contributing Properties
 
@@ -190,9 +203,9 @@ The Webpage Visit Record object represents a single visit to a webpage.
 ```json
 [
   {
-    "type": "x-webpage-visit-record",
+    "type": "x-webpage-visit",
     "spec_version": "2.1",
-    "id": "x-webpage-visit-record--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "id": "x-webpage-visit--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "url_ref": "url--9cc5a5dc-0acd-46f5-ae3f-724370087622",
     "title": "B.S. in Cyber Forensics | University of Baltimore",
     "visit-time": "2021-01-06T20:03:22.000Z",
@@ -222,11 +235,11 @@ The Webpage Visit Record object represents a single visit to a webpage.
 ]
 ```
 
-## Plug and Play (PnP) Event Record Object
+## Plug and Play (PnP) Event Object
 
-**Type Name:** x-pnp-evt-record
+**Type Name:** x-pnp-evt
 
-The Plug and Play (PnP) Event Record object represents an event recorded by Windows Kernel-Mode Plug (pnp) and Play Manager. PnP manager is a combination of hardware technology and software techniques that enables a PC to recognize when a device is added to the system. With PnP, the system configuration can change with little or no input from the user.
+The Plug and Play (PnP) Event object represents an event recorded by Windows Kernel-Mode Plug (pnp) and Play Manager. PnP manager is a combination of hardware technology and software techniques that enables a PC to recognize when a device is added to the system. With PnP, the system configuration can change with little or no input from the user.
 
 ### Properties
 
@@ -256,9 +269,9 @@ Vocabulary Name: pnp-message-type-ov
 
 ```json
 {
-  "type": "x-pnp-evt-record",
+  "type": "x-pnp-evt",
   "spec_version": "2.1",
-  "id": "x-pnp-evt-record--58959aae-d1e0-4e12-a879-270efe33c6e3",
+  "id": "x-pnp-evt--58959aae-d1e0-4e12-a879-270efe33c6e3",
   "message_type": "other-info",
   "time_written": "2021-01-06T20:03:22.000Z",
   "event_category": "device installation",
@@ -428,7 +441,7 @@ Shimcache is created to identify application compatibility issues. Two actions/e
     "type": "windows-registry-key",
     "spec_version": "2.1",
     "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
-    "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\AppCompatCache\\"
+    "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\AppCompatCache"
   }
 ]
 ```
@@ -716,7 +729,7 @@ A desktop.ini in MFT
     "id": "x-file-visit--9880e636-38b0-471a-8266-8a622a95b3a5",
     "op": "other",
     "visit_time ": "2021-01-06T20:03:22.000Z",
-    "file_visited_ref ": "file-f7d4aa7a-d02c-481e-8bdc-450cb0669b5d",
+    "file_visited_ref": "file-f7d4aa7a-d02c-481e-8bdc-450cb0669b5d",
     "record_reason": "functionality",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
     "saved_to_ref": "file--19be1a16-4b87-4fc4-b056-dc9e0389d4bd",
@@ -791,6 +804,49 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
 ]
 ```
 
+## Disk Image Object
+
+**Type Name:** x-disk-image
+
+[A disk image](https://en.wikipedia.org/wiki/Disk_image), in computing, is a computer file containing the contents and structure of a disk volume or of an entire data storage device, such as a hard disk drive, tape drive, floppy disk, optical disc, or USB flash drive.
+
+### Disk Image Specific Properties
+
+| Property Name   | Type                          | Description                                                 |
+| --------------- | ----------------------------- | ----------------------------------------------------------- |
+| type (required) | string                        | The value of this property MUST be x-disk-image.            |
+| partitions      | list of type x-disk-partition | Specifies a list of partitions that an disk image contains. |
+| time_made       | timestamp                     | Specifies the time the image was made.                      |
+
+### Relationships
+
+| Source       | Relationship Type | Target               | Description                                                                       |
+| ------------ | ----------------- | -------------------- | --------------------------------------------------------------------------------- |
+| x-disk-image | is-a              | file                 | This relationship describes that a disk image is a file.                          |
+| x-disk-image | made-by           | identity             | This relationship describes a disk image is made by an identity (often a person). |
+| x-disk-image | made-using        | x-investigation-tool | This relationship describes the investigation tool used to created an disk image. |
+
+### Examples
+
+```json
+{
+  "type": "x-disk-image",
+  "spec_version": "2.1",
+  "id": "x-disk-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+  "partitions": [
+    "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
+    "x-investigation-tool--9bc65596-8fa7-441c-b5a1-71a43d46b221"
+  ],
+  "time_made": "2021-01-06T20:03:22.000Z",
+  "is-a": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
+  "made-by": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
+  "made-using": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
+  "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+  "created": "2021-04-06T20:03:00.000Z",
+  "modified": "2021-04-06T20:03:00.000Z"
+}
+```
+
 ## Investigation Tool
 
 **Type Name:** x-investigation-tool
@@ -803,7 +859,7 @@ Investigation Tools are software that can be used by cyber investigators to perf
 
 | Property Name   | Type                    | Description                                                                                   |
 | --------------- | ----------------------- | --------------------------------------------------------------------------------------------- |
-| type (required) | string                  | The value of this property MUST be x-file-visit-evt.                                          |
+| type (required) | string                  | The value of this property MUST be x-investigation-tool.                                      |
 | last_modified   | timestamps              | The last modified date of the investigation tool.                                             |
 | description     | string                  | A description that provides more details and context about the investigation tool.            |
 | tool_types      | list of type open-vocab | The values for this property SHOULD come from the investigation-tool-type-ov open vocabulary. |
@@ -848,6 +904,71 @@ Use an open-source software to parse and decode $LogFile records
   ]
 }
 ```
+
+## Disk Partition Object
+
+**Type Name:** x-disk-parition
+
+[Disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) or disk slicing is the creation of one or more regions on secondary storage, so that each region can be managed separately. Disk Partition object specifies the properties that are associated with the disk segement.
+
+### ID Contributing Properties
+
+- volume_serial_number
+
+### Disk partition Specific Properties
+
+| Property Name        | Type    | Description                                                                                                                  |
+| -------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| type (required)      | string  | The value of this property MUST be x-disk-partion.                                                                           |
+| partition_seq_num    | integer | Specifies the sequence number the a partition.                                                                               |
+| start_sector         | integer | Specifies the start sector of the partition.                                                                                 |
+| end_sector           | integer | Specifies the end sector of the partition.                                                                                   |
+| bytes_per_sector     | integer | Specifies the number of bytes per sector.                                                                                    |
+| is_bootable          | boolean | Specifies if a partition is bootable.                                                                                        |
+| volume_serial_number | string  | Specifies the serical number of a partition.                                                                                 |
+| partition_type       | string  | Specifies the type of a partition. It MUST come from a partition-type-ov open vocabulary.                                    |
+| file_sys_type        | string  | Specifies the type of a file system. It MUST come from the [list](https://en.wikipedia.org/wiki/Comparison_of_file_systems). |
+
+### Relationships
+
+| Source          | Relationship Type | Target       | Description                                                        |
+| --------------- | ----------------- | ------------ | ------------------------------------------------------------------ |
+| x-disk-parition | part-of           | x-disk-image | This relationship describes that a disk is a part of a disk image. |
+
+### Partition Type Vocabulary
+
+Vocabulary Name: partition-type-ov
+
+| Vocabulary Value | Description                            |
+| ---------------- | -------------------------------------- |
+| doc              | DOS Partition Table                    |
+| mac              | MAC Partition Map                      |
+| bsd              | BSD Disk Label                         |
+| sun              | Sun Volume Table of Contents (Solaris) |
+| gpt              | GUID Partition Table (EFI)             |
+
+### Example
+
+Specify a partition with NTFS
+
+```json
+{
+  "type": "x-disk-partion",
+  "spec_version": "2.1",
+  "id": "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
+  "partition_seq_num": 2,
+  "start_sector": 512,
+  "end_sector": 206848,
+  "bytes_per_sector": 512,
+  "is_bootable": false,
+  "volume_serial_number": "c8ca0c8dca0c7a48",
+  "partition_type": "dos",
+  "file_sys_type ": "ntfs",
+  "part-of": "x-disk-image-42eaa6d5-93ad-46f0-95f2-8343094abe52"
+}
+```
+
+---
 
 ## Extension for Windows Registry Key Object
 
