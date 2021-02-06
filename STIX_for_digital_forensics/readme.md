@@ -58,7 +58,8 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
     - [AppLog](#AppLog)
   - [Disk Image Evidence Object](#Disk-Image-Evidence-Object)
   - [Investigation Tool Object](#Investigation-Tool-Object)
-  - [Action-Object](#Action-Object)
+  - [Action Object](#Action-Object)
+  - [Timeline Object](#timeline-Object)
 
 - Cyber Forensic observable Objects (CFOOs)
 
@@ -882,19 +883,32 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
 
 ### Disk Image Specific Properties
 
-| Property Name   | Type                          | Description                                                 |
-| --------------- | ----------------------------- | ----------------------------------------------------------- |
-| type (required) | string                        | The value of this property MUST be x-disk-image.            |
-| partitions      | list of type x-disk-partition | Specifies a list of partitions that an disk image contains. |
-| time_made       | timestamp                     | Specifies the time the image was made.                      |
+| Property Name    | Type                          | Description                                                                |
+| ---------------- | ----------------------------- | -------------------------------------------------------------------------- |
+| type (required)  | string                        | The value of this property MUST be x-disk-image.                           |
+| partitions       | list of type x-disk-partition | Specifies a list of partitions that an disk image contains.                |
+| time_made        | timestamp                     | Specifies the time the image was made.                                     |
+| format           | open-vocab                    | Specifies the disk image format. It MUST come from x-disk-image-format-ov. |
+| imaging_tool_ref | identifier                    | Specifies the software that creates the disk image.                        |
+| creator_ref      | identifier                    | Specifies the person that create a disk image.                             |
+| file_ref         | identifier                    | Specifies the file that the image refers to.                               |
 
 ### Relationships
 
-| Source       | Relationship Type | Target               | Description                                                                       |
-| ------------ | ----------------- | -------------------- | --------------------------------------------------------------------------------- |
-| x-disk-image | is-a              | file                 | This relationship describes that a disk image is a file.                          |
-| x-disk-image | made-by           | identity             | This relationship describes a disk image is made by an identity (often a person). |
-| x-disk-image | made-using        | x-investigation-tool | This relationship describes the investigation tool used to created an disk image. |
+| Source | Relationship Type | Target | Description |
+| ------ | ----------------- | ------ | ----------- |
+
+### Disk Image Format Vocabulary
+
+**Vocabulary Name:** x-disk-image-format-ov
+
+| Vocabulary Value | Description                                                                                                                      |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| e01              | Encase Evidence image file format                                                                                                |
+| dd               | A bit-of-bit copy of the raw data file                                                                                           |
+| lef              | Encase Logical Evidence files                                                                                                    |
+| zip              | It is an archival forensic image file format that supports lossless data compression without losing the originality of the data. |
+| dmg              | A disk image file that is generally created by the Apple Mac OS X.                                                               |
 
 ### Examples
 
@@ -904,13 +918,14 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
   "spec_version": "2.1",
   "id": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
   "partitions": [
-    "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
-    "x-investigation-tool--9bc65596-8fa7-441c-b5a1-71a43d46b221"
+    "x-disk-parition--c65a985d-dc31-441e-840b-54381cef4e31",
+    "x-disk-parition--9bc65596-8fa7-441c-b5a1-71a43d46b221"
   ],
   "time_made": "2021-01-06T20:03:22.000Z",
-  "is-a": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
+  "format": "dd",
+  "file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
   "made-by": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
-  "made-using": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
+  "imaging_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
   "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
   "created": "2021-04-06T20:03:00.000Z",
   "modified": "2021-04-06T20:03:00.000Z"
@@ -1045,6 +1060,55 @@ An action is one cyber criminal activity performed by a suspect.
 }
 ```
 
+# Timeline Object
+
+**Type Name:** x-timeline
+
+A Timeline object describes a specific cybercrime scenario that is represented by a sequence of actions performed by a threat-actor.
+
+## Timeline Specific Properties
+
+| Property Name   | Type                  | Description                                                            |
+| --------------- | --------------------- | ---------------------------------------------------------------------- |
+| type (required) | string                | The value of this property MUST be x-timeline.                         |
+| actions         | list of type x-action | Specifies a list of actions in chronological order.                    |
+| name            | string                | Specifies the name of a timeline.                                      |
+| description     | string                | A description that provides more details and context about a timeline. |
+
+### Relationships
+
+| Source     | Relationship Type | Target       | Description                                                                 |
+| ---------- | ----------------- | ------------ | --------------------------------------------------------------------------- |
+| x-timeline | performed-by      | threat-actor | This Relationship describes that a timeline is performed by a threat-actor. |
+
+## Example: data leakage using a UBS
+
+```json
+[
+  {
+    "type": "x-timeline",
+    "spec_version": "2.1",
+    "id": "x-timeline--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
+    "name": "data leakage using a UBS",
+    "description": "An threat actor uses a USB to transfer files.",
+    "actions": "[x-action--6ba0fce7-1ff9-44a4-9fbb-28760afc7827, x-action--83aee86d-1523-4111-938e-8edc8a6c804f]",
+    "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+    "created": "2021-04-06T20:03:00.000Z",
+    "modified": "2021-04-06T20:03:00.000Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "created": "2021-05-15T09:12:16.432Z",
+    "modified": "2021-05-15T09:12:16.432Z",
+    "relationship_type": "performed-by",
+    "source_ref": "x-timeline--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
+    "target_ref": "threat-actor-2485b844-4efe-4343-84c8-eb33312dd56f"
+  }
+]
+```
+
 ---
 
 ## Disk Partition Object
@@ -1098,7 +1162,7 @@ Specify a partition with NTFS
 {
   "type": "x-disk-partion",
   "spec_version": "2.1",
-  "id": "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
+  "id": "x-disk-partion--c65a985d-dc31-441e-840b-54381cef4e31",
   "partition_seq_num": 2,
   "start_sector": 512,
   "end_sector": 206848,
