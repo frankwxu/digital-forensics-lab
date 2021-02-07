@@ -58,7 +58,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
     - [MFT]($MFT)
     - [AppLog](#AppLog)
   - [Tool State Evidence Object](#Tool-State-Evidence-Object)
-  - [Disk Image Evidence Object](#Disk-Image-Evidence-Object)
+  - [Disk Image Object](#Disk-Image-Object)
   - [Investigation Tool Object](#Investigation-Tool-Object)
   - [Action Object](#Action-Object)
   - [Timeline Object](#Timeline-Object)
@@ -932,7 +932,7 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 ]
 ```
 
-## Disk Image Evidence Object
+## Disk Image Object
 
 **Type Name:** x-disk-image
 
@@ -940,15 +940,17 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 
 ### Disk Image Specific Properties
 
-| Property Name    | Type                          | Description                                                                |
-| ---------------- | ----------------------------- | -------------------------------------------------------------------------- |
-| type (required)  | string                        | The value of this property MUST be x-disk-image.                           |
-| partitions       | list of type x-disk-partition | Specifies a list of partitions that an disk image contains.                |
-| time_made        | timestamp                     | Specifies the time the image was made.                                     |
-| format           | open-vocab                    | Specifies the disk image format. It MUST come from x-disk-image-format-ov. |
-| imaging_tool_ref | identifier                    | Specifies the software that creates the disk image.                        |
-| creator_ref      | identifier                    | Specifies the person that create a disk image.                             |
-| file_ref         | identifier                    | Specifies the file that the image refers to.                               |
+| Property Name           | Type                          | Description                                                                |
+| ----------------------- | ----------------------------- | -------------------------------------------------------------------------- |
+| type (required)         | string                        | The value of this property MUST be x-disk-image.                           |
+| image_id                | string                        | Specifies an id of a disk image.                                           |
+| description             | string                        | Specifies the description of a disk image.                                 |
+| partitions              | list of type x-disk-partition | Specifies a list of partitions that an disk image contains.                |
+| acquired_on             | timestamp                     | Specifies the time the image was acquired.                                 |
+| format                  | open-vocab                    | Specifies the disk image format. It MUST come from x-disk-image-format-ov. |
+| acquired_using_tool_ref | identifier                    | Specifies the software that creates the disk image.                        |
+| acquired_by_ref         | identifier                    | Specifies the person that create a disk image.                             |
+| image_file_ref          | identifier                    | Specifies a image file.                                                    |
 
 ### Relationships
 
@@ -973,18 +975,18 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 ```json
 [
   {
-    "type": "x-disk-image-evidence",
+    "type": "x-disk-image",
     "spec_version": "2.1",
     "id": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "partitions": [
       "x-disk-partition--c65a985d-dc31-441e-840b-54381cef4e31",
       "x-disk-partition--9bc65596-8fa7-441c-b5a1-71a43d46b221"
     ],
-    "time_made": "2021-01-06T20:03:22.000Z",
+    "acquired_on": "2021-01-06T20:03:22.000Z",
     "format": "dd",
-    "file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
-    "made-by": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
-    "imaging_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
+    "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
+    "acquired_by_ref": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
+    "acquired_using_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
     "modified": "2021-04-06T20:03:00.000Z"
@@ -996,7 +998,7 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
     "relationship_type": "image-of",
-    "source_ref": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "source_ref": "x-disk-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "target_ref": "x-crime-case--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
   }
 ]
@@ -1261,9 +1263,9 @@ A Crime Case object represents a background description of a potential cybercrim
 
 ## Disk Partition Object
 
-**Type Name:** x-disk-parition
+**Type Name:** x-disk-partition
 
-[Disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) or disk slicing is the creation of one or more regions on secondary storage, so that each region can be managed separately. Disk Partition object specifies the properties that are associated with the disk segement.
+[Disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) or disk slicing is the creation of one or more regions on secondary storage, so that each region can be managed separately. A Disk Partition object specifies the properties that are associated with the disk segment.
 
 ### ID Contributing Properties
 
@@ -1282,7 +1284,8 @@ A Crime Case object represents a background description of a potential cybercrim
 | volume_serial_number | string  | Specifies the serial number of a partition.                                                                                  |
 | partition_type       | string  | Specifies the type of a partition. It MUST come from a x-partition-type-ov open vocabulary.                                  |
 | file_sys_type        | string  | Specifies the type of a file system. It MUST come from the [list](https://en.wikipedia.org/wiki/Comparison_of_file_systems). |
-| label                | string  | Specifies the label of the partition, e.g., "C", "D", "E", etc.                                                              |
+| drive_letter         | string  | Specifies the drive letter of the partition, e.g., "C", "D", "E", etc.                                                       |
+| label                | string  | Specifies the label/volume name of the partition, e.g., "backup".                                                            |
 
 ### Relationships
 
@@ -1319,7 +1322,7 @@ Specify a partition with NTFS
   "volume_serial_number": "c8ca0c8dca0c7a48",
   "partition_type": "dos",
   "file_sys_type ": "ntfs",
-  "label": "C",
+  " drive_letter  ": "C",
   "part-of": "x-disk-image-42eaa6d5-93ad-46f0-95f2-8343094abe52"
 }
 ```
@@ -1346,7 +1349,8 @@ We focus on extending the data property of registry value as the data may contai
   "x_data": [
     {
       "type": "x-extended-type",
-      "id": "x-extended-type--83aee86d-1523-4111-938e-8edc8a6c804f"
+      "id": "x-extended-type--83aee86d-1523-4111-938e-8edc8a6c804f",
+      "key": "value"
     }
   ]
 }
