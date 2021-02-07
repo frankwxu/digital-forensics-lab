@@ -82,18 +82,17 @@ A Windows Event Evidence object represents properties of an event, which is reco
 
 ### Properties
 
-| Property Name              | Type       | Description                                                                                                                                                        |
-| -------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| type (required)            | string     | The value of this property MUST be x-windows-evt-evidence.                                                                                                         |
-| record_number              | string     | Specifies the number of the entry in a saved event log.                                                                                                            |
-| time_generated             | timestamp  | Specifies the time at which this entry was submitted.                                                                                                              |
-| time_written               | timestamp  | Specifies the time at which this entry was received by the service to be written to the log.                                                                       |
-| event_generator            | string     | Specifies the name of the software (or the name of a subcomponent of the software if the software is large) that generates the event.                              |
-| event_id                   | integer    | The value is specific to the event source for the event, and is used with the source name to locate a description string in the message file for the event source. |
-| event_id_string            | integer    | Specified the description string of event_id.                                                                                                                      |
-| event_type                 | string     | It MUST be one EventType defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                                |
-| user_account_ref(required) | identifier | The user account that is associated with the event.                                                                                                                |
-| source_ref(required)       | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact                                                                          |
+| Property Name        | Type       | Description                                                                                                                                                        |
+| -------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| type (required)      | string     | The value of this property MUST be x-windows-evt-evidence.                                                                                                         |
+| record_number        | string     | Specifies the number of the entry in a saved event log.                                                                                                            |
+| time_generated       | timestamp  | Specifies the time at which this entry was submitted.                                                                                                              |
+| time_written         | timestamp  | Specifies the time at which this entry was received by the service to be written to the log.                                                                       |
+| event_generator      | string     | Specifies the name of the software (or the name of a subcomponent of the software if the software is large) that generates the event.                              |
+| event_id             | integer    | The value is specific to the event source for the event, and is used with the source name to locate a description string in the message file for the event source. |
+| event_id_string      | integer    | Specified the description string of event_id.                                                                                                                      |
+| event_type           | string     | It MUST be one EventType defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                                |
+| source_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact                                                                          |
 
 Notes:
 
@@ -102,8 +101,9 @@ Notes:
 
 ### Relationships
 
-| Source | Relationship Type | Target | Description |
-| ------ | ----------------- | ------ | ----------- |
+| Source                 | Relationship Type | Target       | Description                                                                                     |
+| ---------------------- | ----------------- | ------------ | ----------------------------------------------------------------------------------------------- |
+| x-windows-evt-evidence | traced-back-to    | user-account | This Relationship describes that a Windows Event Evidence can be traced back to a user-account. |
 
 ### Example 1: describes a "logon" event recorded in the security event file.
 
@@ -157,6 +157,16 @@ Notes:
     "credential_last_changed": "2016-01-20T14:27:43Z",
     "account_first_login": "2016-01-20T14:26:07Z",
     "account_last_login": "2016-07-22T16:08:28Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "traced-back-to",
+    "source_ref": "x-windows-evt-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "target_ref": "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c"
   }
 ]
 ```
@@ -177,7 +187,6 @@ Notes:
   "source_ref": "file--79e0da61-48e2-4552-874f-83d74262f39d",
   "created": "2021-01-06T20:03:00.000Z",
   "modified": "2021-01-06T20:03:00.000Z",
-  "user_account_ref ": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb",
   "source_ref": "file--e2dd9934-e6aa-440a-9d51-21ccf990c4f5",
   "created_by_ref": "identity-704d9d08-060e-48f6-ace9-fde3eeb712ab"
 }
@@ -201,13 +210,13 @@ A Webpage Visit Evidence object represents a visit to a webpage.
 | visit_count          | integer    | The number of times visited                                                                |
 | browser_ref          | identifier | The value type for this property SHOULD software.                                          |
 | file_requested_ref   | identifier | The ID of the file the HTTP requested.                                                     |
-| user_account_ref     | identifier | The user account that is associated with the record.                                       |
 | source_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact. |
 
 ### Relationships
 
-| Source | Relationship Type | Target | Description |
-| ------ | ----------------- | ------ | ----------- |
+| Source                   | Relationship Type | Target       | Description                                                                                     |
+| ------------------------ | ----------------- | ------------ | ----------------------------------------------------------------------------------------------- |
+| x-webpage-visit-evidence | traced-back-to    | user-account | This Relationship describes that a webpage visit evidence can be traced back to a user-account. |
 
 ### Examples
 
@@ -223,7 +232,6 @@ A Webpage Visit Evidence object represents a visit to a webpage.
     "visit-count": 2,
     "browser_ref": "software--b67a8d52-d438-4ace-8285-c6d485e34192",
     "file_requested_ref ": "file--10624790-0e43-4498-89da-8979ab4215ae",
-    "user_account_ref ": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb",
     "source_ref": "file--843f6a43-0603-4e0d-84a4-198386eecf4f",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2014-04-06T20:03:00.000Z",
@@ -242,6 +250,16 @@ A Webpage Visit Evidence object represents a visit to a webpage.
     "name": "chrome",
     "cpe": "cpe:2.3:a:google:chrome:88.0.4324.104:*:*:*:*:*:*:*",
     "vendor": "Google"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "traced-back-to",
+    "source_ref": "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
   }
 ]
 ```
@@ -275,6 +293,12 @@ Vocabulary Name: x-pnp-message-type-enum
 | error            | An Error message                                                     |
 | warning          | An warning message                                                   |
 | other-info       | Information message other than an error message or a warning message |
+
+### Relationships
+
+| Source             | Relationship Type | Target       | Description                                                                                 |
+| ------------------ | ----------------- | ------------ | ------------------------------------------------------------------------------------------- |
+| x-pnp-evt-evidence | traced-back-to    | user-account | This Relationship describes that a pnp event evidence can be traced back to a user-account. |
 
 ### Examples
 
@@ -310,15 +334,15 @@ A File Visit object represents properties that are associated with a file/direct
 
 | Property Name               | Type       | Description                                                                                                          |
 | --------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
-| type (required)             | string     | The value of this property MUST be x-file-visit.                                                                     |
+| type (required)             | string     | The value of this property MUST be x-file-visit-evidence.                                                            |
 | op                          | enum       | Specifies how the file was visited. The values of this property MUST come from the x-file-visit-op-enum enumeration. |
 | visit_time                  | timestamp  | Specifies the time a file was visited.                                                                               |
 | visitor_ref                 | identifier | Specifier the a visitor, e.g., software or software components, who visited a file.                                  |
 | visit_count                 | integer    | The total number of times the program has visited.                                                                   |
 | record_reason               | enum       | Specifies a main reasons why a software records the visit. It MUST come from the x-file-visit-record-reason-enum.    |
 | file_visited_ref (required) | identifier | Specifies a file or directory that was recently visited.                                                             |
-| source_ref(required)        | identifier | Specifies the destination (e.g., file, registry, artifact, or directory) the record is saved to.                     |
-| common_name                 | open-vocab | Specifies a name that is commonly used to describe the visit. It MUST from x-file-visit-common-name-ov.              |
+| source_ref(required)        | identifier | Specifies the destination (e.g., file, registry, artifact, or directory) the record was saved to.                    |
+| common_name                 | open-vocab | Specifies the evidence name that is commonly referred by investigators. It MUST from x-file-visit-common-name-ov.    |
 
 ### File Visit Operation Enum
 
@@ -339,7 +363,7 @@ A File Visit object represents properties that are associated with a file/direct
 | other            |                                                                                          |
 | unknown          | There is not enough information available to determine how file was or will be accessed. |
 
-### File Visit Event Record Reason Enum
+### File Visit Record Reason Enum
 
 **Vocabulary Name:** x-file-visit-record-reason-enum
 
@@ -347,15 +371,17 @@ A File Visit object represents properties that are associated with a file/direct
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | functionality    | To support functionalities of a software, e.g., mft,                                                                        |
 | security         | To protect systems from attacks.                                                                                            |
-| accountability   | The obligation imposed by law or regulations to keep systems explainable by keeping accruant record of internal activities. |
-| maintainability  |                                                                                                                             |
+| accountability   | The obligation imposed by law or regulations to keep systems explainable by keeping accurate record of internal activities. |
+| maintainability  | To support the maintainability of a system.                                                                                 |
 | reliability      | The quality of being reliable, dependable or trustworthy, e.g., data recovery ($logFile) and backup (usnjournal).           |
-| scalability      |                                                                                                                             |
+| scalability      | To support the scalability of the system.                                                                                   |
 | performance      | For fast service, often including using cache, e.g., recentfilecache, prefetch                                              |
 | usability        | For easy to use, e.g., userassist, muicache, shellbag, jumplist, mru                                                        |
-| reusability      |                                                                                                                             |
+| reusability      | To improve reusability of a system.                                                                                         |
 | compatibility    | To identify and fix application compatibility or portability issues, e.g., shimcache.                                       |
-| history          | Not for specific reasons, just logging key activties of a software.                                                         |
+| history          | Not for specific reasons, just logging key activities of a software.                                                        |
+
+### File Visit Common Name Vocabulary
 
 **Vocabulary Name:** x-file-visit-common-name-ov
 
@@ -371,9 +397,15 @@ A File Visit object represents properties that are associated with a file/direct
 | jumplist        | Represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button.               |
 | mru             | Most recently used files.                                                                             |
 | autorun         |                                                                                                       |
-| mft             | Master file table for file managment.                                                                 |
+| mft             | Master file table for file management.                                                                |
 | bam             | Background Activity Moderator is a Windows service that Controls activity of background applications. |
-| applog          | Applicatoin logs                                                                                      |
+| applog          | Application logs.                                                                                     |
+
+### Relationships
+
+| Source                | Relationship Type | Target       | Description                                                                                  |
+| --------------------- | ----------------- | ------------ | -------------------------------------------------------------------------------------------- |
+| x-file-visit-evidence | traced-back-to    | user-account | This Relationship describes that a file visit evidence can be traced back to a user-account. |
 
 ### RecentFileCache
 
@@ -421,6 +453,16 @@ RecentFileCache.bcf only contains references to programs that were recently exec
     "cpe": "cpe:2.3:o:microsoft:Windows:-:*:*:*:*:*:*:*",
     "version": "7",
     "vendor": "Microsoft"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "traced-back-to",
+    "source_ref": "x-file-visit-evidence--83aee86d-1523-4111-938e-8edc8a6c804f",
+    "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
   }
 ]
 ```
@@ -834,13 +876,14 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 | type (required)  | string     | The value of this property MUST be x-tool-state-evidence.                                                                               |
 | state            | enum       | Specifies a state of tool. It MUST come from x-tool-state-enum enumeration.                                                             |
 | enter_state_time | timestamp  | Specifies the time a tool entering the state.                                                                                           |
-| exit_state_time  | timestamp  | Specifies the time a tool exsiting the state.                                                                                           |
+| exit_state_time  | timestamp  | Specifies the time a tool existing the state.                                                                                           |
 | tool_ref         | identifier | An ID reference to a Tool object. If the tool is an anti-forensics tool, the type of the tool MUST come from ani-forenisc-tool-type-ov. |
 
 ### Relationships
 
-| Source | Relationship Type | Target | Description |
-| ------ | ----------------- | ------ | ----------- |
+| Source                | Relationship Type | Target       | Description                                                                                  |
+| --------------------- | ----------------- | ------------ | -------------------------------------------------------------------------------------------- |
+| x-tool-state-evidence | traced-back-to    | user-account | This Relationship describes that a tool state evidence can be traced back to a user-account. |
 
 ### Tool State Enumeration
 
@@ -909,8 +952,9 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 
 ### Relationships
 
-| Source | Relationship Type | Target | Description |
-| ------ | ----------------- | ------ | ----------- |
+| Source       | Relationship Type | Target       | Description                                                                |
+| ------------ | ----------------- | ------------ | -------------------------------------------------------------------------- |
+| x-disk-image | image-of          | x-crime-case | This Relationship describes that a disk image is an image of x-crime-case. |
 
 ### Disk Image Format Vocabulary
 
@@ -927,23 +971,35 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 ### Examples
 
 ```json
-{
-  "type": "x-disk-image-evidence",
-  "spec_version": "2.1",
-  "id": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-  "partitions": [
-    "x-disk-parition--c65a985d-dc31-441e-840b-54381cef4e31",
-    "x-disk-parition--9bc65596-8fa7-441c-b5a1-71a43d46b221"
-  ],
-  "time_made": "2021-01-06T20:03:22.000Z",
-  "format": "dd",
-  "file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
-  "made-by": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
-  "imaging_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
-  "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-  "created": "2021-04-06T20:03:00.000Z",
-  "modified": "2021-04-06T20:03:00.000Z"
-}
+[
+  {
+    "type": "x-disk-image-evidence",
+    "spec_version": "2.1",
+    "id": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "partitions": [
+      "x-disk-partition--c65a985d-dc31-441e-840b-54381cef4e31",
+      "x-disk-partition--9bc65596-8fa7-441c-b5a1-71a43d46b221"
+    ],
+    "time_made": "2021-01-06T20:03:22.000Z",
+    "format": "dd",
+    "file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
+    "made-by": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
+    "imaging_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
+    "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+    "created": "2021-04-06T20:03:00.000Z",
+    "modified": "2021-04-06T20:03:00.000Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "image-of",
+    "source_ref": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-crime-case--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
+  }
+]
 ```
 
 ## Investigation Tool Object
