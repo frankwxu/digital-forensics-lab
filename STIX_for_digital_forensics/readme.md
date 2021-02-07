@@ -2,15 +2,17 @@
 
 ## Objectives
 
-The goal of the project is to explore and build an extended STIX™ (xSTIX), to exchange Cyber Forensic Intelligence (CFI). While STIX focuses on understanding, responding to, and mitigating computer-based attacks, the xSTIX allows cyber forensics communities to better understand what and how digital evidence is left on hosts and networks during these attacks and to reconstruct digital forensic-based crime scenes after attacks.
+The goal of the project is to explore and build an extended STIX™ (xSTIX) for exchanging Cyber Forensic Intelligence (CFI). While STIX focuses on understanding, responding to, and mitigating computer-based attacks, the xSTIX allows cyber forensics communities to better understand what and how digital evidence is left on hosts and networks during these attacks and to reconstruct digital forensic-based crime scenes after attacks. The reconstructed crime scenes along with the supporting evidence should be presentable and explainable in courts.
 
-The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties, and exended open vocabulary. They are categrized as follows:
+The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties, and extended open vocabulary. They are categorized as follows:
 
-- **Cyber Forensic Domain Objects (CFDOs):** CFDOs are CFI domain objects that are corresponding to concepts used in hosts and networks but are more intensively used for CFI, e.g., the concepts of file and webpage visits. Each CFO represents an event generated and recorded by firmware, drivers, operating systems, and software applications. The recorded event is often used to meet functional or non-functional requirements of a feature/system. For example, the Windows security feature requires logging all security-related activities for auditing; Google drive records all files' status for a faster local and remote files synchronization. CFOs are different from STIX Cyber-Observable Data objects because CFOs are pre-processed data in the context of CFI instead of raw data that Cyber-observable Objects want to describe.
+- **Cyber Forensic Objects (CFOs)**
 
-- **Cyber Forensic observable Objects (CFOOs):** CFOOs are the extensions to STX SCO. They are used to describe Cyber-observable Objects that typically used for computer forensics. For example, a disk image object represents a computer file containing the contents and structure of a disk volume or of an entire data storage device, such as a hard disk drive, tape drive, floppy disk, optical disc, or USB flash drive.
+  - **Cyber Forensic Domain Objects (CFDOs):** CFDOs are CFI domain objects that are corresponding to concepts used in hosts and networks but are more intensively used for CFI, e.g., the concepts of disk image, file visit evidence, and webpage webpage visit evidence. A collection of CFDOs answer questions such as (1) how evidence is generated, collected, and stored, (2) who left evidence on disk images, (3) What cybercrime activities were performed? (4) What and how evidence does indicate these activities? Note that the concept of evidence plays a key role of CFI due to the natural of cyber forensic investigations. Evidence is log data resides on disks. The log data, in various forms, is often generated and used to meet functional or non-functional requirements of a feature/system originally. For example, the Windows security feature requires logging all security-related activities for auditing; Google drive records all files' status for a faster local and remote files synchronization. Cyber investigations often utilize these logs to reconstruct the behaviors of users. CFDOs are different from STIX Cyber-Observable Data objects because CFDOs are pre-processed data in the context of CFI instead of raw data that Cyber-observable Objects want to describe.
 
-- **Custom Properties to STIX objects:**: Customize properties of exsiting STIX objects to support forensic investigations. For example, registry value as the data may contain rich information that needs to be organized and formalized as digital evidence. The organized information will be formaized in new customized properties.
+  - **Cyber Forensic Observable Objects (CFOOs):** CFOOs are similar to STIX SCOs. They are used to describe Cyber-observable Objects that frequently used for for CFI, e.g., a disk partition object represents the contents and structure of a disk segment.
+
+- **Custom Properties to STIX objects:**: Customize properties of existing STIX objects to support forensic investigations. For example, registry value as the data may contain rich information that needs to be organized and formalized as digital evidence. The organized information will be formalized in new customized properties.
 
 - **Open Vocabulary extension:** Add vocabulary in the field of cyber forensic investigations.
 
@@ -18,7 +20,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 - **CFOs:** We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is that the value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
 - **Custom Properties:** We follow the [doc](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_8072zpptza86).
-- **Open Vocabulary extension:** We follow [open vovaulary extension](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_bnnxah80y7by). Values that are not from the suggested vocabulary SHOULD be all lowercase and SHOULD use hyphens instead of spaces or underscores as word separators.
+- **Open Vocabulary extension:** We follow [open vocabulary extension](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_bnnxah80y7by). Values that are not from the suggested vocabulary SHOULD be all lowercase and SHOULD use hyphens instead of spaces or underscores as word separators.
 
 ## Properites of CFOs
 
@@ -70,29 +72,28 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
   - [Extension for Windows Registry Key Object](#Extension-for-Windows-Registry-Key-Object)
 - Open Vocabulary extension
   - [threat-actor-type-ov extension](#threat-actor-type-ov-extension])
-  - [ani-forenisc-tool-type-ov](#tool-type-ov-extension)
+  - [ani-forensic-tool-type-ov](#tool-type-ov-extension)
 
 ## Windows Event Evidence Object
 
 **Type Name:** x-windows-evt-evidence
 
-The Windows Event Evidence object represents an event recorded by Windows OS, including applicatioin, security, steup, system, and forwarded-events.
+A Windows Event Evidence object represents properties of an event, which is recorded by Windows OS.
 
 ### Properties
 
 | Property Name              | Type       | Description                                                                                                                                                        |
 | -------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | type (required)            | string     | The value of this property MUST be x-windows-evt-evidence.                                                                                                         |
-| record_number              | string     | Specifies the number of the record.                                                                                                                                |
+| record_number              | string     | Specifies the number of the entry in a saved event log.                                                                                                            |
 | time_generated             | timestamp  | Specifies the time at which this entry was submitted.                                                                                                              |
 | time_written               | timestamp  | Specifies the time at which this entry was received by the service to be written to the log.                                                                       |
-| event_source               | string     | Specifies the name of the software or the name of a subcomponent of the application if the application is large that logs the event.                               |
+| event_generator            | string     | Specifies the name of the software (or the name of a subcomponent of the software if the software is large) that generates the event.                              |
 | event_id                   | integer    | The value is specific to the event source for the event, and is used with the source name to locate a description string in the message file for the event source. |
 | event_id_string            | integer    | Specified the description string of event_id.                                                                                                                      |
 | event_type                 | string     | It MUST be one EventType defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                                |
-| event_category             | enum       | Categories help to organize events                                                                                                                                 |
 | user_account_ref(required) | identifier | The user account that is associated with the event.                                                                                                                |
-| source_ref(required)       | identity   | Specifies object type that event object belongs to. It MUST be a type of file or artifact                                                                          |
+| source_ref(required)       | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact                                                                          |
 
 Notes:
 
@@ -115,11 +116,11 @@ Notes:
     "record_number": "12145",
     "time_generated": "2015-01-06T20:03:00.000Z",
     "time_written": "2015-01-06T20:03:00.100Z",
-    "event_source": "Microsoft Windows security auditing.",
+    "event_generator": "Microsoft Windows security auditing.",
     "event_id": "4624",
     "event_id_string": "An account was successfully logged on",
     "event_type": "EVENTLOG_AUDIT_SUCCESS",
-    "user_account_ref ": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb",
+    "user_account_ref ": "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c",
     "source_ref": "file--79e0da61-48e2-4552-874f-83d74262f39d",
     "created": "2021-01-06T20:03:00.000Z",
     "modified": "2021-01-06T20:03:00.000Z",
@@ -142,14 +143,20 @@ Notes:
     "name": "security.evt"
   },
   {
-    "type": "identity",
+    "type": "user-account",
     "spec_version": "2.1",
-    "id": "identity--704d9d08-060e-48f6-ace9-fde3eeb712ab",
-    "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-    "created": "2014-04-06T20:03:00.000Z",
-    "modified": "2014-04-06T20:03:00.000Z",
-    "name": "John Smith",
-    "identity_class": "individual"
+    "id": "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c",
+    "user_id": "1001",
+    "account_login": "jdoe",
+    "account_type": "Windows",
+    "display_name": "John Doe",
+    "is_service_account": false,
+    "is_privileged": false,
+    "can_escalate_privs": true,
+    "account_created": "2016-01-20T12:31:12Z",
+    "credential_last_changed": "2016-01-20T14:27:43Z",
+    "account_first_login": "2016-01-20T14:26:07Z",
+    "account_last_login": "2016-07-22T16:08:28Z"
   }
 ]
 ```
@@ -164,7 +171,7 @@ Notes:
   "record_number": "4512",
   "time_generated": "2015-01-06T20:03:00.000Z",
   "time_written": "2015-01-06T20:03:00.100Z",
-  "event_source": "cdrom",
+  "event_generator": "cdrom",
   "event_id": "16388",
   "user_account_ref ": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb",
   "source_ref": "file--79e0da61-48e2-4552-874f-83d74262f39d",
@@ -180,7 +187,7 @@ Notes:
 
 **Type Name:** x-webpage-visit-evidence
 
-The Webpage Visit Evidence object represents a single visit to a webpage.
+A Webpage Visit Evidence object represents a visit to a webpage.
 
 ### Properties
 
@@ -243,7 +250,7 @@ The Webpage Visit Evidence object represents a single visit to a webpage.
 
 **Type Name:** x-pnp-evt-evidence
 
-The Plug and Play (PnP) Event Evidence object represents an event recorded by Windows Kernel-Mode Plug (pnp) and Play Manager. PnP manager is a combination of hardware technology and software techniques that enables a PC to recognize when a device is added to the system. With PnP, the system configuration can change with little or no input from the user.
+The Plug and Play (PnP) Event Evidence object represents an event recorded by Windows Kernel-Mode Plug (pnp) and Play Manager. PnP manager is a combination of hardware technology and software techniques that enables a PC to recognize when a device is added to the system. With PnP, the system configuration can change with little or no input from the user. installation events are logged in SetupAPI.dev.log.
 
 ### Properties
 
@@ -252,7 +259,7 @@ The completed log properties can be accessed [Microsoft office docs- Format of a
 | Property Name        | Type       | Description                                                                                                                                                    |
 | -------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | type (required)      | string     | The value of this property MUST be x-pnp-evt-evidence.                                                                                                         |
-| message_type         | enum       | The values of this property MUST come from the x-pnp-message-type-ov enumeration.                                                                              |
+| message_type         | enum       | The values of this property MUST come from the x-pnp-message-type-enum enumeration.                                                                            |
 | time_generated       | timestamp  | Specified the time at which this entry was submitted.                                                                                                          |
 | time_written         | timestamp  | Specified the time at which this entry was received by the service to be written to the log.                                                                   |
 | event_category       | string     | Indicates the category of SetupAPI operation that made the log entry. MUST be one of the predefined event_category operation strings, e.g.device installation. |
@@ -261,7 +268,7 @@ The completed log properties can be accessed [Microsoft office docs- Format of a
 
 ### Message Type Vocabulary
 
-Vocabulary Name: x-pnp-message-type-ov
+Vocabulary Name: x-pnp-message-type-enum
 
 | Vocabulary Value | Description                                                          |
 | ---------------- | -------------------------------------------------------------------- |
@@ -283,7 +290,13 @@ Vocabulary Name: x-pnp-message-type-ov
   "source_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5",
   "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
   "created": "2014-04-06T20:03:00.000Z",
-  "modified": "2014-04-06T20:03:00.000Z"
+  "modified": "2014-04-06T20:03:00.000Z",
+  "external_references": [
+    {
+      "source_name": " event_category and SetupAPI operation",
+      "url": "https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body"
+    }
+  ]
 }
 ```
 
@@ -291,7 +304,7 @@ Vocabulary Name: x-pnp-message-type-ov
 
 **Type Name:** x-file-visit-evidence
 
-The File Visit object represents properties that are associasted with a file/directory/network directory visit (for various reasons) performed by operating systems or applications. The operation to the file during the visit can be read, create, etc. The visit may be saved in different forms, e.g., file, cache, Windows registry, etc.
+A File Visit object represents properties that are associated with a file/directory/network directory visit (for various reasons) performed by operating systems or applications. The operation to the file during the visit can be read, create, etc. The visit may be saved in different forms, e.g., file, cache, Windows registry, etc.
 
 ### Properties
 
