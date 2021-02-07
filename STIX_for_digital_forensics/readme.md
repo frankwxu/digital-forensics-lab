@@ -1062,7 +1062,7 @@ Use an open-source software to parse and decode $LogFile records
 
 **Type Name:** x-action
 
-An action is one cyber criminal activity performed by a suspect.
+An action is one cyber criminal activity performed under a user account.
 
 ## Action Specific Properties
 
@@ -1073,12 +1073,13 @@ An action is one cyber criminal activity performed by a suspect.
 | description     | string                  | A description that provides more details and context about the Action.   |
 | performed_time  | timestamp               | Specified the time that performed an action.                             |
 | note            | string                  | Additional note that describes an action.                                |
-| evidence_ref    | list of type identifier | Specifies a list of evidence objects that are associated with an action. |
+| evidence_refs   | list of type identifier | Specifies a list of evidence objects that are associated with an action. |
 
 ### Relationships
 
-| Source | Relationship Type | Target | Description |
-| ------ | ----------------- | ------ | ----------- |
+| Source   | Relationship Type | Target       | Description                                                                |
+| -------- | ----------------- | ------------ | -------------------------------------------------------------------------- |
+| x-action | traced-back-to    | user-account | This Relationship describes that an action is traced-back-to user-account. |
 
 ## Example: An action that search for anti-forensics tools
 
@@ -1091,7 +1092,9 @@ An action is one cyber criminal activity performed by a suspect.
     "name": "Search anti-forensic tool online",
     "description": "Search application online using IE",
     "performed_time ": "2015-25-25T14:46:44:44Z",
-    "evidence_ref ": "[x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f]",
+    "evidence_refs": [
+      "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"
+    ],
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
     "modified": "2021-04-06T20:03:00.000Z"
@@ -1109,6 +1112,16 @@ An action is one cyber criminal activity performed by a suspect.
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2014-04-06T20:03:00.000Z",
     "modified": "2014-04-06T20:03:00.000Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "traced-back-to",
+    "source_ref": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
   }
 ]
 ```
@@ -1123,7 +1136,7 @@ An action is one cyber criminal activity performed by a suspect.
   "name": "Install ccleaner tool",
   "description": "Install ccleaner anti-forensic tool",
   "performed_time ": "2015-25-25T14:46:44:44Z",
-  "evidence_ref ": [
+  "evidence_refs": [
     "x-tool-state-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "x-file-visit-evidence--83aee86d-1523-4111-938e-8edc8a6c804f"
   ],
@@ -1154,7 +1167,7 @@ A Timeline object describes a specific cybercrime scenario that is represented b
 
 | Source     | Relationship Type | Target       | Description                                                                 |
 | ---------- | ----------------- | ------------ | --------------------------------------------------------------------------- |
-| x-timeline | performed-by      | threat-actor | This Relationship describes that a timeline is performed by a threat-actor. |
+| x-timeline | traced-back-to    | user-account | This Relationship describes that a timeline is traced-back-to user-account. |
 
 ## Example: data leakage using a UBS
 
@@ -1181,9 +1194,9 @@ A Timeline object describes a specific cybercrime scenario that is represented b
     "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
     "created": "2021-05-15T09:12:16.432Z",
     "modified": "2021-05-15T09:12:16.432Z",
-    "relationship_type": "performed-by",
+    "relationship_type": "traced-back-to ",
     "source_ref": "x-timeline--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
-    "target_ref": "threat-actor-2485b844-4efe-4343-84c8-eb33312dd56f"
+    "target_ref": "user-account-2485b844-4efe-4343-84c8-eb33312dd56f"
   }
 ]
 ```
@@ -1199,7 +1212,7 @@ A Crime Case object represents a background description of a potential cybercrim
 | Property Name   | Type                    | Description                                                                 |
 | --------------- | ----------------------- | --------------------------------------------------------------------------- |
 | type (required) | string                  | The value of this property MUST be x-crime-case.                            |
-| case_id         | string                  | Specifies a case identifier that is assgined to a case.                     |
+| case_id         | string                  | Specifies a case identifier that is assigned to a case.                     |
 | name            | string                  | Specifies the name of a case.                                               |
 | description     | string                  | A description that provides more details and context about a case.          |
 | disk_images     | list of type disk_image | Specifies a list of dis_images that are associated with a crime case.       |
@@ -1260,22 +1273,22 @@ A Crime Case object represents a background description of a potential cybercrim
 
 | Property Name        | Type    | Description                                                                                                                  |
 | -------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| type (required)      | string  | The value of this property MUST be x-disk-partion.                                                                           |
+| type (required)      | string  | The value of this property MUST be x-disk-partition.                                                                         |
 | partition_seq_num    | integer | Specifies the sequence number the a partition.                                                                               |
 | start_sector         | integer | Specifies the start sector of the partition.                                                                                 |
 | end_sector           | integer | Specifies the end sector of the partition.                                                                                   |
 | bytes_per_sector     | integer | Specifies the number of bytes per sector.                                                                                    |
 | is_bootable          | boolean | Specifies if a partition is bootable.                                                                                        |
-| volume_serial_number | string  | Specifies the serical number of a partition.                                                                                 |
+| volume_serial_number | string  | Specifies the serial number of a partition.                                                                                  |
 | partition_type       | string  | Specifies the type of a partition. It MUST come from a x-partition-type-ov open vocabulary.                                  |
 | file_sys_type        | string  | Specifies the type of a file system. It MUST come from the [list](https://en.wikipedia.org/wiki/Comparison_of_file_systems). |
-| label                | string  | Specifies the label of the paritition, e.g., "C", "D", "E", etc.                                                             |
+| label                | string  | Specifies the label of the partition, e.g., "C", "D", "E", etc.                                                              |
 
 ### Relationships
 
-| Source          | Relationship Type | Target       | Description                                                        |
-| --------------- | ----------------- | ------------ | ------------------------------------------------------------------ |
-| x-disk-parition | part-of           | x-disk-image | This relationship describes that a disk is a part of a disk image. |
+| Source           | Relationship Type | Target       | Description                                                        |
+| ---------------- | ----------------- | ------------ | ------------------------------------------------------------------ |
+| x-disk-partition | part-of           | x-disk-image | This relationship describes that a disk is a part of a disk image. |
 
 ### Partition Type Vocabulary
 
@@ -1295,9 +1308,9 @@ Specify a partition with NTFS
 
 ```json
 {
-  "type": "x-disk-partion",
+  "type": "x-disk-partition",
   "spec_version": "2.1",
-  "id": "x-disk-partion--c65a985d-dc31-441e-840b-54381cef4e31",
+  "id": "x-disk-partition--c65a985d-dc31-441e-840b-54381cef4e31",
   "partition_seq_num": 2,
   "start_sector": 512,
   "end_sector": 206848,
