@@ -961,10 +961,10 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 
 ### Relationships
 
-| Source       | Relationship Type | Target           | Description                                                                    |
-| ------------ | ----------------- | ---------------- | ------------------------------------------------------------------------------ |
-| x-disk-image | image-of          | x-crime-case     | This Relationship describes that a disk image is an image of x-crime-case.     |
-| x-disk-image | image-of          | x-secondary-disk | This Relationship describes that a disk image is an image of x-secondary-disk. |
+| Source       | Relationship Type | Target              | Description                                                                      |
+| ------------ | ----------------- | ------------------- | -------------------------------------------------------------------------------- |
+| x-disk-image | image-of          | x-crime-case        | This Relationship describes that a disk image is an image of x-crime-case.       |
+| x-disk-image | image-of          | x-secondary-Storage | This Relationship describes that a disk image is an image of x-secondary-Storage |
 
 ### Disk Image Format Vocabulary
 
@@ -1494,7 +1494,7 @@ We focus on extending the data property of registry value as the data may contai
 | illegal-possessor                    | An individual that owns, produces, distributes illegal information and device.        |
 | online-predators                     | An individual that makes sexual advances to minors.                                   |
 
-### ani-forenisc-type-ov extension
+### ani-forensic-type-ov extension
 
 | Vocabulary Value | Description                                                                                                                  |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
