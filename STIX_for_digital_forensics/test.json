@@ -1,0 +1,11 @@
+{
+  "type": "student",
+  "id": "110",
+  "last_name": "Xu",
+  "first_name": "Eric",
+  "age": 22,
+  "height": 170.1,
+  "is_fulltime": true,
+  "birthday": "2007-01-13T07:03:17Z",
+  "course_registered": ["FSCS727", "FSCS728", "FSCS730"]
+}
