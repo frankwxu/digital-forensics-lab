@@ -67,6 +67,8 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 - Cyber Forensic observable Objects (CFOOs)
 
   - [Disk Partition Object](#Disk-Partition-Object)
+  - [Secondary Storage Object](#Secondary-Storage-Object)
+  - [Computer Object](#Computer-Object)
 
 - Property Extension
   - [Extension for Windows Registry Key Object](#Extension-for-Windows-Registry-Key-Object)
@@ -101,9 +103,10 @@ Notes:
 
 ### Relationships
 
-| Source                 | Relationship Type | Target       | Description                                                                                     |
-| ---------------------- | ----------------- | ------------ | ----------------------------------------------------------------------------------------------- |
-| x-windows-evt-evidence | traced-back-to    | user-account | This Relationship describes that a Windows Event Evidence can be traced back to a user-account. |
+| Source                 | Relationship Type | Target           | Description                                                                                     |
+| ---------------------- | ----------------- | ---------------- | ----------------------------------------------------------------------------------------------- |
+| x-windows-evt-evidence | traced-back-to    | user-account     | This Relationship describes that a Windows Event Evidence can be traced back to a user-account. |
+| x-windows-evt-evidence | extracted-from    | x-disk-partition | This Relationship describes that x-windows-evt-evidence is extracted from x-disk-partition.     |
 
 ### Example 1: describes a "logon" event recorded in the security event file.
 
@@ -214,9 +217,10 @@ A Webpage Visit Evidence object represents a visit to a webpage.
 
 ### Relationships
 
-| Source                   | Relationship Type | Target       | Description                                                                                     |
-| ------------------------ | ----------------- | ------------ | ----------------------------------------------------------------------------------------------- |
-| x-webpage-visit-evidence | traced-back-to    | user-account | This Relationship describes that a webpage visit evidence can be traced back to a user-account. |
+| Source                   | Relationship Type | Target           | Description                                                                                                |
+| ------------------------ | ----------------- | ---------------- | ---------------------------------------------------------------------------------------------------------- |
+| x-webpage-visit-evidence | traced-back-to    | user-account     | This Relationship describes that a webpage visit evidence can be traced back to a user-account.            |
+| x-webpage-visit-evidence | extracted-from    | x-disk-partition | This Relationship describes that a piece of x-webpage-visit-evidence is extracted from a x-disk-partition. |
 
 ### Examples
 
@@ -296,9 +300,10 @@ Vocabulary Name: x-pnp-message-type-enum
 
 ### Relationships
 
-| Source             | Relationship Type | Target       | Description                                                                                 |
-| ------------------ | ----------------- | ------------ | ------------------------------------------------------------------------------------------- |
-| x-pnp-evt-evidence | traced-back-to    | user-account | This Relationship describes that a pnp event evidence can be traced back to a user-account. |
+| Source             | Relationship Type | Target           | Description                                                                                          |
+| ------------------ | ----------------- | ---------------- | ---------------------------------------------------------------------------------------------------- |
+| x-pnp-evt-evidence | traced-back-to    | user-account     | This Relationship describes that a pnp event evidence can be traced back to a user-account.          |
+| x-pnp-evt-evidence | extracted-from    | x-disk-partition | This Relationship describes that a piece of x-pnp-evt-evidence is extracted from a x-disk-partition. |
 
 ### Examples
 
@@ -403,9 +408,10 @@ A File Visit object represents properties that are associated with a file/direct
 
 ### Relationships
 
-| Source                | Relationship Type | Target       | Description                                                                                  |
-| --------------------- | ----------------- | ------------ | -------------------------------------------------------------------------------------------- |
-| x-file-visit-evidence | traced-back-to    | user-account | This Relationship describes that a file visit evidence can be traced back to a user-account. |
+| Source                | Relationship Type | Target           | Description                                                                                            |
+| --------------------- | ----------------- | ---------------- | ------------------------------------------------------------------------------------------------------ |
+| x-file-visit-evidence | traced-back-to    | user-account     | This Relationship describes that a file visit evidence can be traced back to a user-account.           |
+| x-file-visit-evidence | extracted-from    | x-disk-partition | This Relationship describes that a piece ofx-file-visit-evidence is extracted from a x-disk-partition. |
 
 ### RecentFileCache
 
@@ -881,9 +887,10 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 
 ### Relationships
 
-| Source                | Relationship Type | Target       | Description                                                                                  |
-| --------------------- | ----------------- | ------------ | -------------------------------------------------------------------------------------------- |
-| x-tool-state-evidence | traced-back-to    | user-account | This Relationship describes that a tool state evidence can be traced back to a user-account. |
+| Source                | Relationship Type | Target           | Description                                                                                             |
+| --------------------- | ----------------- | ---------------- | ------------------------------------------------------------------------------------------------------- |
+| x-tool-state-evidence | traced-back-to    | user-account     | This Relationship describes that a tool state evidence can be traced back to a user-account.            |
+| x-tool-state-evidence | extracted-from    | x-disk-partition | This Relationship describes that a piece of x-tool-state-evidence is extracted from a x-disk-partition. |
 
 ### Tool State Enumeration
 
@@ -954,9 +961,10 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 
 ### Relationships
 
-| Source       | Relationship Type | Target       | Description                                                                |
-| ------------ | ----------------- | ------------ | -------------------------------------------------------------------------- |
-| x-disk-image | image-of          | x-crime-case | This Relationship describes that a disk image is an image of x-crime-case. |
+| Source       | Relationship Type | Target           | Description                                                                    |
+| ------------ | ----------------- | ---------------- | ------------------------------------------------------------------------------ |
+| x-disk-image | image-of          | x-crime-case     | This Relationship describes that a disk image is an image of x-crime-case.     |
+| x-disk-image | image-of          | x-secondary-disk | This Relationship describes that a disk image is an image of x-secondary-disk. |
 
 ### Disk Image Format Vocabulary
 
@@ -1282,7 +1290,7 @@ A Crime Case object represents a background description of a potential cybercrim
 | bytes_per_sector     | integer | Specifies the number of bytes per sector.                                                                                    |
 | is_bootable          | boolean | Specifies if a partition is bootable.                                                                                        |
 | volume_serial_number | string  | Specifies the serial number of a partition.                                                                                  |
-| partition_type       | string  | Specifies the type of a partition. It MUST come from a x-partition-type-ov open vocabulary.                                  |
+| partition_type       | string  | Specifies the type of a partition. It MUST come from a x-disk-partition-type-ov open vocabulary.                             |
 | file_sys_type        | string  | Specifies the type of a file system. It MUST come from the [list](https://en.wikipedia.org/wiki/Comparison_of_file_systems). |
 | drive_letter         | string  | Specifies the drive letter of the partition, e.g., "C", "D", "E", etc.                                                       |
 | label                | string  | Specifies the label/volume name of the partition, e.g., "backup".                                                            |
@@ -1295,7 +1303,7 @@ A Crime Case object represents a background description of a potential cybercrim
 
 ### Partition Type Vocabulary
 
-Vocabulary Name: x-partition-type-ov
+Vocabulary Name: x-disk-partition-type-ov
 
 | Vocabulary Value | Description                            |
 | ---------------- | -------------------------------------- |
@@ -1311,9 +1319,9 @@ Specify a partition with NTFS
 
 ```json
 {
-  "type": "x-disk-partition",
+  "type": "x-disk",
   "spec_version": "2.1",
-  "id": "x-disk-partition--c65a985d-dc31-441e-840b-54381cef4e31",
+  "id": "x-disk--ac6e29f1-aa84-4066-961b-9e1f42acab8f",
   "partition_seq_num": 2,
   "start_sector": 512,
   "end_sector": 206848,
@@ -1322,8 +1330,116 @@ Specify a partition with NTFS
   "volume_serial_number": "c8ca0c8dca0c7a48",
   "partition_type": "dos",
   "file_sys_type ": "ntfs",
-  " drive_letter  ": "C",
+  "drive_letter  ": "C",
   "part-of": "x-disk-image-42eaa6d5-93ad-46f0-95f2-8343094abe52"
+}
+```
+
+## Secondary Storage Object
+
+**Type Name:** x-secondary-Storage
+
+A Secondary Storage object represents a non-volatile and long-term storage.
+
+### Secondary Storage Specific Properties
+
+| Property Name   | Type       | Description                                                                                                            |
+| --------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
+| type (required) | string     | The value of this property MUST be x-secondary-Storage.                                                                |
+| manufacturer    | string     | Specifies the manufacturer of a secondary storage.                                                                     |
+| brand           | string     | Specifies the brand of a secondary storage, e.g., "SanDisk".                                                           |
+| model           | string     | Specifies the model of a secondary storage.                                                                            |
+| serial_number   | string     | Specifies the serial number of a secondary storage.                                                                    |
+| type            | open-vocab | Specifies the type of secondary storage. The value for this property SHOULD come from the x-secondary-Storage-type-ov. |
+| size            | integer    | Specifies the size of a secondary storage in MB.                                                                       |
+
+### ID Contributing Properties
+
+- serial_number
+
+### Secondary Storage Type Vocabulary
+
+Vocabulary Name: x-secondary-Storage-type-ov
+
+| Vocabulary Value | Description                        |
+| ---------------- | ---------------------------------- |
+| hdd              | Hard disk drives                   |
+| ssd              | Solid State Drive                  |
+| hhdd             | Laptop-use hybrid hard disk drives |
+| emmc             | Embedded Multimedia Card           |
+| usb              | USB flash drive                    |
+| cd               | One of optical discs               |
+| dvd              | One of optical discs               |
+| tape             |                                    |
+
+### Relationships
+
+| Source | Relationship Type | Target | Description |
+| ------ | ----------------- | ------ | ----------- |
+
+### Example
+
+Specify a partition with NTFS
+
+```json
+{
+  "type": "x-secondary-storage",
+  "spec_version": "2.1",
+  "id": "x-secondary-storage--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+  "serial_number": "0000000012400917BA30",
+  "brand": "SanDisk",
+  "type": "hdd",
+  "size": 20000,
+  "drive_letter  ": "C"
+}
+```
+
+## Computer Object
+
+**Type Name:** x-computer
+
+[A computer](https://en.wikipedia.org/wiki/Computer) is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs.
+
+### ID Contributing Properties
+
+- serial_number
+- cpu
+
+### Disk partition Specific Properties
+
+| Property Name          | Type                        | Description                                                                                                                  |
+| ---------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| type (required)        | string                      | The value of this property MUST be x-computer.                                                                               |
+| serial_number          | string                      | Specifies the serial number of a computer.                                                                                   |
+| type                   | string                      | Specifies the type of a computer. The value of this property MUST come from [Types](https://en.wikipedia.org/wiki/Computer). |
+| model                  | string                      | Specifies the model of a computer.                                                                                           |
+| cpu                    | StringS                     | Specifies the CUP of a computer. It MUST follow CUP naming conventions.                                                      |
+| memory_size            | integer                     | Specifies the size of memory in MB.                                                                                          |
+| input_devices          | list of type string         | Specifies a list of input devices.                                                                                           |
+| output_device          | list of type string         | Specifies a list of output devices.                                                                                          |
+| secondary_storage_refs | list of x-secondary-storage | Specifies a list of x-secondary-storage.                                                                                     |
+
+### Relationships
+
+| Source     | Relationship Type | Target    | Description                                                                            |
+| ---------- | ----------------- | --------- | -------------------------------------------------------------------------------------- |
+| x-computer | has               | ipv4-addr | The relationship specifies that a computer communicates with other PCs with ipv4-addr. |
+
+### Example
+
+Describe a computer with one hdd and one USB
+
+```json
+{
+  "type": "x-computer",
+  "spec_version": "2.1",
+  "id": "x-computer--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+  "type": "Desktop computer",
+  "cpu": "AMD Ryzen Threadripper 3970x 32-Core Processor, 3900 Mhz, 32 Core(s), 64 Logical Processor(s)",
+  "secondary_storage_refs": [
+    "x-secondary-storage--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "x-secondary-storage--5528432f-60ba-4a94-bc90-15d0c3fff3ea"
+  ]
 }
 ```
 
