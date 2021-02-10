@@ -59,10 +59,11 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
     - [AppLog](#AppLog)
   - [Tool State Evidence Object](#Tool-State-Evidence-Object)
   - [Disk Image Object](#Disk-Image-Object)
+  - [Memory Image Object](#Memory-Image-Object)
   - [Investigation Tool Object](#Investigation-Tool-Object)
   - [Action Object](#Action-Object)
   - [Timeline Object](#Timeline-Object)
-  - [Scenario Object](#Scenario=Object)
+  - [Crime Case Object](#Crime-Case-Object)
 
 - Cyber Forensic observable Objects (CFOOs)
 
@@ -1012,6 +1013,70 @@ The Tool State Evidence object represents an attacking (anti-forensic) tool's st
 ]
 ```
 
+## Memory Image Object
+
+**Type Name:** x-memory-image
+
+A Memory Image object is a copy of the computer's virtual memory, saved in a file.
+
+### Memory Image Specific Properties
+
+| Property Name           | Type       | Description                                         |
+| ----------------------- | ---------- | --------------------------------------------------- |
+| type (required)         | string     | The value of this property MUST be x-disk-image.    |
+| image_id                | string     | Specifies an id of a disk image.                    |
+| description             | string     | Specifies the description of a disk image.          |
+| acquired_on             | timestamp  | Specifies the time the image was acquired.          |
+| acquired_using_tool_ref | identifier | Specifies the software that creates the disk image. |
+| acquired_by_ref         | identifier | Specifies the person that create a disk image.      |
+| image_file_ref          | identifier | Specifies a image file.                             |
+
+### Relationships
+
+| Source         | Relationship Type | Target       | Description                                                                           |
+| -------------- | ----------------- | ------------ | ------------------------------------------------------------------------------------- |
+| x-memory-image | image-of          | x-crime-case | This Relationship describes that a memory image is an image evidence of x-crime-case. |
+| x-memory-image | acquired-from     | x-computer   | This Relationship describes that a memory image is acquired from x-computer.          |
+
+### Example of a memory image
+
+```json
+[
+  {
+    "type": "x-memory-image",
+    "spec_version": "2.1",
+    "id": "x-memory-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "acquired_on": "2021-01-06T20:03:22.000Z",
+    "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
+    "acquired_by_ref": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
+    "acquired_using_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
+    "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+    "created": "2021-04-06T20:03:00.000Z",
+    "modified": "2021-04-06T20:03:00.000Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "image-of",
+    "source_ref": "x-memory-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-crime-case--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "acquired-from",
+    "source_ref": "x-memory-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-computer--6979e202f-8b68-43e6-beb7-06d26d88a352"
+  }
+]
+```
+
 ## Investigation Tool Object
 
 **Type Name:** x-investigation-tool
@@ -1160,7 +1225,7 @@ An action is one cyber criminal activity performed under a user account.
 
 **Type Name:** x-timeline
 
-A Timeline object describes a specific cybercrime scenario that is represented by a sequence of actions performed by a threat-actor.
+A Timeline object describes a specific cybercrime case that is represented by a sequence of actions performed by a threat-actor.
 
 ## Timeline Specific Properties
 
@@ -1215,7 +1280,7 @@ A Timeline object describes a specific cybercrime scenario that is represented b
 
 **Type Name:** x-crime-case
 
-A Crime Case object represents a background description of a potential cybercrime case given to a cyber forensics investigator. Note that a crime case may consist of multiple scanarios.
+A Crime Case object represents a background description of a potential cybercrime case given to a cyber forensics investigator.
 
 ## Crime Case Properties
 
