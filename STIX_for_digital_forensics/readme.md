@@ -42,7 +42,6 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 - Cyber Forensic Domain Objects (CFDOs)
 
-  - [Tool State Evidence Object](#Tool-State-Evidence-Object)
   - [Disk Image Object](#Disk-Image-Object)
   - [Memory Image Object](#Memory-Image-Object)
   - [Investigation Tool Object](#Investigation-Tool-Object)
@@ -317,21 +316,21 @@ An action is one cyber criminal activity performed under a user account. It is a
 
 ## Action Specific Properties
 
-| Property Name   | Type       | Description                                                                 |
-| --------------- | ---------- | --------------------------------------------------------------------------- |
-| type (required) | string     | The value of this property MUST be x-action.                                |
-| name            | open-vocab | Specifies the name of an action. It MUST come from x-activity-name-ov.      |
-| target          | identifier | Specifies the target that an action operate on. It is an observable object. |
-| description     | string     | A description that provides more details and context about the Action.      |
-| start_time      | timestamp  | Specifies the the time that an action is started.                           |
-| end_time        | timestamp  | Specifies the the time that an action is ended.                             |
+| Property Name   | Type       | Description                                                                                   |
+| --------------- | ---------- | --------------------------------------------------------------------------------------------- |
+| type (required) | string     | The value of this property MUST be x-action.                                                  |
+| name            | open-vocab | Specifies the name of an action. It MUST come from x-activity-name-ov.                        |
+| target          | identifier | Specifies the object that receives the direct action of the verb. It is an observable object. |
+| description     | string     | A description that provides more details and context about the Action.                        |
+| start_time      | timestamp  | Specifies the the time that an action is started.                                             |
+| end_time        | timestamp  | Specifies the the time that an action is ended.                                               |
 
 ### Relationships
 
-| Source   | Relationship Type    | Target       | Description                                                                        |
-| -------- | -------------------- | ------------ | ---------------------------------------------------------------------------------- |
-| x-action | traced-back-to       | user-account | This Relationship describes that an action is traced-back-to user-account.         |
-| x-action | inferred-by-evidence | SCO and CFCO | This Relationship describes that an action is inferred-by-evidence of SCO or CFCO. |
+| Source   | Relationship Type | Target       | Description                                                                |
+| -------- | ----------------- | ------------ | -------------------------------------------------------------------------- |
+| x-action | traced-back-to    | user-account | This Relationship describes that an action is traced-back-to user-account. |
+| x-action | indicated-by      | indicator    | This Relationship describes that an action is indicated-by of indicator.   |
 
 ## Example: An action that search for anti-forensics tools
 
@@ -342,17 +341,30 @@ An action is one cyber criminal activity performed under a user account. It is a
     "spec_version": "2.1",
     "id": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "name": "Search",
-    "target": "anti-forensic",
-    "description": "Search application online using IE",
-    "start ": "2015-25-25T14:46:44:44Z",
+    "target": "anti-forensic tools",
+    "description": "Search a 'anti-forensic tools' keyword online using bing search engine.",
+    "start_time": "2015-25-25T14:46:44:44Z",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
     "modified": "2021-04-06T20:03:00.000Z"
   },
   {
-    "type": "x-webpage-visit-evidence",
+    "type": "indicator",
     "spec_version": "2.1",
-    "id": "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "id": "indicator--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+    "created": "2016-04-06T20:03:48.000Z",
+    "modified": "2016-04-06T20:03:48.000Z",
+    "name": "Search indicator",
+    "description": "Indication of search keyword",
+    "pattern": "[x-webpage-visit:url_ref MATCHES 'bing.com/search?q=anti-forensic+tools']",
+    "pattern_type": "stix",
+    "valid_from": "2016-01-01T00:00:00Z"
+  },
+  {
+    "type": "x-webpage-visit",
+    "spec_version": "2.1",
+    "id": "x-webpage-visit--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "url_ref": "url--9cc5a5dc-0acd-46f5-ae3f-724370087622",
     "visit-time": "2015-25-25T14:46:44:44Z",
     "visit-count": 2,
@@ -379,9 +391,30 @@ An action is one cyber criminal activity performed under a user account. It is a
     "id": "relationship--979e202f-8b68-43e6-beb7-06d26d88a352",
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "inferred-by-evidence",
+    "relationship_type": "indicated-by",
     "source_ref": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-    "target_ref": "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"
+    "target_ref": "indicator--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--46ed253f-352e-4ff6-9531-fc37a192773b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "based-on",
+    "source_ref": "indicator--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "target_ref": "observed-data--8943c5f4-5c32-4a92-a7f2-8ab340483e64"
+  },
+  {
+    "type": "observed-data",
+    "spec_version": "2.1",
+    "id": "observed-data--8943c5f4-5c32-4a92-a7f2-8ab340483e64",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "first_observed": "2020-01-16T18:52:24.277Z",
+    "last_observed": "2020-01-16T18:52:24.277Z",
+    "number_observed": 1,
+    "object_refs": ["x-webpage-visit--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"]
   }
 ]
 ```
@@ -389,21 +422,30 @@ An action is one cyber criminal activity performed under a user account. It is a
 ## Example: Install ccleaner tool
 
 ```json
-{
-  "type": "x-action",
-  "spec_version": "2.1",
-  "id": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-  "name": "Install ccleaner tool",
-  "description": "Install ccleaner anti-forensic tool",
-  "performed_time ": "2015-25-25T14:46:44:44Z",
-  "evidence_refs": [
-    "x-tool-state-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
-    "x-file-visit-evidence--83aee86d-1523-4111-938e-8edc8a6c804f"
-  ],
-  "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-  "created": "2021-04-06T20:03:00.000Z",
-  "modified": "2021-04-06T20:03:00.000Z"
-}
+[
+  {
+    "type": "x-action",
+    "spec_version": "2.1",
+    "id": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "name": "install",
+    "target": "tool--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "description": "Install ccleaner anti-forensic tool",
+    "start_time ": "2015-25-25T14:46:44:44Z",
+    "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+    "created": "2021-04-06T20:03:00.000Z",
+    "modified": "2021-04-06T20:03:00.000Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--979e202f-8b68-43e6-beb7-06d26d88a352",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "indicated-by",
+    "source_ref": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-file-visit-evidence--83aee86d-1523-4111-938e-8edc8a6c804f"
+  }
+]
 ```
 
 # Timeline Object
