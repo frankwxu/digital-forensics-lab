@@ -222,32 +222,71 @@ Investigation Tools are software that can be used by cyber investigators to perf
 
 ### Investigation Tool Specific Properties
 
-| Property Name   | Type                    | Description                                                                                     |
-| --------------- | ----------------------- | ----------------------------------------------------------------------------------------------- |
-| type (required) | string                  | The value of this property MUST be x-investigation-tool.                                        |
-| last_modified   | timestamps              | The last modified date of the investigation tool.                                               |
-| description     | string                  | A description that provides more details and context about the investigation tool.              |
-| tool_types      | list of type open-vocab | The values for this property SHOULD come from the x-investigation-tool-type-ov open vocabulary. |
-| aliases         | list of type string     | Alternative names used to identify this investigation tool.                                     |
-| tool_version    | string                  | The version identifier associated with the investigation tool.                                  |
-| software_ref    | identifier              | Specifier the software product (if CPE or SWID is known) used as the investigation tool.        |
+| Property Name   | Type                    | Description                                                                                                                         |
+| --------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| type (required) | string                  | The value of this property MUST be x-investigation-tool.                                                                            |
+| last_modified   | timestamps              | The last modified date of the investigation tool.                                                                                   |
+| description     | string                  | A description that provides more details and context about the investigation tool.                                                  |
+| used_for        | list of type open-vocab | Specifies a list of activities that tool is used to perform. Each activity SHOULD come from the x-activity-name-ov open vocabulary. |
+| aliases         | list of type string     | Alternative names used to identify this investigation tool.                                                                         |
+| version         | string                  | The version identifier associated with the investigation tool.                                                                      |
+| software_ref    | identifier              | Specifies the software product (if CPE or SWID is known) used as the investigation tool.                                            |
 
-## Investigation Tool Type Vocabulary
+### Activity Name Vocabulary
 
-**Vocabulary Name:** x-investigation-tool-type-ov
-Investigation Tool Type is an open vocabulary that describes the type of tools used for cyber investigations. It doesn't include common software, such as MS Office, database, etc.
+The Activity Name vocabulary is shared by both attackers and investigators.
 
-| Vocabulary Value   | Description                                                                                                     |
-| ------------------ | --------------------------------------------------------------------------------------------------------------- |
-| decryption         | Tools used to perform decryption tasks.                                                                         |
-| decode             | Tools used to decode data in a readable form.                                                                   |
-| data-recovery      | Tools used to process of retrieving inaccessible, lost, corrupted, damaged or formatted data from disk storage. |
-| data-carving       | Tools used to reassemble useful information from raw data fragments when no filesystem metadata is available.   |
-| anti-steganography | Tools used to against steganography.                                                                            |
-| data_extraction    | Tools used to extract information from file systems.                                                            |
-| parse              | Tools used to parse and/or decode files, including registry parsers and log parsers.                            |
-| dump               | Tools used to dump information from cache or memory.                                                            |
-| unknown            | There is not enough information available to determine the type of tool.                                        |
+**Vocabulary Name**: x-activity-name-ov
+
+| Vocabulary Value | Description                                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| steganalysis     |                                                                     |
+| browse           |                                                                     |
+| carve            |                                                                     |
+| config           |                                                                     |
+| copy             |                                                                     |
+| connect          |                                                                     |
+| create           | Create a file , artifact, and directory.                            |
+| decode           |                                                                     |
+| decrypt          | Perform decryption tasks.                                           |
+| delete           |                                                                     |
+| disconnect       |                                                                     |
+| download         | Download files.                                                     |
+| dump             | Dump information from cache or memory.                              |
+| encode           | Decode data in a readable form                                      |
+| execute          |                                                                     |
+| encrypt          |                                                                     |
+| extract          | Extract information from file systems.                              |
+| format           | Format disks.                                                       |
+| hide             | Hide information.                                                   |
+| install          | Install software.                                                   |
+| login            |                                                                     |
+| logout           |                                                                     |
+| modify           |                                                                     |
+| mount            |                                                                     |
+| obfuscate        |                                                                     |
+| other            |                                                                     |
+| plug-hardware    |                                                                     |
+| power-off        |                                                                     |
+| power-on         |                                                                     |
+| parse            | Parse content of files, including registry parsers and log parsers. |
+| read             |                                                                     |
+| receive          |                                                                     |
+| rename           |                                                                     |
+| record           |                                                                     |
+| recover          |                                                                     |
+| request          |                                                                     |
+| response         |                                                                     |
+| save             |                                                                     |
+| send             |                                                                     |
+| search           | Search for strings, including key words, files, and directories.    |
+| uninstall        |                                                                     |
+| unplug-hardware  |                                                                     |
+| unknown          |                                                                     |
+| unmount          |                                                                     |
+| update           |                                                                     |
+| verify           |                                                                     |
+| add              |                                                                     |
 
 ### Examples
 
@@ -259,7 +298,7 @@ Use an open-source software to parse and decode $LogFile records
   "spec_version": "2.1",
   "id": "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
   "name": "LogFileParser",
-  "tool_types": ["decode", "parse"],
+  "used_for": ["decode", "parse"],
   "description": "This program decodes and parses $LogFile records and transaction entries.",
   "external_references": [
     {
@@ -270,75 +309,6 @@ Use an open-source software to parse and decode $LogFile records
 }
 ```
 
-## Tool State Evidence Object
-
-**Type Name:** x-tool-state-evidence
-
-The Tool State Evidence object represents an attacking (anti-forensic) tool's state at a specific time manipulated by a threat actor, including downloading, installing, running, uninstalling, cleaning. Each state is exclusive.
-
-### Properties
-
-| Property Name    | Type       | Description                                                                 |
-| ---------------- | ---------- | --------------------------------------------------------------------------- |
-| type (required)  | string     | The value of this property MUST be x-tool-state-evidence.                   |
-| state            | enum       | Specifies a state of tool. It MUST come from x-tool-state-enum enumeration. |
-| enter_state_time | timestamp  | Specifies the time a tool entering the state.                               |
-| exit_state_time  | timestamp  | Specifies the time a tool existing the state.                               |
-| tool_ref         | identifier | An ID reference to a Tool object.                                           |
-
-### Relationships
-
-| Source                | Relationship Type | Target           | Description                                                                                             |
-| --------------------- | ----------------- | ---------------- | ------------------------------------------------------------------------------------------------------- |
-| x-tool-state-evidence | traced-back-to    | user-account     | This Relationship describes that a tool state evidence can be traced back to a user-account.            |
-| x-tool-state-evidence | extracted-from    | x-disk-partition | This Relationship describes that a piece of x-tool-state-evidence is extracted from a x-disk-partition. |
-
-### Tool State Enumeration
-
-**vocabulary Name**: x-tool-state-enum
-
-| Vocabulary Value | Description                                             |
-| ---------------- | ------------------------------------------------------- |
-| downloading      | A tool was downloading                                  |
-| installing       | A tool was installing                                   |
-| running          |                                                         |
-| uninstalling     |                                                         |
-| cleaning         | All files that are related to the tool has been removed |
-
-### Example: describes a system event generated by CD-Rom
-
-```json
-[
-  {
-    "type": "x-tool-state-evidence",
-    "spec_version": "2.1",
-    "id": "x-tool-state-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
-    "state": "installing",
-    "exit_state_time": "2005-02-06T20:03:00.000Z",
-    "created": "2021-01-06T20:03:00.000Z",
-    "modified": "2021-01-06T20:03:00.000Z",
-    "created_by_ref": "identity-704d9d08-060e-48f6-ace9-fde3eeb712ab"
-  },
-  {
-    "type": "tool",
-    "spec_version": "2.1",
-    "id": "tool--4d82bd3e-24a3-4f9d-b8f3-b57267fe06a9",
-    "created": "2015-05-15T09:12:16.432Z",
-    "modified": "2015-05-15T09:12:16.432Z",
-    "name": "steghide",
-    "tool_types": ["steganography"],
-    "tool_version": "0.5.1",
-    "description": "steganography",
-    "external_references": [
-      {
-        "source_name": "steghide",
-        "url": "http://steghide.sourceforge.net/"
-      }
-    ]
-  }
-]
-```
-
 ## Action Object
 
 **Type Name:** x-action
@@ -347,53 +317,21 @@ An action is one cyber criminal activity performed under a user account. It is a
 
 ## Action Specific Properties
 
-| Property Name   | Type                    | Description                                                                 |
-| --------------- | ----------------------- | --------------------------------------------------------------------------- |
-| type (required) | string                  | The value of this property MUST be x-action.                                |
-| name            | string                  | Specifies the name of an action. It MUST come from x-action-name-ov.        |
-| target          | identifier              | Specifies the target of an action. It is an observable object.              |
-| description     | string                  | A description that provides more details and context about the Action.      |
-| category        | open-vocab              | Specifies a category of the action. It MUST come from x-action-category-ov. |
-| start_time      | timestamp               | Specifies the the time that an action is started.                           |
-| end_time        | timestamp               | Specifies the the time that an action is ended.                             |
-| evidence_refs   | list of type identifier | Specifies a list of evidence objects that are associated with an action.    |
+| Property Name   | Type       | Description                                                                 |
+| --------------- | ---------- | --------------------------------------------------------------------------- |
+| type (required) | string     | The value of this property MUST be x-action.                                |
+| name            | open-vocab | Specifies the name of an action. It MUST come from x-activity-name-ov.      |
+| target          | identifier | Specifies the target that an action operate on. It is an observable object. |
+| description     | string     | A description that provides more details and context about the Action.      |
+| start_time      | timestamp  | Specifies the the time that an action is started.                           |
+| end_time        | timestamp  | Specifies the the time that an action is ended.                             |
 
 ### Relationships
 
-| Source   | Relationship Type | Target       | Description                                                                |
-| -------- | ----------------- | ------------ | -------------------------------------------------------------------------- |
-| x-action | traced-back-to    | user-account | This Relationship describes that an action is traced-back-to user-account. |
-
-### Action Name Vocabulary
-
-**Vocabulary Name**: x-action-name-ov
-
-| Vocabulary Value   | Description                                                      |
-| ------------------ | ---------------------------------------------------------------- |
-| power-on           |                                                                  |
-| power-off          |                                                                  |
-| login              |                                                                  |
-| logout             |                                                                  |
-| search             | Search for strings, including key words, files, and directories. |
-| download           | Download files.                                                  |
-| install            | Install software.                                                |
-| execute            |                                                                  |
-| uninstall          |                                                                  |
-| delete             |                                                                  |
-| read               |                                                                  |
-| write              |                                                                  |
-| update             |                                                                  |
-| modify             |                                                                  |
-| send               |                                                                  |
-| receive            |                                                                  |
-| encrypt            |                                                                  |
-| decrypt            |                                                                  |
-| steganography      | Tools used to against steganography.                             |
-| anti-steganography |                                                                  |
-| plug-hardware      |                                                                  |
-| unplug-hardware    |                                                                  |
-| other              |                                                                  |
-| unknown            |                                                                  |
+| Source   | Relationship Type    | Target       | Description                                                                        |
+| -------- | -------------------- | ------------ | ---------------------------------------------------------------------------------- |
+| x-action | traced-back-to       | user-account | This Relationship describes that an action is traced-back-to user-account.         |
+| x-action | inferred-by-evidence | SCO and CFCO | This Relationship describes that an action is inferred-by-evidence of SCO or CFCO. |
 
 ## Example: An action that search for anti-forensics tools
 
@@ -403,12 +341,10 @@ An action is one cyber criminal activity performed under a user account. It is a
     "type": "x-action",
     "spec_version": "2.1",
     "id": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-    "name": "Search anti-forensic tool online",
+    "name": "Search",
+    "target": "anti-forensic",
     "description": "Search application online using IE",
-    "performed_time ": "2015-25-25T14:46:44:44Z",
-    "evidence_refs": [
-      "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"
-    ],
+    "start ": "2015-25-25T14:46:44:44Z",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
     "modified": "2021-04-06T20:03:00.000Z"
@@ -436,6 +372,16 @@ An action is one cyber criminal activity performed under a user account. It is a
     "relationship_type": "traced-back-to",
     "source_ref": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--979e202f-8b68-43e6-beb7-06d26d88a352",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "inferred-by-evidence",
+    "source_ref": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"
   }
 ]
 ```
