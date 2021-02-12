@@ -443,7 +443,7 @@ An action is one cyber criminal activity performed under a user account. It is a
     "modified": "2020-01-16T18:52:24.277Z",
     "relationship_type": "indicated-by",
     "source_ref": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-    "target_ref": "x-file-visit-evidence--83aee86d-1523-4111-938e-8edc8a6c804f"
+    "target_ref": "indicator--f919a8eb-c8e1-48b1-93ef-df75c6f73c7e"
   }
 ]
 ```
