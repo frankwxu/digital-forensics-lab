@@ -100,7 +100,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 | Source       | Relationship Type | Target              | Description                                                                      |
 | ------------ | ----------------- | ------------------- | -------------------------------------------------------------------------------- |
-| x-disk-image | image-of          | x-crime-case        | This Relationship describes that a disk image is an image of x-crime-case.       |
+| x-disk-image | evidence-of       | x-crime-case        | This Relationship describes that a disk image is an evidence of x-crime-case.    |
 | x-disk-image | image-of          | x-secondary-Storage | This Relationship describes that a disk image is an image of x-secondary-Storage |
 
 ### Disk Image Format Vocabulary
@@ -123,10 +123,6 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
     "type": "x-disk-image",
     "spec_version": "2.1",
     "id": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-    "partitions": [
-      "x-disk-partition--c65a985d-dc31-441e-840b-54381cef4e31",
-      "x-disk-partition--9bc65596-8fa7-441c-b5a1-71a43d46b221"
-    ],
     "acquired_on": "2021-01-06T20:03:22.000Z",
     "format": "dd",
     "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
@@ -142,9 +138,19 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
     "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "image-of",
+    "relationship_type": "evidence-of",
     "source_ref": "x-disk-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "target_ref": "x-crime-case--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "image-of",
+    "source_ref": "x-disk-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-secondary-Storage--3d3c0888-eab4-40a7-8b8a-c195b3d87c19"
   }
 ]
 ```
@@ -452,24 +458,24 @@ An action is one cyber criminal activity performed under a user account. It is a
 
 **Type Name:** x-timeline
 
-A Timeline object describes a specific cybercrime case that is represented by a sequence of actions performed by a threat-actor.
+A Timeline object describes a specific cybercrime case that is represented by a sequence of actions performed by a threat-actor in chronological order.
 
 ## Timeline Specific Properties
 
 | Property Name      | Type                  | Description                                                            |
 | ------------------ | --------------------- | ---------------------------------------------------------------------- |
 | type (required)    | string                | The value of this property MUST be x-timeline.                         |
-| actions            | list of type x-action | Specifies a list of actions in chronological order.                    |
+| action_refs        | list of type x-action | Specifies a list of actions in chronological order.                    |
 | name               | string                | Specifies the name of a timeline.                                      |
 | description        | string                | A description that provides more details and context about a timeline. |
 | reconstructed_from | identifier            | Specifies timeline is reconstructed from a crime case.                 |
 | reconstructed_by   | identifier            | Specifies timeline is reconstructed by an identity.                    |
+| exploits           | identifier            | Specifies timeline exploits a User Account.                            |
 
 ### Relationships
 
-| Source     | Relationship Type | Target       | Description                                                                 |
-| ---------- | ----------------- | ------------ | --------------------------------------------------------------------------- |
-| x-timeline | traced-back-to    | user-account | This Relationship describes that a timeline is traced-back-to user-account. |
+| Source | Relationship Type | Target | Description |
+| ------ | ----------------- | ------ | ----------- |
 
 ## Example: data leakage using a UBS
 
@@ -481,24 +487,15 @@ A Timeline object describes a specific cybercrime case that is represented by a 
     "id": "x-timeline--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
     "name": "data leakage using a UBS",
     "description": "An threat actor uses a USB to transfer files.",
-    "actions": [
+    "action_refs": [
       "x-action--6ba0fce7-1ff9-44a4-9fbb-28760afc7827",
       "x-action--83aee86d-1523-4111-938e-8edc8a6c804f"
     ],
     "reconstructed_from": "x-crime-case--49aadd9f-8bb0-4728-bd56-7bc708714516",
+    "exploits": "user-account-2485b844-4efe-4343-84c8-eb33312dd56f",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
     "modified": "2021-04-06T20:03:00.000Z"
-  },
-  {
-    "type": "relationship",
-    "spec_version": "2.1",
-    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
-    "created": "2021-05-15T09:12:16.432Z",
-    "modified": "2021-05-15T09:12:16.432Z",
-    "relationship_type": "traced-back-to ",
-    "source_ref": "x-timeline--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
-    "target_ref": "user-account-2485b844-4efe-4343-84c8-eb33312dd56f"
   }
 ]
 ```
@@ -511,21 +508,20 @@ A Crime Case object represents a background description of a potential cybercrim
 
 ## Crime Case Properties
 
-| Property Name   | Type                    | Description                                                                 |
-| --------------- | ----------------------- | --------------------------------------------------------------------------- |
-| type (required) | string                  | The value of this property MUST be x-crime-case.                            |
-| case_id         | string                  | Specifies a case identifier that is assigned to a case.                     |
-| name            | string                  | Specifies the name of a case.                                               |
-| description     | string                  | A description that provides more details and context about a case.          |
-| disk_images     | list of type disk_image | Specifies a list of dis_images that are associated with a crime case.       |
-| case_file_refs  | list of type file       | Specifies docs (other than disk images) that are associated with the cases. |
+| Property Name   | Type              | Description                                                                 |
+| --------------- | ----------------- | --------------------------------------------------------------------------- |
+| type (required) | string            | The value of this property MUST be x-crime-case.                            |
+| case_id         | string            | Specifies a case identifier that is assigned to a case.                     |
+| name            | string            | Specifies the name of a case.                                               |
+| description     | string            | A description that provides more details and context about a case.          |
+| case_file_refs  | list of type file | Specifies docs (other than disk images) that are associated with the cases. |
 
 ### Relationships
 
-| Source       | Relationship Type | Target       | Description                                                                 |
-| ------------ | ----------------- | ------------ | --------------------------------------------------------------------------- |
-| x-crime-case | assigned-to       | identity     | This Relationship describes that the investigator was assigned to the case. |
-| x-crime-case | has               | threat-actor | This Relationship describes that a x-crime-case has a threat-actor.         |
+| Source       | Relationship Type | Target   | Description                                                                 |
+| ------------ | ----------------- | -------- | --------------------------------------------------------------------------- |
+| x-crime-case | assigned-to       | identity | This Relationship describes that the investigator was assigned to the case. |
+| x-crime-case | involves          | identity | This Relationship describes that a x-crime-case involves identity.          |
 
 ## Example: NIST data leakage case
 
@@ -537,10 +533,6 @@ A Crime Case object represents a background description of a potential cybercrim
     "id": "x-crime-case--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
     "name": "NIST data leakage",
     "description": "The case study is provided by NIST.",
-    "disk_images": [
-      "x-disk-image--64da9550-6f78-4f2f-99dc-4693cf719338",
-      "x-disk_image--2a9f86c9-602b-43e3-bd2a-542b7544ce3e"
-    ],
     "case_file_refs": "[file--6ba0fce7-1ff9-44a4-9fbb-28760afc7827, file--83aee86d-1523-4111-938e-8edc8a6c804f]",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
@@ -552,9 +544,19 @@ A Crime Case object represents a background description of a potential cybercrim
     "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
     "created": "2021-05-15T09:12:16.432Z",
     "modified": "2021-05-15T09:12:16.432Z",
-    "relationship_type": "has",
-    "source_ref": "x-timeline--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
-    "target_ref": "threat-actor-2485b844-4efe-4343-84c8-eb33312dd56f"
+    "relationship_type": "involves",
+    "source_ref": "x-crime-case--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
+    "target_ref": "identity--2485b844-4efe-4343-84c8-eb33312dd56f"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "created": "2021-05-15T09:12:16.432Z",
+    "modified": "2021-05-15T09:12:16.432Z",
+    "relationship_type": "assigned-to",
+    "source_ref": "x-crime-case--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
+    "target_ref": "identity--6e775953-6fd3-4f0f-b1f2-d180e25f17dc"
   }
 ]
 ```
@@ -581,33 +583,60 @@ A Crime Case object represents a background description of a potential cybercrim
 | type                   | string                      | Specifies the type of a computer. The value of this property MUST come from [Types](https://en.wikipedia.org/wiki/Computer). |
 | model                  | string                      | Specifies the model of a computer.                                                                                           |
 | cpu                    | StringS                     | Specifies the CUP of a computer. It MUST follow CUP naming conventions.                                                      |
-| memory_size            | integer                     | Specifies the size of memory in MB.                                                                                          |
+| memory                 | list of x-memory            | Specifies the memory of a computer.                                                                                          |
 | input_devices          | list of type string         | Specifies a list of input devices.                                                                                           |
 | output_device          | list of type string         | Specifies a list of output devices.                                                                                          |
 | secondary_storage_refs | list of x-secondary-storage | Specifies a list of x-secondary-storage.                                                                                     |
 
 ### Relationships
 
-| Source     | Relationship Type | Target    | Description                                                                            |
-| ---------- | ----------------- | --------- | -------------------------------------------------------------------------------------- |
-| x-computer | has               | ipv4-addr | The relationship specifies that a computer communicates with other PCs with ipv4-addr. |
+| Source     | Relationship Type | Target                    | Description                                                                            |
+| ---------- | ----------------- | ------------------------- | -------------------------------------------------------------------------------------- |
+| x-computer | has               | ipv4-addr                 | The relationship specifies that a computer communicates with other PCs with ipv4-addr. |
+| x-computer | has               | list of type user-account | The relationship specifies that a computer has a list of user-account.                 |
+| x-computer | used-in           | x-crime-case              | The relationship specifies that a computer is used in a x-crime-case.                  |
 
 ### Example
 
 Describe a computer with one hdd and one USB
 
 ```json
-{
-  "type": "x-computer",
-  "spec_version": "2.1",
-  "id": "x-computer--096e9478-2b7b-5bc9-a035-08464b16fc7b",
-  "type": "Desktop computer",
-  "cpu": "AMD Ryzen Threadripper 3970x 32-Core Processor, 3900 Mhz, 32 Core(s), 64 Logical Processor(s)",
-  "secondary_storage_refs": [
-    "x-secondary-storage--096e9478-2b7b-5bc9-a035-08464b16fc7b",
-    "x-secondary-storage--5528432f-60ba-4a94-bc90-15d0c3fff3ea"
-  ]
-}
+[
+  {
+    "type": "x-computer",
+    "spec_version": "2.1",
+    "id": "x-computer--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "type": "Desktop computer",
+    "cpu": "AMD Ryzen Threadripper 3970x 32-Core Processor, 3900 Mhz, 32 Core(s), 64 Logical Processor(s)",
+    "secondary_storage_refs": [
+      "x-secondary-storage--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+      "x-secondary-storage--5528432f-60ba-4a94-bc90-15d0c3fff3ea"
+    ]
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "created": "2021-05-15T09:12:16.432Z",
+    "modified": "2021-05-15T09:12:16.432Z",
+    "relationship_type": "has",
+    "source_ref": "x-computer --5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
+    "target_ref": [
+      "user-account-b9676636-6981-40b3-abdc-ff15ad86da14",
+      "user-account-d384f25a-d0aa-47e7-afe7-ef60fd2c1d1a"
+    ]
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "created": "2021-05-15T09:12:16.432Z",
+    "modified": "2021-05-15T09:12:16.432Z",
+    "relationship_type": "used-in  ",
+    "source_ref": "x-computer --5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
+    "target_ref": "x-crime-case--5394ce31-d64c-4b96-a83c-f0a28075885b"
+  }
+]
 ```
 
 ## Disk Partition Object
@@ -635,12 +664,14 @@ Describe a computer with one hdd and one USB
 | file_sys_type        | string  | Specifies the type of a file system. It MUST come from the [list](https://en.wikipedia.org/wiki/Comparison_of_file_systems). |
 | drive_letter         | string  | Specifies the drive letter of the partition, e.g., "C", "D", "E", etc.                                                       |
 | label                | string  | Specifies the label/volume name of the partition, e.g., "backup".                                                            |
+|                      |         |                                                                                                                              |
 
 ### Relationships
 
-| Source           | Relationship Type | Target       | Description                                                        |
-| ---------------- | ----------------- | ------------ | ------------------------------------------------------------------ |
-| x-disk-partition | part-of           | x-disk-image | This relationship describes that a disk is a part of a disk image. |
+| Source           | Relationship Type | Target            | Description                                                        |
+| ---------------- | ----------------- | ----------------- | ------------------------------------------------------------------ |
+| x-disk-partition | part-of           | x-disk-image      | This relationship describes that a disk is a part of a disk image. |
+| x-disk-partition | contains-refs     | list of type file | This relationship describes that a disk contains a list of files.  |
 
 ### Partition Type Vocabulary
 
@@ -659,21 +690,47 @@ Vocabulary Name: x-disk-partition-type-ov
 Specify a partition with NTFS
 
 ```json
-{
-  "type": "x-disk",
-  "spec_version": "2.1",
-  "id": "x-disk--ac6e29f1-aa84-4066-961b-9e1f42acab8f",
-  "partition_seq_num": 2,
-  "start_sector": 512,
-  "end_sector": 206848,
-  "bytes_per_sector": 512,
-  "is_bootable": false,
-  "volume_serial_number": "c8ca0c8dca0c7a48",
-  "partition_type": "dos",
-  "file_sys_type ": "ntfs",
-  "drive_letter  ": "C",
-  "part-of": "x-disk-image-42eaa6d5-93ad-46f0-95f2-8343094abe52"
-}
+[
+  {
+    "type": "x-disk-partition",
+    "spec_version": "2.1",
+    "id": "x-disk-partition--ac6e29f1-aa84-4066-961b-9e1f42acab8f",
+    "partition_seq_num": 2,
+    "start_sector": 512,
+    "end_sector": 206848,
+    "bytes_per_sector": 512,
+    "is_bootable": false,
+    "volume_serial_number": "c8ca0c8dca0c7a48",
+    "partition_type": "dos",
+    "file_sys_type ": "ntfs",
+    "drive_letter  ": "C",
+    "part-of": "x-disk-image-42eaa6d5-93ad-46f0-95f2-8343094abe52"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "created": "2021-05-15T09:12:16.432Z",
+    "modified": "2021-05-15T09:12:16.432Z",
+    "relationship_type": "part-of",
+    "source_ref": "x-disk-partition--ac6e29f1-aa84-4066-961b-9e1f42acab8f",
+    "target_ref": "x-disk-image--5394ce31-d64c-4b96-a83c-f0a28075885b"
+  },
+  ,
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "created": "2021-05-15T09:12:16.432Z",
+    "modified": "2021-05-15T09:12:16.432Z",
+    "relationship_type": "part-of",
+    "source_ref": "x-disk-partition--ac6e29f1-aa84-4066-961b-9e1f42acab8f",
+    "target_ref": [
+      "file--4de6823e-ee2e-4244-9915-7b3dc0489c84",
+      "file--f4ea6153-e283-4e4d-b2d3-5c7e06f69245"
+    ]
+  }
+]
 ```
 
 ## Secondary Storage Object
@@ -972,7 +1029,7 @@ Vocabulary Name: x-pnp-message-type-enum
 
 **Type Name:** x-file-visit
 
-A File Visit object represents properties that are associated with a file/directory/network directory visit (for various reasons) performed by operating systems or applications. The operation to the file during the visit can be read, create, etc. The visit may be saved in different forms, e.g., file, cache, Windows registry, etc.
+A File Visit object represents properties that are associated with a file/directory/network directory visit (for various reasons) performed by operating systems or applications. The basic operation of the visit to the file can be read, execute, etc. The visit may be saved in different forms, e.g., file, cache, Windows registry, etc. Note that one user's action may involve one or multiple basic operations.
 
 ### Properties
 
@@ -981,31 +1038,23 @@ A File Visit object represents properties that are associated with a file/direct
 | type (required)             | string     | The value of this property MUST be x-file-visit.                                                                     |
 | op                          | enum       | Specifies how the file was visited. The values of this property MUST come from the x-file-visit-op-enum enumeration. |
 | visit_time                  | timestamp  | Specifies the time a file was visited.                                                                               |
-| visitor_ref                 | identifier | Specifier the a visitor, e.g., software or software components, who visited a file.                                  |
-| visit_count                 | integer    | The total number of times the program has visited.                                                                   |
+| visitor_ref                 | identifier | Specifies the a visitor, e.g., software or software components, who visited a file.                                  |
+| visit_count                 | integer    | Specifies the total number of times the program has visited.                                                         |
 | record_reason               | enum       | Specifies a main reasons why a software records the visit. It MUST come from the x-file-visit-record-reason-enum.    |
 | file_visited_ref (required) | identifier | Specifies a file or directory that was recently visited.                                                             |
 | source_ref(required)        | identifier | Specifies the destination (e.g., file, registry, artifact, or directory) the record was saved to.                    |
-| common_name                 | open-vocab | Specifies the evidence name that is commonly referred by investigators. It MUST from x-file-visit-common-name-ov.    |
+| common_name                 | open-vocab | Specifies the common name that is commonly referred by investigators. It MUST from x-file-visit-common-name-ov.      |
 
 ### File Visit Operation Enum
 
 **Vocabulary Name**: x-file-visit-op-enum
 
-| Vocabulary Value | Description                                                                              |
-| ---------------- | ---------------------------------------------------------------------------------------- |
-| create           | A file was visited for creation.                                                         |
-| read             | A file was visited for reading.                                                          |
-| modify           | A file was visited for modification (content is to be modified).                         |
-| update           | The metadata of a file was visited for changing (e.g. permissions)                       |
-| execute          | A file was visited for execution.                                                        |
-| delete           | A file was visited for deletion.                                                         |
-| preload          | A file was visited for preloading to memory.                                             |
-| prefetch         | A file was visited for prefetching to memory.                                            |
-| load             | A file was visited for loading to memory.                                                |
-| unload           | A file was visited for unloading from memory.                                            |
-| other            |                                                                                          |
-| unknown          | There is not enough information available to determine how file was or will be accessed. |
+| Vocabulary Value | Description                                                                                                |
+| ---------------- | ---------------------------------------------------------------------------------------------------------- |
+| read             | A read operation to a file.                                                                                |
+| modify           | A modify operation (content is to be modified) to a file.                                                  |
+| update           | A update operation (i.e., update a metadata of a file, such as change the permission of a file) to a file. |
+| execute          | An execute operation to a file.                                                                            |
 
 ### File Visit Record Reason Enum
 
