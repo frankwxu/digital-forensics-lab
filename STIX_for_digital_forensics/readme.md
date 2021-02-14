@@ -16,6 +16,8 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 - **Open Vocabulary extension:** Add vocabulary in the field of cyber forensic investigations.
 
+## CFO Graph
+
 ![CFO graph](CFO_intro.svg)
 
 ## Extension Format
