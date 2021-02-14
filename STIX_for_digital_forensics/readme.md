@@ -16,6 +16,8 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 - **Open Vocabulary extension:** Add vocabulary in the field of cyber forensic investigations.
 
+![CFO graph](CFO_intro.svg)
+
 ## Extension Format
 
 - **CFOs:** We follow the STIX specification for [customizing objects](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html#_p2sz1mp7z524). The most important rule to create a new object type is that the value of the type property in a Custom Object SHOULD start with “x-” followed by a source unique identifier (like a domain name with dots replaced by hyphens), a hyphen and then the name. For example, x-example-com-customobject.
@@ -333,10 +335,10 @@ An action is one cyber criminal activity performed under a user account. It is a
 
 ### Relationships
 
-| Source   | Relationship Type | Target       | Description                                                                |
-| -------- | ----------------- | ------------ | -------------------------------------------------------------------------- |
-| x-action | traced-back-to    | user-account | This Relationship describes that an action is traced-back-to user-account. |
-| x-action | indicated-by      | indicator    | This Relationship describes that an action is indicated-by of indicator.   |
+| Source   | Relationship Type | Target       | Description                                                             |
+| -------- | ----------------- | ------------ | ----------------------------------------------------------------------- |
+| x-action | exploits          | user-account | This Relationship describes that a Action exploits a User Account.      |
+| x-action | indicated-by      | indicator    | This Relationship describes that a Action is indicated-by of Indicator. |
 
 ## Example: An action that search for anti-forensics tools
 
@@ -387,7 +389,7 @@ An action is one cyber criminal activity performed under a user account. It is a
     "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "traced-back-to",
+    "relationship_type": "exploits",
     "source_ref": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
   },
@@ -470,12 +472,12 @@ A Timeline object describes a specific cybercrime case that is represented by a 
 | description        | string                | A description that provides more details and context about a timeline. |
 | reconstructed_from | identifier            | Specifies timeline is reconstructed from a crime case.                 |
 | reconstructed_by   | identifier            | Specifies timeline is reconstructed by an identity.                    |
-| exploits           | identifier            | Specifies timeline exploits a User Account.                            |
 
 ### Relationships
 
-| Source | Relationship Type | Target | Description |
-| ------ | ----------------- | ------ | ----------- |
+| Source     | Relationship Type | Target       | Description                                                          |
+| ---------- | ----------------- | ------------ | -------------------------------------------------------------------- |
+| x-timeline | exploits          | user-account | This Relationship describes that a Timeline exploits a User Account. |
 
 ## Example: data leakage using a UBS
 
@@ -819,10 +821,9 @@ Notes:
 
 ### Relationships
 
-| Source        | Relationship Type | Target           | Description                                                                          |
-| ------------- | ----------------- | ---------------- | ------------------------------------------------------------------------------------ |
-| x-windows-evt | traced-back-to    | user-account     | This Relationship describes that x-windows-evt can be traced back to a user-account. |
-| x-windows-evt | extracted-from    | x-disk-partition | This Relationship describes that x-windows-evt is extracted from x-disk-partition.   |
+| Source        | Relationship Type | Target       | Description                                                               |
+| ------------- | ----------------- | ------------ | ------------------------------------------------------------------------- |
+| x-windows-evt | exploits          | user-account | This Relationship describes that a Windows Event exploits a User Account. |
 
 ### Example 1: describes a "logon" event recorded in the security event file.
 
@@ -874,7 +875,7 @@ Notes:
     "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "traced-back-to",
+    "relationship_type": "exploits",
     "source_ref": "x-windows-evt--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "target_ref": "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c"
   }
@@ -921,10 +922,9 @@ A Webpage Visit object represents a visit to a webpage.
 
 ### Relationships
 
-| Source          | Relationship Type | Target           | Description                                                                                       |
-| --------------- | ----------------- | ---------------- | ------------------------------------------------------------------------------------------------- |
-| x-webpage-visit | traced-back-to    | user-account     | This Relationship describes that x-webpage-visit can be traced back to a user-account.            |
-| x-webpage-visit | extracted-from    | x-disk-partition | This Relationship describes that a piece of x-webpage-visit is extracted from a x-disk-partition. |
+| Source          | Relationship Type | Target       | Description                                                               |
+| --------------- | ----------------- | ------------ | ------------------------------------------------------------------------- |
+| x-webpage-visit | exploits          | user-account | This Relationship describes that a Webpage Visit exploits a User Account. |
 
 ### Examples
 
@@ -962,7 +962,7 @@ A Webpage Visit object represents a visit to a webpage.
     "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "traced-back-to",
+    "relationship_type": "exploits",
     "source_ref": "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
   }
@@ -1005,10 +1005,9 @@ Vocabulary Name: x-pnp-message-type-enum
 
 ### Relationships
 
-| Source    | Relationship Type | Target           | Description                                                                        |
-| --------- | ----------------- | ---------------- | ---------------------------------------------------------------------------------- |
-| x-pnp-evt | traced-back-to    | user-account     | This Relationship describes that a x-pnp-evt can be traced back to a user-account. |
-| x-pnp-evt | extracted-from    | x-disk-partition | This Relationship describes that a x-pnp-evt is extracted from a x-disk-partition. |
+| Source    | Relationship Type | Target       | Description                                                           |
+| --------- | ----------------- | ------------ | --------------------------------------------------------------------- |
+| x-pnp-evt | exploits          | user-account | This Relationship describes that a pnp Event exploits a user-account. |
 
 ### Examples
 
@@ -1096,10 +1095,9 @@ A File Visit object represents properties that are associated with a file/direct
 
 ### Relationships
 
-| Source       | Relationship Type | Target           | Description                                                                           |
-| ------------ | ----------------- | ---------------- | ------------------------------------------------------------------------------------- |
-| x-file-visit | traced-back-to    | user-account     | This Relationship describes that a x-file-visit can be traced back to a user-account. |
-| x-file-visit | extracted-from    | x-disk-partition | This Relationship describes that a x-file-visit is extracted from a x-disk-partition. |
+| Source       | Relationship Type | Target       | Description                                                            |
+| ------------ | ----------------- | ------------ | ---------------------------------------------------------------------- |
+| x-file-visit | exploits          | user-account | This Relationship describes that a File Visit exploits a User Account. |
 
 ### RecentFileCache
 
