@@ -18,7 +18,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 ## CFO Graph
 
-<img src="CFO_intro.svg" alt="drawing" width="500"/>
+<img src="CFO_intro.svg" alt="drawing" width="1900"/>
 
 ## Extension Format
 
