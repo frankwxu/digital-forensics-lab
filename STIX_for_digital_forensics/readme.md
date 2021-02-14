@@ -46,8 +46,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 - Cyber Forensic Domain Objects (CFDOs)
 
-  - [Disk Image Object](#Disk-Image-Object)
-  - [Memory Image Object](#Memory-Image-Object)
+  - [Image Object](#Image-Object)
   - [Investigation Tool Object](#Investigation-Tool-Object)
   - [Action Object](#Action-Object)
   - [Timeline Object](#Timeline-Object)
@@ -57,6 +56,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
   - [Computer Object](#Computer-Object)
   - [Disk Partition Object](#Disk-Partition-Object)
+  - [RAM Object](#RAM-Object)
   - [Secondary Storage Object](#Secondary-Storage-Object)
   - [Windows Event Object](#Windows-Event-Object)
   - [Webpage Visit Object](#Webpage-Visit-Object)
@@ -80,44 +80,45 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
   - [threat-actor-type-ov extension](#threat-actor-type-ov-extension])
   - [ani-forensic-tool-type-ov](#tool-type-ov-extension)
 
-## Disk Image Object
+## Image Object
 
-**Type Name:** x-disk-image
+**Type Name:** x-image
 
-[A disk image](https://en.wikipedia.org/wiki/Disk_image), in computing, is a computer file containing the contents and structure of a disk volume or of an entire data storage device, such as a hard disk drive, tape drive, floppy disk, optical disc, or USB flash drive.
+An image Object represent a computer file containing the contents and structure of a storage device, such as a hard disk drive, tape drive, floppy disk, optical disc, or USB flash drive, as well as RAM.
 
 ### Disk Image Specific Properties
 
-| Property Name           | Type                          | Description                                                                |
-| ----------------------- | ----------------------------- | -------------------------------------------------------------------------- |
-| type (required)         | string                        | The value of this property MUST be x-disk-image.                           |
-| image_id                | string                        | Specifies an id of a disk image.                                           |
-| description             | string                        | Specifies the description of a disk image.                                 |
-| partitions              | list of type x-disk-partition | Specifies a list of partitions that an disk image contains.                |
-| acquired_on             | timestamp                     | Specifies the time the image was acquired.                                 |
-| format                  | open-vocab                    | Specifies the disk image format. It MUST come from x-disk-image-format-ov. |
-| acquired_using_tool_ref | identifier                    | Specifies the software that creates the disk image.                        |
-| acquired_by_ref         | identifier                    | Specifies the person that create a disk image.                             |
-| image_file_ref          | identifier                    | Specifies a image file.                                                    |
+| Property Name           | Type                          | Description                                                           |
+| ----------------------- | ----------------------------- | --------------------------------------------------------------------- |
+| type (required)         | string                        | The value of this property MUST be x-image.                           |
+| image_id                | string                        | Specifies an id of an image.                                          |
+| description             | string                        | Specifies the description of an image.                                |
+| partitions              | list of type x-disk-partition | Specifies a list of partitions that an image contains.                |
+| acquired_on             | timestamp                     | Specifies the time the image was acquired.                            |
+| format                  | open-vocab                    | Specifies the image format. It MUST come from x-disk-image-format-ov. |
+| acquired_using_tool_ref | identifier                    | Specifies the software that creates the image.                        |
+| acquired_by_ref         | identifier                    | Specifies the person that create a disk image.                        |
+| image_file_ref          | identifier                    | Specifies a image file.                                               |
 
 ### Relationships
 
-| Source       | Relationship Type | Target              | Description                                                                      |
-| ------------ | ----------------- | ------------------- | -------------------------------------------------------------------------------- |
-| x-disk-image | evidence-of       | x-crime-case        | This Relationship describes that a disk image is an evidence of x-crime-case.    |
-| x-disk-image | image-of          | x-secondary-Storage | This Relationship describes that a disk image is an image of x-secondary-Storage |
+| Source       | Relationship Type | Target                     | Description                                                                            |
+| ------------ | ----------------- | -------------------------- | -------------------------------------------------------------------------------------- |
+| x-disk-image | evidence-of       | x-crime-case               | This Relationship describes that an Image is an evidence of a Crime Case.              |
+| x-disk-image | image-of          | x-secondary-Storage, x-ram | This Relationship describes that an Image is an image of a Secondary Storage or a RAM. |
 
 ### Disk Image Format Vocabulary
 
 **Vocabulary Name:** x-disk-image-format-ov
 
-| Vocabulary Value | Description                                                                                                                      |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| e01              | Encase Evidence image file format                                                                                                |
-| dd               | A bit-of-bit copy of the raw data file                                                                                           |
-| lef              | Encase Logical Evidence files                                                                                                    |
-| zip              | It is an archival forensic image file format that supports lossless data compression without losing the originality of the data. |
-| dmg              | A disk image file that is generally created by the Apple Mac OS X.                                                               |
+| Vocabulary Value | Description                                                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| e01              | Encase Evidence image file format                                                                                               |
+| dd               | A bit-of-bit copy of the raw data file                                                                                          |
+| lef              | Encase Logical Evidence files                                                                                                   |
+| zip              | It is an archival forensic image file format that supports lossless data compression without losing the originality of the data |
+| dmg              | A disk image file that is generally created by the Apple Mac OS X                                                               |
+| other            |                                                                                                                                 |
 
 ### Examples
 
@@ -155,70 +156,6 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
     "relationship_type": "image-of",
     "source_ref": "x-disk-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "target_ref": "x-secondary-Storage--3d3c0888-eab4-40a7-8b8a-c195b3d87c19"
-  }
-]
-```
-
-## Memory Image Object
-
-**Type Name:** x-memory-image
-
-A Memory Image object is a copy of the computer's virtual memory, saved in a file.
-
-### Memory Image Specific Properties
-
-| Property Name           | Type       | Description                                         |
-| ----------------------- | ---------- | --------------------------------------------------- |
-| type (required)         | string     | The value of this property MUST be x-disk-image.    |
-| image_id                | string     | Specifies an id of a disk image.                    |
-| description             | string     | Specifies the description of a disk image.          |
-| acquired_on             | timestamp  | Specifies the time the image was acquired.          |
-| acquired_using_tool_ref | identifier | Specifies the software that creates the disk image. |
-| acquired_by_ref         | identifier | Specifies the person that create a disk image.      |
-| image_file_ref          | identifier | Specifies a image file.                             |
-
-### Relationships
-
-| Source         | Relationship Type | Target       | Description                                                                           |
-| -------------- | ----------------- | ------------ | ------------------------------------------------------------------------------------- |
-| x-memory-image | image-of          | x-crime-case | This Relationship describes that a memory image is an image evidence of x-crime-case. |
-| x-memory-image | acquired-from     | x-computer   | This Relationship describes that a memory image is acquired from x-computer.          |
-
-### Example of a memory image
-
-```json
-[
-  {
-    "type": "x-memory-image",
-    "spec_version": "2.1",
-    "id": "x-memory-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-    "acquired_on": "2021-01-06T20:03:22.000Z",
-    "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
-    "acquired_by_ref": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
-    "acquired_using_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
-    "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-    "created": "2021-04-06T20:03:00.000Z",
-    "modified": "2021-04-06T20:03:00.000Z"
-  },
-  {
-    "type": "relationship",
-    "spec_version": "2.1",
-    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
-    "created": "2020-01-16T18:52:24.277Z",
-    "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "image-of",
-    "source_ref": "x-memory-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-    "target_ref": "x-crime-case--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
-  },
-  {
-    "type": "relationship",
-    "spec_version": "2.1",
-    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
-    "created": "2020-01-16T18:52:24.277Z",
-    "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "acquired-from",
-    "source_ref": "x-memory-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
-    "target_ref": "x-computer--6979e202f-8b68-43e6-beb7-06d26d88a352"
   }
 ]
 ```
@@ -736,6 +673,43 @@ Specify a partition with NTFS
   }
 ]
 ```
+
+## RAM Object
+
+**Type Name:** x-ram
+
+Memory object represent a primary storage that is used to store information for immediate use in a computer or related computer hardware device. We only include RAM.
+
+### Memory Specific Properties
+
+| Property Name   | Type       | Description                                                                                   |
+| --------------- | ---------- | --------------------------------------------------------------------------------------------- |
+| type (required) | string     | The value of this property MUST be x-ram.                                                     |
+| manufacturer    | string     | Specifies the manufacturer of a RAN.                                                          |
+| brand           | string     | Specifies the brand of a secondary storage.                                                   |
+| model           | string     | Specifies the model of a secondary storage.                                                   |
+| serial_number   | string     | Specifies the serial number of a secondary storage.                                           |
+| type            | open-vocab | Specifies the type of memory. The value for this property SHOULD come from the x-ram-type-ov. |
+| size            | integer    | Specifies the size of a secondary storage in MB.                                              |
+
+### ID Contributing Properties
+
+- serial_number
+
+### Secondary Storage Type Vocabulary
+
+Vocabulary Name: x-ram-type-ov
+
+| Vocabulary Value | Description                               |
+| ---------------- | ----------------------------------------- |
+| fpm              | Fast page mode RAM                        |
+| edo-ram          | Extended data operations read-only memory |
+| sdram            | Single dynamic RAM                        |
+| rdram            | Rambus RAM                                |
+| ddr              | Double Data Rate                          |
+| ddr2             |                                           |
+| ddr3             |                                           |
+| ddr4             |                                           |
 
 ## Secondary Storage Object
 
