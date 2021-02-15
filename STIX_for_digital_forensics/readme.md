@@ -796,19 +796,27 @@ Cloud Storage object represent a cloud space to store data.
 ### Example 1: describes a "logon" event recorded in the security event file.
 
 ```json
-{
-  "type": "x-cloud-storage",
-  "spec_version": "2.1",
-  "id": " x-cloud-storage--771c2a9a-db0c-4328-bfa0-5d1b5359da45",
-  "software_ref": "software--fe5b3c0d-810c-4e08-bdff-de9084aff90d",
-  "cloud_url_ref": "url--26164fad-f2c1-4aee-b517-bbedb84094ec",
-  "cloud_file_refs": [
-    "file--39f88548-ff7f-4377-a79e-bd95aa92bf0b",
-    "file--dc2771e8-5b45-4e39-a162-a1465e80850f"
-  ],
-  "local_directory_ref": "directory--2c1f4e62-c6c7-48cc-b682-cbc04dc7c27b",
-  "size": 150000
-}
+[
+  {
+    "type": "x-cloud-storage",
+    "spec_version": "2.1",
+    "id": " x-cloud-storage--771c2a9a-db0c-4328-bfa0-5d1b5359da45",
+    "software_ref": "software--fe5b3c0d-810c-4e08-bdff-de9084aff90d",
+    "cloud_url_ref": "url--26164fad-f2c1-4aee-b517-bbedb84094ec",
+    "cloud_file_refs": [
+      "file--39f88548-ff7f-4377-a79e-bd95aa92bf0b",
+      "file--dc2771e8-5b45-4e39-a162-a1465e80850f"
+    ],
+    "local_directory_ref": "directory--2c1f4e62-c6c7-48cc-b682-cbc04dc7c27b",
+    "size": 150000
+  },
+  {
+    "type": "url",
+    "spec_version": "2.1",
+    "id": "url--26164fad-f2c1-4aee-b517-bbedb84094ec",
+    "value": "https://www.dropbox.com/h"
+  }
+]
 ```
 
 ## Windows Event Object
