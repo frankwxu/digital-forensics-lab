@@ -51,6 +51,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
   - [Action Object](#Action-Object)
   - [Timeline Object](#Timeline-Object)
   - [Crime Case Object](#Crime-Case-Object)
+  - [Investigator Object](#Investigator-Object)
 
 - Cyber Forensic Observable Objects (CFOOs)
 
@@ -460,10 +461,10 @@ A Crime Case object represents a background description of a potential cybercrim
 
 ### Relationships
 
-| Source       | Relationship Type | Target   | Description                                                                 |
-| ------------ | ----------------- | -------- | --------------------------------------------------------------------------- |
-| x-crime-case | assigned-to       | identity | This Relationship describes that the investigator was assigned to the case. |
-| x-crime-case | involves          | identity | This Relationship describes that a x-crime-case involves identity.          |
+| Source       | Relationship Type | Target         | Description                                                                 |
+| ------------ | ----------------- | -------------- | --------------------------------------------------------------------------- |
+| x-crime-case | assigned-to       | x-investigator | This Relationship describes that the Investigator was assigned to the case. |
+| x-crime-case | involves          | identity       | This Relationship describes that a x-crime-case involves identity.          |
 
 ## Example: NIST data leakage case
 
@@ -498,9 +499,52 @@ A Crime Case object represents a background description of a potential cybercrim
     "modified": "2021-05-15T09:12:16.432Z",
     "relationship_type": "assigned-to",
     "source_ref": "x-crime-case--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
-    "target_ref": "identity--6e775953-6fd3-4f0f-b1f2-d180e25f17dc"
+    "target_ref": "x-investigator--6e775953-6fd3-4f0f-b1f2-d180e25f17dc"
   }
 ]
+```
+
+## Investigator Object
+
+**Type Name:** x-investigator
+
+An investigator is a digital forensic analyst to collect, store, and analyze digital evidence for reconstructing a crime scene.
+
+### Investigator Specific Properties
+
+| Property Name   | Type                 | Description                                                                                                                                 |
+| --------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required) | string               | The value of this property MUST be x-investigator.                                                                                          |
+| name (required) | string               | A name used to identify this Investigator.                                                                                                  |
+| description     | string               | A description that provides more details and context about the Investigator, potentially including its purpose and its key characteristics. |
+| degree          | string               | Specifies the highest academic degree of the investigator, e.g, AA, BS, MS, Ph.D.                                                           |
+| major           | string               | Specifies the major of the highest academic degree of the investigator.                                                                     |
+| certificates    | list of type string  | Specifies a list of certificates the investigator has.                                                                                      |
+| history         | list of x-crime-case | A list of Crime Cases investigated by the investigator.                                                                                     |
+
+### Relationships
+
+| Source         | Relationship Type | Target       | Description                                                                 |
+| -------------- | ----------------- | ------------ | --------------------------------------------------------------------------- |
+| x-investigator | attributed-to     | identity     | The relationship describes that the Investigator's identity.                |
+| x-investigator | investigates      | x-crime-case | The relationship describes that the Investigator investigates a Crime Case. |
+
+### Example
+
+Describe a crime case investigator.
+
+```json
+{
+  "type": "x-investigator",
+  "spec_version": "2.1",
+  "id": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+  "degree": "MS",
+  "major": "Cyber Investigations",
+  "history": [
+    "x-crime-case--27e05525-53b8-479d-bd85-ba0e63193283",
+    "x-crime-case--a3d3f2b8-79b0-4b76-8bb0-458692196125"
+  ]
+}
 ```
 
 ---
@@ -516,7 +560,7 @@ A Crime Case object represents a background description of a potential cybercrim
 - serial_number
 - cpu
 
-### Disk partition Specific Properties
+### Computer Specific Properties
 
 | Property Name          | Type                        | Description                                                                                                                  |
 | ---------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
