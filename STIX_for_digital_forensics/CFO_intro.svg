@@ -316,7 +316,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="9" cy="1573.16" width="81.55" height="17.6036"/>
 			<path d="M9 1548 L9 1591.78" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-26.7695" y="1568.36" width="71.5388" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-26.7695" y="1568.36" width="71.5388" height="9.59985" class="st10"/>
 			<text x="-26.77" y="1575.56" class="st11" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>parent_directory_ref</text>		</g>
 		<g id="shape1034-154" v:mID="1034" v:groupContext="shape" v:layerMember="0" transform="translate(306,-1207.23)">
 			<title>Dynamic connector.1034</title>
@@ -324,7 +324,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-216" cy="2015.26" width="55.67" height="17.6036"/>
 			<path d="M0 1548 L-216 1548 L-216 2387.46 L88.52 2387.46" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-238.832" y="2010.46" width="45.6638" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-238.832" y="2010.46" width="45.6638" height="9.59985" class="st10"/>
 			<text x="-238.83" y="2017.66" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>c<tspan
 						class="st7" v:langID="2057">ontains</tspan><tspan class="st7" v:langID="2057">-</tspan><tspan class="st7"
 						v:langID="2057">refs</tspan></text>		</g>
@@ -592,7 +592,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-76.616" cy="1639.75" width="40" height="17.6036"/>
 			<path d="M0 1548 L0 1639.75 L-88.65 1639.75 L-88.65 1772.68 L-71.79 1772.68" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-88.1843" y="1634.95" width="23.1364" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-88.1843" y="1634.95" width="23.1364" height="9.59985" class="st10"/>
 			<text x="-88.18" y="1642.15" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>part-of</text>		</g>
 		<g id="shape1066-336" v:mID="1066" v:groupContext="shape" v:layerMember="0" transform="translate(653.062,-1071.29)">
 			<title>Dynamic connector.1066</title>
@@ -600,7 +600,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-9" cy="1592.38" width="40" height="17.6036"/>
 			<path d="M-9 1548 L-9 1630.21" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-21.6405" y="1587.58" width="25.2809" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-21.6405" y="1587.58" width="25.2809" height="9.59985" class="st10"/>
 			<text x="-21.64" y="1594.78" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>used-in</text>		</g>
 		<g id="shape1067-343" v:mID="1067" v:groupContext="shape" transform="translate(432,-1027.85)">
 			<title>Rectangle.1067</title>
@@ -704,7 +704,7 @@
 			<path d="M0 1548 L-13.5 1548 L-13.5 1614.62 L-57.58 1614.62" class="st8"/>
 			<rect v:rectContext="textBkgnd" x="-32.2128" y="1595.07" width="37.4255" height="9.59985" class="st10"/>
 			<text x="-32.21" y="1602.27" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>object-refs</text>		</g>
-		<g id="shape1079-406" v:mID="1079" v:groupContext="shape" transform="translate(1004.63,-1028.32)">
+		<g id="shape1079-406" v:mID="1079" v:groupContext="shape" transform="translate(61.875,-1377.5)">
 			<title>Rectangle.1079</title>
 			<desc>Cyber Forensic Domain Object</desc>
 			<v:userDefs>
@@ -715,7 +715,7 @@
 			<rect x="0" y="1514.51" width="129.375" height="33.4898" class="st1"/>
 			<text x="25.57" y="1527.66" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Cyber Forensic <tspan
 						x="25.91" dy="1.2em" class="st7">Domain Object</tspan></text>		</g>
-		<g id="shape1080-410" v:mID="1080" v:groupContext="shape" transform="translate(1003.5,-966.083)">
+		<g id="shape1080-410" v:mID="1080" v:groupContext="shape" transform="translate(60.75,-1315.26)">
 			<title>Rectangle.1080</title>
 			<desc>Cyber Forensic Domain Object</desc>
 			<v:userDefs>
@@ -726,7 +726,7 @@
 			<rect x="0" y="1514.51" width="130.5" height="33.4898" class="st5"/>
 			<text x="4.46" y="1527.66" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Cyber Forensic Domain <tspan
 						x="48.15" dy="1.2em" class="st7">Object</tspan></text>		</g>
-		<g id="shape1081-414" v:mID="1081" v:groupContext="shape" transform="translate(1003.5,-903.842)">
+		<g id="shape1081-414" v:mID="1081" v:groupContext="shape" transform="translate(60.75,-1253.01)">
 			<title>Rectangle.1081</title>
 			<desc>STIX Object</desc>
 			<v:userDefs>
@@ -742,7 +742,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-73.6875" cy="1525.35" width="50.59" height="17.6036"/>
 			<path d="M0 1548 L-141.12 1504.61" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-93.9802" y="1520.55" width="40.5854" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-93.9802" y="1520.55" width="40.5854" height="9.59985" class="st10"/>
 			<text x="-93.98" y="1527.75" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>assigned-to</text>		</g>
 		<g id="shape1083-424" v:mID="1083" v:groupContext="shape" v:layerMember="0" transform="translate(579.375,-972.317)">
 			<title>Dynamic connector.1083</title>
@@ -750,7 +750,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-23.1702" cy="1575.77" width="40" height="17.6036"/>
 			<path d="M0 1548 L-42.15 1598.51" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-37.2678" y="1570.97" width="28.195" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-37.2678" y="1570.97" width="28.195" height="9.59985" class="st10"/>
 			<text x="-37.27" y="1578.17" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>invovles</text>		</g>
 		<g id="shape1084-431" v:mID="1084" v:groupContext="shape" v:layerMember="0" transform="translate(371.25,-982.544)">
 			<title>Dynamic connector.1084</title>
@@ -766,7 +766,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="79.3125" cy="1515.52" width="40" height="17.6036"/>
 			<path d="M0 1548 L79.31 1548 L79.31 1410.27" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="65.4805" y="1510.72" width="27.6638" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="65.4805" y="1510.72" width="27.6638" height="9.59985" class="st10"/>
 			<text x="65.48" y="1517.92" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>exploits</text>		</g>
 		<g id="shape1086-445" v:mID="1086" v:groupContext="shape" v:layerMember="0" transform="translate(401.062,-716.039)">
 			<title>Dynamic connector.1086</title>
@@ -774,7 +774,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-29.25" cy="1528.23" width="40" height="17.6036"/>
 			<path d="M0 1548 L-29.25 1548 L-29.25 1485.75" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-43.082" y="1523.43" width="27.6638" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-43.082" y="1523.43" width="27.6638" height="9.59985" class="st10"/>
 			<text x="-43.08" y="1530.63" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>exploits</text>		</g>
 		<g id="shape1087-452" v:mID="1087" v:groupContext="shape" transform="translate(295.875,-531.6)">
 			<title>Rectangle.1087</title>
@@ -819,7 +819,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="42.1875" cy="1539" width="41.11" height="17.6036"/>
 			<path d="M0 1539 L77.83 1539" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="26.6367" y="1534.2" width="31.1015" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="26.6367" y="1534.2" width="31.1015" height="9.59985" class="st10"/>
 			<text x="26.64" y="1541.4" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>ram_refs</text>		</g>
 		<g id="shape1092-480" v:mID="1092" v:groupContext="shape" v:layerMember="0" transform="translate(867.656,-982.544)">
 			<title>Dynamic connector.1092</title>
@@ -858,7 +858,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="0" cy="1495.96" width="40" height="17.6036"/>
 			<path d="M0 1548 L0 1467.55 L17.08 1467.55" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-6.23413" y="1491.16" width="12.4684" height="9.59985" class="st10"/>
+			<rect v:rectContext="textBkgnd" x="-6.23413" y="1491.16" width="12.4684" height="9.59985" class="st12"/>
 			<text x="-6.23" y="1498.36" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>has</text>		</g>
 		<g id="shape1098-509" v:mID="1098" v:groupContext="shape" transform="translate(276.75,-451.598)">
 			<title>Rectangle.1098</title>
@@ -904,7 +904,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-40.6547" cy="1567.22" width="57.89" height="17.6036"/>
 			<path d="M0 1548 L-75.4 1583.65" class="st8"/>
-			<rect v:rectContext="textBkgnd" x="-63.5978" y="1562.43" width="45.886" height="9.59985" class="st12"/>
+			<rect v:rectContext="textBkgnd" x="-63.5978" y="1562.43" width="45.886" height="9.59985" class="st10"/>
 			<text x="-63.6" y="1569.63" class="st11" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>processed-by  </text>		</g>
 		<g id="shape1103-532" v:mID="1103" v:groupContext="shape" v:layerMember="0" transform="translate(848.812,-510.503)">
 			<title>Dynamic connector.1103</title>
