@@ -778,14 +778,38 @@ Specify a partition with NTFS
 
 Cloud Storage object represent a cloud space to store data.
 
-| Property Name   | Type              | Description                                                                            |
-| --------------- | ----------------- | -------------------------------------------------------------------------------------- |
-| type (required) | string            | The value of this property MUST be x-cloud-storage.                                    |
-| app_ref         | identifier        | Specifier the software. The value MUST be an ID reference to Software.                 |
-| url_ref         | identifier        | Specifier the url to the storage. The value MUST be an ID reference to URL.            |
-| local_directory | identifier        | Specifier the local storage directory. The value MUST be an ID reference to Directory. |
-| contains_refs   | list of type file | Specifier a list of Files.                                                             |
-| size            | integer           | Specifier the size of storage in MB.                                                   |
+| Property Name       | Type              | Description                                                                            |
+| ------------------- | ----------------- | -------------------------------------------------------------------------------------- |
+| type (required)     | string            | The value of this property MUST be x-cloud-storage.                                    |
+| software_ref        | identifier        | Specifier the software. The value MUST be an ID reference to Software.                 |
+| cloud_url_ref       | identifier        | Specifier the url to the storage. The value MUST be an ID reference to URL.            |
+| cloud_file_refs     | list of type file | Specifier a list of Files on the cloud.                                                |
+| local_directory_ref | identifier        | Specifier the local storage directory. The value MUST be an ID reference to Directory. |
+| size                | integer           | Specifier the size of cloud storage in MB.                                             |
+
+### Relationships
+
+| Source          | Relationship Type | Target       | Description                                                               |
+| --------------- | ----------------- | ------------ | ------------------------------------------------------------------------- |
+| x-cloud-storage | requires          | user-account | This Relationship describes that a Cloud Storage requires a User Account. |
+
+### Example 1: describes a "logon" event recorded in the security event file.
+
+```json
+{
+  "type": "x-cloud-storage",
+  "spec_version": "2.1",
+  "id": " x-cloud-storage--771c2a9a-db0c-4328-bfa0-5d1b5359da45",
+  "software_ref": "software--fe5b3c0d-810c-4e08-bdff-de9084aff90d",
+  "cloud_url_ref": "url--26164fad-f2c1-4aee-b517-bbedb84094ec",
+  "cloud_file_refs": [
+    "file--39f88548-ff7f-4377-a79e-bd95aa92bf0b",
+    "file--dc2771e8-5b45-4e39-a162-a1465e80850f"
+  ],
+  "local_directory_ref": "directory--2c1f4e62-c6c7-48cc-b682-cbc04dc7c27b",
+  "size": 150000
+}
+```
 
 ## Windows Event Object
 
