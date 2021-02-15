@@ -999,8 +999,8 @@ Vocabulary Name: x-pnp-message-type-enum
 
 | Source    | Relationship Type | Target                            | Description                                                                                        |
 | --------- | ----------------- | --------------------------------- | -------------------------------------------------------------------------------------------------- |
-| x-pnp-evt | exploits          | user-account                      | This Relationship describes that a pnp Event exploits a user-account.                              |
-| x-pnp-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a pnp Event is processed/viewed by a list of Investigation Tools. |
+| x-pnp-evt | exploits          | user-account                      | This Relationship describes that a PnP Event exploits a user-account.                              |
+| x-pnp-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a PnP Event is processed/viewed by a list of Investigation Tools. |
 
 ### Examples
 
