@@ -87,7 +87,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 An image Object represent a computer file containing the contents and structure of a storage device, such as a hard disk drive, tape drive, floppy disk, optical disc, or USB flash drive, as well as RAM.
 
-### Disk Image Specific Properties
+### Image Specific Properties
 
 | Property Name           | Type                          | Description                                                           |
 | ----------------------- | ----------------------------- | --------------------------------------------------------------------- |
@@ -103,14 +103,14 @@ An image Object represent a computer file containing the contents and structure 
 
 ### Relationships
 
-| Source       | Relationship Type | Target                     | Description                                                                            |
-| ------------ | ----------------- | -------------------------- | -------------------------------------------------------------------------------------- |
-| x-disk-image | evidence-of       | x-crime-case               | This Relationship describes that an Image is an evidence of a Crime Case.              |
-| x-disk-image | image-of          | x-secondary-Storage, x-ram | This Relationship describes that an Image is an image of a Secondary Storage or a RAM. |
+| Source  | Relationship Type | Target                     | Description                                                                            |
+| ------- | ----------------- | -------------------------- | -------------------------------------------------------------------------------------- |
+| x-image | evidence-of       | x-crime-case               | This Relationship describes that an Image is an evidence of a Crime Case.              |
+| x-image | image-of          | x-secondary-Storage, x-ram | This Relationship describes that an Image is an image of a Secondary Storage or a RAM. |
 
 ### Disk Image Format Vocabulary
 
-**Vocabulary Name:** x-disk-image-format-ov
+**Vocabulary Name:** x-image-format-ov
 
 | Vocabulary Value | Description                                                                                                                     |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -126,9 +126,9 @@ An image Object represent a computer file containing the contents and structure 
 ```json
 [
   {
-    "type": "x-disk-image",
+    "type": "x-image",
     "spec_version": "2.1",
-    "id": "x-disk-image-evidence--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "id": "x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "acquired_on": "2021-01-06T20:03:22.000Z",
     "format": "dd",
     "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
@@ -145,7 +145,7 @@ An image Object represent a computer file containing the contents and structure 
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
     "relationship_type": "evidence-of",
-    "source_ref": "x-disk-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "source_ref": "x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "target_ref": "x-crime-case--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
   },
   {
@@ -155,7 +155,7 @@ An image Object represent a computer file containing the contents and structure 
     "created": "2020-01-16T18:52:24.277Z",
     "modified": "2020-01-16T18:52:24.277Z",
     "relationship_type": "image-of",
-    "source_ref": "x-disk-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "source_ref": "x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "target_ref": "x-secondary-Storage--3d3c0888-eab4-40a7-8b8a-c195b3d87c19"
   }
 ]
@@ -450,13 +450,13 @@ A Crime Case object represents a background description of a potential cybercrim
 
 ## Crime Case Properties
 
-| Property Name   | Type              | Description                                                                 |
-| --------------- | ----------------- | --------------------------------------------------------------------------- |
-| type (required) | string            | The value of this property MUST be x-crime-case.                            |
-| case_id         | string            | Specifies a case identifier that is assigned to a case.                     |
-| name            | string            | Specifies the name of a case.                                               |
-| description     | string            | A description that provides more details and context about a case.          |
-| case_file_refs  | list of type file | Specifies docs (other than disk images) that are associated with the cases. |
+| Property Name   | Type              | Description                                                                                      |
+| --------------- | ----------------- | ------------------------------------------------------------------------------------------------ |
+| type (required) | string            | The value of this property MUST be x-crime-case.                                                 |
+| case_id         | string            | Specifies a case identifier that is assigned to a case.                                          |
+| name            | string            | Specifies the name of a case.                                                                    |
+| description     | string            | A description that provides more details and context about a case.                               |
+| case_file_refs  | list of type file | Specifies docs, logs, and any files (other than disk images) that are associated with the cases. |
 
 ### Relationships
 
