@@ -168,15 +168,15 @@ Investigation Tools are software that can be used by cyber investigators to perf
 
 ### Investigation Tool Specific Properties
 
-| Property Name   | Type                    | Description                                                                                                                         |
-| --------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| type (required) | string                  | The value of this property MUST be x-investigation-tool.                                                                            |
-| last_modified   | timestamps              | The last modified date of the investigation tool.                                                                                   |
-| description     | string                  | A description that provides more details and context about the investigation tool.                                                  |
-| used_for        | list of type open-vocab | Specifies a list of activities that tool is used to perform. Each activity SHOULD come from the x-activity-name-ov open vocabulary. |
-| aliases         | list of type string     | Alternative names used to identify this investigation tool.                                                                         |
-| version         | string                  | The version identifier associated with the investigation tool.                                                                      |
-| software_ref    | identifier              | Specifies the software product (if CPE or SWID is known) used as the investigation tool.                                            |
+| Property Name   | Type                    | Description                                                                                                                                                         |
+| --------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required) | string                  | The value of this property MUST be x-investigation-tool.                                                                                                            |
+| last_modified   | timestamps              | The last modified date of the investigation tool.                                                                                                                   |
+| description     | string                  | A description that provides more details and context about the investigation tool.                                                                                  |
+| functions       | list of type open-vocab | Specifies a list of functions of an Investigation Tool. Each function is summarized in one activity, which SHOULD come from the x-activity-name-ov open vocabulary. |
+| aliases         | list of type string     | Alternative names used to identify this investigation tool.                                                                                                         |
+| version         | string                  | The version identifier associated with the investigation tool.                                                                                                      |
+| software_ref    | identifier              | Specifies the software product (if CPE or SWID is known) used as the investigation tool.                                                                            |
 
 ### Activity Name Vocabulary
 
@@ -524,18 +524,19 @@ A Crime Case object represents a background description of a potential cybercrim
 | type                   | string                      | Specifies the type of a computer. The value of this property MUST come from [Types](https://en.wikipedia.org/wiki/Computer). |
 | model                  | string                      | Specifies the model of a computer.                                                                                           |
 | cpu                    | StringS                     | Specifies the CUP of a computer. It MUST follow CUP naming conventions.                                                      |
-| memory                 | list of x-memory            | Specifies the memory of a computer.                                                                                          |
+| ram_refs               | list of type x-ram          | Specifies a list of RAM memory device of a computer.                                                                         |
 | input_devices          | list of type string         | Specifies a list of input devices.                                                                                           |
 | output_device          | list of type string         | Specifies a list of output devices.                                                                                          |
 | secondary_storage_refs | list of x-secondary-storage | Specifies a list of x-secondary-storage.                                                                                     |
 
 ### Relationships
 
-| Source     | Relationship Type | Target                    | Description                                                                            |
-| ---------- | ----------------- | ------------------------- | -------------------------------------------------------------------------------------- |
-| x-computer | has               | ipv4-addr                 | The relationship specifies that a computer communicates with other PCs with ipv4-addr. |
-| x-computer | has               | list of type user-account | The relationship specifies that a computer has a list of user-account.                 |
-| x-computer | used-in           | x-crime-case              | The relationship specifies that a computer is used in a x-crime-case.                  |
+| Source     | Relationship Type | Target                    | Description                                                                               |
+| ---------- | ----------------- | ------------------------- | ----------------------------------------------------------------------------------------- |
+| x-computer | communicates-use  | ipv4-addr, ipv6-addr      | The relationship specifies that a computer communicates with other PCs with IPv4/v6 Addr. |
+| x-computer | has               | mac-addr                  | The relationship specifies that a computer has a a Mac Address.                           |
+| x-computer | has               | list of type user-account | The relationship specifies that a computer has a list of User Account.                    |
+| x-computer | used-in           | x-crime-case              | The relationship specifies that a computer is used in a Crime Case.                       |
 
 ### Example
 
@@ -664,7 +665,7 @@ Specify a partition with NTFS
     "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
     "created": "2021-05-15T09:12:16.432Z",
     "modified": "2021-05-15T09:12:16.432Z",
-    "relationship_type": "part-of",
+    "relationship_type": "contains-refs",
     "source_ref": "x-disk-partition--ac6e29f1-aa84-4066-961b-9e1f42acab8f",
     "target_ref": [
       "file--4de6823e-ee2e-4244-9915-7b3dc0489c84",
@@ -678,7 +679,7 @@ Specify a partition with NTFS
 
 **Type Name:** x-ram
 
-Memory object represent a primary storage that is used to store information for immediate use in a computer or related computer hardware device. We only include RAM.
+RAM object represent a random access memory, a primary storage, that is used to store information for immediate use in a computer or related computer hardware device.
 
 ### Memory Specific Properties
 
@@ -787,8 +788,8 @@ A Windows Event object represents properties of an event, which is recorded by W
 | event_generator      | string     | Specifies the name of the software (or the name of a sub-component of the software if the software is large) that generates the event.                             |
 | event_id             | integer    | The value is specific to the event source for the event, and is used with the source name to locate a description string in the message file for the event source. |
 | event_id_string      | integer    | Specified the description string of event_id.                                                                                                                      |
-| event_type           | string     | It MUST be one EventType defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                                |
-| source_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact                                                                          |
+| event_type           | string     | It MUST be one of EventTypes defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                            |
+| source_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of File or Artifact                                                                          |
 
 Notes:
 
@@ -797,9 +798,10 @@ Notes:
 
 ### Relationships
 
-| Source        | Relationship Type | Target       | Description                                                               |
-| ------------- | ----------------- | ------------ | ------------------------------------------------------------------------- |
-| x-windows-evt | exploits          | user-account | This Relationship describes that a Windows Event exploits a User Account. |
+| Source        | Relationship Type | Target                            | Description                                                                                            |
+| ------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| x-windows-evt | exploits          | user-account                      | This Relationship describes that a Windows Event exploits a User Account.                              |
+| x-windows-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a Windows Event is processed/viewed by a list of Investigation Tools. |
 
 ### Example 1: describes a "logon" event recorded in the security event file.
 
@@ -854,6 +856,19 @@ Notes:
     "relationship_type": "exploits",
     "source_ref": "x-windows-evt--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "target_ref": "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z",
+    "relationship_type": "processed-by",
+    "source_ref": "x-windows-evt--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "target_ref": [
+      "x-investigation-tool-b0c1231e-996f-455d-9884-a4c52b7910a5",
+      "x-investigation-tool-eab56266-e855-4737-a48a-e6d10d7e96c2"
+    ]
   }
 ]
 ```
@@ -898,9 +913,10 @@ A Webpage Visit object represents a visit to a webpage.
 
 ### Relationships
 
-| Source          | Relationship Type | Target       | Description                                                               |
-| --------------- | ----------------- | ------------ | ------------------------------------------------------------------------- |
-| x-webpage-visit | exploits          | user-account | This Relationship describes that a Webpage Visit exploits a User Account. |
+| Source          | Relationship Type | Target                            | Description                                                                                            |
+| --------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| x-webpage-visit | exploits          | user-account                      | This Relationship describes that a Webpage Visit exploits a User Account.                              |
+| x-webpage-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a Webpage Visit is processed/viewed by a list of Investigation Tools. |
 
 ### Examples
 
@@ -981,9 +997,10 @@ Vocabulary Name: x-pnp-message-type-enum
 
 ### Relationships
 
-| Source    | Relationship Type | Target       | Description                                                           |
-| --------- | ----------------- | ------------ | --------------------------------------------------------------------- |
-| x-pnp-evt | exploits          | user-account | This Relationship describes that a pnp Event exploits a user-account. |
+| Source    | Relationship Type | Target                            | Description                                                                                        |
+| --------- | ----------------- | --------------------------------- | -------------------------------------------------------------------------------------------------- |
+| x-pnp-evt | exploits          | user-account                      | This Relationship describes that a pnp Event exploits a user-account.                              |
+| x-pnp-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a pnp Event is processed/viewed by a list of Investigation Tools. |
 
 ### Examples
 
@@ -1071,9 +1088,10 @@ A File Visit object represents properties that are associated with a file/direct
 
 ### Relationships
 
-| Source       | Relationship Type | Target       | Description                                                            |
-| ------------ | ----------------- | ------------ | ---------------------------------------------------------------------- |
-| x-file-visit | exploits          | user-account | This Relationship describes that a File Visit exploits a User Account. |
+| Source       | Relationship Type | Target                            | Description                                                                                         |
+| ------------ | ----------------- | --------------------------------- | --------------------------------------------------------------------------------------------------- |
+| x-file-visit | exploits          | user-account                      | This Relationship describes that a File Visit exploits a User Account.                              |
+| x-file-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a File Visit is processed/viewed by a list of Investigation Tools. |
 
 ### RecentFileCache
 
