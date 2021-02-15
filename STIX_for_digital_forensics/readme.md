@@ -58,6 +58,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
   - [Disk Partition Object](#Disk-Partition-Object)
   - [RAM Object](#RAM-Object)
   - [Secondary Storage Object](#Secondary-Storage-Object)
+  - [Cloud Storage Object](#Cloud-Storage-Object)
   - [Windows Event Object](#Windows-Event-Object)
   - [Webpage Visit Object](#Webpage-Visit-Object)
   - [Plug and Play (PnP) Event Object](#Plug-and-Play-PnP-Event-Object)
@@ -770,6 +771,21 @@ Specify a partition with NTFS
   "drive_letter  ": "C"
 }
 ```
+
+## Cloud Storage Object
+
+**Type Name:** x-cloud-storage
+
+Cloud Storage object represent a cloud space to store data.
+
+| Property Name   | Type              | Description                                                                            |
+| --------------- | ----------------- | -------------------------------------------------------------------------------------- |
+| type (required) | string            | The value of this property MUST be x-cloud-storage.                                    |
+| app_ref         | identifier        | Specifier the software. The value MUST be an ID reference to Software.                 |
+| url_ref         | identifier        | Specifier the url to the storage. The value MUST be an ID reference to URL.            |
+| local_directory | identifier        | Specifier the local storage directory. The value MUST be an ID reference to Directory. |
+| contains_refs   | list of type file | Specifier a list of Files.                                                             |
+| size            | integer           | Specifier the size of storage in MB.                                                   |
 
 ## Windows Event Object
 
