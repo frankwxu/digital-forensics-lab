@@ -98,8 +98,8 @@ An image Object represent a computer file containing the contents and structure 
 | partitions              | list of type x-disk-partition | Specifies a list of partitions that an image contains.                |
 | acquired_on             | timestamp                     | Specifies the time the image was acquired.                            |
 | format                  | open-vocab                    | Specifies the image format. It MUST come from x-disk-image-format-ov. |
-| acquired_using_tool_ref | identifier                    | Specifies the software that creates the image.                        |
-| acquired_by_ref         | identifier                    | Specifies the person that create a disk image.                        |
+| acquired_using_tool_ref | identifier                    | Specifies the Investigation Tool that creates the image.              |
+| acquired_by_ref         | identifier                    | Specifies the Investigator that create a disk image.                  |
 | image_file_ref          | identifier                    | Specifies a image file.                                               |
 
 ### Relationships
@@ -133,7 +133,7 @@ An image Object represent a computer file containing the contents and structure 
     "acquired_on": "2021-01-06T20:03:22.000Z",
     "format": "dd",
     "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
-    "acquired_by_ref": "identity--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
+    "acquired_by_ref": "x-investigator--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
     "acquired_using_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
@@ -512,15 +512,16 @@ An investigator is a digital forensic analyst to collect, store, and analyze dig
 
 ### Investigator Specific Properties
 
-| Property Name   | Type                 | Description                                                                                                                                 |
-| --------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| type (required) | string               | The value of this property MUST be x-investigator.                                                                                          |
-| name (required) | string               | A name used to identify this Investigator.                                                                                                  |
-| description     | string               | A description that provides more details and context about the Investigator, potentially including its purpose and its key characteristics. |
-| degree          | string               | Specifies the highest academic degree of the investigator, e.g, AA, BS, MS, Ph.D.                                                           |
-| major           | string               | Specifies the major of the highest academic degree of the investigator.                                                                     |
-| certificates    | list of type string  | Specifies a list of certificates the investigator has.                                                                                      |
-| history         | list of x-crime-case | A list of Crime Cases investigated by the investigator.                                                                                     |
+| Property Name         | Type                    | Description                                                                                                                                 |
+| --------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required)       | string                  | The value of this property MUST be x-investigator.                                                                                          |
+| name (required)       | string                  | A name used to identify this Investigator.                                                                                                  |
+| description           | string                  | A description that provides more details and context about the Investigator, potentially including its purpose and its key characteristics. |
+| degree                | string                  | Specifies the highest academic degree of the investigator, e.g, AA, BS, MS, Ph.D.                                                           |
+| major                 | string                  | Specifies the major of the highest academic degree of the investigator.                                                                     |
+| school                | string                  | Specifies the school the investigator graduated from.                                                                                       |
+| certificates          | list of type string     | Specifies a list of certificates the investigator has.                                                                                      |
+| has_investigated_refs | list of type identifier | Specifier a list of x-crime-case.                                                                                                           |
 
 ### Relationships
 
@@ -534,17 +535,29 @@ An investigator is a digital forensic analyst to collect, store, and analyze dig
 Describe a crime case investigator.
 
 ```json
-{
-  "type": "x-investigator",
-  "spec_version": "2.1",
-  "id": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
-  "degree": "MS",
-  "major": "Cyber Investigations",
-  "history": [
-    "x-crime-case--27e05525-53b8-479d-bd85-ba0e63193283",
-    "x-crime-case--a3d3f2b8-79b0-4b76-8bb0-458692196125"
-  ]
-}
+[
+  {
+    "type": "x-investigator",
+    "spec_version": "2.1",
+    "id": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "degree": "MS",
+    "major": "Cyber Investigations",
+    "history": [
+      "x-crime-case--27e05525-53b8-479d-bd85-ba0e63193283",
+      "x-crime-case--a3d3f2b8-79b0-4b76-8bb0-458692196125"
+    ]
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "created": "2021-05-15T09:12:16.432Z",
+    "modified": "2021-05-15T09:12:16.432Z",
+    "relationship_type": "involves",
+    "source_ref": "x-crime-case--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
+    "target_ref": "identity--2485b844-4efe-4343-84c8-eb33312dd56f"
+  }
+]
 ```
 
 ---
