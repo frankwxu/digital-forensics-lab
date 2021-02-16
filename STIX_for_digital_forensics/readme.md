@@ -93,14 +93,15 @@ An image Object represent a computer file containing the contents and structure 
 | Property Name      | Type                          | Description                                                           |
 | ------------------ | ----------------------------- | --------------------------------------------------------------------- |
 | type (required)    | string                        | The value of this property MUST be x-image.                           |
-| image_id           | string                        | Specifies an id of an image.                                          |
-| description        | string                        | Specifies the description of an image.                                |
-| partitions         | list of type x-disk-partition | Specifies a list of partitions that an image contains.                |
-| acquired_on        | timestamp                     | Specifies the time the image was acquired.                            |
-| format             | open-vocab                    | Specifies the image format. It MUST come from x-disk-image-format-ov. |
-| acquired_using_ref | identifier                    | Specifies the Investigation Tool that creates the image.              |
-| acquired_by_ref    | identifier                    | Specifies the Investigator that create a disk image.                  |
-| image_file_ref     | identifier                    | Specifies a image file.                                               |
+| image_id           | string                        | Specifies an id of an Image.                                          |
+| name               | string                        | A name used to identify the Image.                                    |
+| description        | string                        | Specifies the description of an Image.                                |
+| partitions         | list of type x-disk-partition | Specifies a list of partitions that an Image contains.                |
+| acquired_on        | timestamp                     | Specifies the time the Image was acquired.                            |
+| format             | open-vocab                    | Specifies the Image format. It MUST come from x-disk-image-format-ov. |
+| acquired_using_ref | identifier                    | Specifies the Investigation Tool that creates the Image.              |
+| acquired_by_ref    | identifier                    | Specifies the Investigator or an Identity that create an Image.       |
+| image_file_ref     | identifier                    | Specifies a file of the Image.                                        |
 
 ### Relationships
 
@@ -130,6 +131,7 @@ An image Object represent a computer file containing the contents and structure 
     "type": "x-image",
     "spec_version": "2.1",
     "id": "x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "name": "rhino usb image ",
     "acquired_on": "2021-01-06T20:03:22.000Z",
     "format": "dd",
     "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
@@ -412,7 +414,7 @@ A Timeline object describes a specific cybercrime case that is represented by a 
 | name               | string                | Specifies the name of a timeline.                                      |
 | description        | string                | A description that provides more details and context about a timeline. |
 | reconstructed_from | identifier            | Specifies timeline is reconstructed from a crime case.                 |
-| reconstructed_by   | identifier            | Specifies timeline is reconstructed by an identity.                    |
+| reconstructed_by   | identifier            | Specifies timeline is reconstructed by an investigator.                |
 
 ### Relationships
 
@@ -525,10 +527,11 @@ An investigator is a digital forensic analyst to collect, store, and analyze dig
 
 ### Relationships
 
-| Source         | Relationship Type | Target       | Description                                                                 |
-| -------------- | ----------------- | ------------ | --------------------------------------------------------------------------- |
-| x-investigator | attributed-to     | identity     | The relationship describes that the Investigator's identity.                |
-| x-investigator | investigates      | x-crime-case | The relationship describes that the Investigator investigates a Crime Case. |
+| Source         | Relationship Type    | Target       | Description                                                                   |
+| -------------- | -------------------- | ------------ | ----------------------------------------------------------------------------- |
+| x-investigator | attributed-to        | identity     | The relationship describes that the Investigator's identity.                  |
+| x-investigator | investigates         | x-crime-case | The relationship describes that the Investigator investigates a Crime Case.   |
+| x-investigator | captures-evidence-in | identity     | The relationship describes that the Investigator captures evidence in a File. |
 
 ### Example
 
@@ -539,6 +542,7 @@ Describe a crime case investigator.
   {
     "type": "x-investigator",
     "spec_version": "2.1",
+    "name": "Frank Xu",
     "id": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
     "degree": "MS",
     "major": "Cyber Investigations",
@@ -579,6 +583,7 @@ Describe a crime case investigator.
 | ---------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | type (required)        | string                      | The value of this property MUST be x-computer.                                                                               |
 | serial_number          | string                      | Specifies the serial number of a computer.                                                                                   |
+| name                   | string                      | Specifies the name of the computer.                                                                                          |
 | type                   | string                      | Specifies the type of a computer. The value of this property MUST come from [Types](https://en.wikipedia.org/wiki/Computer). |
 | model                  | string                      | Specifies the model of a computer.                                                                                           |
 | cpu                    | StringS                     | Specifies the CUP of a computer. It MUST follow CUP naming conventions.                                                      |
@@ -781,11 +786,12 @@ A Secondary Storage object represents a non-volatile and long-term storage.
 | Property Name   | Type       | Description                                                                                                            |
 | --------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | type (required) | string     | The value of this property MUST be x-secondary-Storage.                                                                |
+| name            | string     | Specifies the name of the secondary storage to identify the device.                                                    |
 | manufacturer    | string     | Specifies the manufacturer of a secondary storage.                                                                     |
 | brand           | string     | Specifies the brand of a secondary storage, e.g., "SanDisk".                                                           |
 | model           | string     | Specifies the model of a secondary storage.                                                                            |
 | serial_number   | string     | Specifies the serial number of a secondary storage.                                                                    |
-| type            | open-vocab | Specifies the type of secondary storage. The value for this property SHOULD come from the x-secondary-Storage-type-ov. |
+| storage_type    | open-vocab | Specifies the type of secondary storage. The value for this property SHOULD come from the x-secondary-Storage-type-ov. |
 | size            | integer    | Specifies the size of a secondary storage in MB.                                                                       |
 
 ### ID Contributing Properties
@@ -1130,17 +1136,17 @@ A File Visit object represents properties that are associated with a file/direct
 
 ### Properties
 
-| Property Name               | Type       | Description                                                                                                          |
-| --------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
-| type (required)             | string     | The value of this property MUST be x-file-visit.                                                                     |
-| op                          | enum       | Specifies how the file was visited. The values of this property MUST come from the x-file-visit-op-enum enumeration. |
-| visit_time                  | timestamp  | Specifies the time a file was visited.                                                                               |
-| visitor_ref                 | identifier | Specifies the a visitor, e.g., software or software components, who visited a file.                                  |
-| visit_count                 | integer    | Specifies the total number of times the program has visited.                                                         |
-| record_reason               | enum       | Specifies a main reasons why a software records the visit. It MUST come from the x-file-visit-record-reason-enum.    |
-| file_visited_ref (required) | identifier | Specifies a file or directory that was recently visited.                                                             |
-| source_ref(required)        | identifier | Specifies the destination (e.g., file, registry, artifact, or directory) the record was saved to.                    |
-| common_name                 | open-vocab | Specifies the common name that is commonly referred by investigators. It MUST from x-file-visit-common-name-ov.      |
+| Property Name    | Type       | Description                                                                                                          |
+| ---------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| type (required)  | string     | The value of this property MUST be x-file-visit.                                                                     |
+| op               | enum       | Specifies how the file was visited. The values of this property MUST come from the x-file-visit-op-enum enumeration. |
+| visit_time       | timestamp  | Specifies the time a file was visited.                                                                               |
+| visitor_ref      | identifier | Specifies the a visitor, e.g., software or software components, who visited a file.                                  |
+| visit_count      | integer    | Specifies the total number of times the program has visited.                                                         |
+| record_reason    | enum       | Specifies a main reasons why a software records the visit. It MUST come from the x-file-visit-record-reason-enum.    |
+| file_visited_ref | identifier | Specifies a file or directory that was recently visited.                                                             |
+| source_ref       | identifier | Specifies the destination (e.g., file, registry, artifact, or directory) the record was saved to.                    |
+| common_name      | open-vocab | Specifies the common name that is commonly referred by investigators. It MUST from x-file-visit-common-name-ov.      |
 
 ### File Visit Operation Enum
 
@@ -1152,6 +1158,7 @@ A File Visit object represents properties that are associated with a file/direct
 | modify           | A modify operation (content is to be modified) to a file.                                                  |
 | update           | A update operation (i.e., update a metadata of a file, such as change the permission of a file) to a file. |
 | execute          | An execute operation to a file.                                                                            |
+| delete           |                                                                                                            |
 
 ### File Visit Record Reason Enum
 
@@ -1175,21 +1182,21 @@ A File Visit object represents properties that are associated with a file/direct
 
 **Vocabulary Name:** x-file-visit-common-name-ov
 
-| Term            | Description                                                                                           |
-| --------------- | ----------------------------------------------------------------------------------------------------- |
-| userassist      | Track every GUI-based programs launched from the desktop in the userassist registry key.              |
-| shimcache       | Shimcache is created to identify application compatibility issues.                                    |
-| recentfilecache | RecentFileCache.bcf only contains references to programs that recently executed.                      |
-| prefetch        |                                                                                                       |
-| muicache        | Support multiple languages for software.                                                              |
-| usnjournal      | Store Update Sequence Number Journal.                                                                 |
-| shellbag        | Store user preferences for GUI folder display within Windows Explorer.                                |
-| jumplist        | Represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button.               |
-| mru             | Most recently used files.                                                                             |
-| autorun         |                                                                                                       |
-| mft             | Master file table for file management.                                                                |
-| bam             | Background Activity Moderator is a Windows service that Controls activity of background applications. |
-| applog          | Application logs.                                                                                     |
+| Term            | Description                                                                                                                     |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| userassist      | Track every GUI-based programs launched from the desktop in the userassist registry key.                                        |
+| shimcache       | Shimcache is created to identify application compatibility issues.                                                              |
+| recentfilecache | RecentFileCache.bcf only contains references to programs that recently executed.                                                |
+| prefetch        |                                                                                                                                 |
+| muicache        | Support multiple languages for software.                                                                                        |
+| usnjournal      | Store Update Sequence Number Journal.                                                                                           |
+| shellbag        | Store user preferences for GUI folder display within Windows Explorer.                                                          |
+| jumplist        | Represents a list of items and tasks displayed as a menu on a Windows 7 taskbar button.                                         |
+| mru             | Most recently used files.                                                                                                       |
+| autorun         |                                                                                                                                 |
+| mft             | Master file table (e.g., Windows) for file management. mft can be used for representing other similar concept in Linux and Mac. |
+| bam             | Background Activity Moderator is a Windows service that Controls activity of background applications.                           |
+| applog          | Application logs.                                                                                                               |
 
 ### Relationships
 
