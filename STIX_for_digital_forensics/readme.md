@@ -90,17 +90,17 @@ An image Object represent a computer file containing the contents and structure 
 
 ### Image Specific Properties
 
-| Property Name           | Type                          | Description                                                           |
-| ----------------------- | ----------------------------- | --------------------------------------------------------------------- |
-| type (required)         | string                        | The value of this property MUST be x-image.                           |
-| image_id                | string                        | Specifies an id of an image.                                          |
-| description             | string                        | Specifies the description of an image.                                |
-| partitions              | list of type x-disk-partition | Specifies a list of partitions that an image contains.                |
-| acquired_on             | timestamp                     | Specifies the time the image was acquired.                            |
-| format                  | open-vocab                    | Specifies the image format. It MUST come from x-disk-image-format-ov. |
-| acquired_using_tool_ref | identifier                    | Specifies the Investigation Tool that creates the image.              |
-| acquired_by_ref         | identifier                    | Specifies the Investigator that create a disk image.                  |
-| image_file_ref          | identifier                    | Specifies a image file.                                               |
+| Property Name      | Type                          | Description                                                           |
+| ------------------ | ----------------------------- | --------------------------------------------------------------------- |
+| type (required)    | string                        | The value of this property MUST be x-image.                           |
+| image_id           | string                        | Specifies an id of an image.                                          |
+| description        | string                        | Specifies the description of an image.                                |
+| partitions         | list of type x-disk-partition | Specifies a list of partitions that an image contains.                |
+| acquired_on        | timestamp                     | Specifies the time the image was acquired.                            |
+| format             | open-vocab                    | Specifies the image format. It MUST come from x-disk-image-format-ov. |
+| acquired_using_ref | identifier                    | Specifies the Investigation Tool that creates the image.              |
+| acquired_by_ref    | identifier                    | Specifies the Investigator that create a disk image.                  |
+| image_file_ref     | identifier                    | Specifies a image file.                                               |
 
 ### Relationships
 
@@ -134,7 +134,7 @@ An image Object represent a computer file containing the contents and structure 
     "format": "dd",
     "image_file_ref": "file--6e735550-51e8-483a-b0d6-29d6ff5cfbf3",
     "acquired_by_ref": "x-investigator--b9babea0-63eb-4981-8e6d-f6603cf7e46a",
-    "acquired_using_tool_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
+    "acquired_using_ref": "x-investigation-tool--0a5b5f22-ba62-42f1-9d74-a94e87f4b45c",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
     "modified": "2021-04-06T20:03:00.000Z"
@@ -512,16 +512,16 @@ An investigator is a digital forensic analyst to collect, store, and analyze dig
 
 ### Investigator Specific Properties
 
-| Property Name         | Type                    | Description                                                                                                                                 |
-| --------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| type (required)       | string                  | The value of this property MUST be x-investigator.                                                                                          |
-| name (required)       | string                  | A name used to identify this Investigator.                                                                                                  |
-| description           | string                  | A description that provides more details and context about the Investigator, potentially including its purpose and its key characteristics. |
-| degree                | string                  | Specifies the highest academic degree of the investigator, e.g, AA, BS, MS, Ph.D.                                                           |
-| major                 | string                  | Specifies the major of the highest academic degree of the investigator.                                                                     |
-| school                | string                  | Specifies the school the investigator graduated from.                                                                                       |
-| certificates          | list of type string     | Specifies a list of certificates the investigator has.                                                                                      |
-| has_investigated_refs | list of type identifier | Specifier a list of x-crime-case.                                                                                                           |
+| Property Name              | Type                    | Description                                                                                                                                 |
+| -------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required)            | string                  | The value of this property MUST be x-investigator.                                                                                          |
+| name (required)            | string                  | A name used to identify this Investigator.                                                                                                  |
+| description                | string                  | A description that provides more details and context about the Investigator, potentially including its purpose and its key characteristics. |
+| degree                     | string                  | Specifies the highest academic degree of the investigator, e.g, AA, BS, MS, Ph.D.                                                           |
+| major                      | string                  | Specifies the major of the highest academic degree of the investigator.                                                                     |
+| school                     | string                  | Specifies the school the investigator graduated from.                                                                                       |
+| certificates               | list of type string     | Specifies a list of certificates the investigator has.                                                                                      |
+| has_investigated_case_refs | list of type identifier | Specifier a list of x-crime-case.                                                                                                           |
 
 ### Relationships
 
