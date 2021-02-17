@@ -890,17 +890,16 @@ A Windows Event object represents properties of an event, which is recorded by W
 
 ### Properties
 
-| Property Name        | Type       | Description                                                                                                                                                        |
-| -------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| type (required)      | string     | The value of this property MUST be x-windows-evt.                                                                                                                  |
-| record_number        | string     | Specifies the number of the entry in a saved event log.                                                                                                            |
-| time_generated       | timestamp  | Specifies the time at which this entry was submitted.                                                                                                              |
-| time_written         | timestamp  | Specifies the time at which this entry was received by the service to be written to the log.                                                                       |
-| event_generator      | string     | Specifies the name of the software (or the name of a sub-component of the software if the software is large) that generates the event.                             |
-| event_id             | integer    | The value is specific to the event source for the event, and is used with the source name to locate a description string in the message file for the event source. |
-| event_id_string      | integer    | Specified the description string of event_id.                                                                                                                      |
-| event_type           | string     | It MUST be one of EventTypes defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                            |
-| source_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of File or Artifact                                                                          |
+| Property Name   | Type      | Description                                                                                                                                                        |
+| --------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| type (required) | string    | The value of this property MUST be x-windows-evt.                                                                                                                  |
+| record_number   | string    | Specifies the number of the entry in a saved event log.                                                                                                            |
+| time_generated  | timestamp | Specifies the time at which this entry was submitted.                                                                                                              |
+| time_written    | timestamp | Specifies the time at which this entry was received by the service to be written to the log.                                                                       |
+| event_generator | string    | Specifies the name of the software (or the name of a sub-component of the software if the software is large) that generates the event.                             |
+| event_id        | integer   | The value is specific to the event source for the event, and is used with the source name to locate a description string in the message file for the event source. |
+| event_id_string | integer   | Specified the description string of event_id.                                                                                                                      |
+| event_type      | string    | It MUST be one of EventTypes defined in [Windows Doc](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)                            |
 
 Notes:
 
@@ -913,6 +912,7 @@ Notes:
 | ------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | x-windows-evt | exploits          | user-account                      | This Relationship describes that a Windows Event exploits a User Account.                              |
 | x-windows-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a Windows Event is processed/viewed by a list of Investigation Tools. |
+| x-windows-evt | saved-to          | identifer                         | This Relationship describes that a Windows Event was saved to a File, Registry, Artifact.              |
 
 ### Example 1: describes a "logon" event recorded in the security event file.
 
@@ -928,9 +928,7 @@ Notes:
     "event_generator": "Microsoft Windows security auditing.",
     "event_id": "4624",
     "event_id_string": "An account was successfully logged on",
-    "event_type": "EVENTLOG_AUDIT_SUCCESS",
-    "user_account_ref ": "user-account--0d5b424b-93b8-5cd8-ac36-306e1789d63c",
-    "source_ref": "file--79e0da61-48e2-4552-874f-83d74262f39d"
+    "event_type": "EVENTLOG_AUDIT_SUCCESS"
   },
   {
     "type": "file",
@@ -980,6 +978,16 @@ Notes:
       "x-investigation-tool-b0c1231e-996f-455d-9884-a4c52b7910a5",
       "x-investigation-tool-eab56266-e855-4737-a48a-e6d10d7e96c2"
     ]
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-windows-evt--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "target_ref": "file--79e0da61-48e2-4552-874f-83d74262f39d",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -995,10 +1003,7 @@ Notes:
   "time_generated": "2015-01-06T20:03:00.000Z",
   "time_written": "2015-01-06T20:03:00.100Z",
   "event_generator": "cdrom",
-  "event_id": "16388",
-  "user_account_ref ": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb",
-  "source_ref": "file--79e0da61-48e2-4552-874f-83d74262f39d",
-  "source_ref": "file--e2dd9934-e6aa-440a-9d51-21ccf990c4f5"
+  "event_id": "16388"
 }
 ```
 
@@ -1010,24 +1015,24 @@ A Webpage Visit object represents a visit to a webpage.
 
 ### Properties
 
-| Property Name        | Type       | Description                                                                                |
-| -------------------- | ---------- | ------------------------------------------------------------------------------------------ |
-| type (required)      | string     | The value of this property MUST be x-webpage-visit.                                        |
-| record_number        | string     | Specifies the unique entry ID in a file (i.e., save_to_ref) that the event saved to.       |
-| url_ref              | identifier | Specify a visit to a URL.                                                                  |
-| title                | string     | Specifies the title of a web page (if a URL is a webpage) that has been visited.           |
-| visit_time           | timestamp  | The last time visited.                                                                     |
-| visit_count          | integer    | The number of times visited                                                                |
-| browser_ref          | identifier | The value type for this property SHOULD software.                                          |
-| file_requested_ref   | identifier | The ID of the file the HTTP requested.                                                     |
-| source_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact. |
+| Property Name      | Type       | Description                                                                          |
+| ------------------ | ---------- | ------------------------------------------------------------------------------------ |
+| type (required)    | string     | The value of this property MUST be x-webpage-visit.                                  |
+| record_number      | string     | Specifies the unique entry ID in a file (i.e., save_to_ref) that the event saved to. |
+| url_ref            | identifier | Specify a visit to a URL.                                                            |
+| title              | string     | Specifies the title of a web page (if a URL is a webpage) that has been visited.     |
+| visit_time         | timestamp  | The last time visited.                                                               |
+| visit_count        | integer    | The number of times visited                                                          |
+| browser_ref        | identifier | The value type for this property SHOULD software.                                    |
+| file_requested_ref | identifier | The ID of the file the HTTP requested.                                               |
 
 ### Relationships
 
-| Source          | Relationship Type | Target                            | Description                                                                                            |
-| --------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| x-webpage-visit | exploits          | user-account                      | This Relationship describes that a Webpage Visit exploits a User Account.                              |
-| x-webpage-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a Webpage Visit is processed/viewed by a list of Investigation Tools. |
+| Source          | Relationship Type | Target                            | Description                                                                                             |
+| --------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| x-webpage-visit | exploits          | user-account                      | This Relationship describes that a Webpage Visit exploits a User Account.                               |
+| x-webpage-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a Webpage Visit was processed/viewed by a list of Investigation Tools. |
+| x-webpage-visit | saved-to          | identifer                         | This Relationship describes that aa Webpage Visit was saved to a File, Registry, Artifact.              |
 
 ### Examples
 
@@ -1042,8 +1047,7 @@ A Webpage Visit object represents a visit to a webpage.
     "visit-time": "2021-01-06T20:03:22.000Z",
     "visit-count": 2,
     "browser_ref": "software--b67a8d52-d438-4ace-8285-c6d485e34192",
-    "file_requested_ref ": "file--10624790-0e43-4498-89da-8979ab4215ae",
-    "source_ref": "file--843f6a43-0603-4e0d-84a4-198386eecf4f"
+    "file_requested_ref ": "file--10624790-0e43-4498-89da-8979ab4215ae"
   },
   {
     "type": "url",
@@ -1068,6 +1072,16 @@ A Webpage Visit object represents a visit to a webpage.
     "relationship_type": "exploits",
     "source_ref": "x-webpage-visit-evidence--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-webpage-visit--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "target_ref": "file--843f6a43-0603-4e0d-84a4-198386eecf4f",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1082,15 +1096,14 @@ The Plug and Play (PnP) Event object represents an event recorded by Windows Ker
 
 The completed log properties can be accessed [Microsoft office docs- Format of a text log section body](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/format-of-a-text-log-section-body)
 
-| Property Name        | Type       | Description                                                                                                                                                       |
-| -------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| type (required)      | string     | The value of this property MUST be x-pnp-evt.                                                                                                                     |
-| message_type         | enum       | The values of this property MUST come from the x-pnp-message-type-enum enumeration.                                                                               |
-| time_generated       | timestamp  | Specified the time at which this entry was submitted.                                                                                                             |
-| time_written         | timestamp  | Specified the time at which this entry was received by the service to be written to the log.                                                                      |
-| event_category       | string     | Indicates the category of SetupAPI operation that made the log entry. It MUST be one of the predefined event_category operation strings, e.g.device installation. |
-| formatted_message    | string     | Contains the specific information that applies to the log entry.                                                                                                  |
-| source_ref(required) | identifier | Specifies object type that event object belongs to. It MUST be a type of file or artifact (e.g., cache, memory), e.g., steupAPI.log                               |
+| Property Name     | Type      | Description                                                                                                                                                       |
+| ----------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required)   | string    | The value of this property MUST be x-pnp-evt.                                                                                                                     |
+| message_type      | enum      | The values of this property MUST come from the x-pnp-message-type-enum enumeration.                                                                               |
+| time_generated    | timestamp | Specified the time at which this entry was submitted.                                                                                                             |
+| time_written      | timestamp | Specified the time at which this entry was received by the service to be written to the log.                                                                      |
+| event_category    | string    | Indicates the category of SetupAPI operation that made the log entry. It MUST be one of the predefined event_category operation strings, e.g.device installation. |
+| formatted_message | string    | Contains the specific information that applies to the log entry.                                                                                                  |
 
 ### note
 
@@ -1108,10 +1121,11 @@ Vocabulary Name: x-pnp-message-type-enum
 
 ### Relationships
 
-| Source    | Relationship Type | Target                            | Description                                                                                        |
-| --------- | ----------------- | --------------------------------- | -------------------------------------------------------------------------------------------------- |
-| x-pnp-evt | exploits          | user-account                      | This Relationship describes that a PnP Event exploits a user-account.                              |
-| x-pnp-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a PnP Event is processed/viewed by a list of Investigation Tools. |
+| Source    | Relationship Type | Target                            | Description                                                                                                |
+| --------- | ----------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| x-pnp-evt | exploits          | user-account                      | This Relationship describes that a PnP Event exploits a user-account.                                      |
+| x-pnp-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a PnP Event was processed/viewed by a list of Investigation Tools.        |
+| x-pnp-evt | saved-to          | identifer                         | This Relationship describes that a PnP Event was saved to a File, Registry, Artifact, e.g., steupAPI.log . |
 
 ### Examples
 
@@ -1123,8 +1137,7 @@ Vocabulary Name: x-pnp-message-type-enum
   "message_type": "other-info",
   "time_written": "2021-01-06T20:03:22.000Z",
   "event_category": "device installation",
-  "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593",
-  "source_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5"
+  "formatted_message ": "Device Install (Hardware initiated) - USB\\VID_0781&PID_5517\\4C5300124505311010593"
 }
 ```
 
@@ -1145,7 +1158,6 @@ A File Visit object represents properties that are associated with a file/direct
 | visit_count      | integer    | Specifies the total number of times the program has visited.                                                         |
 | record_reason    | enum       | Specifies a main reasons why a software records the visit. It MUST come from the x-file-visit-record-reason-enum.    |
 | file_visited_ref | identifier | Specifies a file or directory that was recently visited.                                                             |
-| source_ref       | identifier | Specifies the destination (e.g., file, registry, artifact, or directory) the record was saved to.                    |
 | common_name      | open-vocab | Specifies the common name that is commonly referred by investigators. It MUST from x-file-visit-common-name-ov.      |
 
 ### File Visit Operation Enum
@@ -1200,10 +1212,11 @@ A File Visit object represents properties that are associated with a file/direct
 
 ### Relationships
 
-| Source       | Relationship Type | Target                            | Description                                                                                         |
-| ------------ | ----------------- | --------------------------------- | --------------------------------------------------------------------------------------------------- |
-| x-file-visit | exploits          | user-account                      | This Relationship describes that a File Visit exploits a User Account.                              |
-| x-file-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a File Visit is processed/viewed by a list of Investigation Tools. |
+| Source       | Relationship Type | Target                            | Description                                                                                                   |
+| ------------ | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| x-file-visit | exploits          | user-account                      | This Relationship describes that a File/directory Visit exploits a User Account.                              |
+| x-file-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a File/directory Visit is processed/viewed by a list of Investigation Tools. |
+| x-file-visit | saved-to          | identifer                         | This Relationship describes that a File/directory Visit was saved to a File, Registry, Artifact.              |
 
 ### RecentFileCache
 
@@ -1220,7 +1233,6 @@ RecentFileCache.bcf only contains references to programs that were recently exec
     "file_visited_ref ": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
     "record_reason": "performance",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5",
     "common_name": "recentfilecache"
   },
   {
@@ -1253,11 +1265,21 @@ RecentFileCache.bcf only contains references to programs that were recently exec
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--014841f8-eb38-4673-9904-70f67c92dd8b",
-    "created": "2020-01-16T18:52:24.277Z",
-    "modified": "2020-01-16T18:52:24.277Z",
-    "relationship_type": "traced-back-to",
+    "relationship_type": "exploits",
     "source_ref": "x-file-visit--83aee86d-1523-4111-938e-8edc8a6c804f",
-    "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb"
+    "target_ref": "user-account--68f0b7d5-f7ab-47d2-8773-739ceb1c11bb",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--83aee86d-1523-4111-938e-8edc8a6c804f",
+    "target_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1278,7 +1300,6 @@ Shimcache is created to identify application compatibility issues. Two actions/e
     "file_visited_ref ": "file--7bd8980c-91eb-461a-a357-ae75a35374e6",
     "record_reason": "compatibility",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "common_name": "shimcache"
   },
   {
@@ -1293,6 +1314,16 @@ Shimcache is created to identify application compatibility issues. Two actions/e
     "spec_version": "2.1",
     "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\AppCompatCache"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--83aee86d-1523-4111-938e-8edc8a6c804f",
+    "target_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1314,7 +1345,6 @@ An Example of a Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-10
     "file_visited_ref ": "file--150c4200-02c6-475d-ac44-2d4e65de9f36",
     "record_reason": "usability",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "common_name": "userassist"
   },
   {
@@ -1329,6 +1359,16 @@ An Example of a Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-10
     "spec_version": "2.1",
     "id": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "key": "HKEY_USERS\\S-1-5-21-394942887-4226445097-2438273937-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserAssist"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
+    "target_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1349,7 +1389,6 @@ Prefetch preloads the most frequently used software into memory. The example sho
     "file_visited_ref ": "file--150c4200-02c6-475d-ac44-2d4e65de9f36",
     "record_reason": "performance",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "common_name": "prefetch"
   },
   {
@@ -1366,6 +1405,16 @@ Prefetch preloads the most frequently used software into memory. The example sho
       "MD5": "af15a4b4b0c8378d1206336962d7b5b9"
     },
     "name": "chrome.exe-999b1ba.pf "
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--83aee86d-1523-4111-938e-8edc8a6c804f",
+    "target_ref": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1385,7 +1434,6 @@ USN (Update Sequence Number) Journal records all files' changes (e.g.., rename) 
     "file_visited_ref ": "file--150c4200-02c6-475d-ac44-2d4e65de9f36",
     "record_reason": "reliability",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "common_name": "usnjournal",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
@@ -1405,6 +1453,16 @@ USN (Update Sequence Number) Journal records all files' changes (e.g.., rename) 
       "MD5": "eaeb631cc86f85835dcad66766b8f3cc"
     },
     "name": "$UsnJrnl"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
+    "target_ref": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1424,7 +1482,6 @@ Windows uses the Shellbag keys to store user preferences for GUI folder display 
     "file_visited_ref ": "directory--28d2e12c-c56c-4aaf-aeed-d0b69ccc601c",
     "record_reason": "performance",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "windows-registry-key--14a4a46c-0957-4b9d-900d-35cb8379055c",
     "common_name": "shellbag"
   },
   {
@@ -1438,6 +1495,16 @@ Windows uses the Shellbag keys to store user preferences for GUI folder display 
     "spec_version": "2.1",
     "id": "windows-registry-key--14a4a46c-0957-4b9d-900d-35cb8379055c",
     "key": "HKEY_CLASS_ROOT\\HKEY_CLASSES_ROOT\\Local Settings\\Software\\Microsoft\\Windows\\Shell"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--36e6b5d9-f04e-45f0-90fd-ead11a3069a6",
+    "target_ref": "windows-registry-key--14a4a46c-0957-4b9d-900d-35cb8379055c",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1474,6 +1541,16 @@ Jumplist represents a list of items and tasks displayed as a menu on a Windows 7
       "MD5": "9857b91a6427496e72d779893e6d49fb"
     },
     "name": "a7bd71699cd38d1c.automaticDestinations-ms"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
+    "target_ref": "windows-registry-key--14a4a46c-0957-4b9d-900d-35cb8379055c",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1493,7 +1570,6 @@ lnk is a shortcut or "link" used by Windows as a reference to an original file, 
     "file_visited_ref ": "file-8c33da4c-fb61-4658-b28c-a5c60f561d78",
     "record_reason": "usability",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "file--676b743a-3a56-4084-aeb5-fa9cfadf5663",
     "common_name": "lnk"
   },
   {
@@ -1510,6 +1586,16 @@ lnk is a shortcut or "link" used by Windows as a reference to an original file, 
       "MD5": "9857b91a6427496e72d779893e6d49fb"
     },
     "name": "(secret_project)_pricing_decision.xlsx.lnk"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--ac69c037-c578-4c5e-ad6a-23d53a0b1d6e",
+    "target_ref": "file--676b743a-3a56-4084-aeb5-fa9cfadf5663",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1529,7 +1615,6 @@ Most Recently Used files.
     "file_visited_ref ": "file-8c33da4c-fb61-4658-b28c-a5c60f561d78",
     "record_reason": "usability",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "file--676b743a-3a56-4084-aeb5-fa9cfadf5663",
     "common_name": "rmu"
   },
   {
@@ -1546,6 +1631,16 @@ Most Recently Used files.
       "MD5": "9857b91a6427496e72d779893e6d49fb"
     },
     "name": "informant.DAT"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--8cdbf030-89d9-48be-b733-5f4900706f0e",
+    "target_ref": "file--676b743a-3a56-4084-aeb5-fa9cfadf5663",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1565,7 +1660,6 @@ A desktop.ini in MFT
     "file_visited_ref": "file-f7d4aa7a-d02c-481e-8bdc-450cb0669b5d",
     "record_reason": "functionality",
     "visitor_ref": "software--a67ca75e-bda5-45e0-8bf0-b5884528d228",
-    "source_ref": "file--19be1a16-4b87-4fc4-b056-dc9e0389d4bd",
     "common_name": "mft"
   },
   {
@@ -1582,6 +1676,16 @@ A desktop.ini in MFT
       "MD5": "64c6451132676e5a14e20d7d9283fa58"
     },
     "name": "$MFT"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--9880e636-38b0-471a-8266-8a622a95b3a5",
+    "target_ref": "file--19be1a16-4b87-4fc4-b056-dc9e0389d4bd",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
@@ -1601,7 +1705,6 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
     "file_visited_ref ": "file-8cdbf030-89d9-48be-b733-5f4900706f0e",
     "record_reason": "functionality",
     "visitor_ref": "software--764c3bcd-e053-46dc-b77d-51de1a311b39",
-    "source_ref": "file--d5faf70b-36b8-437c-9137-6c0fc83b1e69",
     "common_name": "applog"
   },
   {
@@ -1627,6 +1730,16 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
     "cpe": "cpe:2.3:a:google:drive:-:*:*:*:*:*:*:*",
     "version": "1.0.257",
     "vendor": "Google"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
+    "relationship_type": "saved-to",
+    "source_ref": "x-file-visit--a2b48cc8-aaba-429f-9c1f-bcf1dbf3ada2",
+    "target_ref": "file--d5faf70b-36b8-437c-9137-6c0fc83b1e69",
+    "created": "2020-01-16T18:52:24.277Z",
+    "modified": "2020-01-16T18:52:24.277Z"
   }
 ]
 ```
