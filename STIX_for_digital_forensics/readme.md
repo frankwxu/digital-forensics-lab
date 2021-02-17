@@ -912,7 +912,7 @@ Notes:
 | ------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | x-windows-evt | exploits          | user-account                      | This Relationship describes that a Windows Event exploits a User Account.                              |
 | x-windows-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a Windows Event is processed/viewed by a list of Investigation Tools. |
-| x-windows-evt | saved-to          | identifer                         | This Relationship describes that a Windows Event was saved to a File, Registry, Artifact.              |
+| x-windows-evt | output-to         | identifer                         | This Relationship describes that a Windows Event was saved to a File, Registry, Artifact.              |
 
 ### Example 1: describes a "logon" event recorded in the security event file.
 
@@ -983,7 +983,7 @@ Notes:
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-windows-evt--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "target_ref": "file--79e0da61-48e2-4552-874f-83d74262f39d",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1032,7 +1032,7 @@ A Webpage Visit object represents a visit to a webpage.
 | --------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | x-webpage-visit | exploits          | user-account                      | This Relationship describes that a Webpage Visit exploits a User Account.                               |
 | x-webpage-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a Webpage Visit was processed/viewed by a list of Investigation Tools. |
-| x-webpage-visit | saved-to          | identifer                         | This Relationship describes that aa Webpage Visit was saved to a File, Registry, Artifact.              |
+| x-webpage-visit | output-to         | identifer                         | This Relationship describes that aa Webpage Visit was saved to a File, Registry, Artifact.              |
 
 ### Examples
 
@@ -1077,7 +1077,7 @@ A Webpage Visit object represents a visit to a webpage.
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-webpage-visit--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "target_ref": "file--843f6a43-0603-4e0d-84a4-198386eecf4f",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1125,7 +1125,7 @@ Vocabulary Name: x-pnp-message-type-enum
 | --------- | ----------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | x-pnp-evt | exploits          | user-account                      | This Relationship describes that a PnP Event exploits a user-account.                                      |
 | x-pnp-evt | processed-by      | list of type x-investigation-tool | This Relationship describes that a PnP Event was processed/viewed by a list of Investigation Tools.        |
-| x-pnp-evt | saved-to          | identifer                         | This Relationship describes that a PnP Event was saved to a File, Registry, Artifact, e.g., steupAPI.log . |
+| x-pnp-evt | output-to         | identifer                         | This Relationship describes that a PnP Event was saved to a File, Registry, Artifact, e.g., steupAPI.log . |
 
 ### Examples
 
@@ -1216,7 +1216,7 @@ A File Visit object represents properties that are associated with a file/direct
 | ------------ | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | x-file-visit | exploits          | user-account                      | This Relationship describes that a File/directory Visit exploits a User Account.                              |
 | x-file-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a File/directory Visit is processed/viewed by a list of Investigation Tools. |
-| x-file-visit | saved-to          | identifer                         | This Relationship describes that a File/directory Visit was saved to a File, Registry, Artifact.              |
+| x-file-visit | output-to         | identifer                         | This Relationship describes that a File/directory Visit was saved to a File, Registry, Artifact.              |
 
 ### RecentFileCache
 
@@ -1275,7 +1275,7 @@ RecentFileCache.bcf only contains references to programs that were recently exec
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--83aee86d-1523-4111-938e-8edc8a6c804f",
     "target_ref": "file--176353bd-b61d-4944-b0cd-0b98783c50b5",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1319,7 +1319,7 @@ Shimcache is created to identify application compatibility issues. Two actions/e
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--83aee86d-1523-4111-938e-8edc8a6c804f",
     "target_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1364,7 +1364,7 @@ An Example of a Security ID (SID) is S-1-5-21-394942887-4226445097-2438273937-10
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
     "target_ref": "windows-registry-key--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1410,7 +1410,7 @@ Prefetch preloads the most frequently used software into memory. The example sho
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--83aee86d-1523-4111-938e-8edc8a6c804f",
     "target_ref": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1458,7 +1458,7 @@ USN (Update Sequence Number) Journal records all files' changes (e.g.., rename) 
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
     "target_ref": "file--2ba37ae7-2745-5082-9dfd-9486dad41016",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1500,7 +1500,7 @@ Windows uses the Shellbag keys to store user preferences for GUI folder display 
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--36e6b5d9-f04e-45f0-90fd-ead11a3069a6",
     "target_ref": "windows-registry-key--14a4a46c-0957-4b9d-900d-35cb8379055c",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1546,7 +1546,7 @@ Jumplist represents a list of items and tasks displayed as a menu on a Windows 7
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--2bec785c-e1b0-4834-9a3a-9d04bd0749fe",
     "target_ref": "windows-registry-key--14a4a46c-0957-4b9d-900d-35cb8379055c",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1591,7 +1591,7 @@ lnk is a shortcut or "link" used by Windows as a reference to an original file, 
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--ac69c037-c578-4c5e-ad6a-23d53a0b1d6e",
     "target_ref": "file--676b743a-3a56-4084-aeb5-fa9cfadf5663",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1636,7 +1636,7 @@ Most Recently Used files.
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--8cdbf030-89d9-48be-b733-5f4900706f0e",
     "target_ref": "file--676b743a-3a56-4084-aeb5-fa9cfadf5663",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1681,7 +1681,7 @@ A desktop.ini in MFT
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--9880e636-38b0-471a-8266-8a622a95b3a5",
     "target_ref": "file--19be1a16-4b87-4fc4-b056-dc9e0389d4bd",
     "created": "2020-01-16T18:52:24.277Z",
@@ -1735,7 +1735,7 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
     "type": "relationship",
     "spec_version": "2.1",
     "id": "relationship--2ac9794f-b9d2-4653-b61d-b7af7c1ad7a5",
-    "relationship_type": "saved-to",
+    "relationship_type": "output-to",
     "source_ref": "x-file-visit--a2b48cc8-aaba-429f-9c1f-bcf1dbf3ada2",
     "target_ref": "file--d5faf70b-36b8-437c-9137-6c0fc83b1e69",
     "created": "2020-01-16T18:52:24.277Z",
