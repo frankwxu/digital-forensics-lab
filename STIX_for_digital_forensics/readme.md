@@ -178,8 +178,8 @@ Investigation Tools are software that can be used by cyber investigators to perf
 | last_modified   | timestamps              | The last modified date of the investigation tool.                                                                                                                   |
 | description     | string                  | A description that provides more details and context about the investigation tool.                                                                                  |
 | functions       | list of type open-vocab | Specifies a list of functions of an Investigation Tool. Each function is summarized in one activity, which SHOULD come from the x-activity-name-ov open vocabulary. |
-| input_refs      | list of type identifer  | Specifies a list of function inputs. It Should come from any STIX objects or CFOs.                                                                                  |
-| output_refs     | list of type identifer  | Specifies a list of function outputs or partial outputs. It Should come from any objects that an Observed Data references to.                                       |
+| inputs_refs     | list of type identifer  | Specifies a list of function inputs. It Should come from any STIX objects or CFOs.                                                                                  |
+| outputs_refs    | list of type identifer  | Specifies a list of function outputs or partial outputs. It Should come from any objects that an Observed Data references to.                                       |
 | aliases         | list of type string     | Alternative names used to identify this investigation tool.                                                                                                         |
 | version         | string                  | The version identifier associated with the investigation tool.                                                                                                      |
 | software_ref    | identifier              | Specifies the software product (if CPE or SWID is known) used as the investigation tool.                                                                            |
@@ -193,7 +193,7 @@ The Activity Name vocabulary is shared by both attackers and investigators.
 | Vocabulary Value | Description                                                         |
 | ---------------- | ------------------------------------------------------------------- |
 | steganalysis     |                                                                     |
-| browse           |                                                                     |
+| browse           | Browse webpages, directories, etc.                                  |
 | carve            |                                                                     |
 | config           |                                                                     |
 | copy             |                                                                     |
@@ -252,8 +252,8 @@ Use an open-source software to parse and decode $LogFile records
   "name": "LogFileParser",
   "functions": ["decode", "parse"],
   "description": "This program decodes and parses $LogFile records and transaction entries.",
-  "input_refs": ["file--ce068941-4b0f-4d7f-812d-49735b4a364b"],
-  "output_refs": ["artifact--ff97e664-7f1e-4e0d-87b0-e37b878c22f4"],
+  "inputs_refs": ["file--ce068941-4b0f-4d7f-812d-49735b4a364b"],
+  "outputs_refs": ["artifact--ff97e664-7f1e-4e0d-87b0-e37b878c22f4"],
   "external_references": [
     {
       "source_name": "LogFileParser",
