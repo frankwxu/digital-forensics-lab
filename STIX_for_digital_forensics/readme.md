@@ -168,7 +168,7 @@ An image Object represent a computer file containing the contents and structure 
 
 **Type Name:** x-investigation-tool
 
-Investigation Tools are software that can be used by cyber investigators to perform digital forensic investigations. This CFO MUST NOT be used to characterize malware and SDO tools.
+Investigation Tools are software that can be used by cyber investigators to perform digital forensic investigations on artifacts, files, etc.
 
 ### Investigation Tool Specific Properties
 
@@ -178,6 +178,8 @@ Investigation Tools are software that can be used by cyber investigators to perf
 | last_modified   | timestamps              | The last modified date of the investigation tool.                                                                                                                   |
 | description     | string                  | A description that provides more details and context about the investigation tool.                                                                                  |
 | functions       | list of type open-vocab | Specifies a list of functions of an Investigation Tool. Each function is summarized in one activity, which SHOULD come from the x-activity-name-ov open vocabulary. |
+| inputs          | list of type identifer  | Specifies a list of function inputs. It Should come from any STIX objects or CFOs.                                                                                  |
+| output          | list of type identifer  | Specifies a list of function outputs. It Should come from any STIX objects or CFOs.                                                                                 |
 | aliases         | list of type string     | Alternative names used to identify this investigation tool.                                                                                                         |
 | version         | string                  | The version identifier associated with the investigation tool.                                                                                                      |
 | software_ref    | identifier              | Specifies the software product (if CPE or SWID is known) used as the investigation tool.                                                                            |
@@ -248,8 +250,10 @@ Use an open-source software to parse and decode $LogFile records
   "spec_version": "2.1",
   "id": "x-investigation-tool--c65a985d-dc31-441e-840b-54381cef4e31",
   "name": "LogFileParser",
-  "used_for": ["decode", "parse"],
+  "functions": ["decode", "parse"],
   "description": "This program decodes and parses $LogFile records and transaction entries.",
+  "inputs": ["file--ce068941-4b0f-4d7f-812d-49735b4a364b"],
+  "outputs": ["artifact--ff97e664-7f1e-4e0d-87b0-e37b878c22f4"],
   "external_references": [
     {
       "source_name": "LogFileParser",
