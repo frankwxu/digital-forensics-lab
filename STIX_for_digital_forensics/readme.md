@@ -388,7 +388,7 @@ An action is one cyber criminal activity performed under a user account. It is a
     "spec_version": "2.1",
     "id": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "name": "install",
-    "target": "tool--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
+    "targets_refs": ["tool--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"],
     "description": "Install ccleaner anti-forensic tool",
     "start_time ": "2015-25-25T14:46:44:44Z",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
