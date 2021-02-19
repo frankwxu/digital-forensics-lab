@@ -193,12 +193,14 @@ The Activity Name vocabulary is shared by both attackers and investigators.
 | Vocabulary Value | Description                                                         |
 | ---------------- | ------------------------------------------------------------------- |
 | steganalysis     |                                                                     |
+| analyze          |                                                                     |
 | break            |                                                                     |
 | browse           | Browse webpages, directories, etc.                                  |
 | carve            |                                                                     |
 | config           |                                                                     |
 | copy             |                                                                     |
 | connect          |                                                                     |
+| crack            | crack passwords                                                     |
 | create           | Create a file , artifact, and directory.                            |
 | decode           |                                                                     |
 | decrypt          | Perform decryption tasks.                                           |
@@ -228,12 +230,14 @@ The Activity Name vocabulary is shared by both attackers and investigators.
 | rename           |                                                                     |
 | record           |                                                                     |
 | recover          |                                                                     |
+| report           |                                                                     |
 | request          |                                                                     |
 | response         |                                                                     |
 | save             |                                                                     |
 | send             |                                                                     |
 | search           | Search for strings, including key words, files, and directories.    |
 | uninstall        |                                                                     |
+| upload           |                                                                     |
 | unplug-hardware  |                                                                     |
 | unknown          |                                                                     |
 | unmount          |                                                                     |
@@ -272,14 +276,14 @@ An action is one cyber criminal activity performed under a user account. It is a
 
 ## Action Specific Properties
 
-| Property Name   | Type       | Description                                                                    |
-| --------------- | ---------- | ------------------------------------------------------------------------------ |
-| type (required) | string     | The value of this property MUST be x-action.                                   |
-| verb            | open-vocab | Specifies the name of an action. It MUST come from x-activity-name-ov.         |
-| target          | identifier | Specifies an observed data object that receives the direct action of the verb. |
-| description     | string     | A description that provides more details and context about the Action.         |
-| start_time      | timestamp  | Specifies the the time that an action is started.                              |
-| end_time        | timestamp  | Specifies the the time that an action is ended.                                |
+| Property Name   | Type       | Description                                                                                                                     |
+| --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| type (required) | string     | The value of this property MUST be x-action.                                                                                    |
+| verb            | open-vocab | Specifies the name of an action. It MUST come from x-activity-name-ov.                                                          |
+| targets_refs    | identifier | Specifies a list of observable and domain objects (e.g, Location, Tool, Malware, Vulnerability) that receive the direct action. |
+| description     | string     | A description that provides more details and context about the Action.                                                          |
+| start_time      | timestamp  | Specifies the the time that an action is started.                                                                               |
+| end_time        | timestamp  | Specifies the the time that an action is ended.                                                                                 |
 
 ### Relationships
 
@@ -297,7 +301,7 @@ An action is one cyber criminal activity performed under a user account. It is a
     "spec_version": "2.1",
     "id": "x-action--87a3e4ee-102c-4cc9-9017-96089a0e0680",
     "verb": "Search",
-    "target": ["observed-data--2c562ec3-d3bd-4e9b-9d79-cc791c86692d"],
+    "targets_refs": ["x-webpage-visit--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f"],
     "description": "Search a 'anti-forensic tools' keyword online using bing search engine.",
     "start_time": "2015-25-25T14:46:44:44Z",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
