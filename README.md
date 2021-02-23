@@ -21,7 +21,17 @@
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
   - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images)
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
-- [Tools Used](#Tools-Used)
+- Tool Installation
+  - [Tools Used](#Tools-Used)
+  - Installation Scripts (see commands as follows)
+
+```
+# The following commands will install all tools needed for Data Leakage Case. We upgrade the script to add more tools for other labs soon.
+
+wget  https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/tool-install-zsh.sh
+chmod +x tool-install-zsh.sh
+./tool-install-zsh.sh
+```
 
 ---
 
