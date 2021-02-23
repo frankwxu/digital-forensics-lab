@@ -36,7 +36,7 @@ chmod +x tool-install-zsh.sh
 
 ---
 
-### Investigate NIST Data Leakage
+### Investigating NIST Data Leakage
 
 ==============
 
