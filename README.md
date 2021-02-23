@@ -23,6 +23,7 @@
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
 - Tool Installation
   - [Tools Used](#Tools-Used)
+  - [Installation PPTs](https://github.com/frankwxu/digital-forensics-lab/main/Help/Kali_Installation_2020.pptx)
   - Installation Scripts (see commands as follows)
 
 ```
