@@ -103,7 +103,7 @@ The case study is to investigate the harassment email sent by a student to a fac
 
 =========
 
-The case study is to reconstruct a timeline of illegal transferring data to a USB from computer memory.
+The case study is to investigate computer memory for reconstructing a timeline of illegal data transferring. The case includes a scenario of transfer sensitive files from a server to a USB.
 
 **Topics Covered**
 
