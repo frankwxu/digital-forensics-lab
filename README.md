@@ -26,7 +26,7 @@
   - Installation Scripts (see commands as follows)
 
 ```
-# The following commands will install all tools needed for Data Leakage Case. We upgrade the script to add more tools for other labs soon.
+# The following commands will install all tools needed for Data Leakage Case. We will upgrade the script to add more tools for other labs soon.
 
 wget  https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/tool-install-zsh.sh
 chmod +x tool-install-zsh.sh
