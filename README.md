@@ -21,6 +21,8 @@
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
   - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images)
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
+  - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring "Memory Forensics")
+  - [Investigating Hacking Case](#Investigating-Hacking-Case)
 - Tool Installation
   - [Tools Used](#Tools-Used)
   - [Installation PPTs](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Kali_Installation_2020.pptx)
@@ -97,7 +99,37 @@ The case study is to investigate the harassment email sent by a student to a fac
 | Lab 1 | t-shark Forensic Introduction                  | 2M           |
 | Lab 2 | Investigating Harassment Email using t-shark   | 2M           |
 
----
+### Investigating Illegal File Transferring
+
+=========
+
+The case study is to reconstruct a timeline of illegal transferring data to a USB from computer memory.
+
+**Topics Covered**
+
+| Labs   | Topics Covered                        | Size of PPTs |
+| ------ | ------------------------------------- | ------------ |
+| Lab 0  | Memory Forensics                      | 11M          |
+| part 1 | Understand the Suspect and Accounts   |              |
+| part 2 | Understand the Suspect’s PC           |              |
+| part 3 | Network Forensics                     |              |
+| part 4 | Investigate Command History           |              |
+| part 5 | Investigate Suspect’s USB             |              |
+| part 6 | Investigate Internet Explorer History |              |
+| part 7 | Investigate File Explorer History     |              |
+| part 8 | Timeline Analysis                     |              |
+
+### Investigating Hacking Case
+
+=========
+
+The case study, including a disk image provided by [NIST](https://www.cfreds.nist.gov/Hacking_Case.html) is to investigate a hacker who intercepts internet traffic within range of Wireless Access Points. Note that the PPT is encrypted with a password as one of the major assignments. Email fxu at ubalt dot edu to ask the password if you are a faculty member.
+
+**Topics Covered**
+
+| Labs  | Topics Covered   | Size of PPTs |
+| ----- | ---------------- | ------------ |
+| Lab 0 | Memory Forensics | 8M           |
 
 ### Tools Used
 
