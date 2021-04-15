@@ -1,0 +1,1058 @@
+[
+  {
+    "type": "identity",
+    "spec_version": "2.1",
+    "id": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "name": "Frank Xu",
+    "contact_information": "fxu@ubalt.edu, 410-837-5302 , University of Baltimore",
+    "identity_class": "individual",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T05:06:00.000Z",
+    "modified": "2021-02-15T05:06:00.000Z"
+  },
+  {
+    "type": "identity",
+    "spec_version": "2.1",
+    "id": "identity--9dd08ad9-8027-44b9-b55d-7ec2d03a33cb",
+    "name": "Network administrator",
+    "contact_information": "Network administrator at the University of New Orleans",
+    "identity_class": "individual",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T05:08:15.000Z",
+    "modified": "2021-02-15T05:08:15.000Z"
+  },
+  {
+    "type": "x-investigator",
+    "name": "Senior Investigator: Dr. Frank Xu",
+    "spec_version": "2.1",
+    "id": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "degree": "MS",
+    "major": "Cyber Investigations",
+    "has_investigated_case_refs": [
+      "x-crime-case--27e05525-53b8-479d-bd85-ba0e63193283",
+      "x-crime-case--a3d3f2b8-79b0-4b76-8bb0-458692196125"
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T11:06:00.000Z",
+    "modified": "2021-03-15T20:03:00.000Z"
+  },
+  {
+    "type": "x-investigator",
+    "name": "Network administrator",
+    "spec_version": "2.1",
+    "id": "x-investigator--b8eedf68-c41e-442b-ab61-406fc3e87d8a",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T11:09:37.000Z",
+    "modified": "2021-03-15T20:09:37.000Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "relationship_type": "attributed-to",
+    "source_ref": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "target_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T07:06:00Z",
+    "modified": "2021-02-15T07:06:00Z"
+  },
+
+  {
+    "type": "x-crime-case",
+    "spec_version": "2.1",
+    "id": "x-crime-case--a6ee60b6-9460-4800-ae6f-cf1cb8cd34fe",
+    "name": "Illegal Rhino Possession",
+    "description": "The case is to investigate a suspect who possesses of rhino images.",
+    "case_file_refs": [
+      "file--1efcf725-f077-5e10-8c13-06658f36964f",
+      "file--dcefe23c-3234-523a-b514-ebb0f475e6fd",
+      "file--a5e78faa-1293-5652-adf4-787f8e341f7f",
+      "file--f20fa591-f10b-508d-a9ff-02d715dbbeef"
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T11:06:00.000Z",
+    "modified": "2021-03-15T20:03:00.000Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--1efcf725-f077-5e10-8c13-06658f36964f",
+    "name": "Rhino Hunt.pdf"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--dcefe23c-3234-523a-b514-ebb0f475e6fd",
+    "hashes": {
+      "MD5": "c0d0093eb1664cd7b73f3a5225ae3f30"
+    },
+    "name": "rhino.log"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--236f845f-5901-4ac2-8b75-48fa2afdcada",
+    "relationship_type": "captures-evidence-in",
+    "source_ref": "x-investigator--b8eedf68-c41e-442b-ab61-406fc3e87d8a",
+    "target_ref": "file--dcefe23c-3234-523a-b514-ebb0f475e6fd",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T09:58:00Z",
+    "modified": "2021-02-15T09:58:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--a5e78faa-1293-5652-adf4-787f8e341f7f",
+    "hashes": {
+      "MD5": "cd21eaf4acfb50f71ffff857d7968341"
+    },
+    "name": "rhino2.log"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--135095dc-c3ce-4a2e-a94f-748e4bdfa81b",
+    "relationship_type": "captures-evidence-in",
+    "source_ref": "x-investigator--b8eedf68-c41e-442b-ab61-406fc3e87d8a",
+    "target_ref": "file--a5e78faa-1293-5652-adf4-787f8e341f7f",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T09:59:00Z",
+    "modified": "2021-02-15T09:59:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--f20fa591-f10b-508d-a9ff-02d715dbbeef",
+    "hashes": {
+      "MD5": "7e29f9d67346df25faaf18efcd95fc30"
+    },
+    "name": "rhino3.log"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--914d54ea-fbea-4d78-92bc-1c46047da84a",
+    "relationship_type": "captures-evidence-in",
+    "source_ref": "x-investigator--b8eedf68-c41e-442b-ab61-406fc3e87d8a",
+    "target_ref": "file--f20fa591-f10b-508d-a9ff-02d715dbbeef",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T09:59:00Z",
+    "modified": "2021-02-15T09:59:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--b7c9c2fe-3f03-4e7b-8c85-caa863968494",
+    "relationship_type": "investigates",
+    "source_ref": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "target_ref": "x-crime-case--a6ee60b6-9460-4800-ae6f-cf1cb8cd34fe",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T09:15:00Z",
+    "modified": "2021-02-15T09:15:00Z"
+  },
+  {
+    "type": "x-image",
+    "spec_version": "2.1",
+    "id": "x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "name": "rhino usb image",
+    "acquired_on": "2004-04-30T21:29:00.000Z",
+    "format": "dd",
+    "image_file_ref": "file--a4273c56-8279-528c-b1df-56aacff23346",
+    "acquired_by_ref": "identity--9dd08ad9-8027-44b9-b55d-7ec2d03a33cb",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-04-06T20:03:00.000Z",
+    "modified": "2021-04-06T20:03:00.000Z"
+  },
+  {
+    "type": "x-secondary-storage",
+    "spec_version": "2.1",
+    "id": "x-secondary-storage--8b639a8d-f6fc-465d-95e6-23364850450b",
+    "name": "USB",
+    "storage_type": "usb",
+    "size": 259
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--94b92b03-3a7b-4cc5-b97b-8bba709be30d",
+    "relationship_type": "image-of",
+    "source_ref": "x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-secondary-storage--8b639a8d-f6fc-465d-95e6-23364850450b",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T10:00:00Z",
+    "modified": "2021-02-16T10:00:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "x-file--a4273c56-8279-528c-b1df-56aacff23346",
+    "hashes": {
+      "MD5": "80348c58eec4c328ef1f7709adc56a54"
+    },
+    "name": "RHINOUSB.dd"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--0ed15d4e-f1c2-4dc3-85aa-f2fc5f6917bf",
+    "relationship_type": "investigates",
+    "source_ref": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "target_ref": "x-crime-case--a6ee60b6-9460-4800-ae6f-cf1cb8cd34fe",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T09:14:00Z",
+    "modified": "2021-02-15T09:14:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--af321232-a2a3-433b-a83a-b563145b870b",
+    "relationship_type": "evidence-of",
+    "source_ref": "x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680",
+    "target_ref": "x-crime-case--a6ee60b6-9460-4800-ae6f-cf1cb8cd34fe",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T10:15:00Z",
+    "modified": "2021-02-15T10:15:00Z"
+  },
+  {
+    "type": "x-timeline",
+    "spec_version": "2.1",
+    "id": "x-timeline--a02a88cd-17ea-4770-9662-55668b494a49",
+    "name": "The time line of illegal possession",
+    "description": "An entity hide rhino images.",
+    "action_refs": [
+      "x-action--aa92c5e9-fa38-4662-a8ef-0f5deb7c5d6c",
+      "x-action--63e03130-239f-43fa-a589-6ccb0e9c003f",
+      "x-action--aa92c5e9-fa38-4662-a8ef-0f5deb7c5d6c",
+      "x-action--9428a7c0-aee8-4b30-af0a-61d2625d8346",
+      "x-action--671cb16d-69b9-4184-89cb-a208db198810"
+    ],
+    "reconstructed_from": "x-crime-case--a6ee60b6-9460-4800-ae6f-cf1cb8cd34fe",
+    "reconstructed_by": "x-investigator--096e9478-2b7b-5bc9-a035-08464b16fc7b",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T11:26:00Z",
+    "modified": "2021-02-19T18:27:00Z"
+  },
+  {
+    "type": "x-action",
+    "spec_version": "2.1",
+    "id": "x-action--aa92c5e9-fa38-4662-a8ef-0f5deb7c5d6c",
+    "verb": "delete",
+    "targets_refs": [
+      "file--5767fcee-664c-5af0-8b13-1420a285ab02",
+      "file--fc704f1c-5610-5fc6-b393-4459912af348",
+      "file--437058af-6575-5a3f-b700-5822b73c9eff",
+      "file--c5ef0485-08a6-54ba-9d77-303ec3576854"
+    ],
+    "description": "delete rhino images",
+    "start_time": "2015-25-25T14:46:44:44Z",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T10:15:00Z",
+    "modified": "2021-02-15T10:15:00Z"
+  },
+  {
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--e7a4aa2b-dfbe-4cf4-be2e-b5811699264d",
+    "name": "delete indicator",
+    "description": "Indication of delete",
+    "pattern": "[file:hashes.MD5='ca03f2eed3db06a82a8a31b3a3defa24' or file:hashes.MD5='ed870202082ea4fd8f5488533a561b35' or file:hashes.MD5='76610b7bdb85e5f65e96df3f7e417a74' or file:hashes.MD5='d03dc23d4ec39e4d16da3c46d2932d62']",
+    "pattern_type": "stix",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T12:15:00Z",
+    "modified": "2021-02-15T12:15:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--5767fcee-664c-5af0-8b13-1420a285ab02",
+    "magic_number_hex": "FFD8",
+    "hashes": {
+      "MD5": "ca03f2eed3db06a82a8a31b3a3defa24"
+    },
+    "extensions": {
+      "recovered_file_name": "f0106393.jpg"
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--fc704f1c-5610-5fc6-b393-4459912af348",
+    "magic_number_hex": "FFD8",
+    "hashes": {
+      "MD5": "ed870202082ea4fd8f5488533a561b35"
+    },
+    "extensions": {
+      "recovered_file_name": "f0106409.jpg"
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--437058af-6575-5a3f-b700-5822b73c9eff",
+    "magic_number_hex": "474946383761",
+    "hashes": {
+      "MD5": "76610b7bdb85e5f65e96df3f7e417a74"
+    },
+    "extensions": {
+      "recovered_file_name": "f0106865.gif"
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--c5ef0485-08a6-54ba-9d77-303ec3576854",
+    "magic_number_hex": "474946383761",
+    "hashes": {
+      "MD5": "d03dc23d4ec39e4d16da3c46d2932d62"
+    },
+    "extensions": {
+      "recovered_file_name": "f0106889.gif"
+    }
+  },
+  {
+    "type": "observed-data",
+    "spec_version": "2.1",
+    "id": "observed-data--470e0c60-8f24-4704-af42-d8e9d7a4fd74",
+    "labels": ["delete", "images"],
+    "number_observed": 1,
+    "object_refs": [
+      "file--5767fcee-664c-5af0-8b13-1420a285ab02",
+      "file--fc704f1c-5610-5fc6-b393-4459912af348",
+      "file--437058af-6575-5a3f-b700-5822b73c9eff",
+      "file--c5ef0485-08a6-54ba-9d77-303ec3576854"
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T15:15:00Z",
+    "modified": "2021-02-16T16:18:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--011bb6d3-88ea-4dd2-a76c-4c58ba073d52",
+    "relationship_type": "based-on",
+    "source_ref": "indicator--e7a4aa2b-dfbe-4cf4-be2e-b5811699264d",
+    "target_ref": "observed-data--470e0c60-8f24-4704-af42-d8e9d7a4fd74",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T15:16:00Z",
+    "modified": "2021-02-16T15:16:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--46069abb-e810-4655-b083-bfcb9ae12a1c",
+    "relationship_type": "indicated-by",
+    "source_ref": "x-action--aa92c5e9-fa38-4662-a8ef-0f5deb7c5d6c",
+    "target_ref": "indicator--e7a4aa2b-dfbe-4cf4-be2e-b5811699264d",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T15:22:00Z",
+    "modified": "2021-02-16T15:22:00Z"
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--e3897edb-63c4-4a89-b1c7-389f344b78ae",
+    "name": "PhotoRec",
+    "version": "7.1",
+    "functions": ["recover"],
+    "inputs_refs": ["x-image--87a3e4ee-102c-4cc9-9017-96089a0e0680"],
+    "outputs_refs": [
+      "file--5767fcee-664c-5af0-8b13-1420a285ab02",
+      "file--fc704f1c-5610-5fc6-b393-4459912af348",
+      "file--437058af-6575-5a3f-b700-5822b73c9eff",
+      "file--c5ef0485-08a6-54ba-9d77-303ec3576854",
+      "file--30b7cbb5-8842-5b28-bf7c-4500e7be6341",
+      "file--10571ebd-b587-50a6-9e86-acb3cba78437",
+      "file--04c87cba-c468-59e0-8e26-e4652344489f"
+    ],
+    "description": "This program is a data recovery utility.",
+    "external_references": [
+      {
+        "source_name": "PhotoRec7.1",
+        "url": "https://www.cgsecurity.org/wiki/TestDisk_7.1_Release"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T15:22:00Z",
+    "modified": "2021-02-17T18:50:00Z"
+  },
+  {
+    "type": "artifact",
+    "spec_version": "2.1",
+    "id": "artifact--899e1d63-20ae-5487-b684-df8019d4177c",
+    "mime_type": "application/msword",
+    "payload_bin": "Umhpbm8gcGljdHVyZXMgaWxsZWdhbD8gTWFrZXMgbWUgc2ljay4gSSDigJxoaWTigJ0gdGhlIHBob3Rvc+KApmhlaGVoZWhlLiBBcHBhcmVudGx5LAppZiB0aGVyZSBhcmUgbGVzcyB0aGFuIDEwIHBob3RvcywgaXTigJlzIG5vIGJpZyBkZWFsLg=="
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--30b7cbb5-8842-5b28-bf7c-4500e7be6341",
+    "magic_number_hex": "D0CF11E0",
+    "hashes": {
+      "MD5": "4227284fc2e03b7d7d5ca1fe23855afb"
+    },
+    "content_ref": "artifact--899e1d63-20ae-5487-b684-df8019d4177c",
+    "extensions": {
+      "recovered_file_name": "f0335017_She_died_in_February_at_the_age_of_74.doc"
+    }
+  },
+  {
+    "type": "observed-data",
+    "spec_version": "2.1",
+    "id": "observed-data--ba04efe1-8fe9-49c6-8a9b-7e7a103ce9bb",
+    "labels": ["delete", "doc"],
+    "number_observed": 1,
+    "object_refs": ["file--0b7cbb5-8842-5b28-bf7c-4500e7be6341"],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T19:09:00Z",
+    "modified": "2021-02-17T19:09:00Z"
+  },
+  {
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--afb0a853-e4c7-45a8-afea-d9f7c2dac3c1",
+    "name": "delete doc indicator",
+    "description": "Indication of delete a doc file that is recovered from the USB",
+    "pattern": "[artifact:payload_bin MATCHES 'I “hid” the photos']",
+    "pattern_type": "stix",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T12:15:00Z",
+    "modified": "2021-02-15T12:15:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--a468bfb9-310b-4181-bee0-2df5b28c71ff",
+    "relationship_type": "based-on",
+    "source_ref": "indicator--afb0a853-e4c7-45a8-afea-d9f7c2dac3c1",
+    "target_ref": "observed-data--cca7d267-1d31-45a6-ae97-52dd073de44d",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T20:56:00Z",
+    "modified": "2021-02-16T20:56:00Z"
+  },
+  {
+    "type": "x-action",
+    "spec_version": "2.1",
+    "id": "x-action--63e03130-239f-43fa-a589-6ccb0e9c003f",
+    "verb": "delete",
+    "targets_refs": ["file--0b7cbb5-8842-5b28-bf7c-4500e7be6341"],
+    "description": "delete a diary word document and it contain some clues, which is specified in Artifact",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T21:09:00Z",
+    "modified": "2021-02-15T21:09:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--193c89e2-a9ce-4f8a-bd90-be77a095ef1d",
+    "relationship_type": "indicated-by",
+    "source_ref": "x-action--63e03130-239f-43fa-a589-6ccb0e9c003f",
+    "target_ref": "indicator--afb0a853-e4c7-45a8-afea-d9f7c2dac3c1",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T21:15:00Z",
+    "modified": "2021-02-16T21:15:00Z"
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--ce938cfa-8ae9-4b54-a4bd-12e80419c903",
+    "name": "stegdetect",
+    "functions": ["detect", "break"],
+    "description": "Detect (stegdetect) the steganographic methods used to conceal messages and break password (stegbreak).",
+    "inputs_refs": ["file--10571ebd-b587-50a6-9e86-acb3cba78437"],
+    "outputs_refs": [
+      "artifact--a0c90013-2008-57bc-b58e-88ed2e81a479",
+      "artifact--01b778f5-e334-52a5-a49d-f9b2de330be9"
+    ],
+    "external_references": [
+      {
+        "source_name": "stegdetect",
+        "url": "https://github.com/abeluck/stegdetect"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T15:40:00Z",
+    "modified": "2021-02-17T20:31:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--10571ebd-b587-50a6-9e86-acb3cba78437",
+    "hashes": {
+      "MD5": "6bd0e9bd4fb4a738f9ca4c351a853281"
+    },
+    "extensions": {
+      "recovered_file_name": "f0105065.jpg"
+    }
+  },
+  {
+    "type": "artifact",
+    "spec_version": "2.1",
+    "id": "artifact--a0c90013-2008-57bc-b58e-88ed2e81a479",
+    "mime_type": "text/plain",
+    "payload_bin": "anBoaWRl"
+  },
+  {
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--e9d899b9-0c56-4108-839f-9cef41e37b34",
+    "name": "use a steganography tool indicator",
+    "description": "Indication of using steganography tool",
+    "pattern": "[artifact:payload_bin MATCHES 'jphide' and (file:hashes.'MD5'='63a39823f80b321c2dcd112158b55011' or file:hashes.'MD5'='87018ef0cfdb91e818d92efeb9c19338')]",
+    "pattern_type": "stix",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T15:41:00Z",
+    "modified": "2021-02-17T15:41:00Z"
+  },
+  {
+    "type": "observed-data",
+    "spec_version": "2.1",
+    "id": "observed-data--45972f5d-0c79-4b61-b9c8-06f7135b2675",
+    "labels": ["hide", "password", "image"],
+    "number_observed": 1,
+    "object_refs": [
+      "artifact--a0c90013-2008-57bc-b58e-88ed2e81a479",
+      "artifact--01b778f5-e334-52a5-a49d-f9b2de330be9",
+      "file--35ef592a-98bc-564e-81ce-d269cdbf8a1d",
+      "artifact--9d44c6b5-e425-4499-a9e3-b569304f32b1",
+      "artifact--5bb67aa9-d849-465d-a433-114063836965",
+      "file--35ef592a-98bc-564e-81ce-d269cdbf8a1d"
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-16T15:15:00Z",
+    "modified": "2021-02-17T22:18:00Z"
+  },
+  {
+    "type": "x-action",
+    "spec_version": "2.1",
+    "id": "x-action--aa92c5e9-fa38-4662-a8ef-0f5deb7c5d6c",
+    "verb": "hide",
+    "targets_refs": [
+      "file--35ef592a-98bc-564e-81ce-d269cdbf8a1d",
+      "file--35ef592a-98bc-564e-81ce-d269cdbf8a1d"
+    ],
+    "description": "hide rhino images",
+    "start_time": "2015-25-25T14:46:44:44Z",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-15T10:15:00Z",
+    "modified": "2021-02-15T10:15:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--f0b34a50-d949-40a1-b9a1-3e936caae833",
+    "relationship_type": "based-on",
+    "source_ref": "indicator--e9d899b9-0c56-4108-839f-9cef41e37b34",
+    "target_ref": "observed-data--45972f5d-0c79-4b61-b9c8-06f7135b2675",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T18:56:00Z",
+    "modified": "2021-02-17T18:56:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--de01c751-1ef9-459d-9bea-6235fc25169b",
+    "relationship_type": "indicated-by",
+    "source_ref": "x-action--aa92c5e9-fa38-4662-a8ef-0f5deb7c5d6c",
+    "target_ref": "indicator--e9d899b9-0c56-4108-839f-9cef41e37b34",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T19:44:00Z",
+    "modified": "2021-02-17T19:44:00Z"
+  },
+  {
+    "type": "artifact",
+    "spec_version": "2.1",
+    "id": "artifact--01b778f5-e334-52a5-a49d-f9b2de330be9",
+    "mime_type": "text/plain",
+    "payload_bin": "Z2F0b3I="
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--35ef592a-98bc-564e-81ce-d269cdbf8a1d",
+    "hashes": {
+      "MD5": "63a39823f80b321c2dcd112158b55011"
+    },
+    "extensions": {
+      "recovered_file_name": "r065.jpg"
+    }
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--f229d588-e014-4af0-8061-61938907e870",
+    "name": "jpseek",
+    "functions": ["steganalysis"],
+    "description": "Detect (stegdetect) the steganographic methods used to conceal messages and break password (stegbreak).",
+    "inputs_refs": [
+      "file--10571ebd-b587-50a6-9e86-acb3cba78437",
+      "artifact--01b778f5-e334-52a5-a49d-f9b2de330be9"
+    ],
+    "outputs_refs": ["file--35ef592a-98bc-564e-81ce-d269cdbf8a1d"],
+    "external_references": [
+      {
+        "source_name": "Hide and Seek for Linux",
+        "url": "https://github.com/h3xx/jphs"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T20:38:00Z",
+    "modified": "2021-02-17T20:38:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--04c87cba-c468-59e0-8e26-e4652344489f",
+    "hashes": {
+      "MD5": "4d37a1033450b8cc96ffd1564829d321"
+    },
+    "extensions": {
+      "recovered_file_name": "f0104249.jpg"
+    }
+  },
+  {
+    "type": "artifact",
+    "spec_version": "2.1",
+    "id": "artifact--9d44c6b5-e425-4499-a9e3-b569304f32b1",
+    "mime_type": "text/plain",
+    "payload_bin": "anBoaWRl"
+  },
+  {
+    "type": "artifact",
+    "spec_version": "2.1",
+    "id": "artifact--5bb67aa9-d849-465d-a433-114063836965",
+    "mime_type": "text/plain",
+    "payload_bin": "Z3VtYm8="
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--a8cdf466-d703-46db-b0b1-5a7b1dd06bf4",
+    "name": "stegdetect",
+    "functions": ["detect", "break"],
+    "description": "Detect (stegdetect) the steganographic methods used to conceal messages and break password (stegbreak).",
+    "inputs_refs": ["file--04c87cba-c468-59e0-8e26-e4652344489f"],
+    "outputs_refs": [
+      "artifact--9d44c6b5-e425-4499-a9e3-b569304f32b1",
+      "artifact--5bb67aa9-d849-465d-a433-114063836965"
+    ],
+    "external_references": [
+      {
+        "source_name": "stegdetect",
+        "url": "https://github.com/abeluck/stegdetect"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T21:30:00Z",
+    "modified": "2021-02-17T21:30:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--87eb4067-8ef5-528b-a7b2-f2a0d80bc29d",
+    "hashes": {
+      "MD5": "87018ef0cfdb91e818d92efeb9c19338"
+    },
+    "extensions": {
+      "recovered_file_name": "r249.jpg"
+    }
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--69527e04-9a84-4332-a22f-db523df53f51",
+    "name": "jpseek",
+    "functions": ["steganalysis"],
+    "description": "Detect (stegdetect) the steganographic methods used to conceal messages and break password (stegbreak).",
+    "inputs_refs": [
+      "file--04c87cba-c468-59e0-8e26-e4652344489f",
+      "artifact--5bb67aa9-d849-465d-a433-114063836965"
+    ],
+    "outputs_refs": ["file--87eb4067-8ef5-528b-a7b2-f2a0d80bc29d"],
+    "external_references": [
+      {
+        "source_name": "Hide and Seek for Linux",
+        "url": "https://github.com/h3xx/jphs"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-17T21:55:00Z",
+    "modified": "2021-02-17T21:55:00Z"
+  },
+  {
+    "type": "ipv4-addr",
+    "spec_version": "2.1",
+    "id": "ipv4-addr--b64a819b-b735-54aa-9c3b-499024f85230",
+    "value": "137.30.120.40"
+  },
+  {
+    "type": "ipv4-addr",
+    "spec_version": "2.1",
+    "id": "ipv4-addr--ba77559b-c9de-59d8-b870-1b60256abbbb",
+    "value": "137.30.122.253"
+  },
+  {
+    "type": "network-traffic",
+    "spec_version": "2.1",
+    "id": "network-traffic--2568d22a-8998-58eb-99ec-3c8ca74f527d",
+    "start": "2004-04-26T22:21:49:00",
+    "src_byte_count": 111,
+    "src_ref": "ipv4-addr--b64a819b-b735-54aa-9c3b-499024f85230",
+    "dst_ref": "ipv4-addr--ba77559b-c9de-59d8-b870-1b60256abbbb",
+    "protocols": ["ftp"],
+    "extensions": {
+      "wireshark-ext": {
+        "no": "1550",
+        "info": "Response: 150 Opening BINARY mode data connection for rhino1.jpg."
+      }
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--3efe37db-103b-5a36-94e1-2520fd44d01f",
+    "name": "rhino1.jpg",
+    "hashes": {
+      "MD5": "d5a83cde0131c3a034e5a0d3bd94b3c9"
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--826f0b47-575d-5e64-ba65-7271acc4f863",
+    "name": "rhino3.jpg",
+    "hashes": {
+      "MD5": "b058218ea0060092d4e01ef3d7a3b815"
+    }
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--69527e04-9a84-4332-a22f-db523df53f51",
+    "name": "Wireshark",
+    "functions": ["extract", "analyze"],
+    "description": "Wireshark is the world's foremost and widely-used network protocol analyzer.",
+    "inputs_refs": ["file--dcefe23c-3234-523a-b514-ebb0f475e6fd"],
+    "outputs_refs": [
+      "network-traffic--2568d22a-8998-58eb-99ec-3c8ca74f527d",
+      "file--3efe37db-103b-5a36-94e1-2520fd44d01f",
+      "network-traffic--6c6a6816-bb90-4c8a-82c4-f51421f9d3ab",
+      "file--826f0b47-575d-5e64-ba65-7271acc4f863",
+      "network-traffic--58485d23-9636-4ae5-b77f-528d7a53dd5b",
+      "file--b38045f7-3fe3-5915-a6e5-8745a058025c",
+      "file--fc704f1c-5610-5fc6-b393-4459912af348"
+    ],
+    "external_references": [
+      {
+        "source_name": "Wireshark",
+        "url": "https://www.wireshark.org/"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-18T10:48:00Z",
+    "modified": "2021-02-19T09:47:00Z"
+  },
+  {
+    "type": "observed-data",
+    "spec_version": "2.1",
+    "id": "observed-data--6c81b9ed-722f-4bef-8434-fcb4acdabf35",
+    "labels": ["network", "ftp", "image", "upload"],
+    "number_observed": 1,
+    "object_refs": [
+      "network-traffic--2568d22a-8998-58eb-99ec-3c8ca74f527d",
+      "file--3efe37db-103b-5a36-94e1-2520fd44d01f",
+      "network-traffic--6c6a6816-bb90-4c8a-82c4-f51421f9d3ab",
+      "file--826f0b47-575d-5e64-ba65-7271acc4f863",
+      "network-traffic--58485d23-9636-4ae5-b77f-528d7a53dd5b",
+      "file--b38045f7-3fe3-5915-a6e5-8745a058025c",
+      "file--fc704f1c-5610-5fc6-b393-4459912af348"
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-18T11:00:00Z",
+    "modified": "2021-02-19T09:00:00Z"
+  },
+  {
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--bfc2ac37-7aa4-42be-a174-7ae52b1f20c3",
+    "name": "upload indicator",
+    "description": "Indication of upload rhino images",
+    "pattern": "[(file:hashes.MD5='87018ef0cfdb91e818d92efeb9c19338' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino1.jpg') or (file:hashes.MD5='b058218ea0060092d4e01ef3d7a3b815' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino3.jpg') or (network-traffic:extensions.wireshark-ext.info MATCHES 'contraband.zip' and file:hashes.MD5='ed870202082ea4fd8f5488533a561b35')]",
+    "pattern_type": "stix",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-18T11:12:00Z",
+    "modified": "2021-02-18T11:12:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--bf3c319e-3802-4af5-a6fb-df8f34640b7c",
+    "relationship_type": "based-on",
+    "source_ref": "indicator--bfc2ac37-7aa4-42be-a174-7ae52b1f20c3",
+    "target_ref": "observed-data--6c81b9ed-722f-4bef-8434-fcb4acdabf35",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-18T11:3:00Z",
+    "modified": "2021-02-18T11:33:00Z"
+  },
+  {
+    "type": "x-action",
+    "spec_version": "2.1",
+    "id": "x-action--9428a7c0-aee8-4b30-af0a-61d2625d8346",
+    "verb": "upload",
+    "targets_refs": [
+      "file--87eb4067-8ef5-528b-a7b2-f2a0d80bc29d",
+      "file--826f0b47-575d-5e64-ba65-7271acc4f863",
+      "file--b38045f7-3fe3-5915-a6e5-8745a058025c",
+      "file--fc704f1c-5610-5fc6-b393-4459912af348"
+    ],
+    "description": "upload rhino images",
+    "start_time": "2004-04-26T22:21:49:00Z",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-18T11:41:00Z",
+    "modified": "2021-02-18T11:41:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--c265ab3b-4778-45ac-a7d1-21ba6b8cd821",
+    "relationship_type": "indicated-by",
+    "source_ref": "x-action--9428a7c0-aee8-4b30-af0a-61d2625d8346",
+    "target_ref": "indicator--bfc2ac37-7aa4-42be-a174-7ae52b1f20c3",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-18T11:46:00Z",
+    "modified": "2021-02-18T11:46:00Z"
+  },
+  {
+    "type": "network-traffic",
+    "spec_version": "2.1",
+    "id": "network-traffic--6c6a6816-bb90-4c8a-82c4-f51421f9d3ab",
+    "start": "2004-04-26T22:22:22:16Z",
+    "src_byte_count": 111,
+    "src_ref": "ipv4-addr--b64a819b-b735-54aa-9c3b-499024f85230",
+    "dst_ref": "ipv4-addr--ba77559b-c9de-59d8-b870-1b60256abbbb",
+    "protocols": ["ftp"],
+    "extensions": {
+      "wireshark-ext": {
+        "no": "1767",
+        "info": "Response: 150 Opening BINARY mode data connection for rhino3.jpg."
+      }
+    }
+  },
+  {
+    "type": "network-traffic",
+    "spec_version": "2.1",
+    "id": "network-traffic--58485d23-9636-4ae5-b77f-528d7a53dd5b",
+    "start": "2004-04-26T22:22:22:16Z",
+    "src_byte_count": 115,
+    "src_ref": "ipv4-addr--b64a819b-b735-54aa-9c3b-499024f85230",
+    "dst_ref": "ipv4-addr--ba77559b-c9de-59d8-b870-1b60256abbbb",
+    "protocols": ["ftp"],
+    "extensions": {
+      "wireshark-ext": {
+        "no": "5651",
+        "info": "Response: 150 Opening BINARY mode data connection for contraband.zip."
+      }
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--fc704f1c-5610-5fc6-b393-4459912af348",
+    "name": "rhino2.jpg",
+    "hashes": {
+      "MD5": "ed870202082ea4fd8f5488533a561b35"
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--b38045f7-3fe3-5915-a6e5-8745a058025c",
+    "name": "contraband.zip",
+    "mime_type": "application/zip",
+    "extensions": {
+      "archive-ext": {
+        "contains_refs": [
+          "file--fc704f1c-5610-5fc6-b393-4459912af348",
+          "artifact--1e9e1ecc-c530-57ac-bcff-6ab42073673a"
+        ]
+      }
+    }
+  },
+  {
+    "type": "artifact",
+    "spec_version": "2.1",
+    "id": "artifact--1e9e1ecc-c530-57ac-bcff-6ab42073673a",
+    "mime_type": "text/plain",
+    "payload_bin": "bW9ua2V5"
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--d9c1ee39-4ba3-4c02-800a-864110b8e158",
+    "name": "fcrackzip",
+    "version": "1.0",
+    "functions": ["crack"],
+    "description": "Crack zip passwords.",
+    "inputs_refs": ["file--b38045f7-3fe3-5915-a6e5-8745a058025c"],
+    "outputs_refs": ["artifact--1e9e1ecc-c530-57ac-bcff-6ab42073673a"],
+    "external_references": [
+      {
+        "source_name": "fcrackzip",
+        "url": "https://github.com/hyc/fcrackzip"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-18T15:40:00Z",
+    "modified": "2021-02-18T15:40:00Z"
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--2a0c50ba-f728-5919-a071-b508fa324541",
+    "name": "rhino4.jpg",
+    "hashes": {
+      "MD5": "aa64102afff71b93ed61fb100af8d52a"
+    }
+  },
+  {
+    "type": "network-traffic",
+    "spec_version": "2.1",
+    "id": "network-traffic--b6eec282-7ade-4212-8ade-e00c0f80400c",
+    "start": "2004-04-28T21:08:38.073111Z",
+    "src_byte_count": 488,
+    "src_ref": "ipv4-addr--01413771-7d9d-50cf-94b6-6336576e396b",
+    "dst_ref": "ipv4-addr--4ccb8b05-af1f-5261-8bb3-72010a97ac80",
+    "protocols": ["http"],
+    "extensions": {
+      "wireshark-ext": {
+        "no": "49",
+        "info": "GET /~gnome/rhino4.jpg HTTP/1.1."
+      }
+    }
+  },
+  {
+    "type": "ipv4-addr",
+    "spec_version": "2.1",
+    "id": "ipv4-addr--01413771-7d9d-50cf-94b6-6336576e396b",
+    "value": "137.30.123.234"
+  },
+  {
+    "type": "ipv4-addr",
+    "spec_version": "2.1",
+    "id": "ipv4-addr--4ccb8b05-af1f-5261-8bb3-72010a97ac80",
+    "value": "137.30.120.37"
+  },
+  {
+    "type": "x-investigation-tool",
+    "spec_version": "2.1",
+    "id": "x-investigation-tool--87423c2f-d345-4cd1-8eb4-f32519db2904",
+    "name": "Wireshark",
+    "functions": ["extract", "analyze"],
+    "description": "Wireshark is the world's foremost and widely-used network protocol analyzer.",
+    "inputs_refs": ["file--a5e78faa-1293-5652-adf4-787f8e341f7f"],
+    "outputs_refs": [
+      "network-traffic--b6eec282-7ade-4212-8ade-e00c0f80400c",
+      "file--2a0c50ba-f728-5919-a071-b508fa324541",
+      "network-traffic--369df3d4-8d4c-4222-9a53-b779562481ba",
+      "file--4fbdc0b6-2bce-55f7-9a9e-03a78b508f76"
+    ],
+    "external_references": [
+      {
+        "source_name": "Wireshark",
+        "url": "https://www.wireshark.org/"
+      }
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-19T10:29:00Z",
+    "modified": "2021-02-19T20:08:00Z"
+  },
+  {
+    "type": "observed-data",
+    "spec_version": "2.1",
+    "id": "observed-data--5dfd1e89-c16b-4dc3-a837-ed83a10596d7",
+    "labels": ["network", "http", "image", "download"],
+    "number_observed": 1,
+    "object_refs": [
+      "network-traffic--b6eec282-7ade-4212-8ade-e00c0f80400c",
+      "file--2a0c50ba-f728-5919-a071-b508fa324541",
+      "network-traffic--369df3d4-8d4c-4222-9a53-b779562481ba",
+      "file--4fbdc0b6-2bce-55f7-9a9e-03a78b508f76"
+    ],
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-19T10:54:00Z",
+    "modified": "2021-02-19T19:37:00Z"
+  },
+  {
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--ae09c32c-eee3-4b30-92bc-8349084bee29",
+    "name": "http image indicator",
+    "description": "Indication of downloading images",
+    "pattern": "[(file:hashes.MD5='aa64102afff71b93ed61fb100af8d52a' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino4.jpg') or (file:hashes.MD5='1e90b7f70b2ecb605898524a88269029' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino5.gif')]",
+    "pattern_type": "stix",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-19T03:06:00Z",
+    "modified": "2021-02-19T20:07:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--9962c956-3c7a-4cff-a3fc-a53bad072d5a",
+    "relationship_type": "based-on",
+    "source_ref": "indicator--ae09c32c-eee3-4b30-92bc-8349084bee29",
+    "target_ref": "observed-data--5dfd1e89-c16b-4dc3-a837-ed83a10596d7",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-19T03:09:00Z",
+    "modified": "2021-02-19T03:09:00Z"
+  },
+  {
+    "type": "x-action",
+    "spec_version": "2.1",
+    "id": "x-action--671cb16d-69b9-4184-89cb-a208db198810",
+    "verb": "download",
+    "targets_refs": [
+      "file--2a0c50ba-f728-5919-a071-b508fa324541",
+      "file--4fbdc0b6-2bce-55f7-9a9e-03a78b508f76"
+    ],
+    "description": "download rhino4.jpg",
+    "start_time": "2004-04-28T21:08:38.073111Z",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-19T03:14:00Z",
+    "modified": "2021-02-19T04:46:00Z"
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--c074dbf6-e6a5-4ad7-bf9f-25b8d91bbeef",
+    "relationship_type": "indicated-by",
+    "source_ref": "x-action--671cb16d-69b9-4184-89cb-a208db198810",
+    "target_ref": "indicator--ae09c32c-eee3-4b30-92bc-8349084bee29",
+    "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
+    "created": "2021-02-19T18:29:00Z",
+    "modified": "2021-02-19T18:29:00Z"
+  },
+  {
+    "type": "network-traffic",
+    "spec_version": "2.1",
+    "id": "network-traffic--369df3d4-8d4c-4222-9a53-b779562481ba",
+    "start": "2004-04-28T21:08:44.189294Z",
+    "src_byte_count": 488,
+    "src_ref": "ipv4-addr--01413771-7d9d-50cf-94b6-6336576e396b",
+    "dst_ref": "ipv4-addr--4ccb8b05-af1f-5261-8bb3-72010a97ac80",
+    "protocols": ["http"],
+    "extensions": {
+      "wireshark-ext": {
+        "no": "488",
+        "info": "GET /~gnome/rhino5.gif HTTP/1.1"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "spec_version": "2.1",
+    "id": "file--4fbdc0b6-2bce-55f7-9a9e-03a78b508f76",
+    "name": "rhino5.gif",
+    "hashes": {
+      "MD5": "1e90b7f70b2ecb605898524a88269029"
+    }
+  }
+]
