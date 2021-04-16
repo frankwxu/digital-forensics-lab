@@ -439,7 +439,7 @@ A Timeline object describes a specific cybercrime case that is represented by a 
     "type": "x-timeline",
     "spec_version": "2.1",
     "id": "x-timeline--5e54d8e8-1c4b-4a16-bb1b-7ab2acb06fff",
-    "name": "data leakage using a UBS",
+    "name": "data leakage using a USB",
     "description": "An threat actor uses a USB to transfer files.",
     "action_refs": [
       "x-action--6ba0fce7-1ff9-44a4-9fbb-28760afc7827",
