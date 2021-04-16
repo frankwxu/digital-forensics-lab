@@ -431,7 +431,7 @@ A Timeline object describes a specific cybercrime case that is represented by a 
 | ---------- | ----------------- | ------------ | -------------------------------------------------------------------- |
 | x-timeline | exploits          | user-account | This Relationship describes that a Timeline exploits a User Account. |
 
-## Example: data leakage using a UBS
+## Example: data leakage using a USB
 
 ```json
 [
