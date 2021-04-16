@@ -416,14 +416,14 @@ A Timeline object describes a specific cybercrime case that is represented by a 
 
 ## Timeline Specific Properties
 
-| Property Name      | Type                  | Description                                                            |
-| ------------------ | --------------------- | ---------------------------------------------------------------------- |
-| type (required)    | string                | The value of this property MUST be x-timeline.                         |
-| action_refs        | list of type x-action | Specifies a list of actions in chronological order.                    |
-| name               | string                | Specifies the name of a timeline.                                      |
-| description        | string                | A description that provides more details and context about a timeline. |
-| reconstructed_from | identifier            | Specifies timeline is reconstructed from a crime case.                 |
-| reconstructed_by   | identifier            | Specifies timeline is reconstructed by an investigator.                |
+| Property Name          | Type                  | Description                                                            |
+| ---------------------- | --------------------- | ---------------------------------------------------------------------- |
+| type (required)        | string                | The value of this property MUST be x-timeline.                         |
+| action_refs            | list of type x-action | Specifies a list of actions in chronological order.                    |
+| name                   | string                | Specifies the name of a timeline.                                      |
+| description            | string                | A description that provides more details and context about a timeline. |
+| reconstructed_from_ref | identifier            | Specifies timeline is reconstructed from a crime case.                 |
+| reconstructed_by_ref   | identifier            | Specifies timeline is reconstructed by an investigator.                |
 
 ### Relationships
 
@@ -445,7 +445,7 @@ A Timeline object describes a specific cybercrime case that is represented by a 
       "x-action--6ba0fce7-1ff9-44a4-9fbb-28760afc7827",
       "x-action--83aee86d-1523-4111-938e-8edc8a6c804f"
     ],
-    "reconstructed_from": "x-crime-case--49aadd9f-8bb0-4728-bd56-7bc708714516",
+    "reconstructed_from_ref": "x-crime-case--49aadd9f-8bb0-4728-bd56-7bc708714516",
     "exploits": "user-account-2485b844-4efe-4343-84c8-eb33312dd56f",
     "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
     "created": "2021-04-06T20:03:00.000Z",
