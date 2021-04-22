@@ -56,7 +56,6 @@
     "created": "2021-02-15T07:06:00Z",
     "modified": "2021-02-15T07:06:00Z"
   },
-
   {
     "type": "x-crime-case",
     "spec_version": "2.1",
@@ -255,7 +254,7 @@
     "id": "indicator--e7a4aa2b-dfbe-4cf4-be2e-b5811699264d",
     "name": "delete indicator",
     "description": "Indication of delete",
-    "pattern": "[file:extensions:status='recovered' and file:extensions:content_tags[0]='rhino']",
+    "pattern": "[file:extensions.auxiliary-ext.status='recovered' and file:extensions.auxiliary-ext.content_tags[0]='rhino']",
     "pattern_type": "stix",
     "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
     "created": "2021-02-15T12:15:00Z",
@@ -270,10 +269,12 @@
       "MD5": "ca03f2eed3db06a82a8a31b3a3defa24"
     },
     "extensions": {
-      "description": "recovered from deletion",
-      "status": "recovered",
-      "content_tags": ["rhino"],
-      "file_name": "f0106393.jpg"
+      "auxiliary-ext": {
+        "description": "recovered from deletion",
+        "status": "recovered",
+        "content_tags": ["rhino"],
+        "file_name": "f0106393.jpg"
+      }
     }
   },
   {
@@ -285,10 +286,12 @@
       "MD5": "ed870202082ea4fd8f5488533a561b35"
     },
     "extensions": {
-      "description": "recovered from deletion",
-      "status": "recovered",
-      "content_tags": ["rhino"],
-      "file_name": "f0106409.jpg"
+      "auxiliary-ext": {
+        "description": "recovered from deletion",
+        "status": "recovered",
+        "content_tags": ["rhino"],
+        "file_name": "f0106409.jpg"
+      }
     }
   },
   {
@@ -300,10 +303,12 @@
       "MD5": "76610b7bdb85e5f65e96df3f7e417a74"
     },
     "extensions": {
-      "description": "recovered from deletion",
-      "status": "recovered",
-      "content_tags": ["rhino"],
-      "file_name": "f0106865.gif"
+      "auxiliary-ext": {
+        "description": "recovered from deletion",
+        "status": "recovered",
+        "content_tags": ["rhino"],
+        "file_name": "f0106865.gif"
+      }
     }
   },
   {
@@ -315,10 +320,12 @@
       "MD5": "d03dc23d4ec39e4d16da3c46d2932d62"
     },
     "extensions": {
-      "description": "recovered from deletion",
-      "status": "recovered",
-      "content_tags": ["rhino"],
-      "file_name": "f0106889.gif"
+      "auxiliary-ext": {
+        "description": "recovered from deletion",
+        "status": "recovered",
+        "content_tags": ["rhino"],
+        "file_name": "f0106889.gif"
+      }
     }
   },
   {
@@ -404,9 +411,11 @@
     },
     "content_ref": "artifact--899e1d63-20ae-5487-b684-df8019d4177c",
     "extensions": {
-      "description": "recovered from deletion",
-      "status": "recovered",
-      "file_name": "f0335017_She_died_in_February_at_the_age_of_74.doc"
+      "auxiliary-ext": {
+        "description": "recovered from deletion",
+        "status": "recovered",
+        "file_name": "f0335017_She_died_in_February_at_the_age_of_74.doc"
+      }
     }
   },
   {
@@ -426,7 +435,7 @@
     "id": "indicator--afb0a853-e4c7-45a8-afea-d9f7c2dac3c1",
     "name": "delete doc indicator",
     "description": "Indication of delete a doc file that is recovered from the USB",
-    "pattern": "[file:extensions:status='recovered']",
+    "pattern": "[file:extensions.auxiliary-ext.status='recovered']",
     "pattern_type": "stix",
     "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
     "created": "2021-02-15T12:15:00Z",
@@ -495,9 +504,11 @@
       "MD5": "6bd0e9bd4fb4a738f9ca4c351a853281"
     },
     "extensions": {
-      "description": "recovered from deletion",
-      "status": "recovered",
-      "file_name": "f0105065.jpg"
+      "auxiliary-ext": {
+        "description": "recovered from deletion",
+        "status": "recovered",
+        "file_name": "f0105065.jpg"
+      }
     }
   },
   {
@@ -513,7 +524,7 @@
     "id": "indicator--e9d899b9-0c56-4108-839f-9cef41e37b34",
     "name": "use a steganography tool indicator",
     "description": "Indication of using steganography tool",
-    "pattern": "[artifact:payload_bin MATCHES 'anBoaWRl' and  file:extensions:status='decoded' and exists artifact--01b778f5-e334-52a5-a49d-f9b2de330be9 and exists artifact--5bb67aa9-d849-465d-a433-114063836965]",
+    "pattern": "[artifact:payload_bin MATCHES 'anBoaWRl' and  file:extensions.auxiliary-ext.status='decoded' and exists artifact--01b778f5-e334-52a5-a49d-f9b2de330be9 and exists artifact--5bb67aa9-d849-465d-a433-114063836965]",
     "pattern_type": "stix",
     "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
     "created": "2021-02-17T15:41:00Z",
@@ -591,10 +602,12 @@
       "MD5": "63a39823f80b321c2dcd112158b55011"
     },
     "extensions": {
-      "description": "decoded by stegdetect",
-      "status": "decoded",
-      "content_tags": ["rhino"],
-      "file_name": "r065.jpg"
+      "auxiliary-ext": {
+        "description": "decoded by stegdetect",
+        "status": "decoded",
+        "content_tags": ["rhino"],
+        "file_name": "r065.jpg"
+      }
     }
   },
   {
@@ -627,9 +640,11 @@
       "MD5": "4d37a1033450b8cc96ffd1564829d321"
     },
     "extensions": {
-      "description": "recovered from deletion",
-      "status": "recovered",
-      "file_name": "f0104249.jpg"
+      "auxiliary-ext": {
+        "description": "recovered from deletion",
+        "status": "recovered",
+        "file_name": "f0104249.jpg"
+      }
     }
   },
   {
@@ -676,10 +691,12 @@
       "MD5": "87018ef0cfdb91e818d92efeb9c19338"
     },
     "extensions": {
-      "description": "decoded by stegdetect",
-      "status": "decoded",
-      "content_tags": ["rhino"],
-      "file_name": "r249.jpg"
+      "auxiliary-ext": {
+        "description": "decoded by stegdetect",
+        "status": "decoded",
+        "content_tags": ["rhino"],
+        "file_name": "r249.jpg"
+      }
     }
   },
   {
