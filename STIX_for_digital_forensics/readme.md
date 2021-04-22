@@ -77,7 +77,8 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
     - [AppLog](#AppLog)
 
 - Property Extension
-  - [Extension for Windows Registry Key Object](#Extension-for-Windows-Registry-Key-Object)
+  - [Extension to File Object](#Extension-to-File-Object)
+  - [Extension to Windows Registry Key Object](#Extension-to-Windows-Registry-Key-Object)
 - Open Vocabulary extension
   - [threat-actor-type-ov extension](#threat-actor-type-ov-extension])
   - [ani-forensic-tool-type-ov](#tool-type-ov-extension)
@@ -176,6 +177,7 @@ Investigation Tools are software that can be used by cyber investigators to perf
 | --------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | type (required) | string                  | The value of this property MUST be x-investigation-tool.                                                                                                            |
 | last_modified   | timestamps              | The last modified date of the investigation tool.                                                                                                                   |
+| name            | string                  | A short name of the investigation tool.                                                                                                                             |
 | description     | string                  | A description that provides more details and context about the investigation tool.                                                                                  |
 | functions       | list of type open-vocab | Specifies a list of functions of an Investigation Tool. Each function is summarized in one activity, which SHOULD come from the x-activity-name-ov open vocabulary. |
 | inputs_refs     | list of type identifer  | Specifies a list of function inputs. It Should come from any STIX objects or CFOs.                                                                                  |
@@ -462,13 +464,13 @@ A Crime Case object represents a background description of a potential cybercrim
 
 ## Crime Case Properties
 
-| Property Name   | Type              | Description                                                                                      |
-| --------------- | ----------------- | ------------------------------------------------------------------------------------------------ |
-| type (required) | string            | The value of this property MUST be x-crime-case.                                                 |
-| case_id         | string            | Specifies a case identifier that is assigned to a case.                                          |
-| name            | string            | Specifies the name of a case.                                                                    |
-| description     | string            | A description that provides more details and context about a case.                               |
-| case_file_refs  | list of type file | Specifies docs, logs, and any files (other than disk images) that are associated with the cases. |
+| Property Name   | Type                    | Description                                                                                      |
+| --------------- | ----------------------- | ------------------------------------------------------------------------------------------------ |
+| type (required) | string                  | The value of this property MUST be x-crime-case.                                                 |
+| case_id         | string                  | Specifies a case identifier that is assigned to a case.                                          |
+| name            | string                  | Specifies the name of a case.                                                                    |
+| description     | string                  | A description that provides more details and context about a case.                               |
+| case_file_refs  | list of file references | Specifies docs, logs, and any files (other than disk images) that are associated with the cases. |
 
 ### Relationships
 
@@ -1755,7 +1757,41 @@ An event logged by Google drive. The event shows a file (happy_holiday.jpg) has 
 
 ---
 
-## Extension for Windows Registry Key Object
+## Extension to File Object
+
+**Type Name:** auxiliary-ext
+
+The auxiliary file extension specifies a default extension for capturing addition properties to files. The key for this extension when used in the extensions dictionary MUST be auxiliary-ext.
+
+### Properties
+
+| Property Name     | Type            | Description                                                            |
+| ----------------- | --------------- | ---------------------------------------------------------------------- |
+| status (required) | string          | Specifies the status of the file, e.g., recovered, decoded, decrypted. |
+| description       | string          | description of the of the auxiliary extension.                         |
+| content_tags      | list of strings | A list of words to describe the content of file.                       |
+| file_name         | string          | Specifies the file name.                                               |
+
+```json
+{
+  "type": "file",
+  "spec_version": "2.1",
+  "id": "file--5767fcee-664c-5af0-8b13-1420a285ab02",
+  "hashes": {
+    "MD5": "ca03f2eed3db06a82a8a31b3a3defa24"
+  },
+  "extensions": {
+    "auxiliary-ext": {
+      "description": "recovered from deletion",
+      "status": "recovered",
+      "content_tags": ["rhino"],
+      "file_name": "f0106393.jpg"
+    }
+  }
+}
+```
+
+## Extension to Windows Registry Key Object
 
 We focus on extending the data property of registry value as the data may contain rich information that needs to be organized and formalized as digital evidence. The pattern of the extension is shown below. Note that the string **"x_data"** is assigned to **"data"** (e.g., **"data": "x_data"**) as a place holder and **x_data:[]** is the extended property that contains formalized information of data.
 
