@@ -478,6 +478,7 @@ A Crime Case object represents a background description of a potential cybercrim
 | ------------ | ----------------- | -------------- | --------------------------------------------------------------------------- |
 | x-crime-case | assigned-to       | x-investigator | This Relationship describes that the Investigator was assigned to the case. |
 | x-crime-case | involves          | identity       | This Relationship describes that a x-crime-case involves identity.          |
+| x-crime-case | assigned-by       | identity       | This Relationship describes that a x-crime-case is assigned by identity.    |
 
 ## Example: NIST data leakage case
 
@@ -1765,12 +1766,12 @@ The auxiliary file extension specifies a default extension for capturing additio
 
 ### Properties
 
-| Property Name     | Type            | Description                                                            |
-| ----------------- | --------------- | ---------------------------------------------------------------------- |
-| status (required) | string          | Specifies the status of the file, e.g., recovered, decoded, decrypted. |
-| description       | string          | description of the of the auxiliary extension.                         |
-| content_tags      | list of strings | A list of words to describe the content of file.                       |
-| file_name         | string          | Specifies the file name.                                               |
+| Property Name     | Type            | Description                                                                       |
+| ----------------- | --------------- | --------------------------------------------------------------------------------- |
+| status (required) | string          | Specifies the status of the file, e.g., recovered, decoded, decrypted, extracted. |
+| description       | string          | description of the of the auxiliary extension.                                    |
+| content_tags      | list of strings | A list of words to describe the content of file.                                  |
+| file_name         | string          | Specifies the file name.                                                          |
 
 ### Example
 
@@ -1786,7 +1787,7 @@ A file is recovered using recovering software. The content of the file include r
   },
   "extensions": {
     "auxiliary-ext": {
-      "description": "recovered from deletion",
+      "description": "a recovered rhino image from deletion",
       "status": "recovered",
       "content_tags": ["rhino"],
       "file_name": "f0106393.jpg"

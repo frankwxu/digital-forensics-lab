@@ -125,7 +125,14 @@
     "hashes": {
       "MD5": "7e29f9d67346df25faaf18efcd95fc30"
     },
-    "name": "rhino3.log"
+    "name": "rhino3.log",
+    "extensions": {
+      "auxiliary-ext": {
+        "description": "extracted from traffic",
+        "status": "extracted",
+        "content_tags": ["rhino"]
+      }
+    }
   },
   {
     "type": "relationship",
@@ -479,7 +486,7 @@
     "spec_version": "2.1",
     "id": "x-investigation-tool--ce938cfa-8ae9-4b54-a4bd-12e80419c903",
     "name": "stegdetect",
-    "functions": ["detect", "break"],
+    "functions": ["detect", "break", "steganalysis"],
     "description": "Detect (stegdetect) the steganographic methods used to conceal messages and break password (stegbreak).",
     "inputs_refs": ["file--10571ebd-b587-50a6-9e86-acb3cba78437"],
     "outputs_refs": [
@@ -524,7 +531,7 @@
     "id": "indicator--e9d899b9-0c56-4108-839f-9cef41e37b34",
     "name": "use a steganography tool indicator",
     "description": "Indication of using steganography tool",
-    "pattern": "[artifact:payload_bin MATCHES 'anBoaWRl' and  file:extensions.auxiliary-ext.status='decoded' and exists artifact--01b778f5-e334-52a5-a49d-f9b2de330be9 and exists artifact--5bb67aa9-d849-465d-a433-114063836965]",
+    "pattern": "[artifact:payload_bin MATCHES 'anBoaWRl' and  file:extensions.auxiliary-ext.status='decoded' and file:extensions.auxiliary-ext.content_tags[0]='rhino' and exists artifact--01b778f5-e334-52a5-a49d-f9b2de330be9 and exists artifact--5bb67aa9-d849-465d-a433-114063836965]",
     "pattern_type": "stix",
     "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
     "created": "2021-02-17T15:41:00Z",
@@ -666,7 +673,7 @@
     "spec_version": "2.1",
     "id": "x-investigation-tool--a8cdf466-d703-46db-b0b1-5a7b1dd06bf4",
     "name": "stegdetect",
-    "functions": ["detect", "break"],
+    "functions": ["detect", "break", "steganalysis"],
     "description": "Detect (stegdetect) the steganographic methods used to conceal messages and break password (stegbreak).",
     "inputs_refs": ["file--04c87cba-c468-59e0-8e26-e4652344489f"],
     "outputs_refs": [
@@ -756,6 +763,13 @@
     "name": "rhino1.jpg",
     "hashes": {
       "MD5": "d5a83cde0131c3a034e5a0d3bd94b3c9"
+    },
+    "extensions": {
+      "auxiliary-ext": {
+        "description": "extracted from traffic",
+        "status": "extracted",
+        "content_tags": ["rhino"]
+      }
     }
   },
   {
@@ -765,6 +779,13 @@
     "name": "rhino3.jpg",
     "hashes": {
       "MD5": "b058218ea0060092d4e01ef3d7a3b815"
+    },
+    "extensions": {
+      "auxiliary-ext": {
+        "description": "extracted from traffic",
+        "status": "extracted",
+        "content_tags": ["rhino"]
+      }
     }
   },
   {
@@ -819,7 +840,7 @@
     "id": "indicator--bfc2ac37-7aa4-42be-a174-7ae52b1f20c3",
     "name": "upload indicator",
     "description": "Indication of upload rhino images",
-    "pattern": "[(file:hashes.MD5='87018ef0cfdb91e818d92efeb9c19338' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino1.jpg') or (file:hashes.MD5='b058218ea0060092d4e01ef3d7a3b815' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino3.jpg') or (network-traffic:extensions.wireshark-ext.info MATCHES 'contraband.zip' and file:hashes.MD5='ed870202082ea4fd8f5488533a561b35')]",
+    "pattern": "[(file:extensions.auxiliary-ext.status='extracted' and file:extensions.auxiliary-ext.content_tags[0]='rhino') and ((file:hashes.MD5='87018ef0cfdb91e818d92efeb9c19338' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino1.jpg') or (file:hashes.MD5='b058218ea0060092d4e01ef3d7a3b815' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino3.jpg') or (network-traffic:extensions.wireshark-ext.info MATCHES 'contraband.zip' and file:hashes.MD5='ed870202082ea4fd8f5488533a561b35'))]",
     "pattern_type": "stix",
     "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
     "created": "2021-02-18T11:12:00Z",
@@ -903,6 +924,13 @@
     "name": "rhino2.jpg",
     "hashes": {
       "MD5": "ed870202082ea4fd8f5488533a561b35"
+    },
+    "extensions": {
+      "auxiliary-ext": {
+        "description": "extracted from traffic",
+        "status": "extracted",
+        "content_tags": ["rhino"]
+      }
     }
   },
   {
@@ -954,6 +982,13 @@
     "name": "rhino4.jpg",
     "hashes": {
       "MD5": "aa64102afff71b93ed61fb100af8d52a"
+    },
+    "extensions": {
+      "auxiliary-ext": {
+        "description": "extracted from traffic",
+        "status": "extracted",
+        "content_tags": ["rhino"]
+      }
     }
   },
   {
@@ -1030,7 +1065,7 @@
     "id": "indicator--ae09c32c-eee3-4b30-92bc-8349084bee29",
     "name": "http image indicator",
     "description": "Indication of downloading images",
-    "pattern": "[(file:hashes.MD5='aa64102afff71b93ed61fb100af8d52a' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino4.jpg') or (file:hashes.MD5='1e90b7f70b2ecb605898524a88269029' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino5.gif')]",
+    "pattern": "[file:extensions.auxiliary-ext.content_tags[0]='rhino' and ((file:hashes.MD5='aa64102afff71b93ed61fb100af8d52a' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino4.jpg') or (file:hashes.MD5='1e90b7f70b2ecb605898524a88269029' and network-traffic:extensions.wireshark-ext.info MATCHES 'rhino5.gif'))]",
     "pattern_type": "stix",
     "created_by_ref": "identity--4f922f49-b4ac-41d6-b701-b374d7dc9b22",
     "created": "2021-02-19T03:06:00Z",
@@ -1096,6 +1131,13 @@
     "name": "rhino5.gif",
     "hashes": {
       "MD5": "1e90b7f70b2ecb605898524a88269029"
+    },
+    "extensions": {
+      "auxiliary-ext": {
+        "description": "extracted from traffic",
+        "status": "extracted",
+        "content_tags": ["rhino"]
+      }
     }
   }
 ]
