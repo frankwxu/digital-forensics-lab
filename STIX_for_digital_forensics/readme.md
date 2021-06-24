@@ -289,10 +289,11 @@ An action is one cyber criminal activity performed under a user account. It is a
 
 ### Relationships
 
-| Source   | Relationship Type | Target       | Description                                                             |
-| -------- | ----------------- | ------------ | ----------------------------------------------------------------------- |
-| x-action | exploits          | user-account | This Relationship describes that a Action exploits a User Account.      |
-| x-action | indicated-by      | indicator    | This Relationship describes that a Action is indicated-by of Indicator. |
+| Source   | Relationship Type | Target       | Description                                                                |
+| -------- | ----------------- | ------------ | -------------------------------------------------------------------------- |
+| x-action | exploits          | user-account | This Relationship describes that a Action exploits a User Account.         |
+| x-action | indicated-by      | indicator    | This Relationship describes that a Action is indicated-by of Indicator.    |
+| x-action | performed-by      | threat-actor | This Relationship describes that a Action is performed-by of Threat Actor. |
 
 ## Example: An action that search for anti-forensics tools
 
@@ -474,11 +475,12 @@ A Crime Case object represents a background description of a potential cybercrim
 
 ### Relationships
 
-| Source       | Relationship Type | Target         | Description                                                                 |
-| ------------ | ----------------- | -------------- | --------------------------------------------------------------------------- |
-| x-crime-case | assigned-to       | x-investigator | This Relationship describes that the Investigator was assigned to the case. |
-| x-crime-case | involves          | identity       | This Relationship describes that a x-crime-case involves identity.          |
-| x-crime-case | assigned-by       | identity       | This Relationship describes that a x-crime-case is assigned by identity.    |
+| Source       | Relationship Type | Target               | Description                                                                 |
+| ------------ | ----------------- | -------------------- | --------------------------------------------------------------------------- |
+| x-crime-case | assigned-to       | x-investigator       | This Relationship describes that the Investigator was assigned to the case. |
+| x-crime-case | involves          | identity             | This Relationship describes that a x-crime-case involves identity.          |
+| x-crime-case | assigned-by       | identity             | This Relationship describes that a x-crime-case is assigned by identity.    |
+| x-crime-case | has               | list of threat-actor | This Relationship describes that a x-crime-case has list of Threat Actor.   |
 
 ## Example: NIST data leakage case
 
@@ -612,6 +614,7 @@ Describe a crime case investigator.
 | x-computer | has               | mac-addr                  | The relationship specifies that a computer has a a Mac Address.                           |
 | x-computer | has               | list of type user-account | The relationship specifies that a computer has a list of User Account.                    |
 | x-computer | used-in           | x-crime-case              | The relationship specifies that a computer is used in a Crime Case.                       |
+| x-computer | is-part-of        | infrastructure            | The relationship specifies that a computer is a part of Infrastructure.                   |
 
 ### Example
 
