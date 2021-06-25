@@ -18,6 +18,7 @@
 ## Table of Contents (updating)
 
 - Case Study
+  - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
   - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images)
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
@@ -35,6 +36,33 @@ wget  https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help
 chmod +x tool-install-zsh.sh
 ./tool-install-zsh.sh
 ```
+
+---
+
+### Investigating P2P Data Leakage
+
+==============
+
+The case study is to investigate an image involving intellectual property theft using P2P, such uTorrent client. The study include
+
+- A large and complex case study is similar to NIST data leakage lab, but provide a clearer timeline and solid evidence for each activity performed along with the timeline. We suggest to use this before study NIST data leakage case study.
+- 13 hands-on labs/topics in digital forensics
+
+**Topics Covered**
+
+| Labs   | Topics Covered                      | Size of PPTs |
+| ------ | ----------------------------------- | ------------ |
+| Lab 0  | Lab Environment Setting Up          | 4M           |
+| Lab 1  | Disk Image and Partitions           | 5M           |
+| Lab 2  | Windows Registry and File Directory | 15M          |
+| Lab 3  | MFT Timeline                        | 6M           |
+| Lab 4  | USN Journal Timeline                | 3M           |
+| Lab 5  | uTorrent Log File                   | 9M           |
+| Lab 6  | File Signature                      | 8M           |
+| Lab 7  | Emails                              | 9M           |
+| Lab 8  | Web History                         | 11M          |
+| Lab 9  | Website Analysis                    | 2M           |
+| Lab 10 | Timeline (Summary)                  | 13K          |
 
 ---
 
