@@ -43,10 +43,11 @@ chmod +x tool-install-zsh.sh
 
 ==============
 
-The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to help students to apply various forensic techniques to investigate intellectual property theft involving P2P, such uTorrent client. The study include
+The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to help students to apply various forensic techniques to investigate intellectual property theft involving P2P. The study include
 
-- A large and complex case study is similar to NIST data leakage lab, but it provides a clearer and more detailed timeline. Solid evidence is explained for each activity performed by a suspect. We suggest to use this before study NIST data leakage case study.
-- 13 hands-on labs/topics in digital forensics
+- A large and complex case involving a uTorrent client. The case is similar to NIST data leakage lab. However, it provides a clearer and more detailed timeline.
+- Solid evidence with explanations. Each evidence that is associated with each activity is explained along with the timeline. We suggest using this before study NIST data leakage case study.
+- 10 hands-on labs/topics in digital forensics
 
 **Topics Covered**
 
