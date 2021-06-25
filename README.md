@@ -70,7 +70,7 @@ The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-
 
 ==============
 
-The case study is to investigate an image involving intellectual property theft. The study include
+The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to investigate an image involving intellectual property theft. The study include
 
 - A large and complex case study created by NIST. You can access the [Senario, DD/Encase images](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html). You can also find the [solutions](https://www.cfreds.nist.gov/data_leakage_case/leakage-answers.pdf) on their website.
 - 13 hands-on labs/topics in digital forensics
@@ -99,7 +99,7 @@ The case study is to investigate an image involving intellectual property theft.
 
 =====================
 
-The case study is to investigate the illegal possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). A copy of the image is also available in the repository.
+The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Illegal_Possession_Images) is to investigate the illegal possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). A copy of the image is also available in the repository.
 
 **Topics Covered**
 
@@ -117,7 +117,7 @@ The case study is to investigate the illegal possession of Rhino images. This im
 
 =========
 
-The case study is to investigate the harassment email sent by a student to a faculty member. The case is hosted by digitalcorpora.org. You can access the [senario description](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario) and [network traffic](http://downloads.digitalcorpora.org/corpora/scenarios/2008-nitroba/nitroba.pcap) from their website. The repository only provides lab instructions.
+The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Email_Harassment) is to investigate the harassment email sent by a student to a faculty member. The case is hosted by digitalcorpora.org. You can access the [senario description](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario) and [network traffic](http://downloads.digitalcorpora.org/corpora/scenarios/2008-nitroba/nitroba.pcap) from their website. The repository only provides lab instructions.
 
 **Topics Covered**
 
@@ -131,7 +131,7 @@ The case study is to investigate the harassment email sent by a student to a fac
 
 =========
 
-The case study is to investigate computer memory for reconstructing a timeline of illegal data transferring. The case includes a scenario of transfer sensitive files from a server to a USB.
+The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Illegal_File_Transferring_Memory_Forensics) is to investigate computer memory for reconstructing a timeline of illegal data transferring. The case includes a scenario of transfer sensitive files from a server to a USB.
 
 **Topics Covered**
 
