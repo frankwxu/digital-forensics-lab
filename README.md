@@ -18,7 +18,7 @@
 ## Table of Contents (updating)
 
 - Basic Computer Skills for Digital Forensics
-  - Windows Command Line Tutorial
+  - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/0_Win_command_line_tutorial.pptx)
   - Linux Command Line Tutorial
   - Advanced Linux Command Line Tutorial
 - Case Study
