@@ -19,8 +19,8 @@
 
 - Basic Computer Skills for Digital Forensics
   - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/0_Win_command_line_tutorial.pptx)
-  - Linux Command Line Tutorial
-  - Advanced Linux Command Line Tutorial
+  - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/1_Linux_command_line_tutorial.pptx)
+  - [Advanced Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Advanced_linux_command_line.pptx)
 - Case Study
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
