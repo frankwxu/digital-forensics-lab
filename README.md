@@ -8,7 +8,7 @@
 
 - Hands-on Digital Forensics Labs: designed for Students and Faculty
 - Linux-based lab: All labs are purely based on [Kali Linux](https://www.kali.org/downloads/)
-- Lab screenshots: Each lab has PPTs with lab screenshots
+- Lab screenshots: Each lab has PPTs with instruction screenshots
 - Comprehensive: Cover many topics in digital forensics
 - Free: All tools are open source
 - Updated: The project is funded by DOJ and will keep updating
