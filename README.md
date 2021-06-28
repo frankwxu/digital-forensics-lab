@@ -22,7 +22,7 @@
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/1_Linux_command_line_tutorial.pptx)
   - [Advanced Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Advanced_linux_command_line.pptx)
 - Case Study
-  - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
+  - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `added on June 2021`)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
   - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images)
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
