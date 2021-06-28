@@ -17,6 +17,10 @@
 
 ## Table of Contents (updating)
 
+- Basic Computer Skills for Digital Forensics
+  - Windows Command Line Tutorial
+  - Linux Command Line Tutorial
+  - Advanced Linux Command Line Tutorial
 - Case Study
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
