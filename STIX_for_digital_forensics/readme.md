@@ -614,6 +614,7 @@ Describe a crime case investigator.
 | x-computer | has               | mac-addr                  | The relationship specifies that a computer has a a Mac Address.                           |
 | x-computer | has               | list of type user-account | The relationship specifies that a computer has a list of User Account.                    |
 | x-computer | used-in           | x-crime-case              | The relationship specifies that a computer is used in a Crime Case.                       |
+| x-computer | used-by           | threat-actor              | The relationship specifies that a computer is used by a Threat Actor.                     |
 | x-computer | is-part-of        | infrastructure            | The relationship specifies that a computer is a part of Infrastructure.                   |
 
 ### Example
