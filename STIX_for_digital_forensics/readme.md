@@ -61,6 +61,7 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
   - [Secondary Storage Object](#Secondary-Storage-Object)
   - [Cloud Storage Object](#Cloud-Storage-Object)
   - [Windows Event Object](#Windows-Event-Object)
+  - [Webpage Object](#Webpage-Object)
   - [Webpage Visit Object](#Webpage-Visit-Object)
   - [Plug and Play (PnP) Event Object](#Plug-and-Play-PnP-Event-Object)
   - [File Visit Object](#File-Visit-Object)
@@ -1023,6 +1024,51 @@ Notes:
 }
 ```
 
+## Webpage Object
+
+**Type Name:** x-webpage
+
+A Webpage object represents a webpage opened in a browser.
+
+### Properties
+
+| Property Name   | Type       | Description                                                                                                                                                                                           |
+| --------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type (required) | string     | The value of this property MUST be x-webpage.                                                                                                                                                         |
+| url_ref         | identifier | Specify the URL of the webpage.                                                                                                                                                                       |
+| file_ref        | identifier | Specify the file of the webpage.                                                                                                                                                                      |
+| content         | string     | The content or a partial content of the webpage displayed on screen and described in a string. Use tags property to describe tags of html.                                                            |
+| tags            | dictionary | It specifies html tags in a dictionary. Each key/value pair in the dictionary represents the name/value of a single [element/tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) of html. |
+
+### Relationships
+
+| Source    | Relationship Type | Target          | Description                                                                               |
+| --------- | ----------------- | --------------- | ----------------------------------------------------------------------------------------- |
+| x-webpage | visit-recorded-in | x-webpage-visit | This Relationship describes that the visit of the Webpage is recorded in x-webpage-visit. |
+
+### Examples
+
+```json
+[
+  {
+    "type": "x-webpage",
+    "spec_version": "2.1",
+    "id": "x-webpage--8caea461-edca-4a49-80eb-9fa91c90c8db",
+    "url_ref": "url--9cc5a5dc-0acd-46f5-ae3f-724370087622",
+    "content": "Digital forensics plays a critical role in the world of modern criminal investigations",
+    "tags": {
+      "title": "B.S. in Cyber Forensics | University of Baltimore"
+    }
+  },
+  {
+    "type": "url",
+    "spec_version": "2.1",
+    "id": "url--9cc5a5dc-0acd-46f5-ae3f-724370087622",
+    "value": "https://www.ubalt.edu/cpa/undergraduate-majors-and-minors/majors/cyber-forensics/"
+  }
+]
+```
+
 ## Webpage Visit Object
 
 **Type Name:** x-webpage-visit
@@ -1048,7 +1094,8 @@ A Webpage Visit object represents a visit to a webpage.
 | --------------- | ----------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | x-webpage-visit | exploits          | user-account                      | This Relationship describes that a Webpage Visit exploits a User Account.                               |
 | x-webpage-visit | processed-by      | list of type x-investigation-tool | This Relationship describes that a Webpage Visit was processed/viewed by a list of Investigation Tools. |
-| x-webpage-visit | saved-to          | identifer                         | This Relationship describes that aa Webpage Visit was saved to a File, Registry, Artifact.              |
+| x-webpage-visit | saved-to          | identifer                         | This Relationship describes that a Webpage Visit was saved to a File, Registry, Artifact.               |
+| x-webpage-visit | attributed-to     | x-webpage                         | This Relationship describes that a Webpage Visit is to describe how is Webpage is visited.              |
 
 ### Examples
 
