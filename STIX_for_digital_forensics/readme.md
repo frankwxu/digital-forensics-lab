@@ -279,14 +279,14 @@ An action is one cyber criminal activity performed under a user account. It is a
 
 ## Action Specific Properties
 
-| Property Name   | Type       | Description                                                                                                                     |
-| --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| type (required) | string     | The value of this property MUST be x-action.                                                                                    |
-| verb            | open-vocab | Specifies the name of an action. It MUST come from x-activity-name-ov.                                                          |
-| targets_refs    | identifier | Specifies a list of observable and domain objects (e.g, Location, Tool, Malware, Vulnerability) that receive the direct action. |
-| description     | string     | A description that provides more details and context about the Action.                                                          |
-| start_time      | timestamp  | Specifies the the time that an action is started.                                                                               |
-| end_time        | timestamp  | Specifies the the time that an action is ended.                                                                                 |
+| Property Name   | Type                | Description                                                                                                                  |
+| --------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| type (required) | string              | The value of this property MUST be x-action.                                                                                 |
+| verb            | open-vocab          | Specifies the name of an action. It MUST come from x-activity-name-ov.                                                       |
+| target_refs     | list of identifiers | Specifies a list observables or domain objects (e.g, Location, Tool, Malware, Vulnerability) that receive the direct action. |
+| description     | string              | A description that provides more details and context about the Action.                                                       |
+| start_time      | timestamp           | Specifies the the time that an action is started.                                                                            |
+| end_time        | timestamp           | Specifies the the time that an action is ended.                                                                              |
 
 ### Relationships
 
