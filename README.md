@@ -110,13 +110,14 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 
 | Labs  | Topics Covered                                                       | Size of PPTs |
 | ----- | -------------------------------------------------------------------- | ------------ |
-| Lab 0 | HTTP Analysis using Wireshark (text)                                 | 3M           |
-| Lab 1 | HTTP Analysis using Wireshark (image)                                | 6M           |
-| Lab 2 | The Sleuth Kid Tutorial                                              | 1M           |
-| Lab 3 | Rhion Possession Investigation 1: File recovering                    | 9M           |
-| Lab 4 | Rhion Possession Investigation 2: Steganography                      | 4M           |
-| Lab 5 | Rhion Possession Investigation 3: Extract Evidence from FTP Traffic  | 3M           |
-| Lab 6 | Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic | 5M           |
+| Lab 0 | Intro USB_Image_Acquisition                                          | 2M           |
+| Lab 1 | Intro The Sleuth Kid Tutorial                                        | 1M           |
+| Lab 2 | HTTP Analysis using Wireshark (text)                                 | 3M           |
+| Lab 3 | HTTP Analysis using Wireshark (image)                                | 6M           |
+| Lab 5 | Rhion Possession Investigation 1: File recovering                    | 9M           |
+| Lab 6 | Rhion Possession Investigation 2: Steganography                      | 4M           |
+| Lab 7 | Rhion Possession Investigation 3: Extract Evidence from FTP Traffic  | 3M           |
+| Lab 8 | Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic | 5M           |
 
 ### Investigating Email Harassment
 
