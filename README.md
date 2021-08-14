@@ -203,6 +203,11 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 - Malcolm Hayward
 - Richard (Max) Wheeless
 
+<script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"/>
+<style>body { color: red }</style>
+
 <script async src="//static.getclicky.com/101329461.js"></script>
 
 <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101329461ns.gif" /></p></noscript>
