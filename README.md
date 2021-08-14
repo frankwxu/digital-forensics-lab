@@ -203,11 +203,15 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 - Malcolm Hayward
 - Richard (Max) Wheeless
 
-<script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
-<script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"/>
-<style>body { color: red }</style>
-
-<script async src="//static.getclicky.com/101329461.js"></script>
-
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101329461ns.gif" /></p></noscript>
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>text</li>
+        </ul>
+          <script async src="//static.getclicky.com/101329461.js"></script>
+  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101329461ns.gif" /></p></noscript>
+        <!-- Other embed HTML element/text into SVG -->
+    </div>
+</foreignObject>
+</svg>
