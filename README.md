@@ -205,4 +205,4 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 <script async src="//static.getclicky.com/101329461.js"></script>
 
-<img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101329461ns.gif" />
+<img width="1" height="1" src="//in.getclicky.com/101329461ns.gif" />
