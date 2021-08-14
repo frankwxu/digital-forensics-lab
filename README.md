@@ -206,3 +206,7 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 <script async src="//static.getclicky.com/101329461.js"></script>
 
 <img width="1" height="1" src="//in.getclicky.com/101329461ns.gif" />
+
+<a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/ksb44j1gmfoc4ht18prk" alt="trackgit-views" />
+</a>
