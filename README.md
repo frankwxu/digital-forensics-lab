@@ -18,6 +18,7 @@
 ## Table of Contents (updating)
 
 - Basic Computer Skills for Digital Forensics (added on August 2021)
+  - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx)
   - [PC Introduction](/Basic_Computer_Skills_for_Forensics/1_PC_Introduction.pptx)
   - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Win_command_line_tutorial.pptx)
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/3_Linux_command_line_tutorial.pptx)
