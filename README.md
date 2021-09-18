@@ -17,7 +17,7 @@
 
 ## Table of Contents (updating)
 
-- Basic Computer Skills for Digital Forensics (added on August 2021)
+- Basic Computer Skills for Digital Forensics (updated on Sep. 2021)
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx)
   - [PC Introduction](/Basic_Computer_Skills_for_Forensics/1_PC_Introduction.pptx)
   - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Win_command_line_tutorial.pptx)
@@ -26,7 +26,8 @@
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
   - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
   - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
-  - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/8_Forensic_Report_Template.pdf)
+  - [Evidence Search Techniques](/Basic_Computer_Skills_for_Forensics/8_Evidence_search_techniques)
+  - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/9_Forensic_Report_Template.pdf)
 - Case Study
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
