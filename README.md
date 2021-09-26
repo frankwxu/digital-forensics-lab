@@ -26,7 +26,8 @@
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
   - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
   - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
-  - [Evidence Search Techniques](/Basic_Computer_Skills_for_Forensics/8_Evidence_search_techniques)
+  - [Evidence Search Techniques](/Basic_Computer_Skills_for_Forensics/8_Evidence_search_techniques.pptx)
+  - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
   - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/9_Forensic_Report_Template.pdf)
 - Case Study
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
