@@ -17,12 +17,13 @@
 
 ## Table of Contents (updating)
 
-- Basic Computer Skills for Digital Forensics (updated on Sep. 2021)
+- Basic Computer Skills for Digital Forensics
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx)
   - [PC Introduction](/Basic_Computer_Skills_for_Forensics/1_PC_Introduction.pptx)
   - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Win_command_line_tutorial.pptx)
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/3_Linux_command_line_tutorial.pptx)
   - [Advanced Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/4_Advanced_linux_command_line.pptx)
+- Computer and Digital Forensics (updated on Oct. 2021)
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
   - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
   - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
