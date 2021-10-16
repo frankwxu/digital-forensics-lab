@@ -28,7 +28,8 @@
   - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
   - [Evidence Search Techniques](/Basic_Computer_Skills_for_Forensics/8_Evidence_search_techniques.pptx)
   - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
-  - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/9_Forensic_Report_Template.pdf)
+  - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
+  - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
 - Case Study
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
