@@ -34,7 +34,7 @@
 - Case Study
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
-  - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images)
+  - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images "Networking forensics")
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring "Memory Forensics")
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
