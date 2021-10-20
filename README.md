@@ -41,6 +41,9 @@
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring "Memory Forensics")
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
+- Forensic Intelligence Repository
+  - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
+  - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
 - Tool Installation
   - [Tools Used](#Tools-Used)
   - [Installation PPTs](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Kali_Installation_2020.pptx)
