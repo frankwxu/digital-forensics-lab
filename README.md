@@ -1,11 +1,10 @@
-# Digital Forensics Lab
+# Digital Forensics Lab & Shared Cyber Forensic Intelligence Repository
 
-<p float="left">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="120">
-<img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="120">
-</p>
+| Hands-on labs                                                                            | Forensic Intelligence Repository                                                              |
+| ---------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="130"> | <img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="130"> |
 
-### Features of hands-on labs
+### Features of Repository
 
 ===================
 
@@ -15,6 +14,7 @@
 - Comprehensive: Cover many topics in digital forensics
 - Free: All tools are open source
 - Updated: The project is funded by DOJ and will keep updating
+- Two formalized forensic intelligence in JSON files based-on case studies
 
 ---
 
