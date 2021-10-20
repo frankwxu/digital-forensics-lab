@@ -1,8 +1,9 @@
 # Digital Forensics Lab
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="150">
-
-<img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="150">
+<p float="left">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="120">
+<img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="120">
+</p>
 
 ### Features of hands-on labs
 
