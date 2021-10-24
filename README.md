@@ -42,7 +42,7 @@
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring "Memory Forensics")
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
 - Mobile Forensics Case Study
-  - [Investigating Android 10](#Investigating-Android-10) (added on Oct 2021)
+  - [Investigating Android 10](#Investigating-Android-10) (added on Oct/24/2021)
   - iOS 13 (to be released...)
 - Forensic Intelligence Repository
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
@@ -176,15 +176,34 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 
 The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Hacking_Case), including a disk image provided by [NIST](https://www.cfreds.nist.gov/Hacking_Case.html) is to investigate a hacker who intercepts internet traffic within range of Wireless Access Points. Note that the PPT is encrypted with a password as one of the major assignments. Email fxu at ubalt dot edu to ask the password if you are a faculty member.
 
-### Investigating Android 10
-
-=========
-
 **Topics Covered**
 
 | Labs  | Topics Covered   | Size of PPTs |
 | ----- | ---------------- | ------------ |
 | Lab 0 | Memory Forensics | 8M           |
+
+### Investigating Android 10
+
+=========
+
+| Labs      | Topics Covered                          | Size of PPTs |
+| --------- | --------------------------------------- | ------------ |
+| Lab 0     | Intro Pixel 3                           | 3M           |
+| Lab 1     | Pixel 3 Image                           | 2M           |
+| Lab 2     | Pixel 3 Device                          | 4M           |
+| Lab 3     | Pixel 3 System Setting                  | 5M           |
+| Lab 4     | Overview: App Life Cycle                | 11M          |
+| Lab 5.1.1 | AOSP App Investigations: Messaging      | 4M           |
+| Lab 5.1.2 | AOSP App Investigations: Contacts       | 3M           |
+| Lab 5.1.3 | AOSP App Investigations: Calendar       | 1M           |
+| Lab 5.2.1 | GMS App Investigations: Messaging       | 6M           |
+| Lab 5.2.2 | GMS App Investigations: Dialer          | 2M           |
+| Lab 5.2.3 | GMS App Investigations: Maps            | 8M           |
+| Lab 5.2.4 | GMS App Investigations: Photos          | 6M           |
+| Lab 5.3.1 | Third-Party App Investigations: Kik     | 4M           |
+| Lab 5.3.2 | Third-Party App Investigations: textnow | 1M           |
+| Lab 5.3.3 | Third-Party App Investigations: whatapp | 3M           |
+| Lab 6     | Pixel 3 Rooting                         | 5M           |
 
 ### Tools Used
 
