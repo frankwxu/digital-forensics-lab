@@ -34,13 +34,16 @@
   - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
   - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
   - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
-- Case Study
+- Computer Forensics Case Study
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
   - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images "Networking forensics")
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring "Memory Forensics")
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
+- Mobile Forensics Case Study
+  - [Investigating Android 10](#Investigating-Android-10) (added on Oct 2021)
+  - iOS 13 (to be released...)
 - Forensic Intelligence Repository
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
@@ -172,6 +175,10 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 =========
 
 The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Hacking_Case), including a disk image provided by [NIST](https://www.cfreds.nist.gov/Hacking_Case.html) is to investigate a hacker who intercepts internet traffic within range of Wireless Access Points. Note that the PPT is encrypted with a password as one of the major assignments. Email fxu at ubalt dot edu to ask the password if you are a faculty member.
+
+### Investigating Android 10
+
+=========
 
 **Topics Covered**
 
