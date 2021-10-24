@@ -184,6 +184,8 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 ### Investigating Android 10
 
+The image is created by Joshua Hickman and hosted by [digitalcorpora](https://digitalcorpora.org/corpora/cell-phones/android-10).
+
 =========
 
 | Labs      | Topics Covered                          | Size of PPTs |
