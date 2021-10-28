@@ -74,19 +74,19 @@ The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-
 
 **Topics Covered**
 
-| Labs   | Topics Covered                                                             | Size of PPTs |
-| ------ | -------------------------------------------------------------------------- | ------------ |
-| Lab 0  | [Lab Environment Setting Up](P2P_Leakage/Presentation/ID00_Lab_Setup.pptx) | 4M           |
-| Lab 1  | Disk Image and Partitions                                                  | 5M           |
-| Lab 2  | Windows Registry and File Directory                                        | 15M          |
-| Lab 3  | MFT Timeline                                                               | 6M           |
-| Lab 4  | USN Journal Timeline                                                       | 3M           |
-| Lab 5  | uTorrent Log File                                                          | 9M           |
-| Lab 6  | File Signature                                                             | 8M           |
-| Lab 7  | Emails                                                                     | 9M           |
-| Lab 8  | Web History                                                                | 11M          |
-| Lab 9  | Website Analysis                                                           | 2M           |
-| Lab 10 | Timeline (Summary)                                                         | 13K          |
+| Labs   | Topics Covered                                                                                        | Size of PPTs |
+| ------ | ----------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0  | [Lab Environment Setting Up](P2P_Leakage/Presentation/ID00_Lab_Setup.pptx)                            | 4M           |
+| Lab 1  | [Disk Image and Partitions](P2P_Leakage/Presentation/ID01_Disk_Image_and_Partitions.pptx)             | 5M           |
+| Lab 2  | [Windows Registry and File Directory](P2P_Leakage/Presentation/ID02_Registry_and_File_Directory.pptx) | 15M          |
+| Lab 3  | [MFT Timeline ](P2P_Leakage/Presentation/ID03_MFT_Timeline.pptx)                                      | 6M           |
+| Lab 4  | [USN Journal Timeline](P2P_Leakage/Presentation/ID03_MFT_Timeline.pptx)                               | 3M           |
+| Lab 5  | [uTorrent Log File ](P2P_Leakage/Presentation/ID05_uTorrent_Log_File.pptx)                            | 9M           |
+| Lab 6  | [File Signature ](P2P_Leakage/Presentation/ID06_File_Signature.pptx)                                  | 8M           |
+| Lab 7  | [Emails ](P2P_Leakage/Presentation/ID07_Emails.pptx)                                                  | 9M           |
+| Lab 8  | [Web History ](P2P_Leakage/Presentation/ID08_Web_History.pptx)                                        | 11M          |
+| Lab 9  | [Website Analysis ](P2P_Leakage/Presentation/ID09_Website_Analysis.pptx)                              | 2M           |
+| Lab 10 | [Timeline (Summary)](P2P_Leakage/Presentation/Questions.docx)                                         | 13K          |
 
 ---
 
@@ -101,21 +101,21 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 **Topics Covered**
 
-| Labs   | Topics Covered                      | Size of PPTs |
-| ------ | ----------------------------------- | ------------ |
-| Lab 0  | Environment Setting Up              | 2M           |
-| Lab 1  | Windows Registry                    | 3M           |
-| Lab 2  | Windows Event and XML               | 3M           |
-| Lab 3  | Web History and SQL                 | 3M           |
-| Lab 4  | Email Investigation                 | 3M           |
-| Lab 5  | File Change History and USN Journal | 2M           |
-| Lab 6  | Network Evidence and shellbag       | 2M           |
-| Lab 7  | Network Drive and Windows shellbag  | 5M           |
-| Lab 8  | Master File Table ($MFT) Analysis   | 4M           |
-| Lab 9  | Windows Search History              | 4M           |
-| Lab 10 | Windows Volume Shadow Copy Analysis | 6M           |
-| Lab 11 | Data Carving                        | 3M           |
-| Lab 12 | Crack Windows Passwords             | 2M           |
+| Labs   | Topics Covered                                                                                                         | Size of PPTs |
+| ------ | ---------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0  | [Environment Setting Up](NIST_Data_Leakage_Case/NIST_Data_Leakage_00_Env_Setting.pptx)                                 | 2M           |
+| Lab 1  | [Windows Registry](NIST_Data_Leakage_Case/NIST_Data_Leakage_01_Registry.pptx)                                          | 3M           |
+| Lab 2  | [Windows Event and XML](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                  | 3M           |
+| Lab 3  | [Web History and SQL](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                    | 3M           |
+| Lab 4  | [Email Investigation](NIST_Data_Leakage_Case/NIST_Data_Leakage_04_Email_USB.pptx)                                      | 3M           |
+| Lab 5  | [File Change History and USN Journal](NIST_Data_Leakage_Case/NIST_Data_Leakage_05_USNJournaling.pptx)                  | 2M           |
+| Lab 6  | [Network Evidence and shellbag](NIST_Data_Leakage_Case/NIST_Data_Leakage_06_Network_Shellbag_Jumplist.pptx)            | 2M           |
+| Lab 7  | [Network Drive and Windows shellbag](NIST_Data_Leakage_Case/NIST_Data_Leakage_07_NetworkDrive_ShellBag.pptx)           | 5M           |
+| Lab 8  | [Master File Table ($MFT) Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)                        | 4M           |
+| Lab 9  | [Windows Search History](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)                                   | 4M           |
+| Lab 10 | [Windows Volume Shadow Copy Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_10_Vol_Shadow_Copy_anti_forensics.pptx) | 6M           |
+| Lab 11 | [Data Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_11_CD-R_Data_Carving.pptx)                                     | 3M           |
+| Lab 12 | [Crack Windows Passwords](NIST_Data_Leakage_Case/NIST_Data_Leakage_12_Crack_Win10_Login_Password.pptx)                 | 2M           |
 
 ---
 
@@ -127,14 +127,14 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 
 **Topics Covered**
 
-| Labs  | Topics Covered                                                       | Size of PPTs |
-| ----- | -------------------------------------------------------------------- | ------------ |
-| Lab 0 | HTTP Analysis using Wireshark (text)                                 | 3M           |
-| Lab 1 | HTTP Analysis using Wireshark (image)                                | 6M           |
-| Lab 2 | Rhion Possession Investigation 1: File recovering                    | 9M           |
-| Lab 3 | Rhion Possession Investigation 2: Steganography                      | 4M           |
-| Lab 4 | Rhion Possession Investigation 3: Extract Evidence from FTP Traffic  | 3M           |
-| Lab 5 | Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic | 5M           |
+| Labs  | Topics Covered                                                                                                                                | Size of PPTs |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0 | [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)                                        | 3M           |
+| Lab 1 | [HTTP Analysis using Wireshark (image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)                                      | 6M           |
+| Lab 2 | [Rhion Possession Investigation 1: File recovering](Illegal_Possession_Images/Rhion_Possession_1_File_Recovering.pptx)                        | 9M           |
+| Lab 3 | [Rhion Possession Investigation 2: Steganography](Illegal_Possession_Images/Rhion_Possession_2_Steganography.pptx)                            | 4M           |
+| Lab 4 | [Rhion Possession Investigation 3: Extract Evidence from FTP Traffic](Illegal_Possession_Images/Rhion_Possession_3_FTP_Traffic_crackzip.pptx) | 3M           |
+| Lab 5 | [Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)        | 5M           |
 
 ### Investigating Email Harassment
 
@@ -144,13 +144,13 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ema
 
 **Topics Covered**
 
-| Labs  | Topics Covered                                 | Size of PPTs |
-| ----- | ---------------------------------------------- | ------------ |
-| Lab 0 | Investigating Harassment Email using Wireshark | 3M           |
-| Lab 1 | t-shark Forensic Introduction                  | 2M           |
-| Lab 2 | Investigating Harassment Email using t-shark   | 2M           |
+| Labs  | Topics Covered                                                                                                   | Size of PPTs |
+| ----- | ---------------------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0 | [Investigating Harassment Email using Wireshark](Email_Harassment/0_Investigate_Harassment_Email_Wireshark.pptx) | 3M           |
+| Lab 1 | [t-shark Forensic Introduction](Email_Harassment/1_tshark_forensics_Introduction.pptx)                           | 2M           |
+| Lab 2 | [Investigating Harassment Email using t-shark](2_Investigate_Harassment_Email_TShark.pptx)                       | 2M           |
 
-### Investigating Illegal File Transferring
+### Investigating Illegal File Transferring (Memory Forensics )
 
 =========
 
@@ -158,17 +158,17 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 
 **Topics Covered**
 
-| Labs   | Topics Covered                        | Size of PPTs |
-| ------ | ------------------------------------- | ------------ |
-| Lab 0  | Memory Forensics                      | 11M          |
-| part 1 | Understand the Suspect and Accounts   |              |
-| part 2 | Understand the Suspect’s PC           |              |
-| part 3 | Network Forensics                     |              |
-| part 4 | Investigate Command History           |              |
-| part 5 | Investigate Suspect’s USB             |              |
-| part 6 | Investigate Internet Explorer History |              |
-| part 7 | Investigate File Explorer History     |              |
-| part 8 | Timeline Analysis                     |              |
+| Labs   | Topics Covered                                                 | Size of PPTs |
+| ------ | -------------------------------------------------------------- | ------------ |
+| Lab 0  | [Memory Forensics](Illegal_File_Transferring_Memory_Forensics) | 11M          |
+| part 1 | Understand the Suspect and Accounts                            |              |
+| part 2 | Understand the Suspect’s PC                                    |              |
+| part 3 | Network Forensics                                              |              |
+| part 4 | Investigate Command History                                    |              |
+| part 5 | Investigate Suspect’s USB                                      |              |
+| part 6 | Investigate Internet Explorer History                          |              |
+| part 7 | Investigate File Explorer History                              |              |
+| part 8 | Timeline Analysis                                              |              |
 
 ### Investigating Hacking Case
 
@@ -178,9 +178,9 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 **Topics Covered**
 
-| Labs  | Topics Covered   | Size of PPTs |
-| ----- | ---------------- | ------------ |
-| Lab 0 | Memory Forensics | 8M           |
+| Labs  | Topics Covered                                            | Size of PPTs |
+| ----- | --------------------------------------------------------- | ------------ |
+| Lab 0 | [Hacking Case](/NIST_Hacking_Case/NIST_Hacking_Case.pptx) | 8M           |
 
 ### Investigating Android 10
 
@@ -188,24 +188,24 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 
 =========
 
-| Labs      | Topics Covered                          | Size of PPTs |
-| --------- | --------------------------------------- | ------------ |
-| Lab 0     | Intro Pixel 3                           | 3M           |
-| Lab 1     | Pixel 3 Image                           | 2M           |
-| Lab 2     | Pixel 3 Device                          | 4M           |
-| Lab 3     | Pixel 3 System Setting                  | 5M           |
-| Lab 4     | Overview: App Life Cycle                | 11M          |
-| Lab 5.1.1 | AOSP App Investigations: Messaging      | 4M           |
-| Lab 5.1.2 | AOSP App Investigations: Contacts       | 3M           |
-| Lab 5.1.3 | AOSP App Investigations: Calendar       | 1M           |
-| Lab 5.2.1 | GMS App Investigations: Messaging       | 6M           |
-| Lab 5.2.2 | GMS App Investigations: Dialer          | 2M           |
-| Lab 5.2.3 | GMS App Investigations: Maps            | 8M           |
-| Lab 5.2.4 | GMS App Investigations: Photos          | 6M           |
-| Lab 5.3.1 | Third-Party App Investigations: Kik     | 4M           |
-| Lab 5.3.2 | Third-Party App Investigations: textnow | 1M           |
-| Lab 5.3.3 | Third-Party App Investigations: whatapp | 3M           |
-| Lab 6     | Pixel 3 Rooting                         | 5M           |
+| Labs      | Topics Covered                                                                                         | Size of PPTs |
+| --------- | ------------------------------------------------------------------------------------------------------ | ------------ |
+| Lab 0     | [Intro Pixel 3](Andriod10/0_Intro_Pixel3_Andriod10.pptx)                                               | 3M           |
+| Lab 1     | [Pixel 3 Image](Andriod10/1_Pixel3_Image.pptx)                                                         | 2M           |
+| Lab 2     | [Pixel 3 Device](Andriod10/2_Pixel3_Device_Investigation.pptx)                                         | 4M           |
+| Lab 3     | [Pixel 3 System Setting](Andriod10/3_Pixel3_System_settings.pptx)                                      | 5M           |
+| Lab 4     | [Overview: App Life Cycle](Andriod10/4_Overivew_App_Life_Cycle.pptx)                                   | 11M          |
+| Lab 5.1.1 | [AOSP App Investigations: Messaging](Andriod10/5_1_1_AOSP_App_Investigations_Messaging.pptx)           | 4M           |
+| Lab 5.1.2 | [AOSP App Investigations: Contacts](Andriod10/5_1_2_AOSP_App_Investigations_Contacts.pptx)             | 3M           |
+| Lab 5.1.3 | [AOSP App Investigations: Calendar](Andriod10/5_2_1_GMS_App_Investigations_Messaging.pptx)             | 1M           |
+| Lab 5.2.1 | [GMS App Investigations: Messaging](Andriod10/5_2_2_GMS_App_Investigations_Dialer.pptx)                | 6M           |
+| Lab 5.2.2 | [GMS App Investigations: Dialer](Andriod10/5_2_2_GMS_App_Investigations_Dialer.pptx)                   | 2M           |
+| Lab 5.2.3 | [GMS App Investigations: Maps](Andriod10/5_2_3_GMS_App_Investigations_Maps.pptx)                       | 8M           |
+| Lab 5.2.4 | [GMS App Investigations: Photos](Andriod10/5_2_4_GMS_App_Investigations_Photos.pptx)                   | 6M           |
+| Lab 5.3.1 | [Third-Party App Investigations: Kik](Andriod10/5_3_1_Third_Party_App_Investigation_kik.pptx)          | 4M           |
+| Lab 5.3.2 | [Third-Party App Investigations: textnow](5_3_2_Third_Party_App_Investigation%20_textnow.pptx)         | 1M           |
+| Lab 5.3.3 | [Third-Party App Investigations: whatapp](Andriod10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
+| Lab 6     | [Pixel 3 Rooting](Andriod10/6_Pixel3_rooting.pptx)                                                     | 5M           |
 
 ### Tools Used
 
