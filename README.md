@@ -74,19 +74,19 @@ The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-
 
 **Topics Covered**
 
-| Labs   | Topics Covered                      | Size of PPTs |
-| ------ | ----------------------------------- | ------------ |
-| Lab 0  | Lab Environment Setting Up          | 4M           |
-| Lab 1  | Disk Image and Partitions           | 5M           |
-| Lab 2  | Windows Registry and File Directory | 15M          |
-| Lab 3  | MFT Timeline                        | 6M           |
-| Lab 4  | USN Journal Timeline                | 3M           |
-| Lab 5  | uTorrent Log File                   | 9M           |
-| Lab 6  | File Signature                      | 8M           |
-| Lab 7  | Emails                              | 9M           |
-| Lab 8  | Web History                         | 11M          |
-| Lab 9  | Website Analysis                    | 2M           |
-| Lab 10 | Timeline (Summary)                  | 13K          |
+| Labs   | Topics Covered                                                             | Size of PPTs |
+| ------ | -------------------------------------------------------------------------- | ------------ |
+| Lab 0  | [Lab Environment Setting Up](P2P_Leakage/Presentation/ID00_Lab_Setup.pptx) | 4M           |
+| Lab 1  | Disk Image and Partitions                                                  | 5M           |
+| Lab 2  | Windows Registry and File Directory                                        | 15M          |
+| Lab 3  | MFT Timeline                                                               | 6M           |
+| Lab 4  | USN Journal Timeline                                                       | 3M           |
+| Lab 5  | uTorrent Log File                                                          | 9M           |
+| Lab 6  | File Signature                                                             | 8M           |
+| Lab 7  | Emails                                                                     | 9M           |
+| Lab 8  | Web History                                                                | 11M          |
+| Lab 9  | Website Analysis                                                           | 2M           |
+| Lab 10 | Timeline (Summary)                                                         | 13K          |
 
 ---
 
