@@ -111,7 +111,7 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 | Lab 5  | [File Change History and USN Journal](NIST_Data_Leakage_Case/NIST_Data_Leakage_05_USNJournaling.pptx)                    | 2M           |
 | Lab 6  | [Network Evidence and shellbag](NIST_Data_Leakage_Case/NIST_Data_Leakage_06_Network_Shellbag_Jumplist.pptx)              | 2M           |
 | Lab 7  | [Network Drive and Cloud](NIST_Data_Leakage_Case/NIST_Data_Leakage_07_NetworkDrive_Cloud.pptx)                           | 5M           |
-| Lab 8  | [Master File Table ($MFT) and Log File  ($logFile) Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx) | 4M           |
+| Lab 8  | [Master File Table ($MFT) and Log File  ($logFile) Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx) | 13M          |
 | Lab 9  | [Windows Search History](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)                                     | 4M           |
 | Lab 10 | [Windows Volume Shadow Copy Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_10_Vol_Shadow_Copy.pptx)                  | 6M           |
 | Lab 11 | [Recycle Bin and Anti-Forensics](NIST_Data_Leakage_Case/NIST_Data_Leakage_11_RecycleBin_AntiForensics.pptx)              | 3M           |
