@@ -54,7 +54,7 @@
 
 The Kali VM includes the tools needed for most of the labs
 
-- Install [Virturalbox](https://www.virtualbox.org/). See Kali installation [instruction](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Kali_Installation_2020.pptx)
+- Install [Virtualbox](https://www.virtualbox.org/). See Kali installation [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Kali_Installation_2020.pptx)
 - Import [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova)
 
 ### Method 2: Install tools using script (the script ONLY is tested on Kali 2020.4)
