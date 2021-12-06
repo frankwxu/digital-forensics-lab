@@ -50,18 +50,22 @@
 
 ## Tool Installation (new- updated on 12/5/2021)
 
-### Method 1: Import Kali VM image
+### Method 1: Importing customized Kali VM image
 
-The Kali VM includes the tools needed for most of the labs
+The customized Kali VM = Kali (2020.4) + [tools](#Tools) used for completing most of the labs listed above
 
 - Install [Virtualbox](https://www.virtualbox.org/)
-- Import [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova)
+- Import the customized [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova)
 
-### Method 2: Install tools using script (the script ONLY is tested on Kali 2020.4)
+### Method 2: Installing tools using the customized script (the script ONLY is tested on Kali 2020.4)
 
-The following script will install tools needed for most of the labs. We will upgrade the script to add more tools.
+The following script will install tools needed for completing most of the labs listed above. Please let us know if you need us to add more tools to the script.
 
-- The installation [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx)
+- Install [Virtualbox](https://www.virtualbox.org/)
+
+- Install [Kali 2020.4](https://www.kali.org/blog/kali-linux-2020-4-release/)
+
+- How to run the installation script [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx), or you can simply follow the commands below
 
 ```
 wget  https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/tool-install-zsh.sh
@@ -69,7 +73,7 @@ chmod +x tool-install-zsh.sh
 ./tool-install-zsh.sh
 ```
 
-The list of [tools installed](#Tools). Note that most of the commands for tools can executed globally.
+- Installed [tools](#Tools). Note that most of the commands for tools can executed globally. Now you can skip most of tool installtion steps in PPTs.
 
 ---
 
