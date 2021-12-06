@@ -71,41 +71,6 @@ chmod +x tool-install-zsh.sh
 
 The list of [tools installed](#Tools-Used). Note that most of the commands for tools can executed globally.
 
-### Tools
-
-- Commands tested
-
-| Name                    | Command           | Installation Method                                             | Installation Method |
-| ----------------------- | ----------------- | --------------------------------------------------------------- | ------------------- |
-| Wine                    | wine --version    | https://source.winehq.org/git/wine.git/                         | Custom              |
-| Vinetto                 | vinetto -h        | https://github.com/AtesComp/Vinetto                             | Custom              |
-| imgclip                 | imgclip -h        | https://github.com/Arthelon/imgclip                             | apt insta           |
-| RegRipper               | rip.pl -h         | https://github.com/keydet89/RegRipper3.0                        | Custom              |
-| Windows-Prefetch-Parser | prefetch.py -h    | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  | Custom              |
-| python-evtx             | evtx_dump.py -h   | https://github.com/williballenthin/python-evtx                  | apt install         |
-| libesedb-utils          | esedbexport -h    | https://github.com/libyal/libesedb                              | apt install         |
-| libpff                  | pffexport -h      | https://github.com/libyal/libpff                                | apt install         |
-| USN-Record-Carver       | usncarve.py -h    | https://github.com/PoorBillionaire/USN-Record-Carver            | apt install         |
-| USN-Journal-Parser      | usn.py -h         | https://github.com/PoorBillionaire/USN-Journal-Parser           | apt install         |
-| time_decode             | time_decode.py -h | https://github.com/digitalsleuth/time_decode                    | Git clone           |
-| analyzeMFT              | analyzeMFT.py -h  | https://github.com/dkovar/analyzeMFT                            | Custom              |
-| libvshadow              | vshadowinfo -h    | https://github.com/libyal/libvshadow                            | Custom              |
-| INDXParse               | INDXParse.py -    |                                                                 | Custom              |
-| carving sqlite .db      | undark -h         | https://github.com/inflex/undark.git                            | Custom              |
-| stegdetect              | stegdetect -V     |                                                                 | Custom              |
-| stegbreak               | stegbreak -V      |                                                                 | Custom              |
-| stego-toolkit           | jphide            |                                                                 | Custom              |
-| jpsestego-toolkitek     | jpseek            |                                                                 | Custom              |
-| volatility-2            | vol.py -h         | https://github.com/volatilityfoundation/volatility.git          | Custom              |
-| liblnk-utils            | lnkinfo -h        |                                                                 | apt install         |
-| JLECmd                  |                   | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip | Git clone           |
-| recentfilecache-parser  |                   | https://github.com/prolsen/recentfilecache-parser               |                     |
-| LogFileParser           |                   | https://github.com/jschicht/LogFileParser.git                   | Git clone           |
-| UsnJrnl2Csv             |                   | ttps://github.com/jschicht/UsnJrnl2Csv.git                      | Git clone           |
-
-- Other tools installed via apt install
-  python3-pip, leafpad, terminator, sqlite3, tree, xmlstarlet, libhivex-bin, pasco, libhivex-bin, npm, binwalk, foremost, hashdeep, ewf-tools, nautilus
-
 ---
 
 ### Investigating NIST Data Leakage
@@ -254,32 +219,40 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 | Lab 5.3.3 | [Third-Party App Investigations: whatapp](Andriod10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
 | Lab 6     | [Pixel 3 Rooting](Andriod10/6_Pixel3_rooting.pptx)                                                     | 5M           |
 
-### Tools Used
+### Tools
 
-========
+- Commands tested
 
-| Name                    | version    | vendor                                                          |
-| ----------------------- | ---------- | --------------------------------------------------------------- |
-| Wine                    | 6.0        | https://source.winehq.org/git/wine.git/                         |
-| Vinetto                 | 0.98       | https://github.com/AtesComp/Vinetto                             |
-| imgclip                 | 05.12.2017 | https://github.com/Arthelon/imgclip                             |
-| Tree                    | 06.01.2020 | https://github.com/kddeisz/tree                                 |
-| RegRipper               | 3.0        | https://github.com/keydet89/RegRipper3.0                        |
-| Windows-Prefetch-Parser | 05.01.2016 | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  |
-| python-evtx             | 05.21.2020 | https://github.com/williballenthin/python-evtx                  |
-| xmlstarlet              | 1.6.1      | https://github.com/fishjam/xmlstarlet                           |
-| hivex                   | 09.15.2020 | https://github.com/libguestfs/hivex                             |
-| libesedb                | 01.01.2021 | https://github.com/libyal/libesedb                              |
-| pasco-project           | 02.09.2017 | https://annsli.github.io/pasco-project/                         |
-| libpff                  | 01.17.2021 | https://github.com/libyal/libpff                                |
-| USN-Record-Carver       | 05.21.2017 | https://github.com/PoorBillionaire/USN-Record-Carver            |
-| USN-Journal-Parser      | 1212.2018  | https://github.com/PoorBillionaire/USN-Journal-Parser           |
-| JLECmd                  | 1.4.0.0    | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip |
-| libnl-utils             | 3.2.27     | https://packages.ubuntu.com/xenial/libs/libnl-utils             |
-| time_decode             | 12.13.2020 | https://github.com/digitalsleuth/time_decode                    |
-| analyzeMFT              | 2.0.4      | https://github.com/dkovar/analyzeMFT                            |
-| libvshadow              | 12.20.2020 | https://github.com/libyal/libvshadow                            |
-| recentfilecache-parser  | 02.13.2018 | https://github.com/prolsen/recentfilecache-parser               |
+| Name                    | Command           | Installation Method                                             | Installation Method |
+| ----------------------- | ----------------- | --------------------------------------------------------------- | ------------------- |
+| Wine                    | wine --version    | https://source.winehq.org/git/wine.git/                         | Custom              |
+| Vinetto                 | vinetto -h        | https://github.com/AtesComp/Vinetto                             | Custom              |
+| imgclip                 | imgclip -h        | https://github.com/Arthelon/imgclip                             | apt insta           |
+| RegRipper               | rip.pl -h         | https://github.com/keydet89/RegRipper3.0                        | Custom              |
+| Windows-Prefetch-Parser | prefetch.py -h    | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  | Custom              |
+| python-evtx             | evtx_dump.py -h   | https://github.com/williballenthin/python-evtx                  | apt install         |
+| libesedb-utils          | esedbexport -h    | https://github.com/libyal/libesedb                              | apt install         |
+| libpff                  | pffexport -h      | https://github.com/libyal/libpff                                | apt install         |
+| USN-Record-Carver       | usncarve.py -h    | https://github.com/PoorBillionaire/USN-Record-Carver            | apt install         |
+| USN-Journal-Parser      | usn.py -h         | https://github.com/PoorBillionaire/USN-Journal-Parser           | apt install         |
+| time_decode             | time_decode.py -h | https://github.com/digitalsleuth/time_decode                    | Git clone           |
+| analyzeMFT              | analyzeMFT.py -h  | https://github.com/dkovar/analyzeMFT                            | Custom              |
+| libvshadow              | vshadowinfo -h    | https://github.com/libyal/libvshadow                            | Custom              |
+| INDXParse               | INDXParse.py -    |                                                                 | Custom              |
+| carving sqlite .db      | undark -h         | https://github.com/inflex/undark.git                            | Custom              |
+| stegdetect              | stegdetect -V     |                                                                 | Custom              |
+| stegbreak               | stegbreak -V      |                                                                 | Custom              |
+| stego-toolkit           | jphide            |                                                                 | Custom              |
+| jpsestego-toolkitek     | jpseek            |                                                                 | Custom              |
+| volatility-2            | vol.py -h         | https://github.com/volatilityfoundation/volatility.git          | Custom              |
+| liblnk-utils            | lnkinfo -h        |                                                                 | apt install         |
+| JLECmd                  |                   | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip | Git clone           |
+| recentfilecache-parser  |                   | https://github.com/prolsen/recentfilecache-parser               |                     |
+| LogFileParser           |                   | https://github.com/jschicht/LogFileParser.git                   | Git clone           |
+| UsnJrnl2Csv             |                   | ttps://github.com/jschicht/UsnJrnl2Csv.git                      | Git clone           |
+
+- Other tools installed via apt install
+  python3-pip, leafpad, terminator, sqlite3, tree, xmlstarlet, libhivex-bin, pasco, libhivex-bin, npm, binwalk, foremost, hashdeep, ewf-tools, nautilus
 
 ## Contribution
 
