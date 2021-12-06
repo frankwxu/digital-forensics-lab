@@ -69,7 +69,7 @@ chmod +x tool-install-zsh.sh
 ./tool-install-zsh.sh
 ```
 
-The list of [tools installed](#Tools-Used). Note that most of the commands for tools can executed globally.
+The list of [tools installed](#Tools). Note that most of the commands for tools can executed globally.
 
 ---
 
