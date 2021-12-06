@@ -47,46 +47,64 @@
 - Forensic Intelligence Repository
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
-- Tool Installation
-  - [Tools Used](#Tools-Used)
-  - [Installation PPTs](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Kali_Installation_2020.pptx)
-  - Installation Scripts (see commands as follows)
+
+## Tool Installation (new- updated on 12/5/2021)
+
+### Method 1: Import Kali VM image
+
+The Kali VM includes the tools needed for most of the labs
+
+- Install [Virturalbox](https://www.virtualbox.org/). See Kali installation [instruction](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Kali_Installation_2020.pptx)
+- Import [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova)
+
+### Method 2: Install tools using script (the script ONLY is tested on Kali 2020.4)
+
+The following script will install all tools needed for most of the labs. We will upgrade the script to add more tools.
+
+- The installation [instruction](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_Installation.pptx)
 
 ```
-# The following commands will install all tools needed for Data Leakage Case. We will upgrade the script to add more tools for other labs soon.
-
 wget  https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/tool-install-zsh.sh
 chmod +x tool-install-zsh.sh
 ./tool-install-zsh.sh
 ```
 
----
+The list of [tools installed](#Tools-Used). Note that most of the commands for tools can executed globally.
 
-### Investigating P2P Data Leakage
+### Tools
 
-==============
+- Commands tested
 
-The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to help students to apply various forensic techniques to investigate intellectual property theft involving P2P. The study include
+| Name                    | Command           | Installation Method                                             | Installation Method |
+| ----------------------- | ----------------- | --------------------------------------------------------------- | ------------------- |
+| Wine                    | wine --version    | https://source.winehq.org/git/wine.git/                         | Custom              |
+| Vinetto                 | vinetto -h        | https://github.com/AtesComp/Vinetto                             | Custom              |
+| imgclip                 | imgclip -h        | https://github.com/Arthelon/imgclip                             | apt insta           |
+| RegRipper               | rip.pl -h         | https://github.com/keydet89/RegRipper3.0                        | Custom              |
+| Windows-Prefetch-Parser | prefetch.py -h    | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  | Custom              |
+| python-evtx             | evtx_dump.py -h   | https://github.com/williballenthin/python-evtx                  | apt install         |
+| libesedb-utils          | esedbexport -h    | https://github.com/libyal/libesedb                              | apt install         |
+| libpff                  | pffexport -h      | https://github.com/libyal/libpff                                | apt install         |
+| USN-Record-Carver       | usncarve.py -h    | https://github.com/PoorBillionaire/USN-Record-Carver            | apt install         |
+| USN-Journal-Parser      | usn.py -h         | https://github.com/PoorBillionaire/USN-Journal-Parser           | apt install         |
+| time_decode             | time_decode.py -h | https://github.com/digitalsleuth/time_decode                    | Git clone           |
+| analyzeMFT              | analyzeMFT.py -h  | https://github.com/dkovar/analyzeMFT                            | Custom              |
+| libvshadow              | vshadowinfo -h    | https://github.com/libyal/libvshadow                            | Custom              |
+| INDXParse               | INDXParse.py -    |                                                                 | Custom              |
+| carving sqlite .db      | undark -h         | https://github.com/inflex/undark.git                            | Custom              |
+| stegdetect              | stegdetect -V     |                                                                 | Custom              |
+| stegbreak               | stegbreak -V      |                                                                 | Custom              |
+| stego-toolkit           | jphide            |                                                                 | Custom              |
+| jpsestego-toolkitek     | jpseek            |                                                                 | Custom              |
+| volatility-2            | vol.py -h         | https://github.com/volatilityfoundation/volatility.git          | Custom              |
+| liblnk-utils            | lnkinfo -h        |                                                                 | apt install         |
+| JLECmd                  |                   | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip | Git clone           |
+| recentfilecache-parser  |                   | https://github.com/prolsen/recentfilecache-parser               |                     |
+| LogFileParser           |                   | https://github.com/jschicht/LogFileParser.git                   | Git clone           |
+| UsnJrnl2Csv             |                   | ttps://github.com/jschicht/UsnJrnl2Csv.git                      | Git clone           |
 
-- A large and complex case involving a uTorrent client. The case is similar to NIST data leakage lab. However, it provides a clearer and more detailed timeline.
-- Solid evidence with explanations. Each evidence that is associated with each activity is explained along with the timeline. We suggest using this before study NIST data leakage case study.
-- 10 hands-on labs/topics in digital forensics
-
-**Topics Covered**
-
-| Labs   | Topics Covered                                                                                        | Size of PPTs |
-| ------ | ----------------------------------------------------------------------------------------------------- | ------------ |
-| Lab 0  | [Lab Environment Setting Up](P2P_Leakage/Presentation/ID00_Lab_Setup.pptx)                            | 4M           |
-| Lab 1  | [Disk Image and Partitions](P2P_Leakage/Presentation/ID01_Disk_Image_and_Partitions.pptx)             | 5M           |
-| Lab 2  | [Windows Registry and File Directory](P2P_Leakage/Presentation/ID02_Registry_and_File_Directory.pptx) | 15M          |
-| Lab 3  | [MFT Timeline ](P2P_Leakage/Presentation/ID03_MFT_Timeline.pptx)                                      | 6M           |
-| Lab 4  | [USN Journal Timeline](P2P_Leakage/Presentation/ID03_MFT_Timeline.pptx)                               | 3M           |
-| Lab 5  | [uTorrent Log File ](P2P_Leakage/Presentation/ID05_uTorrent_Log_File.pptx)                            | 9M           |
-| Lab 6  | [File Signature ](P2P_Leakage/Presentation/ID06_File_Signature.pptx)                                  | 8M           |
-| Lab 7  | [Emails ](P2P_Leakage/Presentation/ID07_Emails.pptx)                                                  | 9M           |
-| Lab 8  | [Web History ](P2P_Leakage/Presentation/ID08_Web_History.pptx)                                        | 11M          |
-| Lab 9  | [Website Analysis ](P2P_Leakage/Presentation/ID09_Website_Analysis.pptx)                              | 2M           |
-| Lab 10 | [Timeline (Summary)](P2P_Leakage/Presentation/Questions.docx)                                         | 13K          |
+- Other tools installed via apt install
+  python3-pip, leafpad, terminator, sqlite3, tree, xmlstarlet, libhivex-bin, pasco, libhivex-bin, npm, binwalk, foremost, hashdeep, ewf-tools, nautilus
 
 ---
 
@@ -117,6 +135,34 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 | Lab 11 | [Recycle Bin and Anti-Forensics](NIST_Data_Leakage_Case/NIST_Data_Leakage_11_RecycleBin_AntiForensics.pptx)              | 3M           |
 | Lab 12 | [Data Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_12_CD-R_Data_Carving.pptx)                                       | 3M           |
 | Lab 13 | [Crack Windows Passwords](NIST_Data_Leakage_Case/NIST_Data_Leakage_13_Crack_Win10_Login_Password.pptx)                   | 2M           |
+
+---
+
+### Investigating P2P Data Leakage
+
+==============
+
+The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to help students to apply various forensic techniques to investigate intellectual property theft involving P2P. The study include
+
+- A large and complex case involving a uTorrent client. The case is similar to NIST data leakage lab. However, it provides a clearer and more detailed timeline.
+- Solid evidence with explanations. Each evidence that is associated with each activity is explained along with the timeline. We suggest using this before study NIST data leakage case study.
+- 10 hands-on labs/topics in digital forensics
+
+**Topics Covered**
+
+| Labs   | Topics Covered                                                                                        | Size of PPTs |
+| ------ | ----------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0  | [Lab Environment Setting Up](P2P_Leakage/Presentation/ID00_Lab_Setup.pptx)                            | 4M           |
+| Lab 1  | [Disk Image and Partitions](P2P_Leakage/Presentation/ID01_Disk_Image_and_Partitions.pptx)             | 5M           |
+| Lab 2  | [Windows Registry and File Directory](P2P_Leakage/Presentation/ID02_Registry_and_File_Directory.pptx) | 15M          |
+| Lab 3  | [MFT Timeline ](P2P_Leakage/Presentation/ID03_MFT_Timeline.pptx)                                      | 6M           |
+| Lab 4  | [USN Journal Timeline](P2P_Leakage/Presentation/ID03_MFT_Timeline.pptx)                               | 3M           |
+| Lab 5  | [uTorrent Log File ](P2P_Leakage/Presentation/ID05_uTorrent_Log_File.pptx)                            | 9M           |
+| Lab 6  | [File Signature ](P2P_Leakage/Presentation/ID06_File_Signature.pptx)                                  | 8M           |
+| Lab 7  | [Emails ](P2P_Leakage/Presentation/ID07_Emails.pptx)                                                  | 9M           |
+| Lab 8  | [Web History ](P2P_Leakage/Presentation/ID08_Web_History.pptx)                                        | 11M          |
+| Lab 9  | [Website Analysis ](P2P_Leakage/Presentation/ID09_Website_Analysis.pptx)                              | 2M           |
+| Lab 10 | [Timeline (Summary)](P2P_Leakage/Presentation/Questions.docx)                                         | 13K          |
 
 ---
 
