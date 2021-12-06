@@ -61,7 +61,7 @@ The Kali VM includes the tools needed for most of the labs
 
 The following script will install all tools needed for most of the labs. We will upgrade the script to add more tools.
 
-- The installation [instruction](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_Installation.pptx)
+- The installation [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx)
 
 ```
 wget  https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/tool-install-zsh.sh
