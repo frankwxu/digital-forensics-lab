@@ -35,11 +35,11 @@
   - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
   - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
 - Computer Forensics Case Study
-  - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
+  - [Investigating NIST Data Leakage (Windows XP)](#Investigating-NIST-Data-Leakage)
   - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage)
-  - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images "Networking forensics")
+  - [Investigating Illegal Possession of Images ("Networking forensics")](#Investigating-Illegal-Possession-of-Images)
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
-  - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring "Memory Forensics")
+  - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring)
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
 - Mobile Forensics Case Study
   - [Investigating Android 10](#Investigating-Android-10) (added on Oct/24/2021)
@@ -73,11 +73,11 @@ chmod +x tool-install-zsh.sh
 ./tool-install-zsh.sh
 ```
 
-- Installed [tools](#Tools). Note that most of the commands for tools can executed globally. Now you can skip most of tool installtion steps in PPTs.
+- Installed [tools](#Tools). Note that most of the commands for tools can executed globally. Now you can skip most of tool installation steps in PPTs.
 
 ---
 
-### Investigating NIST Data Leakage (Windows XP)
+### Investigating NIST Data Leakage
 
 ==============
 
@@ -107,7 +107,7 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 ---
 
-### Investigating P2P Data Leakage (Windows 10)
+### Investigating P2P Data Leakage
 
 ==============
 
@@ -166,7 +166,7 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ema
 | Lab 1 | [t-shark Forensic Introduction](Email_Harassment/1_tshark_forensics_Introduction.pptx)                           | 2M           |
 | Lab 2 | [Investigating Harassment Email using t-shark](2_Investigate_Harassment_Email_TShark.pptx)                       | 2M           |
 
-### Investigating Illegal File Transferring (Memory Forensics )
+### Investigating Illegal File Transferring
 
 =========
 
