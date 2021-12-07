@@ -35,8 +35,8 @@
   - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
   - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
 - Computer Forensics Case Study
-  - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added on June 2021)
   - [Investigating NIST Data Leakage](#Investigating-NIST-Data-Leakage)
+  - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage) (added in June 2021)
   - [Investigating Illegal Possession of Images](#Investigating-Illegal-Possession-of-Images "Networking forensics")
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring "Memory Forensics")
@@ -77,7 +77,7 @@ chmod +x tool-install-zsh.sh
 
 ---
 
-### Investigating NIST Data Leakage
+### Investigating NIST Data Leakage (Windows XP)
 
 ==============
 
@@ -107,14 +107,14 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 ---
 
-### Investigating P2P Data Leakage
+### Investigating P2P Data Leakage (Windows 10)
 
 ==============
 
-The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to help students to apply various forensic techniques to investigate intellectual property theft involving P2P. The study include
+The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to help students to apply various forensic techniques to investigate intellectual property theft involving P2P. The study includes
 
 - A large and complex case involving a uTorrent client. The case is similar to NIST data leakage lab. However, it provides a clearer and more detailed timeline.
-- Solid evidence with explanations. Each evidence that is associated with each activity is explained along with the timeline. We suggest using this before study NIST data leakage case study.
+- Solid evidence with explanations. Each evidence that is associated with each activity is explained along with the timeline.
 - 10 hands-on labs/topics in digital forensics
 
 **Topics Covered**
