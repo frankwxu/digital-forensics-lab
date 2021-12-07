@@ -48,22 +48,22 @@
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
 
-## Tool Installation (new- updated on 12/5/2021)
+## Tool Installation (newly added on 12/6/2021)
 
 ### Method 1: Importing customized Kali VM image
 
-The customized Kali VM = Kali (2020.4) + [tools](#Tools) used for completing most of the labs listed above
+The customized Kali VM = Kali (2020.4) + [tools](#Tools) used for completing most of the labs listed above (except p2p Data Leakage case)
 
 - Install [Virtualbox](https://www.virtualbox.org/)
-- Import the customized [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova)
+- Import the customized [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova). Notes: the default harddisk size is 80G.
 
 ### Method 2: Installing tools using the customized script (the script ONLY is tested on Kali 2020.4)
 
-The following script will install tools needed for completing most of the labs listed above. Please let us know if you need us to add more tools to the script.
+The following script will install tools needed for completing most of the labs listed above (except p2p Data Leakage case, which has its own script described in PPTs). Please let us know if you need us to add more tools to the script.
 
 - Install [Virtualbox](https://www.virtualbox.org/)
 
-- Install [Kali 2020.4](https://www.kali.org/blog/kali-linux-2020-4-release/)
+- Install [Kali 2020.4](https://www.kali.org/blog/kali-linux-2020-4-release/). Notes: Suggest You configure the disk size of Kali VM 80G because the size of each leakage cases image is 30G+
 
 - How to run the installation script [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx), or you can simply follow the commands below
 
@@ -227,12 +227,12 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 
 - Commands tested
 
-| Name                    | Command           | Installation Method                                             | Installation Method |
+| Name                    | Command           | Repository                                                      | Installation Method |
 | ----------------------- | ----------------- | --------------------------------------------------------------- | ------------------- |
 | Wine                    | wine --version    | https://source.winehq.org/git/wine.git/                         | Custom              |
 | Vinetto                 | vinetto -h        | https://github.com/AtesComp/Vinetto                             | Custom              |
-| imgclip                 | imgclip -h        | https://github.com/Arthelon/imgclip                             | apt insta           |
-| RegRipper               | rip.pl -h         | https://github.com/keydet89/RegRipper3.0                        | Custom              |
+| imgclip                 | imgclip -h        | https://github.com/Arthelon/imgclip                             | apt install         |
+| RegRipper               | rip.pl -h         | https://github.com/keydet89/RegRipper3.0                        | Customized scirpt   |
 | Windows-Prefetch-Parser | prefetch.py -h    | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  | Custom              |
 | python-evtx             | evtx_dump.py -h   | https://github.com/williballenthin/python-evtx                  | apt install         |
 | libesedb-utils          | esedbexport -h    | https://github.com/libyal/libesedb                              | apt install         |
@@ -240,15 +240,15 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 | USN-Record-Carver       | usncarve.py -h    | https://github.com/PoorBillionaire/USN-Record-Carver            | apt install         |
 | USN-Journal-Parser      | usn.py -h         | https://github.com/PoorBillionaire/USN-Journal-Parser           | apt install         |
 | time_decode             | time_decode.py -h | https://github.com/digitalsleuth/time_decode                    | Git clone           |
-| analyzeMFT              | analyzeMFT.py -h  | https://github.com/dkovar/analyzeMFT                            | Custom              |
-| libvshadow              | vshadowinfo -h    | https://github.com/libyal/libvshadow                            | Custom              |
-| INDXParse               | INDXParse.py -    |                                                                 | Custom              |
-| carving sqlite .db      | undark -h         | https://github.com/inflex/undark.git                            | Custom              |
-| stegdetect              | stegdetect -V     |                                                                 | Custom              |
-| stegbreak               | stegbreak -V      |                                                                 | Custom              |
-| stego-toolkit           | jphide            |                                                                 | Custom              |
-| jpsestego-toolkitek     | jpseek            |                                                                 | Custom              |
-| volatility-2            | vol.py -h         | https://github.com/volatilityfoundation/volatility.git          | Custom              |
+| analyzeMFT              | analyzeMFT.py -h  | https://github.com/dkovar/analyzeMFT                            | Customized scirpt   |
+| libvshadow              | vshadowinfo -h    | https://github.com/libyal/libvshadow                            | Customized scirpt   |
+| INDXParse               | INDXParse.py -    |                                                                 | Customized scirpt   |
+| carving sqlite .db      | undark -h         | https://github.com/inflex/undark.git                            | Customized scirpt   |
+| stegdetect              | stegdetect -V     |                                                                 | Customized scirpt   |
+| stegbreak               | stegbreak -V      |                                                                 | Customized scirpt   |
+| stego-toolkit           | jphide            |                                                                 | Customized scirpt   |
+| jpsestego-toolkitek     | jpseek            |                                                                 | Customized scirpt   |
+| volatility-2            | vol.py -h         | https://github.com/volatilityfoundation/volatility.git          | Customized scirpt   |
 | liblnk-utils            | lnkinfo -h        |                                                                 | apt install         |
 | JLECmd                  |                   | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip | Git clone           |
 | recentfilecache-parser  |                   | https://github.com/prolsen/recentfilecache-parser               |                     |
