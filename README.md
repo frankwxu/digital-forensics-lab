@@ -18,7 +18,7 @@
 
 ---
 
-## Table of Contents (updating)
+## Table of Contents (add Drone Device 12/07/2021)
 
 - Basic Computer Skills for Digital Forensics
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx)
@@ -41,9 +41,10 @@
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring)
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
-- Mobile Forensics Case Study
-  - [Investigating Android 10](#Investigating-Android-10) (added on Oct/24/2021)
+- Mobile/IoT Forensics Case Study
+  - [Investigating Android 10](#Investigating-Android-10) (added on 10/24/2021)
   - iOS 13 (to be released...)
+  - [Investigating Drone](#Investigating-Drone-DJI) (add on 12/07/2021)
 - Forensic Intelligence Repository
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
@@ -222,6 +223,18 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 | Lab 5.3.2 | [Third-Party App Investigations: textnow](5_3_2_Third_Party_App_Investigation%20_textnow.pptx)         | 1M           |
 | Lab 5.3.3 | [Third-Party App Investigations: whatapp](Andriod10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
 | Lab 6     | [Pixel 3 Rooting](Andriod10/6_Pixel3_rooting.pptx)                                                     | 5M           |
+
+### Investigating Drone DJI
+
+The dataset includes logical files extracted from a DJI controller (mobile device) and a SD card image used by the device. The Drone dataset is created by [VTO Labs](https://www.vtolabs.com/drone-forensics). The lab covers GPS investigation and cached image retrieval. Note that it is a draft. We will improve the lab later.
+
+=========
+
+| Labs  | Topics Covered                                                                                  | Size of PPTs |
+| ----- | ----------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0 | [DJI Mavic Air Mobile](Drone_DJI_Mavic_Air/00_DJI_Mavic_Air_Mobile.pptx)                        | 13M          |
+| Lab 1 | [DJI Mavic Air MicroSD Raw](Drone_DJI_Mavic_Air/01_DJI_Mavic_Air_microSD_raw.pptx)              | 2M           |
+| Lab 2 | [DJI Mavic Air MicroSD Encase Format](Drone_DJI_Mavic_Air/02_DJI_Mavic_Air_microSD_encase.pptx) | 2M           |
 
 ### Tools
 
