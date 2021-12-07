@@ -83,7 +83,7 @@ chmod +x tool-install-zsh.sh
 
 The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to investigate an image involving intellectual property theft. The study include
 
-- A large and complex case study created by NIST. You can access the [Senario, DD/Encase images](https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html). You can also find the [solutions](https://www.cfreds.nist.gov/data_leakage_case/leakage-answers.pdf) on their website.
+- A large and complex case study created by NIST. You can access the [Scenario, DD/Encase images](https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html). You can also find the [solutions](https://cfreds-archive.nist.gov/data_leakage_case/leakage-answers.pdf) on their website.
 - 14 hands-on labs/topics in digital forensics
 
 **Topics Covered**
@@ -139,7 +139,7 @@ The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-
 
 =====================
 
-The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Illegal_Possession_Images) is to investigate the illegal possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html). A copy of the image is also available in the repository.
+The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Illegal_Possession_Images) is to investigate the illegal possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://cfreds-archive.nist.gov/dfrws/Rhino_Hunt.html). A copy of the image is also available in the repository.
 
 **Topics Covered**
 
@@ -190,7 +190,7 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 
 =========
 
-The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Hacking_Case), including a disk image provided by [NIST](https://www.cfreds.nist.gov/Hacking_Case.html) is to investigate a hacker who intercepts internet traffic within range of Wireless Access Points.
+The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Hacking_Case), including a disk image provided by [NIST](https://cfreds-archive.nist.gov/Hacking_Case.html) is to investigate a hacker who intercepts internet traffic within range of Wireless Access Points.
 
 **Topics Covered**
 
