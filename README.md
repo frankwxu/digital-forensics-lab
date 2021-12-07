@@ -36,7 +36,7 @@
   - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
 - Computer Forensics Case Study
   - [Investigating NIST Data Leakage (Windows XP)](#Investigating-NIST-Data-Leakage)
-  - [Investigating P2P Data Leakage](#Investigating-P2P-Data-Leakage)
+  - [Investigating P2P Data Leakage (Windows 10)](#Investigating-P2P-Data-Leakage)
   - [Investigating Illegal Possession of Images ("Networking forensics")](#Investigating-Illegal-Possession-of-Images)
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring)
