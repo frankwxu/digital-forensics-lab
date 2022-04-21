@@ -18,7 +18,7 @@
 
 ---
 
-## Table of Contents (add Drone Device 12/07/2021)
+## Table of Contents (add iOS investigation on 4/021/2022)
 
 - Basic Computer Skills for Digital Forensics
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx)
@@ -43,7 +43,7 @@
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
 - Mobile/IoT Forensics Case Study
   - [Investigating Android 10](#Investigating-Android-10) (added on 10/24/2021)
-  - iOS 13 (to be released...)
+  - [Investigating iPhone iOS 13](#Investigating-iPhone-iOS-13) (added on 4/21/2022)
   - [Investigating Drone](#Investigating-Drone-DJI) (add on 12/07/2021)
 - Forensic Intelligence Repository
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
@@ -224,6 +224,26 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 | Lab 5.3.3 | [Third-Party App Investigations: whatapp](Andriod10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
 | Lab 6     | [Pixel 3 Rooting](Andriod10/6_Pixel3_rooting.pptx)                                                     | 5M           |
 
+### Investigating iPhone iOS 13.4.1
+
+The image is created by Joshua Hickman and hosted by [digitalcorpora](https://digitalcorpora.org/corpora/cell-phones/ios-13).
+
+=========
+
+| Labs   | Topics Covered                                                        | Size of PPTs |
+| ------ | --------------------------------------------------------------------- | ------------ |
+| Lab 0  | [Intro Intro iPhone iOS 13](iOS/0_Intro_iPhone_iOS13.pptx)            | 5M           |
+| Lab 1  | [iOS 13.4.1 Image](iOS/1_iOS_13.4.1_Image.pptx)                       | 5M           |
+| Lab 2  | [iPhone Device investigation](iOS/2_iPhone_Device_Investigation.pptx) | 3M           |
+| Lab 3  | [iOS System Settings](iOS/3_iOS_System_settings.pptx)                 | 3M           |
+| Lab 4  | [Overview of App Life Cycle](iOS/4_Overivew_App_Life_Cycle.pptx)      | 2M           |
+| Lab 5  | [Messages Investigations](iOS/5_Messages_Investigations.pptx)         | 3M           |
+| Lab 6  | [Contacts Investigations](iOS/6_Contacts_Investigation.pptx)          | 3M           |
+| Lab 7  | [Calender Investigations](iOS/7_Calender_Investigation.pptx)          | 2M           |
+| Lab 8  | [Safari Investigations](iOS/8_Safari_Investigation.pptx)              | 3M           |
+| Lab 9  | [Photo Investigations](iOS/9_Photos_Investigation.pptx)               | 7M           |
+| Lab 10 | [KnowledgeC Investigations](iOS/10_KnowledgeC_Investigation.pptx)     | 5M           |
+
 ### Investigating Drone DJI
 
 The dataset includes logical files extracted from a DJI controller (mobile device) and a SD card image used by the device. The Drone dataset is created by [VTO Labs](https://www.vtolabs.com/drone-forensics). The lab covers GPS investigation and cached image retrieval. Note that it is a draft. We will improve the lab later.
@@ -275,9 +295,13 @@ The dataset includes logical files extracted from a DJI controller (mobile devic
 
 =============
 
-- Frank Xu
-- Malcolm Hayward
-- Richard (Max) Wheeless
+- PI of the project
+  - Dr. Frank Xu (Email: fxu at ubalt dot edu)
+- Student:
+  - Danny Ferreira (iPhone)
+  - Harleen Kaur (Partial of Android)
+  - Malcolm Hayward (P2P Leakage)
+  - Richard (Max) Wheeless (Hacking case)
 
 <script async src="//static.getclicky.com/101329461.js"></script>
 
