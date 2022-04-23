@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lottie Animation</title>
+
+    <style type="text/css">
+        .showbackup {
+            z-index: 1;
+            position: fixed;
+            height: auto;
+            width: 100%;
+            display: block;
+        }
+
+        .lottie-anim {
+            z-index: -1;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hide-img {
+            display: none;
+        }
+    </style>
+
+    <script src="lottie.min.js" type="text/javascript"></script>
+    <script id="fileName" type="text/javascript"></script>
+    <script type="text/javascript">
+        // TODO(ashli): wrap this in function and add try-catch
+        // Parse file name and isDarkMode from URL query parameters
+        var temp = location.search.substring(1).split('&');
+        window.params = {};
+        window.isDarkMode = false;
+        for (var i=0; i < temp.length; i++) {
+                var pair = temp[i].split('=');
+                window.params[pair[0]] = pair[1];
+        }
+
+        if (window.params["isDarkMode"] === 'y')
+        {
+            window.isDarkMode = true;
+            document.getElementById('fileName').src="images/darkTheme/" + window.params["file"];
+        }
+        else
+        {
+            document.getElementById('fileName').src="images/lightTheme/" + window.params["file"];
+        }
+    </script>
+
+    <script type="text/javascript">
+        function startAnimation() {
+            window.state = 'play';
+            var element = document.getElementById("lottie");
+            console.log("Element is" + element);
+
+            try {
+                var animation = lottie.loadAnimation({
+                        container: element, // the dom element that will contain the animation
+                        renderer: 'canvas',
+                        loop: true,
+                        autoplay: true,
+                        animationData: code
+                });
+
+                animation.addEventListener("data_failed", function() {
+                    showImgIfNeeded("backup");
+                });
+            }
+            catch (err) {
+                console.log("load lottie animation failed \n");
+            }
+        }
+
+        function showImgIfNeeded(id) {
+            var img = document.getElementById(id);
+
+            if (img != null) {
+                img.classList.remove("hide-img");
+                img.classList.add("showbackup");
+                var lottieAnim = document.querySelector(".lottie-anim");
+                lottieAnim.style.display = "none";
+            }
+        }
+
+        function updateIfDarkMode() {
+                // Update to neutralDark background
+                var testName = window.params["file"].split('.');
+                if (window.isDarkMode)
+                {
+                    document.body.style.backgroundColor = "#292827";
+                    document.getElementById("backup").src = "images/darkTheme/" + testName[0] + ".svg";
+                }
+                else
+                {
+                    document.body.style.backgroundColor = "#ffffff";
+                    document.getElementById("backup").src = "images/lightTheme/" + testName[0] + ".svg";
+                }
+        }
+
+        window.onload = function () {
+            updateIfDarkMode();
+            startAnimation();
+        }
+    </script>
+</head>
+<body>
+<div class="lottie-anim" id="lottie"></div>
+<img class= "hide-img" id="backup">
+</body>
+</html>
