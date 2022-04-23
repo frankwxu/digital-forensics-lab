@@ -1,0 +1,20 @@
+Course Roster for CYFI 727 (Instrumentation)																		
+Term=Spring 2028-2029  Instructor=hoover  Credits=4  Number of Students=9																		
+																		
+Last	First	ID #	Date of Birth	Phone	Email	Address	City	Zip	SSN	Username	Password	web site	Credit Card	Card Number	Geo coordinates			
+Clark	Jonathan	801242170	1/1/1985	443-154-5135	cjonathan@gmail.com	803 West Fairground Avenue	"Muscatine, IA"	52761	767-16-5642	snowstorm	miGhoh7aem3oh	furfley.com	Master	5121 9811 1926 4947	"38.953112, -81.839352"			
+Collins	Richard	8014025393	11/3/1986	451-552-5425	crichard@hotmail.com	741 Pennington St.	"Allison Park, PA"	15101	222-26-7753	Xyle1974	YiiPong8oo	cherylskennel.com	Visa	4556 2466 7014 3170	"42.884296, -88.165543"			
+Davis	Cody	801306930	5/5/1996	451-451-2546	davis.richard@ubalt.edu	53 Glen Creek Dr.	"Glenside, PA"	19038	533-10-8329	Forre1954	ouGhoh7p	westcoastfiles.com	Visa	4539 4816 0194 4907	"46.073802, -94.482063"			
+German	Paul	801229248	10/9/1984	785-213-0254	german_pau001@gmail.com	676 Valley Farms St.	"Springfield Gardens, NY"	11413	471-64-0361	Liame1985	AozieTeeb8	ewYearSMS.com	Visa	4539 6585 9283 3781	"44.953487, -93.19217"			
+Hargis	David	801063452	8/10/1986	789-351-9520	hargis-david@md.gov	913 Blackburn Street	"Littleton, CO"	80123	504-82-4609	Bricip	YeNgieNo8jo	taxtipsfrombill.com	Visa	4485 9841 1873 3550	"35.06527, -90.222313"			
+Hengehold	Kevin	801292801	8/22/1985	210-897-6321	kevin001@mit.edu	980 Creekside Street	"Madisonville, KY"	42431	516-25-5740	Weer1940	taenei6Ch	fkiweoy.com	Master	5260 9252 1439 6485	"34.791327, -90.789829"			
+Jacobson	Mark	801229266	5/21/1986	215-985-9652	mark.jacobson@gannon.edu	441 Myrtle Road	"Smithtown, NY"	11787	660-24-1002	Colosea	Evah1Az9ah	caparisonsoft.com	Master	5201 9807 1021 5228	"36.911231, -88.241006"			
+McKinney	Kyle	801310462	3/11/1987	369-874-8521	mckyle_cool@example.com	720 E. Galvin Street	"Pasadena, MD"	21122	519-42-3715	Deds1995	ohCh7se8j	heyogabeing.com	Visa	4485 7952 3614 3625	"48.907, -99.547111"			
+Frank 	Xu	801245665	2/8/1987	451-983-2658	frank.xu@gmail.com	154 Gartner Ave.	"Statesville, NC"	28625	034-54-4513	Eaccon	gahyei4Shai	egrinders.com	Visa	4539 5066 7094 6357	"38.25676, -91.725159"			
+Ziebell	Jonathan	801297030	12/21/1988	521-854-3652	ziebell.jonathan@rsa.org	8 Big Rock Cove Avenue	"Park Forest, IL"	60466	512-36-9198	Pegreare	Ait9feich3	centuryboxing.com	Visa	4916 2945 3545 5749	"40.838439, -74.046302"			
+																		
+																		
+																		
+																		
+																		
+https://www.fakenamegenerator.com/gen-random-us-us.php																		
