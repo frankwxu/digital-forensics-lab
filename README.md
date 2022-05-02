@@ -13,7 +13,7 @@
 - Lab screenshots: Each lab has PPTs with instruction screenshots
 - Comprehensive: Cover many topics in digital forensics
 - Free: All tools are open source
-- Updated: The project is funded by DOJ and will keep updating
+- Updated: The project is funded by DOJ and DHS and will be keep updated
 - Two formalized forensic intelligence in JSON files based-on case studies
 
 ---
@@ -30,7 +30,8 @@
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
   - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
   - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
-  - [Evidence Search Techniques](/Basic_Computer_Skills_for_Forensics/8_Evidence_search_techniques.pptx)
+  - [Evidence Search - A Pattern Match Game](/Basic_Computer_Skills_for_Forensics/8_1_Evidence_search_a_pattern_match_game.pptx)
+  - [Evidence Search - File Metadata](/Basic_Computer_Skills_for_Forensics/8_2_Evidence_search_file_metadata.pptx)
   - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
   - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
   - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
