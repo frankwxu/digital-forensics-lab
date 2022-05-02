@@ -30,7 +30,7 @@
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
   - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
   - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
-  - [Evidence Search - A Pattern Match Game](/Basic_Computer_Skills_for_Forensics/8_1_Evidence_search_a_pattern_match_game.pptx)
+  - [Evidence Search - A Pattern Match Game](/Basic_Computer_Skills_for_Forensics/8_1_Evidence_search_a_pattern_match_game.pptx) updated on May 2022
   - [Evidence Search - File Metadata](/Basic_Computer_Skills_for_Forensics/8_2_Evidence_search_file_metadata.pptx)
   - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
   - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
