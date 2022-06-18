@@ -44,7 +44,7 @@
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
 - Mobile/IoT Forensics Case Study
   - [Investigating Android 10](#Investigating-Android-10) (added on 10/24/2021)
-  - [Investigating iPhone iOS 13](#Investigating-iPhone-iOS-13) (added on 4/21/2022)
+  - [Investigating iPhone iOS 13](#Investigating-iPhone-iOS-13) (updated on 6/18/2022)
   - [Investigating Drone](#Investigating-Drone-DJI) (add on 12/07/2021)
 - Forensic Intelligence Repository
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
@@ -90,22 +90,22 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 **Topics Covered**
 
-| Labs   | Topics Covered                                                                                                           | Size of PPTs |
-| ------ | ------------------------------------------------------------------------------------------------------------------------ | ------------ |
-| Lab 0  | [Environment Setting Up](NIST_Data_Leakage_Case/NIST_Data_Leakage_00_Env_Setting.pptx)                                   | 2M           |
-| Lab 1  | [Windows Registry](NIST_Data_Leakage_Case/NIST_Data_Leakage_01_Registry.pptx)                                            | 3M           |
-| Lab 2  | [Windows Event and XML](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                    | 3M           |
-| Lab 3  | [Web History and SQL](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                      | 3M           |
-| Lab 4  | [Email Investigation](NIST_Data_Leakage_Case/NIST_Data_Leakage_04_Email_USB.pptx)                                        | 3M           |
-| Lab 5  | [File Change History and USN Journal](NIST_Data_Leakage_Case/NIST_Data_Leakage_05_USNJournaling.pptx)                    | 2M           |
-| Lab 6  | [Network Evidence and shellbag](NIST_Data_Leakage_Case/NIST_Data_Leakage_06_Network_Shellbag_Jumplist.pptx)              | 2M           |
-| Lab 7  | [Network Drive and Cloud](NIST_Data_Leakage_Case/NIST_Data_Leakage_07_NetworkDrive_Cloud.pptx)                           | 5M           |
-| Lab 8  | [Master File Table ($MFT) and Log File  ($logFile) Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx) | 13M          |
-| Lab 9  | [Windows Search History](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)                                     | 4M           |
-| Lab 10 | [Windows Volume Shadow Copy Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_10_Vol_Shadow_Copy.pptx)                  | 6M           |
-| Lab 11 | [Recycle Bin and Anti-Forensics](NIST_Data_Leakage_Case/NIST_Data_Leakage_11_RecycleBin_AntiForensics.pptx)              | 3M           |
-| Lab 12 | [Data Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_12_CD-R_Data_Carving.pptx)                                       | 3M           |
-| Lab 13 | [Crack Windows Passwords](NIST_Data_Leakage_Case/NIST_Data_Leakage_13_Crack_Win10_Login_Password.pptx)                   | 2M           |
+| Labs   | Topics Covered                                                                                                               | Size of PPTs |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0  | [Environment Setting Up](NIST_Data_Leakage_Case/NIST_Data_Leakage_00_Env_Setting.pptx)                                       | 2M           |
+| Lab 1  | [Windows Registry](NIST_Data_Leakage_Case/NIST_Data_Leakage_01_Registry.pptx)                                                | 3M           |
+| Lab 2  | [Windows Event and XML](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                        | 3M           |
+| Lab 3  | [Web History and SQL](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                          | 3M           |
+| Lab 4  | [Email Investigation](NIST_Data_Leakage_Case/NIST_Data_Leakage_04_Email_USB.pptx)                                            | 3M           |
+| Lab 5  | [File Change History and USN Journal](NIST_Data_Leakage_Case/NIST_Data_Leakage_05_USNJournaling.pptx)                        | 2M           |
+| Lab 6  | [Network Evidence and shellbag](NIST_Data_Leakage_Case/NIST_Data_Leakage_06_Network_Shellbag_Jumplist.pptx)                  | 2M           |
+| Lab 7  | [Network Drive and Cloud](NIST_Data_Leakage_Case/NIST_Data_Leakage_07_NetworkDrive_Cloud.pptx)                               | 5M           |
+| Lab 8  | [Master File Table ($MFT) and Log File  ($logFile) Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)     | 13M          |
+| Lab 9  | [Windows Search History](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)                                         | 4M           |
+| Lab 10 | [Windows Volume Shadow Copy Analysis/SQL database carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_10_Vol_Shadow_Copy.pptx) | 6M           |
+| Lab 11 | [Recycle Bin and Anti-Forensics](NIST_Data_Leakage_Case/NIST_Data_Leakage_11_RecycleBin_AntiForensics.pptx)                  | 3M           |
+| Lab 12 | [Data Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_12_CD-R_Data_Carving.pptx)                                           | 3M           |
+| Lab 13 | [Crack Windows Passwords](NIST_Data_Leakage_Case/NIST_Data_Leakage_13_Crack_Win10_Login_Password.pptx)                       | 2M           |
 
 ---
 
@@ -244,6 +244,11 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 | Lab 8  | [Safari Investigations](iOS/8_Safari_Investigation.pptx)              | 3M           |
 | Lab 9  | [Photo Investigations](iOS/9_Photos_Investigation.pptx)               | 7M           |
 | Lab 10 | [KnowledgeC Investigations](iOS/10_KnowledgeC_Investigation.pptx)     | 5M           |
+| Lab 11 | [Health\_ Investigations](iOS/11_Health_Investigation.pptx)           | 5M           |
+| Lab 12 | [Location Investigations](iOS/12_iOS_Location_Investigation.pptx)     | 8M           |
+| Lab 13 | [Cellebrite Investigations](iOS/13_Cellebrite_Investigation.pptx)     | 12M          |
+| Lab 14 | [Magnet Axiom Investigations](iOS/14_Magnet_Axiom_Investigation.pptx) | 13M          |
+| Lab 14 | [Jailbreak Investigations](iOS/15_iOS_Jailbreak.pptx)                 | 6M           |
 
 ### Investigating Drone DJI
 
