@@ -18,7 +18,7 @@
 
 ---
 
-Please cite our paper [paper](/papers/compsac2022.pdf):
+Please cite our [paper](/papers/compsac2022.pdf):
 
 W. Xu, L. Deng, and D. Xu, "Towards Designing Shared Digital Forensics Instructional Materials," in <em>Proceeding of the 46st Annual International Computer Software and Applications Conference (COMPSAC 2022),</em> pp. 117-122, July 2022.
 
