@@ -1,8 +1,6 @@
 # Digital Forensics Lab & Shared Cyber Forensic Intelligence Repository
 
-| Hands-on labs                                                                            | Forensic Intelligence Repository                                                              | Our Programs                                                                                                                                                                                                                                                                                                                                                                                               |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="150"> | <img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="150"> | <image src="https://vgrad.z19.web.core.windows.net/ubalt/402/ii/images/schoollogo.png" width="200"> <br> [B.S. in Cyber Forensics](https://www.ubalt.edu/cpa/undergraduate-majors-and-minors/majors/cyber-forensics/) <br> [M.S. in in Forensic Science–Cyber Investigations](http://www.ubalt.edu/cpa/graduate-programs-and-certificates/degree-programs/forensic-science-cyber-investigations/index.cfm) |
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="150"> <img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="150">
 
 ### Features of Repository
 
@@ -36,7 +34,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (add iOS investigation on 4/021/2022)
+## Table of Contents (add Morris Worm Attack investigation on 09/2022)
 
 - Basic Computer Skills for Digital Forensics
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx)
@@ -60,6 +58,7 @@ or in BibTeX
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring)
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
+  - [Investigating Morris Worm Attack](#Investigating-Morris-Worm-Attack) updated on September 2022
 - Mobile/IoT Forensics Case Study
   - [Investigating Android 10](#Investigating-Android-10) (added on 10/24/2021)
   - [Investigating iPhone iOS 13](#Investigating-iPhone-iOS-13) (updated on 6/18/2022)
@@ -217,6 +216,19 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 | Labs  | Topics Covered                                            | Size of PPTs |
 | ----- | --------------------------------------------------------- | ------------ |
 | Lab 0 | [Hacking Case](/NIST_Hacking_Case/NIST_Hacking_Case.pptx) | 8M           |
+
+### Investigating Morris Worm Attack
+
+=========
+
+The case study is an investigation of the [Morris Worm Attacking](https://seedsecuritylabs.org/Labs_20.04/Networking/Morris_Worm/). We are using the VM provided by [SeedLab](https://seedsecuritylabs.org/labsetup.html). The goal of the lab is to find all evidence related to Morris Worm attacking.
+
+**Topics Covered**
+
+| Labs  | Topics Covered                                                         | Size of PPTs |
+| ----- | ---------------------------------------------------------------------- | ------------ |
+| Lab 0 | [Morris Worm Attack](/Morris_Worm/Morris_Attack.pptx)                  | 2M           |
+| Lab 0 | [Investigating Morris Worm Attack](/Morris_Worm/Morris_Forensics.pptx) | 2M           |
 
 ### Investigating Android 10
 
