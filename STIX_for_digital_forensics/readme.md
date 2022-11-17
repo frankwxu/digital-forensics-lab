@@ -42,6 +42,23 @@ The xSTIX includes a set of Cyber Forensic Objects (CFOs), customized properties
 
 ---
 
+Please cite our [paper](/papers/PST2022.pdf):
+
+W. Xu and D. Xu, "Visualizing and Reasoning about Presentable Digital Forensic Evidence with Knowledge Graphs," <em>2022 19th Annual International Conference on Privacy, Security & Trust (PST)</em>, 2022, pp. 1-10, doi: 10.1109/PST55820.2022.9851972.([Video Presentation](https://youtu.be/atJSXG6tLw0))
+
+or in BibTeX
+@INPROCEEDINGS{9851972,\
+ &emsp;author={Xu, Weifeng and Xu, Dianxiang},\
+ &emsp;booktitle={2022 19th Annual International Conference on Privacy, Security & Trust (PST)}, \
+ &emsp;title={Visualizing and Reasoning about Presentable Digital Forensic Evidence with Knowledge Graphs}, \
+ &emsp;year={2022},\
+ &emsp;pages={1-10},\
+ doi={10.1109/PST55820.2022.9851972}}
+
+}
+
+---
+
 ## Table of Contents (updating)
 
 - Cyber Forensic Domain Objects (CFDOs)
