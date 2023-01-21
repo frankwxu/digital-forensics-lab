@@ -58,7 +58,7 @@ or in BibTeX
   - [Investigating Email Harassment](#Investigating-Email-Harassment)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring)
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
-  - [Investigating Morris Worm Attack](#Investigating-Morris-Worm-Attack) (updated on September 2022)
+  - [Investigating Morris Worm Attack](#Investigating-Morris-Worm-Attack) (updated on Jan 2023)
 - Mobile/IoT Forensics Case Study
   - [Investigating Android 10](#Investigating-Android-10) (added on 10/24/2021)
   - [Investigating iPhone iOS 13](#Investigating-iPhone-iOS-13) (updated on 6/18/2022)
@@ -227,7 +227,7 @@ The case study is an investigation of the [Morris Worm Attacking](https://seedse
 
 | Labs  | Topics Covered                                                         | Size of PPTs |
 | ----- | ---------------------------------------------------------------------- | ------------ |
-| Lab 0 | [Morris Worm Attack](/Morris_Worm/Morris_Attack.pptx)                  | 2M           |
+| Lab 0 | [Morris Worm Attack](/Morris_Worm/Morris_Attack.pptx)                  | 7M           |
 | Lab 0 | [Investigating Morris Worm Attack](/Morris_Worm/Morris_Forensics.pptx) | 2M           |
 
 ### Investigating Android 10
