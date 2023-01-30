@@ -34,10 +34,10 @@ or in BibTeX
 
 ---
 
-## Table of Contents (add Morris Worm Attack investigation on 09/2022)
+## Table of Contents (updated Morris Worm Attack investigation on 1/2023)
 
 - Basic Computer Skills for Digital Forensics
-  - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx)
+  - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx) (add Python code for data conversion 1/2023)
   - [PC Introduction](/Basic_Computer_Skills_for_Forensics/1_PC_Introduction.pptx)
   - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Win_command_line_tutorial.pptx)
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/3_Linux_command_line_tutorial.pptx)
