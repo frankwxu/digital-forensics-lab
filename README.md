@@ -34,7 +34,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (updated Morris Worm Attack investigation on 1/2023)
+## Table of Contents (Improve Morris Worm Attack and Email Harassment with tshark investigation on 2/2023)
 
 - Basic Computer Skills for Digital Forensics
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx) (add Python code for data conversion 1/2023)
@@ -55,7 +55,7 @@ or in BibTeX
   - [Investigating NIST Data Leakage (Windows XP)](#Investigating-NIST-Data-Leakage)
   - [Investigating P2P Data Leakage (Windows 10)](#Investigating-P2P-Data-Leakage)
   - [Investigating Illegal Possession of Images ("Networking forensics")](#Investigating-Illegal-Possession-of-Images)
-  - [Investigating Email Harassment](#Investigating-Email-Harassment)
+  - [Investigating Email Harassment](#Investigating-Email-Harassment) (updated on Feb 2023)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring)
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
   - [Investigating Morris Worm Attack](#Investigating-Morris-Worm-Attack) (updated on Jan 2023)
@@ -182,7 +182,7 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ema
 | Labs  | Topics Covered                                                                                                   | Size of PPTs |
 | ----- | ---------------------------------------------------------------------------------------------------------------- | ------------ |
 | Lab 0 | [Investigating Harassment Email using Wireshark](Email_Harassment/0_Investigate_Harassment_Email_Wireshark.pptx) | 3M           |
-| Lab 1 | [t-shark Forensic Introduction](Email_Harassment/1_tshark_forensics_Introduction.pptx)                           | 2M           |
+| Lab 1 | [t-shark Forensic Introduction](Email_Harassment/1_tshark_forensics_Introduction.pptx)                           | 7M           |
 | Lab 2 | [Investigating Harassment Email using t-shark](2_Investigate_Harassment_Email_TShark.pptx)                       | 2M           |
 
 ### Investigating Illegal File Transferring
