@@ -162,14 +162,15 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 
 **Topics Covered**
 
-| Labs  | Topics Covered                                                                                                                                | Size of PPTs |
-| ----- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Lab 0 | [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)                                        | 3M           |
-| Lab 1 | [HTTP Analysis using Wireshark (image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)                                      | 6M           |
-| Lab 2 | [Rhion Possession Investigation 1: File recovering](Illegal_Possession_Images/Rhion_Possession_1_File_Recovering.pptx)                        | 9M           |
-| Lab 3 | [Rhion Possession Investigation 2: Steganography](Illegal_Possession_Images/Rhion_Possession_2_Steganography.pptx)                            | 4M           |
-| Lab 4 | [Rhion Possession Investigation 3: Extract Evidence from FTP Traffic](Illegal_Possession_Images/Rhion_Possession_3_FTP_Traffic_crackzip.pptx) | 3M           |
-| Lab 5 | [Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)        | 5M           |
+| Labs    | Topics Covered                                                                                                                                | Size of PPTs |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0   | [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)                                        | 3M           |
+| Lab 0.0 | [SYN Flood Attack Investigation using tshark](Illegal_Possession_Images/HTTP_tshark_Forensics_1_SYN_Flood.pptx)                               | 1M           |
+| Lab 1   | [HTTP Analysis using Wireshark (image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)                                      | 6M           |
+| Lab 2   | [Rhion Possession Investigation 1: File recovering](Illegal_Possession_Images/Rhion_Possession_1_File_Recovering.pptx)                        | 9M           |
+| Lab 3   | [Rhion Possession Investigation 2: Steganography](Illegal_Possession_Images/Rhion_Possession_2_Steganography.pptx)                            | 4M           |
+| Lab 4   | [Rhion Possession Investigation 3: Extract Evidence from FTP Traffic](Illegal_Possession_Images/Rhion_Possession_3_FTP_Traffic_crackzip.pptx) | 3M           |
+| Lab 5   | [Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)        | 5M           |
 
 ### Investigating Email Harassment
 
