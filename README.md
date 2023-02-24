@@ -58,7 +58,7 @@ or in BibTeX
   - [Investigating Email Harassment](#Investigating-Email-Harassment) (updated on Feb 2023)
   - [Investigating Illegal File Transferring (Memory Forensics)](#Investigating-illegal-File-Transferring)
   - [Investigating Hacking Case](#Investigating-Hacking-Case)
-  - [Investigating Morris Worm Attack](#Investigating-Morris-Worm-Attack) (updated on Jan 2023, [POSTER](/papers/727-posterA Hands-on Digital Forensic Lab to Investigate Morris Worm Attack.pdf))
+  - [Investigating Morris Worm Attack](#Investigating-Morris-Worm-Attack) (updated on Jan 2023, [POSTER](/papers/poster_Morris_Worm_Attack.pdf))
 - Mobile/IoT Forensics Case Study
   - [Investigating Android 10](#Investigating-Android-10) (added on 10/24/2021)
   - [Investigating iPhone iOS 13](#Investigating-iPhone-iOS-13) (updated on 6/18/2022)
