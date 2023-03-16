@@ -53,7 +53,8 @@ if __name__ == '__main__':
 			b"google.com.": "136.160.215.15",
 			b"facebook.com.": "136.160.215.15",
    			b"ubalt.com.": "136.160.215.15",
-      		b"g00gle.com.": "136.160.215.15",
+         	b"ubalt.edu.": "136.160.215.15",
+      		b"boogle.com.": "136.160.215.15"
 		}
 		queueNum = 1
 		log.basicConfig(format='%(asctime)s - %(message)s',
