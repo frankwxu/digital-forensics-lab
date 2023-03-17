@@ -48,13 +48,13 @@ or in BibTeX
 
   - [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)
   - [HTTP Analysis using Wireshark (image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)
-  - [SYN Flood Attack Investigation using tshark](Networking_Forensics/HTTP_tshark_Forensics_1_SYN_Flood.pptx)
+  - [SYN Flood Attack Investigation using tshark](Networking_Forensics/20_HTTP_tshark_Forensics_1_SYN_Flood.pptx)
   - [SMTP Forensics](Networking_Forensics/30_SMTP_Email_Forensics.pptx)
   - [ARP Poisoning Forensics](Networking_Forensics/40_ARP_Poisoning_Forensics.pptx)
   - [Firewall](50_Firewall_Drop.pptx)
   - [DNS Introduction](Networking_Forensics/70_DNS.pptx)
   - [DNS Spoofing Forensics](Networking_Forensics/80_DNS_Spoof_Forensics.pptx)
-  - [WEP40 Wireless Aircrak](Networking_Forensics/90_Wireless_aircrack_WEP40_1.pptx)
+  - [WEP40 Wireless Aircrack](Networking_Forensics/90_Wireless_aircrack_WEP40_1.pptx)
 
 - Computer and Digital Forensics (updated on Oct. 2021)
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
