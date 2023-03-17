@@ -37,11 +37,25 @@ or in BibTeX
 ## Table of Contents (Improve Morris Worm Attack and Email Harassment with tshark investigation on 2/2023)
 
 - Basic Computer Skills for Digital Forensics
+
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx) (add Python code for data conversion 1/2023)
   - [PC Introduction](/Basic_Computer_Skills_for_Forensics/1_PC_Introduction.pptx)
   - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Win_command_line_tutorial.pptx)
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/3_Linux_command_line_tutorial.pptx)
   - [Advanced Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/4_Advanced_linux_command_line.pptx)
+
+- Basic Networking Skills for Digital Forensics (added 3/17/2023. Use Paython Scapy and netfilterqueue libraries)
+
+  - [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)
+  - [HTTP Analysis using Wireshark (image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)
+  - [SYN Flood Attack Investigation using tshark](Networking_Forensics/HTTP_tshark_Forensics_1_SYN_Flood.pptx)
+  - [SMTP Forensics](Networking_Forensics/30_SMTP_Email_Forensics.pptx)
+  - [ARP Poisoning Forensics](Networking_Forensics/40_ARP_Poisoning_Forensics.pptx)
+  - [Firewall](50_Firewall_Drop.pptx)
+  - [DNS Introduction](Networking_Forensics/70_DNS.pptx)
+  - [DNS Spoofing Forensics](Networking_Forensics/80_DNS_Spoof_Forensics.pptx)
+  - [WEP40 Wireless Aircrak](Networking_Forensics/90_Wireless_aircrack_WEP40_1.pptx)
+
 - Computer and Digital Forensics (updated on Oct. 2021)
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
   - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
@@ -162,15 +176,13 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 
 **Topics Covered**
 
-| Labs    | Topics Covered                                                                                                                                | Size of PPTs |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Lab 0   | [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)                                        | 3M           |
-| Lab 0.0 | [SYN Flood Attack Investigation using tshark](Illegal_Possession_Images/HTTP_tshark_Forensics_1_SYN_Flood.pptx)                               | 1M           |
-| Lab 1   | [HTTP Analysis using Wireshark (image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)                                      | 6M           |
-| Lab 2   | [Rhion Possession Investigation 1: File recovering](Illegal_Possession_Images/Rhion_Possession_1_File_Recovering.pptx)                        | 9M           |
-| Lab 3   | [Rhion Possession Investigation 2: Steganography](Illegal_Possession_Images/Rhion_Possession_2_Steganography.pptx)                            | 4M           |
-| Lab 4   | [Rhion Possession Investigation 3: Extract Evidence from FTP Traffic](Illegal_Possession_Images/Rhion_Possession_3_FTP_Traffic_crackzip.pptx) | 3M           |
-| Lab 5   | [Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)        | 5M           |
+| Labs  | Topics Covered                                                                                                                                | Size of PPTs |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 1 | [Review HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)                                 | 3M           |
+| Lab 2 | [Rhion Possession Investigation 1: File recovering](Illegal_Possession_Images/Rhion_Possession_1_File_Recovering.pptx)                        | 9M           |
+| Lab 3 | [Rhion Possession Investigation 2: Steganography](Illegal_Possession_Images/Rhion_Possession_2_Steganography.pptx)                            | 4M           |
+| Lab 4 | [Rhion Possession Investigation 3: Extract Evidence from FTP Traffic](Illegal_Possession_Images/Rhion_Possession_3_FTP_Traffic_crackzip.pptx) | 3M           |
+| Lab 5 | [Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)        | 5M           |
 
 ### Investigating Email Harassment
 
