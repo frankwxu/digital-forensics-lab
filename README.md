@@ -51,7 +51,7 @@ or in BibTeX
   - [SYN Flood Attack Investigation using tshark](Networking_Forensics/20_HTTP_tshark_Forensics_1_SYN_Flood.pptx)
   - [SMTP Forensics](Networking_Forensics/30_SMTP_Email_Forensics.pptx)
   - [ARP Poisoning Forensics](Networking_Forensics/40_ARP_Poisoning_Forensics.pptx)
-  - [Firewall](50_Firewall_Drop.pptx)
+  - [Firewall](Networking_Forensics/50_Firewall_Drop.pptx)
   - [DNS Introduction](Networking_Forensics/70_DNS.pptx)
   - [DNS Spoofing Forensics](Networking_Forensics/80_DNS_Spoof_Forensics.pptx)
   - [WEP40 Wireless Aircrack](Networking_Forensics/90_Wireless_aircrack_WEP40_1.pptx)
