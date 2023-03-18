@@ -8,11 +8,12 @@
 
 - Hands-on Digital Forensics Labs: designed for Students and Faculty
 - Linux-based lab: All labs are purely based on [Kali Linux](https://www.kali.org/downloads/)
-- Lab screenshots: Each lab has PPTs with instruction screenshots
+- Instructional screenshots: Each lab has PPTs, the associated files, and instructional screenshots
 - Comprehensive: Cover many topics in digital forensics
 - Free: All tools are open source
-- Updated: The project is funded by DOJ and DHS and will be keep updated
+- Updated: The project is funded by DOJ, DHS, and NSF. The tmeam will keep updating the repostory
 - Two formalized forensic intelligence in JSON files based-on case studies
+- **Kindly send me an email at wxu at ubalt dot edu if you utilize the course materials or find this repository useful. Your cooperation is greatly appreciated.**
 
 ---
 
@@ -44,7 +45,7 @@ or in BibTeX
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/3_Linux_command_line_tutorial.pptx)
   - [Advanced Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/4_Advanced_linux_command_line.pptx)
 
-- Basic Networking Skills for Digital Forensics (added 3/17/2023. Use Paython Scapy and netfilterqueue libraries)
+- Basic Networking Skills for Digital Forensics (added 3/17/2023. Use Paython Scapy and netfilterqueue libraries.)
 
   - [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)
   - [HTTP Analysis using Wireshark (image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)
