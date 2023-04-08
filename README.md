@@ -86,7 +86,7 @@ or in BibTeX
 
 ### Method 1: Importing customized Kali VM image
 
-The customized Kali VM = Kali (2020.4) + [tools](#Tools) used for completing most of the labs listed above (except p2p Data Leakage case)
+The customized Kali VM = Kali ([2020.4](http://old.kali.org/kali-images/kali-2020.4/)) + [tools](#Tools) used for completing most of the labs listed above (except p2p Data Leakage case)
 
 - Install [Virtualbox](https://www.virtualbox.org/)
 - Import the customized [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova). Notes: the default harddisk size is 80G.
