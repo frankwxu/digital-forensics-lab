@@ -1,5 +1,7 @@
 FROM ubuntu:22.04
 
+LABEL author=Chimezie
+
 # Forces the selection of US Eastern Standard time Zone. 
 ENV TZ=US/Eastern \
     DEBIAN_FRONTEND=noninteractive
@@ -20,7 +22,7 @@ RUN apt update \
 WORKDIR /tools/lab
 
 # Install text editors
-RUN apt install -y nano \
+RUN sudo apt install -y nano \
     && apt install -y vim \
     && apt update && apt install -y gedit 
    
@@ -56,11 +58,11 @@ RUN sudo apt-get update \
     && sudo apt-get -y install libesedb-utils
 
 # Install liblnk-utils
-RUN apt-get update 
-RUN apt-get install -y liblnk-utils || { echo 'Package installation failed'; exit 1; }
+RUN sudo apt-get update 
+RUN sudo apt-get install -y liblnk-utils || { echo 'Package installation failed'; exit 1; }
 
 # Install usncarve
-RUN sudo apt-get update  \
+RUN sudo sudo apt-get update  \
     && pip install usncarve
 
 # Install usnparser
@@ -76,7 +78,7 @@ RUN sudo apt-get update -y  \
     && apt-get update && apt-get install -y git 
       
 # Install necessary dependencies
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && apt-get install -y \
     dos2unix
 
 # Clone the RegRipper repository
@@ -135,7 +137,7 @@ RUN sudo apt-get update \
     && git clone https://github.com/williballenthin/INDXParse.git
 
 # Install the required Python packages
-RUN pip install construct
+RUN sudo pip install construct
 
 # Set the working directory
 WORKDIR /tools
@@ -178,7 +180,7 @@ RUN sudo apt-get update \
 WORKDIR /tools
 
 # Install required packages
-RUN apt-get update && apt-get install -y wget autoconf automake libtool
+RUN sudo apt-get update && apt-get install -y wget autoconf automake libtool
 
 # Download libvshadow-alpha-20210425.tar.gz
 RUN wget -q https://github.com/libyal/libvshadow/releases/download/20221030/libvshadow-alpha-20221030.tar.gz
@@ -209,7 +211,7 @@ RUN ldconfig
 WORKDIR /tools
 
 # Update package repository and install required packages
-RUN apt-get update && apt-get install -y python3-evtx 
+RUN sudo apt-get update && apt-get install -y python3-evtx 
 
 # Update the package repository and install required dependencies
 RUN sudo apt-get update \
@@ -222,7 +224,7 @@ RUN git clone https://github.com/williballenthin/python-evtx.git
 WORKDIR /tools/python-evtx
 
 # Install python-evtx library
-RUN python3 setup.py install
+RUN sudo python3 setup.py install
 
 # Install windowsprefetch
 RUN sudo pip install windowsprefetch
@@ -240,7 +242,7 @@ WORKDIR /tools
 WORKDIR /tools/lab
 
 # Update the package repository and install git
-RUN apt-get update && apt-get install -y git
+RUN sudo apt-get update && apt-get install -y git
 
 # Clone LogFileParser repository
 RUN git clone https://github.com/jschicht/LogFileParser.git
@@ -261,7 +263,7 @@ RUN git clone https://github.com/jschicht/UsnJrnl2Csv.git
 WORKDIR /tools
 
 # Update the package repository and install wget and unzip
-RUN apt-get update && apt-get install -y wget unzip
+RUN sudo apt-get update && apt-get install -y wget unzip
 
 # Download JLECmd.zip
 RUN wget -q https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip
@@ -289,7 +291,7 @@ RUN curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 RUN python2.7 get-pip.py
 
 # Install Dependencies for pip modules
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && apt-get install -y \
     build-essential \
     libssl-dev \
     libffi-dev \
@@ -310,7 +312,7 @@ RUN sudo pip install pycryptodomex
 
 
 # Install additional tools and dependencies for Python2
-RUN apt-get install -y python2 python2-dev dwarfdump build-essential yara zip curl
+RUN sudo apt-get install -y python2 python2-dev dwarfdump build-essential yara zip curl
 
 # Download and set up the latest version of Volatility 2
 RUN git clone https://github.com/volatilityfoundation/volatility.git
@@ -356,7 +358,7 @@ RUN /tools/stego-toolkit/install/jphide.sh
 WORKDIR /tools
 
 # Update the system and install necessary dependencies
-RUN apt-get update && apt-get install -y wget p7zip-full
+RUN sudo apt-get update && apt-get install -y wget p7zip-full
 
 # Download and extract stegdetect
 RUN wget -q https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Illegal_Possession_Images/tools/stegdetect.7z -P tools \
@@ -368,10 +370,6 @@ RUN cp tools/stegdetect/stegdetect /usr/bin/. \
     && cp tools/stegdetect/stegbreak /usr/bin/.
 
 WORKDIR /
-
-# Set the entrypoint as an interactive shell
-ENTRYPOINT ["/bin/bash"]
-
 
 # Verify installations
 RUN wine --version
@@ -400,10 +398,3 @@ RUN stegbreak  -V  || true
 CMD ["/bin/bash"] 
 
 # End of the Dockerfile
-
-
-
-
-
-
-
