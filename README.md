@@ -91,7 +91,7 @@ The customized Kali VM = Kali ([2021.4](http://old.kali.org/kali-images/kali-202
 - Install [Virtualbox](https://www.virtualbox.org/)
 - Import the customized [Kali 2021.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova). Notes: the default harddisk size is 80G.
 
-### Method 2: Installing tools using the customized script (the script ONLY is tested on Kali 2020.4)
+### Method 2: Installing tools using the customized script (the script ONLY is tested on Kali 2021.4)
 
 The following script will install tools needed for completing most of the labs listed above (except p2p Data Leakage case, which has its own script described in PPTs). Please let us know if you need us to add more tools to the script.
 
