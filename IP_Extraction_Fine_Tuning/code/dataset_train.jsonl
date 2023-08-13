@@ -1,183 +1,183 @@
-{"promote": "\t<string>1.000.000.000+</string>;1.000.000.000", "completion": "positive"}
-{"promote": "\t<key>1.0.0.1</key>;1.0.0.1", "completion": "positive"}
-{"promote": "\t<string>1.0.0.1</string>;1.0.0.1", "completion": "positive"}
-{"promote": "\t<key>1.1.1.1</key>;1.1.1.1", "completion": "positive"}
-{"promote": "\t<string>1.1.1.1</string>;1.1.1.1", "completion": "positive"}
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t\t\t<string>eng-USA-1.0.0.14-20170731</string>;1.0.0.14", "completion": "positive"}
-{"promote": "\t\t\t<string>cmn-CHN-1.0.0.12-20170804</string>;1.0.0.12", "completion": "positive"}
-{"promote": "\t<string>3.6.1.4</string>;3.6.1.4", "completion": "positive"}
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t<string>100.73.156.224</string>;100.73.156.224", "completion": "positive"}
-{"promote": "\t<string>obfs4 192.95.36.142:443 CDF2E852BF539B82BD10E27E9115A31734E378C2 cert=qUVQ0srL1JI/vO6V6m/24anYXiJD3QP2HgzUKQtQ7GRqqUvs7P+tG43RtAqdhLOALP7DJQ iat-mode=1</string>;192.95.36.142", "completion": "positive"}
-{"promote": "\t<string>obfs4 38.229.1.78:80 C8CBDB2464FC9804A69531437BCF2BE31FDD2EE4 cert=Hmyfd2ev46gGY7NoVxA9ngrPF2zCZtzskRTzoWXbxNkzeVnGFPWmrTtILRyqCTjHR+s9dg iat-mode=1</string>;38.229.1.78", "completion": "positive"}
-{"promote": "\t<string>obfs4 38.229.33.83:80 0BAC39417268B96B9F514E7F63FA6FBA1A788955 cert=VwEFpk9F/UN9JED7XpG1XOjm/O8ZCXK80oPecgWnNDZDv5pdkhq1OpbAH0wNqOT6H6BmRQ iat-mode=1</string>;38.229.33.83", "completion": "positive"}
-{"promote": "\t<string>obfs4 37.218.240.34:40035 88CD36D45A35271963EF82E511C8827A24730913 cert=eGXYfWODcgqIdPJ+rRupg4GGvVGfh25FWaIXZkit206OSngsp7GAIiGIXOJJROMxEqFKJg iat-mode=1</string>;37.218.240.34", "completion": "positive"}
-{"promote": "\t<string>obfs4 37.218.245.14:38224 D9A82D2F9C2F65A18407B1D2B764F130847F8B5D cert=bjRaMrr1BRiAW8IE9U5z27fQaYgOhX1UCmOpg2pFpoMvo6ZgQMzLsaTzzQNTlm7hNcb+Sg iat-mode=0</string>;37.218.245.14", "completion": "positive"}
-{"promote": "\t<string>obfs4 85.31.186.98:443 011F2599C0E9B27EE74B353155E244813763C3E5 cert=ayq0XzCwhpdysn5o0EyDUbmSOx3X/oTEbzDMvczHOdBJKlvIdHHLJGkZARtT4dcBFArPPg iat-mode=0</string>;85.31.186.98", "completion": "positive"}
-{"promote": "\t<string>obfs4 85.31.186.26:443 91A6354697E6B02A386312F68D82CF86824D3606 cert=PBwr+S8JTVZo6MPdHnkTwXJPILWADLqfMGoVvhZClMq/Urndyd42BwX9YFJHZnBB3H0XCw iat-mode=0</string>;85.31.186.26", "completion": "positive"}
-{"promote": "\t<string>obfs4 216.252.162.21:46089 0DB8799466902192B6C7576D58D4F7F714EC87C1 cert=XPUwcQPxEXExHfJYX58gZXN7mYpos7VNAHbkgERNFg+FCVNzuYo1Wp+uMscl3aR9hO2DRQ iat-mode=0</string>;216.252.162.21", "completion": "positive"}
-{"promote": "\t<string>obfs4 144.217.20.138:80 FB70B257C162BF1038CA669D568D76F5B7F0BABB cert=vYIV5MgrghGQvZPIi1tJwnzorMgqgmlKaB77Y3Z9Q/v94wZBOAXkW+fdx4aSxLVnKO+xNw iat-mode=0</string>;144.217.20.138", "completion": "positive"}
-{"promote": "\t<string>obfs4 193.11.166.194:27015 2D82C2E354D531A68469ADF7F878FA6060C6BACA cert=4TLQPJrTSaDffMK7Nbao6LC7G9OW/NHkUwIdjLSS3KYf0Nv4/nQiiI8dY2TcsQx01NniOg iat-mode=0</string>;193.11.166.194", "completion": "positive"}
-{"promote": "\t<string>obfs4 193.11.166.194:27020 86AC7B8D430DAC4117E9F42C9EAED18133863AAF cert=0LDeJH4JzMDtkJJrFphJCiPqKx7loozKN7VNfuukMGfHO0Z8OGdzHVkhVAOfo1mUdv9cMg iat-mode=0</string>;193.11.166.194", "completion": "positive"}
-{"promote": "\t<string>obfs4 193.11.166.194:27025 1AE2C08904527FEA90C4C4F8C1083EA59FBC6FAF cert=ItvYZzW5tn6v3G4UnQa6Qz04Npro6e81AP70YujmK/KXwDFPTs3aHXcHp4n8Vt6w/bv8cA iat-mode=0</string>;193.11.166.194", "completion": "positive"}
-{"promote": "\t<string>obfs4 209.148.46.65:443 74FAD13168806246602538555B5521A0383A1875 cert=ssH+9rP8dG2NLDN2XuFw63hIO/9MNNinLmxQDpVa+7kTOa9/m+tGWT1SmSYpQ9uTBGa6Hw iat-mode=0</string>;209.148.46.65", "completion": "positive"}
-{"promote": "\t<string>obfs4 146.57.248.225:22 10A6CD36A537FCE513A322361547444B393989F0 cert=K1gDtDAIcUfeLqbstggjIw2rtgIKqdIhUlHp82XRqNSq/mtAjp1BIC9vHKJ2FAEpGssTPw iat-mode=0</string>;146.57.248.225", "completion": "positive"}
-{"promote": "\t<string>3.3.7.0</string>;3.3.7.0", "completion": "positive"}
-{"promote": "\t\t\t\t\t<string>https://pm-gateway.supersonicads.com/auction?appKey=67052255&amp;SDKVersion=6.8.4.2&amp;initCountry=US&amp;platform=iphone&amp;advId=0D99ABE9-B1D0-41C1-8C45-2681A498AD97</string>;6.8.4.2", "completion": "positive"}
-{"promote": "\t<string>3.3.7.0</string>;3.3.7.0", "completion": "positive"}
-{"promote": "\t\t\t<string>6.8.4.2</string>;6.8.4.2", "completion": "positive"}
-{"promote": "\t\t\t<string>6.8.4.2</string>;6.8.4.2", "completion": "positive"}
-{"promote": "\t\t<key>Sticker_2.19.40.12</key>;2.19.40.12", "completion": "positive"}
-{"promote": "\t\t<key>Sticker_2.19.20.2</key>;2.19.20.2", "completion": "positive"}
-{"promote": "\t\t<key>Sticker_2.19.40.24</key>;2.19.40.24", "completion": "positive"}
-{"promote": "\t<string>Sticker_2.19.40.24</string>;2.19.40.24", "completion": "positive"}
-{"promote": "\t\t\t<string>17.57.144.52</string>;17.57.144.52", "completion": "positive"}
-{"promote": "\t<key>1.0.0.1</key>;1.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t<string>135.0.0.22.118 (206072521)</string>;135.0.0.22", "completion": "positive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t<string>135.0.0.22.118</string>;135.0.0.22", "completion": "positive"}
-{"promote": "\t<string>135.0.0.22.118 (206072690)</string>;135.0.0.22", "completion": "positive"}
-{"promote": "\t<string>135.0.0.22.118 (206072521)</string>;135.0.0.22", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>cmn-CHN-4.1.1.0-20160421</string>;4.1.1.0", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-4.1.1.5-20160919</string>;4.1.1.5", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-4.1.1.5-20160919</string>;4.1.1.5", "completion": "positive"}
-{"promote": "\t\t\t<string>spa-USA-4.1.0.2-20160424</string>;4.1.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>rus-RUS-4.1.0.2-20160422</string>;4.1.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>tur-TUR-4.1.0.3-20160422</string>;4.1.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-OfflineIOS-6.0.0.2-20191003</string>;6.0.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>cmn-CHN-4.1.1.0-20160421</string>;4.1.1.0", "completion": "positive"}
-{"promote": "\t\t\t<string>yue-HKG-4.1.0.2-20160424</string>;4.1.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-5.2.0.2-20170705</string>;5.2.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>spa-ESP-5.0.0.1-20170310</string>;5.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-5.3.0.3-20180129</string>;5.3.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-5.0.0.1-20180624</string>;5.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-OfflineIOS-5.3.0.1-20190209</string>;5.3.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-OfflineIOS-5.3.0.1-20190530</string>;5.3.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-5.0.0.1-20180925</string>;5.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-GBR-4.1.0.1-20160422</string>;4.1.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>ita-ITA-4.1.0.1-20160422</string>;4.1.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>por-BRA-4.1.0.4-20160424</string>;4.1.0.4", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-IND-4.1.0.1-20160424</string>;4.1.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>fra-FRA-OfflineIOS-6.0.0.4-20191114</string>;6.0.0.4", "completion": "positive"}
-{"promote": "\t\t\t<string>deu-DEU-OfflineIOS-6.0.0.3-20191114</string>;6.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-AUS-OfflineIOS-6.0.0.1-20191215</string>;6.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>kor-KOR-OfflineIOS-5.0.0.3-20191215</string>;5.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>spa-ESP-OfflineIOS-6.0.0.2-20191120</string>;6.0.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>spa-USA-OfflineIOS-6.0.0.3-20190831</string>;6.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-6.0.0.0-20191009</string>;6.0.0.0", "completion": "positive"}
-{"promote": "\t\t\t<string>jpn-JPN-OfflineIOS-6.0.0.3-20191024</string>;6.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>rus-RUS-OfflineIOS-5.0.0.4-20190930</string>;5.0.0.4", "completion": "positive"}
-{"promote": "\t\t\t<string>tur-TUR-OfflineIOS-5.0.0.1-20190928</string>;5.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>yue-HKG-OfflineIOS-6.0.0.2-20190901</string>;6.0.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-GBR-6.0.0.1-20190729</string>;6.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>ita-ITA-5.1.1.0-20190729</string>;5.1.1.0", "completion": "positive"}
-{"promote": "\t\t\t<string>por-BRA-5.0.0.2-20190729</string>;5.0.0.2", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-IND-6.0.0.5-20190907</string>;6.0.0.5", "completion": "positive"}
-{"promote": "\t\t\t<string>ara-XWW-OfflineIOS-6.0.0.0-20200227</string>;6.0.0.0", "completion": "positive"}
-{"promote": "\t\t\t<string>tur-TUR-OfflineIOS-5.0.0.1-20200229</string>;5.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>deu-DEU-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-GBR-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4", "completion": "positive"}
-{"promote": "\t\t\t<string>spa-ESP-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>fra-FRA-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>jpn-JPN-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3", "completion": "positive"}
-{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3", "completion": "positive"}
-{"promote": "\t\t<string>Snapchat/10.78.6.0 (iPhone8_4; iOS 13.4.1; gzip)</string>;10.78.6.0", "completion": "positive"}
-{"promote": "\t\t<string>10.78.6.0</string>;10.78.6.0", "completion": "positive"}
-{"promote": "\t\t<string>10.22.22.1</string>;10.22.22.1", "completion": "positive"}
-{"promote": "\t\t<string>10.68.68.22</string>;10.68.68.22", "completion": "positive"}
-{"promote": "\t\t<string>10.22.22.1</string>;10.22.22.1", "completion": "positive"}
-{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126", "completion": "positive"}
-{"promote": "\t\t<string>10.78.6.0</string>;10.78.6.0", "completion": "positive"}
-{"promote": "\t\t<string>Snapchat/10.78.6.0 (iPhone8_4; iOS 13.4.1; gzip)</string>;10.78.6.0", "completion": "positive"}
-{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.207.89.96", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.207.21.88", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.4.205.231", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.5.37.1", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.4.79.247", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.22.144.146", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.3.185.35", "completion": "positive"}
-{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.21.187.77", "completion": "positive"}
-{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126", "completion": "positive"}
-{"promote": "\t\t\t<string>35.186.197.135</string>;35.186.197.135", "completion": "positive"}
-{"promote": "\t\t\t<string>35.190.43.134</string>;35.190.43.134", "completion": "positive"}
-{"promote": "\t\t\t<string>35.186.197.135</string>;35.186.197.135", "completion": "positive"}
-{"promote": "\t\t\t<string>35.186.197.135</string>;35.186.197.135", "completion": "positive"}
-{"promote": "\t\t\t<string>3.213.65.77</string>;3.213.65.77", "completion": "positive"}
-{"promote": "\t\t\t<string>3.94.245.242</string>;3.94.245.242", "completion": "positive"}
-{"promote": "\t\t\t<string>172.217.8.20</string>;172.217.8.20", "completion": "positive"}
-{"promote": "\t\t\t<string>3.94.245.242</string>;3.94.245.242", "completion": "positive"}
-{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126", "completion": "positive"}
-{"promote": "\t\t\t<string>172.217.8.20</string>;172.217.8.20", "completion": "positive"}
-{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126", "completion": "positive"}
-{"promote": "\t<string>15.21.2.14594</string>;15.21.2.145", "completion": "positive"}
-{"promote": "\t<string>8.58.0.93</string>;8.58.0.93", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>8.58.0.93</string>;8.58.0.93", "completion": "positive"}
-{"promote": "\t\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t<string>10.78.6.0</string>;10.78.6.0", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255", "completion": "positive"}
-{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0", "completion": "negtive"}
-{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255", "completion": "positive"}
-{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0", "completion": "negtive"}
-{"promote": "\t\t<string>3.6.1.4</string>;3.6.1.4", "completion": "positive"}
-{"promote": "\t<string>609.1.20.0.9</string>;609.1.20.0", "completion": "negtive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t\t<string>MoPub-6.9.4.0</string>;6.9.4.0", "completion": "positive"}
-{"promote": "\t<string>7.4.2.6</string>;7.4.2.6", "completion": "positive"}
-{"promote": "\t<string>135.0.0.22.118</string>;135.0.0.22", "completion": "positive"}
-{"promote": "\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t\t<string>0.5.1.3</string>;0.5.1.3", "completion": "negtive"}
-{"promote": "\t\t<string>0.6.7.8</string>;0.6.7.8", "completion": "negtive"}
-{"promote": "\t<string>10.78.6.0</string>;10.78.6.0", "completion": "positive"}
-{"promote": "\t\t<string>8.58.0.93</string>;8.58.0.93", "completion": "positive"}
-{"promote": "\t\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t\t<string>20.10.0.8</string>;20.10.0.8", "completion": "positive"}
-{"promote": "\t\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t\t<string>15.21.2.14594</string>;15.21.2.145", "completion": "positive"}
-{"promote": "\t\t<string>10.78.6.0</string>;10.78.6.0", "completion": "positive"}
-{"promote": "\t\t<string>3.6.1.4</string>;3.6.1.4", "completion": "positive"}
-{"promote": "\t<key>1.0.0.1</key>;1.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>1.0.0.1</string>;1.0.0.1", "completion": "positive"}
-{"promote": "\t\t\t\t<string>1.0.0.1</string>;1.0.0.1", "completion": "positive"}
-{"promote": "\t<key>1.1.1.1</key>;1.1.1.1", "completion": "positive"}
-{"promote": "\t\t\t<string>1.1.1.1</string>;1.1.1.1", "completion": "positive"}
-{"promote": "\t\t\t\t<string>1.1.1.1</string>;1.1.1.1", "completion": "positive"}
-{"promote": "\t\t\t\t\t<string>http://abuseipdb.com/check/208.180.231.139</string>;208.180.231.139", "completion": "positive"}
-{"promote": "\t\t\t\t\t<string>http://www.abuseipdb.com/whois/69.50.232.54</string>;69.50.232.54", "completion": "positive"}
-{"promote": "\t\t\t\t\t<string>http://advantage1.checkm8.com/AdminServer/swf/admin-release.swf?version=4.3.0.49</string>;4.3.0.49", "completion": "positive"}
-{"promote": "\t\t\t\t\t<string>http://d3bn78kc7qbjb6.cloudfront.net/rc-0.0.0.392/views/logs/logs.html</string>;0.0.0.392", "completion": "negtive"}
-{"promote": "\t\t\t\t\t<string>http://fcs.dell.com/fcs/fcs/UIFramework/3.2.108.2/res/Image?path=sharedcontrols%2Fcontainers%2Fvalidation_messaging_left.png</string>;3.2.108.2", "completion": "positive"}
-{"promote": "\t\t\t\t<string>http://ui1.img.digitalrivercontent.net/drui/1.7.0.0.7.1/css/dr-stylesheet-ff-compressed.css</string>;1.7.0.0", "completion": "positive"}
-{"promote": "\t\t\t\t<string>http://fast.fonts.com/FontsCom/Live/static/2.15.134.0/img/apple-touch-icon-57x57.png</string>;2.15.134.0", "completion": "positive"}
-{"promote": "\t\t\t\t\t<string>http://tva1.sinaimg.cn/crop.0.0.798.798.180/6462d00fgw1egno4hgy6wj20m80m8mxn.jpg</string>;0.0.798.798", "completion": "negtive"}
-{"promote": "\t\t\t\t\t<string>http://netix.dl.sourceforge.net/project/kreogist-mu/Releases/0.9.9.3/Windows/mu_0.9.9.3_win64_intel_d9b5f2d.zip</string>;0.9.9.3", "completion": "negtive"}
-{"promote": "\t\t\t\t\t<string>http://netix.dl.sourceforge.net/project/kreogist-mu/Releases/0.9.9.3/Windows/mu_0.9.9.3_win64_intel_d9b5f2d.zip</string>;0.9.9.3", "completion": "negtive"}
-{"promote": "\t\t\t\t\t<string>http://sm.wdjcdn.com/release/files/jupiter/5.6.1.8925/wandoujia-wandoujia_web.apk</string>;5.6.1.892", "completion": "negtive"}
-{"promote": "\t\t\t\t\t<string>http://tvassl.weibo.cn/crop.0.21.685.685.1024/6b84272bgw1euxxzxrndpj20k00k0adc.jpg</string>;0.21.685.685", "completion": "negtive"}
-{"promote": "\t\t\t\t\t<string>http://novel-cdn.kuangxiangit.com/custom/download/1.4.4.02/Novel-release_14402_jiagu_sign-1109-2-PCdownload.apk</string>;1.4.4.02", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t\t<string>https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/e15/c180.0.720.720a/s240x240/93425170_1848465348622192_2718028079642416718_n.jpg?cachebreaker=9823&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=MteGbc14-xIAX9Oom5c&amp;oh=bce805572a79dd6ed9fbedbbf1b198ee&amp;oe=5EC259EB&amp;ig_cache_key=MjI4ODMyOTY2NzQ3OTg3Nzk0Ng%3D%3D.2</string>;180.0.720.720", "completion": "positive"}
-{"promote": "\t<string>8.5.51.877.g6cea6b5</string>;8.5.51.877", "completion": "negtive"}
-{"promote": "\t<string>8.5.51.877</string>;8.5.51.877", "completion": "negtive"}
-{"promote": "\t<string>1.000.000.000+</string>;1.000.000.000", "completion": "positive"}
-{"promote": "\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38", "completion": "negtive"}
-{"promote": "\t<string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_EmbeddedSpeech/479991bc60161e4545ff833d6117f264954cb6b3.asset/AssetData/eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4", "completion": "positive"}
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>10.78.6.0</string>;10.78.6.0", "completion": "positive"}
+{"promote": "\t<string>1.000.000.000+</string>;1.000.000.000 ->", "completion": " positive"}
+{"promote": "\t<key>1.0.0.1</key>;1.0.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>1.0.0.1</string>;1.0.0.1 ->", "completion": " positive"}
+{"promote": "\t<key>1.1.1.1</key>;1.1.1.1 ->", "completion": " positive"}
+{"promote": "\t<string>1.1.1.1</string>;1.1.1.1 ->", "completion": " positive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t\t\t<string>eng-USA-1.0.0.14-20170731</string>;1.0.0.14 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>cmn-CHN-1.0.0.12-20170804</string>;1.0.0.12 ->", "completion": " positive"}
+{"promote": "\t<string>3.6.1.4</string>;3.6.1.4 ->", "completion": " positive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>100.73.156.224</string>;100.73.156.224 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 192.95.36.142:443 CDF2E852BF539B82BD10E27E9115A31734E378C2 cert=qUVQ0srL1JI/vO6V6m/24anYXiJD3QP2HgzUKQtQ7GRqqUvs7P+tG43RtAqdhLOALP7DJQ iat-mode=1</string>;192.95.36.142 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 38.229.1.78:80 C8CBDB2464FC9804A69531437BCF2BE31FDD2EE4 cert=Hmyfd2ev46gGY7NoVxA9ngrPF2zCZtzskRTzoWXbxNkzeVnGFPWmrTtILRyqCTjHR+s9dg iat-mode=1</string>;38.229.1.78 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 38.229.33.83:80 0BAC39417268B96B9F514E7F63FA6FBA1A788955 cert=VwEFpk9F/UN9JED7XpG1XOjm/O8ZCXK80oPecgWnNDZDv5pdkhq1OpbAH0wNqOT6H6BmRQ iat-mode=1</string>;38.229.33.83 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 37.218.240.34:40035 88CD36D45A35271963EF82E511C8827A24730913 cert=eGXYfWODcgqIdPJ+rRupg4GGvVGfh25FWaIXZkit206OSngsp7GAIiGIXOJJROMxEqFKJg iat-mode=1</string>;37.218.240.34 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 37.218.245.14:38224 D9A82D2F9C2F65A18407B1D2B764F130847F8B5D cert=bjRaMrr1BRiAW8IE9U5z27fQaYgOhX1UCmOpg2pFpoMvo6ZgQMzLsaTzzQNTlm7hNcb+Sg iat-mode=0</string>;37.218.245.14 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 85.31.186.98:443 011F2599C0E9B27EE74B353155E244813763C3E5 cert=ayq0XzCwhpdysn5o0EyDUbmSOx3X/oTEbzDMvczHOdBJKlvIdHHLJGkZARtT4dcBFArPPg iat-mode=0</string>;85.31.186.98 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 85.31.186.26:443 91A6354697E6B02A386312F68D82CF86824D3606 cert=PBwr+S8JTVZo6MPdHnkTwXJPILWADLqfMGoVvhZClMq/Urndyd42BwX9YFJHZnBB3H0XCw iat-mode=0</string>;85.31.186.26 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 216.252.162.21:46089 0DB8799466902192B6C7576D58D4F7F714EC87C1 cert=XPUwcQPxEXExHfJYX58gZXN7mYpos7VNAHbkgERNFg+FCVNzuYo1Wp+uMscl3aR9hO2DRQ iat-mode=0</string>;216.252.162.21 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 144.217.20.138:80 FB70B257C162BF1038CA669D568D76F5B7F0BABB cert=vYIV5MgrghGQvZPIi1tJwnzorMgqgmlKaB77Y3Z9Q/v94wZBOAXkW+fdx4aSxLVnKO+xNw iat-mode=0</string>;144.217.20.138 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 193.11.166.194:27015 2D82C2E354D531A68469ADF7F878FA6060C6BACA cert=4TLQPJrTSaDffMK7Nbao6LC7G9OW/NHkUwIdjLSS3KYf0Nv4/nQiiI8dY2TcsQx01NniOg iat-mode=0</string>;193.11.166.194 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 193.11.166.194:27020 86AC7B8D430DAC4117E9F42C9EAED18133863AAF cert=0LDeJH4JzMDtkJJrFphJCiPqKx7loozKN7VNfuukMGfHO0Z8OGdzHVkhVAOfo1mUdv9cMg iat-mode=0</string>;193.11.166.194 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 193.11.166.194:27025 1AE2C08904527FEA90C4C4F8C1083EA59FBC6FAF cert=ItvYZzW5tn6v3G4UnQa6Qz04Npro6e81AP70YujmK/KXwDFPTs3aHXcHp4n8Vt6w/bv8cA iat-mode=0</string>;193.11.166.194 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 209.148.46.65:443 74FAD13168806246602538555B5521A0383A1875 cert=ssH+9rP8dG2NLDN2XuFw63hIO/9MNNinLmxQDpVa+7kTOa9/m+tGWT1SmSYpQ9uTBGa6Hw iat-mode=0</string>;209.148.46.65 ->", "completion": " positive"}
+{"promote": "\t<string>obfs4 146.57.248.225:22 10A6CD36A537FCE513A322361547444B393989F0 cert=K1gDtDAIcUfeLqbstggjIw2rtgIKqdIhUlHp82XRqNSq/mtAjp1BIC9vHKJ2FAEpGssTPw iat-mode=0</string>;146.57.248.225 ->", "completion": " positive"}
+{"promote": "\t<string>3.3.7.0</string>;3.3.7.0 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t<string>https://pm-gateway.supersonicads.com/auction?appKey=67052255&amp;SDKVersion=6.8.4.2&amp;initCountry=US&amp;platform=iphone&amp;advId=0D99ABE9-B1D0-41C1-8C45-2681A498AD97</string>;6.8.4.2 ->", "completion": " positive"}
+{"promote": "\t<string>3.3.7.0</string>;3.3.7.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>6.8.4.2</string>;6.8.4.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>6.8.4.2</string>;6.8.4.2 ->", "completion": " positive"}
+{"promote": "\t\t<key>Sticker_2.19.40.12</key>;2.19.40.12 ->", "completion": " positive"}
+{"promote": "\t\t<key>Sticker_2.19.20.2</key>;2.19.20.2 ->", "completion": " positive"}
+{"promote": "\t\t<key>Sticker_2.19.40.24</key>;2.19.40.24 ->", "completion": " positive"}
+{"promote": "\t<string>Sticker_2.19.40.24</string>;2.19.40.24 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>17.57.144.52</string>;17.57.144.52 ->", "completion": " positive"}
+{"promote": "\t<key>1.0.0.1</key>;1.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>135.0.0.22.118 (206072521)</string>;135.0.0.22 ->", "completion": " positive"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t<string>135.0.0.22.118</string>;135.0.0.22 ->", "completion": " positive"}
+{"promote": "\t<string>135.0.0.22.118 (206072690)</string>;135.0.0.22 ->", "completion": " positive"}
+{"promote": "\t<string>135.0.0.22.118 (206072521)</string>;135.0.0.22 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>cmn-CHN-4.1.1.0-20160421</string>;4.1.1.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-4.1.1.5-20160919</string>;4.1.1.5 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-4.1.1.5-20160919</string>;4.1.1.5 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>spa-USA-4.1.0.2-20160424</string>;4.1.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>rus-RUS-4.1.0.2-20160422</string>;4.1.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>tur-TUR-4.1.0.3-20160422</string>;4.1.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-OfflineIOS-6.0.0.2-20191003</string>;6.0.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>cmn-CHN-4.1.1.0-20160421</string>;4.1.1.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>yue-HKG-4.1.0.2-20160424</string>;4.1.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-5.2.0.2-20170705</string>;5.2.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>spa-ESP-5.0.0.1-20170310</string>;5.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-5.3.0.3-20180129</string>;5.3.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-5.0.0.1-20180624</string>;5.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-OfflineIOS-5.3.0.1-20190209</string>;5.3.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-OfflineIOS-5.3.0.1-20190530</string>;5.3.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-5.0.0.1-20180925</string>;5.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-GBR-4.1.0.1-20160422</string>;4.1.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>ita-ITA-4.1.0.1-20160422</string>;4.1.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>por-BRA-4.1.0.4-20160424</string>;4.1.0.4 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-IND-4.1.0.1-20160424</string>;4.1.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>fra-FRA-OfflineIOS-6.0.0.4-20191114</string>;6.0.0.4 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>deu-DEU-OfflineIOS-6.0.0.3-20191114</string>;6.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-AUS-OfflineIOS-6.0.0.1-20191215</string>;6.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>kor-KOR-OfflineIOS-5.0.0.3-20191215</string>;5.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>spa-ESP-OfflineIOS-6.0.0.2-20191120</string>;6.0.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>spa-USA-OfflineIOS-6.0.0.3-20190831</string>;6.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-6.0.0.0-20191009</string>;6.0.0.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>jpn-JPN-OfflineIOS-6.0.0.3-20191024</string>;6.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>rus-RUS-OfflineIOS-5.0.0.4-20190930</string>;5.0.0.4 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>tur-TUR-OfflineIOS-5.0.0.1-20190928</string>;5.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>yue-HKG-OfflineIOS-6.0.0.2-20190901</string>;6.0.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-GBR-6.0.0.1-20190729</string>;6.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>ita-ITA-5.1.1.0-20190729</string>;5.1.1.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>por-BRA-5.0.0.2-20190729</string>;5.0.0.2 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-IND-6.0.0.5-20190907</string>;6.0.0.5 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>ara-XWW-OfflineIOS-6.0.0.0-20200227</string>;6.0.0.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>tur-TUR-OfflineIOS-5.0.0.1-20200229</string>;5.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>deu-DEU-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-GBR-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>spa-ESP-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>fra-FRA-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>jpn-JPN-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>cmn-CHN-OfflineIOS-7.0.0.3-20200323</string>;7.0.0.3 ->", "completion": " positive"}
+{"promote": "\t\t<string>Snapchat/10.78.6.0 (iPhone8_4; iOS 13.4.1; gzip)</string>;10.78.6.0 ->", "completion": " positive"}
+{"promote": "\t\t<string>10.78.6.0</string>;10.78.6.0 ->", "completion": " positive"}
+{"promote": "\t\t<string>10.22.22.1</string>;10.22.22.1 ->", "completion": " positive"}
+{"promote": "\t\t<string>10.68.68.22</string>;10.68.68.22 ->", "completion": " positive"}
+{"promote": "\t\t<string>10.22.22.1</string>;10.22.22.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126 ->", "completion": " positive"}
+{"promote": "\t\t<string>10.78.6.0</string>;10.78.6.0 ->", "completion": " positive"}
+{"promote": "\t\t<string>Snapchat/10.78.6.0 (iPhone8_4; iOS 13.4.1; gzip)</string>;10.78.6.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.207.89.96 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.207.21.88 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.4.205.231 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.5.37.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.4.79.247 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.22.144.146 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.3.185.35 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>52.207.89.96_52.207.21.88_52.4.205.231_52.5.37.1_52.4.79.247_52.22.144.146_52.3.185.35_52.21.187.77</string>;52.21.187.77 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>35.186.197.135</string>;35.186.197.135 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>35.190.43.134</string>;35.190.43.134 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>35.186.197.135</string>;35.186.197.135 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>35.186.197.135</string>;35.186.197.135 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>3.213.65.77</string>;3.213.65.77 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>3.94.245.242</string>;3.94.245.242 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>172.217.8.20</string>;172.217.8.20 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>3.94.245.242</string>;3.94.245.242 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>172.217.8.20</string>;172.217.8.20 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>216.239.36.126</string>;216.239.36.126 ->", "completion": " positive"}
+{"promote": "\t<string>15.21.2.14594</string>;15.21.2.145 ->", "completion": " positive"}
+{"promote": "\t<string>8.58.0.93</string>;8.58.0.93 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>8.58.0.93</string>;8.58.0.93 ->", "completion": " positive"}
+{"promote": "\t\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t<string>10.78.6.0</string>;10.78.6.0 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0 ->", "completion": " negative"}
+{"promote": "\t\t<string>3.6.1.4</string>;3.6.1.4 ->", "completion": " positive"}
+{"promote": "\t<string>609.1.20.0.9</string>;609.1.20.0 ->", "completion": " negative"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t\t<string>MoPub-6.9.4.0</string>;6.9.4.0 ->", "completion": " positive"}
+{"promote": "\t<string>7.4.2.6</string>;7.4.2.6 ->", "completion": " positive"}
+{"promote": "\t<string>135.0.0.22.118</string>;135.0.0.22 ->", "completion": " positive"}
+{"promote": "\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t\t<string>0.5.1.3</string>;0.5.1.3 ->", "completion": " negative"}
+{"promote": "\t\t<string>0.6.7.8</string>;0.6.7.8 ->", "completion": " negative"}
+{"promote": "\t<string>10.78.6.0</string>;10.78.6.0 ->", "completion": " positive"}
+{"promote": "\t\t<string>8.58.0.93</string>;8.58.0.93 ->", "completion": " positive"}
+{"promote": "\t\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t\t<string>20.10.0.8</string>;20.10.0.8 ->", "completion": " positive"}
+{"promote": "\t\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t\t<string>15.21.2.14594</string>;15.21.2.145 ->", "completion": " positive"}
+{"promote": "\t\t<string>10.78.6.0</string>;10.78.6.0 ->", "completion": " positive"}
+{"promote": "\t\t<string>3.6.1.4</string>;3.6.1.4 ->", "completion": " positive"}
+{"promote": "\t<key>1.0.0.1</key>;1.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>1.0.0.1</string>;1.0.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t\t<string>1.0.0.1</string>;1.0.0.1 ->", "completion": " positive"}
+{"promote": "\t<key>1.1.1.1</key>;1.1.1.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>1.1.1.1</string>;1.1.1.1 ->", "completion": " positive"}
+{"promote": "\t\t\t\t<string>1.1.1.1</string>;1.1.1.1 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t<string>http://abuseipdb.com/check/208.180.231.139</string>;208.180.231.139 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t<string>http://www.abuseipdb.com/whois/69.50.232.54</string>;69.50.232.54 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t<string>http://advantage1.checkm8.com/AdminServer/swf/admin-release.swf?version=4.3.0.49</string>;4.3.0.49 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t<string>http://d3bn78kc7qbjb6.cloudfront.net/rc-0.0.0.392/views/logs/logs.html</string>;0.0.0.392 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t<string>http://fcs.dell.com/fcs/fcs/UIFramework/3.2.108.2/res/Image?path=sharedcontrols%2Fcontainers%2Fvalidation_messaging_left.png</string>;3.2.108.2 ->", "completion": " positive"}
+{"promote": "\t\t\t\t<string>http://ui1.img.digitalrivercontent.net/drui/1.7.0.0.7.1/css/dr-stylesheet-ff-compressed.css</string>;1.7.0.0 ->", "completion": " positive"}
+{"promote": "\t\t\t\t<string>http://fast.fonts.com/FontsCom/Live/static/2.15.134.0/img/apple-touch-icon-57x57.png</string>;2.15.134.0 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t<string>http://tva1.sinaimg.cn/crop.0.0.798.798.180/6462d00fgw1egno4hgy6wj20m80m8mxn.jpg</string>;0.0.798.798 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t<string>http://netix.dl.sourceforge.net/project/kreogist-mu/Releases/0.9.9.3/Windows/mu_0.9.9.3_win64_intel_d9b5f2d.zip</string>;0.9.9.3 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t<string>http://netix.dl.sourceforge.net/project/kreogist-mu/Releases/0.9.9.3/Windows/mu_0.9.9.3_win64_intel_d9b5f2d.zip</string>;0.9.9.3 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t<string>http://sm.wdjcdn.com/release/files/jupiter/5.6.1.8925/wandoujia-wandoujia_web.apk</string>;5.6.1.892 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t<string>http://tvassl.weibo.cn/crop.0.21.685.685.1024/6b84272bgw1euxxzxrndpj20k00k0adc.jpg</string>;0.21.685.685 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t<string>http://novel-cdn.kuangxiangit.com/custom/download/1.4.4.02/Novel-release_14402_jiagu_sign-1109-2-PCdownload.apk</string>;1.4.4.02 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t\t<string>https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/e15/c180.0.720.720a/s240x240/93425170_1848465348622192_2718028079642416718_n.jpg?cachebreaker=9823&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;_nc_cat=1&amp;_nc_ohc=MteGbc14-xIAX9Oom5c&amp;oh=bce805572a79dd6ed9fbedbbf1b198ee&amp;oe=5EC259EB&amp;ig_cache_key=MjI4ODMyOTY2NzQ3OTg3Nzk0Ng%3D%3D.2</string>;180.0.720.720 ->", "completion": " positive"}
+{"promote": "\t<string>8.5.51.877.g6cea6b5</string>;8.5.51.877 ->", "completion": " negative"}
+{"promote": "\t<string>8.5.51.877</string>;8.5.51.877 ->", "completion": " negative"}
+{"promote": "\t<string>1.000.000.000+</string>;1.000.000.000 ->", "completion": " positive"}
+{"promote": "\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38 ->", "completion": " negative"}
+{"promote": "\t<string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_EmbeddedSpeech/479991bc60161e4545ff833d6117f264954cb6b3.asset/AssetData/eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4 ->", "completion": " positive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>10.78.6.0</string>;10.78.6.0 ->", "completion": " positive"}

@@ -14,10 +14,10 @@ json_list = []
 # Iterate through each row and create the JSON format
 for index, row in data.iterrows():
     promote_text = (
-        row["text"] + ";" + row["ip"]
+        row["text"] + ";" + row["ip"] + " ->"
     )  # Replace with the actual column name for "promote" text
     completion_text = (
-        "positive" if row["class"] != "N" else "negtive"
+        " positive" if row["class"] != "N" else " negative"
     )  # Replace with the actual column name for "completion" text
 
     # Create a dictionary for the JSON object

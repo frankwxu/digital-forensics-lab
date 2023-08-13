@@ -1,46 +1,46 @@
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t\t<string>13.3.1.17D50</string>;13.3.1.17", "completion": "positive"}
-{"promote": "\t\t<string>13.3.1.17D50</string>;13.3.1.17", "completion": "positive"}
-{"promote": "\t\t<string>104.36.225.166</string>;104.36.225.166", "completion": "positive"}
-{"promote": "\t\t<string>104.36.225.154</string>;104.36.225.154", "completion": "positive"}
-{"promote": "\t\t<string>104.36.225.179</string>;104.36.225.179", "completion": "positive"}
-{"promote": "\t\t<string>104.36.225.142</string>;104.36.225.142", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>20.10.0.8</string>;20.10.0.8", "completion": "positive"}
-{"promote": "\t<string>135.0.0.22.118</string>;135.0.0.22", "completion": "positive"}
-{"promote": "\t\t<string>34.227.164.166</string>;34.227.164.166", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t\t<string>eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4", "completion": "positive"}
-{"promote": "\t<string>7.4.1.2</string>;7.4.1.2", "completion": "positive"}
-{"promote": "\t<string>64.98.122.70</string>;64.98.122.70", "completion": "positive"}
-{"promote": "\t<string>20.10.0.8</string>;20.10.0.8", "completion": "positive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38", "completion": "negtive"}
-{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38", "completion": "negtive"}
-{"promote": "\t\t\t<string>tincan_register_device_256.0.1.26.113</string>;256.0.1.26", "completion": "negtive"}
-{"promote": "\t\t\t<string>tincan_register_device_257.0.1.38.116</string>;257.0.1.38", "completion": "negtive"}
-{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38", "completion": "negtive"}
-{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38", "completion": "negtive"}
-{"promote": "\t<string>135.0.0.22.118 (206072690)</string>;135.0.0.22", "completion": "positive"}
-{"promote": "\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t<string>3.6.1.4</string>;3.6.1.4", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t<string>15.21.2.14594</string>;15.21.2.145", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t<string>5.12.20.4.10.18.5.5.2</string>;5.12.20.4", "completion": "positive"}
-{"promote": "\t<string>5.12.20.4.10.18.5.5.2</string>;10.18.5.5", "completion": "positive"}
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t<string>12.6.0.1</string>;12.6.0.1", "completion": "positive"}
-{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1", "completion": "positive"}
-{"promote": "\t<string>2.20.31.4</string>;2.20.31.4", "completion": "positive"}
-{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1", "completion": "negtive"}
-{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255", "completion": "positive"}
-{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0", "completion": "negtive"}
-{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255", "completion": "positive"}
-{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0", "completion": "negtive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t\t<string>13.3.1.17D50</string>;13.3.1.17 ->", "completion": " positive"}
+{"promote": "\t\t<string>13.3.1.17D50</string>;13.3.1.17 ->", "completion": " positive"}
+{"promote": "\t\t<string>104.36.225.166</string>;104.36.225.166 ->", "completion": " positive"}
+{"promote": "\t\t<string>104.36.225.154</string>;104.36.225.154 ->", "completion": " positive"}
+{"promote": "\t\t<string>104.36.225.179</string>;104.36.225.179 ->", "completion": " positive"}
+{"promote": "\t\t<string>104.36.225.142</string>;104.36.225.142 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>20.10.0.8</string>;20.10.0.8 ->", "completion": " positive"}
+{"promote": "\t<string>135.0.0.22.118</string>;135.0.0.22 ->", "completion": " positive"}
+{"promote": "\t\t<string>34.227.164.166</string>;34.227.164.166 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t\t<string>eng-USA-OfflineIOS-7.0.0.4-20200319</string>;7.0.0.4 ->", "completion": " positive"}
+{"promote": "\t<string>7.4.1.2</string>;7.4.1.2 ->", "completion": " positive"}
+{"promote": "\t<string>64.98.122.70</string>;64.98.122.70 ->", "completion": " positive"}
+{"promote": "\t<string>20.10.0.8</string>;20.10.0.8 ->", "completion": " positive"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38 ->", "completion": " negative"}
+{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38 ->", "completion": " negative"}
+{"promote": "\t\t\t<string>tincan_register_device_256.0.1.26.113</string>;256.0.1.26 ->", "completion": " negative"}
+{"promote": "\t\t\t<string>tincan_register_device_257.0.1.38.116</string>;257.0.1.38 ->", "completion": " negative"}
+{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38 ->", "completion": " negative"}
+{"promote": "\t<string>257.0.1.38.116</string>;257.0.1.38 ->", "completion": " negative"}
+{"promote": "\t<string>135.0.0.22.118 (206072690)</string>;135.0.0.22 ->", "completion": " positive"}
+{"promote": "\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t<string>3.6.1.4</string>;3.6.1.4 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>15.21.2.14594</string>;15.21.2.145 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t<string>5.12.20.4.10.18.5.5.2</string>;5.12.20.4 ->", "completion": " positive"}
+{"promote": "\t<string>5.12.20.4.10.18.5.5.2</string>;10.18.5.5 ->", "completion": " positive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t<string>12.6.0.1</string>;12.6.0.1 ->", "completion": " positive"}
+{"promote": "\t\t\t<string>http://en-us-support.belkin.com/euf/rightnow/js/10.5.0.1.6.137/min/RightNow.js</string>;10.5.0.1 ->", "completion": " positive"}
+{"promote": "\t<string>2.20.31.4</string>;2.20.31.4 ->", "completion": " positive"}
+{"promote": "\t<string>3608.80.24.1.8</string>;608.80.24.1 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0 ->", "completion": " negative"}
+{"promote": "\t\t\t\t\t\t<string>255.255.255.255</string>;255.255.255.255 ->", "completion": " positive"}
+{"promote": "\t\t\t\t\t\t<string>0.0.0.0</string>;0.0.0.0 ->", "completion": " negative"}
