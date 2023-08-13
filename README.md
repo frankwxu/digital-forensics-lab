@@ -86,10 +86,10 @@ or in BibTeX
 
 ### Method 1: Importing customized Kali VM image
 
-The customized Kali VM = Kali ([2020.4](http://old.kali.org/kali-images/kali-2020.4/)) + [tools](#Tools) used for completing most of the labs listed above (except p2p Data Leakage case)
+The customized Kali VM = Kali ([2021.4](http://old.kali.org/kali-images/kali-2021.4/)) + [tools](#Tools) used for completing most of the labs listed above (except p2p Data Leakage case)
 
 - Install [Virtualbox](https://www.virtualbox.org/)
-- Import the customized [Kali 2020.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova). Notes: the default harddisk size is 80G.
+- Import the customized [Kali 2021.4](https://www.dropbox.com/s/y7svxg2pyy94ab5/Kali-Linux-2020.4-vbox-amd64_tools.ova). Notes: the default harddisk size is 80G.
 
 ### Method 2: Installing tools using the customized script (the script ONLY is tested on Kali 2020.4)
 
@@ -97,7 +97,7 @@ The following script will install tools needed for completing most of the labs l
 
 - Install [Virtualbox](https://www.virtualbox.org/)
 
-- Install [Kali 2020.4](https://www.kali.org/blog/kali-linux-2020-4-release/). Notes: Suggest You configure the disk size of Kali VM 80G because the size of each leakage cases image is 30G+
+- Install [Kali 2021.4](http://old.kali.org/kali-images/kali-2021.4/). Notes: Suggest You configure the disk size of Kali VM 80G because the size of each leakage cases image is 30G+
 
 - How to run the installation script [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx), or you can simply follow the commands below
 
