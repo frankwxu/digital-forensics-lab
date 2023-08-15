@@ -35,7 +35,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (Improve Morris Worm Attack and Email Harassment with tshark investigation on 2/2023)
+## Table of Contents (Add the draft (in progress): AI for Forensics - Identifying IPs with a Fine-tuned Model, 8/2023)
 
 - Basic Computer Skills for Digital Forensics
 
@@ -81,6 +81,8 @@ or in BibTeX
 - Forensic Intelligence Repository
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
+- AI for Forensics
+  - [Identifying IP Addresses using a Fine-tuned AI Model](/AI4Forensics/IP_Identifier_Fine_Tuning/IP_Identifer_Fine_Tuning.pptx)
 
 ## Tool Installation (newly added on 12/6/2021)
 

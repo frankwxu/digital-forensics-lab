@@ -13,7 +13,7 @@ json_list = []
 
 # Iterate through each row and create the JSON format
 for index, row in data.iterrows():
-    promote_text = (
+    prompt_text = (
         row["text"] + ";" + row["ip"] + " ->"
     )  # Replace with the actual column name for "promote" text
     completion_text = (
@@ -21,7 +21,7 @@ for index, row in data.iterrows():
     )  # Replace with the actual column name for "completion" text
 
     # Create a dictionary for the JSON object
-    json_object = {"promote": promote_text, "completion": completion_text}
+    json_object = {"prompt": prompt_text, "completion": completion_text}
 
     json_list.append(json_object)
 
