@@ -35,7 +35,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (Add the draft (in progress): AI for Forensics - Identifying IPs with a Fine-tuned Model, 8/2023)
+## Table of Contents (Added: AI for Forensics - Identifying IPs with a Fine-tuned Model, 8/2023)
 
 - Basic Computer Skills for Digital Forensics
 
