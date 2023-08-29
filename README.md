@@ -361,6 +361,7 @@ The dataset includes logical files extracted from a DJI controller (mobile devic
   - Harleen Kaur (Partial of Android)
   - Malcolm Hayward (P2P Leakage)
   - Richard (Max) Wheeless (Hacking case)
+  - Chimezie Onwuegbuchulem (Docker for Digital Forensics)
 
 <script async src="//static.getclicky.com/101329461.js"></script>
 
