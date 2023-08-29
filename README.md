@@ -1,6 +1,6 @@
 # Digital Forensics Lab & Shared Cyber Forensic Intelligence Repository
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="150"> <img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="150">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BJA_Logo.png" width="150"> <img src="https://www.nist.gov/sites/default/files/images/2017/06/16/dsh-st.jpg" width="150"><img src="https://www.nsf.gov/news/mmg/media/images/bitmaplogo_nolayers_f_e50fcd0b-607b-4271-a808-914d9c2f65dc.png" width="110">
 
 ### Features of Repository
 
@@ -35,7 +35,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (Added: AI for Forensics - Identifying IPs with a Fine-tuned Model, 8/2023)
+## Table of Contents (Newly Added: 1. AI for Forensics - Identifying IPs with a Fine-tuned Model, 2. Docker for Digital Forensics, 09/2023)
 
 - Basic Computer Skills for Digital Forensics
 
@@ -84,7 +84,7 @@ or in BibTeX
 - AI for Forensics
   - [Identifying IP Addresses using a Fine-tuned AI Model](/AI4Forensics/IP_Identifier_Fine_Tuning/IP_Identifer_Fine_Tuning.pptx)
 
-## Tool Installation (newly added on 12/6/2021)
+## Tool Installation
 
 ### Method 1: Importing customized Kali VM image
 
@@ -101,7 +101,7 @@ The following script will install tools needed for completing most of the labs l
 
 - Install [Kali 2021.4](http://old.kali.org/kali-images/kali-2021.4/). Notes: Suggest You configure the disk size of Kali VM 80G because the size of each leakage cases image is 30G+
 
-- How to run the installation script [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx), or you can simply follow the commands below
+- Run a tool installation script [instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx), or you can simply follow the commands below
 
 ```
 wget  https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/tool-install-zsh.sh
@@ -110,6 +110,13 @@ chmod +x tool-install-zsh.sh
 ```
 
 - Installed [tools](#Tools). Note that most of the commands for tools can executed globally. Now you can skip most of tool installation steps in PPTs.
+
+### Method 3: Using a Docker container based on Ubuntu 22.04 LTS (added in 09/23, may need more testing, report any issues please)
+
+- The host machine of the Docker container is Ubuntu 22.04 LTS.
+- The container is built on top of Ubuntu 22.04 LTS as well.
+- All tools are pre-install on the Ubuntu container.
+- You can follow the tuturial [Docker for Digital Forensic Investgiation](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Docker_4_Digital_Forensics.pptx)
 
 ---
 
