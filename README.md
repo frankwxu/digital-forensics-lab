@@ -35,7 +35,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (Newly Added: 1. AI for Forensics - Identifying IPs with a Fine-tuned Model, 2. Docker for Digital Forensics, 09/2023)
+## Table of Contents (Newly Added: 1. AI for Forensics - Identifying IPs with a Fine-tuned Language Model, 2. Docker for Digital Forensics, 09/2023)
 
 - Basic Computer Skills for Digital Forensics
 
@@ -356,12 +356,13 @@ The dataset includes logical files extracted from a DJI controller (mobile devic
 
 - PI of the project
   - Dr. Frank Xu (Email: fxu at ubalt dot edu)
-- Student:
+- Students:
   - Danny Ferreira (iPhone)
   - Harleen Kaur (Partial of Android)
   - Malcolm Hayward (P2P Leakage)
   - Richard (Max) Wheeless (Hacking case)
   - Chimezie Onwuegbuchulem (Docker for Digital Forensics)
+  - Etinosa Osawe (AI for Forensics - Identifying IPs with a Fine-tuned Language Model)
 
 <script async src="//static.getclicky.com/101329461.js"></script>
 
