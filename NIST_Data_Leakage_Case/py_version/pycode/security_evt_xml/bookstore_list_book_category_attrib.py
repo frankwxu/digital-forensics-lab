@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-tree = ET.parse("bookstore_removed_ns.xml")
+tree = ET.parse("bookstore.xml")
 root = tree.getroot()
 
 # Iterate through the book elements and print their category attributes

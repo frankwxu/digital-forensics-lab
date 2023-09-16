@@ -13,5 +13,5 @@ for price_element in root.findall(".//price"):
 updated_xml_content = ET.tostring(root, encoding="utf-8")
 
 # Save the updated XML to a new file
-with open("bookstore_updated.xml", "wb") as f:
+with open("bookstore_updated_price.xml", "wb") as f:
     f.write(updated_xml_content)
