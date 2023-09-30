@@ -1,0 +1,2 @@
+EntryId	ContainerId	CacheId	UrlHash	SecureDirectory	FileSize	Type	Flags	AccessCount	SyncTime	CreationTime	ExpiryTime	ModifiedTime	AccessedTime	PostCheckTime	SyncCount	ExemptionDelta	Url	Filename	FileExtension	RequestHeaders	ResponseHeaders	RedirectUrl	Group	ExtraData
+1	23	0	9136739384197049179	4	13	1	4	1	Mar 23, 2015 20:34:09.250180900	Mar 23, 2015 20:34:09.250180900	Jan 01, 1601 00:00:00.000000000	Jan 01, 1601 00:00:00.000000000	Mar 23, 2015 20:34:09.250180900	0	0	0	DOMStore:http://drive.google.com/	drive.google[1].xml						
