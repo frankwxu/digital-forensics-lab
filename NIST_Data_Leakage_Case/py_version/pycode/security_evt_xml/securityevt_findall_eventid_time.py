@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 
-tree = ET.parse("SecurityEvt_ns_removed.xml")
+tree = ET.parse("SecurityEvt_formatted.xml")
 root = tree.getroot()
 
 # Iterate through all System elements
