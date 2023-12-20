@@ -1,0 +1,10 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: utmp_carved
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Feature-File-Version: 1.1
+1236622256	utmp_carved/000/1236622256utmp	<fileobject><filename>utmp_carved/000/1236622256utmp</filename><filesize>384</filesize><hashdigest type='sha1'>1547b891b0d23f87ddb18fe53178281f5d0f9507</hashdigest></fileobject>
+2084047792	<CACHED>	<fileobject><filesize>384</filesize><hashdigest type='sha1'>1547b891b0d23f87ddb18fe53178281f5d0f9507</hashdigest></fileobject>
+5244952746-ZIP-3427248	<CACHED>	<fileobject><filesize>384</filesize><hashdigest type='sha1'>1547b891b0d23f87ddb18fe53178281f5d0f9507</hashdigest></fileobject>
+6487821232	<CACHED>	<fileobject><filesize>384</filesize><hashdigest type='sha1'>1547b891b0d23f87ddb18fe53178281f5d0f9507</hashdigest></fileobject>
+7308082096	<CACHED>	<fileobject><filesize>384</filesize><hashdigest type='sha1'>1547b891b0d23f87ddb18fe53178281f5d0f9507</hashdigest></fileobject>

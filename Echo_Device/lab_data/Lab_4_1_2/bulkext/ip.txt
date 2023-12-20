@@ -1,0 +1,9 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: ip
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Feature-File-Version: 1.1
+4364926257	0:807f:300::	struct ip6_hdr R (src) cksum-bad
+4364926257	::b15e:243f:1453:200:e00:0	struct ip6_hdr L (dst) cksum-bad
+4366416201	0:807f:300::	struct ip6_hdr R (src) cksum-bad
+4366416201	::7e48:723e:1a7d:200:400:0	struct ip6_hdr L (dst) cksum-bad

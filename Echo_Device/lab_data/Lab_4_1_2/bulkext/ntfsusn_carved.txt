@@ -1,0 +1,15 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: ntfsusn_carved
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Feature-File-Version: 1.1
+1184328072	ntfsusn_carved/000/1184328072.UsnJrnl-J_corrupted	<fileobject><filename>ntfsusn_carved/000/1184328072.UsnJrnl-J_corrupted</filename><filesize>192</filesize><hashdigest type='sha1'>105d58d1c3835cab6233c6f0e484eea37d8c16ee</hashdigest></fileobject>
+1184558464	ntfsusn_carved/000/1184558464.UsnJrnl-J_corrupted	<fileobject><filename>ntfsusn_carved/000/1184558464.UsnJrnl-J_corrupted</filename><filesize>584</filesize><hashdigest type='sha1'>d48d22855e4497aaecd5ba164e35961faba70e02</hashdigest></fileobject>
+1520450032	ntfsusn_carved/000/1520450032.UsnJrnl-J_corrupted	<fileobject><filename>ntfsusn_carved/000/1520450032.UsnJrnl-J_corrupted</filename><filesize>392</filesize><hashdigest type='sha1'>38c29c9d7c677a08d7102ec5321a3f0ba7bb6614</hashdigest></fileobject>
+2140001168	ntfsusn_carved/000/2140001168.UsnJrnl-J_corrupted	<fileobject><filename>ntfsusn_carved/000/2140001168.UsnJrnl-J_corrupted</filename><filesize>88</filesize><hashdigest type='sha1'>8881ae89cebef59103f7a78196fd86aa29f06d04</hashdigest></fileobject>
+2140008296	ntfsusn_carved/000/2140008296.UsnJrnl-J_corrupted	<fileobject><filename>ntfsusn_carved/000/2140008296.UsnJrnl-J_corrupted</filename><filesize>384</filesize><hashdigest type='sha1'>1ceca0893d1b9a683ed947c40f670e7ca645b349</hashdigest></fileobject>
+2140011512	ntfsusn_carved/000/2140011512.UsnJrnl-J	<fileobject><filename>ntfsusn_carved/000/2140011512.UsnJrnl-J</filename><filesize>512</filesize><hashdigest type='sha1'>4190231947fbb686dcb89919fca6032503398449</hashdigest></fileobject>
+6979879824	<CACHED>	<fileobject><filesize>88</filesize><hashdigest type='sha1'>8881ae89cebef59103f7a78196fd86aa29f06d04</hashdigest></fileobject>
+6979886952	<CACHED>	<fileobject><filesize>384</filesize><hashdigest type='sha1'>1ceca0893d1b9a683ed947c40f670e7ca645b349</hashdigest></fileobject>
+6979890168	<CACHED>	<fileobject><filesize>512</filesize><hashdigest type='sha1'>4190231947fbb686dcb89919fca6032503398449</hashdigest></fileobject>
+7099634896	ntfsusn_carved/000/7099634896.UsnJrnl-J_corrupted	<fileobject><filename>ntfsusn_carved/000/7099634896.UsnJrnl-J_corrupted</filename><filesize>264</filesize><hashdigest type='sha1'>c0573fd0d57aeb24ba11fb6dd2ae8df3dec42e38</hashdigest></fileobject>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<notification-policy version="1">
+<zen version="8" user="0">
+<allow calls="true" repeatCallers="true" messages="false" reminders="false" events="false" callsFrom="2" messagesFrom="1" alarms="true" media="true" system="false" />
+<disallow visualEffects="511" />
+<automatic ruleId="EVENTS_DEFAULT_RULE" enabled="false" snoozing="false" name="Event" zen="1" component="android/com.android.server.notification.EventConditionProvider" conditionId="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" creationTime="1262304328518" id="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<automatic ruleId="EVERY_NIGHT_DEFAULT_RULE" enabled="false" snoozing="false" name="Sleeping" zen="1" component="android/com.android.server.notification.ScheduleConditionProvider" conditionId="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" creationTime="1262304328518" id="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<state areChannelsBypassingDnd="false" />
+</zen>
+<ranking version="1">
+<package name="amazon.speech.davs.davcservice" show_badge="true" app_user_locked_fields="0" uid="10016">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.android.service.wifiprofilemanager" show_badge="true" app_user_locked_fields="0" uid="10165">
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.device.rdmapplication" show_badge="true" app_user_locked_fields="0" uid="10031">
+<channel id="RDM" name="RDMApplication" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.bishop" show_badge="true" app_user_locked_fields="0" uid="10045">
+<channel id="MediaPlayback" name="Media Playback" desc="Displays currently playing media" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="com.amazon.bishop" name="Alexa Time Sequence Builder" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.device.smarthome.ota" show_badge="true" app_user_locked_fields="0" uid="10011">
+<channel id="SmartHomeOta" name="SmartHomeOtaChannel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.edgecvs" show_badge="true" app_user_locked_fields="0" uid="10025">
+<channel id="com.amazon.edgecvs" name="Edge Computer Vision Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.alarms" show_badge="true" app_user_locked_fields="0" uid="10043">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="ALERTS" name="Timers and Alarms" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="android" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channelGroup id="com.android.server.wm.AlertWindowNotification - " name="Display over other apps" blocked="false" />
+<channel id="DEVICE_ADMIN" name="Device administration" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_ALERTS" name="Network alerts" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DEVELOPER" name="Developer messages" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.fwp" name="Favorite Widgets Panel displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.mlv" name="MultimodalLiveViewApp displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="NETWORK_STATUS" name="Network status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="PHYSICAL_KEYBOARD" name="Physical keyboard" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.paladin" name="Launcher displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="SYSTEM_CHANGES" name="System changes" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="HEAVY_WEIGHT_APP" name="App running" importance="3" usage="10" content_type="4" flags="0" />
+<channel id="ACCOUNT" name="Account status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.aria" name="Aria displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="FOREGROUND_SERVICE" name="Apps consuming battery" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DO_NOT_DISTURB" name="Do Not Disturb" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="USB" name="USB connection" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="VPN" name="VPN status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="UPDATES" name="Updates" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="RETAIL_MODE" name="Retail demo" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="CAR_MODE" name="Car mode" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="VIRTUAL_KEYBOARD" name="Virtual keyboard" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.knight.blink" name="Blink displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="SECURITY" name="Security" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_AVAILABLE" name="Network available" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="ALERTS" name="Alerts" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.theia.sm" show_badge="true" app_user_locked_fields="0" uid="10149">
+<channel id="com.amazon.theia.sm" name="Smart Motion Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.alexa.datastore.app" show_badge="true" app_user_locked_fields="0" uid="10167">
+<channel id="com.amazon.alexa.datastore.app" name="Alexa DataStore" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.knight.ecs" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.theia.sm.remoteagent" show_badge="true" app_user_locked_fields="0" uid="10154">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.comms.multimodaltachyonarm" show_badge="true" app_user_locked_fields="0" uid="10114">
+<channel id="alexa_calling" name="Alexa Communication Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="alexa_call_notification" name="Call Notifications" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.shpm" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channel id="com.amazon.shpm" name="ShipModeService" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.knight.blink" show_badge="true" app_user_locked_fields="0" uid="10018">
+<channel id="1099" name="NotificationChannel" desc="Blink Notification Channel" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.venezia" show_badge="true" app_user_locked_fields="0" uid="10118">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.gloria.s54618f2945ec12b0e88503b9a637c795f387a2f9794e1168a25ba0a7
+READ 203014735960e4cc67abe6f150a896e74749d00a8c616766de7d696627e34cc8
+READ 329f40601485490562bbaac5a2f0e8edcbb3fc32316c2139fea4e5984260f3a0
+READ a65e68fe9d99380b6380710f84089ffd39419766cf8465aef86827ee0f6679a2
+READ 4efaff6b9fc8143b7d46cbf66e366be4ff834d388c4d1dd8402cd4de45e59466
+READ 1a97a9aef9f972a1a0dfbc545c77eac7895b96f47b62d320dee35632ec60a7af
+READ c97ca5bbc2917814514fda294e4b7a147cf4f70044550fe01fd50c3cba3546ed
+READ 710498fea184b5dd71134bc73d6c1b11c13ec39fb118d8bbaa047bb21366b085
+READ e26161b81c80f54388f171268b30ba08d21ce3f6b70c851caba8aeecd1c2c4b3
+READ 6787cf7b8b81e0801b09021396785785a2d2273cc766b466a691f4c4637b29a9
+READ 366e61d654618f2945ec12b0e88503b9a637c795f387a2f9794e1168a25ba0a7
+READ 203014735960e4cc67abe6f150a896e74749d00a8c616766de7d696627e34cc8
+READ ca41db8ce83cfd4e5ebaf062dcb3e5cfff23f5ec1d8ad1cb74bd9297580a5ba0
+READ e33e6f587a2bd7a8d2fc5ae756987991cdbefa8518cb897c4768f5b82efadba0
+READ ca41db8ce83cfd4e5ebaf062dcb3e5cfff23f5ec1d8ad1cb74bd9297580a5ba0
+READ 577a65e176eefbd3056b6dc3f6207945aee7f0730090d62553db16f8111d1893
+READ 1b760a0d3dfb1d90b66e0c4823fd65581a8d5de635a291c0e925ec67924fb7a8
+READ 329f40601485490562bbaac5a2f0e8edcbb3fc32316c2139fea4e5984260f3a0
+READ f5cf6bb7c1ce549ddd5c8646d42c82ff7e25defbf9a311b5ea35139a97c3ff04
+READ 329f40601485490562bbaac5a2f0e8edcbb3fc32316c2139fea4e5984260f3a0
+READ e87309d6fdb39d7654b03ee7419f9d4fe683874e3f627256f1de6c5174a5a92d
+READ ee91caba7b875607c6acf9b1691bdce84d59ca74219d8a1b84aec16f8f7b64fe
+READ a65e68fe9d99380b6380710f84089ffd39419766cf8465aef86827ee0f6679a2
+READ 4efaff6b9fc8143b7d46cbf66e366be4ff834d388c4d1dd8402cd4de45e59466
+READ 1a97a9aef9f972a1a0dfbc545c77eac7895b96f47b62d320dee35632ec60a7af
+READ c97ca5bbc2917814514fda294e4b7a147cf4f70044550fe01fd50c3cba3546ed
+READ 710498fea184b5dd71134bc73d6c1b11c13ec39fb118d8bbaa047bb21366b085
+READ a508c6cb147cc061357517d4d08d045a418b4934923e5607d915d9c281561cf5
+READ e26161b81c80f54388f171268b30ba08d21ce3f6b70c851caba8aeecd1c2c4b3
+READ 6787cf7b8b81e0801b09021396785785a2d2273cc766b466a691f4c4637b29a9
+READ 366e61d654618f2945ec12b0e88503b9a637c795f387a2f9794e1168a25ba0a7
+READ 203014735960e4cc67abe6f150a896e74749d00a8c616766de7d696627e34cc8
+READ 324e23a188167607bf069070710a5c0f3f597dd8073e874d70e8b84d9276308d
+READ f5cf6bb7c1ce549ddd5c8646d42c82ff7e25defbf9a311b5ea35139a97c3ff04
+READ 329f40601485490562bbaac5a2f0e8edcbb3fc32316c2139fea4e5984260f3a0
+READ 218f68d3ecc269d88654345f6555ae15cedcff54a820553afda4f0393d20c3c6
+READ ca41db8ce83cfd4e5ebaf062dcb3e5cfff23f5ec1d8ad1cb74bd9297580a5ba0
+READ ca41db8ce83cfd4e5ebaf062dcb3e5cfff23f5ec1d8ad1cb74bd9297580a5ba0
+READ 1026c83f065d64c96e9cf9b2707ec6fed1353aaf7aaefc5eba6bda8a21ddeda3
+READ 1026c83f065d64c96e9cf9b2707ec6fed1353aaf7aaefc5eba6bda8a21ddeda3
+READ 5fdae716ff1f39e22d49ceb8903ce9672fe62dc05c1b5dd06aaacc68efc6124e
+READ e33e6f587a2bd7a8d2fc5ae756987991cdbefa8518cb897c4768f5b82efadba0
+READ 1b760a0d3dfb1d90b66e0c4823fd65581a8d5de635a291c0e925ec67924fb7a8
+READ cc143f16415f34ce6082c05bfe7c0e3f3641a8f3ef143c709641212ea324a9f3
+READ 8ca8fe1c68b7cec6003b29223b4a26ed8201351df1529bc14c43ebddd33d2ae8
+READ 6779e00d4e4de53e6d2af8dfd3f491a02efe502c2c77ed4d4f6730084efb1eaf
+READ 329f40601485490562bbaac5a2f0e8edcbb3fc32316c2139fea4e5984260f3a0
+READ 8d9ec950dd9b17676b9619f48e47ea08504a1e9e768b16eeb8241ce18a359c22
+READ a17fcf0977517e85eaa9f5c92ce3ed315ceb13a54a3621da0603b0ddf2d9016c
+READ ed492b9a0349e8b9acb86b72b99fbaa69509e2e5d6f768e08455940a6bfb01dd
+READ 35852e3cbed8d91aa758b611d32f4840f5af9ba9dc769c956d9450a4dcb8d61e
+READ 577a65e176eefbd3056b6dc3f6207945aee7f0730090d62553db16f8111d1893
+READ e87309d6fdb39d7654b03ee7419f9d4fe683874e3f627256f1de6c5174a5a92d
+READ ee91caba7b875607c6acf9b1691bdce84d59ca74219d8a1b84aec16f8f7b64fe
+READ a65e68fe9d99380b6380710f84089ffd39419766cf8465aef86827ee0f6679a2
+READ a65e68fe9d99380b6380710f84089ffd39419766cf8465aef86827ee0f6679a2
+READ 1a97a9aef9f972a1a0dfbc545c77eac7895b96f47b62d320dee35632ec60a7af
+READ c97ca5bbc2917814514fda294e4b7a147cf4f70044550fe01fd50c3cba3546ed
+READ e26161b81c80f54388f171268b30ba08d21ce3f6b70c851caba8aeecd1c2c4b3
+READ 6787cf7b8b81e0801b09021396785785a2d2273cc766b466a691f4c4637b29a9
+READ 366e61d654618f2945ec12b0e88503b9a637c795f387a2f9794e1168a25ba0a7
+READ 203014735960e4cc67abe6f150a896e74749d00a8c616766de7d696627e34cc8
+READ 8c4a11703d5f0b2cbcd041a4d37a96a5a5361a8c54f6fd8b093c89c9cdb93198
+READ 8c4a11703d5f0b2cbcd041a4d37a96a5a5361a8c54f6fd8b093c89c9cdb93198
+READ 4e9dd01a2104d68f2bb43649bd1b1fc6913750db3dd2b9a1153bfe6477856b28
+READ 4efaff6b9fc8143b7d46cbf66e366be4ff834d388c4d1dd8402cd4de45e59466
+READ 710498fea184b5dd71134bc73d6c1b11c13ec39fb118d8bbaa047bb21366b085
+READ f5cf6bb7c1ce549ddd5c8646d42c82ff7e25defbf9a311b5ea35139a97c3ff04
+READ 329f40601485490562bbaac5a2f0e8edcbb3fc32316c2139fea4e5984260f3a0
+READ a508c6cb147cc061357517d4d08d045a418b4934923e5607d915d9c281561cf5
+READ f32f53fe5f0731fd0d31845bc594b63a2ae12c1f398746c8f41617a42d16df24
+READ 2b8f6c944e27df72902ccdb68c62ed22d08c749d57859a802478ed4fd1038d23
+READ 869ef5b031a0abbfec8eb0be5c5fee0ddc8798bd8ab0e899b37ad58525bf3e3a
+READ 0049d8bfcb67e1276115b770960901927e4509bb9c0bf1fad6bec08e55d408be
+READ 7dc0e3a4b3293617ce6c049720c25b137a9be0bf7033dc72cb9403ea091930d3
+READ 5087bae10c1cc2a6433acdbf5a1cd42c5e08e35f5d699a220dd85c1c1a3ef151
+READ 9a11051cfecf6dad5516804e76d690754d54aff817f1f9ab86ab640f97620f8a
+READ 1c6df716c812b1a66bd6e82f0f765ca155004e333b6cc03f8de5d48cb770e46d
+READ 6248c450a07357536b2c56d579b7e6afad07cf723aae281ec2b7dcb1d4cb7a2d
+READ a3b558cb8c1905cbb2ad8c871438ec526b2136102dae9b4416a9cad7d0e8416d
+READ 009d6b9f92d70885f6b08ca2b95017bb1f15059f476866bb796177876e80f1b2
+READ ed492b9a0349e8b9acb86b72b99fbaa69509e2e5d6f768e08455940a6bfb01dd
+READ 7ff47ce376f4f5b460634127013a3d2884a061c254f8bc77b9c65660fb2408b2
+READ e037c0aad47e5eb90d1325a757979f80b0f687539644d2c276d2888d4d069121
+READ cc143f16415f34ce6082c05bfe7c0e3f3641a8f3ef143c709641212ea324a9f3
+READ 8ca8fe1c68b7cec6003b29223b4a26ed8201351df1529bc14c43ebddd33d2ae8
+READ 8d9ec950dd9b17676b9619f48e47ea08504a1e9e768b16eeb8241ce18a359c22
+READ 1c24c1c89cb488b242b83facbed719b69c55331d97f8edeb668575163c0b8eb2
+READ 35852e3cbed8d91aa758b611d32f4840f5af9ba9dc769c956d9450a4dcb8d61e
+READ bbda38b193affeba27df2d33cc54ac80c7932d3ba119846429eaa0eeb5bc3120
+READ 501f331778ee0ff7556662ac22be7fac07e6b01be45c139597140cc3b53f6511
+READ 501f331778ee0ff7556662ac22be7fac07e6b01be45c139597140cc3b53f6511
+READ a65e68fe9d99380b6380710f84089ffd39419766cf8465aef86827ee0f6679a2
+READ d60601243d5b454d9290f63e70f3a60dfa34becc2ce3a401bbbb7fee8241385a
+READ 6c9fb39af5f74d75f56fb15b17d28771395c5a3cf4a710d8b6f649b25caf2eff
+READ ed1780a46dceaae8b38f9e75a40431f13534b59d92bfcb29acc2d2dfb69c9f5d
+READ 7a203bbd32b6f4a2daff14b6022bfc6ee298fbd0a613e7eb63ef1e03d31fd4b9
+READ 205f8b502e17eec9e972f9bcb83900badde5f95f05b56fffb738fb848b39dabc
+READ cbfebc2a23d6052a7c5e1b83e51cde7ca76f8f298fe11123d6c1d07bb310c49e
+READ c78e08b98950790e6f01d5b5313765b748a5f48e3eb93937a6da27ff096d4e13
+READ 73b30e3678ddbdcb3b807ac2216bbfa82f5f09d3e14250f2f5c1bed59dfdae25
+READ 6c245643ed718e9c4dd144de265099bf3ff8992f1bb28d99b0d5260cab153a2f
+READ a17fcf0977517e85eaa9f5c92ce3ed315ceb13a54a3621da0603b0ddf2d9016c
+READ e037c0aad47e5eb90d1325a757979f80b0f687539644d2c276d2888d4d069121
+READ f32f53fe5f0731fd0d31845bc594b63a2ae12c1f398746c8f41617a42d16df24
+READ 2b8f6c944e27df72902ccdb68c62ed22d08c749d57859a802478ed4fd1038d23
+READ 35852e3cbed8d91aa758b611d32f4840f5af9ba9dc769c956d9450a4dcb8d61e
+READ 5c4d2c55766decb985fff8117b26ed2223aa2afd21911db77de8c3aedd5d792e
+READ 0049d8bfcb67e1276115b770960901927e4509bb9c0bf1fad6bec08e55d408be
+DIRTY 0049d8bfcb67e1276115b770960901927e4509bb9c0bf1fad6bec08e55d408be
+CLEAN 0049d8bfcb67e12761

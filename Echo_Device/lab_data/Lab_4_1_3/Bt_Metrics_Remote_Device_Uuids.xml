@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="F4:5C:89:C7:54:F0">paired_dev_supp_uuids_a2dpsrc_hfpag_other</string>
+    <string name="F4:4E:FD:C6:29:FC">paired_dev_supp_uuids_a2dpsrc_a2dpsink_hfpclient_other</string>
+</map>

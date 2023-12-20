@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<users nextSerialNumber="10" version="7">
+    <guestRestrictions>
+        <restrictions no_sms="true" no_install_unknown_sources="true" no_config_wifi="true" no_outgoing_calls="true" />
+    </guestRestrictions>
+    <deviceOwnerUserId id="-10000" />
+    <user id="0" />
+</users>

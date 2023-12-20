@@ -1,0 +1,20 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: evtx_carved
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Feature-File-Version: 1.1
+970512048	evtx_carved/000/970512048.evtx_orphan_record	<fileobject><filename>evtx_carved/000/970512048.evtx_orphan_record</filename><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+1470367288	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+1508242512	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+1508515048	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+1617990088	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+1664196720	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+1965464968	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+2134939584	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+2346527472	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+2637239968	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+4585285904	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+5446238760	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+6737412552	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+6737412936	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>
+6942973000	<CACHED>	<fileobject><filesize>8</filesize><hashdigest type='sha1'>1eead10f1d419722a83a03781dfa8625670b33e4</hashdigest></fileobject>

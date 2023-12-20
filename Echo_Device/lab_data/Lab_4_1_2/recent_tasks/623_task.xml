@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<task task_id="623" real_activity="com.amazon.knight.btavrcp/.MainActivity" real_activity_suspended="false" affinity="10130:com.amazon.knight.btavrcp" root_has_reset="false" auto_remove_recents="false" asked_compat_mode="false" user_id="0" user_setup_complete="true" effective_uid="10130" last_time_moved="1698082926886" never_relinquish_identity="true" task_description_color="ff151920" task_description_colorBackground="ff151920" task_affiliation_color="-15394528" task_affiliation="623" prev_affiliation="-1" next_affiliation="-1" calling_uid="10130" calling_package="com.amazon.knight.btavrcp" resize_mode="4" supports_picture_in_picture="false" min_width="-1" min_height="-1" persist_task_version="1">
+<intent component="com.amazon.knight.btavrcp/.MainActivity" flags="10000000" />
+</task>
+

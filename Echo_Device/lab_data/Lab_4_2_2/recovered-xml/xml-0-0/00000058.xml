@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:version="2" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="en">
+ <head>
+  <styling>
+   <style xml:id="AmazonDefaultStyle" tts:fontFamily="monospace" tts:color="white" tts:fontSize="1c"></style>
+  </styling>
+  <layout>
+   <region xml:id="AmazonDefaultRegion" tts:extent="80% 15%" tts:origin="10% 80%" tts:displayAlign="after" tts:textAlign="center"></region>
+  </layout>
+ </head>
+ <body>
+  <div>
+   <p begin="00:01:18.287" end="00:01:20.506" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[jet engines starting]</p>
+   <p begin="00:01:50.884" end="00:01:53.017" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[indistinct radio chatter]</p>
+   <p begin="00:02:01.852" end="00:02:04.072" region="AmazonDefaultRegion" style="AmazonDefaultStyle">["Danger Zone" playing]</p>
+   <p begin="00:02:08.212" end="00:02:12.303" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Revving up your engine <br />Listen to her howlin' roar♪ </p>
+   <p begin="00:02:14.218" end="00:02:17.787" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Metal under tension <br />Beggin' you to touch and go♪ </p>
+   <p begin="00:02:20.659" end="00:02:24.663" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Highway to the Danger Zone♪</p>
+   <p begin="00:02:26.143" end="00:02:30.669" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Ride into the Danger Zone♪</p>
+   <p begin="00:02:32.671" end="00:02:34.238" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Headin' into twilight♪</p>
+   <p begin="00:02:34.368" end="00:02:36.588" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Spreading out <br />Her wings tonight♪</p>
+   <p begin="00:02:38.242" end="00:02:40.026" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ She got you <br />Jumpin' off the deck♪</p>
+   <p begin="00:02:40.157" end="00:02:42.637" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Shoving into overdrive♪</p>
+   <p begin="00:02:44.944" end="00:02:49.355" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ Highway to the Danger Zone♪</p>
+   <p begin="00:02:50.645" end="00:02:56.521" region="AmazonDefaultRegion" style="AmazonDefaultStyle">♪ I'll take you right <br />Into the Danger Zone♪</p>
+   <p begin="00:02:58.436" end="00:03:00.481" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[engine roaring]</p>
+   <p begin="00:03:15.409" end="00:03:17.716" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[reporter on radio] Today, we're looking <br />at some of the hottest weather... </p>
+   <p begin="00:03:17.847" end="00:03:19.892" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[chattering continues on radio]</p>
+   <p begin="00:03:40.608" end="00:03:41.871" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[ratchet clicking]</p>
+   <p begin="00:03:43.903" end="00:03:44.985" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[grunts]</p>
+   <p begin="00:03:46.000" end="00:03:47.110" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[blows]</p>
+   <p begin="00:04:38.057" end="00:04:39.885" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[motorcycle engine starts]</p>
+   <p begin="00:05:12.831" end="00:05:13.919" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Hey.</p>
+   <p begin="00:05:18.786" end="00:05:19.874" region="AmazonDefaultRegion" style="AmazonDefaultStyle">What is it?</p>
+   <p begin="00:05:22.014" end="00:05:23.363" region="AmazonDefaultRegion" style="AmazonDefaultStyle">What?</p>
+   <p begin="00:05:23.494" end="00:05:25.191" region="AmazonDefaultRegion" style="AmazonDefaultStyle">We've been ordered<br />to stand down.</p>
+   <p begin="00:05:25.322" end="00:05:26.671" region="AmazonDefaultRegion" style="AmazonDefaultStyle">They're scrapping<br />the program.</p>
+   <p begin="00:05:27.933" end="00:05:29.891" region="AmazonDefaultRegion" style="AmazonDefaultStyle">They say<br />we fell short.</p>
+   <p begin="00:05:30.212" end="00:05:32.111" region="AmazonDefaultRegion" style="AmazonDefaultStyle">The contract threshold<br />is Mach 10.</p>
+   <p begin="00:05:32.242" end="00:05:34.679" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Mach 10 is supposed to be<br />in two months.</p>
+   <p begin="00:05:34.809" end="00:05:36.594" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Today's test point is Mach 9.</p>
+   <p begin="00:05:36.724" end="00:05:38.291" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Well, that's not<br />good enough.</p>
+   <p begin="00:05:38.732" end="00:05:39.931" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Says who?</p>
+   <p begin="00:05:40.171" end="00:05:41.512" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Admiral Cain.</p>
+   <p begin="00:05:42.817" end="00:05:44.167" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Hondo]<br />The Drone Ranger.</p>
+   <p begin="00:05:44.477" end="00:05:46.636" region="AmazonDefaultRegion" style="AmazonDefaultStyle">He wants our budget for<br />his unmanned program.</p>
+   <p begin="00:05:46.896" end="00:05:50.077" region="AmazonDefaultRegion" style="AmazonDefaultStyle">He's on his way to kill the test<br />and shut us down personally.</p>
+   <p begin="00:06:00.748" end="00:06:01.836" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[chuckles]</p>
+   <p begin="00:06:04.303" end="00:06:05.546" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Well, he isn't here yet.</p>
+   <p begin="00:06:09.931" end="00:06:10.976" region="AmazonDefaultRegion" style="AmazonDefaultStyle">They want Mach 10,</p>
+   <p begin="00:06:12.087" end="00:06:13.312" region="AmazonDefaultRegion" style="AmazonDefaultStyle">let's give 'em Mach 10.</p>
+   <p begin="00:06:19.028" end="00:06:20.855" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[monitor beeping]</p>
+   <p begin="00:06:24.642" end="00:06:25.686" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[inhales]</p>
+   <p begin="00:06:31.344" end="00:06:34.043" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Now remember, the contract threshold<br />is Mach 10.</p>
+   <p begin="00:06:34.173" end="00:06:37.872" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Not 10.1. Not 10.2.<br />Mach 10.</p>
+   <p begin="00:06:38.003" end="00:06:39.787" region="AmazonDefaultRegion" style="AmazonDefaultStyle">That should keep<br />the program alive.</p>
+   <p begin="00:06:43.097" end="00:06:44.443" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I don't like<br />that look, Mav.</p>
+   <p begin="00:06:46.445" end="00:06:47.795" region="AmazonDefaultRegion" style="AmazonDefaultStyle">It's the only one I got.</p>
+   <p begin="00:06:57.022" end="00:06:59.099" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Maverick] Control, <br /> this is Darkstar. How do you read?</p>
+   <p begin="00:06:59.459" end="00:07:01.887" region="AmazonDefaultRegion" style="AmazonDefaultStyle"> Darkstar,Control.<br />Loud and clear. How me?</p>
+   <p begin="00:07:01.938" end="00:07:05.248" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Loud and clear. Takeoff recheck<br />complete. Ready for APU start.</p>
+   <p begin="00:07:05.378" end="00:07:07.859" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[instruments chime][Hondo] <br />Ready left engine start. </p>
+   <p begin="00:07:09.861" end="00:07:10.992" region="AmazonDefaultRegion" style="AmazonDefaultStyle"> Ready right engine start. </p>
+   <p begin="00:07:12.211" end="00:07:13.252" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Thumbs for taxi.</p>
+   <p begin="00:07:15.867" end="00:07:17.564" region="AmazonDefaultRegion" style="AmazonDefaultStyle">We are ready for taxi.</p>
+   <p begin="00:07:19.349" end="00:07:22.787" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Tower, this is Darkstar. <br />We are taxiing with information Alpha.</p>
+   <p begin="00:07:22.917" end="00:07:24.484" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[traffic controller]<br />Darkstar, you are clear to taxi. </p>
+   <p begin="00:07:24.615" end="00:07:27.792" region="AmazonDefaultRegion" style="AmazonDefaultStyle"> Runway 21. Winds 210, 10. </p>
+   <p begin="00:07:27.922" end="00:07:30.229" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Fuel temps are looking good.<br />[Hondo] Control concurs. </p>
+   <p begin="00:07:30.360" end="00:07:33.189" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Maverick] Battery's holding at 95%. <br />Cabin pressure looks good. </p>
+   <p begin="00:07:33.319" end="00:07:36.017" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Hondo] Control concurs. Tower, this is<br />Darkstar. We're ready for takeoff. </p>
+   <p begin="00:07:36.148" end="00:07:39.108" region="AmazonDefaultRegion" style="AmazonDefaultStyle"> Requesting an unrestricted climb <br />to 600 and above. </p>
+   <p begin="00:07:39.238" end="00:07:41.637" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[traffic controller]<br />Darkstar, the runway and skies are yours. </p>
+   <p begin="00:07:41.938" end="00:07:43.659" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[guard]<br />Rear Admiral Chester Cain.</p>
+   <p begin="00:07:44.200" end="00:07:46.985" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Hondo] Maverick,<br />Cain just pulled up to the gate.</p>
+   <p begin="00:07:47.676" end="00:07:49.277" region="AmazonDefaultRegion" style="AmazonDefaultStyle">It's not too late to stop,<br />buddy.</p>
+   <p begin="00:07:50.307" end="00:07:52.694" region="AmazonDefaultRegion" style="AmazonDefaultStyle"> You know what happens to you <br />if you go through with this. </p>
+   <p begin="00:07:55.124" end="00:07:57.126" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I know what happens<br />to everyone else if I don't.</p>
+   <p begin="00:07:59.867" end="00:08:01.695" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Darkstar is ready for takeoff. </p>
+   <p begin="00:08:04.568" end="00:08:05.757" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Everyone,</p>
+   <p begin="00:08:06.178" end="00:08:08.564" region="AmazonDefaultRegion" style="AmazonDefaultStyle">go for takeoff,<br />starting with engine.</p>
+   <p begin="00:08:08.605" end="00:08:10.469" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Engine, go.<br />-Thermals, go.</p>
+   <p begin="00:08:10.500" end="00:08:12.591" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Fuel, go.<br />-Electric, go.</p>
+   <p begin="00:08:12.672" end="00:08:14.040" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Control surfaces, go.</p>
+   <p begin="00:08:14.171" end="00:08:16.797" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Hondo] Darkstar, Control. <br />You're cleared for takeoff. </p>
+   <p begin="00:08:16.928" end="00:08:18.147" region="AmazonDefaultRegion" style="AmazonDefaultStyle">All right, sweetheart,</p>
+   <p begin="00:08:19.060" end="00:08:20.439" region="AmazonDefaultRegion" style="AmazonDefaultStyle">one last ride.</p>
+   <p begin="00:08:20.509" end="00:08:22.716" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[engines power up]</p>
+   <p begin="00:08:46.305" end="00:08:50.091" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Hondo]Darkstar, you are cleared above 600<br />Increase to Mach 3.5. </p>
+   <p begin="00:08:50.222" end="00:08:53.878" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Cleared above 600.<br />Increase to Mach 3.5.</p>
+   <p begin="00:08:58.604" end="00:08:59.784" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door slams]</p>
+   <p begin="00:09:00.225" end="00:09:01.276" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Admiral.</p>
+   <p begin="00:09:01.446" end="00:09:04.505" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Uh, just in time, sir.I'm early. <br />So are you.</p>
+   <p begin="00:09:04.845" end="00:09:06.107" region="AmazonDefaultRegion" style="AmazonDefaultStyle">You care to explain?</p>
+   <p begin="00:09:06.238" end="00:09:08.066" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Transitioning to scramjet.</p>
+   <p begin="00:09:12.853" end="00:09:14.246" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[engines roaring]</p>
+   <p begin="00:09:22.123" end="00:09:24.275" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Hondo] Uh, Mav,<br />Admiral Cain is asking--</p>
+   <p begin="00:09:24.316" end="00:09:26.426" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Ordering.<br />-Ordering that we bring her down.</p>
+   <p begin="00:09:27.027" end="00:09:29.049" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Maverick imitates audio distortion] <br />...op... oop... alpha... </p>
+   <p begin="00:09:29.170" end="00:09:30.352" region="AmazonDefaultRegion" style="AmazonDefaultStyle"> ...three, oh... </p>
+   <p begin="00:09:30.393" end="00:09:33.352" region="AmazonDefaultRegion" style="AmazonDefaultStyle">...assing... ach...<br />ive... .4, and--</p>
+   <p begin="00:09:33.483" end="00:09:35.218" region="AmazonDefaultRegion" style="AmazonDefaultStyle"> ...within six... </p>
+   <p begin="00:09:35.379" end="00:09:37.190" region="AmazonDefaultRegion" style="AmazonDefaultStyle">This is where we've had<br />trouble with comms, sir.</p>
+   <p begin="00:09:37.231" end="00:09:40.011" region="AmazonDefaultRegion" style="AmazonDefaultStyle">It's the Earth's curvature.<br />It's called "Earth Bulge."</p>
+   <p begin="00:09:40.141" end="00:09:41.296" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Did anyone offer you<br />a coffee?</p>
+   <p begin="00:09:43.207" end="00:09:44.254" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Okay.</p>
+   <p begin="00:09:48.062" end="00:09:49.847" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[beeping]</p>
+   <p begin="00:09:52.066" end="00:09:53.981" region="AmazonDefaultRegion" style="AmazonDefaultStyle">He's at Mach 7,<br />pushing 8.</p>
+   <p begin="00:09:54.002" end="00:09:55.983" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Flight data?Receiving. Data is good.</p>
+   <p begin="00:10:01.641" end="00:10:04.731" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Temperature's climbing. Response<br /> is still stable. We're feeling good.</p>
+   <p begin="00:10:04.862" end="00:10:06.907" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[beeping]</p>
+   <p begin="00:10:08.387" end="00:10:09.780" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[operator] Mach 8.8. </p>
+   <p begin="00:10:10.607" end="00:10:11.825" region="AmazonDefaultRegion" style="AmazonDefaultStyle">8.9.</p>
+   <p begin="00:10:12.304" end="00:10:13.479" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Mach 9.</p>
+   <p begin="00:10:13.610" end="00:10:15.264" region="AmazonDefaultRegion" style="AmazonDefaultStyle">He's the fastest man<br />alive.</p>
+   <p begin="00:10:34.544" end="00:10:36.197" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Talk to me, Goose.</p>
+   <p begin="00:10:38.243" end="00:10:39.288" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Mach 9.1.</p>
+   <p begin="00:10:40.332" end="00:10:41.450" region="AmazonDefaultRegion" style="AmazonDefaultStyle">9.2.</p>
+   <p begin="00:10:44.989" end="00:10:46.947" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[jet accelerating]</p>
+   <p begin="00:10:48.732" end="00:10:49.950" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Mach 9.3.</p>
+   <p begin="00:10:52.475" end="00:10:53.911" region="AmazonDefaultRegion" style="AmazonDefaultStyle">9.4.</p>
+   <p begin="00:10:55.347" end="00:10:57.218" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Approaching high hypersonic.</p>
+   <p begin="00:11:07.316" end="00:11:08.317" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[beeps]</p>
+   <p begin="00:11:09.666" end="00:11:11.189" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Windshield hot caution.</p>
+   <p begin="00:11:19.719" end="00:11:22.026" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-[alarm blaring]<br />-Surface temp rising.</p>
+   <p begin="00:11:27.466" end="00:11:29.207" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Come on, sweetheart,<br />just a little more.</p>
+   <p begin="00:11:30.295" end="00:11:31.992" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Just a little.<br />-[beeps]</p>
+   <p begin="00:11:35.292" end="00:11:36.343" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Come on!</p>
+   <p begin="00:11:42.641" end="00:11:43.674" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[shouts] Come on!</p>
+   <p begin="00:11:47.138" end="00:11:48.659" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-[beeps]<br />-[gasps]</p>
+   <p begin="00:11:48.660" end="00:11:51.229" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Mach 10!<br />-[all cheering]</p>
+   <p begin="00:11:52.835" end="00:11:54.695" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Put that<br />in your Pentagon budget!</p>
+   <p begin="00:11:56.277" end="00:11:57.366" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Sir.</p>
+   <p begin="00:12:08.594" end="00:12:10.204" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[whispers]<br />Oh, don't do it. Don't do it.</p>
+   <p begin="00:12:10.335" end="00:12:11.412" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Just...</p>
+   <p begin="00:12:13.294" end="00:12:15.384" region="AmazonDefaultRegion" style="AmazonDefaultStyle">a little push.</p>
+   <p begin="00:12:18.042" end="00:12:19.086" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[beeps]</p>
+   <p begin="00:12:19.126" end="00:12:21.302" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Holy shit.</p>
+   <p begin="00:12:21.433" end="00:12:23.174" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[alarm blaring]</p>
+   <p begin="00:12:25.350" end="00:12:27.265" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[breathes heavily]</p>
+   <p begin="00:12:31.268" end="00:12:33.721" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Cain]<br />You got some balls, stick jockey.</p>
+   <p begin="00:12:34.231" end="00:12:35.443" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I'll give you that.</p>
+   <p begin="00:12:35.534" end="00:12:37.014" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[instruments beeping]</p>
+   <p begin="00:12:38.363" end="00:12:39.364" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[alarm blaring]</p>
+   <p begin="00:12:39.495" end="00:12:40.887" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Oh, shit.</p>
+   <p begin="00:12:46.320" end="00:12:47.391" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Maverick.</p>
+   <p begin="00:12:49.336" end="00:12:50.451" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Maverick!</p>
+   <p begin="00:12:53.829" end="00:12:55.336" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[explosion]</p>
+   <p begin="00:13:02.169" end="00:13:04.171" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[horn honking]</p>
+   <p begin="00:13:07.044" end="00:13:08.262" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[bell jingling]</p>
+   <p begin="00:13:11.396" end="00:13:13.616" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[country music playing<br />over speakers]</p>
+   <p begin="00:13:13.746" end="00:13:15.444" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[jingling continues]</p>
+   <p begin="00:13:18.664" end="00:13:20.405" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[jingling continues]</p>
+   <p begin="00:13:34.072" end="

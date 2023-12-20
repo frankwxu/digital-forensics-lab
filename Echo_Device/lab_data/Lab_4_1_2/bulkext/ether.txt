@@ -1,0 +1,1261 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: ether
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Feature-File-Version: 1.1
+154571741	0E:8D:76:68:00:01	ite BD address <0E:8D:76:68:00:01>\000      NAP-UAP-
+154571807	0E:8D:76:68:00:01	/boots -c waddr 0E:8D:76:68:00:01\000pwrlvl\000Set powe
+154630487	0E:8D:76:68:00:01	ite BD address <0E:8D:76:68:00:01>\000      NAP-UAP-
+154630553	0E:8D:76:68:00:01	/boots -c waddr 0E:8D:76:68:00:01\000pwrlvl\000Set powe
+167475296	00:11:22:33:ff:44	11:22:33:44 and\01200:11:22:33:ff:44 etc.\012Offset and
+167476753	00:11:22:33:ff:44	11:22:33:44 and 00:11:22:33:ff:44 etc. Offset and
+178880919	00:0c:e7:66:32:dd	ride 0\012#MacAddr 00:0c:e7:66:32:dd\012Nss 2\012AmsduInAm
+309393892	00:0c:e7:66:32:e1	verride\000MacAddr\00000:0c:e7:66:32:e1\000\000\000\0016[wlan][%u]%
+553203704-ZIP-2622549	01:23:45:67:89:AB	23456789ABCDEF\000\02101:23:45:67:89:AB\000\0060x%08x\000\0011\000\0071.2
+623962061	01:23:45:67:89:AB	23456789ABCDEF\000\02101:23:45:67:89:AB\000\0060x%08x\000\0011\000\0071.2
+629492906	00:17:83:58:5D:CC	0:00\000\01000:04:48\000\02100:17:83:58:5D:CC\000\01000:1E:AE\000\01000:2
+692574304	00:11:22:33:ff:44	11:22:33:44 and\01200:11:22:33:ff:44 etc.\012Offset and
+692575761	00:11:22:33:ff:44	11:22:33:44 and 00:11:22:33:ff:44 etc. Offset and
+1068118727	90:FD:9F:E3:94:9A	 "macAddress": "90:FD:9F:E3:94:9A",\012          "rs
+4066835727-ZIP-1123	F4:5C:89:C7:54:F0	UUID for device F4:5C:89:C7:54:F0\01210-13 01:55:23.
+4066835727-ZIP-1992	F4:5C:89:C7:54:F0	ties() - device F4:5C:89:C7:54:F0\01210-13 01:55:23.
+4066835727-ZIP-2380	54:3A:D6:28:63:9C	UUID for device 54:3A:D6:28:63:9C\01210-13 01:55:23.
+4526991312-ZIP-6682714	01:23:45:67:89:AB	23456789ABCDEF\000\02101:23:45:67:89:AB\000\0060x%08x\000\0030x0\000\0011
+4712635145-ZIP-8395	F4:5C:89:C7:54:F0	UUID for device F4:5C:89:C7:54:F0\01210-22 23:16:32.
+4712635145-ZIP-9457	F4:5C:89:C7:54:F0	ties() - device F4:5C:89:C7:54:F0\01210-22 23:16:32.
+4712635145-ZIP-10186	F4:5C:89:C7:54:F0	HFP with device F4:5C:89:C7:54:F0 priority -1\01210-
+4712635145-ZIP-10318	F4:5C:89:C7:54:F0	2dpSink. device=F4:5C:89:C7:54:F0\01210-22 23:16:32.
+4712635145-ZIP-10444	F4:5C:89:C7:54:F0	 A2DP sink with F4:5C:89:C7:54:F0\01210-22 23:16:32.
+4712635145-ZIP-10657	f4:5c:89:c7:54:f0	nnect_src: Peer f4:5c:89:c7:54:f0\01210-22 23:16:32.
+4712635145-ZIP-10793	F4:4E:FD:C6:29:FC	HFP with device F4:4E:FD:C6:29:FC priority 100\01210
+4712635145-ZIP-10926	F4:4E:FD:C6:29:FC	2dpSink. device=F4:4E:FD:C6:29:FC\01210-22 23:16:32.
+4712635145-ZIP-11069	F4:4E:FD:C6:29:FC	ink with device F4:4E:FD:C6:29:FC priority 100\01210
+4712635145-ZIP-11193	F4:4E:FD:C6:29:FC	UUID for device F4:4E:FD:C6:29:FC\01210-22 23:16:32.
+4712635145-ZIP-11972	F4:4E:FD:C6:29:FC	ties() - device F4:4E:FD:C6:29:FC\01210-22 23:16:32.
+4712635145-ZIP-12366	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+4712635145-ZIP-12522	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+4712635145-ZIP-12712	f4:5c:89:c7:54:f0	r: peer_address=f4:5c:89:c7:54:f0 bta_handle=0x46
+4712635145-ZIP-13549	f4:5c:89:c7:54:f0	TA_AvOpen: peer f4:5c:89:c7:54:f0 handle:0x46 use
+4712635145-ZIP-13709	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=1 av_peer
+4712635145-ZIP-13865	f4:5c:89:c7:54:f0	:00:00 new_addr=f4:5c:89:c7:54:f0\01210-22 23:16:32.
+4712635145-ZIP-14057	f4:5c:89:c7:54:f0	dService: peer: f4:5c:89:c7:54:f0 UUID: 0x110a\01210
+4712635145-ZIP-14184	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 0 
+4712639123-ZIP-2927	F4:5C:89:C7:54:F0	2DP with device F4:5C:89:C7:54:F0 priority -1\01210-
+4712639123-ZIP-3073	F4:4E:FD:C6:29:FC	2DP with device F4:4E:FD:C6:29:FC priority 100\01210
+4712659617-ZIP-16869	b0:f7:c4:7d:5a:29	Connecting with b0:f7:c4:7d:5a:29 as the mac addr
+4712673825-ZIP-2152	f4:5c:89:c7:54:f0	sdp_cback: peer f4:5c:89:c7:54:f0 A2DP service di
+4712673825-ZIP-2308	f4:5c:89:c7:54:f0	_EVT: peer_addr=f4:5c:89:c7:54:f0\01210-22 23:16:38.
+4712673825-ZIP-2400	f4:5c:89:c7:54:f0	ectReq: address=f4:5c:89:c7:54:f0 channel_index=5
+4712673825-ZIP-2773	f4:5c:89:c7:54:f0	ectReq: address=f4:5c:89:c7:54:f0 result=0\01210-22 
+4712794056-ZIP-10259	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 22:27:17.
+4712794056-ZIP-10487	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 22:27:17.
+4713533653-ZIP-17245	F4:5C:89:C7:54:F0	UUID for device F4:5C:89:C7:54:F0\01210-08 06:59:25.
+4713533653-ZIP-18024	F4:5C:89:C7:54:F0	ties() - device F4:5C:89:C7:54:F0\01210-08 06:59:25.
+4713533653-ZIP-18833	F4:5C:89:C7:54:F0	HFP with device F4:5C:89:C7:54:F0 priority -1\01210-
+4713533653-ZIP-18965	F4:5C:89:C7:54:F0	2dpSink. device=F4:5C:89:C7:54:F0\01210-08 06:59:25.
+4713533653-ZIP-19091	F4:5C:89:C7:54:F0	 A2DP sink with F4:5C:89:C7:54:F0\01210-08 06:59:25.
+4713533653-ZIP-19304	f4:5c:89:c7:54:f0	nnect_src: Peer f4:5c:89:c7:54:f0\01210-08 06:59:25.
+4713533653-ZIP-19418	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 0 
+4713533653-ZIP-19650	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+4713533653-ZIP-19806	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+4713533653-ZIP-19996	f4:5c:89:c7:54:f0	r: peer_address=f4:5c:89:c7:54:f0 bta_handle=0x46
+4713536629-ZIP-321	f4:5c:89:c7:54:f0	TA_AvOpen: peer f4:5c:89:c7:54:f0 handle:0x46 use
+4713536629-ZIP-481	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=1 av_peer
+4713536629-ZIP-637	f4:5c:89:c7:54:f0	:00:00 new_addr=f4:5c:89:c7:54:f0\01210-08 06:59:25.
+4713536629-ZIP-763	f4:5c:89:c7:54:f0	DTP version for f4:5c:89:c7:54:f0\01210-08 06:59:25.
+4713536629-ZIP-955	f4:5c:89:c7:54:f0	dService: peer: f4:5c:89:c7:54:f0 UUID: 0x110a\01210
+4713536629-ZIP-2095	f4:5c:89:c7:54:f0	ectReq: address=f4:5c:89:c7:54:f0 channel_index=5
+4713536629-ZIP-2217	f4:5c:89:c7:54:f0	ectReq: address=f4:5c:89:c7:54:f0 result=0\01210-08 
+4713536629-ZIP-2389	f4:5c:89:c7:54:f0	iate pairing to f4:5c:89:c7:54:f0\01210-08 06:59:26.
+4713536629-ZIP-2800	f4:5c:89:c7:54:f0	_cback bd_addr: f4:5c:89:c7:54:f0\01210-08 06:59:26.
+4713536629-ZIP-2911	f4:5c:89:c7:54:f0	T_IND_EVT: peer f4:5c:89:c7:54:f0 selected lcb_in
+4713536629-ZIP-3481	f4:5c:89:c7:54:f0	fig_state: Peer f4:5c:89:c7:54:f0 : sample_rate=4
+4713536629-ZIP-4453	f4:5c:89:c7:54:f0	e rc config for f4:5c:89:c7:54:f0\01210-08 06:59:26.
+4713536629-ZIP-4592	f4:5c:89:c7:54:f0	_chg.peer_addr: f4:5c:89:c7:54:f0\01210-08 06:59:26.
+4713536629-ZIP-4839	f4:5c:89:c7:54:f0	chk_start: peer f4:5c:89:c7:54:f0 channel:64 bta_
+4713536629-ZIP-5065	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+4713536629-ZIP-5246	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=2 av_peer
+4713536629-ZIP-5651	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+4713536629-ZIP-6069	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 1 
+4713536629-ZIP-6232	F4:5C:89:C7:54:F0	dpSource device=F4:5C:89:C7:54:F0\01210-08 06:59:26.
+4713536629-ZIP-6347	F4:5C:89:C7:54:F0	pSource: device F4:5C:89:C7:54:F0 PRIORITY_AUTO_C
+4713536629-ZIP-7568	F4:5C:89:C7:54:F0	file=12, device=F4:5C:89:C7:54:F0, 0 -> 2\01210-08 0
+4713536629-ZIP-12290	F4:5C:89:C7:54:F0	2DP with device F4:5C:89:C7:54:F0 priority -1\01210-
+4713561117-ZIP-6942	b0:f7:c4:7d:5a:29	Connecting with b0:f7:c4:7d:5a:29 as the mac addr
+4970348619	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+4970349744	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5035155596	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+5035159691	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+5034535365-ZIP-17753	5A:68:04:BD:7C:4A	ED for Device : 5A:68:04:BD:7C:4A\01210-16 10:55:14.
+5034535365-ZIP-17975	5A:68:04:BD:7C:4A	lass update for 5A:68:04:BD:7C:4A\01210-16 10:55:14.
+5064622155	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5064623284	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5064626251	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5064627380	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5064630347	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5064631476	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5064638539	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5064639668	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5064659019	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5064660148	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5081399371	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5081400496	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5081485387	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5081486512	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5081489483	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5081490608	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5086122065	F4:5C:89:C7:54:F0	  <string name="F4:5C:89:C7:54:F0">paired_dev_sup
+5086122153	F4:4E:FD:C6:29:FC	  <string name="F4:4E:FD:C6:29:FC">paired_dev_sup
+5091982495	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+5091982546	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+5094383691	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5094384816	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5096153675	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5096153960	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5096155880	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5096157204	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5096157599	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5096158338	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5096158918	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5096159632	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5096161679	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5096162077	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5096162235	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5096162649	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5096163014	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5096163819	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5096164482	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5096165944	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5096166825	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5096167794	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5096168665	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5096171997	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5096238231	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+5096238282	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+5096280139	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5096281264	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5098176587	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5098177712	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5098405963	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5098407088	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5098483787	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5098484912	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5100159051	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5100160176	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5093709441-ZIP-14206	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 22:27:52.
+5093709441-ZIP-18272	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 22:27:52.
+5093713138-ZIP-1086	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 22:27:52.
+5093713138-ZIP-2122	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 22:27:52.
+5093713138-ZIP-4606	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 22:27:53.
+5093713138-ZIP-9073	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 22:27:53.
+5093713138-ZIP-9727	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 22:27:53.
+5093713138-ZIP-10082	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 22:27:53.
+5179263468-ZIP-164065	01:23:45:67:89:AB	system/lib/\000\0010\000\02101:23:45:67:89:AB\000\0011\000\0071.2.3.4\000\0241.
+5215617099	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5215618224	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5215621195	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5215622320	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5215645771	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5215646896	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5215854667	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5215855792	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5215858763	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5215859888	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5216079947	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5216081072	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5197807298-ZIP-9412	73:7B:46:F7:82:D1	lass update for 73:7B:46:F7:82:D1\01210-23 12:57:45.
+5197807298-ZIP-9592	73:7B:46:F7:82:D1	ED for Device : 73:7B:46:F7:82:D1\01210-23 12:57:45.
+5200473624-ZIP-10442	41:5E:3E:EF:90:C0	lass update for 41:5E:3E:EF:90:C0\01210-23 13:57:45.
+5200473624-ZIP-10622	41:5E:3E:EF:90:C0	ED for Device : 41:5E:3E:EF:90:C0\01210-23 13:57:45.
+5202932877-ZIP-16483	67:98:FD:15:40:55	lass update for 67:98:FD:15:40:55\01210-23 21:12:45.
+5202932877-ZIP-16663	67:98:FD:15:40:55	ED for Device : 67:98:FD:15:40:55\01210-23 21:12:45.
+5204000888-ZIP-10911	7B:AA:63:52:96:9C	lass update for 7B:AA:63:52:96:9C\01210-23 12:27:45.
+5204000888-ZIP-11196	7B:AA:63:52:96:9C	ED for Device : 7B:AA:63:52:96:9C\01210-23 12:27:45.
+5204354203-ZIP-3870	4D:80:AC:F9:A7:5D	lass update for 4D:80:AC:F9:A7:5D\01210-23 12:42:44.
+5204354203-ZIP-4050	4D:80:AC:F9:A7:5D	ED for Device : 4D:80:AC:F9:A7:5D\01210-23 12:42:44.
+5204788925-ZIP-790	6C:C7:31:5A:D4:DD	lass update for 6C:C7:31:5A:D4:DD\01210-23 13:42:47.
+5204788925-ZIP-970	6C:C7:31:5A:D4:DD	ED for Device : 6C:C7:31:5A:D4:DD\01210-23 13:42:47.
+5206005475-ZIP-20152	4A:0D:01:B0:A5:6A	lass update for 4A:0D:01:B0:A5:6A\01210-23 13:27:46.
+5206005475-ZIP-20332	4A:0D:01:B0:A5:6A	ED for Device : 4A:0D:01:B0:A5:6A\01210-23 13:27:46.
+5210358006-ZIP-20152	60:63:53:F8:04:2B	lass update for 60:63:53:F8:04:2B\01210-23 14:12:44.
+5210358006-ZIP-20332	60:63:53:F8:04:2B	ED for Device : 60:63:53:F8:04:2B\01210-23 14:12:44.
+5266042955	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5266044080	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5266174539	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5266174824	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5266176744	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5266178068	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5266178463	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5266179202	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5266179782	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5266180496	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5266182543	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5266182941	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5266183099	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5266183513	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5266183878	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5266184683	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5266185346	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5266186808	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5266187689	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5266188658	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5266189529	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5266192861	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5267292747	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5267293032	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5267294952	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267296276	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5267296671	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5267297410	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5267297990	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5267298704	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5267300751	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5267301149	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267301307	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5267301721	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5267302086	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5267302891	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267303554	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5267305016	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5267305897	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5267306866	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267307737	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5267311069	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5267517515	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5267518640	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5267767883	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5267768168	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5267770088	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267771412	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5267771807	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5267772546	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5267773126	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5267773840	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5267775887	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5267776285	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267776443	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5267776857	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5267777222	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5267778027	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267778690	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5267780152	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5267781033	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5267782002	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5267782873	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5267786354	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5295729932-ZIP-453	51:AD:1D:42:96:90	lass update for 51:AD:1D:42:96:90\01210-23 13:12:44.
+5295729932-ZIP-633	51:AD:1D:42:96:90	ED for Device : 51:AD:1D:42:96:90\01210-23 13:12:44.
+5375885387	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5375886512	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5401021389	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+5401021440	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+5402243153	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+5402243446	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+5402243925	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+5402247249	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+5402247542	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+5402248021	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+5402251345	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+5402251638	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+5402252117	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+5429526603	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5429527728	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5429530699	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5429531824	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5429534795	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5429535920	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5475709003	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5475710128	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5476028491	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5476029616	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5530906624-ZIP-5435	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+5530906624-ZIP-9722	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530906624-ZIP-17695	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530906624-ZIP-18576	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530906624-ZIP-18813	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530909634-ZIP-4170	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530909634-ZIP-8297	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530909634-ZIP-9201	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-5424	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-5806	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-6043	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-6811	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-7193	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-7430	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-7812	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530913505-ZIP-8626	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530913505-ZIP-8863	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530913505-ZIP-10249	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-10854	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530913505-ZIP-11091	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530926721-ZIP-6575	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530926721-ZIP-17872	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530926721-ZIP-20216	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530930283-ZIP-7078	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530930283-ZIP-9028	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530930283-ZIP-10151	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530930283-ZIP-12556	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530930283-ZIP-14313	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530930283-ZIP-15543	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:38:00.
+5530930283-ZIP-16687	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530930283-ZIP-17069	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5530930283-ZIP-17306	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:38:00.
+5532718189-ZIP-6037	44:91:56:B7:C5:72	lass update for 44:91:56:B7:C5:72\01210-23 00:42:45.
+5532718189-ZIP-6677	44:91:56:B7:C5:72	ED for Device : 44:91:56:B7:C5:72\01210-23 00:42:45.
+5563744331	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5563745456	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5563748427	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5563749552	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5563752523	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5563753648	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5563760715	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5563761840	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5563768913	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+5563769206	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+5563769685	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+5563773068	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+5563838539	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5563839664	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5564001431	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+5564001482	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+5616633205	01:23:45:67:89:AB	23456789ABCDEF\000\02101:23:45:67:89:AB\000\0060x%08x\000\0030x0\000\0011
+5742698636	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+5748330571	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5748331696	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5748575391	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+5748575442	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+5767168075	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5767169200	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5767422027	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5767423152	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5745824162-ZIP-5913	66:69:6D:94:64:73	lass update for 66:69:6D:94:64:73\01210-23 05:12:44.
+5745824162-ZIP-6093	66:69:6D:94:64:73	ED for Device : 66:69:6D:94:64:73\01210-23 05:12:44.
+5746677014-ZIP-16414	6F:5E:87:0D:4E:92	lass update for 6F:5E:87:0D:4E:92\01210-21 18:12:43.
+5746677014-ZIP-16594	6F:5E:87:0D:4E:92	ED for Device : 6F:5E:87:0D:4E:92\01210-21 18:12:43.
+5746862275-ZIP-18260	44:90:59:3F:40:1B	lass update for 44:90:59:3F:40:1B\01210-23 04:27:44.
+5746862275-ZIP-18440	44:90:59:3F:40:1B	ED for Device : 44:90:59:3F:40:1B\01210-23 04:27:44.
+5773459531	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773460656	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5773463627	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773464752	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5773467723	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773468848	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5773471819	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773472944	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5773512779	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773513904	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5773561931	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773563056	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5773566027	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773567152	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5773570123	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5773571248	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5774741579	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5774742704	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5774745675	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5774746800	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5774749771	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5774750896	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5777653835	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5777654960	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5777657931	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5777659056	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5777662027	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5777663152	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5777666123	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5777667248	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5779750987	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5779752112	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5779776075	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5779776360	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5779778280	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5779779604	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5779779999	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5779780738	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5779781318	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5779782032	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5779784079	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5779784477	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5779784635	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5779785049	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5779785414	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5779786219	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5779786882	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5779788344	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5779789225	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5779790194	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5779791065	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5779794546	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5780004939	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5780006064	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5780025419	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5780026544	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5780103249	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+5780103542	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+5780104017	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+5780140619	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5780140904	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5780142824	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5780144148	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5780144543	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5780145282	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5780145862	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5780146576	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5780148623	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5780149021	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5780149179	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5780149593	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5780149958	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5780150763	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5780151426	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5780152888	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5780153769	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5780154738	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5780155609	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5780159090	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5781323851	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5781324976	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5783945291	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5783946416	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5783949387	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5783950512	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5783953483	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5783954608	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5784015435	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5784015720	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5784017640	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5784018964	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5784019359	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5784020098	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5784020678	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5784021392	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5784023439	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5784023837	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5784023995	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5784024409	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5784024774	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5784025579	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5784026242	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5784027704	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5784028585	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5784029554	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5784030425	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5784033906	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5784035403	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5784036528	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5784170577	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+5784170870	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+5784171345	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+5784449099	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5784450224	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5784748107	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5784749232	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5785710667	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5785711792	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5785714763	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5785715888	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5800070297	01:23:45:67:89:AB	\000\014/system/lib/\000\02101:23:45:67:89:AB\000\0071.2.3.4\000\0241.2.8
+5785768172-ZIP-7081	44:6D:18:77:FA:91	lass update for 44:6D:18:77:FA:91\01210-23 22:43:52.
+5785768172-ZIP-7484	44:6D:18:77:FA:91	ED for Device : 44:6D:18:77:FA:91\01210-23 22:43:52.
+5815730644-ZIP-11625	f4:5c:89:c7:54:f0	ocal_sep=1 addr=f4:5c:89:c7:54:f0\01210-22 16:15:01.
+5815730644-ZIP-11737	f4:5c:89:c7:54:f0	r_sep=0 bd_addr=f4:5c:89:c7:54:f0\01210-22 16:15:01.
+5815730644-ZIP-11888	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+5815730644-ZIP-12559	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=0\01210-22 1
+5815730644-ZIP-16486	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:01.
+5815730644-ZIP-16868	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:01.
+5815730644-ZIP-17105	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:01.
+5815730644-ZIP-17736	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815730644-ZIP-18118	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815730644-ZIP-18355	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815730644-ZIP-18737	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815730644-ZIP-19119	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815730644-ZIP-19356	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815730644-ZIP-19738	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:02.
+5815730644-ZIP-20120	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:02.
+5815734541-ZIP-1175	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:02.
+5815734541-ZIP-2675	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815734541-ZIP-3057	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815734541-ZIP-3294	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815734541-ZIP-16547	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815734541-ZIP-18656	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815734541-ZIP-19580	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-931	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-1313	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-1550	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-2027	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-2409	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-2646	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-3028	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:02.
+5815737859-ZIP-3410	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:02.
+5815737859-ZIP-3647	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:02.
+5815737859-ZIP-4151	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-4533	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815737859-ZIP-4770	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:02.
+5815740767-ZIP-11359	f4:5c:89:c7:54:f0	_start_ok: peer f4:5c:89:c7:54:f0 handle:70 wait:
+5815740767-ZIP-11494	f4:5c:89:c7:54:f0	k_role_ok: peer f4:5c:89:c7:54:f0 hndl:0x46 role:
+5815740767-ZIP-11828	f4:5c:89:c7:54:f0	ocal_sep=1 addr=f4:5c:89:c7:54:f0\01210-22 16:15:03.
+5815740767-ZIP-11940	f4:5c:89:c7:54:f0	r_sep=0 bd_addr=f4:5c:89:c7:54:f0\01210-22 16:15:03.
+5815740767-ZIP-12090	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+5815740767-ZIP-12385	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=2\01210-22 1
+5815745384-ZIP-6599	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815745384-ZIP-10080	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815745384-ZIP-16660	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815745384-ZIP-18825	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815745384-ZIP-19536	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815745384-ZIP-19868	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815745384-ZIP-20250	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:03.
+5815749495-ZIP-100	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:03.
+5815749495-ZIP-337	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:03.
+5815749495-ZIP-841	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815749495-ZIP-1223	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815749495-ZIP-1460	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815753270-ZIP-1428	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815753270-ZIP-3773	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815753270-ZIP-4137	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815753270-ZIP-4905	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815753270-ZIP-5918	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815753270-ZIP-7099	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:03.
+5815753270-ZIP-8984	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:04.
+5815753270-ZIP-11381	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:04.
+5815753270-ZIP-11618	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 16:15:04.
+5815753270-ZIP-12122	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:04.
+5815753270-ZIP-12943	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:04.
+5815753270-ZIP-13180	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 16:15:04.
+5824729206-ZIP-15576	50:AE:8E:7A:20:72	lass update for 50:AE:8E:7A:20:72\01210-23 21:42:45.
+5824729206-ZIP-15756	50:AE:8E:7A:20:72	ED for Device : 50:AE:8E:7A:20:72\01210-23 21:42:45.
+5852774539	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+5842508308-GZIP-3391	b8:f8:53:5f:0d:c3	T_BSSID_STR\134":\134"b8:f8:53:5f:0d:c3\134",\134"CURRENT_SSI
+5838471168-MSXML-11698188	F4:5C:89:C7:54:F0	\007P@\010\212\012\012    \012    F4:5C:89:C7:54:F0\012\012\000\000\000\000\000\000\000\000\000\000\000\000\000\000
+5869816620-ZIP-11801	f4:5c:89:c7:54:f0	0x20 peer_addr: f4:5c:89:c7:54:f0\01210-10 01:21:57.
+5869816620-ZIP-12395	f4:5c:89:c7:54:f0	ectReq: address=f4:5c:89:c7:54:f0\01210-10 01:21:57.
+5869816620-ZIP-12502	f4:5c:89:c7:54:f0	_cback bd_addr: f4:5c:89:c7:54:f0\01210-10 01:21:57.
+5869816620-ZIP-12593	f4:5c:89:c7:54:f0	tr_closed: peer f4:5c:89:c7:54:f0 handle:70 open_
+5869816620-ZIP-13907	f4:5c:89:c7:54:f0	av_cleanup peer f4:5c:89:c7:54:f0\01210-10 01:21:57.
+5869816620-ZIP-15718	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=0 av_peer
+5869816620-ZIP-16555	f4:5c:89:c7:54:f0	n: peer_address=f4:5c:89:c7:54:f0\01210-10 01:21:57.
+5869816620-ZIP-16832	f4:5c:89:c7:54:f0	ting idle peer: f4:5c:89:c7:54:f0 bta_handle=0x46
+5869816620-ZIP-17017	f4:5c:89:c7:54:f0	r: peer_address=f4:5c:89:c7:54:f0 bta_handle=0x46
+5869816620-ZIP-18106	F4:5C:89:C7:54:F0	ED for Device : F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869816620-ZIP-19152	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869816620-ZIP-20104	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 3 
+5869821638-ZIP-1684	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869821638-ZIP-2066	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869821638-ZIP-2448	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869821638-ZIP-14429	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869821638-ZIP-15707	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869821638-ZIP-15944	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869821638-ZIP-17230	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:57.
+5869825143-ZIP-511	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:57.
+5869825143-ZIP-3217	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:57.
+5869825143-ZIP-9283	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:57.
+5869825143-ZIP-14899	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:57.
+5869825143-ZIP-18111	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:57.
+5869833509-ZIP-1298	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869833509-ZIP-10635	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869833509-ZIP-12571	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:57.
+5869833509-ZIP-19044	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:58.
+5869838007-ZIP-2304	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:58.
+5869838007-ZIP-5516	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:58.
+5869843433-ZIP-5937	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:58.
+5869843433-ZIP-8911	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:58.
+5869843433-ZIP-12265	f4:5c:89:c7:54:f0	nnect_src: Peer f4:5c:89:c7:54:f0\01210-10 01:21:58.
+5869843433-ZIP-12383	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:58.
+5869848504-ZIP-391	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+5869848504-ZIP-547	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+5869848504-ZIP-1347	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 0 
+5869848504-ZIP-6244	F4:5C:89:C7:54:F0	ED for Device : F4:5C:89:C7:54:F0\01210-10 01:21:58.
+5869848504-ZIP-19159	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:58.
+5869853125-ZIP-4229	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:58.
+5869853125-ZIP-5355	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:21:58.
+5869853125-ZIP-10713	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:58.
+5869853125-ZIP-11272	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:58.
+5869853125-ZIP-12765	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:21:58.
+5869853125-ZIP-13464	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:58.
+5869853125-ZIP-13846	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:58.
+5869853125-ZIP-14083	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:21:58.
+5869892699-ZIP-13105	f4:5c:89:c7:54:f0	TA_AvOpen: peer f4:5c:89:c7:54:f0 handle:0x46 use
+5869892699-ZIP-13265	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=1 av_peer
+5869892699-ZIP-13535	f4:5c:89:c7:54:f0	:00:00 new_addr=f4:5c:89:c7:54:f0\01210-10 01:22:02.
+5869892699-ZIP-13626	f4:5c:89:c7:54:f0	dService: peer: f4:5c:89:c7:54:f0 UUID: 0x110a\01210
+5869892699-ZIP-14690	f4:5c:89:c7:54:f0	connected: Peer f4:5c:89:c7:54:f0 : ACL Disconnec
+5869892699-ZIP-14860	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTIF_AV
+5869892699-ZIP-15054	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=0 av_peer
+5869892699-ZIP-15790	f4:5c:89:c7:54:f0	n: peer_address=f4:5c:89:c7:54:f0\01210-10 01:22:02.
+5869892699-ZIP-16067	f4:5c:89:c7:54:f0	ting idle peer: f4:5c:89:c7:54:f0 bta_handle=0x46
+5869892699-ZIP-16420	F4:5C:89:C7:54:F0	file=12, device=F4:5C:89:C7:54:F0, 2 -> 0\01210-10 0
+5869892699-ZIP-18740	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+5869897946-ZIP-1438	F4:5C:89:C7:54:F0	ED for Device : F4:5C:89:C7:54:F0\01210-10 01:22:02.
+5869897946-ZIP-9721	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 1 
+5869897946-ZIP-11280	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:02.
+5869897946-ZIP-11662	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:02.
+5869897946-ZIP-11899	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:02.
+5869897946-ZIP-12281	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:02.
+5869897946-ZIP-12914	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:02.
+5869897946-ZIP-13300	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:02.
+5869897946-ZIP-13682	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:02.
+5869897946-ZIP-14064	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:02.
+5869897946-ZIP-14449	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:02.
+5869897946-ZIP-16918	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:02.
+5869902137-ZIP-14591	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:03.
+5869902137-ZIP-15733	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:03.
+5869902137-ZIP-15862	F4:5C:89:C7:54:F0	vice connected: F4:5C:89:C7:54:F0\01210-10 01:22:03.
+5869902137-ZIP-17113	f4:5c:89:c7:54:f0	ectReq: address=f4:5c:89:c7:54:f0 channel_index=5
+5869902137-ZIP-17235	f4:5c:89:c7:54:f0	ectReq: address=f4:5c:89:c7:54:f0 result=0\01210-10 
+5869902137-ZIP-19233	f4:5c:89:c7:54:f0	_cback bd_addr: f4:5c:89:c7:54:f0\01210-10 01:22:03.
+5869902137-ZIP-19344	f4:5c:89:c7:54:f0	T_IND_EVT: peer f4:5c:89:c7:54:f0 selected lcb_in
+5869906777-ZIP-4718	f4:5c:89:c7:54:f0	r: peer_address=f4:5c:89:c7:54:f0 bta_handle=0x46
+5869906777-ZIP-5416	f4:5c:89:c7:54:f0	fig_state: Peer f4:5c:89:c7:54:f0 : sample_rate=4
+5869906777-ZIP-6684	f4:5c:89:c7:54:f0	e rc config for f4:5c:89:c7:54:f0\01210-10 01:22:03.
+5869906777-ZIP-6823	f4:5c:89:c7:54:f0	_chg.peer_addr: f4:5c:89:c7:54:f0\01210-10 01:22:03.
+5869906777-ZIP-7070	f4:5c:89:c7:54:f0	chk_start: peer f4:5c:89:c7:54:f0 channel:64 bta_
+5869906777-ZIP-7293	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+5869906777-ZIP-7474	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=2 av_peer
+5869906777-ZIP-8440	F4:5C:89:C7:54:F0	ED for Device : F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-8554	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 0 
+5869906777-ZIP-8717	F4:5C:89:C7:54:F0	dpSource device=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-8832	F4:5C:89:C7:54:F0	pSource: device F4:5C:89:C7:54:F0 PRIORITY_AUTO_C
+5869906777-ZIP-9806	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-9960	F4:5C:89:C7:54:F0	file=11, device=F4:5C:89:C7:54:F0, 0 -> 2\01210-10 0
+5869906777-ZIP-10122	F4:5C:89:C7:54:F0	file=11, device=F4:5C:89:C7:54:F0, 0 -> 2\01210-10 0
+5869906777-ZIP-12728	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-13492	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-13874	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-14441	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-15411	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-16225	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-16379	F4:5C:89:C7:54:F0	file=12, device=F4:5C:89:C7:54:F0, 0 -> 2\01210-10 0
+5869906777-ZIP-16711	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-19769	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-20151	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869906777-ZIP-20388	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-1100	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-1482	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-1835	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-2568	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869910430-ZIP-2950	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869910430-ZIP-3187	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869910430-ZIP-3569	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869910430-ZIP-3951	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869910430-ZIP-4411	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869910430-ZIP-4915	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-5297	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-5534	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-15337	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-18484	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-18890	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869910430-ZIP-19659	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-2319	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-2556	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-2938	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-3320	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-3557	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-3939	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869913884-ZIP-4321	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869913884-ZIP-4558	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869913884-ZIP-4940	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869913884-ZIP-5322	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869913884-ZIP-5559	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869913884-ZIP-6063	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-6445	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-6682	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-13051	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-17298	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-18627	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-19258	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-19640	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-19877	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869913884-ZIP-20259	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869916986-ZIP-100	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869916986-ZIP-337	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869916986-ZIP-719	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869916986-ZIP-1423	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869916986-ZIP-2905	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-10 01:22:04.
+5869916986-ZIP-6727	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869916986-ZIP-7728	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869916986-ZIP-7965	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-10 01:22:04.
+5869916986-ZIP-8469	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869916986-ZIP-8851	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5869916986-ZIP-9088	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-10 01:22:04.
+5905580107	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5905581236	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5905608779	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5905609908	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5905613516	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5905620288	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5905620686	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="100" pa
+5905621309	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5905624507	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5905625476	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="100" pa
+5905649739	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5905650868	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5905789068	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+5937041483	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+5937042612	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+5937113667	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+5937113718	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+5942061156-ZIP-4748	77:F7:8D:A3:96:22	lass update for 77:F7:8D:A3:96:22\01210-23 05:42:44.
+5942061156-ZIP-4928	77:F7:8D:A3:96:22	ED for Device : 77:F7:8D:A3:96:22\01210-23 05:42:44.
+5946973562-ZIP-14328	59:D4:6B:B2:9C:07	lass update for 59:D4:6B:B2:9C:07\01210-23 06:42:44.
+5946973562-ZIP-14508	59:D4:6B:B2:9C:07	ED for Device : 59:D4:6B:B2:9C:07\01210-23 06:42:44.
+5951165773-ZIP-10727	43:02:43:9D:99:71	lass update for 43:02:43:9D:99:71\01210-23 06:27:45.
+5951165773-ZIP-10907	43:02:43:9D:99:71	ED for Device : 43:02:43:9D:99:71\01210-23 06:27:45.
+5951217391-ZIP-8860	61:80:7D:4E:74:FF	lass update for 61:80:7D:4E:74:FF\01210-23 07:42:45.
+5951217391-ZIP-9316	61:80:7D:4E:74:FF	ED for Device : 61:80:7D:4E:74:FF\01210-23 07:42:45.
+5954060813-ZIP-8474	4E:91:4A:0B:8E:C6	lass update for 4E:91:4A:0B:8E:C6\01210-23 06:57:44.
+5954060813-ZIP-8654	4E:91:4A:0B:8E:C6	ED for Device : 4E:91:4A:0B:8E:C6\01210-23 06:57:44.
+5968621742-ZIP-13543	7E:B1:81:E8:9B:9C	lass update for 7E:B1:81:E8:9B:9C\01210-23 09:57:45.
+5968621742-ZIP-13723	7E:B1:81:E8:9B:9C	ED for Device : 7E:B1:81:E8:9B:9C\01210-23 09:57:45.
+5968895260-ZIP-14260	5C:40:DB:01:92:E5	lass update for 5C:40:DB:01:92:E5\01210-23 10:12:46.
+5968895260-ZIP-14440	5C:40:DB:01:92:E5	ED for Device : 5C:40:DB:01:92:E5\01210-23 10:12:46.
+5969189193-ZIP-10898	70:68:54:AB:5B:D8	lass update for 70:68:54:AB:5B:D8\01210-23 10:57:45.
+5969189193-ZIP-11078	70:68:54:AB:5B:D8	ED for Device : 70:68:54:AB:5B:D8\01210-23 10:57:45.
+5969482929-ZIP-18180	59:7F:C6:5C:2A:BD	lass update for 59:7F:C6:5C:2A:BD\01210-23 11:27:45.
+5969482929-ZIP-18360	59:7F:C6:5C:2A:BD	ED for Device : 59:7F:C6:5C:2A:BD\01210-23 11:27:45.
+5971684611-ZIP-8169	7E:DF:BD:9C:8E:EB	lass update for 7E:DF:BD:9C:8E:EB\01210-23 10:42:44.
+5971684611-ZIP-8349	7E:DF:BD:9C:8E:EB	ED for Device : 7E:DF:BD:9C:8E:EB\01210-23 10:42:44.
+5971847308-ZIP-20448	41:2A:FB:44:6C:C9	ED for Device : 41:2A:FB:44:6C:C9\01210-23 09:42:45.
+5971847308-ZIP-20551	41:2A:FB:44:6C:C9	lass update for 41:2A:FB:44:6C:C9\012
+5971978057-ZIP-336	7C:73:80:23:FD:8B	lass update for 7C:73:80:23:FD:8B\01210-23 09:27:45.
+5971978057-ZIP-516	7C:73:80:23:FD:8B	ED for Device : 7C:73:80:23:FD:8B\01210-23 09:27:45.
+5972345693-ZIP-493	79:FE:8D:92:49:C6	lass update for 79:FE:8D:92:49:C6\01210-23 11:12:46.
+5972345693-ZIP-673	79:FE:8D:92:49:C6	ED for Device : 79:FE:8D:92:49:C6\01210-23 11:12:46.
+5987754065	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+5987754358	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+5987754833	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+5989675595	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+5989675880	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+5989677800	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+5989679124	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+5989679519	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+5989680258	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+5989680838	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+5989681552	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+5989683599	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5989683997	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+5989684155	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+5989684569	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+5989684934	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5989685739	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+5989686402	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+5989687864	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+5989688745	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+5989689714	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+5989690585	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+5989694066	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+5990116301	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+5990116352	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+5977857775-ZIP-8130	60:04:B2:6D:62:4C	lass update for 60:04:B2:6D:62:4C\01210-23 10:27:45.
+5977857775-ZIP-8310	60:04:B2:6D:62:4C	ED for Device : 60:04:B2:6D:62:4C\01210-23 10:27:45.
+5978728205-ZIP-5557	61:7D:25:E7:91:D6	lass update for 61:7D:25:E7:91:D6\01210-23 08:27:44.
+5978728205-ZIP-5737	61:7D:25:E7:91:D6	ED for Device : 61:7D:25:E7:91:D6\01210-23 08:27:44.
+5980317027-ZIP-20325	49:95:FB:BE:FB:C0	lass update for 49:95:FB:BE:FB:C0\01210-23 08:57:44.
+5980317027-ZIP-20505	49:95:FB:BE:FB:C0	ED for Device : 49:95:FB:BE:FB:C0\012
+5980563854-ZIP-2141	7A:08:E5:84:55:99	lass update for 7A:08:E5:84:55:99\01210-23 07:57:45.
+5980563854-ZIP-2321	7A:08:E5:84:55:99	ED for Device : 7A:08:E5:84:55:99\01210-23 07:57:45.
+6031405137	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+6031405430	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+6031405905	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+6081572547-ZIP-2041	50:FE:06:8E:05:4A	lass update for 50:FE:06:8E:05:4A\01210-22 18:27:43.
+6081572547-ZIP-2221	50:FE:06:8E:05:4A	ED for Device : 50:FE:06:8E:05:4A\01210-22 18:27:43.
+6085407710-ZIP-8581	7D:45:A1:7B:A2:EF	lass update for 7D:45:A1:7B:A2:EF\01210-23 18:27:45.
+6085407710-ZIP-8761	7D:45:A1:7B:A2:EF	ED for Device : 7D:45:A1:7B:A2:EF\01210-23 18:27:45.
+6087793337-ZIP-1515	72:5C:C3:8A:C0:4E	lass update for 72:5C:C3:8A:C0:4E\01210-22 20:43:23.
+6087793337-ZIP-1695	72:5C:C3:8A:C0:4E	ED for Device : 72:5C:C3:8A:C0:4E\01210-22 20:43:23.
+6089988288-ZIP-5886	64:23:AA:25:09:48	ED for Device : 64:23:AA:25:09:48\01210-22 20:27:50.
+6089988288-ZIP-6108	64:23:AA:25:09:48	lass update for 64:23:AA:25:09:48\01210-22 20:27:50.
+6095807368-ZIP-20528	7D:C1:6D:B4:56:33	lass update for 7D:C1:6D:B4:56:33\012
+6095811654-ZIP-162	7D:C1:6D:B4:56:33	ED for Device : 7D:C1:6D:B4:56:33\01210-22 21:12:44.
+6109356107	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+6109364299	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+6111322699	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+6111322984	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="100" pa
+6111323831	F4:4E:FD:C6:29:FC	optional_codecs_F4:4E:FD:C6:29:FC" value="0" pack
+6111325256	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+6111330370	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6111330768	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="100" pa
+6111331547	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="0" pack
+6111332348	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="0" pack
+6111335031	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6111336000	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="100" pa
+6111285248-ZIP-3588	f4:4e:fd:c6:29:fc	y: peer_address=f4:4e:fd:c6:29:fc state=0\01210-09 1
+6111292709-ZIP-13394	f4:4e:fd:c6:29:fc	y: peer_address=f4:4e:fd:c6:29:fc state=1\01210-09 1
+6111309790-ZIP-10853	f4:4e:fd:c6:29:fc	y: peer_address=f4:4e:fd:c6:29:fc state=0\01210-09 1
+6156336287	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+6156336338	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+6167466214-ZIP-8421	52:6D:A2:7F:D3:DF	lass update for 52:6D:A2:7F:D3:DF\01210-22 09:43:03.
+6167466214-ZIP-8601	52:6D:A2:7F:D3:DF	ED for Device : 52:6D:A2:7F:D3:DF\01210-22 09:43:03.
+6212885654-ZIP-1808	73:EB:6B:54:02:1D	lass update for 73:EB:6B:54:02:1D\01210-23 03:12:44.
+6212885654-ZIP-1988	73:EB:6B:54:02:1D	ED for Device : 73:EB:6B:54:02:1D\01210-23 03:12:44.
+6215459597-ZIP-2720	7E:38:CE:76:07:19	ED for Device : 7E:38:CE:76:07:19\01210-23 01:12:58.
+6215459597-ZIP-2942	7E:38:CE:76:07:19	lass update for 7E:38:CE:76:07:19\01210-23 01:12:58.
+6223501373-ZIP-10414	f4:5c:89:c7:54:f0	_start_ok: peer f4:5c:89:c7:54:f0 handle:70 wait:
+6223501373-ZIP-10549	f4:5c:89:c7:54:f0	k_role_ok: peer f4:5c:89:c7:54:f0 hndl:0x46 role:
+6223501373-ZIP-10883	f4:5c:89:c7:54:f0	ocal_sep=1 addr=f4:5c:89:c7:54:f0\01210-03 04:32:28.
+6223501373-ZIP-10995	f4:5c:89:c7:54:f0	r_sep=0 bd_addr=f4:5c:89:c7:54:f0\01210-03 04:32:28.
+6223501373-ZIP-11145	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+6223501373-ZIP-11440	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=2\01210-03 0
+6223505463-ZIP-1241	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-2315	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-2552	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-3182	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-3656	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-4040	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-4544	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-4926	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-5163	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-12610	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-13222	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-13792	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-15495	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-15877	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-16114	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-16618	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-17121	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6223505463-ZIP-17358	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-03 04:32:29.
+6225169639-ZIP-5267	5B:34:6D:E1:2F:7C	lass update for 5B:34:6D:E1:2F:7C\01210-23 01:42:56.
+6225169639-ZIP-5447	5B:34:6D:E1:2F:7C	ED for Device : 5B:34:6D:E1:2F:7C\01210-23 01:42:56.
+6236230731-ZIP-12304	4D:2F:BD:A7:B3:00	lass update for 4D:2F:BD:A7:B3:00\01210-09 16:02:46.
+6236230731-ZIP-12484	4D:2F:BD:A7:B3:00	ED for Device : 4D:2F:BD:A7:B3:00\01210-09 16:02:46.
+6275760743	00:17:83:58:5D:CC	34FB\000\01000:04:48\000\02100:17:83:58:5D:CC\000\01000:1E:AE\000\01000:2
+6278820427	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+6278820712	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="100" pa
+6278823791	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+6278824186	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+6278824925	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+6278826063	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+6278828110	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6278828508	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="100" pa
+6278828668	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+6278829082	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+6278829447	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6278830252	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="0" pack
+6278832944	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6278833913	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="100" pa
+6278834786	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+6278837966	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+6282375247	F4:5C:89:C7:54:F0	    <long name="F4:5C:89:C7:54:F0" value="1697936
+6282375307	F4:4E:FD:C6:29:FC	    <long name="F4:4E:FD:C6:29:FC" value="1696864
+6282375367	54:3A:D6:28:63:9C	    <long name="54:3A:D6:28:63:9C" value="1697933
+6282382698-ZIP-12952	f4:5c:89:c7:54:f0	connected: Peer f4:5c:89:c7:54:f0 : ACL Disconnec
+6282382698-ZIP-13685	f4:5c:89:c7:54:f0	n: peer_address=f4:5c:89:c7:54:f0\01210-22 00:56:18.
+6282382698-ZIP-14055	f4:5c:89:c7:54:f0	ting idle peer: f4:5c:89:c7:54:f0 bta_handle=0x46
+6282382698-ZIP-15769	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:56:18.
+6332691019	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+6332691304	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+6332694624	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+6332696342	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+6332698389	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6332698787	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="100" pa
+6332699410	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6332700215	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="0" pack
+6332702907	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6332703876	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="100" pa
+6332704749	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+6472129695	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+6472129746	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+6462168510-ZIP-17613	4C:5C:A4:D9:CA:07	lass update for 4C:5C:A4:D9:CA:07\01210-23 19:13:02.
+6462168510-ZIP-17793	4C:5C:A4:D9:CA:07	ED for Device : 4C:5C:A4:D9:CA:07\01210-23 19:13:02.
+6673376849-ZIP-9443	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:58.
+6673376849-ZIP-9925	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:58.
+6673376849-ZIP-10054	F4:5C:89:C7:54:F0	vice connected: F4:5C:89:C7:54:F0\01210-23 17:37:58.
+6673376849-ZIP-10888	f4:5c:89:c7:54:f0	_cback bd_addr: f4:5c:89:c7:54:f0\01210-23 17:37:58.
+6673376849-ZIP-10999	f4:5c:89:c7:54:f0	T_IND_EVT: peer f4:5c:89:c7:54:f0 selected lcb_in
+6673376849-ZIP-11440	f4:5c:89:c7:54:f0	r: peer_address=f4:5c:89:c7:54:f0 bta_handle=0x46
+6673376849-ZIP-12186	f4:5c:89:c7:54:f0	TA_AvOpen: peer f4:5c:89:c7:54:f0 handle:0x46 use
+6673376849-ZIP-12346	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=1 av_peer
+6673376849-ZIP-13544	F4:5C:89:C7:54:F0	ED for Device : F4:5C:89:C7:54:F0\01210-23 17:37:58.
+6673376849-ZIP-14389	f4:5c:89:c7:54:f0	fig_state: Peer f4:5c:89:c7:54:f0 : sample_rate=4
+6673376849-ZIP-14869	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 0 
+6673376849-ZIP-17051	F4:5C:89:C7:54:F0	file=12, device=F4:5C:89:C7:54:F0, 0 -> 2\01210-23 1
+6673376849-ZIP-17213	F4:5C:89:C7:54:F0	file=12, device=F4:5C:89:C7:54:F0, 0 -> 2\01210-23 1
+6673376849-ZIP-17416	f4:5c:89:c7:54:f0	e rc config for f4:5c:89:c7:54:f0\01210-23 17:37:58.
+6673376849-ZIP-17555	f4:5c:89:c7:54:f0	_chg.peer_addr: f4:5c:89:c7:54:f0\01210-23 17:37:58.
+6673376849-ZIP-17723	f4:5c:89:c7:54:f0	chk_start: peer f4:5c:89:c7:54:f0 channel:64 bta_
+6673376849-ZIP-18950	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+6673376849-ZIP-19131	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=2 av_peer
+6673381737-ZIP-803	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-1872	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-3655	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-4535	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-5124	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 1 
+6673381737-ZIP-5287	F4:5C:89:C7:54:F0	dpSource device=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-5402	F4:5C:89:C7:54:F0	pSource: device F4:5C:89:C7:54:F0 PRIORITY_AUTO_C
+6673381737-ZIP-7613	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-9394	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-12998	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-16018	f4:5c:89:c7:54:f0	_start_ok: peer f4:5c:89:c7:54:f0 handle:70 wait:
+6673381737-ZIP-16153	f4:5c:89:c7:54:f0	k_role_ok: peer f4:5c:89:c7:54:f0 hndl:0x46 role:
+6673381737-ZIP-16566	f4:5c:89:c7:54:f0	ocal_sep=1 addr=f4:5c:89:c7:54:f0\01210-23 17:37:59.
+6673381737-ZIP-16678	f4:5c:89:c7:54:f0	r_sep=0 bd_addr=f4:5c:89:c7:54:f0\01210-23 17:37:59.
+6673381737-ZIP-16960	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+6673381737-ZIP-17377	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=2\01210-23 1
+6673381737-ZIP-17599	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-20107	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673381737-ZIP-20344	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-364	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:37:59.
+6673386314-ZIP-834	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:37:59.
+6673386314-ZIP-1319	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:37:59.
+6673386314-ZIP-1823	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-2840	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-3293	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-4560	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-5294	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-5676	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-6020	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-6223	F4:5C:89:C7:54:F0	ED for Device : F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673386314-ZIP-19307	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673390128-ZIP-2921	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673390128-ZIP-7175	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673390128-ZIP-10917	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673390128-ZIP-11299	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673390128-ZIP-11981	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673390128-ZIP-13079	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:37:59.
+6673390128-ZIP-17562	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:37:59.
+6673390128-ZIP-18535	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:37:59.
+6673390128-ZIP-19682	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673390128-ZIP-20279	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6673396031-ZIP-219	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:37:59.
+6675642277-ZIP-11137	f4:5c:89:c7:54:f0	ocal_sep=1 addr=f4:5c:89:c7:54:f0\01210-23 17:41:36.
+6675642277-ZIP-11249	f4:5c:89:c7:54:f0	r_sep=0 bd_addr=f4:5c:89:c7:54:f0\01210-23 17:41:36.
+6675642277-ZIP-11400	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+6675642277-ZIP-11977	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=0\01210-23 1
+6675642277-ZIP-18471	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675642277-ZIP-18853	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675642277-ZIP-19090	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675642277-ZIP-19721	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675642277-ZIP-20103	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675642277-ZIP-20340	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675646137-ZIP-232	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675646137-ZIP-614	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675646137-ZIP-851	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675646137-ZIP-2248	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:41:36.
+6675646137-ZIP-2630	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:41:36.
+6675646137-ZIP-2867	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:41:36.
+6675646137-ZIP-3371	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675646137-ZIP-3753	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675646137-ZIP-3990	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675646137-ZIP-18303	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-100	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-337	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-1106	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-1488	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-1725	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-2107	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-2489	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-2726	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-3108	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:41:36.
+6675649266-ZIP-3490	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:41:36.
+6675649266-ZIP-3727	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 17:41:36.
+6675649266-ZIP-4231	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-4613	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675649266-ZIP-4850	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 17:41:36.
+6675718264-ZIP-13753	4C:D6:FF:56:7F:B8	lass update for 4C:D6:FF:56:7F:B8\01210-23 17:42:45.
+6675718264-ZIP-13933	4C:D6:FF:56:7F:B8	ED for Device : 4C:D6:FF:56:7F:B8\01210-23 17:42:45.
+6763633219-ZIP-14311	47:3B:58:52:8B:A2	lass update for 47:3B:58:52:8B:A2\01210-23 22:12:45.
+6763633219-ZIP-14491	47:3B:58:52:8B:A2	ED for Device : 47:3B:58:52:8B:A2\01210-23 22:12:45.
+6795141707	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+6795141992	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="0" pack
+6795145067	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+6795145462	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+6795146201	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+6795147339	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+6795149386	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="0" pack
+6795149780	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="0" pack
+6795149936	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+6795150350	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+6795150715	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6795151520	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="0" pack
+6795154212	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="0" pack
+6795155177	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="0" pack
+6795156046	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+6795159226	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+6795170379	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+6795170664	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="100" pa
+6795173743	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+6795506251	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+6795506536	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="100" pa
+6795509615	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+6795510010	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+6795510749	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+6795511887	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+6795513934	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6795514332	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="100" pa
+6795514492	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+6795514906	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+6795515271	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6795516076	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="0" pack
+6795518768	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+6795519737	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="100" pa
+6795520610	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+6795523790	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+6780590446-ZIP-10120	49:3A:B0:01:7C:CF	lass update for 49:3A:B0:01:7C:CF\01210-23 20:42:45.
+6780590446-ZIP-10300	49:3A:B0:01:7C:CF	ED for Device : 49:3A:B0:01:7C:CF\01210-23 20:42:45.
+6782173478-ZIP-6311	67:0B:F7:48:A8:0F	lass update for 67:0B:F7:48:A8:0F\01210-23 21:57:48.
+6782173478-ZIP-6491	67:0B:F7:48:A8:0F	ED for Device : 67:0B:F7:48:A8:0F\01210-23 21:57:48.
+6824578847	01:23:45:67:89:AB	23456789ABCDEF\000\02101:23:45:67:89:AB\000\0060x%08x\000\0011\000\0071.2
+6833781919	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+6833781970	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+6811549696-MSXML-5626329	01:23:45:67:89:AB	23456789ABCDEF\000\02101:23:45:67:89:AB\000\0060x%08x\000\0011\000\0071.2
+6903920524-ZIP-17396	77:97:A6:4A:02:B9	lass update for 77:97:A6:4A:02:B9\01210-22 19:12:49.
+6903920524-ZIP-17576	77:97:A6:4A:02:B9	ED for Device : 77:97:A6:4A:02:B9\01210-22 19:12:49.
+6982503702	00:17:83:58:5D:CC	0:00\000\01000:04:48\000\02100:17:83:58:5D:CC\000\01000:1E:AE\000\01000:2
+7021432566-ZIP-19248	5C:74:7C:13:95:88	lass update for 5C:74:7C:13:95:88\01210-23 20:57:59.
+7021432566-ZIP-19428	5C:74:7C:13:95:88	ED for Device : 5C:74:7C:13:95:88\01210-23 20:57:59.
+7023136728-ZIP-605	f4:5c:89:c7:54:f0	_cback bd_addr: f4:5c:89:c7:54:f0\01210-23 22:27:19.
+7023136728-ZIP-702	f4:5c:89:c7:54:f0	iled: peer_addr=f4:5c:89:c7:54:f0 open_status=0\0121
+7023136728-ZIP-807	f4:5c:89:c7:54:f0	tr_closed: peer f4:5c:89:c7:54:f0 handle:70 open_
+7023136728-ZIP-1284	f4:5c:89:c7:54:f0	av_cleanup peer f4:5c:89:c7:54:f0\01210-23 22:27:19.
+7023149830-ZIP-10352	f4:5c:89:c7:54:f0	, void *): Peer f4:5c:89:c7:54:f0 : event=BTA_AV_
+7023149830-ZIP-10808	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=0 av_peer
+7023149830-ZIP-11736	f4:5c:89:c7:54:f0	n: peer_address=f4:5c:89:c7:54:f0\01210-23 22:27:20.
+7023149830-ZIP-12105	f4:5c:89:c7:54:f0	ting idle peer: f4:5c:89:c7:54:f0 bta_handle=0x46
+7023149830-ZIP-12249	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+7023149830-ZIP-12383	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 1 
+7027264785-ZIP-14156	5D:DB:B1:F8:9B:5D	lass update for 5D:DB:B1:F8:9B:5D\01210-23 01:57:52.
+7027264785-ZIP-14336	5D:DB:B1:F8:9B:5D	ED for Device : 5D:DB:B1:F8:9B:5D\01210-23 01:57:52.
+7027391874-ZIP-6662	70:48:88:43:55:BE	lass update for 70:48:88:43:55:BE\01210-23 02:12:44.
+7027391874-ZIP-6842	70:48:88:43:55:BE	ED for Device : 70:48:88:43:55:BE\01210-23 02:12:44.
+7032498007-ZIP-18032	62:F9:C5:FE:33:97	ED for Device : 62:F9:C5:FE:33:97\01210-23 02:27:44.
+7032498007-ZIP-18254	62:F9:C5:FE:33:97	lass update for 62:F9:C5:FE:33:97\01210-23 02:27:44.
+7038349555-ZIP-14618	70:73:AB:B4:36:C4	lass update for 70:73:AB:B4:36:C4\01210-23 02:42:45.
+7038349555-ZIP-14798	70:73:AB:B4:36:C4	ED for Device : 70:73:AB:B4:36:C4\01210-23 02:42:45.
+7045446288-ZIP-2887	63:74:8E:26:DF:15	lass update for 63:74:8E:26:DF:15\01210-22 01:57:53.
+7045446288-ZIP-3067	63:74:8E:26:DF:15	ED for Device : 63:74:8E:26:DF:15\01210-22 01:57:53.
+7088538187	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+7088538472	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="0" pack
+7088541547	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+7088541942	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+7088542681	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+7088543819	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+7088545866	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="0" pack
+7088546260	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="0" pack
+7088546416	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+7088546830	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+7088547195	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+7088548000	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="0" pack
+7088550692	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="0" pack
+7088551657	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="0" pack
+7088552526	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+7088555706	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+7088902731	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+7088903016	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="0" pack
+7088906091	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+7088906486	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+7088907225	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+7088908363	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+7088910410	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="0" pack
+7088910804	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="0" pack
+7088910960	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+7088911374	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+7088911739	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+7088912544	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="0" pack
+7088915236	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="0" pack
+7088916201	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="0" pack
+7088917070	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+7088920250	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+7110688953-ZIP-17416	40:0E:33:42:A7:2E	lass update for 40:0E:33:42:A7:2E\01210-19 22:12:41.
+7110688953-ZIP-17596	40:0E:33:42:A7:2E	ED for Device : 40:0E:33:42:A7:2E\01210-19 22:12:41.
+7190810052-ZIP-2210	7B:06:FB:71:95:1F	lass update for 7B:06:FB:71:95:1F\01210-23 22:36:19.
+7190810052-ZIP-2613	7B:06:FB:71:95:1F	ED for Device : 7B:06:FB:71:95:1F\01210-23 22:36:19.
+7192552675-ZIP-14032	6D:DC:E8:51:45:98	ED for Device : 6D:DC:E8:51:45:98\01210-23 23:00:02.
+7192552675-ZIP-14254	6D:DC:E8:51:45:98	lass update for 6D:DC:E8:51:45:98\01210-23 23:00:02.
+7234276222-ZIP-3476	61:EB:67:72:B3:11	lass update for 61:EB:67:72:B3:11\01210-23 20:27:46.
+7234276222-ZIP-3656	61:EB:67:72:B3:11	ED for Device : 61:EB:67:72:B3:11\01210-23 20:27:46.
+7262843467	D0:C2:4E:5F:E9:21	eadset_priority_D0:C2:4E:5F:E9:21" value="0" pack
+7262843752	F4:5C:89:C7:54:F0	dp_src_priority_F4:5C:89:C7:54:F0" value="1000" p
+7262845672	54:3A:D6:28:63:9C	device_priority_54:3A:D6:28:63:9C" value="-1" pac
+7262846996	80:8A:BD:97:84:13	eadset_priority_80:8A:BD:97:84:13" value="0" pack
+7262847391	E0:03:6B:50:AB:8E	eadset_priority_E0:03:6B:50:AB:8E" value="0" pack
+7262848130	98:06:3C:25:FF:CF	dp_src_priority_98:06:3C:25:FF:CF" value="-1" pac
+7262848710	08:66:98:E4:B0:94	eadset_priority_08:66:98:E4:B0:94" value="0" pack
+7262849424	98:06:3C:25:FF:CF	eadset_priority_98:06:3C:25:FF:CF" value="0" pack
+7262851471	F4:4E:FD:C6:29:FC	dp_src_priority_F4:4E:FD:C6:29:FC" value="100" pa
+7262851869	54:3A:D6:28:63:9C	dp_src_priority_54:3A:D6:28:63:9C" value="-1" pac
+7262852027	CC:D2:81:78:AB:5F	eadset_priority_CC:D2:81:78:AB:5F" value="0" pack
+7262852441	98:06:3C:25:FF:CF	p_sink_priority_98:06:3C:25:FF:CF" value="-1" pac
+7262852806	F4:4E:FD:C6:29:FC	eadset_priority_F4:4E:FD:C6:29:FC" value="100" pa
+7262853611	54:3A:D6:28:63:9C	eadset_priority_54:3A:D6:28:63:9C" value="-1" pac
+7262854274	4C:C9:5E:4B:2C:3F	eadset_priority_4C:C9:5E:4B:2C:3F" value="0" pack
+7262855738	30:BB:7D:8A:99:C8	eadset_priority_30:BB:7D:8A:99:C8" value="0" pack
+7262856619	F4:4E:FD:C6:29:FC	p_sink_priority_F4:4E:FD:C6:29:FC" value="100" pa
+7262857588	54:3A:D6:28:63:9C	p_sink_priority_54:3A:D6:28:63:9C" value="-1" pac
+7262858459	08:66:98:BA:55:F4	eadset_priority_08:66:98:BA:55:F4" value="0" pack
+7262861940	98:06:3C:25:FF:CF	device_priority_98:06:3C:25:FF:CF" value="-1" pac
+7347506936-ZIP-162	7F:58:EB:50:CB:1E	ED for Device : 7F:58:EB:50:CB:1E\01210-21 01:12:42.
+7347503559-ZIP-20475	7F:58:EB:50:CB:1E	lass update for 7F:58:EB:50:CB:1E\012
+7347702131-ZIP-8155	4C:AB:27:70:EE:2B	lass update for 4C:AB:27:70:EE:2B\01210-21 01:27:42.
+7347702131-ZIP-8335	4C:AB:27:70:EE:2B	ED for Device : 4C:AB:27:70:EE:2B\01210-21 01:27:42.
+7410942091	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+7410950284	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+7410954379	F4:5C:89:C7:54:F0	 name="a2dpsnk">F4:5C:89:C7:54:F0</string>\012</map>
+7421496136-ZIP-12600	4B:5E:AD:B3:2B:BF	lass update for 4B:5E:AD:B3:2B:BF\01210-23 04:12:44.
+7421496136-ZIP-12780	4B:5E:AD:B3:2B:BF	ED for Device : 4B:5E:AD:B3:2B:BF\01210-23 04:12:44.
+7425966936-ZIP-155	61:B8:98:11:32:6A	ND for Device : 61:B8:98:11:32:6A\01210-22 00:10:24.
+7425966936-ZIP-12463	30:BB:7D:8A:99:C8	ED for Device : 30:BB:7D:8A:99:C8\01210-22 00:10:24.
+7425966936-ZIP-12763	30:BB:7D:8A:99:C8	ED for Device : 30:BB:7D:8A:99:C8\01210-22 00:10:24.
+7425966936-ZIP-13055	30:BB:7D:8A:99:C8	ND for Device : 30:BB:7D:8A:99:C8\01210-22 00:10:24.
+7425966936-ZIP-13372	30:BB:7D:8A:99:C8	riority: device=30:BB:7D:8A:99:C8, priority=0, ui
+7425966936-ZIP-14450	30:BB:7D:8A:99:C8	 device address=30:BB:7D:8A:99:C8\01210-22 00:10:24.
+7425966936-ZIP-14932	30:BB:7D:8A:99:C8	 device address=30:BB:7D:8A:99:C8\01210-22 00:10:24.
+7425966936-ZIP-20501	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\012
+7425970937-ZIP-491	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:24.
+7425970937-ZIP-873	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:24.
+7425970937-ZIP-1508	54:3A:D6:28:63:9C	: Connecting to 54:3A:D6:28:63:9C\01210-22 00:10:24.
+7425970937-ZIP-4598	54:3a:d6:28:63:9c	equest: address=54:3a:d6:28:63:9c UUID=110A busy=
+7425970937-ZIP-4709	54:3A:D6:28:63:9C	Connect: device 54:3A:D6:28:63:9C isOutgoingReque
+7425970937-ZIP-4868	54:3a:d6:28:63:9c	equest: address=54:3a:d6:28:63:9c UUID=110A busy=
+7425970937-ZIP-5060	54:3a:d6:28:63:9c	r: peer_address=54:3a:d6:28:63:9c bta_handle=0x41
+7425970937-ZIP-5542	54:3a:d6:28:63:9c	TA_AvOpen: peer 54:3a:d6:28:63:9c handle:0x41 use
+7425970937-ZIP-5702	54:3a:d6:28:63:9c	e: peer_address=54:3a:d6:28:63:9c state=1 av_peer
+7425970937-ZIP-5955	54:3a:d6:28:63:9c	:00:00 new_addr=54:3a:d6:28:63:9c\01210-22 00:10:25.
+7425970937-ZIP-6046	54:3a:d6:28:63:9c	dService: peer: 54:3a:d6:28:63:9c UUID: 0x110b\01210
+7425970937-ZIP-6151	54:3A:D6:28:63:9C	nter Connecting(54:3A:D6:28:63:9C): CONNECT\01210-22
+7425970937-ZIP-6546	54:3A:D6:28:63:9C	Changed, device=54:3A:D6:28:63:9C, profile=2, 0 -
+7425970937-ZIP-6882	54:3A:D6:28:63:9C	ED for Device : 54:3A:D6:28:63:9C\01210-22 00:10:25.
+7425970937-ZIP-10038	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:25.
+7425970937-ZIP-10711	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:25.
+7425970937-ZIP-10948	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:25.
+7425970937-ZIP-11330	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:25.
+7425970937-ZIP-11712	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:25.
+7425970937-ZIP-11949	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:25.
+7425970937-ZIP-12331	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:25.
+7425970937-ZIP-12713	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:25.
+7425970937-ZIP-12950	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:25.
+7425975572-ZIP-10462	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425975572-ZIP-11337	54:3a:d6:28:63:9c	ectReq: address=54:3a:d6:28:63:9c channel_index=0
+7425975572-ZIP-11459	54:3a:d6:28:63:9c	ectReq: address=54:3a:d6:28:63:9c result=0\01210-22 
+7425975572-ZIP-11952	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425975572-ZIP-12334	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425975572-ZIP-12463	54:3A:D6:28:63:9C	vice connected: 54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425975572-ZIP-12952	54:3a:d6:28:63:9c	_cback bd_addr: 54:3a:d6:28:63:9c\01210-22 00:10:26.
+7425975572-ZIP-13049	54:3a:d6:28:63:9c	iled: peer_addr=54:3a:d6:28:63:9c open_status=0\0121
+7425975572-ZIP-13154	54:3a:d6:28:63:9c	tr_closed: peer 54:3a:d6:28:63:9c handle:65 open_
+7425975572-ZIP-13631	54:3a:d6:28:63:9c	av_cleanup peer 54:3a:d6:28:63:9c\01210-22 00:10:26.
+7425975572-ZIP-13782	54:3a:d6:28:63:9c	, void *): Peer 54:3a:d6:28:63:9c : event=BTA_AV_
+7425975572-ZIP-14238	54:3a:d6:28:63:9c	e: peer_address=54:3a:d6:28:63:9c state=0 av_peer
+7425975572-ZIP-14872	54:3a:d6:28:63:9c	ting idle peer: 54:3a:d6:28:63:9c bta_handle=0x41
+7425975572-ZIP-15016	54:3a:d6:28:63:9c	equest: address=54:3a:d6:28:63:9c UUID=110A busy=
+7425975572-ZIP-15143	54:3A:D6:28:63:9C	e disconnected: 54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425975572-ZIP-15237	54:3A:D6:28:63:9C	er Disconnected(54:3A:D6:28:63:9C): STACK_EVENT\0121
+7425975572-ZIP-15365	54:3A:D6:28:63:9C	Changed, device=54:3A:D6:28:63:9C, profile=2, 1 -
+7425975572-ZIP-15498	54:3A:D6:28:63:9C	Changed, device=54:3A:D6:28:63:9C, a2dpDisconnect
+7425975572-ZIP-16219	54:3A:D6:28:63:9C	ED for Device : 54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425975572-ZIP-20118	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:26.
+7425975572-ZIP-20500	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\012
+7425980381-ZIP-219	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:26.
+7425980381-ZIP-601	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:26.
+7425980381-ZIP-983	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:26.
+7425980381-ZIP-1220	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:26.
+7425980381-ZIP-1602	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425980381-ZIP-1984	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425980381-ZIP-2221	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:26.
+7425989242-ZIP-15407	54:3a:d6:28:63:9c	connected: Peer 54:3a:d6:28:63:9c : ACL Disconnec
+7425989242-ZIP-17006	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:30.
+7426003403-ZIP-16026	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:31.
+7426003403-ZIP-16408	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:31.
+7426003403-ZIP-16790	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:31.
+7426005664-ZIP-3510	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:31.
+7426005664-ZIP-3892	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:31.
+7426005664-ZIP-4129	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-22 00:10:31.
+7426005664-ZIP-4511	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:31.
+7426005664-ZIP-5485	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:31.
+7426005664-ZIP-5722	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-22 00:10:31.
+7426005664-ZIP-6400	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:32.
+7426005664-ZIP-6782	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:32.
+7426005664-ZIP-7019	54:3A:D6:28:63:9C	 device address=54:3A:D6:28:63:9C\01210-22 00:10:32.
+7432478912-ZIP-11828	50:E8:5A:A9:3F:4B	lass update for 50:E8:5A:A9:3F:4B\01210-16 00:34:39.
+7432478912-ZIP-12008	50:E8:5A:A9:3F:4B	ED for Device : 50:E8:5A:A9:3F:4B\01210-16 00:34:39.
+7470047307	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7470048432	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7485390927	F4:5C:89:C7:54:F0	    <long name="F4:5C:89:C7:54:F0" value="1698025
+7485390987	F4:4E:FD:C6:29:FC	    <long name="F4:4E:FD:C6:29:FC" value="1696864
+7485391047	54:3A:D6:28:63:9C	    <long name="54:3A:D6:28:63:9C" value="1697933
+7485448273	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+7485448566	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+7485449045	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+7485476945	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+7485477238	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+7485477717	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+7485481041	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+7485481334	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+7485481813	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+7513030731	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7513031856	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7513034827	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7513035952	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7513038923	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7513040048	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7513043019	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7513044144	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7485462003-ZIP-10693	f4:5c:89:c7:54:f0	nnect_src: Peer f4:5c:89:c7:54:f0\01210-23 01:47:58.
+7485462003-ZIP-11288	F4:5C:89:C7:54:F0	ED for Device : F4:5C:89:C7:54:F0\01210-23 01:47:58.
+7485462003-ZIP-11410	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+7485462003-ZIP-11566	f4:5c:89:c7:54:f0	equest: address=f4:5c:89:c7:54:f0 UUID=110B busy=
+7485462003-ZIP-11756	f4:5c:89:c7:54:f0	r: peer_address=f4:5c:89:c7:54:f0 bta_handle=0x46
+7485462003-ZIP-12502	f4:5c:89:c7:54:f0	TA_AvOpen: peer f4:5c:89:c7:54:f0 handle:0x46 use
+7485462003-ZIP-12662	f4:5c:89:c7:54:f0	e: peer_address=f4:5c:89:c7:54:f0 state=1 av_peer
+7485462003-ZIP-13010	f4:5c:89:c7:54:f0	:00:00 new_addr=f4:5c:89:c7:54:f0\01210-23 01:47:58.
+7485462003-ZIP-13101	f4:5c:89:c7:54:f0	dService: peer: f4:5c:89:c7:54:f0 UUID: 0x110a\01210
+7485462003-ZIP-13318	F4:5C:89:C7:54:F0	Changed, device=F4:5C:89:C7:54:F0, profile=11, 0 
+7485462003-ZIP-15283	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 01:47:58.
+7485462003-ZIP-15665	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 01:47:58.
+7485462003-ZIP-15902	F4:5C:89:C7:54:F0	 device address=F4:5C:89:C7:54:F0\01210-23 01:47:58.
+7485462003-ZIP-16284	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 01:47:59.
+7485462003-ZIP-16666	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 01:47:59.
+7485462003-ZIP-16903	F4:4E:FD:C6:29:FC	 device address=F4:4E:FD:C6:29:FC\01210-23 01:47:59.
+7519504558-ZIP-2127	76:68:D9:AC:A4:38	lass update for 76:68:D9:AC:A4:38\01210-23 08:42:44.
+7519504558-ZIP-2307	76:68:D9:AC:A4:38	ED for Device : 76:68:D9:AC:A4:38\01210-23 08:42:44.
+7679098962	F4:5C:89:C7:54:F0	 <boolean name="F4:5C:89:C7:54:F0" value="true" /
+7679610961	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+7679611254	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+7679611729	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+7744966731	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7744967856	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7749038155	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7749039269	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7776260177	b0:f7:c4:41:cc:93	pter]\012Address = b0:f7:c4:41:cc:93\012LE_LOCAL_KEY_IR
+7776260470	f4:5c:89:c7:54:f0	(2nd Gen)-3SD\012\012[f4:5c:89:c7:54:f0]\012Manufacturer =
+7776260945	f4:4e:fd:c6:29:fc	ersion = 0301\012\012[f4:4e:fd:c6:29:fc]\012VID = 65535\012PI
+7776370763	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7776371888	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7782733941	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7782733992	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7782799499	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7782799550	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7786917963	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7786919066	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000
+7786922059	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7786923162	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000
+7786987595	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7786988698	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7787802678	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7787802729	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7787914383	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7787914434	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7791276107	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7791277210	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7792522043	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7792522094	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7792543164	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7792543215	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7793016907	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7793086539	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7793087642	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7793819723	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7793820826	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7794902990	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7794903041	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7795093579	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7795094682	b8:f8:53:5f:0d:c3	.unified_bssid\022\021b8:f8:53:5f:0d:c3\012"\012\034persist.wifi
+7809802315	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7809966155	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7810406644	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7810406695	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7810456424	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7810456475	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7811072075	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend
+7811087498	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7811087549	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7811132554	B0:F7:C4:41:CC:93	address" value="B0:F7:C4:41:CC:93" package="andro
+7811132605	B0:F7:C4:41:CC:93	" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet=
+7814611019	b0:f7:c4:41:cc:93	.bdroid.bdaddr\022\021b0:f7:c4:41:cc:93\012(\012#persist.vend

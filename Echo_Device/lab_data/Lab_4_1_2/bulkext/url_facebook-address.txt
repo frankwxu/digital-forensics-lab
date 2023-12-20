@@ -1,0 +1,8 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: url
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Histogram-File-Version: 1.1
+n=9	://m.facebook.com/watch
+n=2	://www.facebook.com/tr
+n=1	://www.facebook.com/zoominc

@@ -1,0 +1,56 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: url
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Histogram-File-Version: 1.1
+n=10	search?q=close%20google	(utf16=1)
+n=6	search/?p=remove_personal_contact_info
+n=5	search?q=close%20googleB
+n=5	search?q=close%20googleF
+n=5	search?q=search%20chicken%20nuggets%20on%20googleA2
+n=5	search?q=search%20chicken%20nuggets%20on%20googleE2
+n=4	search?q=search%20chicken%20nuggets%20on%20google	(utf16=1)
+n=3	search?q=close%20googleclose
+n=3	search?q=search%20chicken%20nuggets%20on%20googlesearch
+n=2	search/?p=language_search_results
+n=1	search/?p=image_info
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=1&gs_id=2&q=H
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=1&gs_id=2&q=K
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=1&gs_id=4&q=A
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=1&gs_id=a&q=K
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=10&gs_id=t&q=Hot%20indian
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=12&gs_id=z&q=Hot%20indian%20m
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=13&gs_id=12&q=Hot%20indian%20mu
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=14&gs_id=15&q=Hot%20indian%20mus
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=15&gs_id=18&q=Hot%20indian%20musi
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=16&gs_id=1b&q=Hot%20indian%20music
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=2&gs_id=5&q=Ho
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=2&gs_id=5&q=Ka
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=2&gs_id=d&q=Ka
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=3&gs_id=8&q=Hot
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=3&gs_id=8&q=Kap
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=3&gs_id=g&q=Kap
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=4&gs_id=b&q=Hot%20
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=4&gs_id=b&q=Kapi
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=4&gs_id=j&q=Kapi
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=5&gs_id=e&q=Hot%20i
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=5&gs_id=e&q=Kapil
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=5&gs_id=m&q=Kapil
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=6&gs_id=h&q=Hot%20in
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=6&gs_id=h&q=Kapil%20
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=6&gs_id=p&q=Kapil%20
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=7&gs_id=k&q=Hot%20ind
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=7&gs_id=k&q=Kapil%20s
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=8&gs_id=n&q=Hot%20indi
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=8&gs_id=n&q=Kapil%20sh
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=9&gs_id=q&q=Kapil%20sha
+n=1	search?client=youtube-reduced&hl=en&gs_rn=64&gs_ri=youtube-reduced&ds=yt&cp=9&gs_id=y&q=Kapil%20sha
+n=1	search?q&cp=0&client=gws-wiz-serp&xssi=t&gs_pcrt=2&hl=en&authuser=0&pq=close%20google&psi=ILU1ZdSFEpjV5NoP5NO3qAY.1698018594162&dpr=1.9968750476837158&ofp=GLnIw8_wiqTD7wEY16etyqnO5_j1ARjAj7nqjJ-OkO0BGKzuqeCRk83eZxih7Mqdg5-27cQB
+n=1	search?q&cp=0&client=gws-wiz-serp&xssi=t&gs_pcrt=2&hl=en&authuser=0&pq=close%20google&psi=KLU1Zab9LN6h5NoP97OFoA8.1698018602394&dpr=1.9968750476837158&ofp=GLnIw8_wiqTD7wEY16etyqnO5_j1ARjAj7nqjJ-OkO0BGKzuqeCRk83eZxih7Mqdg5-27cQB
+n=1	search?q&cp=0&client=gws-wiz-serp&xssi=t&gs_pcrt=2&hl=en&authuser=0&pq=close%20google&psi=M7U1ZajLL6Kj5NoPhcSS2AQ.1698018613358&dpr=1.9968750476837158&ofp=GLnIw8_wiqTD7wEY16etyqnO5_j1ARjAj7nqjJ-OkO0BGKzuqeCRk83eZxih7Mqdg5-27cQB
+n=1	search?q=close%20google&cp=0&client=desktop-gws-wiz-on-focus-serp&xssi=t&gs_pcrt=3&hl=en&authuser=0&pq=close%20google&psi=ILU1ZdSFEpjV5NoP5NO3qAY.1698018594162&dpr=1.9968750476837158&ofp=EAEYucjDz_CKpMPvARjXp63Kqc7n-PUBGMCPueqMn46Q7QEYrO6p4JGTzd5nGKHsyp2Dn7btxAEykQIKFwoVZGVsZXRlIGdvb2dsZSBhY2NvdW50CiIKIGRlbGV0ZSBnb29nbGUgYWNjb3VudCBmcm9tIHBob25lCikKJ2hvdyB0b
+n=1	search?q=close%20google&cp=0&client=desktop-gws-wiz-on-focus-serp&xssi=t&gs_pcrt=3&hl=en&authuser=0&pq=close%20google&psi=KLU1Zab9LN6h5NoP97OFoA8.1698018602394&dpr=1.9968750476837158&ofp=EAEYucjDz_CKpMPvARjXp63Kqc7n-PUBGMCPueqMn46Q7QEYrO6p4JGTzd5nGKHsyp2Dn7btxAEykQIKFwoVZGVsZXRlIGdvb2dsZSBhY2NvdW50CiIKIGRlbGV0ZSBnb29nbGUgYWNjb3VudCBmcm9tIHBob25lCikKJ2hvdyB0b
+n=1	search?q=close%20google&cp=0&client=desktop-gws-wiz-on-focus-serp&xssi=t&gs_pcrt=3&hl=en&authuser=0&pq=close%20google&psi=M7U1ZajLL6Kj5NoPhcSS2AQ.1698018613358&dpr=1.9968750476837158&ofp=EAEYucjDz_CKpMPvARjXp63Kqc7n-PUBGMCPueqMn46Q7QEYrO6p4JGTzd5nGKHsyp2Dn7btxAEykQIKFwoVZGVsZXRlIGdvb2dsZSBhY2NvdW50CiIKIGRlbGV0ZSBnb29nbGUgYWNjb3VudCBmcm9tIHBob25lCikKJ2hvdyB0b
+n=1	search?q=close%20googleFM
+n=1	search?q=search%20chicken%20nuggets%20on%20google0
+n=1	search?q=search%20chicken%20nuggets%20on%20googleE

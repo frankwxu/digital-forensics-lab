@@ -1,0 +1,10 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: winpe_carved
+# Filename: /media/sf_Echo_Show_8_-_Image/EMMC_8GTF4R_ROM1_000000000000_0001D2000000.bin
+# Feature-File-Version: 1.1
+2101624043-ZIP-0	winpe_carved/000/2101624043-ZIP-0.winpe	<fileobject><filename>winpe_carved/000/2101624043-ZIP-0.winpe</filename><filesize>6144</filesize><hashdigest type='sha1'>9e9665af0cdf72fe0f10a27508ff1362ea3ccf0d</hashdigest></fileobject>
+2101628169-ZIP-0	winpe_carved/000/2101628169-ZIP-0.winpe	<fileobject><filename>winpe_carved/000/2101628169-ZIP-0.winpe</filename><filesize>48128</filesize><hashdigest type='sha1'>e97e4fc5277531264f989e1227ec1862d28a7561</hashdigest></fileobject>
+2101628169-ZIP-109	winpe_carved/000/2101628169-ZIP-109.winpe	<fileobject><filename>winpe_carved/000/2101628169-ZIP-109.winpe</filename><filesize>48128</filesize><hashdigest type='sha1'>ead66cda8b662807d992e93365e60d167909c756</hashdigest></fileobject>
+2241884368-ZIP-0	winpe_carved/000/2241884368-ZIP-0.winpe	<fileobject><filename>winpe_carved/000/2241884368-ZIP-0.winpe</filename><filesize>196608</filesize><hashdigest type='sha1'>ce115bd61a7f2d344c38cc87dcd4989d800cf836</hashdigest></fileobject>
+2241962820-ZIP-0	winpe_carved/000/2241962820-ZIP-0.winpe	<fileobject><filename>winpe_carved/000/2241962820-ZIP-0.winpe</filename><filesize>315904</filesize><hashdigest type='sha1'>69dceec30b01166973baeff031d95b279907e1b2</hashdigest></fileobject>

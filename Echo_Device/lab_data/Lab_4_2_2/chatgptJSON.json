@@ -1,0 +1,45 @@
+{
+  "SipClient:SipClientState": {
+    "@class": "amazon.speech.simclient.context.persistence.DeviceContextSerializable",
+    "caller": "com.amazon.comms.multimodaltachyonarm",
+    "endpointId": null,
+    "instance": null,
+    "lifecycle": 2,
+    "name": "SipClientState",
+    "namespace": "SipClient",
+    "payload": {
+      "CLIENT_IDENTIFIER": "Domain:Application:Communications:Calling",
+      "deviceSentAbsoluteTimestamp": "1697926862078",
+      "deviceSentRelativeTimestamp": "764771342",
+      "sipCallState": {
+        "callActive": null,
+        "callConnectDurationInMillis": 0,
+        "callId": "5c32191e-c27f-472e-a81f-50e7dce5788f",
+        "callProvider": "Bacon",
+        "callState": "CALLING",
+        "callTotalDurationInMillis": 0,
+        "callee": {
+          "id": "",
+          "name": "<scrub>Hibna Sarfraz</scrub>",
+          "sipInstance": null,
+          "uri": "sips:AAAAAAAAAACO60J6r+eHauADAb4X4eQkKAAAAAAAAACh1rUdIEDXbv+OrsThN2oNOuQG2RVyWo+LYJyzvracOh6tzrE87lmH@amcs-tachyon.com;user=phone"
+        },
+        "caller": {
+          "id": "amzn1.comms.id.hg.amzn1~HH3Q6VLVSQSPYV2",
+          "name": "<scrub></scrub>",
+          "sipInstance": null,
+          "uri": "sips:id.hg.amzn1~HH3Q6VLVSQSPYV2@amcs-tachyon.com"
+        },
+        "isDropIn": false,
+        "side": "caller",
+        "sipCallId": null,
+        "sipRegistered": true
+      }
+    },
+    "publishState": "UNPUBLISHED",
+    "timeOfSample": "2023-10-21T22:21:02.100Z",
+    "timestamp": 1697926862100,
+    "uncertaintyInMillis": 0,
+    "version": 100
+  }
+}

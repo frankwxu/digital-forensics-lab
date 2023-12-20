@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<packages>
+    <version sdkVersion="28" databaseVersion="3" fingerprint="Amazon/athena/athena:9/PS7560.3677N/0028421545216:user/amz-p,release-keys" />
+    <version volumeUuid="primary_physical" sdkVersion="28" databaseVersion="3" fingerprint="Amazon/athena/athena:7.0/PS7543/1700N:user/amz-p,release-keys" />
+    <permission-trees />
+    <permissions>
+        <item name="com.amazon.whisperjoin.deviceprovisioningservice.service.BINDER_PERMISSION" package="com.amazon.whisperjoin.middleware" protection="18" />
+        <item name="android.permission.REAL_GET_TASKS" package="android" protection="18" />
+        <item name="android.permission.ACCESS_CACHE_FILESYSTEM" package="android" protection="18" />
+        <item name="android.permission.REMOTE_AUDIO_PLAYBACK" package="android" protection="2" />
+        <item name="com.amazon.vizzini.setting.permission.ALEXA_SETTING" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" package="android.amazon.perm" />
+        <item name="com.amazon.kor.demo.permission.DEMO_RESET" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.tv.permission.INPUT_EVENT" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.kindle.safemode.TIME_COP_PROMPTS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.REGISTER_WINDOW_MANAGER_LISTENERS" package="android" protection="2" />
+        <item name="android.permission.INTENT_FILTER_VERIFICATION_AGENT" package="android" protection="18" />
+        <item name="android.permission.BIND_INCALL_SERVICE" package="android" protection="18" />
+        <item name="com.amazon.rtcsc.permission.RTCSC" package="com.amazon.rtcsessioncontroller" protection="18" />
+        <item name="android.permission.PROVIDE_RESOLVER_RANKER_SERVICE" package="android" protection="18" />
+        <item name="android.permission.WRITE_SETTINGS" package="android" protection="1218" />
+        <item name="com.amazon.avod.purchase.PURCHASE_PERMISSION" package="com.amazon.avod" protection="2" />
+        <item name="com.amazon.permission.SEND_SYSTEM_AUDIO_MODE_REQUEST" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.READ_SMS" package="android" protection="1" />
+        <item name="android.permission.CONTROL_KEYGUARD" package="android" protection="2" />
+        <item name="android.permission.MANAGE_CAMERA" package="android" protection="2" />
+        <item name="com.amazon.tv.permission.RECEIVE_HDMI_DVI_MODE" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.READ_WALLPAPER_INTERNAL" package="android" protection="18" />
+        <item name="com.amazon.mw.permission.PLUGIN" package="android.amazon.perm" protection="1" />
+        <item name="com.amazon.permission.AUDIO_IO_WATCHER" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.tv.launcher.permission.RECEIVE_CARDS_INTENT" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.permission.ALLOW_POST_NOTIFICATION_CHILD" package="android.amazon.perm" protection="-2147483630" />
+        <item name="android.permission.CONFIGURE_WIFI_DISPLAY" package="android" protection="2" />
+        <item name="com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.CONFIGURE_DISPLAY_COLOR_MODE" package="android" protection="2" />
+        <item name="android.permission.ACCESS_WIMAX_STATE" package="android" />
+        <item name="com.amazon.alexa.permission.EXTENSION" package="android.amazon.perm" protection="-2147483630" />
+        <item name="android.permission.SET_INPUT_CALIBRATION" package="android" protection="2" />
+        <item name="android.permission.RECOVERY" package="android" protection="18" />
+        <item name="com.amazon.systemui.tv.permission.HANDLE_PIP_UTTERANCES" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.TEMPORARY_ENABLE_ACCESSIBILITY" package="android" protection="2" />
+        <item name="com.amazon.permission.ROBO_COP" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.alexa.multimodal.permission.SDK_API_GATEWAY" package="android.amazon.perm" protection="-2147483630" />
+        <item name="com.amazon.dcp.permission.SET_PREFERENCES" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.SET_PROCESS_LIMIT" package="android" protection="50" />
+        <item name="android.permission.READ_LOWPAN_CREDENTIAL" package="android" protection="18" />
+        <item name="android.permission.FRAME_STATS" package="android" protection="2" />
+        <item name="com.amazon.platform.permission.GET_KEYS_SERVICE" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.permission.AIRPLAY_APP_LAUNCH_REQUEST" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.paladin.amazon.paladin.permission.FORCE_BACKGROUND_ROTATION_RECEIVER" package="com.amazon.paladin" protection="18" />
+        <item name="com.amazon.permission.SMARTSUSPEND_NOTIFICATION" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.backgroundimageservice.CLOCK_PHOTO_DOWNLOADED_SENDER" package="com.amazon.paladin" protection="18" />
+        <item name="com.android.launcher3.permission.READ_SETTINGS" package="com.android.launcher3" protection="18" />
+        <item name="android.permission.READ_CALENDAR" package="android" protection="1" />
+        <item name="android.permission.BRICK" package="android" protection="2" />
+        <item name="android.permission.READ_CALL_LOG" package="android" protection="1" />
+        <item name="com.amazon.mas.client.GLOBAL_BROADCAST_com.amazon.venezia" package="android.amazon.perm" protection="-2147483646" />
+        <item name="amazon.speech.permission.DISABLE_PARTIAL" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.audible.application.kindle.permission.MANAGE_DOWNLOADS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.ods.permission.MAYDAY" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.fireos.sdk.ftve.SETTINGS" package="android.amazon.perm" protection="18" />
+        <item name="com.amazon.dcp.ota.permission.QUERY_PENDING_UPDATES" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.ceviche.permission.TRACK_EVENTS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.permission.CONTROL_PIP_WINDOW" package="android.amazon.perm" protection="1073741826" />
+        <item name="com.google.android.c2dm.permission.RECEIVE" package="android.amazon.perm" />
+        <item name="com.amazon.kindle.dtcp.permission.VSO_NOTIFY_REFRESH" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.appmanager.preload.permission.READ_PRELOAD_DEVICE_INFO_PROVIDER" package="com.amazon.alexa.externalmediaplayer.fireos" protection="18" />
+        <item name="android.permission.BIND_PRINT_RECOMMENDATION_SERVICE" package="android" protection="2" />
+        <item name="android.permission.ACCESS_FINE_LOCATION" package="android" protection="4097" />
+        <item name="com.amazon.alexa.permission.MULTIMODAL_STATUS_PERMISSION" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.whisperjoin.deviceprovisioningservice.ArcusUpdate.Permission" package="com.amazon.whisperjoin.middleware" protection="2" />
+        <item name="android.permission.RESTART_PACKAGES" package="android" />
+        <item name="android.permission.STORAGE_INTERNAL" package="android" protection="2" />
+        <item name="android.permission.USE_CREDENTIALS" package="android" />
+        <item name="android.permission.TABLET_MODE" package="android" protection="2" />
+        <item name="android.permission.NOTIFICATION_DURING_SETUP" package="android" protection="18" />
+        <item name="com.amazon.dcp.permission.DISPLAY_OTA_STATUS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.venezia" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.BIND_KEYGUARD_APPWIDGET" package="android" protection="18" />
+        <item name="com.amazon.weather.permission.ACCESS_WEATHER_PREFERENCES" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.NETWORK_BYPASS_PRIVATE_DNS" package="android" protection="2" />
+        <item name="com.amazon.permission.SET_FLAG_NOSOFTKEYS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.settings.permission.BLUETOOTH_CONTROL" package="com.android.settings" protection="18" />
+        <item name="com.amazon.neo.permission.ADD_SERVICE" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.customappaccesskeyprovider.permission.ACCESS_KEY" package="com.amazon.appaccesskeyprovider" />
+        <item name="com.amazon.dcp.permission.WAKE_PERSISTENT_SERVICES" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.mas.client.pdiservice.INVOKE_PDI_SERVICE_com.amazon.venezia" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.tahoe.permission.RECEIVE_ADM_MESSAGE" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.fwp.LIFECYCLE_RECEIVER" package="com.amazon.fwp" />
+        <item name="android.permission.READ_SYSTEM_UPDATE_INFO" package="android" protection="2" />
+        <item name="com.amazon.paladin.permission.HOME_PHOTO_EXPIRED" package="com.amazon.paladin" protection="18" />
+        <item name="com.amazon.dcp.permission.READ_OTA_STATUS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.BIND_DEVICE_ADMIN" package="android" protection="2" />
+        <item name="android.permission.MODIFY_AUDIO_SETTINGS" package="android" />
+        <item name="com.amazon.knight.blink.permission.BROADCAST_SENDER" package="com.amazon.knight.blink" protection="18" />
+        <item name="com.qualcomm.permission.INTERFACE_DIAG" package="android.amazon.perm" protection="-2147483646" />
+        <item name="amazon.permission.LED_CONTROLLER" package="android.amazon.perm" protection="-2147483630" />
+        <item name="permission.com.amazon.neso.ACCESS_FEATURE_FLAG" package="com.amazon.paladin" protection="18" />
+        <item name="com.amazon.dcp.ota.permission.MODIFY_PENDING_UPDATES" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.planetexpress.permission.ACCESS_SYSTEM_MSGS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="tyto.permission.WRITE_IDENTIFIES_HISTORY" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.ACCESS_CHECKIN_PROPERTIES" package="android" protection="18" />
+        <item name="amazon.permission.BYPASS_P2P_AUTHENTICATION" package="android.amazon.perm" protection="1" />
+        <item name="com.amazon.device.intent.PLAYER_CHANGE" package="android.amazon.perm" protection="18" />
+        <item name="android.permission.KILL_UID" package="android" protection="258" />
+        <item name="amazon.speech.permission.CSM_PROXY_CLIENT" package="android.amazon.perm" protection="18" />
+        <item name="com.amazon.paladin.privacy.PRIVACY_CONSUMER" package="com.amazon.paladin" protection="18" />
+        <item name="android.permission.SIGNAL_PERSISTENT_PROCESSES" package="android" protection="50" />
+        <item name="android.permission.BIND_PRINT_SERVICE" package="android" protection="2" />
+        <item name="android.permission.ACCESS_NOTIFICATION_POLICY" package="android" />
+        <item name="com.amazon.tv.ime.permission.KEYBOARD_STATE" package="android.amazon.perm" protection="-2147483630" />
+        <item name="android.permission.ACTIVITY_EMBEDDING" package="android" protection="50" />
+        <item name="android.permission.BIND_RUNTIME_PERMISSION_PRESENTER_SERVICE" package="android" protection="2" />
+        <item name="android.permission.MODIFY_AUDIO_ROUTING" package="android" protection="18" />
+        <item name="android.permission.RECEIVE_BLUETOOTH_MAP" package="android" protection="18" />
+        <item name="com.amazon.edgecvs.permission.ACCESS" package="com.amazon.edgecvs" protection="18" />
+        <item name="android.permission.ACCESS_MOCK_LOCATION" package="android" protection="2" />
+        <item name="amazon.permission.PREPARE_SHUTDOWN" package="android.amazon.perm" />
+        <item name="com.amazon.feeds.permission.CONTENT_PROVIDER_ACCESS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.ACCESS_UCE_OPTIONS_SERVICE" package="android" protection="18" />
+        <item name="android.permission.BIND_VR_LISTENER_SERVICE" package="android" protection="2" />
+        <item name="com.amazon.permission.zigbee.AMAZON_ZIGBEE_PRIVILEGED" package="android.amazon.perm" protection="2" />
+        <item name="com.amazon.mas.client.download.service.INVOKE_DOWNLOAD_SERVICE_com.amazon.venezia" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.mas.client.install.CONTENT_PROVIDER_WRITE" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.permission.SET_AICAMERA_PARAMS" package="android.amazon.perm" protection="1073741826" />
+        <item name="com.amazon.device.permission.READ_CONTROLLERS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.GET_APP_OPS_STATS" package="android" protection="50" />
+        <item name="android.permission.RECEIVE_DATA_ACTIVITY_CHANGE" package="android" protection="18" />
+        <item name="com.amazon.permission.ACCESS_HDMI_SERVICE_ADVANCED" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.edgecvs.permission.GET_HUMAN_PRESENCE_EVENTS" package="com.amazon.edgecvs" protection="18" />
+        <item name="com.amazon.permission.RECEIVE_MOONLIGHT_UPDATES" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.permission.USE_AIPC" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.kindle.otter.settings.BIND_PRIME" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.d3.permission.RECEIVE_INTENTS" package="com.amazon.d3" protection="2" />
+        <item name="com.amazon.settings.permission.WEBVIDEOS_SETTINGS" package="com.android.settings" protection="18" />
+        <item name="com.amazon.device.environment.permission.SWITCH_STAGE" package="com.amazon.device.messaging" protection="18" />
+        <item name="com.amazon.dcp.settings.permission.FETCH_SETTINGS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.permission.RECORD_NONSENSITIVE_AUDIO" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.setupwizard.permission.AMAZON_FIRST_RUN_STATUS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="amazon.permission.SHARED_STORAGE_WRITE" package="android.amazon.perm" protection="-2147483630" />
+        <item name="android.permission.ANSWER_PHONE_CALLS" package="android" protection="8193" />
+        <item name="com.amazon.device.permission.SEND_BLUETOOTH_STATUS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.permission.OTA_INSTALL_STATUS_LISTENER" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.dcp.messaging.permission.HANDLE_DEVICE_MESSAGE" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.sm.permission.SELF_MAP" package="com.amazon.theia.sm" protection="2" />
+        <item name="com.amazon.settings.permission.UPDATE_CLOSED_CAPTIONING_SETTING_SENDER" package="com.android.settings" protection="18" />
+        <item name="android.permission.READ_WIFI_CREDENTIAL" package="android" protection="18" />
+        <item name="com.amazon.tv.permission.TV_SATELLITE_BS_CS_PRESSED" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.BIND_DREAM_SERVICE" package="android" protection="2" />
+        <item name="amazon.speech.permission.GENERIC_CONNECTION" package="android.amazon.perm" />
+        <item name="android.permission.WRITE_GSERVICES" package="android" protection="18" />
+        <item name="com.amazon.theia.sm.permission.FRAMEWORK" package="com.amazon.theia.sm" />
+        <item name="android.permission.INSTALL_LOCATION_PROVIDER" package="android" protection="18" />
+        <item name="android.permission.USE_RESERVED_DISK" package="android" protection="18" />
+        <item name="com.amazon.kindleautomatictimezone.permission.RECEIVE_OOBE_INTENT_FOR_ATZ" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.paladin.INJECT_PERSON_DATA_REQUESTER" package="com.amazon.paladin" protection="2" />
+        <item name="com.amazon.alexa.datastore.packagemanager.permission.DSPM_BIND" package="com.amazon.alexa.datastore.app" protection="18" />
+        <item name="com.amazon.alexa.extension.permission.SKILL" package="android.amazon.perm" protection="-2147483630" />
+        <item name="com.amazon.alexa.permission.MODE_SWITCH" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.symphonydeviceclient.permission.UPDATE_CONFIGS_COMPLETE" package="com.amazon.symphonydeviceclient" protection="18" />
+        <item name="android.permission.READ_RUNTIME_PROFILES" package="android" protection="18" />
+        <item name="com.amazon.kindle.safemode.FREETIME_EXIT" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.dp.contacts.permission.MIGRATE_CONTACTS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.mw.permission.PLUGIN_CONSUMER" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.dcp.permission.USE_AMAZON_ACCOUNT_REGISTRAR" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.MANAGE_ACCOUNTS" package="android" />
+        <item name="android.permission.CONTROL_WIFI_DISPLAY" package="android" protection="2" />
+        <item name="com.amazon.avod.SDK_ACCESS" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.SYSTEM_ALERT_WINDOW" package="android" protection="1250" />
+        <item name="com.amazon.permission.WINDOW_TYPE_KINDLE_CONNECT" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.knight.blink.permission.BROADCAST_RECEIVER" package="com.amazon.knight.blink" protection="18" />
+        <item name="com.mstar.tv.permission.BIND_TV_SERVICE" package="android.amazon.perm" protection="-2147483630" />
+        <item name="com.amazon.inapp.purchasing.Permission.NOTIFY" package="android.amazon.perm" protection="-2147483646" />
+        <item name="android.permission.INSTANT_APP_FOREGROUND_SERVICE" package="android" protection="4194" />
+        <item name="android.permission.BIND_CARRIER_SERVICES" package="android" protection="18" />
+        <item name="com.amazon.kindle.otter.oobe.BIND_STATE_SERVICE" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.tv.quicksettings.permission.SLEEP" package="android.amazon.perm" protection="-2147483646" />
+        <item name="com.amazon.tv.quicksettings.permission.START" package="android.amaz
