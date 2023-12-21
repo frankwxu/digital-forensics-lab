@@ -364,6 +364,10 @@ The dataset includes logical files extracted from a DJI controller (mobile devic
   - Chimezie Onwuegbuchulem (Docker for Digital Forensics)
   - Etinosa Osawe (AI for Forensics - Identifying IPs with a Fine-tuned Language Model)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=frankwxu/digital-forensics-lab&type=Date)](https://star-history.com/#frankwxu/digital-forensics-lab&Date)
+
 <script async src="//static.getclicky.com/101329461.js"></script>
 
 <img width="1" height="1" src="//in.getclicky.com/101329461ns.gif" />
