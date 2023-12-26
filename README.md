@@ -4,14 +4,15 @@
 
 ### Features of Repository
 
-- Interactive Digital Forensics Labs: Tailored for students and faculty engagement
-- Linux-Centric Lab Environment: Utilizes Kali Linux exclusively for all labs
-- Visual Learning Support: Each lab includes PowerPoint presentations, associated files, and instructional screenshots
-- Holistic Coverage: Encompasses a wide array of topics within the field of digital forensics
-- Open Source Tools: All tools utilized are freely available and open source
-- Ongoing Updates: Supported by grants from the DOJ, DHS, and NSF, the team is committed to regularly updating the repository
-- Forensic Intelligence Integration: Two structured forensic intelligence datasets in JSON format derived from real case studies
-- **For feedback or to express your usage of the course materials, please reach out via email at wxu at ubalt dot edu. Your collaboration is sincerely valued**
+- **Interactive Digital Forensics Labs:** Tailored for students and faculty engagement
+- **Linux-Centric Lab Environment:** Utilizes Kali Linux exclusively for all labs
+- **Visual Learning Support:** Each lab includes PowerPoint presentations, associated files, and instructional screenshots
+- **Holistic Coverage:** Encompasses a wide array of topics within the field of digital forensics
+- **Open Source Tools:** All tools utilized are freely available and open source
+- **Ongoing Updates:** Supported by grants from the DOJ, DHS, and NSF, the team is committed to regularly updating the repository
+- **Forensic Intelligence Integration:** Two structured forensic intelligence datasets in JSON format derived from real case studies
+
+_For feedback or to express your usage of the course materials, please reach out via email at wxu at ubalt dot edu. Your collaboration is sincerely valued_
 
 ---
 
