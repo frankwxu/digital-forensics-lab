@@ -35,7 +35,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (Newly Added: 1. AI for Forensics - Identifying IPs with a Fine-tuned Language Model, 2. Docker for Digital Forensics, 09/2023, 3. Add Python version to NIST Dataleakage Case, 10/2023)
+## Table of Contents (Major Holidy release Dec 25, 2023: Echo Show investigations preview)
 
 - Basic Computer Skills for Digital Forensics
 
@@ -75,6 +75,7 @@ or in BibTeX
   - [Investigating Hacking Case](#investigating-hacking-case)
   - [Investigating Morris Worm Attack](#investigating-morris-worm-attack) (updated on Jan 2023, [POSTER](/papers/poster_Morris_Worm_Attack.pdf))
 - Mobile/IoT Forensics Case Study
+  - [Investigating Echo Show 8](#investigating-echo-show-8) (added on 12/25/2023)
   - [Investigating Android 10](#investigating-android-10) (added on 10/24/2021)
   - [Investigating iPhone iOS 13](#investigating-iphone-ios-13) (updated on 6/18/2022)
   - [Investigating Drone](#investigating-drone-dji) (add on 12/07/2021)
@@ -122,8 +123,6 @@ chmod +x tool-install-zsh.sh
 
 ### Investigating NIST Data Leakage
 
-==============
-
 The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to investigate an image involving intellectual property theft. The study include
 
 - A large and complex case study created by NIST. You can access the [Scenario, DD/Encase images](https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html). You can also find the [solutions](https://cfreds-archive.nist.gov/data_leakage_case/leakage-answers.pdf) on their website.
@@ -152,8 +151,6 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 
 ### Investigating P2P Data Leakage
 
-==============
-
 The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Data_Leakage_Case) is to help students to apply various forensic techniques to investigate intellectual property theft involving P2P. The study includes
 
 - A large and complex case involving a uTorrent client. The case is similar to NIST data leakage lab. However, it provides a clearer and more detailed timeline.
@@ -180,8 +177,6 @@ The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-
 
 ### Investigating Illegal Possession of Images
 
-=====================
-
 The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Illegal_Possession_Images) is to investigate the illegal possession of Rhino images. This image was contributed by Dr. Golden G. Richard III, and was originally used in the DFRWS 2005 RODEO CHALLENGE. NIST hosts the [USB DD image](https://cfreds-archive.nist.gov/dfrws/Rhino_Hunt.html). A copy of the image is also available in the repository.
 
 **Topics Covered**
@@ -194,9 +189,9 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 | Lab 4 | [Rhion Possession Investigation 3: Extract Evidence from FTP Traffic](Illegal_Possession_Images/Rhion_Possession_3_FTP_Traffic_crackzip.pptx) | 3M           |
 | Lab 5 | [Rhion Possession Investigation 4: Extract Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)        | 5M           |
 
-### Investigating Email Harassment
+---
 
-=========
+### Investigating Email Harassment
 
 The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Email_Harassment) is to investigate the harassment email sent by a student to a faculty member. The case is hosted by digitalcorpora.org. You can access the [senario description](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario) and [network traffic](http://downloads.digitalcorpora.org/corpora/scenarios/2008-nitroba/nitroba.pcap) from their website. The repository only provides lab instructions.
 
@@ -208,11 +203,11 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ema
 | Lab 1 | [t-shark Forensic Introduction](Email_Harassment/1_tshark_forensics_Introduction.pptx)                           | 7M           |
 | Lab 2 | [Investigating Harassment Email using t-shark](2_Investigate_Harassment_Email_TShark.pptx)                       | 2M           |
 
+---
+
 ### Investigating Illegal File Transferring
 
-=========
-
-The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Illegal_File_Transferring_Memory_Forensics) is to investigate computer memory for reconstructing a timeline of illegal data transferring. The case includes a scenario of transfer sensitive files from a server to a USB.
+The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Illegal_File_Transferring_Memory_Forensics) aims to examine computer memory to reconstruct a timeline of unauthorized data transfers. The scenario involves the illicit transfer of sensitive files from a server to a USB device.
 
 **Topics Covered**
 
@@ -228,9 +223,9 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Ill
 | part 7 | Investigate File Explorer History                              |              |
 | part 8 | Timeline Analysis                                              |              |
 
-### Investigating Hacking Case
+---
 
-=========
+### Investigating Hacking Case
 
 The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIST_Hacking_Case), including a disk image provided by [NIST](https://cfreds-archive.nist.gov/Hacking_Case.html) is to investigate a hacker who intercepts internet traffic within range of Wireless Access Points.
 
@@ -240,9 +235,9 @@ The [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NIS
 | ----- | --------------------------------------------------------- | ------------ |
 | Lab 0 | [Hacking Case](/NIST_Hacking_Case/NIST_Hacking_Case.pptx) | 8M           |
 
-### Investigating Morris Worm Attack
+---
 
-=========
+### Investigating Morris Worm Attack
 
 The case study is an investigation of the [Morris Worm Attacking](https://seedsecuritylabs.org/Labs_20.04/Networking/Morris_Worm/). We are using the VM provided by [SeedLab](https://seedsecuritylabs.org/labsetup.html). The goal of the lab is to find all evidence related to Morris Worm attacking.
 
@@ -251,13 +246,41 @@ The case study is an investigation of the [Morris Worm Attacking](https://seedse
 | Labs  | Topics Covered                                                         | Size of PPTs |
 | ----- | ---------------------------------------------------------------------- | ------------ |
 | Lab 0 | [Morris Worm Attack](/Morris_Worm/Morris_Attack.pptx)                  | 7M           |
-| Lab 0 | [Investigating Morris Worm Attack](/Morris_Worm/Morris_Forensics.pptx) | 2M           |
+| Lab 1 | [Investigating Morris Worm Attack](/Morris_Worm/Morris_Forensics.pptx) | 2M           |
+
+---
+
+### Investigating Echo Show 8
+
+The case study outlines the use of the chip-off technique to extract evidence from an Amazon Echo Show device. Different types of evidence are produced and inserted into the Echo Show 8 (2nd generation). The investigative process includes the utilization of a reverse engineering approach to retrieve the implanted evidence from the embedded MultiMediaCard (eMMC) of the Echo Show device.
+
+**eMMC Images**
+
+- [Echo Show eMMC Image](https://miya.teracloud.jp/share/11d194c7357b5632)
+- [Echo Show Userdata Partition Image](https://miya.teracloud.jp/share/11d1383648f71cf7)
+
+**Topics Covered**
+
+| Labs      | Topics Covered                                                                                                     | Lab Data                   |
+| --------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------- |
+| Lab 0     | [Echo Show Introduction](/Echo_Device/ppts/0_Echo_Show_Introduction.pptx)                                          |                            |
+| Lab 1     | [Echo Show Evidence Planting](/Echo_Device/ppts/1_Echo_Show_Evidence_Planting.pptx)                                |                            |
+| Lab 2     | [Device Teardown and eMMC Chip-off](/Echo_Device/ppts/2_Device_Teardown_and_eMMC_Chip-off.pptx)                    |                            |
+| Lab 3     | [Image Acquisition and Mounting](/Echo_Device/ppts/3_Image_Acquisition_and_Mounting.pptx)                          |                            |
+| Lab 4.1.1 | [Specifications: Device and OS Info](/Echo_Device/ppts/4_1_1_Specifications%20_Device_and_OS_Info.pptx)            | [link](lab_data/Lab_4_1_1) |
+| Lab 4.1.2 | [Specifications: User info](/Echo_Device/ppts/4_1_2_Specifications%20User_info.pptx)                               | [link](lab_data/Lab_4_1_2) |
+| Lab 4.1.3 | [Specifications: Network Connectivity Info](/Echo_Device/ppts/4_1_3_Specifications_Network_Connectivity_Info.pptx) | [link](lab_data/Lab_4_1_3) |
+| Lab 4.2.1 | [Web Activity](/Echo_Device/ppts/4_2_1_Web_Activity.pptx)                                                          | [link](lab_data/Lab_4_2_1) |
+| Lab 4.2.2 | [Phone Communication](/Echo_Device/ppts/4_2_2_Phone_Communication.pptx)                                            | [link](lab_data/Lab_4_2_2) |
+| Lab 4.3.1 | [Multimedia: Photos and related Data](/Echo_Device/ppts/4_3_1_Multimedia_Photos_and_Related_Data.pptx)             | [link](lab_data/Lab_4_3_1) |
+| Lab 4.3.2 | [Multimedia: Videos and related Data](/Echo_Device/ppts/4_3_2_Multimedia_Videos_and_Related_Data.pptx)             | [link](lab_data/Lab_4_3_3) |
+| Lab 4.3.3 | [Multimedia: Audio and related Data](/Echo_Device/ppts/4_3_3_Multimedia_Audio_and_Related_Data.pptx)               | [link](lab_data/Lab_4_3_3) |
+
+---
 
 ### Investigating Android 10
 
 The image is created by Joshua Hickman and hosted by [digitalcorpora](https://digitalcorpora.org/corpora/cell-phones/android-10).
-
-=========
 
 | Labs      | Topics Covered                                                                                         | Size of PPTs |
 | --------- | ------------------------------------------------------------------------------------------------------ | ------------ |
@@ -278,11 +301,11 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 | Lab 5.3.3 | [Third-Party App Investigations: whatapp](Andriod10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
 | Lab 6     | [Pixel 3 Rooting](Andriod10/6_Pixel3_rooting.pptx)                                                     | 5M           |
 
+---
+
 ### Investigating iPhone iOS 13.4.1
 
 The image is created by Joshua Hickman and hosted by [digitalcorpora](https://digitalcorpora.org/corpora/cell-phones/ios-13).
-
-=========
 
 | Labs   | Topics Covered                                                        | Size of PPTs |
 | ------ | --------------------------------------------------------------------- | ------------ |
@@ -303,11 +326,11 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 | Lab 14 | [Magnet Axiom Investigations](iOS/14_Magnet_Axiom_Investigation.pptx) | 13M          |
 | Lab 14 | [Jailbreak Investigations](iOS/15_iOS_Jailbreak.pptx)                 | 6M           |
 
+---
+
 ### Investigating Drone DJI
 
 The dataset includes logical files extracted from a DJI controller (mobile device) and a SD card image used by the device. The Drone dataset is created by [VTO Labs](https://www.vtolabs.com/drone-forensics). The lab covers GPS investigation and cached image retrieval. Note that it is a draft. We will improve the lab later.
-
-=========
 
 | Labs  | Topics Covered                                                                                  | Size of PPTs |
 | ----- | ----------------------------------------------------------------------------------------------- | ------------ |
@@ -315,9 +338,9 @@ The dataset includes logical files extracted from a DJI controller (mobile devic
 | Lab 1 | [DJI Mavic Air MicroSD Raw](Drone_DJI_Mavic_Air/01_DJI_Mavic_Air_microSD_raw.pptx)              | 2M           |
 | Lab 2 | [DJI Mavic Air MicroSD Encase Format](Drone_DJI_Mavic_Air/02_DJI_Mavic_Air_microSD_encase.pptx) | 2M           |
 
-### Tools
+---
 
-- Commands tested
+### Tools
 
 | Name                    | Command           | Repository                                                      | Installation Method |
 | ----------------------- | ----------------- | --------------------------------------------------------------- | ------------------- |
@@ -350,19 +373,22 @@ The dataset includes logical files extracted from a DJI controller (mobile devic
 - Other tools installed via apt install
   python3-pip, leafpad, terminator, sqlite3, tree, xmlstarlet, libhivex-bin, pasco, libhivex-bin, npm, binwalk, foremost, hashdeep, ewf-tools, nautilus
 
-## Contribution
+---
 
-=============
+## Contribution
 
 - PI of the project
   - Dr. Frank Xu (Email: fxu at ubalt dot edu)
 - Students:
+  - Sarfraz Shaikh (Echo Show)
   - Danny Ferreira (iPhone)
   - Harleen Kaur (Partial of Android)
   - Malcolm Hayward (P2P Leakage)
   - Richard (Max) Wheeless (Hacking case)
   - Chimezie Onwuegbuchulem (Docker for Digital Forensics)
   - Etinosa Osawe (AI for Forensics - Identifying IPs with a Fine-tuned Language Model)
+
+---
 
 ## Star History
 
