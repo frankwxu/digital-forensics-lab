@@ -260,20 +260,20 @@ The case study outlines the use of the chip-off technique to extract evidence fr
 
 **Topics Covered**
 
-| Labs      | Topics Covered                                                                                                     | Lab Data                                    |
-| --------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- |
-| Lab 0     | [Echo Show Introduction](/Echo_Device/ppts/0_Echo_Show_Introduction.pptx)                                          |                                             |
-| Lab 1     | [Echo Show Evidence Planting](/Echo_Device/ppts/1_Echo_Show_Evidence_Planting.pptx)                                |                                             |
-| Lab 2     | [Device Teardown and eMMC Chip-off](/Echo_Device/ppts/2_Device_Teardown_and_eMMC_Chip-off.pptx)                    |                                             |
-| Lab 3     | [Image Acquisition and Mounting](/Echo_Device/ppts/3_Image_Acquisition_and_Mounting.pptx)                          |                                             |
-| Lab 4.1.1 | [Specifications: Device and OS Info](/Echo_Device/ppts/4_1_1_Specifications%20_Device_and_OS_Info.pptx)            | [link](lab_data/Lab_4_1_1)                  |
-| Lab 4.1.2 | [Specifications: User info](/Echo_Device/ppts/4_1_2_Specifications%20User_info.pptx)                               | [link](lab_data/Lab_4_1_2)                  |
-| Lab 4.1.3 | [Specifications: Network Connectivity Info](/Echo_Device/ppts/4_1_3_Specifications_Network_Connectivity_Info.pptx) | [link](lab_data/Lab_4_1_3)                  |
-| Lab 4.2.1 | [Web Activity](/Echo_Device/ppts/4_2_1_Web_Activity.pptx)                                                          | [link](lab_data/Lab_4_2_1)                  |
-| Lab 4.2.2 | [Phone Communication](/Echo_Device/ppts/4_2_2_Phone_Communication.pptx)                                            | [link](lab_data/Lab_4_2_2)                  |
-| Lab 4.3.1 | [Multimedia: Photos and related Data](/Echo_Device/ppts/4_3_1_Multimedia_Photos_and_Related_Data.pptx)             | [link](lab_data/Lab_4_3_1/rec_jpg_foremost) |
-| Lab 4.3.2 | [Multimedia: Videos and related Data](/Echo_Device/ppts/4_3_2_Multimedia_Videos_and_Related_Data.pptx)             | [link](lab_data/Lab_4_3_3)                  |
-| Lab 4.3.3 | [Multimedia: Audio and related Data](/Echo_Device/ppts/4_3_3_Multimedia_Audio_and_Related_Data.pptx)               | [link](lab_data/Lab_4_3_3)                  |
+| Labs      | Topics Covered                                                                                                     | Lab Data                                |
+| --------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| Lab 0     | [Echo Show Introduction](/Echo_Device/ppts/0_Echo_Show_Introduction.pptx)                                          |                                         |
+| Lab 1     | [Echo Show Evidence Planting](/Echo_Device/ppts/1_Echo_Show_Evidence_Planting.pptx)                                |                                         |
+| Lab 2     | [Device Teardown and eMMC Chip-off](/Echo_Device/ppts/2_Device_Teardown_and_eMMC_Chip-off.pptx)                    |                                         |
+| Lab 3     | [Image Acquisition and Mounting](/Echo_Device/ppts/3_Image_Acquisition_and_Mounting.pptx)                          |                                         |
+| Lab 4.1.1 | [Specifications: Device and OS Info](/Echo_Device/ppts/4_1_1_Specifications%20_Device_and_OS_Info.pptx)            | [link](/Echo_Device/lab_data/Lab_4_1_1) |
+| Lab 4.1.2 | [Specifications: User info](/Echo_Device/ppts/4_1_2_Specifications%20User_info.pptx)                               | [link](/Echo_Device/lab_data/Lab_4_1_2) |
+| Lab 4.1.3 | [Specifications: Network Connectivity Info](/Echo_Device/ppts/4_1_3_Specifications_Network_Connectivity_Info.pptx) | [link](/Echo_Device/lab_data/Lab_4_1_3) |
+| Lab 4.2.1 | [Web Activity](/Echo_Device/ppts/4_2_1_Web_Activity.pptx)                                                          | [link](/Echo_Device/lab_data/Lab_4_2_1) |
+| Lab 4.2.2 | [Phone Communication](/Echo_Device/ppts/4_2_2_Phone_Communication.pptx)                                            | [link](/Echo_Device/lab_data/Lab_4_2_2) |
+| Lab 4.3.1 | [Multimedia: Photos and related Data](/Echo_Device/ppts/4_3_1_Multimedia_Photos_and_Related_Data.pptx)             | [link](/Echo_Device/lab_data/Lab_4_3_1) |
+| Lab 4.3.2 | [Multimedia: Videos and related Data](/Echo_Device/ppts/4_3_2_Multimedia_Videos_and_Related_Data.pptx)             | [link](/Echo_Device/lab_data/Lab_4_3_3) |
+| Lab 4.3.3 | [Multimedia: Audio and related Data](/Echo_Device/ppts/4_3_3_Multimedia_Audio_and_Related_Data.pptx)               | [link](/Echo_Device/lab_data/Lab_4_3_3) |
 
 ---
 
