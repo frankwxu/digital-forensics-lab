@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<job-info version="0">
+    <job jobid="1025" package="com.amazon.spotlight" class="com.amazon.spotlight.service.LauncherJob" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1698015293032" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="1800000" flex="1800000" deadline="1698018892196" delay="1698017092196" />
+        <extras />
+    </job>
+    <job jobid="-331393863" package="com.amazon.spotlight" class="com.amazon.spotlight.arcus.ArcusService" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1697999127310" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="21600000" flex="21600000" deadline="1698042292197" delay="1698020692197" />
+        <extras />
+    </job>
+    <job jobid="-848196814" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.configuration.ArcusSyncJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1698016372294" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="4320000" deadline="1698107092197" delay="1698102772197" />
+        <extras />
+    </job>
+    <job jobid="-1587497751" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.modules.DataRefreshJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1698016128610" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="1200000" flex="300000" deadline="1698017092196" delay="1698016792196" />
+        <extras />
+    </job>
+    <job jobid="322050388" package="com.amazon.theia.sm.remoteagent" class="com.amazon.theia.sm.remoteagent.arcus.ArcusSyncService" sourcePackageName="com.amazon.theia.sm.remoteagent" sourceUserId="0" uid="10154" priority="0" flags="0" lastSuccessfulRunTime="1698016290884" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1698018033231" delay="1698017133231" />
+        <extras />
+    </job>
+    <job jobid="-1535370665" package="com.amazon.mlv" class="com.amazon.mlvlib.arcus.ArcusSyncService" sourcePackageName="com.amazon.mlv" sourceUserId="0" uid="10072" priority="0" flags="0" lastSuccessfulRunTime="1698016127946" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1698017323063" delay="1698016580932" />
+        <extras />
+    </job>
+    <job jobid="0" package="com.amazon.alexa.beaconbroadcaster" class="com.amazon.alexa.beaconbroadcaster.versioning.PeriodicVersionEmitter$VersionEmitterJob" sourcePackageName="com.amazon.alexa.beaconbroadcaster" sourceUserId="0" uid="10057" priority="0" flags="0" lastSuccessfulRunTime="1696279871923" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1698016580932" delay="1698016580932" />
+        <extras />
+    </job>
+    <job jobid="-2094627781" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697999127173" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1698042292197" delay="1698020692197" />
+        <extras />
+    </job>
+    <job jobid="-317380259" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697999127144" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1698042292197" delay="1698020692197" />
+        <extras />
+    </job>
+    <job jobid="-1285906452" package="com.amazon.readynowcore" class="com.amazon.readynowcore.arcus.ArcusSyncService" sourcePackageName="com.amazon.readynowcore" sourceUserId="0" uid="10019" priority="0" flags="0" lastSuccessfulRunTime="1696279872175" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="86400000" deadline="1698016580932" delay="1698016580932" />
+        <extras />
+    </job>
+    <job jobid="109688" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.featureconfig.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1698016373568" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1698107092198" delay="1698102772198" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.featureconfig.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109688" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="911" package="amazon.fireos" class="com.amazon.android.settings.amazondropbox.LogRetentionJobService" sourcePackageName="amazon.fireos" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697934327057" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1698107092197" delay="1698020692197" />
+        <extras />
+    </job>
+    <job jobid="109532" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.tokenrefresh.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="1728000000" flex="86400000" deadline="1698614400797" delay="1698528000797" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.tokenrefresh.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+           0\rßm˚¸   '  o‚…    Silk/116.5.1 like Chrome/116.0.5845.229-ARM-Mali-G72 MP3-14.0.01rel0-ARM-ARM-Amazon/athena/athena:9/PS7560.3677N/0028421545216:user/amz-p,release-keys:PSABAAAAGAAMAAIcAAD+////Iy4QAP7//////////////wEAAAAAAAAAQgHNAwIAABACAAAQAAAAQCEPCAAAQAgAAEAAAADAhoAAAACEAAAABAAAAGxICAAAQAAAAACADgAAAIAAAAAAhAwA   BPLG   aè  ¿  MPB1∏         VERTà	  MBS2Ä	     VEHW             CVER`	  CMMNX	  VELA      SSYM†      SYMBD   STRI   color   $      ˇˇˇˇTYPE   TPGE      	               SYMBH   STRI   position    $       ˇˇˇˇTYPE   TPGE      	               SSYM∞     SYMBH   STRI   gl_Position $ @    ˇˇˇˇTYPE   TPGE                     SYMBL   STRI   gl_PointSize      A ˇˇˇˇˇˇˇˇTYPE   TPGE                     SYMBH   STRI   vcolor_S0   $       ˇˇˇˇTYPE   TPGE      	               SYMBT   STRI   gl_mali_XFB_Position      F ˇˇˇˇˇˇˇˇTYPE   TPGE                     SYMBT   STRI   gl_mali_XFB_PointSize     G ˇˇˇˇˇˇˇˇTYPE   TPGE                     SSYMò     SYMBX   STRI   sk_RTAdjust 4       ˇˇˇˇTYPE   TPGE            RLOC                  SYMB®   STRI   gl_mali_non_rmu_buffer     ˇˇˇˇH ˇˇTYPEh   TPIB`      p      TPSEL   STRI   array         ˇˇ    TYPE(   TPAR       TYPE   TPGE                     SYMB|   STRI   gl_mali_ViewportTransform         ˇˇˇˇTYPE(   TPAR       TYPE   TPGE            RLOC                  SSYM       SSYM       SSYM       UBUF      0      EBIN§      ˇˇˇˇ       RLOC          RLOC          ˇˇˇˇFSHA                          BFRE      SPDv    `  OBJC0  J   ÀÄ#† ¿àÄ*ÖÄ_˙ Da ¿H àCÑA@  êe     N   ÀÄ#  ¿»0ê0N bÀÄ#z¿X@ò.CÑ˙á D! ¿à	Ä0 C  X ç t @:ÄÜÑB ÄlŸ,aÇ«, êe,ä@ :…Ä  X  êedŸª∆YÇ p0 êeÁ2  Ä?N é√ÀÄ#z Ä Ä                                                                                                                EBINî      ˇˇˇˇ       RLOC          RLOC          ˇˇˇˇFSHA                         BFRE      SPDv    l  OBJC   J   ÀÄ#† ¿HÄ )Ö 0H  êe¿   CÑA   êe     )CH á êe¿  0 C  X ç t @:ÄäÑB ÄlŸ,aÇÀ, êeLí@ :…Ä  X  êedŸª∆YÇ ∞X0 êeÁ2  Ä?H PÀÄ#|  Äph^                                                                                                                            EBIN      ˇˇˇˇ       RLOC          RLOC          ˇˇˇˇFSHA                         BFRE      SPDv    `  OBJC†   J   ÀÄ#a ¿ ÄN   ÀÄ#  ¿Hà0N !ÀÄ#z   ê                                                                                                                EBIN®       ˇˇˇˇ      RLOC          RLOC          EPTA,   STRI   vcolor_S0       STRI   color       ˇˇˇˇFSHA                         BFRE      SPDv    `  OBJC    FRAG¨  MBS2§     VEHW             CFRAÑ  CMMN0  VELA      SSYM®      SYMBL   STRI   gl_FragCoord      * ˇˇˇˇˇˇˇˇTYPE   TPGE      	               SYMBH   STRI   vcolor_S0   $       ˇˇˇˇTYPE   TPGE      	               SSYM       SSYMà  	   SYMB\   STRI   uinvRadiiXY_S1  4   (   ˇˇˇˇTYPE   TPGE            RLOC     0            SYMB\   STRI   uinnerRect_S1   4      ˇˇˇˇTYPE   TPGE            RLOC                 SYMB`   STRI   uinvRadiiXY_S1_c0   4       ˇˇˇˇTYPE   TPGE            RLOC    8            SYMB†   STRI   uinnerRect_S1_c0    4       ˇˇˇˇTYPE   TPGE            RLOC        RLOC    ê   RLOC    î   RLOC    ò    RLOC    ú           SYMB§   STRI   uedgeArray_S1_c0_c0 4   f   ˇˇˇˇTYPE(   TPAR       TYPE   TPGE            RLOC    H    RLOC    P   RLOC    X   RLOC    `           SYMB®   STRI   uedgeArray_S1_c0_c0_c0  4   H   ˇˇˇˇTYPE(   TPAR       TYPE   TPGE            RLOC    h    RLOC    p   RLOC    x   RLOC    Ä           SYMBX   STRI   u_skRTFlip  4   0   ˇˇˇˇTYPE   TPGE            RLOC    (            SYMBl   STRI   gl_mali_rotate    @   ˇˇˇˇTYPE   TPGE            RLOC    @    RLOC    å            SYMBt   STRI   gl_mali_FragCoordOffset   8   ˇˇˇˇTYPE   TPGE            RLOC         RLOC    à            SSYM       SSYM       SSYM       UBUF      Ñ      EBIN®     ˇˇˇˇ       RLOC     0    RLOC         RLOC    8    RLOC        RLOC    ê   RLOC    î   RLOC    ò    RLOC    ú   RLOC    H    RLOC    P   RLOC    X   RLOC    `   RLOC    h    RLOC    p   RLOC    x   RLOC    Ä   RLOC    (    RLOC    @    RLOC    å    RLOC         RLOC    à    ˇˇˇˇFSHA                    Ä    BFRE$      SPDf   Ä               ˇˇˇˇOBJC  . LÀÄ¿L @ !  ∞[ÀÄ„3Ä›¬	Ñ  ,p`ëeXËÃ$aàA p' êe"@ …ë X@' ò  XdŸ Yà@@xx êe?    )ÖA@h( êe¿   !íp	`—@ ,òì |p	`—  7 `á PX@ ‹  å¬É1…áE  †edŸ Y@«Q å Äø    + AåL  Ä¿   ! Ap(  êeá ‡Ç9âEA( ' êe`daâ  X  ¨ Ä¬¬	‹çÜA '  ÅH(  P«8™åíe?é  y  Ä         )äÜAH ' êe¿   !ä  X  ¨Ä ‡¬	çEé  ¨hÄHdŸ$c@«Q(ÀÄ≥*
+C¡XÀ  PX8¶†íe7‡, ãEA ' êe  <  y             )ãÜå ¨ ¿   !P  \8"ëe ‡¬X  PX¿ß†íe7‡¨daåEA ' êeg ¿Ë…P  \8"ëe +  @  \ÀÄ≥  <  y             ) «QåD¶†íe¿   !éEA ' êew ¿Ë  pX¿ êe + $aèÜA ' êe ¿Ë…  `X¿ êe +  YêÜA ' êe     )êé ¨h ¿   #  `X¿ lÄ PÏ3ÅÜà2¶†¶(®  $`ÄA@(`Ì  $`A»Ü @(@ †eX  Y E êe     )Ü  H  †e¿h!@ÜA å   Ä¬0  `(  êe?`dc@  \p lÄı ‡¬X‹   \ÀÄ 1‡<  P  X8™úíeáø  Ä@yh   Ä         )   ¶†íe¿åFK!  0XÄ'†∫e/¡>E < |ÀÄìe®Òè ƒN0ÃkÀÄÉ•  H                                                                                                                EBINË     ˇˇˇˇ       RLOC     0    RLOC         RLOC    8    RLOC        RLOC    ê   RLOC    î   RLOC    ò    RLOC    ú   RLOC    H    RLOC    P   RLOC    X   RLOC    `   RLOC    h    RLOC    p   RLOC    x   RLOC    Ä   RLOC    (    RLOC    @    RLOC    å    RLOC         RLOC    à    ˇˇˇˇFSHA                    Ä     BFRE$      SPDf   Ä(               ˇˇˇˇOBJC0  .O—k ãÑ,¿L @(  ∞ÀÄ£3     q             K  @ $áØ1 ¿H)   HÀÄÉ3¿   !@  à= ¿3'Ä]Å	@A   êeX¯Ã$aÑ  \p`ëeG `Ä;…à X@ êedŸ Yà ' êeá;    )ÖA@h( êe¿   !íp	`—@ làì |p	`—  7 `á PX@ ‹  å¬É1…áE  †edŸ Y@«Q å Äø    + AåL  Ä¿   ! Ap(  êeá ‡Ç9âEA( ' êe`daâ  X  ¨ Ä¬¬	‹çÜA '  ÅH(  P«8™åíe?é  y  Ä         )äÜAH ' êe¿   !ä  X  ¨Ä ‡¬	çEé  ¨hÄHdŸ$c@«Q(ÀÄ≥*
+C¡XÀ  PX8¶†íe7‡, ãEA ' êe  <  y             )ãÜå ¨ ¿   !P  \8"ëe ‡¬X  PX¿ß†íe7‡¨daåEA ' êeg ¿Ë…P  \8"ëe +  @  \ÀÄ≥  <  y             ) «QåD¶†íe¿   !éEA ' êew ¿Ë  pX¿ êe + $aèÜA ' êe ¿Ë…  `X¿ êe +  YêÜA ' êe     )êé ¨h ¿   #  `X¿ lÄ PÏ3ÅÜà2¶†¶(®  $`ÄA@(`Ì  $`A»Ü @(@ †eX  Y E êe     )Ü  H  †e¿h!@ÜA å   Ä¬0  `(  êe?`dc@  \p lÄı ‡¬X‹   \ÀÄ 1‡<  P  X8™úíeáø  Ä@yh   Ä         )   ¶†íe¿åFK!  0XÄ'†∫e/¡>E < |ÀÄìe®Òè ƒN0ÃkÀÄÉ•  P                                                                                                                FOTVD      OUTV8   STRI   sk_FragColor    TYPE   TPGE      	      BATTd      STRI   gl_VertexID    STRI   gl_InstanceID      STRI   position        STRI   color      ÿAóEo˙Ù   ﬁÎ\/‘      „*‹ö’Ù≥åË7‚mu`¡¸g9à—jS”_ó˚ÛÿAóEo˙Ù                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            s.client.syncConfiguration.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1698010973187" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="50400000" flex="2520000" deadline="1698063892197" delay="1698061372197" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.syncConfiguration.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="50400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109523" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="2016000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="1130989070" package="com.amazon.knight.ecs" class="com.amazon.knight.ecs.arcus.ECSArcusSyncService" sourcePackageName="com.amazon.knight.ecs" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1698013492967" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="3600000" flex="3600000" deadline="1698020692197" delay="1698017092197" />
+        <extras />
+    </job>
+</job-info>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

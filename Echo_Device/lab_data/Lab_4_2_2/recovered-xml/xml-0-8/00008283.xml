@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<usagestats version="1" endTime="605781961">
+    <interactive count="128" time="1697255729276" />
+    <non-interactive count="114" time="1697252774853" />
+    <keyguard-shown count="0" time="0" />
+    <keyguard-hidden count="0" time="0" />
+    <packages>
+        <package lastTimeActive="-1696279730730" package="com.android.providers.calendar" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="598603215" package="com.amazon.device.rdmapplication" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="1766543" package="com.amazon.venezia" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="497693732" package="com.amazon.zordon" timeActive="31456774" lastEvent="2" appLaunchCount="22" />
+        <package lastTimeActive="-1696279730730" package="com.amazon.whisperjoin.middleware" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696393996203" package="amazon.fireos" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512203393" package="com.amazon.device.smarthome.dshs.multimodalux" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.media.session.monitor" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696279730730" package="com.amazon.alta.h2clientservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="1761781" package="com.android.providers.downloads" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.alexa.beaconbroadcaster" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="1756137" package="com.amazon.anchordian" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696279730730" package="com.android.defcontainer" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="605527024" package="com.amazon.alexa.datastore.app" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512233097" package="com.amazon.alexa.ms.kinex" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.tahoe.alexa.multimodal" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696393996203" package="com.amazon.android.marketplace" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.device.smarthome.dshs.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512190599" package="android" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512231758" package="com.amazon.spotify.mediabrowserservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512189609" package="com.amazon.fwp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="486287299" package="com.amazon.imp" timeActive="20132" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="512208838" package="com.amazon.mlv" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.android.launcher3" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="495410483" package="com.amazon.csm.htmlruntime" timeActive="1171705" lastEvent="2" appLaunchCount="6" />
+        <package lastTimeActive="512186552" package="com.amazon.theia.sm.remoteagent" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.diode" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="489843106" package="com.amazon.logan" timeActive="42001" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.swags" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.tcomm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="495153868" package="com.amazon.rtcsessioncontroller" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696279730730" package="com.amazon.NativeAccessorProxyServices" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696279730730" package="com.amazon.a4b.mcc" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="488747943" package="amazon.speech.sim" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696393996203" package="com.android.providers.settings" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.android.se" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="492338701" package="com.amazon.kindle.otter.oobe" timeActive="1917237" lastEvent="2" appLaunchCount="7" />
+        <package lastTimeActive="512184200" package="com.amazon.edgecvs" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.android.keychain" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512229782" package="com.amazon.cardinal" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512198546" package="com.amazon.comms.multimodaltachyonarm" timeActive="306072" lastEvent="2" appLaunchCount="11" />
+        <package lastTimeActive="529484970" package="com.amazon.android.service.wifiprofilemanager" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="android.ext.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="506831208" package="com.amazon.obscura" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="506549791" package="com.amazon.knight.blink" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.client.metrics" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="28973583" package="com.amazon.glorialist" timeActive="27519" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.device.smarthome.adapters.echo" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696279730730" package="com.amazon.device.smarthome.adapters.mock" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.banyan.core" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="1140581" package="com.amazon.device.software.ota" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="1760599" package="com.amazon.gloria.smarthome" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="194396289" package="com.netflix.mediaclient.echo" timeActive="319115" lastEvent="2" appLaunchCount="2" />
+        <package lastTimeActive="700639" package="amazon.speech.davs.davcservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512178584" package="com.android.settings" timeActive="2305836" lastEvent="2" appLaunchCount="60" />
+        <package lastTimeActive="512219943" package="com.ring.halo.messaging" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="507673556" package="com.amazon.knight.btavrcp" timeActive="2332477" lastEvent="2" appLaunchCount="10" />
+        <package lastTimeActive="605781961" package="com.amazon.paladin" timeActive="281724549" lastEvent="3" appLaunchCount="158" />
+        <package lastTimeActive="180084016" package="com.amazon.alexa.webmediaplayer.fireos" timeActive="89672" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="512200062" package="com.amazon.device.echoaudioservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.alexa.timeoutmanagerapp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512189566" package="com.amazon.theia.sm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696393996203" package="com.amazon.providers.contentsupport" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696393996203" package="com.amazon.apl.awsanalyticsextension" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.ivona.tts.oem" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="486330491" package="com.amazon.knightwebview" timeActive="53223" lastEvent="2" appLaunchCount="2" />
+        <package lastTimeActive="-1696279730730" package="com.amazon.device.software.ota.override" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512181724" package="com.amazon.knight.ecs" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.device.smarthome.adapters.ble" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696393996203" package="com.android.location.fused" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.android.systemui" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512189567" package="com.amazon.alexa.identity" timeActive="246611" lastEvent="2" appLaunchCount="3" />
+        <package lastTimeActive="589889548" package="com.amazon.aria" timeActive="13245669" lastEvent="2" appLaunchCount="121" />
+        <package lastTimeActive="489681184" package="com.amazon.shpm" timeActive="9262" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.whad" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="515974766" package="com.amazon.alexa.externalmediaplayer.fireos" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512228319" package="com.amazon.alarms" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="512200485" package="com.amazon.bishop" timeActive="13136803" lastEvent="2" appLaunchCount="45" />
+        <package lastTimeActive="512205151" package="com.amazon.device.smarthome.ota" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="488748766" package="com.amazon.cloud9" timeActive="9019643" lastEvent="2" appLaunchCount="9" />
+        <package lastTimeActive="-1613617853252" package="com.android.bluetooth" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.webview.chromium" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1696279730730" package="com.amazon.alexa.awaservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.device.gadgetscontrolmanager" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1613617853252" package="com.amazon.bluestone.keyboard" timeActive="0" lastEvent="0" />
+    </packages>
+    <configurations>
+        <config lastTimeActive="512170147" timeActive="20" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="489715800" timeActive="9827" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="2" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="18" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="493489468" timeActive="3765897" count="2" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="18" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="36602956" timeActive="35583465" count="3" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="34" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="489705956" timeActive="10" count="1" fs="1065353216" locales="en-US" touch="1" key="1" keyHid="2" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="600" sw="600" density="213" />
+        <config lastTimeActive="1026551" timeActive="8" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="339" clrMod="5" ui="34" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="512170127" timeActive="16" count="1" fs="1065353216" locales="en-US" touch="1" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="512170111" timeActive="16" count="1" fs="1065353216" locales="en-US" touch="1" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="600" sw="600" density="213" />
+        <config lastTimeActive="489725542" timeActive="7772" count="1" fs="1065353216" locales="mul-021" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="18" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="605781960" timeActive="93611806" count="2" active="true" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="512174211" timeActive="8" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="339" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="489705946" timeActive="34357" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="1" scrLay="268435795" clrMod="5" ui="50" width="600" height="889" sw="600" density="213" />
+        <config lastTimeActive="489705973" timeActive="17" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="2" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="528" sw="600" density="213" />
+    </configurations>
+    <event-log />
+</usagestats>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     9¹ÐHÔYu‡QëÐÑçy{ìqT’¶šPÄ
+ùŽm®Ieðÿf*É¬ª|ùÔäu|-Kj5’ÛŒ­˜Ä\í¡U6—µ\Í<Œ|(½æ“ö:·’¾êc‘}R¡ÊD{Y$=®ŠÎ‘^\·UÁ¾Ž,«sÙ½–}á&Ðg˜fí¬¾ãËÙM¯¶Fs^îôò™®É\Ñ@µÖÜ'|‰µ²¤\Q#;±Ì›@j'Â'I3™cÄcÐ–Fÿß¬s¬î¶è©ºFXc•5	övíDä‚ÆPyìœ™	lXÛEÃËÙ^sh÷j»2¤4ÐOÒ§¦ô%OYÓ‡Ý¦È!oE®³@Ên‚)íãg»’¼²Ø*:—2™QiMcH_ò”¯Pi„\ÞI¥sáú6XY—¸“Š³½bk÷üé‹­;nòëG(þ–¬mOï0¶cw©°÷ÄU¡Ðá8ÎífË‹¥²Ð '})WV'jÛõ‘šA¬\žBòý%Ôb–ØâVB¤#7å&víX z1[ÍPðbh#/Æem[•ôµ\YÝÞî>Ág õÀIïd{'IÁŠ·Ø¬±ª,Œ)Ó‡v.ý(CN×Z‚ôÅù
+çÃÈµ‘tf1å&ªÂ¦$í0{âËJ¬UÞE‰Ë@V¶ê½$Vu‚ýÄÛfp¦'IO·Øî‡×¦fŸ+¯ÝçÊ¨Æ|Ÿ+S8M„ûcöý´ÏÕ)5>µNË„Š„$j2$š0^¼P1ª:GÝ¶vk]îÅã›öKŠd¶Èq…	r!÷ºdXçºdd(X@e{ÎÖµÔ+ä‡!—‹¨˜5ò{B±âa°9JR¼&ö÷„v®­NbÅK™êÝ!yKwiOH­r›DÜíê6Ê%‹ËXµÎW³ý0èIÕ^ì
+Ãs·¹Õý—cI‘AÛN÷‘ŽK3ƒ*©iCx¾ßO>í÷Cen9@‡]îå(Lçö¬ž™6«Ù™ªTaù?%¿ÓP±Ù1%©)ŒX=ÜÉSý/Äæ’¬µýµÒíÔq=ñ'–mä‚»+³ìÈJäXE hŒß¹W"·%(¾ƒZ,Ù©º÷vCœ&Ðå ÷uå¹——‡¤o˜æ{AŽè`ZP±=§ºâÕÛtB¡M–Û&;½[¦“é,™G‹èk²|ê¨£y›¬ÅlBE›ìøá6YÐ†/i“=%o“µÂ¨é>­Ioô‘Cß"ët²FèÇwÄß.¦_oÖãt±×j…½Ñ v7ñêÐ]M«BèÆrûB¡?²é6ŒÿHoô‘håÞh©}¯ÿaÁ??l#Á‹@Ó]»‚Ç
+þ©'~<Kïcç›â¹‘¹àE½à‹àÏl… ¥G^îÿPK¬¼—Û›
+  %P  PK   ôEVW               Log.kernel_8Õ\moÛ8þ~¿‚÷­bßI	»‹ë5-.8´ÛkÈÃ0dKi´ñKN–“ößßeÇ–,9ÑÖl ¼(–âp$ÎÃáÃg†atÀ9¡6’2R"ÐTÝÝ¯Ÿ®DdOoS¢¬RšÞý‹d+2IgËG2ËæYA¸µ”âõ›eN–Ëùx5]æé8Nþ$‚Ò¿±®Ö>äiJæé|™GSØr<Y>¤$OWiþ&Ý›|“¤Ó<W)ád–>¤³sÏóí-žU”Pª±Á7ìlH£Õc|Ÿæÿ`£ÏËGø‰çäâsD>-Iº(ÒœrõûÅ¥h¸V½ôW-Ï§IF¦÷ëˆðsÂÎ‰†£='V™sb”„\©è9™ÎÖ+´8‘Þ|¯¡'~ÅóùzV@Cà¯òº8KÒÅô{y:‹WÅÞoã‡8›¡Y<¥77»ÆñœŠsx°x2K8;óøÛx5^q¯È›Ézz7^ÞÜàÛÏÎÉê;üí|œ%³t|›-Š²÷Qíh«ŸzE2¹9B¿ð³!¼Šãbz›,¿&£áõÅF¹Ë¦wäý7r}ñGµ-HnZâVJ»9^îÃEŸÝÕèîq™ßAëˆÖ«Iù0¿\\^½ûýÓ§÷ïþxñ[µù\¨_äÂSƒçå–wà À_1Ä5pfyW ‰KYƒÖºoðQ¥U»a¹Ù¯Éà:ÂËèí,ÎçãEü5ÍG1žÙ<ÍÇéâëtBOAœÍ&ñônEVëû{xÒU%(éZÐ<¨nŠ•æéÙ1Oô.žÿóCòi™¤—óûÑðÝÇ‹ÿŽ†ï¿|ã|1*òx±ša×þ¹œ9·#pÔªˆ„b|½ªÆ°dš‘¥÷‘¥O‹éã–Í¾e³‡i@`0Ìð›q€•‘!ä«y!­Í¶ãjKìÏb,ï<N»áK”AB—Ú$zœéšÇSýó8£|
+.°-7ÇŠÇ!šÁµè6^|'i‘N‹ÑðßxrQž½ßâ(Q¶^+’,ÐYÒH+´4Ñî%Ü$Üþ˜XP½%h¹H§!bÇ›S¼ƒF£$}ƒé<y.ØÁû7ÁNY&kÁŽaÈ	¬ Å> Å©¡ßÁrú£|Ä¾@þâ¥s]Ç¾Ö½ãÐ3GøëÄÿ -¶%@ñKÓ×ˆœG,p”ìLÓ=üˆré€’ˆŸÜf4@±”‹°;yc'gáþˆ‡«ÙËzþÄNïbº²dtÁŒ‰J·h„ƒ)R}ÑØO§Ã@ýtn!Žð†ž?)WŒ±ÚÅqœ7ë¸ÞyœŸl/·\™  SÀÈtÇø‚“TÉÍøA|=„š`UÛÐ{z¨	ÙÚïÏ“ÊQÓ­>çNUÀP¢ÝœÂ·sŠ›V`@3{èsä$;vZá$´#':•¿P%pÜÊæqë—Ò:Ë-‚æ1Jëf¡òà"D0d`´à²>;i|Cßà#a9·§Iµ,çèÏ\ÎI0á/ŠIÙŽ¿óVËubl¶*ÅÆ!NI‚©8ˆa´‡ó–4¢[öèÁã6 òYÁ&0!•Œ>^|Ðg—îV>é”‚Ö˜‘ÄhÓ¢€û¥á,W†´×ê¸|§VâÒÝA~Å­8ˆs=œ&÷§aÆL·Ä~]~Ì²Ü·,«é–°Lµ *S›c?€×hÝå†õP›†žQ¬IÂ½táv°_}¼ÅÓ"{HËi+‚óù¯ô3Z$b‚”Ohy†7ºjè„LA(4þ(&çô«ê,×G¿œP€äÝ XNs	}54õ/«¬1Ÿ¦½©BÚå®t‹œ«ö;^ÖåG-ê	»JÚL”J .Ð6Ó‘c<ªq¥®Ã>úÜ’7­gO—SR…bâ¬?ô‡4â¦Esö9	v²\Yß1'8Õ™*@[ˆº£¦ 6aYg¨Sög˜­ÛK\·,ïØÏ[Þ•·6© •[?”N…¨A¬Ù‹.ÛÅÑvV›É)ˆm<M«öXÀm"K{/#‰áXBõd&	í«šáyêÌÓhLš×È(t3]YË0Çmà'qHã,¢±€H`>¾2¤•î­Õeò$lÚ2¥þ¨¦MSnÂ3Ûìdy³-ØÁÄSèÔbÃ%˜Ü>¨`ÔHIûÌ@2ÏÁ—
+[¾œ–ûÒw´K>š–|_†ÛÁr5FÉÍŠÆ8MsQ
+¹E4;†½Óô k ´_•aÚ¥=éNÓNÃÆãf~U"šÇÙb\²•Ñ/®{Ã”€ù’* óàýY‚wó¡aøŒ³ë-IHÃØJ†/bxR’
+r2'Óê}` iÉiÔä—Scïå–+œWnÊtœÖg0ãn1O†«jÁê¤×ÐÞÕÙêHð€Ë&ô²¤º¸€+¶Ì†l’Ö­…ÞJ µË|š–¤_vÌò3Š{*äÆÐe0¬IœJ¹<È³÷/_¡O˜s…¶l@=®É1ói^A˜>nù|d	aøN¶ˆ&‰i®ÄÛÃE9ôŒÝ«+·Úàq#L+åß¶3×å»ŸtD†óân¼H‹Ñ—·Y$Ùj:Î—k¸×1¾^>¤ùwxÜ‚$¡Ô
+&6¸´ î-$ývŸAOU¶˜¦d–Ý¤›IŽ’›l‘é	o/O§)FÑ/oÉcVÜ’%™dÅßOùüŸ®®ÎIöu~<bSÛ{5i-Ú‡ø™Ú‡óHŠ0ÁüÂ!wâÁÞÁrEéÕ;Sžƒåò¸dçâ@€³=ä"ÒÜ£¸	_ÓœUñ-Ðt1]É<nÕ}îÖ>˜}Æ]1J!?0‡»bz¸ÊV"ÂWO»”¯iÉèÔv#ØçÇ,?SÚ‰fÔUÀå˜ÐAå­ÜÕ0Îûèò#”°ÛÖ hËL5kÇ{ðù!‘ÆJÎk"XÝíqó Z‚8†¿+å.¦¨(Û§3$¥F¸<¤ƒóÁn.Ù;1ÙD"•õ¥Ì—¶¯‘?èfºBIÂrzNÁõªÛÆ®¨Ák¦«Dï8	tÝK
+zp:·×(ß˜nÖÄL×y¨Óbå¶ÊÄjé
+H‚è±¢wpÆ¥]÷ŠO_?lpc¥ýá3ˆ-`ð{ŽYn-7/•3³)Écoî#ÞlP9(Éã½+{1Gs—ÝX´…+«g·åŠ¿´ñi¯Š¡B”œaåmo\êÒ¾l¯Â©a{Ärk}:swUþÛ€-æÞ]BÁUÕØzì4ý«¢P&­ý±$Ì"Úæªíƒ:¹»¼‹é&•–•*-Æ.W@®0{.wÆÈ:ÝÚ[%®qé

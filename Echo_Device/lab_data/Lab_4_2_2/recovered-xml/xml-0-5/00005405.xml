@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:version="2" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="fi">
+ <head>
+  <styling>
+   <style xml:id="s0" tts:fontFamily="sansSerif" tts:fontStyle="italic" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+   <style xml:id="s1" tts:fontFamily="sansSerif" tts:fontStyle="normal" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+  </styling>
+  <layout>
+   <region xml:id="r0" tts:extent="100% 15%" tts:origin="0% 85%" tts:displayAlign="after" tts:textAlign="center"></region>
+   <region xml:id="r1" tts:extent="100% 15%" tts:origin="0% 0%" tts:displayAlign="before" tts:textAlign="center"></region>
+  </layout>
+ </head>
+ <body style="s1">
+  <div>
+   <p begin="00:01:57.458" end="00:02:00.000" region="r1">LONTOO 2099</p>
+   <p begin="00:02:39.708" end="00:02:42.208" region="r0">Mihin olet taas sekaantunut, Aelita?</p>
+   <p begin="00:02:42.541" end="00:02:44.875" region="r0">Mihin sotkuun sekoitit minut?</p>
+   <p begin="00:02:47.750" end="00:02:51.000" region="r0">Kuka olisi uskonut,<br />että hankit niin vaarallisia ystäviä?</p>
+   <p begin="00:02:53.583" end="00:02:56.041" region="r0">Kuljin kerran puoli vuotta ilman kenkiä.</p>
+   <p begin="00:02:56.125" end="00:02:57.291" region="r0">Muistatko?</p>
+   <p begin="00:02:57.875" end="00:03:01.958" region="r0">Hurjaa, miten jalkapohjat<br />voivat kovettua tai pehmentyä.</p>
+   <p begin="00:03:02.041" end="00:03:05.708" region="r0">Riippuu ympäristöstä.<br />Niin kuin sielunkin kohdalla.</p>
+   <p begin="00:03:08.750" end="00:03:11.291" region="r0">Muistatko, mitä kengilleni tapahtui?</p>
+   <p begin="00:03:12.583" end="00:03:13.791" region="r0">Annoit ne minulle.</p>
+   <p begin="00:03:16.208" end="00:03:18.416" region="r0">Vannoin valan, kun löysin sinut.</p>
+   <p begin="00:03:18.708" end="00:03:20.166" region="r0">Pelastan sinut, jos voin.</p>
+   <p begin="00:03:20.250" end="00:03:21.125" region="r0">Pelastitkin.</p>
+   <p begin="00:03:22.583" end="00:03:23.458" region="r0">Niinkö?</p>
+   <p begin="00:03:25.166" end="00:03:26.416" region="r0">Mitä sinä juonit?</p>
+   <p begin="00:03:28.958" end="00:03:30.333" region="r0">Pelastan maailman.</p>
+   <p begin="00:03:30.416" end="00:03:32.875" region="r0">Sanoit, ettei maailmaamme<br />voi enää pelastaa.</p>
+   <p begin="00:03:32.958" end="00:03:35.000" region="r0">En puhunut tästä maailmasta.</p>
+   <p begin="00:03:42.291" end="00:03:43.250" region="r0">Hyvästi, Wolf.</p>
+   <p begin="00:03:45.041" end="00:03:45.916" region="r0">Aelita?</p>
+   <p begin="00:03:49.708" end="00:03:50.708" region="r0">Aelita?</p>
+   <p begin="00:05:14.166" end="00:05:15.333" region="r0">Huomenta, äiti.</p>
+   <p begin="00:05:16.333" end="00:05:19.250" region="r0">Toin sinulle kahvia. Varo. Se on kuumaa.</p>
+   <p begin="00:05:19.333" end="00:05:20.166" region="r0">Kiitos.</p>
+   <p begin="00:05:20.250" end="00:05:23.125" region="r0">Noin. Tein sinulle voileivän jääkaappiin.</p>
+   <p begin="00:05:23.208" end="00:05:25.291" region="r0">Burton tehköön omansa.</p>
+   <p begin="00:05:25.375" end="00:05:27.791" region="r0">Hän söi voileipäsi eilen. Älä väitä.</p>
+   <p begin="00:05:27.875" end="00:05:29.041" region="r0">Ei ollut nälkä.</p>
+   <p begin="00:05:32.291" end="00:05:33.833" region="r0">Et saa laihtua lisää.</p>
+   <p begin="00:05:33.916" end="00:05:35.833" region="r0">Joudut taas sairaalaan.</p>
+   <p begin="00:05:41.958" end="00:05:42.916" region="r0">Burton!</p>
+   <p begin="00:05:44.208" end="00:05:45.166" region="r0">Voi paska.</p>
+   <p begin="00:05:55.041" end="00:05:56.250" region="r0">Avaa, Burton.</p>
+   <p begin="00:05:57.333" end="00:05:58.166" region="r0">Burton.</p>
+   <p begin="00:06:02.333" end="00:06:05.541" region="r0">Miksi äidin viimeinen Tamosene<br />on vain 10 mg:n vahvuinen?</p>
+   <p begin="00:06:05.625" end="00:06:07.333" region="r0">Tule tilalle. Käyn vessassa.</p>
+   <p begin="00:06:07.416" end="00:06:08.875" region="r0">Vaihdoitko tabletteja?</p>
+   <p begin="00:06:10.083" end="00:06:12.791" region="r0">Burton, vaihdoitko tabletteja äidiltä?</p>
+   <p begin="00:06:12.875" end="00:06:15.708" region="r0">Jessus, Flynne. Tekisinkö niin?</p>
+   <p begin="00:06:15.791" end="00:06:17.583" region="r0">Hänellä on 10 mg:n tabletti.</p>
+   <p begin="00:06:17.666" end="00:06:19.416" region="r0">Vain yksi.</p>
+   <p begin="00:06:19.500" end="00:06:23.333" region="r0">Olet vaihtanut ja varastellut niitä.</p>
+   <p begin="00:06:23.416" end="00:06:24.708" region="r0">Tarvitsen käteistä.</p>
+   <p begin="00:06:24.791" end="00:06:26.583" region="r0">-Paljonko?<br />-Paljonko löytyy?</p>
+   <p begin="00:06:26.666" end="00:06:29.666" region="r0">Tuhat seuraavalla tasolla. Voisit auttaa.</p>
+   <p begin="00:06:29.750" end="00:06:32.708" region="r0">-Se on yksi tabletti.<br />-Päivän verran.</p>
+   <p begin="00:06:33.375" end="00:06:37.375" region="r0">Illalla on tulossa jotain suurta.<br />Saamme loput huomenna.</p>
+   <p begin="00:06:38.541" end="00:06:39.375" region="r0">Kerro.</p>
+   <p begin="00:06:39.458" end="00:06:40.291" region="r0">LAITE YHDISTETTY</p>
+   <p begin="00:06:40.375" end="00:06:42.458" region="r0">Natsit talossa, me ladossa.</p>
+   <p begin="00:06:42.541" end="00:06:43.500" region="r0">Ketkä me?</p>
+   <p begin="00:06:43.583" end="00:06:46.125" region="r0">Minä, Reece<br />ja joku kalifornialainen heppu.</p>
+   <p begin="00:06:46.208" end="00:06:48.208" region="r0">Hän palkkasi meidät avuksi.</p>
+   <p begin="00:06:48.291" end="00:06:51.166" region="r0">Hän hokee "chillaa". Hiton ärsyttävää.</p>
+   <p begin="00:06:51.250" end="00:06:52.708" region="r0">Reecellä on baretti.</p>
+   <p begin="00:06:53.916" end="00:06:56.125" region="r0">Pidä kiirettä! Olen jo myöhässä.</p>
+   <p begin="00:06:58.666" end="00:06:59.958" region="r0">JATKAA PELIÄ: EASY ICE</p>
+   <p begin="00:07:20.500" end="00:07:21.958" region="r0">Eikö teillä ole...</p>
+   <p begin="00:07:22.041" end="00:07:23.208" region="r0">Säädyllisyyttä?</p>
+   <p begin="00:07:23.958" end="00:07:25.916" region="r0">Päästäkää lampaat ulos.</p>
+   <p begin="00:07:35.500" end="00:07:38.833" region="r0">Komea baretti, Reece. Tyylikäs.</p>
+   <p begin="00:07:38.916" end="00:07:39.916" region="r0">Flynne?</p>
+   <p begin="00:07:40.000" end="00:07:41.000" region="r0"><span style="s0">Missä Burton on?</span></p>
+   <p begin="00:07:41.083" end="00:07:42.083" region="r0">Puuteroi nenäänsä.</p>
+   <p begin="00:07:42.875" end="00:07:46.041" region="r0">-Mitä etsimme?<br />-Karttaa.</p>
+   <p begin="00:07:47.000" end="00:07:47.875" region="r0">Löytyikö se?</p>
+   <p begin="00:07:50.750" end="00:07:51.958" region="r0">Mitä sinä teet?</p>
+   <p begin="00:07:53.083" end="00:07:54.125" region="r0">Aukaiskaa ovi.</p>
+   <p begin="00:08:10.916" end="00:08:11.875" region="r0">Tulin takaisin.</p>
+   <p begin="00:08:11.958" end="00:08:12.958" region="r0">Odota hetki.</p>
+   <p begin="00:08:14.291" end="00:08:15.625" region="r0">Vauhtia!</p>
+   <p begin="00:08:45.750" end="00:08:46.666" region="r0">Chillaa, jäbä.</p>
+   <p begin="00:08:48.333" end="00:08:51.250" region="r0">-Tiedättekö, miksette löytäneet karttaa?<br />-Miksi?</p>
+   <p begin="00:08:51.333" end="00:08:52.916" region="r0">Se ei ollut vielä tullut.</p>
+   <p begin="00:08:58.333" end="00:08:59.958" region="r0">Lähetä rahat puhelimeeni.</p>
+   <p begin="00:09:01.666" end="00:09:02.750" region="r0">Ole hyvä.</p>
+   <p begin="00:09:05.791" end="00:09:06.666" region="r0">Reece!</p>
+   <p begin="00:09:08.583" end="00:09:09.958" region="r0">Mitä helkuttia se oli?</p>
+   <p begin="00:09:11.166" end="00:09:12.166" region="r0">Se oli Flynne.</p>
+   <p begin="00:09:50.625" end="00:09:52.166" region="r0">PANKKIAUTOMAATTI 24 H</p>
+   <p begin="00:09:53.041" end="00:09:53.875" region="r0">NOSTA RAHAA</p>
+   <p begin="00:10:12.166" end="00:10:15.250" region="r0">Seuraako turvallisuusvirasto<br />kaikkia nostoja?</p>
+   <p begin="00:10:15.333" end="00:10:17.041" region="r0">Se olisi järkevää.</p>
+   <p begin="00:10:17.125" end="00:10:20.208" region="r0">Käteistä nostetaan nykyään<br />vain hämäriin puuhiin.</p>
+   <p begin="00:10:20.291" end="00:10:24.166" region="r0">Piileekö tuossa kysymys, Tommy?</p>
+   <p begin="00:10:26.083" end="00:10:27.541" region="r0">Miten äitisi pärjäilee?</p>
+   <p begin="00:10:28.333" end="00:10:29.291" region="r0">Ihan hyvin.</p>
+   <p begin="00:10:29.833" end="00:10:31.250" region="r0">Kiitos, kun kysyit.</p>
+   <p begin="00:10:33.291" end="00:10:34.500" region="r0">Miksi olet täällä?</p>
+   <p begin="00:10:34.583" end="00:10:37.250" region="r0">Joutuivatko Macon ja Edward<br />viimeinkin pulaan?</p>
+   <p begin="00:10:37.333" end="00:10:40.291" region="r0">Eivät vielä, mutta odotellaan.</p>
+   <p begin="00:10:40.791" end="00:10:43.125" region="r0">Kävin viemässä Dee Deen tilauksen.</p>
+   <p begin="00:10:43.208" end="00:10:45.833" region="r0">Koristeita hääkakkuumme.</p>
+   <p begin="00:10:49.791" end="00:10:53.750" region="r0">No, pitäisi kai mennä auttamaan.</p>
+   <p begin="00:10:56.416" end="00:10:58.666" region="r0">He pilaavat sen ilman aikuista.</p>
+   <p begin="00:10:59.583" end="00:11:03.125" region="r0">No, Billy Ann odottelee sinua<br />naposteltavien kera.</p>
+   <p begin="00:11:03.208" end="00:11:05.541" region="r0">-Varoitan vain.<br />-Kiitos.</p>
+   <p begin="00:11:06.666" end="00:11:07.875" region="r0">Nähdään, Tommy.</p>
+   <p begin="00:11:14.791" end="00:11:16.958" region="r0"><span style="s0">Etkö sanonut mitään?</span></p>
+   <p begin="00:11:17.041" end="00:11:19.541" region="r0"><span style="s0">-Mitä olisi pitänyt sanoa?</span><br /><span style="s0">-Entä tämä?</span></p>
+   <p begin="00:11:19.625" end="00:11:21.125" region="r0">FOREVER FAB<br />3D-TULOSTUSPALVELU</p>
+   <p begin="00:11:21.208" end="00:11:25.250" region="r0"><span style="s0">"Yritän kuvitella, millaista on olla sinä</span></p>
+   <p begin="00:11:25.791" end="00:11:26.875" region="r0">"siinä seisomassa."</p>
+   <p begin="00:11:26.958" end="00:11:30.916" region="r0">Ja sitten: "Mutten voi. Olet liian komea.</p>
+   <p begin="00:11:31.541" end="00:11:35.000" region="r0">"Kuin kuvittelisi<br />olevansa leijonan sisällä."</p>
+   <p begin="00:11:35.958" end="00:11:37.166" region="r0">Leijonanko?</p>
+   <p begin="00:11:37.250" end="00:11:38.666" region="r0">Valitse eläin.</p>
+   <p begin="00:11:38.750" end="00:11:41.291" region="r0">Ja sitten sensuellisti:</p>
+   <p begin="00:11:41.708" end="00:11:43.375" region="r0">"Arvostatko aikaasi?"</p>
+   <p begin="00:11:43.458" end="00:11:45.625" region="r0">Hän sanoo: "Totta kai."</p>
+   <p begin="00:11:45.708" end="00:11:49.500" region="r0">Vastaat: "Miksi tuhlata<br />kallista aikaa puhumiseen..."</p>
+   <p begin="00:11:49.583" end="00:11:51.333" region="r0">Tommyn tilaus on täällä.</p>
+   <p begin="00:11:51.416" end="00:11:53.708" region="r0">"...kun voimme painaa hikiset..."</p>
+   <p begin="00:11:53.791" end="00:11:56.875" region="r0">Miksi he tilasivat kaksi sulhasta<br />ja yhden morsiamen?</p>
+   <p begin="00:11:56.958" end="00:11:59.125" region="r0">"Moi, Billy Ann. Saanko yhden?"</p>
+   <p begin="00:11:59.208" end="00:12:00.958" region="r0">Luitko tilauksen väärin?</p>
+   <p begin="00:12:03.125" end="00:12:03.958" region="r0">Hemmetti.</p>
+   <p begin="00:12:07.958" end="00:12:08.833" region="r0">Valmista.</p>
+   <p begin="00:12:11.791" end="00:12:14.083" region="r0">"Kiva nähdä. Kiitos naposteltavasta!"</p>
+   <p begin="00:12:16.125" end="00:12:17.375" region="r0">Pakko sanoa.</p>
+   <p begin="00:12:17.458" end="00:12:21.875" region="r0">Taitosi ja luonteesi valuvat hukkaan<br />tässä idioottien pesässä.</p>
+   <p begin="00:12:21.958" end="00:12:23.041" region="r0"><span style="s0">Tulostin 15 tukossa.</span></p>
+   <p begin="00:12:23.125" end="00:12:26.250" region="r0">Sinulla olisi tuottoisampaa hommaa</p>
+   <p begin="00:12:26.333" end="00:12:27.750" region="r0">sormiesi ulottuvilla.</p>
+   <p begin="00:12:27.833" end="00:12:30.750" region="r0">Paljonko Burton tienaa<br />pelaamalla rikkaille?</p>
+   <p begin="00:12:30.833" end="00:12:32.250" region="r0">Enemmän kuin pitäisi.</p>
+   <p begin="00:12:32.333" end="00:12:35.250" region="r0">Voisit ansaita enemmän.<br />Hänen avatarillaan.</p>
+   <p begin="00:12:35.333" end="00:12:37.291" region="r0">Sitä ei hoksattaisi tytöksi.</p>
+   <p begin="00:12:37.375" end="00:12:40.125" region="r0">Kerroin jo, että se saa riittää.</p>
+   <p begin="00:12:40.208" end="00:12:42.875" region="r0">Niin, muttet kertonut syytä.</p>
+   <p begin="00:12:42.958" end="00:12:45.791" region="r0">Se on tarinan kiinnostavin asia.</p>
+   <p begin="00:12:45.875" end="00:12:46.750" region="r0">Se ei ole totta.</p>
+   <p begin="00:12:47.583" end="00:12:50.333" region="r0">Pidin siitä tai en,<br />tämä on ainoa maailmani.</p>
+   <p begin="00:12:53.000" end="00:12:54.083" region="r0">No,</p>
+   <p begin="00:12:54.916" end="00:12:59.083" region="r0">ennen kuin teen maailmasta<br />puhtaamman paikan,</p>
+   <p begin="00:12:59.166" end="00:13:01.333" region="r0">sanon vielä yhden asian.</p>
+   <p begin="00:13:01.833" end="00:13:04.333" region="r0">Jos joku olisi silmäillyt minua hempeästi</p>
+   <p begin="00:13:04.416" end="00:13:06.333" region="r0">ennen minun ja Jasperin häitä,</p>
+   <p begin="00:13:07.041" end="00:13:09.333" region="r0">olisin halunnut tietää siitä.</p>
+   <p begin="00:13:09.916" end="00:13:12.708" region="r0">Sanoit, että elämä kuluu vauhdilla.</p>
+   <p begin="00:13:12.791" end="00:13:15.875" region="r0">Miksi tuhlata aikaa arkailuun?</p>
+   <p begin="00:13:17.041" end="00:13:19.708" region="r0">Tuossa oli useampi asia.</p>
+   <p begin="00:13:21.166" end="00:13:23.125" region="r0">Hyvää päivän jatkoa, muru.</p>
+   <p begin="00:13:23.708" end="00:13:26.916" region="r0">Tee jotain rohkeaa,<br />niin saamme olla ylpeitä.</p>
+   <p begin="00:13:27.000" end="00:13:29.208" region="r0">-Hei, Billy Ann.<br />-Hei. Päivää, rouvat.</p>
+   <p begin="00:13:29.291" end="00:13:30.625" region="r0">SIIVOUS</p>
+   <p begin="00:13:51.375" end="00:13:52.625" region="r0">Voi helvetti.</p>
+   <p begin="00:14:11.250" end="00:14:12.291" region="r0">Mitä?</p>
+   <p begin="00:14:16.833" end="00:14:18.666" region="r0">Burton käski viedä tämän kotiin.</p>
+   <p begin="00:14:19.791" end="00:14:20.666" region="r0">Mikä tuo on?</p>
+   <p begin="00:14:20.750" end="00:14:23.291" region="r0">Makein tekemämme juttu.</p>
+   <p begin="00:14:23.375" end="00:14:25.416" region="r0">-Miten hän maksoi?<br />-Ei maksanut.</p>
+   <p begin="00:14:25.500" end="00:14:29.750" region="r0">Tämä Milagros Coldiron maksoi sen.</p>
+   <p begin="00:14:29.833" end="00:14:32.250" region="r0">Ja kulut kuukaudelta.</p>
+   <p begin="00:14:32.333" end="00:14:33.625" region="r0">Mitä se tekee?</p>
+   <p begin="00:14:33.708" end="00:14:36.208" region="r0">Tämä on jokin etäohjausvehje.</p>
+   <p begin="00:14:36.291" end="00:14:38.250" region="r0">Tai niin luulemme.</p>
+   <p begin="00:14:38.333" end="00:14:41.916" region="r0">Puolella näistä osista<br />ei ole vielä edes patenttia.</p>
+   <p begin="00:14:42.000" end="00:14:44.208" region="r0">Tämä on palkkasotilaiden vehkeitä.</p>
+   <p begin="00:14:44.291" end="00:14:46.958" region="r0">-Mistä se tuli?<br />-Milagros Coldironilta.</p>
+   <p begin="00:14:47.041" end="00:14:49.041" region="r0">Se on kolumbialainen firma.</p>
+   <p begin="00:14:49.125" end="00:14:51.791" region="r0">-Millainen firma?<br />-Rekisteröity Bogotássa.</p>
+   <p begin="00:14:51.875" end="00:14:54.375" region="r0">He eivät kerro enempää.</p>
+   <p begin="00:14:54.458" end="00:14:56.000" region="r0">Onko Burton kartellin töissä?</p>
+   <p begin="00:14:56.083" end="00:14:57.000" region="r0">Haista paska.</p>
+   <p begin="00:14:57.541" end="00:15:00.666" region="r0">Oletteko aivan varma, ettei hänen tarvitse</p>
+   <p begin="00:15:00.750" end="00:15:02.458" region="r0">-maksaa mitään?<br />-Ei penniäkään.</p>
+   <p begin="00:15:03.000" end="00:15:05.000" region="r0">Sinut pitää skannata.</p>
+   <p begin="00:15:06.375" end="00:15:07.875" region="r0">Oikeastiko?</p>
+   <p begin="00:15:08.333" end="00:15:11.208" region="r0">Asiakas vaatii hallussapitoketjun.</p>
+   <p begin="00:15:31.000" end="00:15:33.708" region="r0">Haluatko kertoa äidin tableteista?</p>
+   <p begin="00:15:40.791" end="00:15:43.333" region="r0">Kysy pois. Haluat kysyä.</p>
+   <p begin="00:15:43.416" end="00:15:44.250" region="r0">Mitä?</p>
+   <p begin="00:15:46.833" end="00:15:48.166" region="r0">Tästä.</p>
+   <p begin="00:15:50.208" end="00:15:52.958" region="r0">Minkä ikäisenä tuo tepsi viimeksi?</p>
+   <p begin="00:15:53.041" end="00:15:55.500" region="r0">Yrität siirtää huomioni muualle.</p>
+   <p begin="00:15:55.583" end="00:15:59.750" region="r0">Saatat yllättyä,<br />sillä et huomaa, kun se onnistuu.</p>
+   <p begin="00:15:59.833" end="00:16:01.291" region="r0">Sehän siinä on ideana.</p>
+   <p begin="00:16:11.041" end="00:16:12.166" region="r0">Näyttää oudolta.</p>
+   <p begin="00:16:13.125" end="00:16:15.333" region="r0">Mitä nuo hopeiset piikit ovat?</p>
+   <p begin="00:16:15.875" end="00:16:16.958" region="r0">En näe ruutua.</p>
+   <p begin="00:16:17.875" end="00:16:19.375" region="r0">Huippukehiteltyä VR:ää.</p>
+   <p begin="00:16:19.958" end="00:16:23.375" region="r0">Minun pitää testata se<br />hiton suuresta summasta.</p>
+   <p begin="00:16:23.458" end="00:16:24.875" region="r0">Pärjäämme kuukausia.</p>
+   <p begin="00:16:24.958" end="00:16:25.875" region="r0">Miksi sinä?</p>
+   <p begin="00:16:25.958" end="00:16:29.583" region="r0">Kovin moni ei ole päässyt<br /><span style="s0">Halcyonissa</span> tasolle 100.</p>
+   <p begin="00:16:29.666" end="00:16:32.291" region="r0">Et päässyt tason 83 ohi.</p>
+   <p begin="00:16:32.375" end="00:16:37.000" region="r0">Totta, mutta joku muu pelasi Easy Icena.</p>
+   <p begin="00:16:37.083" end="00:16:40.541" region="r0">Hän pääsi tasolle 107 asti.</p>
+   <p begin="00:16:41.791" end="00:16:42.833" region="r0">Ei käy.</p>
+   <p begin="00:16:42.916" end="00:16:44.916" region="r0">En ehdi. Pitää laittaa ruokaa.</p>
+   <p begin="00:16:45.000" end="00:16:47.416" region="r0">Maksamme äidin lääkkeet vain siten.</p>
+   <p begin="00:16:52.416" end="00:16:55.125" region="r0">Tiedät, että olen ylpeä taidoistasi.</p>
+   <p begin="00:16:55.208" end="00:16:56.958" region="r0">Suu kiinni. Puhut paskaa.</p>
+   <p begin="00:16:57.041" end="00:16:59.333" region="r0">Miten kestät itseäsi?</p>
+   <p begin="00:16:59.416" end="00:17:01.708" region="r0">Tiedän, mutta se on totta.</p>
+   <p begin="00:17:03.125" end="00:17:04.208" region="r0">Olen ylpeä sinusta.</p>
+   <p begin="00:17:14.916" end="00:17:16.333" region="r0">Maksetaanko tasoista?</p>
+   <p begin="00:17:16.416" end="00:17:20.041" region="r0">Ajasta. Mitä pidempään pelaa,<br />sitä enemmän tienaa.</p>
+   <p begin="00:17:20.125" end="00:17:22.208" region="r0">He etsivät virheitä.</p>
+   <p begin="00:17:24.958" end="00:17:26.291" region="r0">Minkä he haluavat?</p>
+   <p begin="00:17:28.041" end="00:17:29.333" region="r0">Tappajanko?</p>
+   <p begin="00:17:29.416" end="00:17:32.375" region="r0">Suorittajan ja tutkimusmatkailijan.<br />Vahvuuksiasi.</p>
+   <p begin="00:17:36.541" end="00:17:39.458" region="r0">Saanko taas tuuhean parran?</p>
+   <p begin="00:17:40.916" end="00:17:43.500" region="r0">Tietääkseni olet versio minusta.</p>
+   <p begin="00:17:43.583" end="00:17:46.958" region="r0">Selvä. Näyttelen sitten vähän tyhmää.</p>
+   <p begin="00:17:51.125" end="00:17:52.333" region="r0">Päähän vain?</p>
+   <p be

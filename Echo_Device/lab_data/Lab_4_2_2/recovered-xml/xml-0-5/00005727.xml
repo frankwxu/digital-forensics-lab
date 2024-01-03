@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<notification-policy version="1">
+<zen version="8" user="0">
+<allow calls="true" repeatCallers="true" messages="false" reminders="false" events="false" callsFrom="2" messagesFrom="1" alarms="true" media="true" system="false" />
+<disallow visualEffects="511" />
+<automatic ruleId="EVENTS_DEFAULT_RULE" enabled="false" snoozing="false" name="Event" zen="1" component="android/com.android.server.notification.EventConditionProvider" conditionId="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" creationTime="1262304328518" id="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<automatic ruleId="EVERY_NIGHT_DEFAULT_RULE" enabled="false" snoozing="false" name="Sleeping" zen="1" component="android/com.android.server.notification.ScheduleConditionProvider" conditionId="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" creationTime="1262304328518" id="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<state areChannelsBypassingDnd="false" />
+</zen>
+<ranking version="1">
+<package name="amazon.speech.davs.davcservice" show_badge="true" app_user_locked_fields="0" uid="10016">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.android.service.wifiprofilemanager" show_badge="true" app_user_locked_fields="0" uid="10165">
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.device.rdmapplication" show_badge="true" app_user_locked_fields="0" uid="10031">
+<channel id="RDM" name="RDMApplication" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.bishop" show_badge="true" app_user_locked_fields="0" uid="10045">
+<channel id="MediaPlayback" name="Media Playback" desc="Displays currently playing media" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="com.amazon.bishop" name="Alexa Time Sequence Builder" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.device.smarthome.ota" show_badge="true" app_user_locked_fields="0" uid="10011">
+<channel id="SmartHomeOta" name="SmartHomeOtaChannel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.edgecvs" show_badge="true" app_user_locked_fields="0" uid="10025">
+<channel id="com.amazon.edgecvs" name="Edge Computer Vision Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.alarms" show_badge="true" app_user_locked_fields="0" uid="10043">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="ALERTS" name="Timers and Alarms" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="android" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channelGroup id="com.android.server.wm.AlertWindowNotification - " name="Display over other apps" blocked="false" />
+<channel id="DEVICE_ADMIN" name="Device administration" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_ALERTS" name="Network alerts" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DEVELOPER" name="Developer messages" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.fwp" name="Favorite Widgets Panel displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.mlv" name="MultimodalLiveViewApp displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="NETWORK_STATUS" name="Network status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="PHYSICAL_KEYBOARD" name="Physical keyboard" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.paladin" name="Launcher displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="SYSTEM_CHANGES" name="System changes" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="HEAVY_WEIGHT_APP" name="App running" importance="3" usage="10" content_type="4" flags="0" />
+<channel id="ACCOUNT" name="Account status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.aria" name="Aria displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="FOREGROUND_SERVICE" name="Apps consuming battery" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DO_NOT_DISTURB" name="Do Not Disturb" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="USB" name="USB connection" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="VPN" name="VPN status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="UPDATES" name="Updates" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="RETAIL_MODE" name="Retail demo" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="CAR_MODE" name="Car mode" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="VIRTUAL_KEYBOARD" name="Virtual keyboard" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.knight.blink" name="Blink displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="SECURITY" name="Security" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_AVAILABLE" name="Network available" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="ALERTS" name="Alerts" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.theia.sm" show_badge="true" app_user_locked_fields="0" uid="10149">
+<channel id="com.amazon.theia.sm" name="Smart Motion Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.alexa.datastore.app" show_badge="true" app_user_locked_fields="0" uid="10167">
+<channel id="com.amazon.alexa.datastore.app" name="Alexa DataStore" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.knight.ecs" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.theia.sm.remoteagent" show_badge="true" app_user_locked_fields="0" uid="10154">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.comms.multimodaltachyonarm" show_badge="true" app_user_locked_fields="0" uid="10114">
+<channel id="alexa_calling" name="Alexa Communication Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="alexa_call_notification" name="Call Notifications" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.shpm" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channel id="com.amazon.shpm" name="ShipModeService" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.knight.blink" show_badge="true" app_user_locked_fields="0" uid="10018">
+<channel id="1099" name="NotificationChannel" desc="Blink Notification Channel" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.venezia" show_badge="true" app_user_locked_fields="0" uid="10118">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.gloria.sÿØÿà JFIF  Ÿ   ÿþ Lavc58.134.100 ÿÛ C 		"")ÿÄ                               1!AQqa‘ÑRS¡Ò’"±ð2BÁ#Cáb‚“T       Q!1ARaq"ðBÑ2ÿÀ  ´@"   ÿÚ   ? ø                                                  îçèË±†	ú2ì&
+¦sæÝ#U*’Ê~ë¡YŽ+ò%è¹ÿ ÉÆ¥¯!Íºy¾æ¯¡?•œîçèË±ž‚×;i;ŽÆiÜÕõsùXw½\þVNÔÜS§£w|—õ©¾“Ò:u›Êôÿ [ÕTù_|=USå~C_Qk‰çÄ»÷
+Ï+Dnÿ Ã×õU>WäsáëzºŸ+ò•j³–'7Ð²ì£¹©ÕqÊˆÞæ«ÿ þVwáëúªŸ+ò'£+O¤”¥JR×$eökà‘ã¾qêjü’ò;ð{§þ
+ß$¼{IÅjGëüoÏ>uê+|’òƒÝzŠß$¼ É}WEŠ:Öô†Ÿ:ø-ßÿ ž·ÿ 9yÙî£
+Ë¦ò>•RpiÖô‡Ì¾qêª|²ò†¯êª|²ò=“8oézxï†¯êª|²ò†¯êª|²ò=€ú^†ž?áëúªŸ+ò‡¯êª|¯ÈõâÕ·££w|ý/CO3ðõýUO•ùtjÅ]Óšé‹D¥MÕZévŸy<äüM™ÿ ƒ‰-Ná—'Ø3fîÖ†ò4O¹>À³äÆð¶ÃXäh¢ŒžIöîjú¹ü¬iCŽ¥ðÜÎŸêÕ{G#Hþæ¯«ŸÊÎw5}\þVzTUâÎÜÎlÓÏwU=	ü¬;ªž„»>Ì´æ {ºž„»wsôeØÉ¶™‘ÈÓ¥S.Õ³¸!ªèÊK!Ç9Ijb19R¢¥°3R´hÆòð\YW{RzGè]Yö”VªêÉ·Çób’æ,kæm™±¸Å”ÆºC7å?·ÎD\±žjæeâMŒÒ¹-OíJßPUû{…¥MåÃÈçûan¶éøç&ô{e´Ò3ž¯…ø^ÒR†·Óˆæ-ÚÂk‹c2Í“¶ªÃsvÐÒF¸EY	o*a¹¢u,uà´+c†€´²b¥HRW“±i	¹“jRy¿bäUÞËø/©Ô¤Û“Õë©OxÒÐ%QÔV±z­ìÖ+;¬Â÷9±§MaÓ•û²¥¸ø¨°Ø¹%oÏ •š·!¾æ•¥¯SÕu’Ä¹I{JÔ´è8çq£nß™™I<ÌJW)r6Fm}ÎŒóú^dÊ´£tyÒ[aS\y~Ø“m±uŒ4H¤Ë-hÃF"Äa3a9(&Þ‰5ë:Óo‡3½¬å.íd³ëdyxÀzjSà7·†&,‡öÒ9çáxyJQ¥D¥8¤!FiÓšg‡-½øœÑ¢Š‘,‰Ê³§õ4Žnžmª-!-9uõ(€•EfÖQâ;öíëÝ©¦¿CZó¹Ûlïðò{°˜ÝÏ”¥ŠäXa–âáÔÊÛ8å ©S-šÒÒÂÅAQÍJ÷8Z[¸–â„jBVVc'PÙÇ»X–¯Wä-¸£2V%#=D·š´ÎXåywz²ÆpS7ÒÌÄeôøþ'ºqåª*R³±ÒGíìÎ;¦»[ð:þ¨õùÂÏI[™KcSXãužbÒçÏñ/VL3lÉQŽm'‚²ëÑøŠäi<-1G§±†Q—yN/¨ÛG0»F/h­V¯#2¼UÚ²æ1OM¹ÇZækr¶µ%Ä¨f½'qdtŒ4uQ•…6ÑÇ.‚rð¬|¥éK+ŽÆj:ÞÈM+#j-®£Å{½Ó´Y-ÕzÒÃIY~u­°©iËºobF
+õ#j_D^rþO£’/£°î%õ<R—¨åŽ=?ÇÊxÜ¯Ïüþ*ÚÎ
+“…MqæÉ„;‡(}8%g“ÓƒæÅ*Òîô9µ«voLµ#zïrÂeŽ«Ñ\ãbÔkbn7»Y>hµ³¤»xòÆãu\“)œÉ‹É”•rw+4ÙUÊ¼ÎB8Ý‘uJN+#v’¶3/¦-òE—5‚RàÍb;ª‹NJ«ÛÔ•:±zq\‹…Ex¿3–W²Y”'¯ZÓÁ‹UXd3QYß‘Ue}y%îã”e0ëí+Œ­ŸC	¹CUØ^’ëÑõ?ÍÊ¤»Þñ>£.\M’¥U­£2ÆÔ‘Œ‹Ú\Ìâ:õkS	¼à™$âCìsh—Ôç|Œ´VËY\`Qfìi0!^Ñ88JÝ‡¨”nDï(éuÀ¼kG`±Ê1æÉXFq‹ÁY?×3rÏŠ±Ã’Ã›gf‹ë¥Ui¥³\S(§MË”W9uLÁ¡ú.HxÉ¢ØÔg—,^Ìrz(J+&_“½ìCB«Vq¸éÚi½üíí!k×º]ÚKœŸàNÇïUn"UhÒwQQŠ:adøsÏ	¶SÃIÍ¿ªNÝ	p“ØÎ=Ô£|2Ï¥¹cÉžù]»)JGe!iHÔ6ÙÄWs´Ó©.¢ƒÔìº†¸kªŠà_Iðf0F”Èµá‚o$•Ùš·„q,ÑºÞ*”Ô—ý^DÕc9Y[ÙJµITâÞ]\»!Q¦;RÎÚÓŒnl¿êíqïØ?©ÅÇôKÀbvBF=ÙŸf*EÓvy3*wX_ƒ4«©¬3í(œm–«ÚOŠãŒ»¦i³Þ(ëWÓÄ¤²ô:Fx“§ÀÄ·ÛcyÉòVí%ì„~×+S—N¤Œ«R½žg+{©K*eï²e/@•ˆÚ+FÀí®UR–$ËÑÛµåjEíêô;¢b•Xß_Ó5Øùßí»ÈâY¢3'§ŠàÊËÒU†|/ñ5Sn­uÅ×§/ƒæ/Ot¥S^7C.µ)G\øtœlÊywœrñ¦"[xÈ¹1[1^…Qt]ŽV:Ê¶­IF)$Û|e1£*‹ûÒp¡¯‹/„®úìZ©÷™¡¾?úy7Nœ¥FÊÝ¶â8ä-‚k¡š”‹ÆíçöË2ÿ "rlì¥rÝ¾ÞUÝò‡>}ONS£:Ùh¸²O¸î ¬v¢Tà”t‹¼Z&Ö½ËãÌÌéçÔb”ììÿ ª'Ÿ¯AF£RI«“ñzn ›Ao)¨¨`Xo{æï—17ô’ˆÉE§­µ‹"Ôñf¬mŽÞ¼·;ùuÉ²¦®Y›4â’.¤p¶]é˜Õjw™k‚¥O­yMG>H½4;O7Ðq ŽE|$çux§Ð/Z*/ º•uúd]:J¦±iö¾7ºõ¹ÙpeÐk<+ÄªI#¦åN’mÞÆ„\%ÝÜÖê¬jÔÅb2ÀcëæŽWËk—¶—ÂrRWcQ›’ÔŽº‚×VrÚâSi–\¡3w^™²„Í¦c]—âAo6ÖmÇ§Àz¡j‹·¥Ñ^z–ci"©Ã»«Õ/c.C%ááÛØ±L¯2¶š'Ë§ƒŠ¡bø‘Ø™Ülž
+æ•E˜îã¼chªÓ´’Wé&úÛ=š=Stê4–¯Ã“Ð©(Cô¤¿ÒÆ¨:úêÊü µí6I‹žyÜÌí¶ç×SHræ7SwN–ŠÚpDemåMÃ´~ˆpKú•Æeš±ôÛÞœ–ö2Î-–SÞÓÃ…·¹‰`¹Té¢y®úqþ½d§«19¬2!£R¥/Ñ&¿Ï©kI&\®9zìORŸcr®ˆØoéÊØ¯Ìo¿Hé$ÊF¬Q‡Ô…ÝSÁUðÈšŒ¬Ê7tU~&˜Þ7h‹çŸ¬ãœuëlÄÚœ³Kç*¹ëix0ÝiÐŠÜìÚ|7199FÜ„ó~Kœ·0O1®Î¶éý±<Ž¶ÉåÎM«¥JU/$£›þ…É.µ£öêt((%–ò|_‰	¸û÷%ƒ5šÕgËÂ{fU×†¢Ól­ÅDTdÓ‹}Z—w:iß2ùéœPÙävìžÒZ^/“‹†Ž÷âT²¦Í(møœI–¸Ýñ§EqZ¶i$™«•&u2R¹3w)LÕÃVâ+Ÿ3—2ä`Oq%qh±º‚QzµÈÛáXÞëMØå®uhswŒ¸Â0µ4ás6Þ;&âYKFjQ±m:bÞÄÇºìHÜUÊãM—¨œ­]1Æô]"å8¡[±ÍÐÞ4rNâéÄÄÐ¬ÐÜµž…âŒ¡VÎ)Ê933•¥n`ÑÙÀÜ7’ŽzG{JQWv}d3ˆ­"È™ÜQUm:sWâ„'J¤V¨YThÛÜOl®éÖ•Ôúsÿ ev	^Z¼Ì(¹5«²äŒÚèATœRþM.Óè_nÙª*:+EYyžSe°Àâå¬¿ƒÖª•0(âvHó{¿ÛRWL.·ý?RP„nä¼3bŠqWwÅì§;ÆÜ¿ÇQxÝÕ[¤'-°«u³Û5Õ×þ‰ºŽé>®Áia•Ì–­R‹ïgÊÂ_ŽîÞ<:I-Y©JVä-2m_õ[‘éÇÿ —å£Úi¦†agd‹«S§'ôðÊ\|J"åoÏú7ÉµGD¾:Ÿ)ö/3¿OÑ—bó;q®'nYr7ã©ò—bó8·Ð\%ìókRFýÂ—£?g™—¾¤ÿ Œû™œoF˜›ŠµKpgeºƒÉKÙæW
+ðNíKÙæn®¼÷<¢Í8Ü¥o¨¯ã>Åæ{GÑŸbó8ñÏë^‰–hº7EÉµÀIïh¾ì^e‘û…(çö/3.ýj§³	ÿ hs»Çª.§D×ÜöþNÈûÇtÛðNÈûÇ;‡³ë]'³Õö‰; QDoî´=‹Þ9û­F§b÷‰ü½ŸZ¯ÛÕö‰'u¡èÔì^ð~éCÑ©Ø½áù{>´ý½_hq£9
+~çCÑ©Ø½ãŸ¹Ðôjv/x~^Ï­OëëûCnæ¢¯îTñ©Ø½ãî}ö/2ç¯?­MöaöTŽ©ò8ÝÊe¼¥.öy”-ÌWùñ:Ì2èá–Xïµ‹äTÌ½Ì_ìó+ï£Ö\ÆôO)ÕaÛ]ô÷«¬Ü«Å¥dÍÕèÍÎ®½I¯¶ípÁU–r¾¨óél„¥R–/î9¨ÿ Æ)¿l‘1»í¡Æ0©h«-#’ÿ ±9Ì¼IIg§¨Ç[»9i}ën¿…^ÈûÇ{Ûú5{#ïÿ <úUsÇ«ÖÂµç$Ô–Ž-Ý>´uPŒlÔîùð·Aæéè¶Ð·ö¦•³ŒcwÛ#²ÿ Ðíe+à­Ùx‹ëöt­åW¢“PžÖ©‘õk¥u9²·ß6•-†•Tø»GÞ—Ý¨<£S²>ñ¸úrù”¾ÉÖ$ïúº?©N_œˆÿ ÝhÛôÏ²>fÜépŒû™Û†]Êu>ØCîšmÛF³Dgî¹OÙæe}ÂwJkÁy›Æôg(Š »˜                                               8                                                 ÿÙ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

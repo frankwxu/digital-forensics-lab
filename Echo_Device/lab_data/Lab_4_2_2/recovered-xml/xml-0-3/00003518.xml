@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<runtime-permissions fingerprint="Amazon/athena/athena:9/PS7560.3673N/0028421544192:user/amz-p,release-keys">
+  <pkg name="com.amazon.venezia">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.whisperjoin.middleware">
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.android.externalstorage">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.android.companiondevicemanager">
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.alexa.beaconbroadcaster">
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.symphonydeviceclient">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.android.defcontainer">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.android.certinstaller">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.android.camera2">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="20" />
+    <item name="android.permission.CAMERA" granted="true" flags="20" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="20" />
+    <item name="android.permission.RECORD_AUDIO" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.amazon.diode">
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="30" />
+  </pkg>
+  <pkg name="amazon.speech.sim">
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.RECORD_AUDIO" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.android.sharedstoragebackup">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.securitysyncclient">
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.alexa.visionapp">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.CAMERA" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.device.messaging">
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="0" />
+  </pkg>
+  <pkg name="com.amazon.edgecvs">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="20" />
+    <item name="android.permission.CAMERA" granted="true" flags="20" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.amazon.cardinal">
+    <item name="android.permission.RECORD_AUDIO" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.android.service.wifiprofilemanager">
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.android.packageinstaller">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.obscura">
+    <item name="android.permission.CAMERA" granted="true" flags="20" />
+    <item name="android.permission.RECORD_AUDIO" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.amazon.client.metrics">
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.device.smarthome.adapters.echo">
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.device.smarthome.adapters.mock">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.wifilocker">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="30" />
+  </pkg>
+  <pkg name="amazon.speech.davs.davcservice">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.android.storagemanager">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.theia.sm">
+    <item name="android.permission.CAMERA" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.android.music">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="20" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.amazon.device.smarthome.adapters.ble">
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.alexa.identity">
+    <item name="android.permission.CAMERA" granted="true" flags="20" />
+  </pkg>
+  <pkg name="com.amazon.avod">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.whad">
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="0" />
+  </pkg>
+  <pkg name="com.amazon.device.smarthome.ota">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.alexaviz">
+    <item name="android.permission.CAMERA" granted="true" flags="30" />
+  </pkg>
+  <pkg name="com.amazon.device.gadgetscontrolmanager">
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.RECORD_AUDIO" granted="true" flags="30" />
+  </pkg>
+  <shared-user name="android.media">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.uid.systemui">
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+    <item name="android.permission.CAMERA" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_CONTACTS" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.uid.nfc">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_CONTACTS" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.uid.bluetooth">
+    <item name="android.permission.READ_SMS" granted="true" flags="30" />
+    <item name="android.permission.READ_CALL_LOG" granted="true" flags="30" />
+    <item name="android.permission.RECEIVE_SMS" granted="true" flags="30" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.SEND_SMS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_CONTACTS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_CALL_LOG" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_CONTACTS" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.downloads">
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.uid.system">
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="0" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="0" />
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="0" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+    <item name="android.permission.CALL_PHONE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_CONTACTS" granted="true" flags="30" />
+    <item name="com.amazon.settings.permission.SET_HOME_BACKGROUND_TYPE_RECEIVER" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="0" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="0" />
+    <item name="android.permission.READ_CONTACTS" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.uid.phone">
+    <item name="android.permission.RECEIVE_SMS" granted="true" flags="30" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.uid.shell">
+    <item name="android.permission.READ_CALENDAR" granted="true" flags="30" />
+    <item name="android.permission.ACCESS_FINE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.ACCESS_COARSE_LOCATION" granted="true" flags="30" />
+    <item name="android.permission.READ_PHONE_STATE" granted="true" flags="30" />
+    <item name="android.permission.SEND_SMS" granted="true" flags="30" />
+    <item name="android.permission.CALL_PHONE" granted="true" flags="30" />
+    <item name="android.permission.WRITE_CONTACTS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_CALENDAR" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="30" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="30" />
+    <item name="android.permission.READ_CONTACTS" granted="true" flags="30" />
+  </shared-user>
+  <shared-user name="android.uid.calendar">
+    <item name="android.permission.READ_CALENDAR" granted="true" flags="30" />
+    <item name="android.permission.READ_EXTERNAL_STORAGE" granted="true" flags="20" />
+    <item name="android.permission.WRITE_CALENDAR" granted="true" flags="30" />
+    <item name="android.permission.GET_ACCOUNTS" granted="true" flags="20" />
+    <item name="android.permission.WRITE_EXTERNAL_STORAGE" granted="true" flags="20" />
+  </shared-user>
+</runtime-permissions>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ×î‘Ž~e„ñ¼[\!ú®ON/†Ë[Mã?Äà
+©žî·Î+€yÓˆÕÚ©* Ä0µšaøqAìÒ`¸)¸ãðe€Û¿ÁŸ	D4ÈX¸Ù>¿>=-ÊÒÊÉ²íeY/—æå­×ª»õ72guiÎºÖ¬–™³YÞ=,Ýz(ÏÓI…¡[cóEšzS¬Tˆ :Y­ÿHû¹TŒ\(²–:Db<·“Ì‚ªQ”¸µt@”B~öÔ¹¿Ñbæœ'š…kœâÞ0SÅ¢&aË=0àñ˜åwç>$`þ )D«ÑÎmÈ¿gïjhÕÜñr‚ýÕ	âQW±D#H{$ìA4ÏkÙ.žÊÍ§ãy‘S½ZÊéqf@ô˜y®«‰f¬`¤|ÿýÞsÈæm;}C3Ûå
+’½q'n¶ÎwÓ?îN.†W£Î`4¼..¯zGä€Lp_°H¸\?uOúƒÑÕß=`‡†½†Q.üŠ.Ùwµ;±ObÝAœ`w.OcoþI­U‹¾“|§wTó(_a¶¿3ê½h \\ý‹‹¶˜‘¼«þFMîcí7+Gòœ¢GlrŒÀ²‡‡n-r,ù#JóR±jÂ'9Îû’óþw
+ih?ÛsÞïÿ]ÜQÌðÌÂÕÃ$ÿù…Z"Ðñ¯Î~õZ::æÑ9²»|8ýoÏ-yŒ•ÕqÒù÷È®¤‚O­Õ…ý7–tò&BÖÍÚ›J™ó&µQŽ«ª_ÄF>x…+WÍ4Ì×bÀ…(%“ØŒÐÇœ×úÉ–òs7ÄÔñoß=u¼õÕ3rŠøÿ	çø¤È­Ö«$¾Ãÿ)Š)y©¤•cé¸qH{Ö‡ëìÀñîº·…€µö{¸V»Ojë•Â¼Ð¾S&Ì+Æ<-Ÿa4ßC[ÇðçbˆF:zd¯xw]*ÈÂ5_—¡Ÿ—MŽŠAxccÉÌ×…íR2µá¥*û0'öÔÜoh¾G·¥[U‚ ¸"_È_¿•¤¿Î–ldÅÉÝˆØÄƒ;ÐÉâê+øÓ¿Í—U9 R !$UƒÞ¢àt¶8†¤S©•[ô’g'p:ÑT@#PR”hÉÜkª¾·_WßŸJv‚Ùz[æ^’ù½öâß•=ñxn­&.h%à|Ý(,r$û~±ï+‘ïN.V%àÔ2À©=8wœ¦É”<àþ·ñ×¯?ÜPèÈvŒ–øUõ'ˆ²¢
+yêU†Ç-–|Rc6rÝÅ¯çíçq[,åfg„7?áñ£ù|«ÈvëT6tGê0‹Ëâƒ¯¹Í³
+É]|ûö–uÊ¡Þ{«ò«¨Q¸—±L©š]–§5àcå}Y¬jõ÷„ìŠU†}×C÷FÏWk¾m©ßV¸R™Œ÷íq~uc¿º±÷ú¯nìW7ö«{¥¶~ucJö«[uô_ÝØ¿l7V¶Ñ†Ñÿ·ÍŠÿPKWª¬÷   P  PK   JW               Log.main_16í[íoÚ8ÿ~…UMºNjÓ¼A ºž®ÛZ‰uÕÐnÒªª2‰¡^CŒl‡–î?ç…–Bèð0öm‚œØ¿ç-¿ÇOb;ö¡cÛÍÐw¬¦ãÙ'°ƒêØlÊ8]3D'ˆ†¢rðN •Àth½N c‹ÿ­(?žzGhÿñdSœ@ŸÁô`±_—ÀÑ—`¿%?º/s¶'é@‰~ÃS*eDFÁo$µ˜"Â¬W¡¿QúpŠ9ç!JÑáCÿ+Šxëôâ‚0žëµZÙZüB÷†cBõü»3']Ý¢xsÍŸUÑ±íÿ¡ŽÏŠÜjm$ñ„à¸FÌ«'®ÄšƒŒ1CÝtÄÿJZ!Ýª«½ö6\iÇýg­µ¡0?èß!*Ü[ôy^>Ç	¶a­3ñõ¡—;­°Ñ±ýUT0×«.ØŒ¡¿/[Ù«WtÊÖ–¬±Ùmû(YSñÛ*ÏZ½9y¬?rËý™»ïIsV®F§KÜpyU/½Y=Â”g®¢A"Z¬÷ˆßXÄÓ„ÜÎ§Õ²ÃÁÒ…¤U'	Éf8åˆ¦0±DP}ÌRŽG(%æIŸÐ!{“D‰fiîÉ¹ËªüÞÞ,¿?+Ô—éðlµ/ç.*ùÝûa‚3†bÐŸ†‹ÄuNøÉÒøô>Bãœ}BðÇéï:
+ä¶7w¯~ÃÃ>BÖ€Š)Ô¡·VçKÑ"lKqTXµ£Û=žõ÷ IÈ7bPt!~t1ã——ßðXŸ °wT
+zô0Ü«¸HèL÷Às—
+o
+‹"~XõY£Ë`‰Ëçý—ô<¦d‚ãâþú^ÿaOô¹:HÅÔÅ}
+éô ¯ˆŠ;¾œõNpÿ Ìý¹ºR™§b˜LðmÅ¯EŽž™£T+w{™žVL>®/“•çosÊ^A=Ì}WOÝgsôyá¼@mª—®V&g»5Î®ÛUcÛU}Wíª±]5¶¡µvÕØš’íª±Å@ßUc?m5¶Ø-h´kº‚O¬’0øN”So/*…wç¼šËë3Š†¢˜B´î2P–`T˜˜-¶
+'€nø*É'„ßœÄpÌsQZ@_Ô3fI²4¢Ó¨±.È¢ïa
+‡hÆk‡…eÄ`œŸoOºÀ±lPÕJÛÜY5xÛY²…8~¢ò…ž a6¤$‡àŠ"/œËˆ0îŒ"~”áøÚ>‹£Ûjåun„(b$£âw?cÓí¡zžkµÙ4‚Am›@Œè˜ˆaßõL z&,ì7}#¨#¨&XÂL0¢‰á–m µa›Au$P[ŠP›RY]j.aÆDñ	b”boÇ±íŠò½
+ÎËäU•À®LøªöôFð#pK†•Ëä•ÀmS>n›òq[&)–™Ñ(6\2ó¥À†¸Ú·—oò±oò±oË”%*CIÂwˆï3µ¡©ojêã»†Ò¢ïšŠjß°)®öMQfÓTp5M™:¹ë^/ü(pKÆÇJe¸Z)°ÌœK%°T%¡X†¹”ËÜNj€×zÜ¢Ê©HR{Ï€µÇ±£Ï¸nõ¸A{ ¹útôÊ’RYV°6Y¤;VgÀ-Ýœëèc Ç«n™rK)°nê{ ÖN3`™:O!°È<6Q
+lÈÇ¾Ô›k•ÀROšÕ ë£Œ z^¡=œ*à@;WúŒÛ®ŠHí$ÑÖ¦£×¬Þõé¦¯©OÇVõZQ·½–6ýÙsÝ“O_ßüÈ¯
+%Gw1vu“¿V…æÚ* šÕ[Â¸Š€õéX%-™eŠJeÞ¶+ÖfÜF«šnIÜ$Š€µéØ¬n’@"“(Ö§ãlf'Qi+^KÇÇµæ¾ëæÇvtÀ¤ØšcPŒ!G·Ö¤ñ¤È*™ÿåZö!“0Ä;ùÞ+ð?"Æ	EàdqÍ¼k9íÇ~àVÇ¨–²WÛCðbŽÓ!3U‹ØÁI±Uç=é}O¢Ü„N«Ž–e-B¹þT+7fC´¬5†Ñ­8{]n)¨Ü«üóÒà½ÚA\n7gRn	{ñŒ¦¹çŸºÝe¨Ç¬ç›-š†Ðã-‚	¿9Nâùs”{ ~˜‚.š {q´fíÒÄSÐ;íâ4»!€“(U¤ ðR˜òërŸÔõø!–ø·0`¾¿çÇYHÃ,å4ÂÄ×p<¾v!³Ã¨á¸QÐl>éÓ"Ìgó}UÇ3$’à#ft\£MÝû%eÚŒÈEë(WÆˆ&ÝNÐDÜÐÇùÃû§;k ºqÁ¸‚RÄ–G®ßió3Úh«šhÝ_J›ÚtõSFÙ/¤‰óKEØVµÙ¦_þPKIÄTé  ƒP  PK   JW               Log.main_17í[moÛFþ~¿b¾>šo"%šäŒÔ€ƒ+à¢ý(¬È•¹—%—·»”¬÷ß;+Éµã¥Š•()5á| dQ˜yfæÙy#øÿ
+|ðýl”dqè%aÿR?Ý^o /‰Ö+€ZV\¾ïƒZ)M«©¢rA%°‚Öšå„CœÕTý#p‘|w×·¬nP2Yä Êa´ øî%©õ”Tä«¨§•SŠ‰ZÁÿa.$€ÊE­éƒ¾j3™5œhü¶š’¦É”Ÿå£ ¼ÈÓdúùÏ¾¿Ã»œ(uõ¨Ep–3ªàQÝ‚^ù¶%Ñ)-ik-[DYS¦áè»X³WÄ£]–ŸâÁðwÜ7â“]ï’<½^î'.“¾ÜÖÜµGÁP\´Ðž›º§µæ-.OkÎ—“ö³Çe4˜¸œÔ’aÅeXÖœ•eiß†"ÝÑwJ~>T3|ZkÎ—®føUZûCbØi­y‹ËßÓš·¸lÍ`fïY2¨iõ´Ö¼ÅåÍšµ5'}àqV–uíDöšŠÂSQ§ä×é£AMôqr²ˆwI–Ÿ^'³Ÿ8­%ggØ°¬Ì¶%îýèq×‹’_¥FƒšKOkÍwË1›3ðŽ5ŠtZs”€ßM¯“¾ƒ™=OkÉÙ6œ¸ôÞ	ìJ)ƒY	œÖ’³Sw8qéÝºv´îÉ`ZÄÓZrnî(.]ö1Òn§àWé¢ô)QÅ©©·ñ$A=Y²ý”Á­ 3gœN·0ì3=~ZìÆëõ…¹^Cžçl:WÅ»è‡

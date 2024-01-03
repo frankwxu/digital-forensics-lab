@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<app-ops v="1">
+<pkg n="amazon.fireos">
+<uid n="1000" p="true">
+<op n="27" tp="1696784680811" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.android.marketplace">
+<uid n="1000" p="true">
+<op n="27" tp="1696887486577" pu="0" />
+</uid>
+</pkg>
+<pkg n="android">
+<uid n="1000" p="true">
+<op n="0" />
+<op n="1" tp="1697162477531" pu="0" />
+<op n="8" tp="1697766930987" pu="0" pp="com.android.providers.calendar" />
+<op n="27" tp="1696904016990" pu="0" />
+<op n="36" tp="1697766842032" pu="0" />
+<op n="40" tp="1697824527034" d="16" />
+<op n="41" tp="1697162125430" d="663302406" />
+<op n="43" rp="1697785723279" />
+<op n="61" tp="1697681429749" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.providers.settings">
+<uid n="1000" p="true" />
+</pkg>
+<pkg n="com.amazon.kindleautomatictimezone">
+<uid n="1000" p="true">
+<op n="27" tp="1697162121277" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.inputdevices">
+<uid n="1000" p="true">
+<op n="23" rp="1613617854574" />
+<op n="27" tp="1696898019385" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.unifiedshare.actionchooser">
+<uid n="1000" p="true">
+<op n="23" rp="1696886335749" />
+<op n="27" tp="1696888006468" pu="0" />
+<op n="63" tp="1697548951718" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.keychain">
+<uid n="1000" p="false">
+<op n="27" tp="1697156923856" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.settings">
+<uid n="1000" p="true">
+<op n="0" tp="1696864571527" pu="0" />
+<op n="1" tp="1696864568267" pu="0" />
+<op n="32" tp="1697492635852" pu="0" />
+<op n="45" tp="1696900182643" d="1755" />
+<op n="63" tp="1697784916528" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.wallpaperbackup">
+<uid n="1000" p="false">
+<op n="23" rp="1696281480897" />
+<op n="27" tp="1696903934103" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.knight.ecs">
+<uid n="1000" p="true">
+<op n="27" tp="1696748363011" pu="0" />
+<op n="61" tp="1697808298225" pu="0" />
+<op n="63" tp="1697162155170" pu="0" />
+<op n="76" tp="1697162128901" d="663298935" />
+</uid>
+</pkg>
+<pkg n="com.android.location.fused">
+<uid n="1000" p="true">
+<op n="27" tp="1696888026991" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.shpm">
+<uid n="1000" p="true">
+<op n="27" tp="1696904291604" pu="0" />
+<op n="76" tp="1696883667479" d="9926" />
+</uid>
+</pkg>
+<pkg n="com.android.providers.telephony">
+<uid n="1001" p="true">
+<op n="14" tb="1697789359434" />
+<op n="59" tc="1697789359188" pu="0" />
+<op n="60" tc="1697789359188" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.bluetooth">
+<uid n="1002" p="false">
+<op n="32" tp="1697492613663" pu="0" />
+<op n="40" tp="1697825427266" d="3" />
+<op n="43" rp="1697162122213" />
+<op n="59" tp="1697162127257" tc="1697162121533" pu="0" />
+<op n="60" tp="1697162127257" tc="1697162121533" pu="0" />
+</uid>
+</pkg>
+<pkg n="audioserver">
+<uid n="1041" p="false">
+<op n="40" tc="1697770170331" d="2985" />
+<op n="43" rc="1697162121548" />
+</uid>
+</pkg>
+<pkg n="com.android.se">
+<uid n="1068" p="false">
+<op n="59" tc="1697162127214" pu="0" />
+<op n="60" tc="1697162127214" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.systemui.theme.dark">
+<uid n="10000" p="false">
+<op n="59" tb="1697789485484" tc="1697789485379" pu="0" />
+<op n="60" tb="1697789485484" tc="1697789485379" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.internal.display.cutout.emulation.tall">
+<uid n="10001" p="false">
+<op n="59" tb="1697789463810" tc="1697789463703" pu="0" />
+<op n="60" tb="1697789463810" tc="1697789463703" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.internal.display.cutout.emulation.corner">
+<uid n="10002" p="false">
+<op n="59" tb="1697788712360" tc="1697788712252" pu="0" />
+<op n="60" tb="1697788712360" tc="1697788712252" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.internal.display.cutout.emulation.double">
+<uid n="10003" p="false">
+<op n="59" tb="1697789331848" tc="1697789331737" pu="0" />
+<op n="60" tb="1697789331848" tc="1697789331737" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.sharingservice.android.client.proxy">
+<uid n="10004" p="true">
+<op n="59" tb="1697789458449" tc="1697789458308" pu="0" />
+<op n="60" tb="1697789458449" tc="1697789458308" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.launcher3">
+<uid n="10005" p="true">
+<op n="59" tc="1697162127276" pu="0" />
+<op n="60" tc="1697162127276" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.smarthome.adapters.ble">
+<uid n="10008" p="true">
+<op n="59" tc="1697162127234" pu="0" />
+<op n="60" tc="1697162127234" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.gadgetscontrolmanager">
+<uid n="10009" p="true">
+<op n="59" tc="1697162131820" pu="0" />
+<op n="60" tc="1697162131820" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.zordon">
+<uid n="10010" p="true">
+<op n="26" tt="1697588977538" d="20358" />
+<op n="27" tt="1696880093761" d="12264" pu="0" />
+<op n="32" tt="1696880081188" pu="0" />
+<op n="40" tt="1697385523329" tf="1696280423060" tb="1697824723846" tc="1697590656368" d="411" />
+<op n="59" tfs="1696880075176" tb="1697320586872" tc="1697824723067" pu="0" />
+<op n="60" tfs="1696880075176" tb="1697320586872" tc="1697824723067" pu="0" />
+<op n="63" tt="1697588956495" tfs="1696880075659" tb="1697824723412" tc="1697824723072" pu="0" />
+<op n="76" tt="1697588978590" tfs="1697588978610" d="6780" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.smarthome.ota">
+<uid n="10011" p="true">
+<op n="59" tfs="1697162151997" tc="1697162149791" pu="0" />
+<op n="60" tfs="1697162151997" tc="1697162149791" pu="0" />
+<op n="63" tc="1697162149790" pu="0" />
+<op n="76" tfs="1697162151743" tb="1697162151743" d="663275538" />
+</uid>
+</pkg>
+<pkg n="com.amazon.wifi.sync">
+<uid n="10013" p="true">
+<op n="59" tb="1697164440948" tc="1697164440535" pu="0" />
+<op n="60" tb="1697164440948" tc="1697164440535" pu="0" />
+<op n="63" tb="1697162168693" tc="1697162167735" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.ava.shopping.android">
+<uid n="10014" p="true">
+<op n="59" tb="1697162143251" tc="1697162143125" pu="0" />
+<op n="60" tb="1697162143251" tc="1697162143125" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.selector.clock.resources">
+<uid n="10015" p="true">
+<op n="59" tb="1697789509378" tc="1697789509256" pu="0" />
+<op n="60" tb="1697789509378" tc="1697789509256" pu="0" />
+</uid>
+</pkg>
+<pkg n="amazon.speech.davs.davcservice">
+<uid n="10016" p="true">
+<op n="59" tfs="1696280418818" tf="1697824765426" tc="1697162129747" pu="0" />
+<op n="60" tfs="1696280418818" tf="1697824765426" tc="1697162129747" pu="0" />
+<op n="76" tfs="1696280431264" tf="1696280431251" d="14" />
+</uid>
+</pkg>
+<pkg n="com.amazon.whisperlink.core.android">
+<uid n="10017" p="true">
+<op n="40" tb="1697808906599" d="17" />
+<op n="59" tc="1697784007098" pu="0" />
+<op n="60" tc="1697784007098" pu="0" />
+<op n="63" tb="1697784007164" tc="1697162159915" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.knight.blink">
+<uid n="10018" p="true">
+<op n="24" tf="1697766811381" d="1533" />
+<op n="40" tf="1697354390294" d="149" />
+<op n="59" tf="1697353724896" tc="1697353788926" pu="0" />
+<op n="60" tf="1697353724896" tc="1697353788926" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.android.devicemodelinfo.resources">
+<uid n="10019" p="true">
+<op n="59" tb="1697789592816" tc="1697789592644" pu="0" />
+<op n="60" tb="1697789592816" tc="1697789592644" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.systemui">
+<uid n="10020" p="true">
+<op n="24" tp="1697162131753" rp="1697162132049" />
+<op n="36" tp="1697766798203" pu="0" />
+<op n="40" tp="1697766808343" d="146" />
+<op n="63" tp="1697767890669" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.logan">
+<uid n="10021" p="true">
+<op n="32" tt="1696883818803" tfs="1696883782567" pu="0" />
+<op n="43" rb="1697810133441" />
+<op n="59" tb="1697810133317" tc="1697810133123" pu="0" />
+<op n="60" tb="1697810133317" tc="1697810133123" pu="0" />
+<op n="63" tc="1696280773682" pu="0" />
+<op n="73" tc="1697548948385" pu="0" />
+<op n="76" tt="1696883825166" tfs="1696883840583" tc="1696883782099" d="58546" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.settings.sdk.internal.library">
+<uid n="10022" p="true">
+<op n="59" tb="1697789512053" tc="1697789511948" pu="0" />
+<op n="60" tb="1697789512053" tc="1697789511948" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.csapp">
+<uid n="10023" p="true">
+<op n="59" tc="1696883726380" pu="0" />
+<op n="60" tc="1696883726380" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.kindle.otter.oobe">
+<uid n="10024" p="true">
+<op n="0" tp="1696886335324" tt="1696280421316" pu="0" />
+<op n="10" tp="1696886335324" tt="1696280421316" pu="0" />
+<op n="23" rp="1696883759082" rt="1696883713962" />
+<op n="32" tp="1696281456420" pu="0" />
+<op n="59" tp="1696886321414" tt="1696883713378" tb="1697548951556" tc="1697548949146" pu="0" />
+<op n="60" tp="1696886321414" tt="1696883713378" tb="1697548951556" tc="1697548949146" pu="0" />
+<op n="63" tp="1696883989729" tt="1696281495007" tb="1697548951298" tc="1697548949144" pu="0" />
+<op n="71" tp="1696883925659" tt="1613617982068" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.edgecvs">
+<uid n="10025" p="true">
+<op n="26" tfs="1697162131493" d="663295775" />
+<op n="59" tfs="1697162131062" tf="1696280765646" tc="1697162128718" pu="0" />
+<op n="60" tfs="1697162131062" tf="1696280765646" tc="1697162128718" pu="0" />
+<op n="76" tfs="1697162130816" tf="1696280765827" d="663296452" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.echoaudioservice">
+<uid n="10027" p="true">
+<op n="59" tc="1697162145776" pu="0" />
+<op n="60" tc="1697162145776" pu="0" />
+<op n="76" tfs="1697162146412" tb="1697162146412" d="663280860" />
+</uid>
+</pkg>
+<pkg n="com.amazon.tcomm">
+<uid n="10028" p="true">
+<op n="40" tp="1697824990141" d="2069" />
+<op n="59" tc="1697162127211" pu="0" />
+<op n="60" tc="1697162127211" pu="0" />
+<op n="63" tp="1696314917554" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.avod">
+<uid n="10029" p="true">
+<op n="63" tb="1696281491509" tc="1696280760736" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.securitysyncclient">
+<uid n="10030" p="true">
+<op n="59" tb="1697789498593" tc="1697789498461" pu="0" />
+<op n="60" tb="1697789498593" tc="1697789498461" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.rdmapplication">
+<uid n="10031" p="true">
+<op n="59" tfs="1696280801811" tb="1697788103048" tc="1697788102901" pu="0" />
+<op n="60" tfs="1696280801811" tb="1697788103048" tc="1697788102901" pu="0" />
+<op n="76" tfs="1697788103908" tb="1697788103907" d="4" />
+</uid>
+</pkg>
+<pkg n="com.android.defcontainer">
+<uid n="10033" p="true">
+<op n="59" tc="1697548944849" pu="0" />
+<op n="60" tc="1697548944849" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.providers.contentsupport">
+<uid n="10034" p="true">
+<op n="59" tb="1697789538900" tc="1697789538787" pu="0" />
+<op n="60" tb="1697789538900" tc="1697789538787" pu="0" />
+<op n="63" tb="1697591349583" tc="1697591349348" pu="0" />
+</uid>
+</pkg>
+<pkg n="android.ext.services">
+<uid n="10035" p="true">
+<op n="59" tc="1697162121906" pu="0" />
+<op n="60" tc="1697162121906" pu="0" />
+</uid>
+</pkg>
+<pkg n="amazon.speech.sim">
+<uid n="10037" p="true">
+<op n="0" tp="1697333953180" pu="0" />
+<op n="10" tp="1697333953180" pu="0" />
+<op n="24" tp="1697162132974" d="663294294" />
+<op n="27" tp="1697738506282" pu="0" />
+<op n="32" tp="1697770160504" pu="0" />
+<op n="40" tp="1697770158766" d="952" />
+<op n="45" tp="1696594646542" d="11801" />
+<op n="59" tp="1697162128792" tc="1697162127212" pu="0" />
+<op n="60" tp="1697162128792" tc="1697162127212" pu="0" />
+<op n="61" tp="1697483696222" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.smarthome.adapters.echo">
+<uid n="10038" p="true">
+<op n="59" tc="1697162127215" pu="0" />
+<op n="60" tc="1697162127215" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.d3">
+<uid n="10039" p="true">
+<op n="59" tb="1697162131073" tc="1697162129833" pu="0" />
+<op n="60" tb="1697162131073" tc="1697162129833" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.cardinal">
+<uid n="10041" p="true">
+<op n="40" tfs="1697333959013" tb="1697333954216" d="5005" />
+<op n="59" tb="1697789617236" tc="1697789617103" pu="0" />
+<op n="60" tb="1697789617236" tc="1697789617103" pu="0" />
+<op n="76" tfs="1697333959245" tb="1697333954216" d="5032" />
+</uid>
+</pkg>
+<pkg n="com.android.calllogbackup">
+<uid n="10042" p="true">
+<op n="59" tc="1697608113919" pu="0" />
+<op n="60" tc="1697608113919" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.providers.userdictionary">
+<uid n="10042" p="true">
+<op n="59" tb="1697608114152" pu="0" />
+<op n="60" tb="1697608114152" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.alarms">
+<uid n="10043" p="true">
+<op n="23" rp="1697457480257" />
+<op n="32" tp="1697757626202" pu="0" />
+<op n="40" tp="1697757614407" tt="1696694465669" tfs="1696346044793" tf="1697805014493" tb="1696777565409" tc="1696777565409" d="156" />
+<op n="59" tp="1697162131128" tfs="1696784693524" tc="1697162125637" pu="0" />
+<op n="60" tp="1697162131128" tfs="1696784693524" tc="1697162125637" pu="0" />
+<op n="61" tp="1696465609007" tfs="1697585371068" pu="0" />
+<op n="76" tp="1697757659043" tt="1696898045446" tfs="1697757668927" tf="1697822136308" tb="1697822136308" tc="1697162126373" d="525477268" />
+</uid>
+</pkg>
+<pkg n="com.amazon.bishop">
+<uid n="10045" p="true">
+<op n="32" tp="1697656481452" pu="0" />
+<op n="40" tp="1696782759750" tf="1696550559528" d="3" />
+<op n="59" tp="1696305842840" tfs="1696318234231" tc="1697162127236" pu="0" />
+<op n="60" tp="1696305842840" tfs="1696318234231" tc="1697162127236" pu="0" />
+<op n="76" tp="1697402966705" tt="1697292076381" tfs="1697292075849" tf="1697402966705" tb="1697156947306" tc="1696318234431" d="663282992" />
+</uid>
+</pkg>
+<pkg n="com.android.wallpapercropper">
+<uid n="10046" p="true">
+<op n="59" tb="1697789398751" tc="1697789398644" pu="0" />
+<op n="60" tb="1697789398751" tc="1697789398644" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.alexa.externalmediaplayer.fireos">
+<uid n="10047" p="true">
+<op n="59" tb="1697789568208" tc="1697789568029" pu="0" />
+<op n="60" tb="1697789568208" tc="1697789568029" pu="0" />
+<op n="76" tfs="1697549012191" tb="1697789568214" tc="1697789568214" d="663251695" />
+</uid>
+</pkg>
+<pkg n="com.amazon.assetsync.service">
+<uid n="10048" p="true">
+<op n="59" tb="1697789560028" tc="1697789559875" pu="0" />
+<op n="60" tb="1697789560028" tc="1697789559875" pu="0" />
+<op n="63" tb="1697767890666" tc="1697767890477" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.bluejay">
+<uid n="10049" p="true">
+<op n="59" tb="1697789584600" tc="1697789584342" pu="0" />
+<op n="60" tb="1697789584600" tc="1697789584342" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.fireos.arcus.proxy">
+<uid n="10050" p="true">
+<op n="59" tb="1697789495890" tc="1697789495745" pu="0" />
+<op n="60" tb="1697789495890" tc="1697789495745" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.sync">
+<uid n="10051" p="true">
+<op n="59" tb="1697789431552" tc="1697789431298" pu="0" />
+<op n="60" tb="1697789431552" tc="1697789431298" pu="0" />
+<op n="63" tb="1696883666621" tc="1696883666058" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.webview">
+<uid n="10053" p="true">
+<op n="59" tb="1697789461135" tc="1697789461025" pu="0" />
+<op n="60" tb="1697789461135" tc="1697789461025" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.providers.calendar">
+<uid n="10054" p="true">
+<op n="8" tf="1697766930987" tb="1697810106704" tc="1697774400865" />
+<op n="9" tb="1697162164023" tc="1697162193070" />
+<op n="40" tb="1697162164028" tc="1696898064950" d="7" />
+<op n="59" tc="1697810106516" pu="0" />
+<op n="60" tc="1697810106516" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.software.ota">
+<uid n="10055" p="true">
+<op n="63" tp="1697548948318" tfs="1696280781210" tf="1697162131036" tc="1696887668513" pu="0" />
+<op n="76" tfs="1696280872193" tb="1696280872080" d="115" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.software.ota.override">
+<uid n="10055" p="true">
+<op n="63" tp="1697162172542" tfs="1696279867588" tf="1696899459233" tc="1696904323954" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.proxyhandler">
+<uid n="10056" p="true">
+<op n="59" tb="1697789514721" tc="1697789514615" pu="0" />
+<op n="60" tb="1697789514721" tc="1697789514615" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.alexa.beaconbroadcaster">
+<uid n="10057" p="true">
+<op n="59" tc="1697162127206" pu="0" />
+<op n="60" tc="1697162127206" pu="0" />
+<op n="63" tp="1696314812951" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.documentsui">
+<uid n="10058" p="true">
+<op n="59" tc="1697608113698" pu="0" />
+<op n="60" tc="1697608113698" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.identity.auth.device.authorization">
+<uid n="10059" p="true">
+<op n="59" tc="1697762348152" pu="0" />
+<op n="60" tc="1697762348152" pu="0" />
+<op n="63" tb="1696281541342" tc="1696281541139" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.comms.knightmessaging">
+<uid n="10060" p="true">
+<op n="59" tb="1697789474659" tc="1697789474529" pu="0" />
+<op n="60" tb="1697789474659" tc="1697789474529" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.ivona.orchestrator">
+<uid n="10061" p="true">
+<op n="59" tb="1697789423400" tc="1697789423273" pu="0" />
+<op n="60" tb="1697789423400" tc="1697789423273" pu="0" />
+<op n="63" tb="1696281494239" tc="1696281493903" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.symphonydeviceclient">
+<uid n="10062" p="true">
+<op n="59" tb="1697789444925" tc="1697789444804" pu="0" />
+<op n="60" tb="1697789444925" tc="1697789444804" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.android.onetimeinitializer">
+<uid n="10063" p="true">
+<op n="59" tb="1697789504011" tc="1697789503866" pu="0" />
+<op n="60" tb="1697789504011" tc="1697789503866" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.alta.h2clientservice">
+<uid n="10064" p="true">
+<op n="59" tc="1697162141560" pu="0" />
+<op n="60" tc="1697162141560" pu="0" />
+<op n="63" tb="1696883980230" tc="1697162141559" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.client.metrics">
+<uid n="10065" p="true">
+<op n="40" tfs="1697824925986" d="167" />
+<op n="59" tc="1697162122018" pu="0" />
+<op n="60" tc="1697162122018" pu="0" />
+</uid>
+</pkg>
+<pkg n="amazon.jackson19">
+<uid n="10066" p="true">
+<op n="59" tb="1697789517392" tc="1697789517292" pu="0" />
+<op n="60" tb="1697789517392" tc="1697789517292" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.device.smarthome.dshs.multimodalux">
+<uid n="10067" p="true">
+<op n="59" tt="1696899439419" tc="1697162130585" pu="0" />
+<op n="60" tt="1696899439419" tc="1697162130585" pu="0" />
+<op n="63" tt="1697156950242" tfs="1696280780475" tc="1697162149602" pu="0" />
+<op n="76" tt="1697156950340" tfs="1697162150026" tb="1697162150026" d="663277248" />
+</uid>
+</pkg>
+<pkg n="com.amazon.gloria.smarthome">
+<uid n="10068" p="true">
+<op n="59" tb="1697164842922" tc="1697548951197" pu="0" />
+<op n="60" tb="1697164842922" tc="1697548951197" pu="0" />
+<op n="63" tfs="1696281522058" tb="1697164842917" tc="1697548951196" pu="0" />
+<op n="76" tfs="1696281522089" tb="1696281492079" d="30013" />
+</uid>
+</pkg>
+<pkg n="com.amazon.client.metrics.api">
+<uid n="10069" p="true">
+<op n="59" tb="1697789469228" tc="1697789469115" pu="0" />
+<op n="60" tb="1697789469228" tc="1697789469115" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.communication.discovery">
+<uid n="10071" p="true">
+<op n="59" tb="1697789565472" tc="1697789565344" pu="0" />
+<op n="60" tb="1697789565472" tc="1697789565344" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.mlv">
+<uid n="10072" p="true">
+<op n="24" tfs="1696892595388" rfs="1696892575586" tf="1696892595467" tb="1696892595435" tc="1696892656227" d="135797" />
+<op n="32" tfs="1696892590742" pu="0" />
+<op n="59" tfs="1696316415163" tb="1697789471962" tc="1697816623081" pu="0" />
+<op n="60" tfs="1696316415163" tb="1697789471962" tc="1697816623081" pu="0" />
+<op n="61" tfs="1696892520503" pu="0" />
+<op n="76" tfs="1697162158638" tb="1697162155430" tc="1696892575487" d="3211" />
+</uid>
+</pkg>
+<pkg n="com.amazon.whisperplay.contracts">
+<uid n="10073" p="true">
+<op n="59" tb="1697789376670" tc="1697789376536" pu="0" />
+<op n="60" tb="1697789376670" tc="1697789376536" pu="0" />
+</uid>
+</pkg>
+<pkg n="com.amazon.banyan.core">
+<uid n="10074" p="true">
+<op n="59" tc="1697162127219" pu="0" />
+<op n="60" t

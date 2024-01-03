@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="230" value="53" />
+    <int name="110" value="99" />
+    <int name="231" value="41" />
+    <int name="111" value="16" />
+    <int name="112" value="192" />
+    <int name="113" value="267" />
+    <int name="114" value="180" />
+    <int name="115" value="186" />
+    <int name="116" value="137" />
+    <int name="117" value="156" />
+    <int name="118" value="76" />
+    <int name="119" value="307" />
+    <int name="10" value="10" />
+    <int name="11" value="38" />
+    <int name="12" value="75" />
+    <int name="13" value="7" />
+    <int name="14" value="429" />
+    <int name="15" value="242" />
+    <int name="16" value="386" />
+    <int name="17" value="313" />
+    <int name="18" value="104" />
+    <int name="19" value="160" />
+    <int name="120" value="265" />
+    <int name="121" value="399" />
+    <int name="1" value="2" />
+    <int name="122" value="280" />
+    <int name="2" value="171" />
+    <int name="123" value="324" />
+    <int name="3" value="226" />
+    <int name="124" value="217" />
+    <int name="4" value="114" />
+    <int name="125" value="10" />
+    <int name="5" value="262" />
+    <int name="126" value="195" />
+    <int name="6" value="45" />
+    <int name="127" value="180" />
+    <int name="7" value="149" />
+    <int name="128" value="63" />
+    <int name="8" value="100" />
+    <int name="129" value="13" />
+    <int name="9" value="8" />
+    <int name="20" value="315" />
+    <int name="21" value="217" />
+    <int name="22" value="188" />
+    <int name="23" value="152" />
+    <int name="24" value="260" />
+    <int name="25" value="186" />
+    <int name="26" value="137" />
+    <int name="27" value="247" />
+    <int name="28" value="143" />
+    <int name="29" value="330" />
+    <int name="130" value="7" />
+    <int name="131" value="32" />
+    <int name="132" value="223" />
+    <int name="133" value="41" />
+    <int name="134" value="5" />
+    <int name="135" value="48" />
+    <int name="136" value="188" />
+    <int name="137" value="45" />
+    <int name="138" value="148" />
+    <int name="139" value="150" />
+    <int name="30" value="104" />
+    <int name="31" value="20" />
+    <int name="32" value="295" />
+    <int name="33" value="321" />
+    <int name="34" value="282" />
+    <int name="35" value="216" />
+    <int name="36" value="155" />
+    <int name="37" value="312" />
+    <int name="38" value="153" />
+    <int name="39" value="327" />
+    <long name="RecordedEventsPrefsKey" value="2" />
+    <int name="140" value="209" />
+    <int name="141" value="102" />
+    <int name="142" value="281" />
+    <int name="143" value="218" />
+    <int name="144" value="4" />
+    <int name="145" value="5" />
+    <int name="146" value="8" />
+    <int name="147" value="225" />
+    <int name="148" value="247" />
+    <int name="149" value="100" />
+    <int name="40" value="245" />
+    <int name="41" value="271" />
+    <int name="42" value="322" />
+    <int name="43" value="390" />
+    <int name="44" value="256" />
+    <int name="45" value="137" />
+    <int name="46" value="90" />
+    <int name="47" value="166" />
+    <int name="48" value="205" />
+    <int name="49" value="296" />
+    <int name="150" value="238" />
+    <int name="151" value="176" />
+    <int name="152" value="360" />
+    <int name="153" value="74" />
+    <int name="154" value="308" />
+    <int name="155" value="380" />
+    <int name="156" value="95" />
+    <int name="157" value="14" />
+    <int name="158" value="220" />
+    <int name="159" value="147" />
+    <int name="50" value="259" />
+    <int name="51" value="158" />
+    <int name="52" value="82" />
+    <int name="53" value="95" />
+    <int name="54" value="110" />
+    <int name="55" value="368" />
+    <int name="56" value="278" />
+    <int name="57" value="242" />
+    <int name="58" value="328" />
+    <int name="59" value="96" />
+    <int name="160" value="55" />
+    <int name="161" value="63" />
+    <int name="162" value="157" />
+    <int name="163" value="144" />
+    <int name="164" value="200" />
+    <int name="165" value="202" />
+    <int name="166" value="373" />
+    <int name="167" value="116" />
+    <int name="168" value="116" />
+    <int name="169" value="174" />
+    <int name="60" value="420" />
+    <int name="61" value="308" />
+    <int name="62" value="236" />
+    <int name="63" value="383" />
+    <int name="64" value="346" />
+    <int name="65" value="182" />
+    <int name="66" value="338" />
+    <int name="67" value="26" />
+    <int name="68" value="215" />
+    <int name="69" value="162" />
+    <int name="170" value="36" />
+    <int name="171" value="253" />
+    <int name="172" value="12" />
+    <int name="173" value="239" />
+    <int name="174" value="116" />
+    <int name="175" value="198" />
+    <int name="176" value="162" />
+    <boolean name="IS_UPGRADED" value="true" />
+    <int name="177" value="89" />
+    <int name="178" value="161" />
+    <int name="179" value="139" />
+    <int name="70" value="235" />
+    <int name="71" value="146" />
+    <int name="72" value="135" />
+    <int name="73" value="142" />
+    <int name="74" value="197" />
+    <int name="75" value="187" />
+    <int name="76" value="283" />
+    <int name="77" value="377" />
+    <int name="78" value="21" />
+    <int name="79" value="7" />
+    <int name="180" value="347" />
+    <int name="181" value="187" />
+    <int name="182" value="133" />
+    <int name="183" value="55" />
+    <int name="184" value="46" />
+    <int name="185" value="132" />
+    <int name="186" value="144" />
+    <int name="187" value="49" />
+    <int name="188" value="182" />
+    <int name="189" value="49" />
+    <int name="80" value="171" />
+    <int name="81" value="196" />
+    <int name="82" value="61" />
+    <int name="83" value="77" />
+    <int name="84" value="56" />
+    <int name="85" value="10" />
+    <int name="86" value="57" />
+    <int name="87" value="159" />
+    <int name="88" value="7" />
+    <int name="89" value="33" />
+    <int name="190" value="159" />
+    <int name="191" value="304" />
+    <int name="192" value="186" />
+    <int name="193" value="272" />
+    <int name="194" value="51" />
+    <int name="195" value="192" />
+    <int name="196" value="5" />
+    <int name="197" value="48" />
+    <int name="198" value="48" />
+    <int name="199" value="293" />
+    <int name="90" value="190" />
+    <int name="91" value="72" />
+    <int name="92" value="129" />
+    <int name="93" value="323" />
+    <int name="94" value="16" />
+    <int name="95" value="118" />
+    <int name="96" value="92" />
+    <int name="97" value="89" />
+    <int name="98" value="68" />
+    <int name="99" value="98" />
+    <int name="200" value="120" />
+    <int name="201" value="2" />
+    <int name="202" value="3" />
+    <int name="203" value="118" />
+    <int name="204" value="13" />
+    <int name="205" value="48" />
+    <int name="206" value="241" />
+    <int name="207" value="221" />
+    <int name="208" value="199" />
+    <int name="209" value="198" />
+    <int name="210" value="2" />
+    <int name="211" value="294" />
+    <int name="212" value="125" />
+    <int name="213" value="260" />
+    <int name="214" value="132" />
+    <int name="215" value="108" />
+    <int name="216" value="7" />
+    <int name="217" value="279" />
+    <int name="218" value="126" />
+    <int name="219" value="103" />
+    <int name="220" value="113" />
+    <int name="100" value="163" />
+    <int name="221" value="246" />
+    <int name="101" value="100" />
+    <int name="222" value="136" />
+    <int name="102" value="138" />
+    <int name="223" value="33" />
+    <int name="103" value="172" />
+    <int name="224" value="87" />
+    <int name="104" value="18" />
+    <int name="225" value="85" />
+    <int name="105" value="147" />
+    <int name="226" value="201" />
+    <int name="106" value="7" />
+    <int name="227" value="318" />
+    <int name="107" value="2" />
+    <int name="228" value="125" />
+    <int name="108" value="21" />
+    <int name="229" value="37" />
+    <int name="109" value="113" />
+</map>
+                                                                                                                                        =¿„0¶08Í©¿ûkTUØc“6M³y<3Ÿ±Ö%ø£Ú»[¤5!Ú)á³#•˜»QÛV×Ô“™;X]§Îñ×­äÉ\–VbÌQòåÉ®Ä¨:lEvú4{¡cÏÀN±í5Þšƒ¤JQ*TsÔÅÌ»^ñ)ÔÍ3$Ë»t(]¿÷ˆäH‚XÏ Õk™g2×#Û‡ÁEô¡Ø–MSX”âžƒº~ä)ìðÕÛ2õŠû ¿l†qœùèÁIåÀÝÛOþÕ9<=9ÿ´§þ>!AGmÉj"¡@SFŸTòI¤÷ŽÝÃ†ÞíÔÊ¾_é£ayŠ2™CÜ{v3ˆAf¾¨Žõ\SxÖjêlVg‰Ó³ƒRã«Øz¢–Fz]Ý³aŽå‘•«`Ö«”©,,ªÚj*_pè™ù©R45Áç§f¼¼Cþ‚žÛL$*GÔ!S”ª´ZJÍ«ê®i0¨»†MŸ«»ïÚõºkŒë.Vu×˜ª»ºÆ¸Ž+/3ÕNI½ò6ò×Ø!éu»º­®™§åáE¹þ„Z}GêSì¶gê¸nòð©^ xüé‰<T "â·å*{a¢5×ÄUîö¾|·_iÓÙÖ;D¯_¢|Åbþº &Æ¦ÝäÈÊ¶/{Ï]5yë³íEºV9ÛV2›ß*ù¿<ÛþPKµla  	P  PK   '\WW               Log.main_13í\kSâÌ¶þ¾E¾œ=%L_r¥jjoA@x5\Í[»¦:I#‘\˜$€¸ëü÷³: "ÁË823µkœÒÁ¤YÏêÕëòô
+-FB%ŒK”–0."]‘Ö_Ø T’4EÖ¥†Td»‹Ââ”ùÌõJÒ€y©^K£(–˜dû‘3¿Ö+Rõvê{Ž—þoI6ÐSÉD¥H¾È$†Å>ó=—¥¼°k~-B?b.K®¦"™9%©ÍBWr˜3æ®ä‰QŒg™
+ÿ›}}/ä¨.K&%:r4æê æ…^"€¦qäð$“‹FÏâà§8ÙÏ7átRg†ìÆ,L`*ÁK0äu˜9`:l[1J’ÉïN ¬Ì†‰Ž¤[IGHJ#iä¥’n\ÜÆÅDÛÆ•Õ>Ñf©7çÇ>8ƒäD¡3‹c¦ðrº\ûÆ(æ`RYÑõUSþ*JÙèÎ”9\Šìî¤É‘DèmÁ½³óÎãE¬ýOöv¸­·ÊŸ©Ü*IS6K@ Ö”YSI™/a5Y’ü,ô7{v-ŠëN7ªDÁÔç)_ù7 Ýû¶…Ò)gÓnì™ÿÉ¤¨Pº”>,Á¼‘jh¥¿2V!˜ù©—‚K] rÒ(.Int±rºŠÃµß#i<`iàÕÌ/Øê2ü—H,•$;ŠÒ®ð$eÁô‹,ªPE«±€·gÍc¸ˆ5=¿ÀTÞÖ“M-`1á‰~XÖ¥•há¶b˜´š‡… T’DŽ1í
+?Ëô—2)Y4ÍÒé,M¤’´C%§’éÓùZé›³0j\ð8u8ó’T÷æÂ‰»ké ôHºˆyÂC‡g¿Ôg,vwb©/`ux<÷„¹€Å÷™ís)H®Åœßÿ™Î|m‰Mé 9™Ù‰{Â²+¤$ýo®d¿ü"f¡Ü†¥ýòÉ‰‚{/NÇÜcÅ$øt´~[ÃýòIC
+BTæsZ9Ò†Mô‚ã"Ùº‚5[ûôÿ>z óù-+z.ŒñÒåB\G7tT0¨adÃp:uäSTÅQ‰Žeîd0y{iÏØkíÎ¼8š%àS¥ÌÝ}~*|é~±^:®ë@580dz(Òß°ìÿ¤oƒýÁé±®b¨4Ž³y¶<ð±9[£$<=§:ùlÁ ×Œã(M}î×·êq4›6ÀÁ¾ù#ŠüØ=’(T×¢ Œ>“ÏˆRŠä|~ý‰šÜwñ‚&oU˜gräC|)Íccå@7Ðsy^;À†¡þ•ËôúC¦WD¦Ç™žâL¯ËE¢ù¤K1}S½z)ÓoÖ²íduZT-,+[(‰¢Ó¬êÏ ï1Áê£ñˆ\DtG™”Uãi,Aîs—±!1@®Œ¹3BTƒIPtRÈif¯Ýn´ë9©ÚCñ•dœE¸!ë¸sñù8™®E–Y"b>â4óð’´³ô†Z_Iþ&Û²Cß¶úZt|qvÒk1»„LWFTÑ	p¯q´öwO¼dê³e+r¹/- ¡HéïQe®8JÁÕ+È¶êã¬ ¨À$UQâ¹Ä¢«dOs%E¤èOW2%}&SnÐ
+4"£ô $	~ QÄ—œ±$=¶³‚)FuÖ£¨¡*˜¬G­ïC¥MENò%¢a¤£µˆ0J%?ƒò0š]?HwU9”¼ä$càÄ#æ'P~Ý¤„¤iZjŸ·«9 =ôÑôá5¬÷Ð!¿Yæú ö2èâ‡&¹µø™^¥²’#ðFÎ1¡9ùu^èó{p«ŸªÉ‹ÜŠlî¢÷¼©yë}YicÿügSó†¬ô¼½ö¶©!EŠÁ‡§B©{“­Èù2ºÃ¹ŽCg¼vÑ‘ØXç5—¾HÁR'ˆ¨ª&2&ÑîVIuc lGŠ*Ñdˆ›¢Ê²BŠ JW¼/X]ª‰¤[ÌŠw¢Ôø¸q¯éžÃ1öÇ&Õ–l3`šš*d¯ÓâÃ$²ndÌH$¼˜_Ÿ%Œ± ÷¹1Kˆ}‹ø–odF%ž'‰ñh3ÏÂm—`6R€Íæ"Œ¢‚F)Œô‘mhXÇŠÌŽ¤Yê<’W¬BDªH3ˆ*VvFÌ?`AõYÊ“RÈ äC=‰ºˆ€³VÃ9÷£)O²ÔZÂ¹¼ùVƒL¡0ŠÞ0/!œm…_’§ˆmÁºòãÕg‡¥-#ç51Þ4³%J	2X+&«qÅhÿ8ò_Žæÿ}vÝºJ- $bŸÅëÅ÷É{ØŸîMÿ2Kq%æòsÝ‘9Q½]T¿À«‹Ø‹b¨G%)¯Ù÷ˆ{ªD0p¨0ÙØu$ÈrAÞ×Ž5}9ÍPêi¨úÏÒäEêI‹è±V}°½…ì§O80RÖ¤MZkr‡çqï»E5˜WeÝö·Îb`º@§kvdÇ]]É6_ÙºñpÐŽD—©7u³MÉ(æßfpc™õåü(2A‡yå*:0»t)Áfæ¹_0BD9ØÈÜ½æÎ<9”Ê^(DŠ÷~-K+–èˆÔ—çÑÔßÞ Ï6-ÞÕEÒÒ~°‹D 7t‘Þ­û÷v‘è+]˜Ü¯½†õžýš™{ôø§‹ôì~ìµ·5ŽÿK»Hlw¶»H¹çüBËß©‹Dâcà×°Þ_>o¯½uLh‘ÈyP}½H«ÍûŠ;'f¶ÿ óCæ/Q‘Ÿt%®³vAQƒ‚½©ªAÚêGdCd£ˆÀHTÓ°¡UQßÚ‹Pðþ¦°Ý¦Ø5™úÞwQØæàýÉÖ7w=Ï~î…žßŒˆó=×ä­N!Ñ‰ö'*AN]a¾oƒ¯o.—æ›JbÅ¶1tôÓ6#/n‹„&ÆÏÒä•m‘ñø¹IÖµõÏ€ð8`þWð(`âÙ†\|( •
+[¡'‘òq{“¬ÿ “¦H§oaÒïÖý{™ôK@]Ç_ÃzO2ÿ0é·×q¹˜Ùè×±]}Ç3S}»×+´Ì¯ê¯c»òÎg¸ûa»¯a½/J6ž´þa»oŠ’çv{c» º·Î«\¤òîçƒÛm6°™ëE¢ÏãCÀanw,~¢æÉškÉ6ˆ¢îë!¤\T•Ç¦ú¯d&r|wo³ÔUyO²•ß¿÷©äŠù>›ÁþöQó»Ç °ÍRXéÊ[(ì»uÿ^
+ûÐGç×°ÞSœ…Ìü‚þPØçŠ³RÄøa“úáIò7ƒªäé1Éyáïu&Hy¥™ú±øñg‚”Î¸ü‰ÀHúÇç TË-<zšYÜ¯³£.¯¨’gÑüîzœ•àÎäHÊº¶àÊR`ž–Ki]/)]»#)œ˜KÈ}ôHòaJÒœÅ%²$©¶¾:u\¸ âÓOàØ½¯h¥UM‰üv­”>–Ñpe}†c<KÓÌ¹¢ä¾.I'æ‚ÔóSH/×àŠÛ}0¥HÛ.XÕÄI[eõ¥Ó*€•˜#¬gf‰2;9Aµ¿]7¹C O²ƒ-…b§˜m1öR.>¾ÅÝ®JäG3·àDáÈ»Jä>ú'¤YŽ|íVjp.L}ÍÏíÕ>äQ©G}:Ì.Kâõz ðæù«#Â«	®-]X‘™,ó­®ÔŽgÕ“CX!æÒ4ò= eë›ÇŽ¸éd
+Ázûž»u/?5ò;Ú{—R?foq6g=°xæ^ž€kfÂ&:‡¤ÿÒ…PwÉ†=ãÅYv±$õ;Wƒ®eZVY| R”ú@*Zé´ä…#²	Œë…÷i~ä‰°+}:…ÜFø)‡­åŽ›ÁÏêãÁ§ì)ACe¼ÿHÄ½3ÒHIºæi%‚»)áŒe/9¼‡àÄ)ØÅæÀtõ)J´qÊjûUyæùÙF	qÃÑQIêŽÁÜâÇÍ]~+)*äP¾‚3X5æû«#ýbânäÌ„.‚2@åsD¦ÍüÒ«>}1³}qÎ?.é*3–¹8nWÏVj”ÏÎ+UO²í“($âLhŸø ð4J<Áh`ß«’8l¸~·Ð.Îô*¹¶âjšQÊŽ£e6e$oÃ\GR2ñ¦S(oyHí‡!·á4á¢-³Ì£éßV¸¡d«ÄQ¹*XsÁ’Û«åHp¡Èí0è^ñôŸ‹·Ëav`¬>{‚Ñ6\Â±RóìÈ«'¼™ÛðÀƒ*îæ@¶þÉz\é´S9û*¼»I‰ß··:ç/¥o3È _Wä9yêá¯ÁP¬iê>`pf/³Á9£)û€Ùª"”Èò’«ìJ²+¹ª’\ºsú÷zN“]ó+©”MìgêPVFqH.ÍBäþtm)K©÷Às¿°¬RÄ§êÓÒçÏsô9ÆÀ>gW’Ï¶­éŠcëÌ¥6²•‘îr °šÆ5ªÚ#2*ÞÀ®/_›·´—(Í|ä×[UÉé…Þ '„a•îÔKû½Ôm/¤o)ñûÖ‹¢Ý^ÇŒ¢tÍÁ™Ö²jÍÓNÛl·›‡‚IAu‡z™£3íâmÏ§\FF8û¾”KñÓ¼¾§ì±ÿ‚(Õ *Âº¢!—j#Ù\ÃªJ1×UÍf»£”œóº·DÃ¾£”nýÕ£=ÕË]0Ú/X<privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"3f1d2185-8692-4f37-be63-d74fa8576471","eventType":"IMPRESSION_END","slotPosition":55,"duration":12859,"dismissalReason":"AUTO","ucid":"4s2_anLiShawkvBBLpOhqQ","attentionSlot":47}},{"data":{"schemaId":"alexa_anchor.DeviceImpression.3","timestamp":"2023-10-23T07:33:41.569-0400","producerId":"alexa-anchor","messageId":"d3fc7822-8bac-4adc-a0ec-e9870a573a45","sessionId":"711285db-0d57-461b-8269-62bf861d43fb","compositionId":"b364f266-1f22-430f-bf85-7b048974a207","cardName":"AlexaNewsContentProviderSkill","itemMeta":"{\"IsHestia\":true,\"isPersonalized\":false,\"cardType\":\"\"}","placementId":"d2227ba9-e5ce-4bc9-90d6-f086e45a287a","personId":"UNDEF","deviceState":"{\"cohort\":\"UNKNOWN\",\"deviceOpMode\":\"DEFAULT\",\"privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"c67a6560-645b-42be-be93-866cd0fce30a","eventType":"IMPRESSION_END","slotPosition":57,"duration":114,"dismissalReason":"AUTO","ucid":"19f2a98615247c2ce556553f6f20a8ce","attentionSlot":48}},{"data":{"schemaId":"alexa_anchor.DeviceSession.2","timestamp":"2023-10-23T07:33:41.583-0400","producerId":"alexa-anchor","messageId":"bc7708da-1479-42b7-9b53-21befe138713","dsn":"G6G1GG10141403SD","deviceType":"A15996VY63BQ2D","marketplaceId":"ATVPDKIKX0DER","locale":"en_US","timezone":"America\/New_York","osName":"P","osVersion":"0028421545348","appName":"com.amazon.paladin","appVersion":"2000622510","directedCustomerId":"amzn1.account.AFTJBUB4CIBBMH2S2AQDEY5QCN2A","sessionId":"711285db-0d57-461b-8269-62bf861d43fb","eventType":"SESSION_END","duration":606323}},{"data":{"schemaId":"alexa_anchor.DeviceSession.2","timestamp":"2023-10-23T07:35:03.383-0400","producerId":"alexa-anchor","messageId":"b8ab571e-3b72-451b-a23c-4b58e43d1c92","dsn":"G6G1GG10141403SD","deviceType":"A15996VY63BQ2D","marketplaceId":"ATVPDKIKX0DER","locale":"en_US","timezone":"America\/New_York","osName":"P","osVersion":"0028421545348","appName":"com.amazon.paladin","appVersion":"2000622510","directedCustomerId":"amzn1.account.AFTJBUB4CIBBMH2S2AQDEY5QCN2A","sessionId":"c3542e4a-6744-4e4a-8087-6a4bfe5b4cd3","eventType":"SESSION_START","duration":-1}},{"data":{"schemaId":"alexa_anchor.DeviceImpression.3","timestamp":"2023-10-23T07:35:16.412-0400","producerId":"alexa-anchor","messageId":"c76921bf-8f39-4367-92b6-a67b1fac09ec","sessionId":"c3542e4a-6744-4e4a-8087-6a4bfe5b4cd3","compositionId":"b364f266-1f22-430f-bf85-7b048974a207","cardName":"AlexaNewsContentProviderSkill","itemMeta":"{\"IsHestia\":true,\"isPersonalized\":false,\"cardType\":\"\"}","placementId":"d2227ba9-e5ce-4bc9-90d6-f086e45a287a","personId":"UNDEF","deviceState":"{\"cohort\":\"UNKNOWN\",\"deviceOpMode\":\"DEFAULT\",\"privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"c67a6560-645b-42be-be93-866cd0fce30a","eventType":"IMPRESSION_END","slotPosition":57,"duration":13014,"dismissalReason":"AUTO","ucid":"19f2a98615247c2ce556553f6f20a8ce","attentionSlot":1}},{"data":{"schemaId":"alexa_anchor.DeviceImpression.3","timestamp":"2023-10-23T07:35:18.611-0400","producerId":"alexa-anchor","messageId":"7c0269d8-7f77-4195-a79c-57560302ea3e","sessionId":"c3542e4a-6744-4e4a-8087-6a4bfe5b4cd3","compositionId":"b364f266-1f22-430f-bf85-7b048974a207","cardName":"AlexaNewsContentProviderSkill","itemMeta":"{\"IsHestia\":true,\"isPersonalized\":false,\"cardType\":\"\"}","placementId":"c7f3de31-24c5-4c05-a062-4c0782bf41f2","personId":"UNDEF","deviceState":"{\"cohort\":\"UNKNOWN\",\"deviceOpMode\":\"DEFAULT\",\"privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"f9b2265e-a2ca-47a1-9c1e-074015014e8d","eventType":"IMPRESSION_END","slotPosition":58,"duration":2058,"dismissalReason":"AUTO","ucid":"cf0e454bc55c5f538f3973c526941329","attentionSlot":2}},{"data":{"schemaId":"alexa_anchor.DeviceSession.2","timestamp":"2023-10-23T07:35:26.747-0400","producerId":"alexa-anchor","messageId":"c1d3b8de-545e-4692-8b12-4a78a56c6c37","dsn":"G6G1GG10141403SD","deviceType":"A15996VY63BQ2D","marketplaceId":"ATVPD<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="IS_UPGRADED" value="true" />
+    <long name="RecordedEventsPrefsKey" value="53" />
+</map>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

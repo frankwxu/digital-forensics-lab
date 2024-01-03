@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<notification-policy version="1">
+<zen version="8" user="0">
+<allow calls="true" repeatCallers="true" messages="false" reminders="false" events="false" callsFrom="2" messagesFrom="1" alarms="true" media="true" system="false" />
+<disallow visualEffects="511" />
+<automatic ruleId="EVENTS_DEFAULT_RULE" enabled="false" snoozing="false" name="Event" zen="1" component="android/com.android.server.notification.EventConditionProvider" conditionId="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" creationTime="1262304328518" id="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<automatic ruleId="EVERY_NIGHT_DEFAULT_RULE" enabled="false" snoozing="false" name="Sleeping" zen="1" component="android/com.android.server.notification.ScheduleConditionProvider" conditionId="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" creationTime="1262304328518" id="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<state areChannelsBypassingDnd="false" />
+</zen>
+<ranking version="1">
+<package name="amazon.speech.davs.davcservice" show_badge="true" app_user_locked_fields="0" uid="10016">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.device.rdmapplication" show_badge="true" app_user_locked_fields="0" uid="10031">
+<channel id="RDM" name="RDMApplication" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.bishop" show_badge="true" app_user_locked_fields="0" uid="10045">
+<channel id="MediaPlayback" name="Media Playback" desc="Displays currently playing media" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.device.smarthome.ota" show_badge="true" app_user_locked_fields="0" uid="10011">
+<channel id="SmartHomeOta" name="SmartHomeOtaChannel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.edgecvs" show_badge="true" app_user_locked_fields="0" uid="10025">
+<channel id="com.amazon.edgecvs" name="Edge Computer Vision Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.alarms" show_badge="true" app_user_locked_fields="0" uid="10043">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="android" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channel id="DEVICE_ADMIN" name="Device administration" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_ALERTS" name="Network alerts" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DEVELOPER" name="Developer messages" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="NETWORK_STATUS" name="Network status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="PHYSICAL_KEYBOARD" name="Physical keyboard" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="SYSTEM_CHANGES" name="System changes" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="HEAVY_WEIGHT_APP" name="App running" importance="3" usage="10" content_type="4" flags="0" />
+<channel id="ACCOUNT" name="Account status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="FOREGROUND_SERVICE" name="Apps consuming battery" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DO_NOT_DISTURB" name="Do Not Disturb" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="USB" name="USB connection" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="VPN" name="VPN status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="UPDATES" name="Updates" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="RETAIL_MODE" name="Retail demo" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="CAR_MODE" name="Car mode" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="VIRTUAL_KEYBOARD" name="Virtual keyboard" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="SECURITY" name="Security" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_AVAILABLE" name="Network available" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="ALERTS" name="Alerts" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.theia.sm" show_badge="true" app_user_locked_fields="0" uid="10149">
+<channel id="com.amazon.theia.sm" name="Smart Motion Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.theia.sm.remoteagent" show_badge="true" app_user_locked_fields="0" uid="10154">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.comms.multimodaltachyonarm" show_badge="true" app_user_locked_fields="0" uid="10114">
+<channel id="alexa_calling" name="Alexa Communication Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="alexa_call_notification" name="Call Notifications" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.knight.blink" show_badge="true" app_user_locked_fields="0" uid="10018">
+<channel id="1099" name="NotificationChannel" desc="Blink Notification Channel" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.cardinal" show_badge="true" app_user_locked_fields="0" uid="10041">
+<channel id="com.amazon.cardinal" name="Alexa Video Player" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.device.smarthome.dshs.multimodalux" show_badge="true" app_user_locked_fields="0" uid="10067">
+<channel id="SmartHomeMMUx" name="SmartHomeUxChannel" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.device.software.ota" show_badge="true" app_user_locked_fields="0" uid="10055">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.android.traceur" show_badge="true" app_user_locked_fields="0" uid="10136">
+<channel id="system-tracing" name="System Tracing" importance="4" usage="5" content_type="4" flags="0" vibration_enabled="true" show_badge="true" />
+</package>
+<package name="com.amazon.alexa.externalmediaplayer.fireos" show_badge="true" app_user_locked_fields="0" uid="10047">
+<channel id="com.amazon.alexa.externalmediaplayer.fireos" name="Media Control By Alexa" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.mlv" show_badge="true" app_user_locked_fields="0" uid="10072">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.device.echoaudioservice" show_badge="true" app_user_locked_fields="0" uid="10027">
+<channel id="com.amazon.device.echoaudioservice" name="EchoAudioService" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.avod" show_badge="true" app_user_locked_fields="0" uid="10029">
+<channel id="atv_android_download_notification_channel" name="Downloads" desc="Get notified about the progress of your video downloads" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="atv_android_general_notification_channel" name="New Releases &amp; Recommendations" desc="Get notified about new releases, recommended titles, and special offers" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="atv_android_second_screen_notification_channel" name="Cast sessions" desc="Get player controls for your cast sessions" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.android.providers.downloads" show_badge="true" app_user_locked_fields="0" uid="10105">
+<channel id="active" name="In progress" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="complete" name="Done" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+</ranking>
+<enabled_listeners version="1">
+<service_listing approved="com.amazon.knight.blink/com.amazon.knight.blink.BlinkNotificationListenerService:com.android.launcher3/com.android.launcher3.notification.NotificationListener" user="0" primary="true" />
+</enabled_listeners>
+<enabled_assistants version="1">
+<service_listing approved="android.ext.services/android.ext.services.notification.Assistant" user="0" primary="true" />
+</enabled_assistants>
+<dnd_apps version="1">
+<service_listing approved="com.android.camera2" user="0" primary="true" />
+<service_listing approved="com.android.launcher3:android.ext.services:com.amazon.knight.blink" user="0" primary="false" />
+</dnd_apps>
+</notification-policy>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<cache-info previousBytes="0">
+<quota uid="10024" bytes="166336706" />
+<quota uid="1000" bytes="116084542" />
+</cache-info>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

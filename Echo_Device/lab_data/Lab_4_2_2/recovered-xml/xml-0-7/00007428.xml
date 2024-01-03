@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<usagestats version="1" endTime="82640767">
+    <interactive count="30" time="1698009103064" />
+    <non-interactive count="28" time="1698016598221" />
+    <keyguard-shown count="0" time="0" />
+    <keyguard-hidden count="0" time="0" />
+    <packages>
+        <package lastTimeActive="-1697862060586" package="com.android.providers.calendar" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.providers.media" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="80562377" package="com.amazon.device.rdmapplication" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81878038" package="com.amazon.zordon" timeActive="885339" lastEvent="2" appLaunchCount="12" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.whisperjoin.middleware" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77698775" package="com.amazon.device.smarthome.dshs.multimodalux" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="75070823" package="com.android.providers.downloads" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.alexa.beaconbroadcaster" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="80692025" package="com.amazon.alexa.datastore.app" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77726295" package="com.amazon.alexa.ms.kinex" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.dshs.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82583828" package="android" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77724313" package="com.amazon.spotify.mediabrowserservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81483001" package="com.amazon.fwp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.imp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82149911" package="com.amazon.mlv" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.launcher3" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77688456" package="com.amazon.theia.sm.remoteagent" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.diode" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.tcomm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82148920" package="com.amazon.rtcsessioncontroller" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.NativeAccessorProxyServices" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.a4b.mcc" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="79564430" package="amazon.speech.sim" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.se" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77688456" package="com.amazon.edgecvs" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697938897671" package="com.android.keychain" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77722247" package="com.amazon.cardinal" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77696616" package="com.amazon.comms.multimodaltachyonarm" timeActive="339079" lastEvent="2" appLaunchCount="15" />
+        <package lastTimeActive="82640767" package="com.amazon.android.service.wifiprofilemanager" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="android.ext.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="79735117" package="com.android.packageinstaller" timeActive="396" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="78312505" package="com.amazon.obscura" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.knight.blink" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.client.metrics" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.adapters.echo" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.adapters.mock" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.banyan.core" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.software.ota" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="47151081" package="com.amazon.gloria.smarthome" timeActive="179636" lastEvent="2" appLaunchCount="2" />
+        <package lastTimeActive="-1697862060586" package="amazon.speech.davs.davcservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81612430" package="com.android.settings" timeActive="1526946" lastEvent="2" appLaunchCount="29" />
+        <package lastTimeActive="77714538" package="com.ring.halo.messaging" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="133711894" package="com.amazon.knight.btavrcp" timeActive="5605944" lastEvent="2" appLaunchCount="6" />
+        <package lastTimeActive="82424740" package="com.amazon.paladin" timeActive="34285097" lastEvent="2" appLaunchCount="137" />
+        <package lastTimeActive="77697235" package="com.amazon.device.echoaudioservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.alexa.timeoutmanagerapp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77689458" package="com.amazon.theia.sm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82607929" package="com.amazon.knightwebview" timeActive="492309" lastEvent="2" appLaunchCount="4" />
+        <package lastTimeActive="77688456" package="com.amazon.knight.ecs" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.adapters.ble" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.systemui" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81882615" package="com.amazon.alexa.identity" timeActive="52754" lastEvent="2" appLaunchCount="9" />
+        <package lastTimeActive="82127838" package="com.amazon.aria" timeActive="7288514" lastEvent="2" appLaunchCount="154" />
+        <package lastTimeActive="152939414" package="com.amazon.avod" timeActive="7580315" lastEvent="3" appLaunchCount="5" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.whad" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81983376" package="com.amazon.alexa.externalmediaplayer.fireos" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77721049" package="com.amazon.alarms" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77695989" package="com.amazon.bishop" timeActive="966943" lastEvent="2" appLaunchCount="18" />
+        <package lastTimeActive="77699032" package="com.amazon.device.smarthome.ota" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82608021" package="com.amazon.cloud9" timeActive="1721746" lastEvent="1" appLaunchCount="10" />
+        <package lastTimeActive="-1697862060586" package="com.android.bluetooth" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.webview.chromium" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.alexa.awaservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.gadgetscontrolmanager" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="85979154" package="com.amazon.alexa.youtube.app" timeActive="60348" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.bluestone.keyboard" timeActive="0" lastEvent="0" />
+    </packages>
+    <configurations>
+        <config lastTimeActive="77670638" timeActive="19" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="77670619" timeActive="9" count="1" fs="1065353216" locales="en-US" touch="1" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="77670610" timeActive="9" count="1" fs="1065353216" locales="en-US" touch="1" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="600" sw="600" density="213" />
+        <config lastTimeActive="77671713" timeActive="1066" count="2" active="true" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="77671712" timeActive="8" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="339" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+    </configurations>
+    <event-log />
+</usagestats>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="lastGetConfigTime" value="1698010972501" />
+    <string name="ad3.report.venezia-last-file-used">availability_measurements_1696889741301.measure</string>
+    <string name="lastClientSubmission-tap-events">1698017933749</string>
+    <string name="clientVersion">2</string>
+    <string name="app-state-sync-events-last-file-used">availability_measurements_1696889741295.measure</string>
+    <string name="deviceId">G6G1GG10141403SD</string>
+    <string name="venezia-metrics-last-file-used">availability_measurements_1696889741317.measure</string>
+    <string name="venezia-metrics-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;6uwutcy75GkQshhe3CR5U7EKgsSVsEj7&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <string name="ad3-meta-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;6rtTaVKRfOzlJqr59SGFw0NYcJHTAHRL&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <string name="previousMeasurementId">2228720a-9939-42aa-ad6d-66f4e21a87b8</string>
+    <string name="ad3AnonymousId">{&quot;content&quot;:&quot;someContent&quot;,&quot;keyInfo&quot;:&quot;someKeyInfo&quot;,&quot;version&quot;:1}</string>
+    <string name="lastClientSubmission-venezia">1698017933751</string>
+    <string name="ad3-meta-last-file-used">availability_measurements_1696883985981.measure</string>
+    <string name="customerId">A2PL387VMOUSEL</string>
+    <string name="ad3.report.venezia-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;V4Hrp6I79ECsya0VeZnbmo8kyObNtjFl&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <string name="venezia-last-file-used">availability_measurements_1696889741313.measure</string>
+    <string name="venezia-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;1PUL3BwJkIfEhnPHg5rXRneYNQgiFyDr&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <string name="zeroes-last-file-used">availability_measurements_1696889741287.measure</string>
+    <string name="ad3UniqueId">8a4246e2-042f-4463-8cd9-2601c7210472</string>
+    <string name="lastClientSubmission-zeroes">1698021641350</string>
+    <string name="directedId">amzn1.account.AFTJBUB4CIBBMH2S2AQDEY5QCN2A</string>
+    <string name="engagement-last-file-used">availability_measurements_1696889741289.measure</string>
+    <string name="timeAdjustment">-72</string>
+    <string name="configurationExpiry">1698270173072</string>
+    <string name="lastClientSubmission-app-state-sync-events">1698021641368</string>
+    <string name="zeroes-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;KrWsa6CW7QSYbeWb7aQGXARnZwmMk4K1&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <string name="deviceType">A15996VY63BQ2D</string>
+    <string name="tap-events-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;6rtTaVKRfOzlJqr59SGFw0NYcJHTAHRL&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <string name="lastClientSubmission-ad3.report.venezia">1698017933745</string>
+    <string name="engagement-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;1rWsa65W7QSYbegb7aQGXARnZwmMk4K5&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <string name="app-state-sync-events-encryption-key-state">{&quot;keySpecs&quot;:[{&quot;key&quot;:&quot;6rtTaVKRfOzlJqr59SGFw0NYcJHTAHRL&quot;,&quot;encryptionAlgorithm&quot;:&quot;AES&quot;,&quot;validAsOf&quot;:0}]}</string>
+    <long name="lastGetConfigTimeForced" value="1696883985522" />
+    <string name="clientIds">venezia,venezia-metrics,ad3.report.venezia,zeroes,engagement,tap-events,app-state-sync-events</string>
+    <string name="marketplaceId">ATVPDKIKX0DER</string>
+    <string name="lastClientSubmission-venezia-metrics">1698017933753</string>
+    <string name="lastClientSubmission-engagement">1698021641363</string>
+    <string name="tap-events-last-file-used">availability_measurements_1696889741305.measure</string>
+    <boolean name="isSyncOnce" value="false" />
+    <string name="region">US</string>
+    <string name="configuration_v2">3612b4cd03f958c0f713c9cd5120b4ceb1804033da1f81225c5a174cc2e17088928683ddda17a131b7aac2231d556b5e8da4795a2aaa315b2f2ea18484ecf24c782672b5b8e076a5c4900bb0d195141ca9a71a06be416e4b518d26f32aac6cc987e9af772226e27176d59034b014a6d0ee3cc80c0e0de49c6703c3cc55f1264572bf30db563c80abb56c26f989e4c256e3519515d1cc10894211276fa922bd50cccd611c446bba5fb0b5e4bc9d52a8ba94b7d71dee320e20826566efc9989c69f2defc5836452fec861fd09436d749c4821177bec3fe262c2c51d4c5c47dd5f33a1648d8026519946ff093075bae81603d25b3990ee5f6b725ee6459fc58a57b0606cd21c1ef20c4c97e619ae84ac962c355da2cdc95e9504b6e1296986e2e86baa8e075d06d14dba6fa44f2b623b175382d2b4bbec82d595bedd576220aef94eff990c58285743c1318f96f7835d5e26dc57a26c5388dfe3d14f3cb53cb6cb7c9dfa40f6a15660d75d005fba1c69d9676fc33f7b7eb3d3022a2801f36d9b92d6ca0027f69de6b8567b7d738d095617d00646a8fb9efabd1759cba04ab72cadbd02b33841f9e5e87d75cf485b1688f9998725a1dc4f3b75a0b728ffa166be4b9884d6ed9301772db764236f005f43870fac4eee47fd162da8b9f0f93cafbefadcd47bca0791470815f150bc808946d08a143501da0857b76fe867a8c6e65eada6ed56e20173cb6dfe04fd896dc2e65a78a4c753b27c7f3f7f1c3074e13b590e1ea6f18967a3c366d1eadc766b77b45537f2b5af2dfd958b77cea3f73bd2f8477937f0086a8cee2e754cda35cfec291261679eaf7b774b4e2a86aa23ab57bd5d5f2585070cff2dab632f1b4bf26dba88c9bd622f0e6aad122516c7ba5863f770e0340caf0ea42580afe506d39db11f33a84e241444e7836074d338fab9a76db6c86a60c8503262234ce989d440345afafe5fccfcd86c709b04652412920f5ef11acc9c022e490dfc7c47631a2a5386153454d6dcaa71d9bb9f94b5a3045273d41c26bcda1164126b264e71486595a2b224396f00de894024fd916118a1befd39c0e2c12f4cf97295d36a667cca950090720516dcf573bb3345f74d3bc3ca8efb1bd9be5211046c1444e42a5ac73e8864f29a878ce022538717e4628d47cca9f7e3d26e9bbbdc2501d723aaaac218f93718f2f2c21569d0d6dd4984c098b76ad0d033bcb30cece07b989be1a272ab27e60eb9fb4a638b62ea0728a83c6a53cfc4d27cbb4b63709f8c81c9dda3617f64d6e8fc88c416cd6cf0b65443114054f3aceb68647c8e178258504e39cd919bae2b16e3048a35eeeaebcfb22074198bcaa013bf38cb92ec2fc8047607cb2408e5350aeff242a6e4bf0b4e9cda879bc245dc44a2c59e9899534edc29a0fa61ff2ce12e2d9d87066f2497aee610365a864b8769cc48ffbaa0f7c0bd7032cfcb38a6543a29f75e10adb522ae0a9c3df84fb458b00fc5a1e352f16f8f31dcc71b0f19460fe7af0f17b413ee0a78a3c96f728a405e439738eb156f58652c9766c893591b6594faf979f80279703bbfa5f07e217217ba39a094f0b60115deef71c29934080441db077c3a00fbc7a3b7a3e4e10c0c6174b505161b192e2ebee8a543171227aca19b011d7149a0263d6f5b594c945849032985eccb0856cb58db50e3be3217074ca1fbc30566d381dcf30ff835c6f668e8df7f3495e17a50f5bd280f80b7779690bdefb2ae2c333049e1e92cf6935361843e9c54a6432dc4e4aa2aef169e3f6aedc4b51088e7caba9419065144c3d9377ad2ee14bb87a927b9f46a4fb1152d6c91f6920ea726c7f4702a380019474e72bff057a4ad92eda7ec54279445f9b1991da9fc462de16e44ef717df2b7e3be98f0f905a08512c45260916448003f03df3e218c572ea509e2a7434dc8c3a39672fa43bfbdbbc2643faf6f52dd7ca365ab6510124dc338ba24773cb2ff3c172c1ea4ef6b7e0798f677074226e018eb9a0a8057edca337d7a29f40c586ad5933d127c60af3db84c4413d11decdb98a5ec2f5fa77a383314967ebb6ab98304435ecc9c296721d0d8a5bbd5e3cf5adb340760436e677c5a551e0145cc92ecb79f6e37993ac49213642e30744082d4f5e9ffa187ccf71f2b3e996b33dc81ef1997cec31a918ac0e52170509bc3b7e1b3a3f5bd854bd63ae9f5d02b0ced59f74bdf4bf042c5b088accd7a98b8267336f649dd847856a336dbdcdb6a9feccf88057d1b58f683ad99f7e1659ac3d4b4ddce46495bab366bceca2a80bbf8bae44781223488b388534d38e3251b993710a8ce6b3e84f9cc2e83ee044a13204a39eb1c172f2e3ce574471e84570b4eb71b42651

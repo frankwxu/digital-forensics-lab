@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<usagestats version="1" endTime="99308307">
+    <interactive count="33" time="1698032982258" />
+    <non-interactive count="32" time="1698032377495" />
+    <keyguard-shown count="0" time="0" />
+    <keyguard-hidden count="0" time="0" />
+    <packages>
+        <package lastTimeActive="-1697862060586" package="com.android.providers.calendar" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.providers.media" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="84745287" package="com.amazon.device.rdmapplication" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81878038" package="com.amazon.zordon" timeActive="885339" lastEvent="2" appLaunchCount="12" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.whisperjoin.middleware" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77698775" package="com.amazon.device.smarthome.dshs.multimodalux" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="75070823" package="com.android.providers.downloads" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.alexa.beaconbroadcaster" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="94794513" package="com.amazon.alexa.datastore.app" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77726295" package="com.amazon.alexa.ms.kinex" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.dshs.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82583828" package="android" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77724313" package="com.amazon.spotify.mediabrowserservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81483001" package="com.amazon.fwp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.imp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82149911" package="com.amazon.mlv" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.launcher3" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77688456" package="com.amazon.theia.sm.remoteagent" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.diode" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.tcomm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82148920" package="com.amazon.rtcsessioncontroller" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.NativeAccessorProxyServices" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.a4b.mcc" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="79564430" package="amazon.speech.sim" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.se" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77688456" package="com.amazon.edgecvs" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697938897671" package="com.android.keychain" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77722247" package="com.amazon.cardinal" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77696616" package="com.amazon.comms.multimodaltachyonarm" timeActive="339079" lastEvent="2" appLaunchCount="15" />
+        <package lastTimeActive="82640767" package="com.amazon.android.service.wifiprofilemanager" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="android.ext.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="79735117" package="com.android.packageinstaller" timeActive="396" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="78312505" package="com.amazon.obscura" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.knight.blink" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.client.metrics" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.adapters.echo" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.adapters.mock" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.banyan.core" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.software.ota" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="47151081" package="com.amazon.gloria.smarthome" timeActive="179636" lastEvent="2" appLaunchCount="2" />
+        <package lastTimeActive="-1697862060586" package="amazon.speech.davs.davcservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81612430" package="com.android.settings" timeActive="1526946" lastEvent="2" appLaunchCount="29" />
+        <package lastTimeActive="77714538" package="com.ring.halo.messaging" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="133711894" package="com.amazon.knight.btavrcp" timeActive="5605944" lastEvent="2" appLaunchCount="6" />
+        <package lastTimeActive="94085022" package="com.amazon.paladin" timeActive="42046013" lastEvent="2" appLaunchCount="139" />
+        <package lastTimeActive="77697235" package="com.amazon.device.echoaudioservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.alexa.timeoutmanagerapp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="77689458" package="com.amazon.theia.sm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="82607929" package="com.amazon.knightwebview" timeActive="492309" lastEvent="2" appLaunchCount="4" />
+        <package lastTimeActive="77688456" package="com.amazon.knight.ecs" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.smarthome.adapters.ble" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.android.systemui" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81882615" package="com.amazon.alexa.identity" timeActive="52754" lastEvent="2" appLaunchCount="9" />
+        <package lastTimeActive="90781198" package="com.amazon.aria" timeActive="7329597" lastEvent="2" appLaunchCount="155" />
+        <package lastTimeActive="152939414" package="com.amazon.avod" timeActive="7580315" lastEvent="3" appLaunchCount="5" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.whad" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="81983376" package="com.amazon.alexa.externalmediaplayer.fireos" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="88236250" package="com.amazon.alarms" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="91415572" package="com.amazon.bishop" timeActive="1027247" lastEvent="2" appLaunchCount="19" />
+        <package lastTimeActive="77699032" package="com.amazon.device.smarthome.ota" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="83672552" package="com.amazon.cloud9" timeActive="2786277" lastEvent="2" appLaunchCount="10" />
+        <package lastTimeActive="-1697862060586" package="com.android.bluetooth" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.webview.chromium" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.alexa.awaservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.device.gadgetscontrolmanager" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="85979154" package="com.amazon.alexa.youtube.app" timeActive="60348" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1697862060586" package="com.amazon.bluestone.keyboard" timeActive="0" lastEvent="0" />
+    </packages>
+    <configurations>
+        <config lastTimeActive="77670638" timeActive="19" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="77670619" timeActive="9" count="1" fs="1065353216" locales="en-US" touch="1" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="77670610" timeActive="9" count="1" fs="1065353216" locales="en-US" touch="1" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" width="961" height="600" sw="600" density="213" />
+        <config lastTimeActive="87325442" timeActive="9654796" count="3" active="true" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+        <config lastTimeActive="77671712" timeActive="8" count="1" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="339" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+    </configurations>
+    <event-log />
+</usagestats>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            1009272598
+1498007099
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<notification-policy version="1">
+<zen version="8" user="0">
+<allow calls="true" repeatCallers="true" messages="false" reminders="false" events="false" callsFrom="2" messagesFrom="1" alarms="true" media="true" system="false" />
+<disallow visualEffects="511" />
+<automatic ruleId="EVENTS_DEFAULT_RULE" enabled="false" snoozing="false" name="Event" zen="1" component="android/com.android.server.notification.EventConditionProvider" conditionId="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" creationTime="1262304328518" id="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<automatic ruleId="EVERY_NIGHT_DEFAULT_RULE" enabled="false" snoozing="false" name="Sleeping" zen="1" component="android/com.android.server.notification.ScheduleConditionProvider" conditionId="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" creationTime="1262304328518" id="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" summary="..." line1="..." line2="..." icon="0" state="1" flags="2" />
+<state areChannelsBypassingDnd="false" />
+</zen>
+<ranking version="1">
+<package name="amazon.speech.davs.davcservice" show_badge="true" app_user_locked_fields="0" uid="10016">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.android.service.wifiprofilemanager" show_badge="true" app_user_locked_fields="0" uid="10165">
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.device.rdmapplication" show_badge="true" app_user_locked_fields="0" uid="10031">
+<channel id="RDM" name="RDMApplication" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.bishop" show_badge="true" app_user_locked_fields="0" uid="10045">
+<channel id="MediaPlayback" name="Media Playback" desc="Displays currently playing media" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="com.amazon.bishop" name="Alexa Time Sequence Builder" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.device.smarthome.ota" show_badge="true" app_user_locked_fields="0" uid="10011">
+<channel id="SmartHomeOta" name="SmartHomeOtaChannel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.edgecvs" show_badge="true" app_user_locked_fields="0" uid="10025">
+<channel id="com.amazon.edgecvs" name="Edge Computer Vision Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.alarms" show_badge="true" app_user_lo

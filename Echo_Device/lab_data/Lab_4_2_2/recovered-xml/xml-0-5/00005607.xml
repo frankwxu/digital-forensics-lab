@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name=":playback_avcHfrStreamingResolutionCap_dynamic">ULTRA_HD</string>
+    <long name="aiv.syncServiceConfig:syncServiceLastUserActivityTimeMillis" value="1698095646728" />
+    <boolean name="aiv.DevicePropertiesConfig:isKidsEditionTablet" value="false" />
+    <int name=":playback_hevcHfrStreamingBitrateCap_dynamic" value="50000000" />
+    <string name="com.amazon.avod.media.playback.support:playback_deviceTunneledPlaybackSupport">video/avc:ANALYZED_FALSE,video/hevc:UNINITIALIZED</string>
+    <string name=":CachedSessionId">416-8614096-7903325</string>
+    <string name="aiv.CustomerSessionConfig:customerSession_appAvailabilitySerializedString">{&quot;uuid&quot;:&quot;dcdaef05-ec27-4cad-9401-05dd13224c8f&quot;,&quot;bootCount&quot;:14,&quot;createdRealtime&quot;:79687610,&quot;lastForegroundRealtime&quot;:79687610,&quot;lastBackgroundRealtime&quot;:79687610,&quot;totalForegroundMillis&quot;:0,&quot;totalBackgroundMillis&quot;:0,&quot;activityLoadingSpinnerMillis&quot;:0,&quot;totalErrorCount&quot;:0,&quot;totalFatalCount&quot;:0,&quot;foregroundCrashCount&quot;:0,&quot;backgroundCrashCount&quot;:0,&quot;missingImageCount&quot;:0,&quot;foregroundOomCount&quot;:0,&quot;backgroundOomCount&quot;:0,&quot;applicationNotRespondingCount&quot;:0,&quot;userAppForceCloseCount&quot;:0,&quot;appRestartCount&quot;:0,&quot;userAppRestartCount&quot;:0,&quot;playbackCount&quot;:0,&quot;appActive&quot;:false,&quot;hasMissingStrings&quot;:false,&quot;maxThreadsCount&quot;:0,&quot;shownWhosWatching&quot;:false,&quot;sessionBootCount&quot;:14,&quot;totalCrashCount&quot;:0,&quot;totalProblemCount&quot;:0}</string>
+    <int name="com.amazon.avod.captions:preferred_caption_text_size" value="100" />
+    <int name=":playback_avcHfrStreamingBitrateCap_dynamic" value="50000000" />
+    <string name="aiv.ProfileManagerStorage:currentProfileId">amzn1.actor.person.oid.A2YI4Z0W6FQDFA</string>
+    <string name="aiv.DevicePropertiesConfig:deviceTypeId">A15996VY63BQ2D</string>
+    <string name=":playback_hevcHfrStreamingResolutionCap_dynamic">ULTRA_HD</string>
+    <int name="com.amazon.avod.trickplay:TrickplayIterationMaxByteAllocation" value="16164" />
+    <int name="com.amazon.avod.captions:preferred_caption_preset_number" value="0" />
+    <string name=":highFrameRateQualityConfig_clearStateInternalConfig">TRY_0</string>
+    <boolean name=":playback_isHFRPlaybackAllowedByPerfEvaluator" value="true" />
+    <boolean name=":playback.aloysius.isLegacyMediaEventsLegacyDatabaseCleared" value="true" />
+    <boolean name="aiv.PlaybackConfig:hasSeenFirstTimeStreamingNotification" value="true" />
+    <string name="com.amazon.avod.captions:preferred_caption_type">AUDIO</string>
+    <long name=":lastAppSizeReportTime" value="1698016595385" />
+    <string name="com.amazon.avod.captions:preferred_caption_language_code">en-us</string>
+    <boolean name="APKMetricsReporterConfig:hasDownloadedServerConfigs" value="true" />
+    <string name="aiv.advertisingIdConfig:AdvertisingId">null</string>
+    <boolean name=":playback_isMemStoreBasedRendererZeroMemCopyAllowed" value="true" />
+    <string name="aiv.UserManagerConfig:householdInfo">rO0ABXNyACZjb20uYW1hem9uLmF2b2QuaWRlbnRpdHkuSG91c2Vob2xkSW5mb+JDojta5pVRAgAHTAAObUF2TWFya2V0cGxhY2V0ACFMY29tL2dvb2dsZS9jb21tb24vYmFzZS9PcHRpb25hbDtMABVtQ3VycmVudENvdW50cnlTdHJpbmdxAH4AAUwACW1Qcm9maWxlc3QALExjb20vYW1hem9uL2F2b2QvaWRlbnRpdHkvcHJvZmlsZXMvUHJvZmlsZXM7TAAGbVVzZXJzdAAgTGNvbS9hbWF6b24vYXZvZC9pZGVudGl0eS9Vc2VycztMABVtVmlkZW9Db3VudHJ5T2ZSZWNvcmRxAH4AAUwAG21WaWRlb0NvdW50cnlPZlJlY29yZFN0cmluZ3EAfgABTAAQbVZpZGVvUmVnaW9uSW5mb3QANkxjb20vYW1hem9uL2F2b2QvaWRlbnRpdHkvVmlkZW9SZWdpb24kVmlkZW9SZWdpb25JbmZvO3hwc3IAHmNvbS5nb29nbGUuY29tbW9uLmJhc2UuUHJlc2VudAAAAAAAAAAAAgABTAAJcmVmZXJlbmNldAASTGphdmEvbGFuZy9PYmplY3Q7eHIAH2NvbS5nb29nbGUuY29tbW9uLmJhc2UuT3B0aW9uYWwAAAAAAAAAAAIAAHhwdAANQVRWUERLSUtYMERFUnNxAH4ABnQAAlVTc3IAKmNvbS5hbWF6b24uYXZvZC5pZGVudGl0eS5wcm9maWxlcy5Qcm9maWxlc9WeX2wHOgP8AgAHWgAVbUNhbkNyZWF0ZVByb2ZpbGVIaW50TAAPbUN1cnJlbnRQcm9maWxlcQB+AAFMAA9tRGVmYXVsdFByb2ZpbGVxAH4AAUwAEW1QZXJtaXNzaW9uQ3JlYXRldAA1TGNvbS9hbWF6b24vYXZvZC9wcm9maWxlL21vZGVsL1Byb2ZpbGVMb2NrUGVybWlzc2lvbjtMAA5tUHJvZmlsZUxvb2t1cHQAKExjb20vZ29vZ2xlL2NvbW1vbi9jb2xsZWN0L0ltbXV0YWJsZU1hcDtMAAltUHJvZmlsZXN0AClMY29tL2dvb2dsZS9jb21tb24vY29sbGVjdC9JbW11dGFibGVMaXN0O0wAB21TdGF0dXN0ADNMY29tL2FtYXpvbi9hdm9kL2lkZW50aXR5L3Byb2ZpbGVzL1Byb2ZpbGVzJFN0YXR1czt4cAFzcQB+AAZzcgAqY29tLmFtYXpvbi5hdm9kLnByb2ZpbGUubW9kZWwuUHJvZmlsZU1vZGVsyN0ulQ/45wkCAAhaABFtSXNEZWZhdWx0UHJvZmlsZUwAB21BdmF0YXJ0ACZMY29tL2FtYXpvbi9hdm9kL3Byb2ZpbGUvbW9kZWwvQXZhdGFyO0wABW1OYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7TAAPbVBlcm1pc3Npb25FZGl0cQB+AA5MABBtUGVybWlzc2lvbkVudHJ5cQB+AA5MABBtUHJvZmlsZUFnZUdyb3VwdAAvTGNvbS9hbWF6b24vYXZvZC9wcm9maWxlL21vZGVsL1Byb2ZpbGVBZ2VHcm91cDtMAAptUHJvZmlsZUlkcQB+ABZMAAptUHJvZ3JhbUlkcQB+ABZ4cAFzcgAkY29tLmFtYXpvbi5hdm9kLnByb2ZpbGUubW9kZWwuQXZhdGFy/WbWba0s1hgCAAJMAAltQXZhdGFySWRxAH4AFkwAC21BdmF0YXJVcmxzdAAqTGNvbS9hbWF6b24vYXZvZC9wcm9maWxlL21vZGVsL0F2YXRhclVybHM7eHB0ADFhbXpuMS5hdmF0YXIuOWZmZjZlNjktODVlZC00MDgzLThjYzktMjhhYTczNGJkMWFlc3IAKGNvbS5hbWF6b24uYXZvZC5wcm9maWxlLm1vZGVsLkF2YXRhclVybHOxXSiar8SuMwIAAkwABm1Sb3VuZHEAfgAWTAAHbVNxdWFyZXEAfgAWeHB0AE5odHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvRy8wMi9DZXJiZXJ1c1ByaW1lVmlkZW8tRk4zOEZTQkQvYWR1bHQtMS5wbmd0AFVodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvRy8wMi9DZXJiZXJ1c1ByaW1lVmlkZW8tRk4zOEZTQkQvYWR1bHQtMS1zcXVhcmUucG5ndAAHU2FyZnJhenNyADNjb20uYW1hem9uLmF2b2QucHJvZmlsZS5tb2RlbC5Qcm9maWxlTG9ja1Blcm1pc3Npb25Rr4X5jI9TEAIAA0wABmFjdGlvbnQAMUxjb20vYW1hem9uL2F2b2QvcHJvZmlsZS9tb2RlbC9Qcm9maWxlTG9ja0FjdGlvbjtMAAtjaGFsbGVuZ2VWMnQANExjb20vYW1hem9uL2F2b2QvcHJvZmlsZS9tb2RlbC9Qcm9maWxlTG9ja0NoYWxsZW5nZTtMAAZyZWFzb250ADFMY29tL2FtYXpvbi9hdm9kL3Byb2ZpbGUvbW9kZWwvUHJvZmlsZUxvY2tSZWFzb247eHB+cgAvY29tLmFtYXpvbi5hdm9kLnByb2ZpbGUubW9kZWwuUHJvZmlsZUxvY2tBY3Rpb24AAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAdBTExPV0VEcH5yAC9jb20uYW1hem9uLmF2b2QucHJvZmlsZS5tb2RlbC5Qcm9maWxlTG9ja1JlYXNvbgAAAAAAAAAAEgAAeHEAfgAodAAPTk9fUkVTVFJJQ1RJT05Tc3EAfgAicQB+AClwcQB+ACx+cgAtY29tLmFtYXpvbi5hdm9kLnByb2ZpbGUubW9kZWwuUHJvZmlsZUFnZUdyb3VwAAAAAAAAAAASAAB4cQB+ACh0AAVBRFVMVHQAJWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJZSTRaMFc2RlFERkFwc3EAfgAGcQB+ABhzcQB+ACJxAH4AKXBxAH4ALHNyADVjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZU1hcCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgACTAAEa2V5c3EAfgAHTAAGdmFsdWVzcQB+AAd4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAANxAH4AMnQAJWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTI4R1Y1RVBPWkVFN090ACVhbXpuMS5hY3Rvci5wZXJzb24ub2lkLkEyN1BQQTlPOExKN0NSdXEAfgA3AAAAA3EAfgAYc3EAfgAUAHNxAH4AGXQAMWFtem4xLmF2YXRhci5iMWU3NGM2OS0yNTRiLTQ2MzItYTI5MC00OWE5ZWJjMjZjM2RzcQB+AB10AExodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvRy8wMi9DZXJiZXJ1c1ByaW1lVmlkZW8tRk4zOEZTQkQva2lkLTEucG5ndABTaHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0cvMDIvQ2VyYmVydXNQcmltZVZpZGVvLUZOMzhGU0JEL2tpZC0xLXNxdWFyZS5wbmd0AARTYWlmc3EAfgAicQB+AClwcQB+ACxzcQB+ACJxAH4AKXBxAH4ALH5xAH4AL3QABUNISUxEcQB+ADlwc3EAfgAUAHNxAH4AGXQAMWFtem4xLmF2YXRhci5iMWU3NGM2OS0yNTRiLTQ2MzItYTI5MC00OWE5ZWJjMjZjM2RzcQB+AB10AExodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvRy8wMi9DZXJiZXJ1c1ByaW1lVmlkZW8tRk4zOEZTQkQva2lkLTEucG5ndABTaHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0cvMDIvQ2VyYmVydXNQcmltZVZpZGVvLUZOMzhGU0JEL2tpZC0xLXNxdWFyZS5wbmd0AARLaWRzc3EAfgAicQB+AClwcQB+ACxzcQB+ACJxAH4AKXBxAH4ALHEAfgBFcQB+ADpwc3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEvbGFuZy9PYmplY3Q7eHB1cQB+ADcAAAADcQB+ABhxAH4APHEAfgBHfnIAMWNvbS5hbWF6b24uYXZvZC5pZGVudGl0eS5wcm9maWxlcy5Qcm9maWxlcyRTdGF0dXMAAAAAAAAAABIAAHhxAH4AKHQACUFWQUlMQUJMRXNyAB5jb20uYW1hem9uLmF2b2QuaWRlbnRpdHkuVXNlcnMjYmGsKMKtMgIABkwAE21BbGxSZWdpc3RlcmVkVXNlcnN0AChMY29tL2dvb2dsZS9jb21tb24vY29sbGVjdC9JbW11dGFibGVTZXQ7TAAWbUFsbFJlZ2lzdGVyZWRVc2Vyc01hcHEAfgAPTAAMbUN1cnJlbnRVc2VycQB+AAFMABJtRGV2aWNlUHJpbWFyeVVzZXJxAH4AAUwAFG1FeHRlcm5hbE1hcmtldHBsYWNlcQB+ABZMABFtUGFja2FnZUxldmVsVXNlcnEAfgABeHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVTZXQkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzcQB+AFF4cHVxAH4ANwAAAAFzcgAdY29tLmFtYXpvbi5hdm9kLmlkZW50aXR5LlVzZXLFdG2MqpYj1AIAA0kACm1BbmRyb2lkSWRMAAptQWNjb3VudElkcQB+ABZMAAVtUm9sZXQAJExjb20vYW1hem9uL2F2b2QvaWRlbnRpdHkvVXNlciRSb2xlO3hwAAAAAHQAKmFtem4xLmFjY291bnQuQUZUSkJVQjRDSUJCTUgyUzJBUURFWTVRQ04yQX5yACJjb20uYW1hem9uLmF2b2QuaWRlbnRpdHkuVXNlciRSb2xlAAAAAAAAAAASAAB4cQB+ACh0AAVBRFVMVHNxAH4ANXVxAH4ANwAAAAFxAH4AYHVxAH4ANwAAAAFxAH4AX3NxAH4ABnEAfgBfc3EAfgAGcQB+AF90AA1BVFZQREtJS1gwREVSc3EAfgAGcQB+AF9zcQB+AAZ+cgAkY29tLmFtYXpvbi5hdm9kLmlkZW50aXR5LkNvdW50cnlDb2RlAAAAAAAAAAASAAB4cQB+ACh0AAJVU3NxAH4ABnQAAlVTc3IANGNvbS5hbWF6b24uYXZvZC5pZGVudGl0eS5WaWRlb1JlZ2lvbiRWaWRlb1JlZ2lvbkluZm///a3Oqqj9pAIAAkwADWFic2VuY2VSZWFzb25xAH4AAUwAC3ZpZGVvUmVnaW9ucQB+AAF4cHNyAB1jb20uZ29vZ2xlLmNvbW1vbi5iYXNlLkFic2VudAAAAAAAAAAAAgAAeHEAfgAIc3EAfgAGc3IAJGNvbS5hbWF6b24uYXZvZC5pZGVudGl0eS5WaWRlb1JlZ2lvbkpiXbsWt2aeAgAGWgAVbUhhc1ByaW1lVmlkZW9CZW5lZml0TAAObUF2TWFya2V0cGxhY2VxAH4AFkwAD21DdXJyZW50Q291bnRyeXEAfgAWTAALbUhvbWVSZWdpb25xAH4AFkwAFW1WaWRlb0NvdW50cnlPZlJlY29yZHQAJkxjb20vYW1hem9uL2F2b2QvaWRlbnRpdHkvQ291bnRyeUNvZGU7TAAbbVZpZGVvQ291bnRyeU9mUmVjb3JkU3RyaW5ncQB+ABZ4cAFxAH4ACnEAfgAMdAACTkFxAH4AbXEAfgBw</string>
+    <string name="aiv.DevicePropertiesConfig:deviceId">G6G1GG10141403SD</string>
+    <string name="aiv.CustomerSessionConfig:customerSession_serializedString">{&quot;uuid&quot;:&quot;c6781d8a-c0ef-4266-9aa0-4c41b92e0c7a&quot;,&quot;bootCount&quot;:14,&quot;createdRealtime&quot;:78766362,&quot;lastForegroundRealtime&quot;:79867597,&quot;lastBackgroundRealtime&quot;:78953200,&quot;totalForegroundMillis&quot;:930902,&quot;totalBackgroundMillis&quot;:170333,&quot;activityLoadingSpinnerMillis&quot;:0,&quot;totalErrorCount&quot;:1,&quot;totalFatalCount&quot;:0,&quot;foregroundCrashCount&quot;:0,&quot;backgroundCrashCount&quot;:0,&quot;missingImageCount&quot;:0,&quot;foregroundOomCount&quot;:0,&quot;backgroundOomCount&quot;:0,&quot;applicationNotRespondingCount&quot;:0,&quot;userAppForceCloseCount&quot;:0,&quot;appRestartCount&quot;:0,&quot;userAppRestartCount&quot;:0,&quot;playbackCount&quot;:1,&quot;appActive&quot;:false,&quot;hasMissingStrings&quot;:true,&quot;maxThreadsCount&quot;:221,&quot;shownWhosWatching&quot;:false,&quot;sessionBootCount&quot;:14,&quot;totalCrashCount&quot;:0,&quot;totalProblemCount&quot;:1}</string>
+    <string name="AIV_APP_VERSION">Echo.356.755601</string>
+    <boolean name="com.amazon.avod.captions:show_cc_during_playback" value="false" />
+</map>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ótèÕû`%M¥ßÆ	^ÍV-ï–≈ŸA{Í’Ä∫ˆû-•é65–ö:∫(…7D›™ı∫®€û@›#†öP◊⁄≥•‘’Œ
+Ì©kÇ◊Ç∫UãtQú=Å∫G@5°ÆµgK©öhO]º‘≠ZŸò˚ì«'S˜®&‘µˆl)uıâ‚
+Ì©kÇ◊Ç∫UÀtqáÈ	‘-nk<ë∫G¿5†N45–û∫&xmd ä5
+∫\—∂¢ÓPM®kÌŸRÍ¬¶⁄S∑≠…¡äÖ∫π…¡c†öP∑Ÿ…A}^∑¬@{Í∂49Xµ⁄¿679xTÍ⁄{∂î∫∫∏^a†5uç⁄»îK
+l˘d§uèÄjB]kœñQW?Z*Ôéˆ°†˙âè†Z¬){6®˛UnG`§r6”ümπ¯À ˚«n^‚m¿Æù°qÕÀ]˙π∑ ü⁄…„Ìú°}–Vã3¥fÛøÇ˚ø<C˚_PKäRkX  oP  PK   f´WW               Log.main_14Ì[ms⁄H˛~øb ˘ê‰
+)3zWæ;€âw˝v∆IÍ*ï¢FöëQ,$¢'ïˇ~=#¿2XÏÕácwYCwOœÙ”O˜+öé4“’Ï.¡*1t4}hD√È61—Í}<•y8·ä?QÉ"ì∏ãÜ4f_åh|ôRˇ:åØ>Ö˘ê˙|üÊÙïkËØ—(…ìÙ3¬ù˘?ËÀﬂ»ÇRﬂW™ÀñJ˚Éﬁ«Òî
+â=E(Í¢Ωÿ&)⁄;Ba<.rtxﬁGt√Æ8⁄E /Í–4s¶ÉÀœ.'aÃ”	Ì√SËÛ.˙ªx§‹OR÷A)ø3-2Ö”,WHçxûÜ˛ª¥±Ó∑(–q$f˛êè(ºïå‚‰çˆÎ∫éåg_8ò8áèπÂ[ÜÎÿäkyÅb:Q(∆L1<œ∞©„;∂mwPë˚ó·àg9çªƒrÏZÜéa
+%>çŒÇ „9ò^‰<Î*öä¢0Àœ·¶Û$åÛÉx¬£dÃ3îÖ?8x`ïCãßc}B{#˙#âßnÈE!ﬁ≠Œ›–Â√4…Ûà3uÓëD∫5¯˝–ÿM≈)uK¨VK3¶Y∆ÛtfbˆÜ‹ø~ız]yïIu˝d§R9suTS≥rúzﬁ∏˘oÍ2œe‰a•ö´7(-ÉÊÑgÏ’√$ù~†Æ'ÔÑ∆ &Ì¢-ÿo7Í{KsÿK9Ö0ûk£åUD÷E9ÌEeº:O√$Û€.“7wﬂ2à‡"éó‰ÿ2¨E˘¶Ì.†èÉÒ}D@Õ•Àá|	H`9ÕaA/>úûùæ[îjﬂÖóÆª<õñR≥QJD≈™CtX÷É-q≈/¯8IÛ˜rwÄ¶>èÿç™¢  o™ıÙÏr∞py–ª<ÿG7Ä∫	†‡à≥Æfäæ}Ë#7ŸÌ √ï0ˇ6˘˙mÙaœ25ãäk x∂œÛ®¬<À¿Äú≠kK°¶∞EË≥ı≈Ωæ‡¥ï∑‡¯ê*|Ω∂mÎJ7úvÚ÷ ú•ˆªç˙÷ úGâzp6∞¨	pÏö|{Œ±¶– ûk–aÃ ‘˜πi/âs˛=ˇî§◊Ut∏˜! ‘?:y^m{ Pn£ÑB¶ˇπ3N!Ú“¸vß˚s'†‹ÈÓC<Oy∆c`Ü<Á~±‘@∂”ëÉ≤1pFπÒÔTïûº«„,Ia`∏pÙ"1ˆÃœë¶wêÜa∂f9Yt~PìÊê‡ˆàL †≥lßã;;\X«f`˝Üâ¯ÙÛŒ«£˝É≥ù/ù	•bT~;⁄˛¸ÿﬂ˘5ˇÚN~w~˝˙µ}ß_√¡ø7Cö#äfnE“Ä¬‰:‹ªÊ¬Á€õImŒ|@…·5@µÃç˝Â<M®/jÇ2;…¸8›rSÃ-_Vò^òsÅﬂú˝Âi¡U‘ãíÇ)∞`AxU§ÄøÛ1Âà÷6ñ∆îÙÃËTµÒŒºWÀÌ{-á°W+∂Îyöò˘˘"Mîôëëù8πŸ–µ˝ä0~**º‡k‚In∞|*◊]ºB˘Ä4x©?ΩËJÄ0ñ•Ñﬁvåw˘bÚ3»5ÂíÅˇã™ë˛á^Ô†ﬂ_°∂úî¶"üs¿z˙ûU¸9,rñ‹ƒ≤ú	„Ir≈Ã*â2Ëÿ“6dNÖñªtdjÊteç∞`NZ3s“G˜±F3†ñb¯.îè”î¿˜}Ü≠¿≥.cNé±>s™'m«lÂê÷Ã©•ºıòì„⁄¿Î˘wQÈ¶Ã©ïº5ò”√ˆO√À∞–˜ÈD)„ÁSJ«c°™¸s7≥∞ëQ+>AüQ»v1·X˜5¨ò\√Òπ‚∫ò*éÌqÏ∫ÜÓäçí”´l˜g’ˆ|»C∞|§¶|î‰ÊÁjé‘©T]›ËWΩd;Õ’Ó:d1¢Zê¡ı-k"ÉŒ}˘ ÜxNªëAd√Õãπ◊?≥óçß¢ﬂ“6d*—´åIv\hz5¢wâVìmÃe7Ù’.¿8aÙ˜9†=õ’µárpë¶¢◊¿¸ ÈBÓ-{|hî∞Úù˛ä¯‡f»4zöà ¥\wÜÇî+ ]ﬁ ˝%W]†jØk&öÕ≠?»o9∞‘EÏQÇ±fæ™l>ŒÆ∏?…^£∑aÃ`‚ª∂3÷!–Û∫6Ú€;ƒ∫ÀÃO‹ñ[ËU÷-1ûÀíïB∞ƒ^\6[≥eìk$ &M"Ÿ:·ﬂπ_Hzr#„N!ı"ﬁAΩÈzû˜ªö°ö∂£96—Káò€LÁ.<¶“ (,8om&tÔıÀnOıQƒ◊¿&„ÕD+¨ﬂäËΩÉ&´≤°‘OoƒnCÍ	Ôˆm=Nƒ1Eı–(´“c][óª¡”bÏ‡˚8…∫	"Ÿ›ÿ«@—ﬁqø¨Yª¬±ãÁ2øEú-	›‚Éq 'eÎjÖròÃMΩ_¢›∫Ø^∑uR=Dsö]´eÈûÄ,ñ@·ÂŸ|•˜5:Läò!ådÂôu‡ï»)Çño√ˇ2DsÑº$…Áƒ»ÉmÍÄ÷A
+Û<-FO≈õƒ©yûËÓ¢ïD´Z)™2…Ò{ˆ√yçJ—(	§]hﬁÇ £≤,ÒCôÚÚ§¥ˇ.U&E>.ÚÚz›C´Ÿc÷í3sY£c(\$£Î1;}°4´“ÂÔ
+ö≤GÎöW  äö˙<ç≤+1'_&Ω∫ÃeGßuô˛dÍâ™têú^Êß°l©H≈g¯rôféaû@Oaiw_6pÒóùÈ◊éÿÓK∏÷ÆòÑÎä¡±£∏ûÊ(P3:‘sLb{ˆÀ__:mPŸY(ÈU~{Oç¶1ﬂÅjSqu◊U◊e
+î´ÜBMÀÙ-Õ!˜•öˆ˛z≤£fP∫ÿ#ò6>˙ÁΩ˜ä§/3\+1ã¬çfØé⁄˝'äã(⁄∫Ë^í\á<˚CÏÔ•:Ã˚:4Î3˝£ìA?…4yB˝!0¥.zó‰e_®‰f-ú≤[9®.›∫/› 6ÜJÈ≥jVí∂¡È∏Ïßù&S"'y_ aK‹íˆâ±
+ˇı{«}.;™h'œç…íˆø5h˙ÌL™N∏*ªåÆR∏út∑z~÷VvY≥NÀ¨^ˇTºê0‡‚Ω‰Öî˝¢*˚ÖËLæhL≈ƒ±WO·B‘Y^û4ä¬Ωöúz‡PôÇ ∆K¿»Ø˝iE2ö÷˙ñe=JÛ¬éº™Ï»0õΩÏÛ\l≈z€u}·ºE ≠'ŸóÒ≥:|⁄KÜ}]
+¨ÏÈmoÿØw>g¢€C¥é”dHÀDx»'BI•¢i‹â˝¿x@EWgfìZ7≈i0eÎ—ú”4üÌ‡"•˘„C‹ùÁbBlS‰ŸŒRU5çﬂ\&◊<˛#Ò˛SÇ∆_∫Ë-øÆô≥6A§–;ûÀë›i∆ ∆ú˚C—êzS…cÃ´@O‘\UZ‰√yäÛπ»O66q⁄≠áEú∂ÄD{±¢]øUsÎK_∑◊—K{eüQíC—ßS="Ì=O∆E$ÿmyÆ óºÏÎ°ìΩsX≈ Ÿ\Iríl“0ŒŒa€Ñ4∫ê≠…¨ÈdGh0ñihv˚aáŸI∑FÉ∂ª8ÓË€¯6´ÙHÚ 7Ág§vF@òO,j;ä∆`a‘2«Áñ¢[Æo∫ñ√ôÎ/;# É78#∞◊uHª3!Ô)Øs9ÿ√5V∫…A[yÎú<lø (ÄÅû°ΩIV~˚BÓDŸUË+˝ÀΩãÀ¡¡«É”ÀA_<]ûz«gˆ¡íB˝MΩ»∂ld5T˜ƒ›“≠≤Gäz®ØøëeM}˝Zˇê∏Ÿw√√H!qÒZ Ê@É~√ÆrØ4‰€◊t–`üòöeq≈5<M1ú *=
+ê0M√å`LmºhúıÅ∆\tàÜq+á¥ö∂Ú÷-–ÖáV∫–¥ì∑–,µü4Í[#¬%Í·ﬂ¿≤¶_ºF
+¥;Uå-π~Ôx0]≠Ÿ›ì£—8Í¢ÈõS <˚Lï75X/∑õrŒñ\rJµ{JÀÁ•77D˘ˇ¯˜AÅ[º
+"§/\4Ÿ´∑É¡Dª ÆITÅA7M‰·òŸ|'√e6÷ù)‹∞≈0¢xÃpü∏ÅÌ6’w)ÇÀ∑»∑4ÕhÂê÷0ÿRﬁö|+–©È◊é™ÎJ7Ñ¡VÚ÷·[ÀÏoæ≤>FT\ﬂ≤F¨
+U©∞≠øﬂDyàºñ¿¶û¿”ﬁªAK˜≥À.£yCg~·ØSˆüOk≠jCnSoç≠óÔ7rÛfΩ”˛–ﬁ«~ŸÖÔ¢œ0ÄY_‡ì^ëF'‚Ë™¸ô¬ÏöëhL¯¡˜<•á,;§a˘6Vñƒª¢GVéÆ´ﬂ6A÷ÙJCBÏtk√Ã Ö¯Õ◊òˇ®dﬂ‡ì∑ıòA}ù∫‚{é°Ã‰@ê¨¿r°.L”ôaõïx[á¥Œ∫ﬁJﬁöŸ†,`u¸ZT∫ifh%oÇ‹“˛-ÏJ«“äﬂøÍï]©Ö≥¢l„Ï?”0'îmLîmƒS0˜Lbõ‚
+©πbWnP∂5Ï v˘=v%5Lﬂn‡˛z3øX'ﬂ?FTã|øæeç˘æNuñ(X? üà™-]∫ÌQµ«àj≥t€•j5÷b5∂∫÷˚#Òƒ°KÍ7)]¸lø~‡ö¢ã≠Á≤dÂ5EM%∆ú—¸◊~,›÷j◊~‹∫ïã7nˇ“k?¬ûÁ∫ˆÛêÆuÆ˝ôˇøˆ”˛⁄œ*=ŸµM’ıÖﬂêoÅÑa˙-π!ﬂy!Ãtí≠¯	4≈Ã◊M+ÎæbƒU®·˘äEàßπÆkzÇh5ì0`9ˆ÷~}ﬂ!¶•âµpÃÕQ≥¡'h¡)uK‹VK”éÇ<∑í∑f˚ ÛôÜ›ïnƒâ⁄ [ß}µÃ˛Ê¢Ë—úHà⁄"ù}§∏ú»®)∞Óˆü´À>Ñ‰D•†¨+øËg£0˜œ<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<package-restrictions>
+    <pkg name="com.android.cts.priv.ctsshim" ceDataInode="-4294828947" />
+    <pkg name="com.android.internal.display.cutout.emulation.corner" ceDataInode="-4294828940" />
+    <pkg name="com.android.internal.display.cutout.emulation.double" ceDataInode="-4294828937" />
+    <pkg name="com.android.providers.telephony" ceDataInode="-4294829055" />
+    <pkg name="com.amazon.recess" ceDataInode="-4294828934" />
+    <pkg name="com.amazon.platform.fdrw" ceDataInode="-4294828931" />
+    <pkg name="com.android.providers.calendar" ceDataInode="-4294828928" />
+    <pkg name="com.amazon.whisperplay.contracts" ceDataInode="-4294828925" />
+    <pkg name="com.android.providers.media" ceDataInode="-4294828922" />
+    <pkg name="com.amazon.device.rdmapplication" ceDataInode="-4294828919" />
+    <pkg name="com.amazon.venezia" ceDataInode="-4294828915">
+        <enabled-components>
+            <item name="com.amazon.mas.client.appupdateservice.PackageStateReceiver" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.amazon.dcp.contracts.library" ceDataInode="-4294828912" />
+    <pkg name="com.android.wallpapercropper" ceDataInode="-4294828909" />
+    <pkg name="com.amazon.zordon" ceDataInode="-4294828906">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService" />
+            <item name="com.amazon.identity.auth.device.storage.DirtyDataSyncingService" />
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.protips" ceDataInode="-4294828902" />
+    <pkg name="com.amazon.whisperjoin.middleware" ceDataInode="-4294764075" />
+    <pkg name="com.ivona.orchestrator" ceDataInode="-4294755712" />
+    <pkg name="com.amazon.device.sync" ceDataInode="-4294828896" />
+    <pkg name="amazon.fireos" ceDataInode="-4294829052" />
+    <pkg name="com.amazon.device.smarthome.dshs.multimodalux" ceDataInode="-4294828893" />
+    <pkg name="com.amazon.device.logmanager" ceDataInode="-4294828890" />
+    <pkg name="com.android.documentsui" ceDataInode="-4294828887" />
+    <pkg name="com.amazon.appaccesskeyprovider" ceDataInode="-4294754291" />
+    <pkg name="com.android.externalstorage" ceDataInode="-4294828884" />
+    <pkg name="com.amazon.diode.eventsender" ceDataInode="-4294764068" />
+    <pkg name="com.android.htmlviewer" ceDataInode="-4294828881" />
+    <pkg name="com.android.companiondevicemanager" ceDataInode="-4294828878" />
+    <pkg name="com.android.quicksearchbox" ceDataInode="-4294828875" />
+    <pkg name="com.amazon.alta.h2clientservice" ceDataInode="-4294828872" />
+    <pkg name="com.android.providers.downloads" ceDataInode="-4294828869" />
+    <pkg name="com.amazon.alexa.beaconbroadcaster" ceDataInode="-4294828866" />
+    <pkg name="com.amazon.comms.knightcontacts" ceDataInode="-4294828859" />
+    <pkg name="com.amazon.symphonydeviceclient" ceDataInode="-4294828856" />
+    <pkg name="com.amazon.dp.logger" ceDataInode="-4294828853" />
+    <pkg name="com.amazon.ods.kindleconnect" ceDataInode="-4294754157">
+        <enabled-components>
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    

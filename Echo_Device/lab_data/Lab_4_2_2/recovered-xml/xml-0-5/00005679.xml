@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<job-info version="0">
+    <job jobid="-331393863" package="com.amazon.spotlight" class="com.amazon.spotlight.arcus.ArcusService" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1697912727263" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="21600000" flex="21600000" deadline="1697955892197" delay="1697934292197" />
+        <extras />
+    </job>
+    <job jobid="1025" package="com.amazon.spotlight" class="com.amazon.spotlight.service.LauncherJob" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1697923527742" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="1800000" flex="1800000" deadline="1697927092197" delay="1697925292197" />
+        <extras />
+    </job>
+    <job jobid="-848196814" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.configuration.ArcusSyncJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1697843614468" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="4320000" deadline="1697934292198" delay="1697929972198" />
+        <extras />
+    </job>
+    <job jobid="-1587497751" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.modules.DataRefreshJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1697923423796" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="1200000" flex="300000" deadline="1697924692197" delay="1697924392197" />
+        <extras />
+    </job>
+    <job jobid="322050388" package="com.amazon.theia.sm.remoteagent" class="com.amazon.theia.sm.remoteagent.arcus.ArcusSyncService" sourcePackageName="com.amazon.theia.sm.remoteagent" sourceUserId="0" uid="10154" priority="0" flags="0" lastSuccessfulRunTime="1697923533270" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1697925333232" delay="1697924433232" />
+        <extras />
+    </job>
+    <job jobid="-1535370665" package="com.amazon.mlv" class="com.amazon.mlvlib.arcus.ArcusSyncService" sourcePackageName="com.amazon.mlv" sourceUserId="0" uid="10072" priority="0" flags="0" lastSuccessfulRunTime="1697924323275" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1697925523064" delay="1697924623064" />
+        <extras />
+    </job>
+    <job jobid="0" package="com.amazon.alexa.beaconbroadcaster" class="com.amazon.alexa.beaconbroadcaster.versioning.PeriodicVersionEmitter$VersionEmitterJob" sourcePackageName="com.amazon.alexa.beaconbroadcaster" sourceUserId="0" uid="10057" priority="0" flags="0" lastSuccessfulRunTime="1696279871923" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1697162120347" delay="1697162120347" />
+        <extras />
+    </job>
+    <job jobid="-317380259" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697912727112" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1697955892198" delay="1697934292198" />
+        <extras />
+    </job>
+    <job jobid="-2094627781" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697912727128" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1697955892198" delay="1697934292198" />
+        <extras />
+    </job>
+    <job jobid="-1285906452" package="com.amazon.readynowcore" class="com.amazon.readynowcore.arcus.ArcusSyncService" sourcePackageName="com.amazon.readynowcore" sourceUserId="0" uid="10019" priority="0" flags="0" lastSuccessfulRunTime="1696279872175" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="86400000" deadline="1697162120347" delay="1697162120347" />
+        <extras />
+    </job>
+    <job jobid="108317" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.lockersync.sync/amazon.account/AmazonSyncAccount-6957b355b974dde07bb47bf8cd86218da71f3ce800784526ba4345cda0abf63b" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697843675531" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1697934292199" delay="1697929972199" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.lockersync.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="108317" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">AmazonSyncAccount-6957b355b974dde07bb47bf8cd86218da71f3ce800784526ba4345cda0abf63b</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <string name="packagePlusVersion">com.amazon.venezia-2710</string>
+                <string name="syncIntent">#Intent;action=com.amazon.mas.client.locker.service.lockersync.PERIODIC_LOCKER_SYNC;component=com.amazon.venezia/com.amazon.mas.client.locker.service.lockersync.LockerSyncService;S.lockersync.syncType=PERIODIC_SYNC;S.lockerSync.doNotRetry=UnusedValue;S.lockerSync.sort=purchase_date;end</string>
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="109532" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.tokenrefresh.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="1728000000" flex="86400000" deadline="1698614400799" delay="1698528000799" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.tokenrefresh.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="1728000000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109532" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="109523" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.syncConfiguration.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697910172442" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="50400000" flex="2520000" deadline="1697963092198" delay="1697960572198" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.syncConfiguration.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="50400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109523" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="2016000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="105311" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.uploadMeasurements.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697920673407" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="3600000" flex="300000" deadline="1697924572812" delay="1697924272812" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.uploadMeasurements.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="3600000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="105311" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="144000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pÿØÿà JFIF      ÿş Lavc58.134.100 ÿÛ C 		"")ÿÄ š                              1!AQ"aq2‘¡Ñ±ÁRBr#b’‚Cğ3áÒ$ñcsS       1!QAa"q¡‘2Ñ#Á±ğBÿÀ   @"   ÿÚ   ? ö.v˜ºiNe<;4£=§ZNtv"i9Òç@EN´¹pV—irà:*Ó­%ip
+!iÖ“ ¢•h¤Œ]W¤e:Æ\¨fAı%úó>ıÉûk5Ñ+i;"o·U-‰r.N}(æ,öG/Ô(À*€jÍ>k“šcÈáğÉ×àö”÷ÿ ÜŸ²s],Î­,Æ[B®t×#K—8ÅtZÂv©F\¡™îÆ<jÑ
+N™½Â€•D¹±^Û÷á)1w%‡Ö<¿n	eòüë½Év)ÿ Ü­è¬½ò3?ó}_qÁzæÉç
+µLöi¿íOÖø{£31W]b'Î8«S}7¥R¥…lÇóš‚òŒÚ†Ğ“©à¼íÆsErëá~„*Uu^ü	CKO‰aZÅtA
+Ó;Scmæ’†ÓHKq”6{[y ­á¶6RS05,©‹_)Õé&š[ßÊ5İùëö4»V¡¶+u0’¶Ü±õŠeoÍEëåÖ‡Pv¶*¡Œ—séW—*ˆ*FJF1*\¨NUí-ÈJB>Å•.ò§œ::t©qØ¨©zo:Zp°£' é’áfÅm:SxÚÇBv’Bß	¥–òõi……vO”í¸MCSmÜîâŠØQ’tÙd|-*p°'¢øJKxì(QROŒD©±|æ„vœÉ8¬¬K“jmu6lLaaFF)«=ãG«şÉé]SQˆü5gúél›şàÁı#Í¥ZR“Z0<©şÁêùEHG7Mq§í[Ìÿ +Ã]?$|®R…T„h§Zª,5½ì×wkyOc´òïÜ¹•‘îv€]Js{±K’à¿RÉ)ÔMq÷?¹óìHÛoY»%Å.o–ĞFY‹¦/šSQgYÔ3m»j»Æ×Šä]èò[Æ‹ÆılÚb–ï	`ŞMx–ûÄÿ ”-ø–şÖó::{“Ò›Ûuzº4íqBÉ
+Z—Ò7ºÓºöÅ¯txÕÍ+¬lº5R~Ë{ù{œ4-:7»+|£w*=úâ;¨W)|#—àæÕÌt“R¶{/¦Æ¹+úÁRÓ³©•:tè©RR „“•bJ’Ô<ä½*~Ñ%yæ”\èf²õ„Å¿X·p|£±Qjt~Ÿ5Yº$ìŒ~p½¯-IWÌ¤ûëš…ˆÔ;K%x—ty©à“Ø”C$ÅÉ$”‚ª+S`üÊ„åŞdyªc‰/œSâ)ã¨m ¡WnR½Ñ‹¡ùÇæ§<ÕúÇç %;MÔIfi?8™gòâZ]@O•Ô ĞéùÄíhšÏeÛ·p~j#[ªe(ÛUPWÃu 4ÎJÌu|.£¨-y9!×²¹ÂjúüÛGÈPq¨ÆıÇÓkP½#«r<4¤¿ß¾;*ul•'bªõQ©û—:œ±ª%{«]r‡6‹†§…æT©]/fÄ#è°~ù¦ÔZJ›ÄùCu(ªl—5¼i2*9–CµşëÏB¤×äkÓ%öU%dØù¬`¿é×/Ci½Ö­¡
+UÑŠº´Ğ˜>2T¥¥O§äªT†ˆ¤7Û›¼nõÀf =ĞQ!_Æ[ı‘ÆguaùÆ>q5˜«æOë¼¼İ&ßCìJ¢«¨_¤–Öæ¾ç*n™6¸ot×¡æÚùÇ]1UÅ®,Wİ'/îÌãú¯‚›,£2İ2Jß‹ôá¯ÂßßD"Y>ÛÄÛ÷5ö·¤"ø3–¤S—8©ºnÅ³åÆF2Nr¥Êp¤¥@o.­™Ò×|®İæ<Ör½T©™ˆò˜Š«dÂÛc2Òê. ’²Ò¾³‘G¹Õé´¨$YÑ¢=Ü±Úæåeº÷RªLÉ'Æ'“ YœÀˆé¦$È°ÛËœ™Ì0ÌÔ¤}²c¬}—n*RIÚ×½ô&_¶º™ÌÈ½ª›oÎ'O3Pnõ|]ÜO3To­j‘©\K‰jrA·Õë‹²¨iúÅ©çQ"u	ûö:nÄê2eÉE4E²6.SÆ»ŸÜ}[3¹c^ø…>±Z›lkeç!˜-,Hµ8½4í¸Åí¤;ğ9ßRÎhŞ¡ï„Êºd®S_æƒVm‘•åj´Õäìğ>%›­W¤íıÎ-ñ•ˆlUNßÄàõ+¢Q™ƒ¦¬šqì@ïi{üÜ¿‰;ûGş'ßY;İM3{íƒj¨lª¿÷8›®Uí·ÎûÁu­RÅ«u(3¾œ{Q!GX…bWòn"FD¸¿WyW#½İ¼¤Ô=ïªrnÄ¶šÄÉ½¶‚¿¿(o#M×·„Ÿ¦ËŞOh¥Hq³mJ¥µ=Öï‹´,t©–\ÉìĞì¹'ÏÍ¸*¾f†H4‚EU´¬½•üoğÅÅC8'K¶-2ınû“\½÷·”Á¦ùFˆdg©ØÏ†ÏÜ£4?ÎúOCêï·X¹5µé]“ãvçf)WØ‰!z.Â¦úl-„Ğ¯÷¼#L“XJfÑç‘lcW©
+ï’^®:[Ò-ÆªO3œKó?½ÊÃÃo¢3ÎÕ%Õ“£~ÊÓˆïhs)›³°xAõ)R¥—ıêó>ÛÔñöüšŠu/Î†kØ:s)+%mıfzÔ¨déÜt•Vö#ıŠåß”Í‘ÌÔ­bó›ëåF¸‘+‰¾-ÜWºcS¦Ç(^ˆlÔ»6Û»¾ïŸœNNª*fÄ•š›Q‰Ò­.Sp12+K"ˆûR’êyŠ„ÃAš^‘
+³ÇTN›LØ'´Té™"^N?W_“©'v‡@Ó[+™¢/MíHÛ½d—‡w)f–¾Ù;?i'h,óWZSwÂƒ“}¬2º}C:D†Ïÿ yš¦[»Aï3][À½Î&Y–ípã*8æ¿ú1ÜŠÌf~í¦ê$ë*«VÊnÌ¡«MYj±† ¦ğjKÊàZ2]ãX8ªÌÖÁ›“miOBRÿ l«*„Y²x¹h‹œÑM^÷HŞ~±ˆ÷	qs»ÍÍ(˜ï¡M™ìÔ„¯~,tU7ñE¾ W°¡%›"H{üIÔË˜®…ÿ Ä>è®ŞŸP®5(3hÓm±½µz+ÁßÃ¶;ùB!ÖóZ`©ÓÆÍÉ’}—ÔKäÑğyªÛ…
+»cšéåód@I¼î˜î^³Q1#«-¾w†º5|Í<µlîj¦º¨˜SNÖÕ•’Úø¶ø$¹ÌŞø«{~.Øø}EÖJEws¯ÆÕÃ.±ÿ ?ÙÍu"b»`©’Û‚ä+~xÌƒ©Z£:„Í¾.@|bÁû¤Uòù-*TÍ‘Ô¹ğá¡:‘"x–éò{oó_-gµ×ŸœW.tÏVïRµÿ »ªªõàeP´¼ıü£hÇV<Vóy:µÇS&Êøós]–û_'€2 µq|0›’Ğ“™Q¢4¸Ûîš\Rå(¼zÎTÓD¹Úé,èsÔ?RJêû-Şéd©fé6íã·‹§F5şr1ÌıpùS'¨DÒßOÖËoü²Ù²şÇjjš±Ó¸şëmo]­êk
+üÛzŞr§ék¡£\„r´˜Ô­ghà W\àğW§Ì‰ÙBMSÛ•¤ë==Ûâiî¿Zü¾~‘µºš4ÄÀ„·F˜µå<ó5EĞ­R“ı×»‡ÒmwÇC‘§}LŒä§v‰·62³rV´¼$5jv[¸j²ÑÈT³Ôì¹Dkô‚¨¼2Y°¬'RÍ
+w~éjvğ7Ã¢÷Ôñßgñ¼ËDÅ‰ÙoUsc{(:¾£bÀÈw¾ÎRÉ>¤µ
+£ûc8 Ù«nğûfjİ5VÊ›ªu*hÿ ÷Ç|bÔêµâ÷%w|‘í¡”];1–Ú n”ÊYZÕ-¤mhùÍºb®÷ã¬Úr£6ùïô€…B¢Ù½øD jD'ºô…ô¬YR!ŞÊë™~ít)E6
+¤5Š¡xZÓuŒÏYf©TÓ§Wğ«Ç
+µå{o†Òk»ÛÃçh,Üö‚®àøÚ‰µDšXíöÂ¨‘Óñx°™Š³ªüÒ™ÑodøÍsíFRj:rXÒ:kwªşQ¦RM6¡˜í
+Ô“ó™Ñ†­TÅoŒM=P”ÖŒTì°‰9_Hâ­,ÃEo) :e:dØ©›Ë·[³XÅ>ƒc$êÓ>ådÈFëJçŒÒÉQ§f7eT…ãsÂşŠIå-ö\¥u•V–D~B¢÷=ÉiCÙ´Îü@Ÿ(šÙË¢î-Nƒî3«ÓO~¥DMºÚh-ÂÜ§P~Û8'À¬²Ëhb[‘iæß§Oogl7‹fYfª÷²Ç¹ãïp•eßÊ‘=²û¥şµõ§…DÄ5uq÷§5Ñªª1·´XŠÇÍÁ•åª?ÊXùyı³VV±ekª€Z]ˆodÕYìï:eKkñüC#†G	|¯$zàœî–Y¼õ1X ‘æÒÇæÕ½&låMe§îı¯’íÒ<É{U< ¹xÿ ™ÁËf/%5»/à×R‘eŞª„÷ğ3åÀNÜÆ"º3Ëøµ'w¹=ÙÔ7›V›¥Ïw¢ÏáÊ•LGa|×	Év¯înG-E]SOäi¤—9
+„€dˆPÚ|£o÷[A†e-‹ÀÄ°~õƒÛÎO=–øÜ•J\HŸ"[‹ùË‹Û$Éš´yµÔ¦IL‚F›ö“³õ“Ì¥I
+¾ío;vrrn²5+r—–uiTFÓ^s›iÙÚ
+€ÆÍ»Kkjê!ø=F­s¹xR›¨æ‰mŞ4‡1n3m,İ§<±®†ê~G-JäÊûÅ)f™?L`QÍí¾×ãİAM¦œËÛ¾ÅoC²m`¦‰cgŒfå³$êİ»CbwWeiœ±QjvhÎf®pÕHĞáy²©‹[;Ä*åuuÿ r¢”|ùĞÛÜM–¼3Ov¡ |5`ÃT½Db2NCÅz2Ôë°dó³²‚ëuB!i<xÌFn§¶ˆ¦
+Û[NÓ£§Ï,Ã6Y5Á¹Vd™j½¥dŒ[ox«¡m·µ°\ä†£A¨î¿,éq9T›Ö«fîö‰QÌ´ı­¹Fæc1Z¡iíÆÉQªt†ã¥ğ..'‘VúªuÒlb¡Z±ÒíÎFè­Ëu"=D‘[„Áã¾Æ‘ÉC…u*ˆ/½÷Šç^£'ÍÁÔ³yQh˜]¿¾oÌã¿“ù©Ï·kÒ¸Ër3PvqY”
+Äı/ò‹#¾üàĞÅ¢MxHx<bŠq+ÉĞf
+Ê^R¦ÇKëñ‹˜İAåzF‹“šj„ÁW$„ŞÛëñİ,Vœm„ôõ™ËöZ‡ñQƒğÇİi¶¶Œ³B2Võ\§İN\F×v&ïëøpƒÓÉSÉÓv¶ÊÊy½dh½«;^ÜZ_îñáÒ3½ü°'?ü¾VxÜWC<o]ZOè8¶Ûx¹/iÈº‹–óé:×~qTî×µö—›P‰6Éù7òPO.âGÅïWA+Ú¢î0K~4¡NÏºÆP²İ^¥‡ÁRÕVÛx–ÿ [ÀÕF­R{%¿ııĞhR®;5zdüêñ†?½ñø›”¼WØãœ¶NJ¿ó5e“¤	;9¥•Ö
+gÁc#­²B;¾JU÷25£ju:Í'ı6µ·p´åÓ‰pW“º&ÛX…JÎÃl\Ñ•"$Ñq•ğ‰MŞoö¶Ë	.\pUÛÇç yÊÍö™0ZšxL%˜»{F£ÔÊsz Àfš¶ğîR¿rÉ¸Ë¤OUŸ!½JPZ.22cM)É1ô46w,d'@¼ÜK/š¦—Œ–…,îUí9À÷&z0kÈÓx^e>š®ü>qÀ5é;»Y,<äÈ•°VpYf»‹lXÌ«Óòâı›ÊøJUoqÃé5Hñrsb•÷
+_Y~ôŸv/n=Ù<šÕ¸ióš†‹¨ÇIn&ªµ
+öc„ŸP¥W/ÒhTI£ÏZ–!D8/ÿ BÇÉMc)I¯$N1Hnf‰êjøc0§¨ì½Óv`Iø´´ß´¼ùúAŠº¦wÚó®:n>¡×Ğò%ÍˆŸüTìu•öRKÃ½@“¯Y¬5;M}.˜dzv\ğ<À¼Á¾wö¸~÷æ	]~¥|á”œ¦ú.Ø-©¿÷Ltój•Tö'òsCÅ§ƒ‚kĞ±KCc ]Ôš('§×"L„ÎfÕ:¢#R‚;Èw-U¤ò‡fJdYbĞ[}#O?•Ts¦¿Ó1f>­¤×Ö<3áÂñ±ÔÛµ2şı?4ßá6Ç¯Ê3›á¼ß€À¹9»¥×ølŞŸÒvúáõ™³Jâ^S;vF<6¿ÕN¿ÙWÊÿ “ôF^ÿ ÑëTI§¶mP7MÌw²ôÊøŠùñ„ñs\é—[Ä-y8$´"[Kc¼ cİsäü_5.4äW¬ı!:n¦W¬ázn9!"=^‡ÅtÌÀbĞ3QŞy¸Q§¡[ŠNêz°x…§Å5óSÍó¹Z}6 Ğî÷MË@»&Ú¼ZXÚoıwqq¾nÑd“Mü0iĞ«©Ü|¦Ú4ÂˆÙcÅñsÖ|5|¢]Ó|	ûœİÆMShÅ8­ßõ!ZmÂcÍfÖ¤iµ8¾g£ŸoPj¿)ŒzMC°Ô"\…+ÌVÍlİîèdøİÛou.¡­”%ı€…êÜy;ï0æzJTõÑ=c*àû“SFà¶DŞíLŠ¢¬\áÉæSñ%§3«vV\f‰¥ÜÊQoAJ:ˆÖĞ…Ğ=şQo‡
+Aàm¾n#R“Ùİ73nËQ£m:ãSÂ“Š:Jî!M…0¾¯áÎ(ó”ê­$¿)‹“7.£ W§õS/t	§ÉÛ„ã¦üV“íÄ­Ìsåú½-»ßX³êS{=IÆhé³ñN*õ)Ûd‡ë³îØóEN¹«Y´¶^­‘¢y:b’ÓA$ä”ñü¾xè1¾Í÷OZÍçG1ÑÂ°ÿ ªƒë3”ÜyßT¤+O‡ƒWXÚÈtL™Ôïg3©kÒ)¢-O{•˜ˆŠÜ±o£š­>âŞgTô	+bšùÍa›ÓWLOİo’u:®[â~‰J­JRZ[Ò­ìİøo²ã,Æ×€O#RÈ	^øÛé„Öó„6‰¯îáëÎœš7]…¹Lù±Á]oŠòŠüE4¯uTªU—ûR’vM£M:º½Î«^ä’†‰ÆÙ;RxüÜ:ØùE>ÀQ9Zš“jñ+Ùï$Õ&Ôå“ä®¾PÃÒælĞ&
+ø5øJN™XÏ=Û\ÔB:oÕy4ÿ N¥Â¥Ÿæ‚Õ/ÏyÛ_NZ[~~¿ãûv¿r‡-½¾ñÏB¥ösÏÿ oæ{9ÁìÕNŸ¿úíïdç&hÔßNè;Šƒ3[TÍZoº™s"ÏJJïy”54`Š[UpÀ•­Õšû›©r%©¸ÛëUhå37:{TZ’O|‡Áì¥fº1u°`$ èÒ©TˆÚ¤Uñqb’„íéÜœ‹tFJÍeÔ)şV¾ØB–rEb
+şT¾ª5PßlI‚âü½"È—¢s¿ldr[G­V©]—…‚^n,y ¢µy@,ô«ùÈVm?iá8¶'ÜìÜU©féøñáy„‘`‰¥ÂŞÌ'àöŠòK7d‡ÄÜ{+@İfzËI´ÚóQ\±-{+;Z%Z‰g{]|â,kjÿ )¢Jµ"İèmÍæÂ˜ØÉãÊ<ÌÖY3Õù¥®š/|%'¢jR<ËXE©W.à“^ï–@.•¯~\'|ŒÜ!¾#Û#.{=j‹´Ş—lbûÔMßkÎ©”·OÖNM.*Kªà9± 7v·)}¦or÷EuÜ’Óë¸ÓkÖ"ŒÈyÇŸKÎ"é@¿Ó¨_-Úûã,ï{ÚkËæL=”ìÜ™Çré‚¬)ËÔ'GZ¡_t~µ"V+y;Ì=—ÔÓxä*IÌuršÔFQOc„½3Á©>¸uW#U^Êş›LÅMÓ Å¦›¨;¾_ïìÚ`Ïèí­•ï”Ò9¤øh©ú¶Z,~p ”À ÍŞmÚŞRåÈX¸Ÿ9m'2;§/Y)4*ÆÒŒYÒ%"'y¨Ğ—¯ßà>~›G{Zó6ˆ¡‡ˆwPÿ Z ´¦¹ÆöZ§n£Og\Å>‡%m”×G»ğõ0‰:gqmYİ<jzW©RÌQ2BvH½Wnq—¡Û4cìşWÿ ¹¾˜ºyJU.B»šJÖ½Œn/tùG8¬‰3MÎ#Ô3Ù{È¾¿dÙ–ë,¥MfiİYx%÷}##µÿ ÛWüAÿ „É\ÏÂu­®Èqÿ 
+™,1êÆò?Ÿ7šÊ÷ŒÂ ±"d¬‰-÷¶êf§›¤Eí¯¯ÙĞ UIÓ×QøY{Cd–-½8HvÚvîŞaÿ Œ·=X–F<¿¨eÅ%ÜMíd¯öJÎ×£˜ËT¤€¥Néok_u~n5©Òÿ S^ğÿ Â[5ïÁu}ğØfk¾O'ºVRŸb¢3¦4ÒÜÉî‰pÂ®t)?lJü¯öE“Ê¼±ÍfQûZ¦…—ª¦àZ¶®lïÏş’›cƒWm˜ÎKÁÿÙ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

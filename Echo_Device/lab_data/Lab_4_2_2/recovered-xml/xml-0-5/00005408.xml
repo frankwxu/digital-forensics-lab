@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:version="2" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="sv">
+ <head>
+  <styling>
+   <style xml:id="s0" tts:fontFamily="sansSerif" tts:fontStyle="italic" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+   <style xml:id="s1" tts:fontFamily="sansSerif" tts:fontStyle="normal" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+  </styling>
+  <layout>
+   <region xml:id="r0" tts:extent="100% 15%" tts:origin="0% 85%" tts:displayAlign="after" tts:textAlign="center"></region>
+   <region xml:id="r1" tts:extent="100% 15%" tts:origin="0% 0%" tts:displayAlign="before" tts:textAlign="center"></region>
+  </layout>
+ </head>
+ <body style="s1">
+  <div>
+   <p begin="00:02:39.708" end="00:02:42.208" region="r0">Vad har du ställt till med nu, Aelita?</p>
+   <p begin="00:02:42.541" end="00:02:44.875" region="r0">Vad har du ställt till med, menar du?</p>
+   <p begin="00:02:47.750" end="00:02:51.000" region="r0">Vem hade trott<br />att du skulle få så farliga vänner?</p>
+   <p begin="00:02:53.583" end="00:02:56.041" region="r0">Jag gick sex månader utan skor en gång.</p>
+   <p begin="00:02:56.125" end="00:02:57.291" region="r0">Minns du det?</p>
+   <p begin="00:02:57.875" end="00:03:01.958" region="r0">Otroligt hur ens fotsulor<br />kan bli hårda eller mjuka.</p>
+   <p begin="00:03:02.041" end="00:03:05.708" region="r0">Beroende på miljön. Precis som själen.</p>
+   <p begin="00:03:08.750" end="00:03:11.291" region="r0">Minns du vad som hände med mina skor?</p>
+   <p begin="00:03:12.583" end="00:03:13.791" region="r0">Du gav dem till mig.</p>
+   <p begin="00:03:16.208" end="00:03:18.416" region="r0">När jag hittade dig, gav jag ett löfte.</p>
+   <p begin="00:03:18.708" end="00:03:20.166" region="r0">Att jag skulle rädda dig.</p>
+   <p begin="00:03:20.250" end="00:03:21.125" region="r0">Det gjorde du.</p>
+   <p begin="00:03:22.583" end="00:03:23.458" region="r0">Gjorde jag?</p>
+   <p begin="00:03:25.166" end="00:03:26.416" region="r0">Vad har du i kikaren?</p>
+   <p begin="00:03:28.958" end="00:03:30.333" region="r0">Jag räddar världen.</p>
+   <p begin="00:03:30.416" end="00:03:32.875" region="r0">Vår värld går inte att rädda, det vet du.</p>
+   <p begin="00:03:32.958" end="00:03:35.000" region="r0">Jag menade inte vår värld.</p>
+   <p begin="00:03:42.291" end="00:03:43.250" region="r0">Adjö, Wolf.</p>
+   <p begin="00:03:45.041" end="00:03:45.916" region="r0">Aelita?</p>
+   <p begin="00:03:49.708" end="00:03:50.708" region="r0">Aelita?</p>
+   <p begin="00:05:14.166" end="00:05:15.333" region="r0">God morgon, mamma.</p>
+   <p begin="00:05:16.333" end="00:05:19.250" region="r0">Jag tog med kaffe.<br />Försiktigt, det är varmt.</p>
+   <p begin="00:05:19.333" end="00:05:20.166" region="r0">Tack.</p>
+   <p begin="00:05:20.250" end="00:05:23.125" region="r0">Varsågod. Jag lämnade en smörgås i kylen.</p>
+   <p begin="00:05:23.208" end="00:05:25.291" region="r0">Burton får göra en själv.</p>
+   <p begin="00:05:25.375" end="00:05:27.791" region="r0">Han åt din igår. Jag vet det.</p>
+   <p begin="00:05:27.875" end="00:05:29.041" region="r0">Jag var inte hungrig.</p>
+   <p begin="00:05:32.291" end="00:05:33.833" region="r0">Du kan inte gå ner i vikt.</p>
+   <p begin="00:05:33.916" end="00:05:35.833" region="r0">Du kommer att bli inlagd igen.</p>
+   <p begin="00:05:41.958" end="00:05:42.916" region="r0">Burton!</p>
+   <p begin="00:05:44.208" end="00:05:45.166" region="r0">Skit.</p>
+   <p begin="00:05:55.041" end="00:05:56.250" region="r0">Öppna, Burton!</p>
+   <p begin="00:05:57.333" end="00:05:58.166" region="r0">Burton.</p>
+   <p begin="00:06:02.333" end="00:06:05.541" region="r0">Varför har mamma bara kvar 10 mg Tamosene?</p>
+   <p begin="00:06:05.625" end="00:06:07.333" region="r0">Ta över. Jag måste kissa.</p>
+   <p begin="00:06:07.416" end="00:06:08.875" region="r0">Har du bytt piller?</p>
+   <p begin="00:06:10.083" end="00:06:12.791" region="r0">Har du bytt piller med mamma?</p>
+   <p begin="00:06:12.875" end="00:06:15.708" region="r0">Skulle jag verkligen göra det, Flynne?</p>
+   <p begin="00:06:15.791" end="00:06:17.583" region="r0">Hon har ett 10 milligram piller.</p>
+   <p begin="00:06:17.666" end="00:06:19.416" region="r0">Och bara ett.</p>
+   <p begin="00:06:19.500" end="00:06:23.333" region="r0">Du har inte bara bytt ut dem,<br />du har stulit dem.</p>
+   <p begin="00:06:23.416" end="00:06:24.708" region="r0">Jag behöver pengar.</p>
+   <p begin="00:06:24.791" end="00:06:26.583" region="r0">-Hur mycket?<br />-Hur mycket har du?</p>
+   <p begin="00:06:26.666" end="00:06:29.666" region="r0">Tusen på nästa nivå. Du kan hjälpa mig.</p>
+   <p begin="00:06:29.750" end="00:06:32.708" region="r0">-Det är bara ett piller.<br />-Som räcker en dag.</p>
+   <p begin="00:06:33.375" end="00:06:37.375" region="r0">Jag har något stort på gång,<br />vi har resten imorgon.</p>
+   <p begin="00:06:38.541" end="00:06:39.375" region="r0">Låt höra.</p>
+   <p begin="00:06:39.458" end="00:06:40.291" region="r0">HEADSET INKOPPLAT</p>
+   <p begin="00:06:40.375" end="00:06:42.458" region="r0">Nazister i huset. Vi är i ladan.</p>
+   <p begin="00:06:42.541" end="00:06:43.500" region="r0">Vilka är "vi"?</p>
+   <p begin="00:06:43.583" end="00:06:46.125" region="r0">Jag, Reece och nån kille från Kalifornien.</p>
+   <p begin="00:06:46.208" end="00:06:48.208" region="r0">Han anställde oss att nå nivå 20.</p>
+   <p begin="00:06:48.291" end="00:06:51.166" region="r0">Han ber oss att "chilla". Jättejobbig.</p>
+   <p begin="00:06:51.250" end="00:06:52.708" region="r0">Reece är han i baskern.</p>
+   <p begin="00:06:53.916" end="00:06:56.125" region="r0">Skynda på! Jag är redan sen.</p>
+   <p begin="00:06:58.666" end="00:06:59.958" region="r0">ÅTERUPPTAR SPEL: EASY ICE</p>
+   <p begin="00:07:20.500" end="00:07:21.958" region="r0">Har du ingen skam i...</p>
+   <p begin="00:07:22.041" end="00:07:23.208" region="r0">Kroppen?</p>
+   <p begin="00:07:23.958" end="00:07:25.916" region="r0">Släpp ut fåren åtminstone.</p>
+   <p begin="00:07:35.500" end="00:07:38.833" region="r0">Snygg basker, Reece. Väldigt stilig.</p>
+   <p begin="00:07:38.916" end="00:07:39.916" region="r0">Flynne?</p>
+   <p begin="00:07:40.000" end="00:07:41.000" region="r0"><span style="s0">Var är Burton?</span></p>
+   <p begin="00:07:41.083" end="00:07:42.083" region="r0">Han pudrar näsan.</p>
+   <p begin="00:07:42.875" end="00:07:46.041" region="r0">-Vad letar vi efter?<br />-En karta.</p>
+   <p begin="00:07:47.000" end="00:07:47.875" region="r0">Hittat den?</p>
+   <p begin="00:07:50.750" end="00:07:51.958" region="r0">Vad gör du?</p>
+   <p begin="00:07:53.083" end="00:07:54.125" region="r0">Öppna dörren.</p>
+   <p begin="00:08:10.916" end="00:08:11.875" region="r0">Jag är tillbaka.</p>
+   <p begin="00:08:11.958" end="00:08:12.958" region="r0">Ett ögonblick.</p>
+   <p begin="00:08:14.291" end="00:08:15.625" region="r0">Sätt fart!</p>
+   <p begin="00:08:45.750" end="00:08:46.666" region="r0">Lugn, kompis.</p>
+   <p begin="00:08:48.333" end="00:08:51.250" region="r0">-Vet ni varför ni inte hittade kartan?<br />-Varför?</p>
+   <p begin="00:08:51.333" end="00:08:52.916" region="r0">Den hade inte anlänt än.</p>
+   <p begin="00:08:58.333" end="00:08:59.958" region="r0">Skicka pengarna till mig.</p>
+   <p begin="00:09:01.666" end="00:09:02.750" region="r0">Varsågod.</p>
+   <p begin="00:09:05.791" end="00:09:06.666" region="r0">Reece!</p>
+   <p begin="00:09:08.583" end="00:09:09.958" region="r0">Vad fan hände?</p>
+   <p begin="00:09:11.166" end="00:09:12.166" region="r0">Flynne hände.</p>
+   <p begin="00:09:53.041" end="00:09:53.875" region="r0">UTTAG</p>
+   <p begin="00:10:12.166" end="00:10:15.250" region="r0">Flaggar Homeland Security alla uttag?</p>
+   <p begin="00:10:15.333" end="00:10:17.041" region="r0">Det låter rätt.</p>
+   <p begin="00:10:17.125" end="00:10:20.208" region="r0">Nuförtiden används kontanter bara<br />för olagliga saker.</p>
+   <p begin="00:10:20.291" end="00:10:24.166" region="r0">Är det något du vill fråga, Tommy?</p>
+   <p begin="00:10:26.083" end="00:10:27.541" region="r0">Hur mår din mamma?</p>
+   <p begin="00:10:28.333" end="00:10:29.291" region="r0">Hon mår bra.</p>
+   <p begin="00:10:29.833" end="00:10:31.250" region="r0">Tack för att du frågar.</p>
+   <p begin="00:10:33.291" end="00:10:34.500" region="r0">Vad gör du här?</p>
+   <p begin="00:10:34.583" end="00:10:37.250" region="r0">Har Macon och Edward brutit mot lagen än?</p>
+   <p begin="00:10:37.333" end="00:10:40.291" region="r0">Inte än, men ge dem tid.</p>
+   <p begin="00:10:40.791" end="00:10:43.125" region="r0">Jag släppte av en order för Dee Dee.</p>
+   <p begin="00:10:43.208" end="00:10:45.833" region="r0">Tårtdekorationer till vår bröllopstårta.</p>
+   <p begin="00:10:49.791" end="00:10:53.750" region="r0">Jag borde nog gå och hjälpa dem.</p>
+   <p begin="00:10:56.416" end="00:10:58.666" region="r0">De behöver en vuxens tillsyn.</p>
+   <p begin="00:10:59.583" end="00:11:03.125" region="r0">Billy Ann väntar på dig. Med bullkanter.</p>
+   <p begin="00:11:03.208" end="00:11:05.541" region="r0">-Du har blivit varnad.<br />-Tack.</p>
+   <p begin="00:11:06.666" end="00:11:07.875" region="r0">Vi ses, Tommy.</p>
+   <p begin="00:11:14.791" end="00:11:16.958" region="r0"><span style="s0">Du sa väl inget?</span></p>
+   <p begin="00:11:17.041" end="00:11:19.541" region="r0"><span style="s0">-Vad skulle jag säga?</span><br /><span style="s0">-Kanske...</span></p>
+   <p begin="00:11:19.625" end="00:11:21.125" region="r0">3D-UTSKRIFTSTJÄNST</p>
+   <p begin="00:11:21.208" end="00:11:25.250" region="r0"><span style="s0">"Jag försöker föreställa mig</span><br /><span style="s0">hur det måste vara för dig,</span></p>
+   <p begin="00:11:25.791" end="00:11:26.875" region="r0"><span style="s0">"att stå här."</span></p>
+   <p begin="00:11:26.958" end="00:11:30.916" region="r0">Sen säger du:<br />"Jag kan inte. Du är för snygg.</p>
+   <p begin="00:11:31.541" end="00:11:35.000" region="r0">"Det är som att föreställa mig<br />i ett lejon."</p>
+   <p begin="00:11:35.958" end="00:11:37.166" region="r0">Ett lejon, Billy?</p>
+   <p begin="00:11:37.250" end="00:11:38.666" region="r0">Välj ett djur.</p>
+   <p begin="00:11:38.750" end="00:11:41.291" region="r0">Och sen, sensuellt:</p>
+   <p begin="00:11:41.708" end="00:11:43.375" region="r0">"Värderar du din tid?"</p>
+   <p begin="00:11:43.458" end="00:11:45.625" region="r0">"Visst", säger han, vad annars?</p>
+   <p begin="00:11:45.708" end="00:11:49.500" region="r0">Och du svarar:<br />"Varför slösa tid på att prata..."</p>
+   <p begin="00:11:49.583" end="00:11:51.333" region="r0">Flynne? Jag har Tommys order.</p>
+   <p begin="00:11:51.416" end="00:11:53.708" region="r0">"...när vi kan pressa våra svettiga..."</p>
+   <p begin="00:11:53.791" end="00:11:56.875" region="r0">Varför beställde de två brudgummar<br />och en brud?</p>
+   <p begin="00:11:56.958" end="00:11:59.125" region="r0">"Läget, Billy Ann!<br />Får jag ta en bullkant?"</p>
+   <p begin="00:11:59.208" end="00:12:00.958" region="r0">För du läste beställningen fel?</p>
+   <p begin="00:12:03.125" end="00:12:03.958" region="r0">Helvete.</p>
+   <p begin="00:12:07.958" end="00:12:08.833" region="r0">Då var det löst.</p>
+   <p begin="00:12:11.791" end="00:12:14.083" region="r0">"Kul att ses! Tack för bullkanten!"</p>
+   <p begin="00:12:16.125" end="00:12:17.375" region="r0">Jag måste säga det.</p>
+   <p begin="00:12:17.458" end="00:12:21.875" region="r0">Dina färdigheter och personlighet<br />går till spillo här.</p>
+   <p begin="00:12:21.958" end="00:12:23.041" region="r0"><span style="s0">Skrivare 15 trasig.</span></p>
+   <p begin="00:12:23.125" end="00:12:26.250" region="r0">Speciellt när du har ett bättre jobb</p>
+   <p begin="00:12:26.333" end="00:12:27.750" region="r0">inom räckhåll.</p>
+   <p begin="00:12:27.833" end="00:12:30.750" region="r0">Hur mycket får Burton för att spela<br />för krösusar?</p>
+   <p begin="00:12:30.833" end="00:12:32.250" region="r0">Mer än han förtjänar.</p>
+   <p begin="00:12:32.333" end="00:12:35.250" region="r0">Du kan tjäna ännu mer.<br />Om du använder hans avatar.</p>
+   <p begin="00:12:35.333" end="00:12:37.291" region="r0">Och de vet inte att det är en tjej.</p>
+   <p begin="00:12:37.375" end="00:12:40.125" region="r0">Du vet att jag inte gör det längre.</p>
+   <p begin="00:12:40.208" end="00:12:42.875" region="r0">Nej. Men inte varför.</p>
+   <p begin="00:12:42.958" end="00:12:45.791" region="r0">Vilket verkar vara kärnan i problemet.</p>
+   <p begin="00:12:45.875" end="00:12:46.750" region="r0">Det är inte äkta.</p>
+   <p begin="00:12:47.583" end="00:12:50.333" region="r0">Det här är den enda världen jag har.</p>
+   <p begin="00:12:54.916" end="00:12:59.083" region="r0">Med det sagt, innan jag går<br />och städar upp världen,</p>
+   <p begin="00:12:59.166" end="00:13:01.333" region="r0">har jag en sista sak att säga.</p>
+   <p begin="00:13:01.833" end="00:13:04.333" region="r0">Om någon var intresserad av mig,</p>
+   <p begin="00:13:04.416" end="00:13:06.333" region="r0">innan jag gifte mig med Jasper,</p>
+   <p begin="00:13:07.041" end="00:13:09.333" region="r0">hade jag velat veta det.</p>
+   <p begin="00:13:09.916" end="00:13:12.708" region="r0">Som du sa, livet är kort,</p>
+   <p begin="00:13:12.791" end="00:13:15.875" region="r0">varför slösa tid med att vara blyg?</p>
+   <p begin="00:13:17.041" end="00:13:19.708" region="r0">Det var mer än så.</p>
+   <p begin="00:13:21.166" end="00:13:23.125" region="r0">Ha en bra dag, raring.</p>
+   <p begin="00:13:23.708" end="00:13:26.916" region="r0">Gör något djärvt och gör oss stolta.</p>
+   <p begin="00:13:27.000" end="00:13:29.208" region="r0">-Hej då.<br />-Hej då. Hej, mina damer.</p>
+   <p begin="00:13:51.375" end="00:13:52.625" region="r0">Helvete.</p>
+   <p begin="00:14:11.250" end="00:14:12.291" region="r0">Vad?</p>
+   <p begin="00:14:16.833" end="00:14:18.666" region="r0">Burton bad dig att ta hem det här.</p>
+   <p begin="00:14:19.791" end="00:14:20.666" region="r0">Vad är det?</p>
+   <p begin="00:14:20.750" end="00:14:23.291" region="r0">Det coolaste vi någonsin har gjort.</p>
+   <p begin="00:14:23.375" end="00:14:25.416" region="r0">-Hur hade han råd?<br />-Det har han inte.</p>
+   <p begin="00:14:25.500" end="00:14:29.750" region="r0">Något vid namn Milagros Coldiron betalade.</p>
+   <p begin="00:14:29.833" end="00:14:32.250" region="r0">Håller oss flytande i en månad minst.</p>
+   <p begin="00:14:32.333" end="00:14:33.625" region="r0">Vad gör det?</p>
+   <p begin="00:14:33.708" end="00:14:36.208" region="r0">Det är en fjärrstyrd apparat.</p>
+   <p begin="00:14:36.291" end="00:14:38.250" region="r0">Tror vi, i alla fall.</p>
+   <p begin="00:14:38.333" end="00:14:41.916" region="r0">Hälften av komponenterna<br />har inte ens patenterats.</p>
+   <p begin="00:14:42.000" end="00:14:44.208" region="r0">Det är säkert legosoldatgrejor.</p>
+   <p begin="00:14:44.291" end="00:14:46.958" region="r0">-Var kom det ifrån?<br />-Milagros Coldiron.</p>
+   <p begin="00:14:47.041" end="00:14:49.041" region="r0">Ett colombianskt företag. Vi kollade.</p>
+   <p begin="00:14:49.125" end="00:14:51.791" region="r0">-Vad för sort?<br />-Ett som är registrerat i Bogota.</p>
+   <p begin="00:14:51.875" end="00:14:54.375" region="r0">Mer än så vill de inte säga.</p>
+   <p begin="00:14:54.458" end="00:14:56.000" region="r0">Jobbar Burton för en kartell?</p>
+   <p begin="00:14:56.083" end="00:14:57.000" region="r0">Lägg av.</p>
+   <p begin="00:14:57.541" end="00:15:00.666" region="r0">Är ni säkra på att han inte betalar</p>
+   <p begin="00:15:00.750" end="00:15:02.458" region="r0">-något för det här?<br />-Inte ett öre.</p>
+   <p begin="00:15:03.000" end="00:15:05.000" region="r0">Du måste skanna den, dock.</p>
+   <p begin="00:15:06.375" end="00:15:07.875" region="r0">Allvarligt?</p>
+   <p begin="00:15:08.333" end="00:15:11.208" region="r0">Inget personligt.<br />Kunden begärde spårbarhet.</p>
+   <p begin="00:15:31.000" end="00:15:33.708" region="r0">Vill du förklara mammas piller?</p>
+   <p begin="00:15:40.791" end="00:15:43.333" region="r0">Jag ser att du vill.</p>
+   <p begin="00:15:43.416" end="00:15:44.250" region="r0">Vad?</p>
+   <p begin="00:15:46.833" end="00:15:48.166" region="r0">Fråga vad det här är.</p>
+   <p begin="00:15:50.208" end="00:15:52.958" region="r0">Hur gammal tror du jag var<br />sist det fungerade?</p>
+   <p begin="00:15:53.041" end="00:15:55.500" region="r0">När du distraherade mig med en leksak?</p>
+   <p begin="00:15:55.583" end="00:15:59.750" region="r0">När det väl fungerar<br />hade du inte märkt det.</p>
+   <p begin="00:15:59.833" end="00:16:01.291" region="r0">Det är hela poängen.</p>
+   <p begin="00:16:11.041" end="00:16:12.166" region="r0">Det ser konstigt ut.</p>
+   <p begin="00:16:13.125" end="00:16:15.333" region="r0">Vad är silverspetsarna till för?</p>
+   <p begin="00:16:15.875" end="00:16:16.958" region="r0">Du har ingen skärm.</p>
+   <p begin="00:16:17.875" end="00:16:19.375" region="r0">Banbrytande VR.</p>
+   <p begin="00:16:19.958" end="00:16:23.375" region="r0">De vill att jag betatestar den<br />för en enorm summa.</p>
+   <p begin="00:16:23.458" end="00:16:24.875" region="r0">Flera månadslöner.</p>
+   <p begin="00:16:24.958" end="00:16:25.875" region="r0">Varför just du?</p>
+   <p begin="00:16:25.958" end="00:16:29.583" region="r0">Jag är en av de få spelare<br />som nått 100:e nivån i <span style="s0">Halcyon.</span></p>
+   <p begin="00:16:29.666" end="00:16:32.291" region="r0">Du kom aldrig förbi nivå 83, eldgrottorna.</p>
+   <p begin="00:16:32.375" end="00:16:37.000" region="r0">Nej, men nån annan använde min avatar.<br />Spelade som Easy Ice.</p>
+   <p begin="00:16:37.083" end="00:16:40.541" region="r0">Och hon tog sig hela vägen till nivå 107.</p>
+   <p begin="00:16:41.791" end="00:16:42.833" region="r0">Nej, Burton.</p>
+   <p begin="00:16:42.916" end="00:16:44.916" region="r0">Jag måste börja med maten.</p>
+   <p begin="00:16:45.000" end="00:16:47.416" region="r0">Vi har inte råd med mammas medicin annars.</p>
+   <p begin="00:16:52.416" end="00:16:55.125" region="r0">Du vet att jag är stolt över dig,<br />du är duktig.</p>
+   <p begin="00:16:55.208" end="00:16:56.958" region="r0">Du pratar så mycket strunt,</p>
+   <p begin="00:16:57.041" end="00:16:59.333" region="r0">hur orkar du med dig själv?</p>
+   <p begin="00:16:59.416" end="00:17:01.708" region="r0">Jag vet. Men det är sant.</p>
+   <p begin="00:17:03.125" end="00:17:04.208" region="r0">Jag är stolt.</p>
+   <p begin="00:17:14.916" end="00:17:16.333" region="r0">Betalar de per nivå?</p>
+   <p begin="00:17:16.416" end="00:17:20.041" region="r0">Per minut. Ju längre du spelar,<br />desto mer får du.</p>
+   <p begin="00:17:20.125" end="00:17:22.208" region="r0">De försöker hitta alla fel.</p>
+   <p begin="00:17:24.958" end="00:17:26.291" region="r0">Vad vill de ha?</p>
+   <p begin="00:17:28.041" end="00:17:29.333" region="r0">En mördare?</p>
+   <p begin="00:17:29.416" end="00:17:32.375" region="r0">En presterare och utforskare.<br />Dina styrkor.</p>
+   <p begin="00:17:36.541" end="00:17:39.458" region="r0">Får jag ett till stort skägg?</p>
+   <p begin="00:17:40.916" end="00:17:43.500" region="r0">Du kommer att vara en version av mig.</p>
+   <p begin="00:17:43.583" end="00:17:46.958" region="r0">Borde jag bete mig lite korkat?</p>
+   <p begin="00:17:51.125" end="00:17:52.333" region="r0">Sätter jag bara på dem?</p>
+   <p begin="00:18:04.375" end="00:18:05.666" region="r0">Luta tillbaka.</p>
+ 

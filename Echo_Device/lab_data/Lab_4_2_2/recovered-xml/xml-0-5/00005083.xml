@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<notification-policy version="1">
+<zen version="8" user="0">
+<allow calls="true" repeatCallers="true" messages="false" reminders="false" events="false" callsFrom="2" messagesFrom="1" alarms="true" media="true" system="false" />
+<disallow visualEffects="511" />
+<automatic ruleId="EVENTS_DEFAULT_RULE" enabled="false" snoozing="false" name="Event" zen="1" component="android/com.android.server.notification.EventConditionProvider" conditionId="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" creationTime="1262304328518" id="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<automatic ruleId="EVERY_NIGHT_DEFAULT_RULE" enabled="false" snoozing="false" name="Sleeping" zen="1" component="android/com.android.server.notification.ScheduleConditionProvider" conditionId="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" creationTime="1262304328518" id="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" summary="..." line1="..." line2="..." icon="0" state="1" flags="2" />
+<state areChannelsBypassingDnd="false" />
+</zen>
+<ranking version="1">
+<package name="amazon.speech.davs.davcservice" show_badge="true" app_user_locked_fields="0" uid="10016">
+<channel id="download_channel" name="Download Notification Channel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.android.service.wifiprofilemanager" show_badge="true" app_user_locked_fields="0" uid="10165">
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.device.rdmapplication" show_badge="true" app_user_locked_fields="0" uid="10031">
+<channel id="RDM" name="RDMApplication" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.bishop" show_badge="true" app_user_locked_fields="0" uid="10045">
+<channel id="MediaPlayback" name="Media Playback" desc="Displays currently playing media" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="com.amazon.bishop" name="Alexa Time Sequence Builder" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.device.smarthome.ota" show_badge="true" app_user_locked_fields="0" uid="10011">
+<channel id="SmartHomeOta" name="SmartHomeOtaChannel" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="miscellaneous" name="Uncategorised" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="com.amazon.edgecvs" show_badge="true" app_user_locked_fields="0" uid="10025">
+<channel id="com.amazon.edgecvs" name="Edge Computer Vision Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="com.amazon.alarms" show_badge="true" app_user_locked_fields="0" uid="10043">
+<channel id="com.amazon.alexa.multimodal.csm.channel" name="Amazon Alexa Service" importance="2" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+<channel id="ALERTS" name="Timers and Alarms" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+</package>
+<package name="android" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channelGroup id="com.android.server.wm.AlertWindowNotification - " name="Display over other apps" blocked="false" />
+<channel id="DEVICE_ADMIN" name="Device administration" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_ALERTS" name="Network alerts" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DEVELOPER" name="Developer messages" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.fwp" name="Favorite Widgets Panel displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.mlv" name="MultimodalLiveViewApp displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="NETWORK_STATUS" name="Network status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.alexa.ms.kinex" name="Arcus Android Client displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="PHYSICAL_KEYBOARD" name="Physical keyboard" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.paladin" name="Launcher displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="SYSTEM_CHANGES" name="System changes" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="HEAVY_WEIGHT_APP" name="App running" importance="3" usage="10" content_type="4" flags="0" />
+<channel id="ACCOUNT" name="Account status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="com.android.server.wm.AlertWindowNotification - com.amazon.aria" name="Aria displaying over other apps" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" deleted="true" group="com.android.server.wm.AlertWindowNotification - " blockable_system="true" />
+<channel id="FOREGROUND_SERVICE" name="Apps consuming battery" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DO_NOT_DISTURB" name="Do Not Disturb" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="USB" name="USB connection" importance="1" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="VPN" name="VPN status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="UPDATES" name="Updates" importance="2" sound="content://settings/system/notification_sound" usag0\r§mûü   _   Jñ=½    1/0/https://images-na.ssl-images-amazon.com/images/I/21cuxCuJB9L.js?AUIClients/AmazonRushRouter‹      •XksÛ¸ýî_!±-PÃ”•îv¦¢9'MgÓn³®3ù$«kŠdHÊv"ñ¿÷\ð©ÄŽ“IÆ"ñ¸¸8¸÷Ü²`—ª*ÎRòý,&{§~vo_nåç,}ÿæJ†ú_ï‡¶ùJn`HåV—¹TúplYUEìí*ýº(²¢Ú-V³×»2ºÎÐYXÂ²ø2p´îdáÿSV2Y_àÓ¢Yˆ/µ­´ÂDÖûÈ÷á0 Æ¿¡+(ÐoßG:ÅÚ·Æ%ÖeVÎ
+8!½DŸÉ<Ob%iÚ™'Km‰ÞŠæûBW»"h[ZVúU"Ë’íã4®–ý0Å÷U—öÈÒ[ âªZ0Ë‘Ã­¹Ç†×b—&™ô¿¾¯kñxÏô¼¦};Ö®Ô“°«ÊržÙ´.Î¢j›ürª¬øtVîò<+*KœŒ7N§¯\mÿ¸W:õEêÎ7aëó³¿oN9[-?tÏ|5¡;¿Lý"‹ýñ{<&rçñU”¥ú_I2î´ˆŒ—îž'“Â>ß{®ooe¥"æñvÆ~+ÿÈŠ¥œÍ<ü_/6«\¥~“VŒÞÄâœ/Ïb§£Q/ŽF½èFÕu¿dÎ$ßÇ›ÊÃa*í]‘Ìfø-+>oA_8>€ÍÄû;jgŠíká7ƒÝp4Uq•4M°Ô¹ŽS#t}é²ÇÉ—¡NOv*ïâPâPì¾Uä87³Êpú-(Ýž Ýi»j1vïv!ÅI3Ù8ýHÔú™ÚmáS³«Z”ÇÖûqƒ}3¢Ò÷Í¯"™†úW™ú‰.Fn‘KóúÆ£xM)bó,7ó-!Åta6µÍîô³–šaOƒ¥H–o‘xwú×ÆÑwM
+|k/³Ùã°ÕuqÙšÑþË"»/ÇŽ5ù$ÆýÉv‘ïÛOxÃø*²+]VØÖŠI×cÓs‘ÂñË…+mÿ½So Aýð{€¬o²Ð¦„4åç‹vÆáð³ëvÓg³î	^(Kørz¾œ.pþÙ¢ß‘C šThG ºëo%A¥Ë\xRÝŽÑò{¬©‡ñ¯‚~!©s¶oÚeÍ<Û<¤åŸŠ=ß~´ýéóí§ºêúÇ	8GÔEzfÈ¨8®8=)æ	Õ¢Z1mÇåeQÈO¨8‡SîZm¸P¶ÊR”‘Q·ÇWÞrím8_zµhïSY«Ì×ï¯ß¼Ê¶9|È¼ÃáÄ2.›Saó›Óy(¬‰Åù`$„Smuð]:jwºêDGÏ¨é.IDî2Ï®²wÀ$oû?Âñõ†Û‰NÃ*BMY *œ;±€YEÀzn°>ßÂl¹ó +L538ŸÍ¬¹…ölÉâ²ê»ÎèÃtŸ†Ü‰.r':=å¾}'¾‚¨pÖéF-\¤§§Cúþ‡\\J
+‰
+Ÿ†W²ŠLNJnË¥?*´[„& |ÚÄÔã`p¬•q;[ü-Qí5[pî˜7ÿŠY7/þfq‡öîÿ¢ÛŽãÃù–5¼µ¿&üÉíPGè©Å¸‚;YÝÌ]QûYœvÃù’ÎÄ	á‰^‡ !=àd;ë2ùÑß°ûæ/7|•¸cQêÿî4˜Êœî2fÈoY£f†,õDÐÅ
+N`ç­nÐZ  ßn?LŽ#Ïû¤nGQ¸ù 0b]jY¨ˆCAjI±'Æ…Ž8¤94$‚Ùðèèâ±ü},kGYÚ³FûÕCÂîÛ¤¦h*@_T®!ÏëúiF‘g»*N œ¿E&G>—î{VY‰wkùízLcB¡RU"åXÛýh›ÙÑ¨ÐAÒÎ‹¬ÊT–œZsä0º³²+³¯…HÒFÜ0Êg¾“hDk&àZ‹
+ßŠ^
+MzÅ‘/û>9©¥$h!…pß³%s]á3æÅ(Àj6‹˜ßlˆÄ
+JimH»hŽË(™$p,‡âH³0²KA©œz»Ë-{jò˜o{_Ã¶T…Y.Mòm½lA/Û‹]G/ÛŽ^÷d·Þn£Ü»Ê>JefR–Â‹ê·ÉÚû.á·»71±:~¼os¬v<¤ÆíD‚/Ý;º´x´¾M+X6s)Ð¨<ÚíÃ1˜z„i$ ®P÷êa1 ð@Þ2¤(HÝõŸ¨Ã´aÖ(¥û(&²èÑ•ü·þDª*’öÑÐiûìë@î’êªÐ$&µÏ»k‘´+Y„º2Àj·‹!a€ªOñ`§¨¯t­s¸Â¶oÑæLÕáðå ¨+E2ð²»:3‹ìY¨–_¶ã®k®‰ÔgeA@EFÙðe<×g“­`ÒÆFã.¼ûPê$hoÚPô?ØFS¨.Mt÷Ü•?Y•ŒzŽ[àù9¦ß2EaU¹—±=8bÙh…ÕŸš$`Þ€ùZÔ­Ú\†Z2;w½Ÿá åâlß!èµë&ÖŽH^ºi{57ïÎÎhQ&ûëÂ“èªq>1ß&ØOU¤'cr›\/GÓ¬	b$Êü	Ž`âiMº	þ#5´ÿw°„1þp¤˜hó\Ù€Ð…F„BK¿Ääp# :Nô‰|…B­SGD1='Î7ù1\MÐv1¯½Ñ·‘^kÿfÊ3(œÔz÷To—nE¸(ïc0ÅežÿÈºý¤gñÇ"ã[¥;BðŽDdW2›\é?YÍ*/q_úZÊ•ø;‚õÑ[{ ¢â±+«BÝ¼µÄ'ÊHc¹êk)4‚È]æ:“ý&ÿ,¹„hø«fÂ³fwén§<:MòKW·_™MW‰ø!NMbÜBY;šÝ
+Ÿ¥ú~RAåÞ¶éÞ|Dt}4\zå%äŠu’âöû”Ý‘¤9
+“›V§K&$HH•š‡I§e'¤¢&¥âqwÇ“¸?9½$,Æ0ª® ÷z¦ÙÚëDÓäžE×)@4¼¬º‡æÇT…²®.tWÖÊºÕyFµAã’¸
+{áí|¸è±ÿÝÌW|.puâËpMS6¸ƒ™ßË¾¼ÃŒÝGYUDW_è7eôÛ©ê×ÃcÒé‰)jQÝ|¼ü?ù’u  ØA—Eoúô   åÄz	      t  eGDÝ©¶íf/ H&ª¶íf/ Ç  HTTP/1.1 200 content-type:application/x-javascript server:Server date:Mon, 24 Jul 2023 15:13:06 GMT x-amz-ir-id:388e132a-153d-4189-b534-381f689b48f3 cache-control:max-age=630720000,public last-modified:Fri, 18 Mar 2022 22:55:58 GMT access-control-allow-origin:* timing-allow-origin:https://www.amazon.in, https://www.amazon.com edge-cache-tag:x-cache-170,/images/I/21cuxCuJB9L expires:Sat, 18 Jul 2043 14:28:05 GMT surrogate-key:x-cache-170 /images/I/21cuxCuJB9L x-nginx-cache-status:HIT content-encoding:gzip x-cache:Hit from cloudfront via:1.1 155cf052093c04a91231ce0752765784.cloudfront.net (CloudFront) x-amz-cf-pop:PHL51-P1 x-amz-cf-id:36rsID8SiFoqU7KuErbppv-89IoPqX_Ow3EVGhygAQrhZ8hWvwuRcA== age:7809877        0‚0‚÷ Àôª4ÒŠÞ¡vÓ—¾lË0	*†H†÷ 0D10	UUS10U
+DigiCert Inc10UDigiCert Global CA G20230809000000Z240724235959Z0*1(0&Uimages-na.ssl-images-amazon.com0‚"0	*†H†÷ ‚ 0‚
+‚ ™\Ú+®xëd{o_‡ê_q	JŸ¦jå›ÿ¶\t¥y.L°2S²¢BTœú‹[|Z.IµTT\iáTf’ßZ#(v
+«i¾›©-r¿ÿw èÓjï²Á!úÇ—wý,¡1ý¯;f;÷î˜¢ÐÍŸ^×?—D¿òÑSUÑÌ˜É}ÞÂR×Æ÷5§˜ÀÛG0rƒ°¿"šK{ž€þE^±Ýöwê5¶Q!-¿8Ÿˆ¥Uú)@äþ’5$’QP¨?&Ôú{ø¤|ã_´AÎ™­Ãé
+pù©ëH™Âc†%Ã’YAqXAn´Õ/ÃDóçqÙ¥“'š W.r%Ów`¦WˆP27 £‚0‚0U#0€$n+-Ðj’QQ%iªšG¦‰ç@ 0UÅ=£¹Ëò±Æ
+ìT:¸³%á£0àUØ0Õ‚images-na.ssl-images-amazon.com‚m.media-amazon.com‚images-fe.ssl-images-amazon.com‚images-eu.ssl-images-amazon.com‚ia.media-imdb.com‚f.media-amazon.com‚images.amazon.com‚g-images.amazon.com‚img.amazon.ca0Uÿ 0U%0++0wUp0n05 3 1†/http://crl3.digicert.com/DigiCertGlobalCAG2.crl05 3 1†/http://crl4.digicert.com/DigiCertGlobalCAG2.crl0>U 70503g0)0'+http://www.digicert.com/CPS0t+h0f0$+0†http://ocsp.digicert.com0>+0†2http://cacerts.digicert.com/DigiCertGlobalCAG2.crt0Uÿ0 0‚~
++Öy‚n‚jh v îÍÐdÕÛÎÅ\·´Í¢2‡F|¼ìÞÃQHYFqµ›  ‰Û¸žœ   G0E "˜D½"´Ò b[eÖÎJˆJ‰Ñ²Oƒ‰¸ïVƒ! à’‹œlø¹™ßjSCäA»„WªÜ_«-y!EE v H°ãkÚ¦G4åjú0ëRËVÝ,Ù»¿«9Ø„s  ‰Û¸žÏ   G0E % q»oì1×ÞJvîUô‚@¢€~Ù´Wr+åï! ·]RpÑZ!’v÷õ9ø"JåÚµäL"të‹ v Ú¶¿k?µ¶"Ÿ›Â»\kèp‘ql»Q„…4½¤=0H×û«  ‰Û¸ž   G0E x‚ùì3oýÁ{PjiH¬ªµ-zTKMÉò! Ð™N˜zÆ´°õÝšô5'ö^FãŸ•G>J¡ËZZ‚<R0	*†H†÷ ‚ F04¥H½Ž‘…™9ò¼‹ùèþ’ŠÆ>è„±6øÂP—cÓ7‚%ƒ"@7Z(wÒîjùC½O€Ú¶CJ)¶ƒJàbZ¶Ó›AÜcëÁÞ;4UÔ¿¶7ëw ½~o#ÚÏ£ð°ZðI9uq0¤yøLTzpc´â+!‚?¨ðO*Þ¾›¼»~1Mk¤G7
+¼}‰þãyxj÷ú(ET]ž‹ªodÁ×Ø*9ÓÇøT7,˜ŸÁŒlV.0á”¾S×µËæ"vY0…=PoOl1ûèdL@ßn5[Wòø#Œg}"ÖŠ'q lSYÒÎçÅ"íÐ   0‚‹0‚s ŽàÉj‰ˆâAù¯0	*†H†÷ 0a10	UUS10U
+DigiCert Inc10Uwww.digicert.com1 0UDigiCert Global Root G20130801120000Z280801120000Z0D10	UUS10U
+DigiCert Inc10UDigiCert Global CA G20‚"0	*†H†÷ ‚ 0‚
+‚ ÓH|¾ó†][Õ/…NKà†­¬aÏ[¯>j
+Gûšv‘`ŠkÍÏÜW~`˜äTÙVí!Ì¶Z_—jî/#'¸mÔ°çx\©™6þ»¬úWÍ@gÖ0‹X5Ô–a¾ÐŒz—Ÿù"æ/©Æè«ø&¬ŽM,29›e²Ûa¨‰/`çëÂJÄo*é’	íÑ +æ}ï‰N3¡²—‡Ÿ³ Í/¼,ì¸ƒh1=ÕJ•Ö)vQù6vÐ·	z8J×oŒ¿|9íº®ü•÷{x	6^t“%ðÿÔ­®hkÆÿÕ5ñUnHIøø¸ïˆøñ^wªß³ £‚Z0‚V0Uÿ0ÿ 0Uÿ†04+(0&0$+0†http://ocsp.digicert.com0{Ut0r07 5 3†1http://crl4.digicert.com/DigiCertGlobalRootG2.crl07 5 3†1http://crl3.digicert.com/DigiCertGlobalRootG2.crl0=U 60402U  0*0(+https://www.digicert.com/CPS0U$n+-Ðj’QQ%iªšG¦‰ç@ 0U#0€N"T •æãnæúú¹í90	*†H†÷ ‚ 9„‘ù—ëª¯„éZ8’üâlY¿6ÈE§1áÀ¬2ÇZU)ÚO@õ¡Þ°íÞÀøöuv¹‡þA€zÏ]ã Æ[æ›xbÉÜ¸bšwí‰×KÅýCÕb#'ÄYmq?#[êÙòç$'oô•€Û–,äT‹ÏêÙU™Qz-=xXR¼chWÝD³WJ`æÈpp[‡(j×;NRE¯$’H‹®¬W¬Ë¸ô½Ê&§ÁÝã3ïÀU0•YNœ6øÀ™œM*žÁá};¯r§Eº–)NÐ˜ô7”­£º>°•Ö)5 5}õ`ä÷hbìá$ò‡¬é€ ’  0‚Ž0‚v :ñæ§© »(d±	úå0	*†H†÷ 0a10	UUS10U
+DigiCert Inc10Uwww.digicert.com1 0UDigiCert Global Root G20130801120000Z380115120000Z0a10	UUS10U
+DigiCert Inc10Uwww.digicert.com1 0UDigiCert Global Root G20‚"0	*†H†÷ ‚ 0‚
+‚ »7Í4Ü{kÉ²h­JuÿFº!
+õTÉûˆÛó®ò:‰‘<zæ«kÏ¬-è^	$Dºbš~Ö£¨~àTu ¬P·œcl0ÜÚ±×Þý×àË”ƒ7®ìCNÝ{,Ò½.¥/ä©¸­:Ô™¤¶%é›k `’`ÿO!I÷g«aœòºé´é’2kµóWè]ÍŒ«••Ió5-–ãImÝwãûIK´¬U©•³´#»LmEðö©²•0´ýLUŒ'JW|‚Ís’ÓJŒPÑ	¾¡æ!Êýƒå¼ƒ¥
+Äg(ös=FvÃ‡‰!4M¯E¦I¡º»œÅ±3ƒ)… £B0@0Uÿ0ÿ0Uÿ†0UN"T •æãnæúú¹í90	*†H†÷ ‚ `g(”oHcë1ÝêgÕ‰}<Å‹Jé¾Û+ß°_sw*29gB„#òEg5ìˆ¿ø°a4¤® L„ÆÛø5ávÙß¦B»ÇD†6t$ZÚlY5½òIÝ¶É³G*=™/»\»µÔ á™_SFÛh›ðó0Õ>1â„žãŠÚÚ–>5¥_ðùpPpGAWNÀ®Ä•/%Ÿuò±Ž™¡o±Aqþˆ*ÈO U×óEåàDôê‡•2“þSFú,ÿ‹"¹KÙ	E¤Þ¤¸šXÝ}RŸŽYCˆ¤ž&Õo­ÝÆ7}í’åw_vî<Ä]V[¢Ùfn³57å2¶      ` %   2600:9000:25c8:d200:1d:d7f6:39d3:7a61   »     h2          KàI¦‚PWN|‡V­
+zì§pà¸Ÿoå}6^êØA—Eoúô   b ;âx                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     0\r§mûü   M   ±‘-›    1/0/https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png‰PNG
+
+   IHDR         ê¬¤ñ   	pHYs     šœ   tIMEä}Ÿ¾É   bKGD ÿ ÿ ÿ ½§“  §IDAT8Ë’±nÂ0EÓVíÖ	ÆJýˆþ@Û©¾ f&	'@[™202ðdˆú$*[:"¹÷Vvê˜€ªZºz±ýNî³ŸÇ­Vëq6›¹¾ï‡PÊ¸X,Är¹,;E£Óé¼¹®›L§S‰Ä#´cÈy=ç€'ŒÑhô)„„àæ!ÉàÒ`Î±Ûí¾’“ÉäBR„„
+#)PdP¯×û ¤æó¹4“…Ôï÷¿Æã±Ä™¤:ÓfµZ•´µ 4ƒƒAÄÒ<Ïãy€Æ³NÃáÐ×.,É\·!óL÷ívû1]Ôæ	dßÞtà•*iï5âA	û(«îºäðO,¡èE°o…ƒRMÍÄ¹é Ç•þh4åjµ* JU\/t©Õj/PŒ$	¡Š’ëõz=ÿö”C¢ &yˆŽŠz-Î9bÁÕ›*!B¬¨(ý¾=U»üƒBJ­ÍM³Ù,!n­õô¬Ê
+ ±ìà’“°!uÖàì™x+ÆuB'·‡‰Ý§=´†jž°OÌ³›{ñE *~{ü›jëÄá?ã¥ä®àJT    IEND®B`‚ØA—Eoúô   C]/Ä      Ð  eG¿êÀ¶íf/ ,1Á¶íf/ à  HTTP/1.1 200 content-type:image/png x-amz-ir-id:d5189db1-f8c3-4f78-829a-75d78c2ff8c1 cache-control:max-age=86400,public last-modified:Mon, 11 May 2020 07:06:36 GMT access-control-allow-origin:* expires:Wed, 27 Sep 2023 11:31:22 GMT x-nginx-cache-status:HIT accept-ranges:bytes date:Mon, 23 Oct 2023 00:37:44 GMT age:66726 x-served-by:cache-iad-kiad7000106-IAD timing-allow-origin:https://www.amazon.com x-cache:HIT from fastly server-timing:provider;desc="fy" content-length:538     i  0‚e0‚M qÇ‹»õË‰`è5ˆ_¦0	*†H†÷ 0D10	UUS10U
+DigiCert Inc10UDigiCert Global CA G20230908000000Z240621235959Z0*1(0&Uimages-na.ssl-images-amazon.com0‚"0	*†H†÷ ‚ 0‚
+‚ «ë8 bN‡Ù­ã6ù2BÛ ˜VŠ°8ÏÇLŸ·‘e+(ìRÊ»R#fOÍUAråÊHŠÖãÂž…TZúëËï)ÚÄa´ìî¢×K¢ªcÚ9}>8lw¥Â\w©­ï@f5eoº¾˜üÛ~Ó[öâ?äm¼Gbû/
+ä¬¨·|ÓÄ3m–ºƒ?)MÍ©þ6âyÿÔöø.é30?il¦uuí Eåµj•à¹mzþÜˆaÜ\èqÕRãã^öR–åÄ¾¤¾«ÏŒY‚ U)¦j{hÕÉ„3Ïè°ûÇ&¢©Ý ˆ}Ë)t2‘§P­ÖÚ¸š	®p} £‚k0‚g0U#0€$n+-Ðj’QQ%iªšG¦‰ç@ 0Uœ$¹º?Â_Ë9ÑÂèåÏˆžÏ0‚5U‚,0‚(‚ecx.images-amazon.com‚f.media-amazon.com‚g-ec2.images-amazon.com‚g-ecx.images-amazon.com‚g-images.amazon.com‚ia.media-imdb.com‚images-eu.ssl-images-amazon.com‚images-fe.ssl-images-amazon.com‚images-na.ssl-images-amazon.com‚images.amazon.com‚m.media-amazon.com‚z-ecx.images-amazon.com0>U 70503g0)0'+http://www.digicert.com/CPS0Uÿ 0U%0++0wUp0n05 3 1†/http://crl3.digicert.com/DigiCertGlobalCAG2.crl05 3 1†/http://crl4.digicert.com/DigiCertGlobalCAG2.crl0t+h0f0$+0†http://ocsp.digicert.com0>+0†2http://cacerts.digicert.com/DigiCertGlobalCAG2.crt0Uÿ0 0‚~
++Öy‚n‚jh u vÿˆ?
+¶û•QÂaÌõ‡º4´¤Í»)ÜhB
+ŸægLZ:t  Šv3
+    F0D F¡ÆZîI[þVîeyÐ%`5]™dÎDP×¹9Ëð Y;Ë7…õP%çÐ«$”ZfžÅšð	Iû>ûË}ï v H°ãkÚ¦G4åjú0ëRËVÝ,Ù»¿«9Ø„s  Šv3
+d   G0E @¶W3³LÙÄDLN»;Ý!¿Ä‰7Úò©Å±Ñ¸KyŒ! ²ÙßŠùÆ¯íH+Ph ÂŽxÑ[ND=ÞÎ¯–x»U¯ w Ú¶¿k?µ¶"Ÿ›Â»\kèp‘ql»Q„…4½¤=0H×û«  Šv3
+—   H0F! î½$[²þÍÁ}½wÊŽ3§’Þs§+-Ð³]! ´ð‘EÈy…:Œ6Qx”:ô™¸’Ä}lì\NxW‘ªÍž0	*†H†÷ ‚ ÂPu`±šî(ym`ºéÅ2mLÓ›8PX:lcéhð*ÿŠp•öyAcE$ØFŽ2ÒéH.T9ÕÒ¿±ÛÆƒ]Ù \PÄs§L3îYáá:x¬Iînx:ãÍrâÊ÷V…’ï#íUyºÔfëºB~í)•3#RŽ°ÝekJ%Ô‚Ë.¹›E2±pxÿ@÷ÖcP_ðnEÚõ¦åªT+C ¸:gr—[Yš 9M–^8úª³q-ø]_ž†™ÞÝ¿|š¤‘¯oÞœ-×rLÝ¡2kœç®û"ã>Õ‘õµ…9'Ÿ{ÏÛcs¡íVë„#‡ŸgÓ     0‚‹0‚s ŽàÉj‰ˆâAù¯0	*†H†÷ 0a10	UUS10U
+DigiCert Inc10Uwww.digicert.com1 0UDigiCert Global Root G20130801120000Z280801120000Z0D10	UUS10U
+DigiCert Inc10UDigiCert Global CA G20‚"0	*†H†÷ ‚ 0‚
+‚ ÓH|¾ó†][Õ/…NKà†­¬aÏ[¯>j
+Gûšv‘`ŠkÍÏÜW~`˜äTÙVí!Ì¶Z_—jî/#'¸mÔ°çx\©™6þ»¬úWÍ@gÖ0‹X5Ô–a¾ÐŒz—Ÿù"æ/©Æè«ø&¬ŽM,29›e²Ûa¨‰/`çëÂJÄo*é’	íÑ +æ}ï‰N3¡²—‡Ÿ³ Í/¼,ì¸ƒh1=ÕJ•Ö)vQù6vÐ·	z8J×oŒ¿|9íº®ü•÷{x	6^t“%ðÿÔ­®hkÆÿÕ5ñUnHIøø¸ïˆøñ^wª

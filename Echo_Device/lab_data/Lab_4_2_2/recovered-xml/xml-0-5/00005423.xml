@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:version="2" xml:lang="jp"> 
+ <head> 
+  <styling> 
+   <initial tts:fontSize="4vh" /> 
+   <initial tts:lineHeight="5vh" /> 
+   <initial tts:showBackground="whenActive" /> 
+   <style tts:fontShear="16.78842%" tts:textAlign="center" xml:id="s1"></style> 
+   <style tts:textAlign="start" xml:id="s2"></style> 
+   <style tts:ruby="container" xml:id="s3"></style> 
+   <style tts:ruby="base" xml:id="s4"></style> 
+   <style tts:ruby="text" tts:rubyPosition="before" xml:id="s5"></style> 
+   <style tts:textAlign="center" xml:id="s6"></style> 
+   <style tts:fontShear="16.78842%" xml:id="s7"></style> 
+   <style tts:fontSize="1.5em 1.0em" xml:id="s8"></style> 
+   <style tts:textEmphasis="dot before" xml:id="s9"></style> 
+  </styling> 
+  <layout> 
+   <region tts:displayAlign="after" tts:extent="80vw 15vh" tts:position="center bottom 10vh" xml:id="横下" /> 
+   <region tts:extent="15vw 80vh" tts:position="right 10vw center" tts:writingMode="tbrl" xml:id="縦右" /> 
+   <region tts:displayAlign="after" tts:extent="15vw 80vh" tts:position="left 10vw center" tts:writingMode="tbrl" xml:id="縦左" /> 
+  </layout> 
+ </head> 
+ <body region="横下" xml:space="preserve"> 
+  <div> 
+   <p begin="00:01:22.666" end="00:01:27.583" style="s1"><span style="s2">ペリフェラル ～<span style="s3"><span style="s4">接続</span><span style="s5">コネクト</span></span>された未来～</span></p> 
+   <p begin="00:01:54.458" end="00:02:02.458" style="s1"><span style="s2">ロンドン　2099年</span></p> 
+   <p begin="00:02:39.958" end="00:02:42.208" style="s6"><span style="s2">今度は何をした？ アリータ</span></p> 
+   <p begin="00:02:42.666" end="00:02:44.875" style="s6"><span style="s2">元凶は あんたでしょ</span></p> 
+   <p begin="00:02:47.875" end="00:02:51.000" style="s6"><span style="s2">危険な お友達を<br />作ったものよね</span></p> 
+   <p begin="00:02:53.666" end="00:02:57.291" style="s6"><span style="s2">以前は半年間も<br />裸足で過ごした</span></p> 
+   <p begin="00:02:57.750" end="00:03:03.541" style="s6"><span style="s2"><span style="s3"><span style="s4">足の裏</span><span style="s5">ソール</span></span>は環境によって<br />硬くも柔らかくもなる</span></p> 
+   <p begin="00:03:04.541" end="00:03:06.416" style="s6"><span style="s2">人の<span style="s3"><span style="s4">心</span><span style="s5">ソウル</span></span>も同じ</span></p> 
+   <p begin="00:03:08.708" end="00:03:11.291" style="s6"><span style="s2">私の靴はどうなった？</span></p> 
+   <p begin="00:03:13.000" end="00:03:14.541" style="s6"><span style="s2">僕にくれた</span></p> 
+   <p begin="00:03:16.166" end="00:03:20.166" style="s6"><span style="s2">あんたを見つけた時<br />私が救うと誓った</span></p> 
+   <p begin="00:03:20.333" end="00:03:21.625" style="s6"><span style="s2">救ってくれた</span></p> 
+   <p begin="00:03:22.833" end="00:03:23.875" style="s6"><span style="s2">そう？</span></p> 
+   <p begin="00:03:25.250" end="00:03:26.416" style="s6"><span style="s2">何をする気だ？</span></p> 
+   <p begin="00:03:28.916" end="00:03:30.333" style="s6"><span style="s2">世界を救う</span></p> 
+   <p begin="00:03:30.500" end="00:03:32.875" style="s6"><span style="s2">手遅れだと言ってたのに</span></p> 
+   <p begin="00:03:33.041" end="00:03:35.000" style="s6"><span style="s2">この世界じゃない</span></p> 
+   <p begin="00:03:42.166" end="00:03:43.708" style="s6"><span style="s2">さよなら　ウルフ</span></p> 
+   <p begin="00:03:45.083" end="00:03:46.041" style="s6"><span style="s2">アリータ？</span></p> 
+   <p begin="00:03:49.958" end="00:03:50.708" style="s6"><span style="s2">アリータ？</span></p> 
+   <p begin="00:04:26.750" end="00:04:33.291" region="縦左" style="s7">ブルーリッジ山脈<br />２０３２年</p> 
+   <p begin="00:05:14.166" end="00:05:15.625" style="s6"><span style="s2">おはよう　ママ</span></p> 
+   <p begin="00:05:16.291" end="00:05:18.875" style="s6"><span style="s2">コーヒー 熱いよ<br />気をつけて</span></p> 
+   <p begin="00:05:18.958" end="00:05:20.166" style="s6"><span style="s2">ありがとう</span></p> 
+   <p begin="00:05:20.333" end="00:05:23.083" style="s6"><span style="s2">サンドイッチは冷蔵庫の中</span></p> 
+   <p begin="00:05:23.166" end="00:05:27.750" style="s6"><span style="s2">兄さんの分はないよ<br />昨日 ママのを食べたよね</span></p> 
+   <p begin="00:05:27.916" end="00:05:29.041" style="s6"><span style="s2">あげたの</span></p> 
+   <p begin="00:05:32.375" end="00:05:33.833" region="縦右" style="s7">“タモジン 20ミリ”</p> 
+   <p begin="00:05:32.375" end="00:05:33.833" style="s6"><span style="s2">それ以上 痩せたら<br />また入院だよ</span></p> 
+   <p begin="00:05:33.833" end="00:05:35.250" style="s6"><span style="s2">それ以上 痩せたら<br />また入院だよ</span></p> 
+   <p begin="00:05:42.000" end="00:05:43.125" style="s6"><span style="s2">兄さん！</span></p> 
+   <p begin="00:05:44.041" end="00:05:45.166" style="s6"><span style="s2">まったく</span></p> 
+   <p begin="00:05:55.041" end="00:05:56.250" style="s6"><span style="s2">入るよ</span></p> 
+   <p begin="00:05:57.291" end="00:05:58.166" style="s6"><span style="s2">兄さん</span></p> 
+   <p begin="00:06:02.375" end="00:06:05.541" style="s6"><span style="s2">ママの鎮痛薬が<br />10ミリ１個だった</span></p> 
+   <p begin="00:06:05.708" end="00:06:06.833" style="s6"><span style="s2">トイレ行きたい</span></p> 
+   <p begin="00:06:07.000" end="00:06:08.833" style="s6"><span style="s2">知らない　交換した？</span></p> 
+   <p begin="00:06:10.208" end="00:06:12.750" style="s6"><span style="s2">自分用のを<br />ママのと換えた？</span></p> 
+   <p begin="00:06:12.916" end="00:06:15.833" style="s6"><span style="s2">フリン<br />俺が そんなことするか？</span></p> 
+   <p begin="00:06:15.916" end="00:06:19.416" style="s6"><span style="s2">10ミリの薬が<br />１個しかなかった</span></p> 
+   <p begin="00:06:19.583" end="00:06:23.333" style="s6"><span style="s2">交換しただけでなく<br />盗んでたのね</span></p> 
+   <p begin="00:06:23.500" end="00:06:24.833" style="s6"><span style="s2">現金 出して</span></p> 
+   <p begin="00:06:24.916" end="00:06:25.625" style="s6"><span style="s2">いくら？</span></p> 
+   <p begin="00:06:25.791" end="00:06:26.583" style="s6"><span style="s2">あるのは？</span></p> 
+   <p begin="00:06:26.750" end="00:06:29.666" style="s6"><span style="s2">これを攻略したら<br />1000ドル入る</span></p> 
+   <p begin="00:06:29.750" end="00:06:31.041" style="s6"><span style="s2">１錠分ね</span></p> 
+   <p begin="00:06:31.125" end="00:06:32.791" style="s6"><span style="s2">でも１日分だ</span></p> 
+   <p begin="00:06:33.458" end="00:06:37.375" style="s6"><span style="s2">今夜 デカい仕事がある<br />残りは明日 買える</span></p> 
+   <p begin="00:06:38.583" end="00:06:39.583" style="s6"><span style="s2">代わる　状況は？</span></p> 
+   <p begin="00:06:39.583" end="00:06:39.833" style="s6"><span style="s2">代わる　状況は？</span></p> 
+   <p begin="00:06:39.583" end="00:06:39.833" region="縦右" style="s7">“接続”</p> 
+   <p begin="00:06:39.833" end="00:06:39.916" region="縦右" style="s7">“接続”</p> 
+   <p begin="00:06:39.916" end="00:06:40.625" region="縦右" style="s7">“接続”</p> 
+   <p begin="00:06:39.916" end="00:06:40.625" style="s6"><span style="s2">敵はナチス　場所は納屋</span></p> 
+   <p begin="00:06:40.625" end="00:06:42.083" style="s6"><span style="s2">敵はナチス　場所は納屋</span></p> 
+   <p begin="00:06:42.250" end="00:06:43.083" style="s6"><span style="s2">仲間は？</span></p> 
+   <p begin="00:06:43.166" end="00:06:46.166" style="s6"><span style="s2">リースと<br />カリフォルニアの男</span></p> 
+   <p begin="00:06:46.250" end="00:06:47.458" style="s6"><span style="s2">そいつが雇い主だ<br />“落ち着け”が口癖でウザい</span></p> 
+   <p begin="00:06:47.458" end="00:06:49.833" style="s6"><span style="s2">そいつが雇い主だ<br />“落ち着け”が口癖でウザい</span></p> 
+   <p begin="00:06:47.458" end="00:06:49.833" region="縦右" style="s7">“ゲーム 一時停止”</p> 
+   <p begin="00:06:49.833" end="00:06:51.291" style="s6"><span style="s2">そいつが雇い主だ<br />“落ち着け”が口癖でウザい</span></p> 
+   <p begin="00:06:51.375" end="00:06:52.708" style="s6"><span style="s2">リースはベレー帽</span></p> 
+   <p begin="00:06:51.375" end="00:06:52.708" region="縦右" style="s7">“イージー･アイス<br />再開”</p> 
+   <p begin="00:06:53.875" end="00:06:56.125" style="s6"><span style="s2">急いでね　私が遅刻する</span></p> 
+   <p begin="00:07:20.583" end="00:07:21.958" style="s6"><span style="s2">良識のある人は<span style="s8">―</span></span></p> 
+   <p begin="00:07:22.125" end="00:07:23.333" style="s6"><span style="s2">いないの？</span></p> 
+   <p begin="00:07:24.083" end="00:07:25.916" style="s6"><span style="s2">羊は逃がしてあげて</span></p> 
+   <p begin="00:07:35.416" end="00:07:38.708" style="s6"><span style="s2">ステキなベレー帽だね　リース</span></p> 
+   <p begin="00:07:38.791" end="00:07:39.583" style="s6"><span style="s2">フリンか？</span></p> 
+   <p begin="00:07:40.125" end="00:07:41.000" style="s1"><span style="s2">バートンは？</span></p> 
+   <p begin="00:07:41.166" end="00:07:42.083" style="s6"><span style="s2">化粧室</span></p> 
+   <p begin="00:07:42.875" end="00:07:44.041" style="s6"><span style="s2">何を探してる？</span></p> 
+   <p begin="00:07:44.791" end="00:07:45.583" style="s6"><span style="s2">地図だ</span></p> 
+   <p begin="00:07:47.083" end="00:07:47.875" style="s6"><span style="s2">ない？</span></p> 
+   <p begin="00:07:50.416" end="00:07:51.583" style="s6"><span style="s2">何してる？</span></p> 
+   <p begin="00:07:53.166" end="00:07:54.125" style="s6"><span style="s2">扉を開けて</span></p> 
+   <p begin="00:08:11.000" end="00:08:11.875" style="s6"><span style="s2">戻ったぞ</span></p> 
+   <p begin="00:08:12.041" end="00:08:13.000" style="s6"><span style="s2">待ってて</span></p> 
+   <p begin="00:08:44.958" end="00:08:46.666" style="s6"><span style="s2">おい　落ち着け</span></p> 
+   <p begin="00:08:48.000" end="00:08:49.708" style="s6"><span style="s2">地図を探しても無駄</span></p> 
+   <p begin="00:08:50.333" end="00:08:51.250" style="s6"><span style="s2">なぜだ？</span></p> 
+   <p begin="00:08:51.583" end="00:08:52.916" style="s6"><span style="s2">今 出たから</span></p> 
+   <p begin="00:08:58.291" end="00:09:00.125" style="s6"><span style="s2">お金は私に送って</span></p> 
+   <p begin="00:09:01.625" end="00:09:02.833" style="s6"><span style="s2">お礼はいい</span></p> 
+   <p begin="00:09:05.875" end="00:09:06.791" style="s6"><span style="s2">リース</span></p> 
+   <p begin="00:09:08.583" end="00:09:10.000" style="s6"><span style="s2">何が起きた？</span></p> 
+   <p begin="00:09:11.083" end="00:09:12.583" style="s6"><span style="s2">フリンの仕業さ</span></p> 
+   <p begin="00:10:12.000" end="00:10:15.250" style="s6"><span style="s2">政府は現金の出金を<br />見張ってる？</span></p> 
+   <p begin="00:10:15.416" end="00:10:20.208" style="s6"><span style="s2">今時 現金なんて<br />怪しい使い道しかないからね</span></p> 
+   <p begin="00:10:20.375" end="00:10:24.125" style="s6"><span style="s2">トミー<br />それは遠回しな質問なの？</span></p> 
+   <p begin="00:10:26.333" end="00:10:27.541" style="s6"><span style="s2">ママはどう？</span></p> 
+   <p begin="00:10:28.291" end="00:10:31.500" style="s6"><span style="s2">まあまあよ　ありがとう</span></p> 
+   <p begin="00:10:33.333" end="00:10:37.208" style="s6"><span style="s2">メイコンとエドワードが<br />ついに法を犯した？</span></p> 
+   <p begin="00:10:37.291" end="00:10:40.541" style="s6"><span style="s2">まだだけど 時間の問題だな</span></p> 
+   <p begin="00:10:41.000" end="00:10:46.083" style="s6"><span style="s2">ウェディングケーキに飾る<br />人形の作成を頼んできた</span></p> 
+   <p begin="00:10:49.875" end="00:10:50.916" style="s6"><span style="s2">じゃあ<span style="s8">―</span></span></p> 
+   <p begin="00:10:52.166" end="00:10:54.250" style="s6"><span style="s2">私も手伝わなきゃ</span></p> 
+   <p begin="00:10:55.083" end="00:10:58.625" style="s6"><span style="s2">大人が見てないと<br />ひどいことになる</span></p> 
+   <p begin="00:10:59.541" end="00:11:04.333" style="s6"><span style="s2">ビリーアンがおやつを持って<br />待ってたよ</span></p> 
+   <p begin="00:11:04.416" end="00:11:05.583" style="s6"><span style="s2">警告 どうも</span></p> 
+   <p begin="00:11:06.750" end="00:11:07.875" style="s6"><span style="s2">じゃあね</span></p> 
+   <p begin="00:11:14.791" end="00:11:17.000" style="s1"><span style="s2">何も言わなかったの？</span></p> 
+   <p begin="00:11:17.083" end="00:11:18.916" style="s1"><span style="s2">何て言えと？</span></p> 
+   <p begin="00:11:19.000" end="00:11:19.708" style="s1"><span style="s2">例えば こうよ</span></p> 
+   <p begin="00:11:19.708" end="00:11:20.416" style="s1"><span style="s2">例えば こうよ</span></p> 
+   <p begin="00:11:19.708" end="00:11:20.416" region="縦右" style="s7">“フォーエバー･ファブ<br />３Ｄプリント”</p> 
+   <p begin="00:11:20.416" end="00:11:20.500" region="縦右" style="s7">“フォーエバー･ファブ<br />３Ｄプリント”</p> 
+   <p begin="00:11:20.500" end="00:11:23.083" region="縦右" style="s7">“フォーエバー･ファブ<br />３Ｄプリント”</p> 
+   <p begin="00:11:20.500" end="00:11:23.083" style="s1"><span style="s2">“想像してみたの”</span></p> 
+   <p begin="00:11:23.083" end="00:11:23.166" region="縦右" style="s7">“フォーエバー･ファブ<br />３Ｄプリント”</p> 
+   <p begin="00:11:23.166" end="00:11:25.250" region="縦右" style="s7">“フォーエバー･ファブ<br />３Ｄプリント”</p> 
+   <p begin="00:11:23.166" end="00:11:25.250" style="s6"><span style="s2">“あなたになるのは<br />どんな気持ちか”</span></p> 
+   <p begin="00:11:25.250" end="00:11:26.833" style="s6"><span style="s2">“あなたになるのは<br />どんな気持ちか”</span></p> 
+   <p begin="00:11:27.000" end="00:11:31.166" style="s6"><span style="s2">“でも無理だった<br />あなたがハンサムすぎて”</span></p> 
+   <p begin="00:11:31.583" end="00:11:35.375" style="s6"><span style="s2">“ライオンの気持ちは<br />私には分からない”</span></p> 
+   <p begin="00:11:35.916" end="00:11:37.125" style="s6"><span style="s2">ライオン？</span></p> 
+   <p begin="00:11:37.208" end="00:11:38.625" style="s6"><span style="s2">何でもいい</span></p> 
+   <p begin="00:11:38.708" end="00:11:41.583" style="s6"><span style="s2">そして色っぽく こう言うの</span></p> 
+   <p begin="00:11:41.666" end="00:11:43.375" style="s6"><span style="s2">“時間は大事？”</span></p> 
+   <p begin="00:11:43.541" end="00:11:45.625" style="s6"><span style="s2">彼は“もちろん”と言う</span></p> 
+   <p begin="00:11:45.708" end="00:11:49.458" style="s6"><span style="s2">そうしたら<br />“おしゃべりで浪費せずに…”</span></p> 
+   <p begin="00:11:49.541" end="00:11:51.375" style="s6"><span style="s2">トミーの人形 できた</span></p> 
+   <p begin="00:11:51.458" end="00:11:53.416" style="s6"><span style="s2">“今すぐ熱い体を…”</span></p> 
+   <p begin="00:11:53.500" end="00:11:56.833" style="s6"><span style="s2">なぜ新郎２人と<br />新婦１人なんだ？</span></p> 
+   <p begin="00:11:56.916" end="00:11:58.875" style="s6"><span style="s2">“１つ もらうね”は？</span></p> 
+   <p begin="00:11:58.958" end="00:12:01.041" style="s6"><span style="s2">注文の読み違いじゃ？</span></p> 
+   <p begin="00:12:03.125" end="00:12:04.083" style="s6"><span style="s2">本当だ</span></p> 
+   <p begin="00:12:08.250" end="00:12:09.416" style="s6"><span style="s2">解決した</span></p> 
+   <p begin="00:12:11.791" end="00:12:14.041" style="s6"><span style="s2">“差し入れ どうも”は？</span></p> 
+   <p begin="00:12:16.208" end="00:12:19.250" style="s6"><span style="s2">あんたのスキルと個性は<span style="s8">―</span></span></p> 
+   <p begin="00:12:19.333" end="00:12:22.291" style="s6"><span style="s2">こんな店には もったいない</span></p> 
+   <p begin="00:12:23.208" end="00:12:27.750" style="s6"><span style="s2">ゲームの腕を生かせば<br />はるかに お金になる</span></p> 
+   <p begin="00:12:27.916" end="00:12:30.375" style="s6"><span style="s2">バートンは<br />いくら稼いでる？</span></p> 
+   <p begin="00:12:30.458" end="00:12:32.250" style="s6"><span style="s2">不相応なほどよ</span></p> 
+   <p begin="00:12:32.333" end="00:12:37.250" style="s6"><span style="s2">あんたなら もっと稼げる<br />女ってことを隠せばね</span></p> 
+   <p begin="00:12:37.333" end="00:12:40.083" style="s6"><span style="s2">そういうの<br />やめたんだってば</span></p> 
+   <p begin="00:12:40.250" end="00:12:45.875" style="s6"><span style="s2">それは聞いたけど<br />肝心な理由を聞いてないわ</span></p> 
+   <p begin="00:12:45.958" end="00:12:50.416" style="s6"><span style="s2">しょせん架空の世界よ<br />私の現実は ここだけ</span></p> 
+   <p begin="00:12:52.583" end="00:12:53.958" style="s6"><span style="s2">来たか</span></p> 
+   <p begin="00:12:54.875" end="00:12:56.458" style="s6"><span style="s2">そんなわけで<span style="s8">―</span></span></p> 
+   <p begin="00:12:57.083" end="00:13:00.916" style="s6"><span style="s2">仕事に行く前に<br />１つだけ言っておく</span></p> 
+   <p begin="00:13:01.958" end="00:13:06.500" style="s6"><span style="s2">もし結婚前の私に<br />誰かが惚れていたとしたら<span style="s8">―</span></span></p> 
+   <p begin="00:13:07.000" end="00:13:09.541" style="s6"><span style="s2">私は ぜひ知りたかった</span></p> 
+   <p begin="00:13:10.208" end="00:13:13.791" style="s6"><span style="s2">分かるでしょ　人生は短いの</span></p> 
+   <p begin="00:13:14.458" end="00:13:16.708" style="s6"><span style="s2">尻込みしてる暇はない</span></p> 
+   <p begin="00:13:17.208" end="00:13:19.666" style="s6"><span style="s2">“１つだけ”より多くない？</span></p> 
+   <p begin="00:13:21.166" end="00:13:23.375" style="s6"><span style="s2">じゃあね　よい一日を</span></p> 
+   <p begin="00:13:23.916" end="00:13:26.500" style="s6"><span style="s2">たまには大胆になってみて</span></p> 
+   <p begin="00:13:26.750" end="00:13:26.916" region="縦右" style="s7">“クリーン”</p> 
+   <p begin="00:13:26.916" end="00:13:28.041" region="縦右" style="s7">“クリーン”</p> 
+   <p begin="00:13:26.916" end="00:13:28.041" style="s6"><span style="s2">またね</span></p> 
+   <p begin="00:13:28.041" end="00:13:28.500" region="縦右" style="s7">“クリーン”</p> 
+   <p begin="00:13:28.500" end="00:13:29.583" region="縦右" style="s7">“クリーン”</p> 
+   <p begin="00:13:28.500" end="00:13:29.583" style="s6"><span style="s2">お待たせ</span></p> 
+   <p begin="00:13:29.583" end="00:13:

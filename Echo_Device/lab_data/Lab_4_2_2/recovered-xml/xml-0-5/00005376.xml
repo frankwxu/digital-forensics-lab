@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:version="2" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="hu">
+ <head>
+  <styling>
+   <style xml:id="s0" tts:fontFamily="sansSerif" tts:fontStyle="italic" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+   <style xml:id="s1" tts:fontFamily="sansSerif" tts:fontStyle="normal" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+  </styling>
+  <layout>
+   <region xml:id="r0" tts:extent="100% 15%" tts:origin="0% 85%" tts:displayAlign="after" tts:textAlign="center"></region>
+   <region xml:id="r1" tts:extent="100% 15%" tts:origin="0% 0%" tts:displayAlign="before" tts:textAlign="center"></region>
+  </layout>
+ </head>
+ <body style="s1">
+  <div>
+   <p begin="00:01:24.666" end="00:01:27.583" region="r0">A PERIFÉRIA</p>
+   <p begin="00:02:39.708" end="00:02:42.208" region="r0">Ezúttal milyen zűrbe<br />keverted magad, Aelita?</p>
+   <p begin="00:02:42.541" end="00:02:44.875" region="r0">Úgy érted, milyen zűrbe kevertél?</p>
+   <p begin="00:02:47.750" end="00:02:51.000" region="r0">Ki hitte volna, hogy ilyen<br />veszélyes barátokra teszel szert?</p>
+   <p begin="00:02:53.583" end="00:02:56.041" region="r0">Egyszer fél évig nem hordtam cipőt.</p>
+   <p begin="00:02:56.125" end="00:02:57.291" region="r0">Emlékszel?</p>
+   <p begin="00:02:57.875" end="00:03:01.958" region="r0">Érdekes, mennyire meg tud keményedni<br />vagy puhulni az ember talpa.</p>
+   <p begin="00:03:02.041" end="00:03:05.708" region="r0">A környezettől függően.<br />Mint maga az ember.</p>
+   <p begin="00:03:08.750" end="00:03:11.291" region="r0">Emlékszel, mi lett vele? A cipőmmel.</p>
+   <p begin="00:03:12.583" end="00:03:13.791" region="r0">Nekem adtad.</p>
+   <p begin="00:03:16.208" end="00:03:18.416" region="r0">Amikor rád találtam, esküt tettem.</p>
+   <p begin="00:03:18.708" end="00:03:20.166" region="r0">Hogy megmentelek, ha tudlak.</p>
+   <p begin="00:03:20.250" end="00:03:21.125" region="r0">Megmentettél.</p>
+   <p begin="00:03:22.583" end="00:03:23.458" region="r0">Biztos?</p>
+   <p begin="00:03:25.166" end="00:03:26.416" region="r0">Mire készülsz, Aelita?</p>
+   <p begin="00:03:28.958" end="00:03:30.333" region="r0">Megmentem a világot.</p>
+   <p begin="00:03:30.416" end="00:03:32.875" region="r0">A világunk menthetetlen,<br />mindig is ezt mondtad.</p>
+   <p begin="00:03:32.958" end="00:03:35.000" region="r0">Nem mondtam, hogy a mi világunkat.</p>
+   <p begin="00:03:42.291" end="00:03:43.250" region="r0">Ég veled, Wolf!</p>
+   <p begin="00:03:45.041" end="00:03:45.916" region="r0">Aelita?</p>
+   <p begin="00:03:49.708" end="00:03:50.708" region="r0">Aelita?</p>
+   <p begin="00:04:28.666" end="00:04:32.041" region="r1">BLUE RIDGE-HEGYSÉG 2032</p>
+   <p begin="00:05:14.166" end="00:05:15.333" region="r0">Jó reggelt, anyu!</p>
+   <p begin="00:05:16.333" end="00:05:19.250" region="r0">Hoztam kávét. De óvatosan, kicsit forró!</p>
+   <p begin="00:05:19.333" end="00:05:20.166" region="r0">Köszönöm.</p>
+   <p begin="00:05:20.250" end="00:05:23.125" region="r0">Tessék. És csináltam szendvicset.<br />A hűtőbe tettem.</p>
+   <p begin="00:05:23.208" end="00:05:25.291" region="r0">Ha Burton is enne, csináljon magának!</p>
+   <p begin="00:05:25.375" end="00:05:27.791" region="r0">Tegnap a tiedet ette meg, ne is tagadd!</p>
+   <p begin="00:05:27.875" end="00:05:29.041" region="r0">Nem voltam éhes.</p>
+   <p begin="00:05:32.291" end="00:05:33.833" region="r0">Nem fogyhatsz le még jobban.</p>
+   <p begin="00:05:33.916" end="00:05:35.833" region="r0">Megint kórházba kerülnél.</p>
+   <p begin="00:05:41.958" end="00:05:42.916" region="r0">Burton!</p>
+   <p begin="00:05:44.208" end="00:05:45.166" region="r0">Baszki!</p>
+   <p begin="00:05:55.041" end="00:05:56.250" region="r0">Burton, nyisd ki!</p>
+   <p begin="00:05:57.333" end="00:05:58.166" region="r0">Burton!</p>
+   <p begin="00:06:02.333" end="00:06:05.541" region="r0">Elárulnád, anya utolsó Tamosene-ja<br />miért csak 10 millis?</p>
+   <p begin="00:06:05.625" end="00:06:07.333" region="r0">Vedd át! Hugyoznom kell.</p>
+   <p begin="00:06:07.416" end="00:06:08.875" region="r0">Gyógyszert cseréltél vele?</p>
+   <p begin="00:06:10.083" end="00:06:12.791" region="r0">Burton! Gyógyszert cseréltél anyával?</p>
+   <p begin="00:06:12.875" end="00:06:15.708" region="r0">Jesszus, Flynne,<br />szerinted képes lennék ilyesmire?</p>
+   <p begin="00:06:15.791" end="00:06:17.583" region="r0">Tíz milligrammos volt a tablettája.</p>
+   <p begin="00:06:17.666" end="00:06:19.416" region="r0">És az volt az utolsó szem.</p>
+   <p begin="00:06:19.500" end="00:06:23.333" region="r0">Így valószínűleg<br />nem csak kicserélted, hanem elloptad.</p>
+   <p begin="00:06:23.416" end="00:06:24.708" region="r0">Szóval virítsd a lóvét!</p>
+   <p begin="00:06:24.791" end="00:06:26.583" region="r0">-Mennyi kell?<br />-Mennyid van?</p>
+   <p begin="00:06:26.666" end="00:06:29.666" region="r0">Ezer, ha eljutok a következő pályára.<br />Segíthetnél benne.</p>
+   <p begin="00:06:29.750" end="00:06:32.708" region="r0">-Abból egy tabletta jön ki.<br />-Elég egy napra, nem?</p>
+   <p begin="00:06:33.375" end="00:06:37.375" region="r0">És ma este lesz egy nagy dobásom,<br />úgyhogy holnapra meglesz a többi.</p>
+   <p begin="00:06:38.541" end="00:06:39.375" region="r0">Avass be!</p>
+   <p begin="00:06:39.458" end="00:06:40.291" region="r0">HEADSET KAPCSOLÓDVA</p>
+   <p begin="00:06:40.375" end="00:06:42.458" region="r0">Náci osztag a házban.<br />Mi a pajtában vagyunk.</p>
+   <p begin="00:06:42.541" end="00:06:43.500" region="r0">Te és kik?</p>
+   <p begin="00:06:43.583" end="00:06:46.125" region="r0">Reece és valami kaliforniai fazon.</p>
+   <p begin="00:06:46.208" end="00:06:48.208" region="r0">Felbérelt, hogy kipörgessük a 20-ast.</p>
+   <p begin="00:06:48.291" end="00:06:51.166" region="r0">Mindig azt mondja: "Nyugi van."<br />Iszonyat idegesítő.</p>
+   <p begin="00:06:51.250" end="00:06:52.708" region="r0">Reece a svájcisapkás.</p>
+   <p begin="00:06:53.916" end="00:06:56.125" region="r0">Siess vissza! Így is késésben vagyok.</p>
+   <p begin="00:06:58.666" end="00:06:59.958" region="r0">FOLYTATÁS EASY ICE-KÉNT</p>
+   <p begin="00:07:20.500" end="00:07:21.958" region="r0">Nincs bennetek semmi...</p>
+   <p begin="00:07:22.041" end="00:07:23.208" region="r0">Tsztesség?</p>
+   <p begin="00:07:23.958" end="00:07:25.916" region="r0">Legalább engedjétek ki a birkákat!</p>
+   <p begin="00:07:35.500" end="00:07:38.833" region="r0">Tetszik a svájcisapid, Reece.<br />Nagyon stílusos!</p>
+   <p begin="00:07:38.916" end="00:07:39.916" region="r0">Flynne?</p>
+   <p begin="00:07:40.000" end="00:07:41.000" region="r0"><span style="s0">Hol van Burton?</span></p>
+   <p begin="00:07:41.083" end="00:07:42.083" region="r0">Az orrát púderezi.</p>
+   <p begin="00:07:42.875" end="00:07:46.041" region="r0">-Mit keresünk?<br />-Elvileg egy térképet.</p>
+   <p begin="00:07:47.000" end="00:07:47.875" region="r0">Meglett?</p>
+   <p begin="00:07:50.750" end="00:07:51.958" region="r0">Mit csinálsz?</p>
+   <p begin="00:07:53.083" end="00:07:54.125" region="r0">Nyisd ki az ajtót!</p>
+   <p begin="00:08:10.916" end="00:08:11.875" region="r0">Vagyok!</p>
+   <p begin="00:08:11.958" end="00:08:12.958" region="r0">Egy pillanat!</p>
+   <p begin="00:08:14.291" end="00:08:15.625" region="r0">Előre!</p>
+   <p begin="00:08:45.750" end="00:08:46.666" region="r0">Nyugi van!</p>
+   <p begin="00:08:48.333" end="00:08:51.250" region="r0">-Tudod, miért nem találtátok a térképet?<br />-Miért?</p>
+   <p begin="00:08:51.333" end="00:08:52.916" region="r0">Mert még nem érkezett meg.</p>
+   <p begin="00:08:58.333" end="00:08:59.958" region="r0">Küldd a pénzt a mobilomra!</p>
+   <p begin="00:09:01.666" end="00:09:02.750" region="r0">Szívesen.</p>
+   <p begin="00:09:05.791" end="00:09:06.666" region="r0">Reece!</p>
+   <p begin="00:09:08.583" end="00:09:09.958" region="r0">Mi a szar történt?</p>
+   <p begin="00:09:11.166" end="00:09:12.166" region="r0">Flynne beköszönt.</p>
+   <p begin="00:09:50.625" end="00:09:52.166" region="r0">HEFTY ATM<br />KÉSZPÉNZ BÁRMIKOR</p>
+   <p begin="00:09:53.041" end="00:09:53.875" region="r0">PÉNZFELVÉT</p>
+   <p begin="00:10:12.166" end="00:10:15.250" region="r0">Igaz, hogy a nemzetbiztik<br />tudnak minden pénzfelvétről?</p>
+   <p begin="00:10:15.333" end="00:10:17.041" region="r0">Logikus lenne.</p>
+   <p begin="00:10:17.125" end="00:10:20.208" region="r0">Ma már csak gyanús ügyletekhez<br />használnak készpénzt.</p>
+   <p begin="00:10:20.291" end="00:10:24.166" region="r0">Jól érzem, hogy egy kérdés rejlik<br />a szavaid mögött, Tommy?</p>
+   <p begin="00:10:26.083" end="00:10:27.541" region="r0">Hogy van anyukád?</p>
+   <p begin="00:10:28.333" end="00:10:29.291" region="r0">Jól.</p>
+   <p begin="00:10:29.833" end="00:10:31.250" region="r0">Kösz, hogy kérded.</p>
+   <p begin="00:10:33.291" end="00:10:34.500" region="r0">Mi járatban?</p>
+   <p begin="00:10:34.583" end="00:10:37.250" region="r0">Macon és Edward<br />kihúzta a gyufát a rend őreinél?</p>
+   <p begin="00:10:37.333" end="00:10:40.291" region="r0">Még nem, de csak idő kérdése.</p>
+   <p begin="00:10:40.791" end="00:10:43.125" region="r0">Csak leadtam egy rendelést Dee Deenek.</p>
+   <p begin="00:10:43.208" end="00:10:45.833" region="r0">Díszt nyomtattatunk az esküvői tortánkra.</p>
+   <p begin="00:10:49.791" end="00:10:53.750" region="r0">Hát, jobb ha megyek, és segítek benne.</p>
+   <p begin="00:10:56.416" end="00:10:58.666" region="r0">Elszúrják,<br />ha nem felügyeli őket egy felnőtt.</p>
+   <p begin="00:10:59.583" end="00:11:03.125" region="r0">Billy Ann már vár. Malacfalatkákkal.</p>
+   <p begin="00:11:03.208" end="00:11:05.541" region="r0">-Gondoltam, figyelmeztetlek.<br />-Köszi.</p>
+   <p begin="00:11:06.666" end="00:11:07.875" region="r0">Szia, Tommy!</p>
+   <p begin="00:11:14.791" end="00:11:16.958" region="r0"><span style="s0">Nem mondtál semmit, mi?</span></p>
+   <p begin="00:11:17.041" end="00:11:19.541" region="r0"><span style="s0">-Mit kellett volna mondanom?</span><br /><span style="s0">-Mondjuk azt:</span></p>
+   <p begin="00:11:19.625" end="00:11:21.125" region="r0">FOREVER FAB<br />3D NYOMTATÁS</p>
+   <p begin="00:11:21.208" end="00:11:25.250" region="r0"><span style="s0">"Csak próbálom elképzelni,</span><br /><span style="s0">milyen lehet a helyedben lenni.</span></p>
+   <p begin="00:11:25.791" end="00:11:26.875" region="r0">Ott állni."</p>
+   <p begin="00:11:26.958" end="00:11:30.916" region="r0">Aztán: "De nem megy. Túl jóképű vagy.</p>
+   <p begin="00:11:31.541" end="00:11:35.000" region="r0">Mintha egy oroszlán<br />bőrébe próbálnék belebújni."</p>
+   <p begin="00:11:35.958" end="00:11:37.166" region="r0">Oroszlán, Billy?</p>
+   <p begin="00:11:37.250" end="00:11:38.666" region="r0">Mondhatsz más állatot.</p>
+   <p begin="00:11:38.750" end="00:11:41.291" region="r0">Aztán csábosan:</p>
+   <p begin="00:11:41.708" end="00:11:43.375" region="r0">"Értékes az időd?"</p>
+   <p begin="00:11:43.458" end="00:11:45.625" region="r0">Azt mondja, igen, mert mi mást mondana?</p>
+   <p begin="00:11:45.708" end="00:11:49.500" region="r0">Mire te:<br />"Akkor miért vesztegetjük beszédre..."</p>
+   <p begin="00:11:49.583" end="00:11:51.333" region="r0">Hé, Flynne! Kész Tommy rendelése.</p>
+   <p begin="00:11:51.416" end="00:11:53.708" region="r0">"...amikor összedörgölhetnénk<br />az izzadt..."</p>
+   <p begin="00:11:53.791" end="00:11:56.875" region="r0">Azt vágjátok, miért kell két vőlegény<br />és egy menyasszony?</p>
+   <p begin="00:11:56.958" end="00:11:59.125" region="r0">"Csá, Billy Ann! Vehetek belőle?"</p>
+   <p begin="00:11:59.208" end="00:12:00.958" region="r0">Nem olvastad félre a rendelést?</p>
+   <p begin="00:12:03.125" end="00:12:03.958" region="r0">Faszom.</p>
+   <p begin="00:12:07.958" end="00:12:08.833" region="r0">Ennyi.</p>
+   <p begin="00:12:11.791" end="00:12:14.083" region="r0">"Örültem! Kösz a malacfalatkát!"</p>
+   <p begin="00:12:16.125" end="00:12:17.375" region="r0">Muszáj kimondanom.</p>
+   <p begin="00:12:17.458" end="00:12:21.875" region="r0">A képességeid és a személyiséged<br />kárba vesznek itt a hülyék közt.</p>
+   <p begin="00:12:21.958" end="00:12:23.041" region="r0"><span style="s0">A 15-ös beakadt.</span></p>
+   <p begin="00:12:23.125" end="00:12:26.250" region="r0">Pláne hogy van egy<br />sokkal jövedelmezőbb lehetőséged</p>
+   <p begin="00:12:26.333" end="00:12:27.750" region="r0">karnyújtásnyira.</p>
+   <p begin="00:12:27.833" end="00:12:30.750" region="r0">Mennyit keres Burton azzal,<br />hogy gazdagoknak játszik?</p>
+   <p begin="00:12:30.833" end="00:12:32.250" region="r0">Többet, mint amit érdemel.</p>
+   <p begin="00:12:32.333" end="00:12:35.250" region="r0">Te még többet szakíthatnál.<br />Amíg az ő avatárját használod,</p>
+   <p begin="00:12:35.333" end="00:12:37.291" region="r0">és nem jönnek rá, hogy lány vagy.</p>
+   <p begin="00:12:37.375" end="00:12:40.125" region="r0">Azzal végeztem, Billy Ann. Mondtam már.</p>
+   <p begin="00:12:40.208" end="00:12:42.875" region="r0">Mondtad, de azt nem, hogy miért.</p>
+   <p begin="00:12:42.958" end="00:12:45.791" region="r0">Pedig az lenne a sztori szaftos része.</p>
+   <p begin="00:12:45.875" end="00:12:46.750" region="r0">Nem valóságos.</p>
+   <p begin="00:12:47.583" end="00:12:50.333" region="r0">Tetszik vagy sem,<br />ebben a világban kell élnem.</p>
+   <p begin="00:12:53.000" end="00:12:54.083" region="r0">Hát,</p>
+   <p begin="00:12:54.916" end="00:12:59.083" region="r0">jut eszembe, mielőtt tisztább hellyé<br />varázsolnám a világot,</p>
+   <p begin="00:12:59.166" end="00:13:01.333" region="r0">hadd mondjak még egyvalamit!</p>
+   <p begin="00:13:01.833" end="00:13:04.333" region="r0">Ha valaki<br />ilyen szemeket meresztett volna rám,</p>
+   <p begin="00:13:04.416" end="00:13:06.333" region="r0">mielőtt hozzámentem volna Jasperhez,</p>
+   <p begin="00:13:07.041" end="00:13:09.333" region="r0">tudni akartam volna róla.</p>
+   <p begin="00:13:09.916" end="00:13:12.708" region="r0">Mert, mint mondtad, rövid az élet,</p>
+   <p begin="00:13:12.791" end="00:13:15.875" region="r0">szóval miért pocsékolnál el<br />egy percet is félénkséggel?</p>
+   <p begin="00:13:17.041" end="00:13:19.708" region="r0">Egy kicsit hosszúra nyúlt<br />ez az "egyvalami".</p>
+   <p begin="00:13:21.166" end="00:13:23.125" region="r0">Szép napot, aranyom!</p>
+   <p begin="00:13:23.708" end="00:13:26.916" region="r0">Húzz valami merészet,<br />hadd legyünk büszkék rád!</p>
+   <p begin="00:13:27.000" end="00:13:29.208" region="r0">-Szia, Billy Ann!<br />-Szia! Helló, csajok!</p>
+   <p begin="00:13:29.291" end="00:13:30.625" region="r0">TAKARÍTÁS</p>
+   <p begin="00:13:51.375" end="00:13:52.625" region="r0">Nem hiszem el!</p>
+   <p begin="00:14:11.250" end="00:14:12.291" region="r0">Mi az?</p>
+   <p begin="00:14:16.833" end="00:14:18.666" region="r0">Burton kérte, hogy ezt vidd haza.</p>
+   <p begin="00:14:19.791" end="00:14:20.666" region="r0">Mi ez?</p>
+   <p begin="00:14:20.750" end="00:14:23.291" region="r0">Ennél faszább kütyüt még sosem nyomtunk.</p>
+   <p begin="00:14:23.375" end="00:14:25.416" region="r0">-És hogyan fizetett?<br />-Sehogy.</p>
+   <p begin="00:14:25.500" end="00:14:29.750" region="r0">Valami Milagros Coldiron állta.</p>
+   <p begin="00:14:29.833" end="00:14:32.250" region="r0">Fedezi a havi költségeinket.</p>
+   <p begin="00:14:32.333" end="00:14:33.625" region="r0">És mire való?</p>
+   <p begin="00:14:33.708" end="00:14:36.208" region="r0">Valami távvezérléses ketyere.</p>
+   <p begin="00:14:36.291" end="00:14:38.250" region="r0">Legalábbis erre tippelünk.</p>
+   <p begin="00:14:38.333" end="00:14:41.916" region="r0">Amennyire tudjuk, a komponensek fele<br />még szabadalmaztatva sincs.</p>
+   <p begin="00:14:42.000" end="00:14:44.208" region="r0">Valami zsoldoscucc lehet.</p>
+   <p begin="00:14:44.291" end="00:14:46.958" region="r0">-Honnan van ez?<br />-A Milagros Coldirontól.</p>
+   <p begin="00:14:47.041" end="00:14:49.041" region="r0">Kolumbiai cég. Rákerestünk.</p>
+   <p begin="00:14:49.125" end="00:14:51.791" region="r0">-Milyen cég?<br />-Olyan, amit Bogotában jegyeztek be.</p>
+   <p begin="00:14:51.875" end="00:14:54.375" region="r0">Ennyit mondanak azon túl, hogy bekaphatod.</p>
+   <p begin="00:14:54.458" end="00:14:56.000" region="r0">Burton beállt egy kartellba?</p>
+   <p begin="00:14:56.083" end="00:14:57.000" region="r0">Menjél már!</p>
+   <p begin="00:14:57.541" end="00:15:00.666" region="r0">Tuti biztosak vagytok benne,<br />hogy nem fizet</p>
+   <p begin="00:15:00.750" end="00:15:02.458" region="r0">-semennyit?<br />-Egy centet sem.</p>
+   <p begin="00:15:03.000" end="00:15:05.000" region="r0">De szükségem lesz egy szkenre.</p>
+   <p begin="00:15:06.375" end="00:15:07.875" region="r0">Várj! Komolyan?</p>
+   <p begin="00:15:08.333" end="00:15:11.208" region="r0">Ne vedd magadra!<br />A vevő mindent dokumentálni akar.</p>
+   <p begin="00:15:31.000" end="00:15:33.708" region="r0">Elárulnád, mi a szitu anya gyógyszereivel?</p>
+   <p begin="00:15:40.791" end="00:15:43.333" region="r0">Gyerünk! Tudom, hogy szeretnéd.</p>
+   <p begin="00:15:43.416" end="00:15:44.250" region="r0">Mit?</p>
+   <p begin="00:15:46.833" end="00:15:48.166" region="r0">Megkérdezni, hogy mi ez.</p>
+   <p begin="00:15:50.208" end="00:15:52.958" region="r0">Szerinted hány évesen<br />vált be rajtam ez utoljára?</p>
+   <p begin="00:15:53.041" end="00:15:55.500" region="r0">Hogy egy játékkal<br />tereled el a figyelmemet.</p>
+   <p begin="00:15:55.583" end="00:15:59.750" region="r0">Lehet, meglepődnél, mert ha beválik,<br />nem feltétlenül veszed észre.</p>
+   <p begin="00:15:59.833" end="00:16:01.291" region="r0">Pont ez a lényege.</p>
+   <p begin="00:16:11.041" end="00:16:12.166" region="r0">Furán néz ki.</p>
+   <p begin="00:16:13.125" end="00:16:15.333" region="r0">Mire valók azok az ezüst fogak?</p>
+   <p begin="00:16:15.875" end="00:16:16.958" region="r0">Nincs képernyője.</p>
+   <p begin="00:16:17.875" end="00:16:19.375" region="r0">Csúcsmodern VR.</p>
+   <p begin="00:16:19.958" end="00:16:23.375" region="r0">Megkértek, hogy bétateszteljem<br />egy nagy rakás pénzért.</p>
+   <p begin="00:16:23.458" end="00:16:24.875" region="r0">Hónapokig lazán leszünk.</p>
+   <p begin="00:16:24.958" end="00:16:25.875" region="r0">Miért téged?</p>
+   <p begin="00:16:25.958" end="00:16:29.583" region="r0">Nem sok játékos jutott el<br />a <span style="s0">Halcyon</span> 100. pályájáig.</p>
+   <p begin="00:16:29.666" end="00:16:32.291" region="r0">Elakadtál a 83.-on, a tűzbarlangoknál.</p>
+   <p begin="00:16:32.375" end="00:16:37.000" region="r0">Igaz, de valaki az én avatáromat<br />használta. Easy Ice-ként játszott.</p>
+   <p begin="00:16:37.083" end="00:16:40.541" region="r0">És ő eljutott egész a 107.-ig.</p>
+   <p begin="00:16:41.791" end="00:16:42.833" region="r0">Nem, Burton.</p>
+   <p begin="00:16:42.916" end="00:16:44.916" region="r0">Nincs időm erre, vacsorát csinálok.</p>
+   <p begin="00:16:45.000" end="00:16:47.416" region="r0">Csak így lesz pénzünk anya Tamosene-jára.</p>
+   <p begin="00:16:52.416" end="00:16:55.125" region="r0">Tudod, hogy büszke vagyok rád!<br />Nagyon ász vagy ebben.</p>
+   <p begin="00:16:55.208" end="00:16:56.958" region="r0">Ne már, akkora kamugép vagy!</p>
+   <p begin="00:16:57.041" end="00:16:59.333" region="r0">Nem tudom,<br />hogy vagy képes elviselni magad.</p>
+   <p begin="00:

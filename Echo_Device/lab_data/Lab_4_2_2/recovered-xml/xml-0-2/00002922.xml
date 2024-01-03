@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="230" value="53" />
+    <int name="110" value="99" />
+    <int name="231" value="130" />
+    <int name="111" value="16" />
+    <int name="232" value="223" />
+    <int name="112" value="192" />
+    <int name="233" value="131" />
+    <int name="113" value="267" />
+    <int name="234" value="334" />
+    <int name="114" value="180" />
+    <int name="235" value="249" />
+    <int name="115" value="186" />
+    <int name="236" value="25" />
+    <int name="116" value="137" />
+    <int name="117" value="156" />
+    <int name="118" value="76" />
+    <int name="119" value="307" />
+    <int name="10" value="10" />
+    <int name="11" value="38" />
+    <int name="12" value="75" />
+    <int name="13" value="7" />
+    <int name="14" value="429" />
+    <int name="15" value="242" />
+    <int name="16" value="386" />
+    <int name="17" value="313" />
+    <int name="18" value="104" />
+    <int name="19" value="160" />
+    <int name="120" value="265" />
+    <int name="121" value="399" />
+    <int name="1" value="2" />
+    <int name="122" value="280" />
+    <int name="2" value="171" />
+    <int name="123" value="324" />
+    <int name="3" value="226" />
+    <int name="124" value="217" />
+    <int name="4" value="114" />
+    <int name="125" value="10" />
+    <int name="5" value="262" />
+    <int name="126" value="195" />
+    <int name="6" value="45" />
+    <int name="127" value="180" />
+    <int name="7" value="149" />
+    <int name="128" value="63" />
+    <int name="8" value="100" />
+    <int name="129" value="13" />
+    <int name="9" value="8" />
+    <int name="20" value="315" />
+    <int name="21" value="217" />
+    <int name="22" value="188" />
+    <int name="23" value="152" />
+    <int name="24" value="260" />
+    <int name="25" value="186" />
+    <int name="26" value="137" />
+    <int name="27" value="247" />
+    <int name="28" value="143" />
+    <int name="29" value="330" />
+    <int name="130" value="7" />
+    <int name="131" value="32" />
+    <int name="132" value="223" />
+    <int name="133" value="41" />
+    <int name="134" value="5" />
+    <int name="135" value="48" />
+    <int name="136" value="188" />
+    <int name="137" value="45" />
+    <int name="138" value="148" />
+    <int name="139" value="150" />
+    <int name="30" value="104" />
+    <int name="31" value="20" />
+    <int name="32" value="295" />
+    <int name="33" value="321" />
+    <int name="34" value="282" />
+    <int name="35" value="216" />
+    <int name="36" value="155" />
+    <int name="37" value="312" />
+    <int name="38" value="153" />
+    <int name="39" value="327" />
+    <long name="RecordedEventsPrefsKey" value="2" />
+    <int name="140" value="209" />
+    <int name="141" value="102" />
+    <int name="142" value="281" />
+    <int name="143" value="218" />
+    <int name="144" value="4" />
+    <int name="145" value="5" />
+    <int name="146" value="8" />
+    <int name="147" value="225" />
+    <int name="148" value="247" />
+    <int name="149" value="100" />
+    <int name="40" value="245" />
+    <int name="41" value="271" />
+    <int name="42" value="322" />
+    <int name="43" value="390" />
+    <int name="44" value="256" />
+    <int name="45" value="137" />
+    <int name="46" value="90" />
+    <int name="47" value="166" />
+    <int name="48" value="205" />
+    <int name="49" value="296" />
+    <int name="150" value="238" />
+    <int name="151" value="176" />
+    <int name="152" value="360" />
+    <int name="153" value="74" />
+    <int name="154" value="308" />
+    <int name="155" value="380" />
+    <int name="156" value="95" />
+    <int name="157" value="14" />
+    <int name="158" value="220" />
+    <int name="159" value="147" />
+    <int name="50" value="259" />
+    <int name="51" value="158" />
+    <int name="52" value="82" />
+    <int name="53" value="95" />
+    <int name="54" value="110" />
+    <int name="55" value="368" />
+    <int name="56" value="278" />
+    <int name="57" value="242" />
+    <int name="58" value="328" />
+    <int name="59" value="96" />
+    <int name="160" value="55" />
+    <int name="161" value="63" />
+    <int name="162" value="157" />
+    <int name="163" value="144" />
+    <int name="164" value="200" />
+    <int name="165" value="202" />
+    <int name="166" value="373" />
+    <int name="167" value="116" />
+    <int name="168" value="116" />
+    <int name="169" value="174" />
+    <int name="60" value="420" />
+    <int name="61" value="308" />
+    <int name="62" value="236" />
+    <int name="63" value="383" />
+    <int name="64" value="346" />
+    <int name="65" value="182" />
+    <int name="66" value="338" />
+    <int name="67" value="26" />
+    <int name="68" value="215" />
+    <int name="69" value="162" />
+    <int name="170" value="36" />
+    <int name="171" value="253" />
+    <int name="172" value="12" />
+    <int name="173" value="239" />
+    <int name="174" value="116" />
+    <int name="175" value="198" />
+    <int name="176" value="162" />
+    <boolean name="IS_UPGRADED" value="true" />
+    <int name="177" value="89" />
+    <int name="178" value="161" />
+    <int name="179" value="139" />
+    <int name="70" value="235" />
+    <int name="71" value="146" />
+    <int name="72" value="135" />
+    <int name="73" value="142" />
+    <int name="74" value="197" />
+    <int name="75" value="187" />
+    <int name="76" value="283" />
+    <int name="77" value="377" />
+    <int name="78" value="21" />
+    <int name="79" value="7" />
+    <int name="180" value="347" />
+    <int name="181" value="187" />
+    <int name="182" value="133" />
+    <int name="183" value="55" />
+    <int name="184" value="46" />
+    <int name="185" value="132" />
+    <int name="186" value="144" />
+    <int name="187" value="49" />
+    <int name="188" value="182" />
+    <int name="189" value="49" />
+    <int name="80" value="171" />
+    <int name="81" value="196" />
+    <int name="82" value="61" />
+    <int name="83" value="77" />
+    <int name="84" value="56" />
+    <int name="85" value="10" />
+    <int name="86" value="57" />
+    <int name="87" value="159" />
+    <int name="88" value="7" />
+    <int name="89" value="33" />
+    <int name="190" value="159" />
+    <int name="191" value="304" />
+    <int name="192" value="186" />
+    <int name="193" value="272" />
+    <int name="194" value="51" />
+    <int name="195" value="192" />
+    <int name="196" value="5" />
+    <int name="197" value="48" />
+    <int name="198" value="48" />
+    <int name="199" value="293" />
+    <int name="90" value="190" />
+    <int name="91" value="72" />
+    <int name="92" value="129" />
+    <int name="93" value="323" />
+    <int name="94" value="16" />
+    <int name="95" value="118" />
+    <int name="96" value="92" />
+    <int name="97" value="89" />
+    <int name="98" value="68" />
+    <int name="99" value="98" />
+    <int name="200" value="120" />
+    <int name="201" value="2" />
+    <int name="202" value="3" />
+    <int name="203" value="118" />
+    <int name="204" value="13" />
+    <int name="205" value="48" />
+    <int name="206" value="241" />
+    <int name="207" value="221" />
+    <int name="208" value="199" />
+    <int name="209" value="198" />
+    <int name="210" value="2" />
+    <int name="211" value="294" />
+    <int name="212" value="125" />
+    <int name="213" value="260" />
+    <int name="214" value="132" />
+    <int name="215" value="108" />
+    <int name="216" value="7" />
+    <int name="217" value="279" />
+    <int name="218" value="126" />
+    <int name="219" value="103" />
+    <int name="220" value="113" />
+    <int name="100" value="163" />
+    <int name="221" value="246" />
+    <int name="101" value="100" />
+    <int name="222" value="136" />
+    <int name="102" value="138" />
+    <int name="223" value="33" />
+    <int name="103" value="172" />
+    <int name="224" value="87" />
+    <int name="104" value="18" />
+    <int name="225" value="85" />
+    <int name="105" value="147" />
+    <int name="226" value="201" />
+    <int name="106" value="7" />
+    <int name="227" value="318" />
+    <int name="107" value="2" />
+    <int name="228" value="125" />
+    <int name="108" value="21" />
+    <int name="229" value="37" />
+    <int name="109" value="113" />
+</map>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         or.DeviceImpression.3","timestamp":"2023-10-23T17:34:08.772-0400","producerId":"alexa-anchor","messageId":"7bd347bf-7fe9-4ba3-a30f-c46c6a7b5477","sessionId":"40f031a7-5b49-4d3b-b620-6ff20f10a9c4","compositionId":"b8948f32-c17d-4087-a31c-fbc5d7acf632","cardName":"DailyDoseContentProvider","itemMeta":"{\"domain\":\"Skills\",\"IsHestia\":true,\"isPersonalized\":false,\"cardType\":\"\"}","placementId":"b975cee3-53d3-40e1-8be5-3ff93be1c2d4","personId":"UNDEF","deviceState":"{\"cohort\":\"UNKNOWN\",\"deviceOpMode\":\"DEFAULT\",\"privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"df02cf43-2082-44b8-8626-c6fd11ae9dbd","eventType":"IMPRESSION_END","slotPosition":25,"duration":12881,"dismissalReason":"AUTO","ucid":"1650-150999.478859-1280-800-en_US-America.New_York","attentionSlot":24}},{"data":{"schemaId":"alexa_anchor.DeviceImpression.3","timestamp":"2023-10-23T17:34:21.799-0400","producerId":"alexa-anchor","messageId":"285ee6b4-ecb8-4e20-a77e-a7a926e69192","sessionId":"40f031a7-5b49-4d3b-b620-6ff20f10a9c4","compositionId":"b8948f32-c17d-4087-a31c-fbc5d7acf632","cardName":"SuggestedForYouCard","itemMeta":"{\"actionMetadataList\":[{\"category\":\"Global\",\"domain\":\"Global\",\"dssReferenceId\":\"0ba58b60-5b11-42e6-98b2-742c5147e375|MM_AMBIENT_HOME|NEXT_FOR_YOU_PERSONALIZED|null|en-US|amzn1.alexa.capability-catalog.3715abc2-9b9d-3c04-8059-82e32ad5efa9|null|variant.f6046060-d754-4333-9708-ebc935cd76ae\",\"intent\":\"WhatTimeIntent\",\"itemId\":\"amzn1.alexa.capability-catalog.3715abc2-9b9d-3c04-8059-82e32ad5efa9\",\"strategyName\":\"NEXT_FOR_YOU\"},{\"category\":\"Music\",\"domain\":\"Music\",\"dssReferenceId\":\"0ba58b60-5b11-42e6-98b2-742c5147e375|MM_AMBIENT_HOME|NEXT_FOR_YOU_PERSONALIZED|null|en-US|amzn1.alexa.capability-catalog.0591a14b-bb0f-3b24-99b4-bf3542e135fd|null|variant.9eee78ca-8d22-4169-ab94-0a5cf2cd5089\",\"intent\":\"PlayStationIntent\",\"itemId\":\"amzn1.alexa.capability-catalog.0591a14b-bb0f-3b24-99b4-bf3542e135fd\",\"strategyName\":\"NEXT_FOR_YOU\"}],\"IsHestia\":true,\"isPersonalized\":false,\"cardType\":\"\"}","placementId":"222c432d-d6ed-4ce2-aaf2-eaf724f611b2","personId":"UNDEF","deviceState":"{\"cohort\":\"UNKNOWN\",\"deviceOpMode\":\"DEFAULT\",\"privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"00387d9c-3a5e-4c1d-a31d-740ab4255458","eventType":"IMPRESSION_END","slotPosition":26,"duration":12861,"dismissalReason":"AUTO","ucid":"amzn1.alexa.capability-catalog.3715abc2-9b9d-3c04-8059-82e32ad5efa9~amzn1.alexa.capability-catalog.0591a14b-bb0f-3b24-99b4-bf3542e135fd","attentionSlot":25}},{"data":{"schemaId":"alexa_anchor.DeviceImpression.3","timestamp":"2023-10-23T17:34:34.833-0400","producerId":"alexa-anchor","messageId":"bd8045cb-83d2-4092-a054-975ebebeac13","sessionId":"40f031a7-5b49-4d3b-b620-6ff20f10a9c4","compositionId":"b8948f32-c17d-4087-a31c-fbc5d7acf632","cardName":"PhotoCard-AmazonPhotos","itemMeta":"{\"IsHestia\":true,\"isPersonalized\":false,\"cardType\":\"\"}","placementId":"723dad75-a57e-4d57-9f19-6e5b3cec1060","personId":"UNDEF","deviceState":"{\"cohort\":\"UNKNOWN\",\"deviceOpMode\":\"DEFAULT\",\"privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"33f4faaa-b7c9-4a34-a517-ee0d0c06bd62","eventType":"IMPRESSION_END","slotPosition":27,"duration":12887,"dismissalReason":"AUTO","ucid":"1WE9EzJgRy6duvs8su5Z_Q","attentionSlot":26}},{"data":{"schemaId":"alexa_anchor.DeviceImpression.3","timestamp":"2023-10-23T17:34:47.857-0400","producerId":"alexa-anchor","messageId":"abbe9a53-71ee-4023-a0fb-8533cc481352","sessionId":"40f031a7-5b49-4d3b-b620-6ff20f10a9c4","compositionId":"b8948f32-c17d-4087-a31c-fbc5d7acf632","cardName":"AmusementAnchorProvider","itemMeta":"{\"IsHestia\":true,\"isPersonalized\":false,\"cardType\":\"\"}","placementId":"f2eeaa2e-a273-4d4d-8a74-43e5d3cc4b94","personId":"UNDEF","deviceState":"{\"cohort\":\"UNKNOWN\",\"deviceOpMode\":\"DEFAULT\",\"privacyMode\":\"OFF\",\"cameraShutter\":\"OFF\",\"camera\":\"ON\"}","impressionId":"6c60bbba-247e-476e-9a5d-5887a40f72f4","eventType":"IMPRESSION_END"QÓˇ.É™Ï#õı‹s∏wˆq¥∫HÃøk}ƒ¨Û√=ìúˆ—TÃJE“`ÃNKTÂïH ¿6ci˘7“ƒtn
+BôÀ@ê-@fºãÀoÖ,Åm·'Úù®ƒ® ÈŸLP'ê:ë0ëß(ÑGá"òHtWt˙ŒCÍÒ”∞á˚ì™öñﬁﬁû(Cî•¨JCLìÅH‰way∫‚~cYÓÈKÉÀX^MÛ¢Lã<ä∏x/ÃÉY
+Ãøóy∂€í∆nôÖ)iÜyV)≈{ óÜA;5LVŸÂﬂêÖmî∆Ió.ÜJs(ÃØ≤$°—r¨áµ‰ô£2Lüµ)⁄Iƒu>´.ƒµ"Ûœ±p)íU0y<LÊ›:»YbwÇ,º˚}û ≥¯Rªı—w¿-„<Û‹»˜q=tpqÜá ™Jî¿√Hâ›Fr6"ÁE*™JÜ %gq ¬B"¢ZﬁU¥%*´B•á∏Ù–yûı—«†Ç∏lBöN∑≥/ ¶…i
+.¯^dahé‡î‚»C~úÖöæ∫[«Ó?Ùßç@…¡¥≠5M˛›‹[?ãÚõGm…»Çƒ'«qñ)p¯@ñÂ
+0èÓ˜ŸÃŸ(P»À!¸±±NÅ>Ây•˝¸{9rÓ`Ω—≈Ë‰Ù‰”¡Ò.Çå;K°Â—57ö‰gëƒ ánH∫ÚM◊$QÆ¶ãë ”·úÂœ( ã[§∞®ıX/8é≥∏T@k:ªU[ñπŸ¸pFï(*E¸s!≤DIü≥§™≥	‰“¡'Y∆ÆÃncåæ#U˛â+gàP>øÿÇÂÕB{”ın3\¿@D)e∏; 7x˚√Áö4‹ÁAÜsª+∆∂Á6¥hS‚v¥z_D¨%Qˆ»áÓ€º«;˙>M‚ Æ⁄î›edås\îF{ÂÙ\d¿mq(JË≤
+©∫á£KH∫öàjüÙë(∆_A2πOhì∂m>oÉÍ∏Æ›É6ï‹÷†2⁄≥75®¶jPÒzÉjπ≥e{jrÉò∏›û∂ƒÿ†|(¢'¡Á|òß”DB’& †Ö˙Qû°˜RL?q™≠d2√±:zbá≠,ŒUGI	fË:–òÁq&ãK1LbmãTB±¥a–ï Å&E^Uâç˘≠–ÓÙ4Ù–IƒpRÑ}TBßB]À”,ﬂ£{ò1ÜÕ∂ÔΩ '“j'‹1Ôeà•≤7zìk;fèÍ‹ÊMƒÓ—∂7ŸKoÇïŒs÷ºâô+o¢å∂c∑€‚ñ†ÿ‰MD=†ÊπÂPîrÉ⁄-`À¿xŸ Sgeı˜L$°ÒKæBtK»˝ÖáJÖR°ië`¸^ºØÛ∑…–=ÇéæÕ∏á¢jô´hf‹¿út®a’QB!·Q«•™ÁˇyÙu¯ÛßYñ)|íÅT≠É,.–18p.T¬jVH›WÖ®SlöáıU¶˘ıÍk§DÈ}»+»ú?MUYÁÃd\kS%˘ÿCÔ∂Y¥,¬™¸≠±hø}˘MôÉâf±vœAK;iåÖ"Êuì—≥l\.øBgÒx>;ë¡∑>:Vœ¬zä3D6Ó#˝„œq*ÀJ§S∏7∏KC˙(õ•√â =$%‹e}îÃRÅ.Eã,P§(∆Œ¸Í4’3´ÄB¿JZE")¡·3h’k~Puÿ≈k¿√Z◊ÂdãπIÆbcNc@Ïd˚§BB©∏+ W-A˜Ë‚ÏöP…X≠<ÖQ†˙®I~•å®næãÀ),öœ¡û…bÉ~ï,0© Åp∏30-LÆÔäÅêæR3p"ì˛÷dáXv”éÏÜ”YR≈¥tF≠≥ºX∑'#`œ∫o≈h⁄ŒTbA Ø‡ã®/µÇB>¨äñV›◊6eú‘÷˛0K}YÏ◊–Ê“mrIËo@C;∫º¡¥ª®&≠⁄NÌÔµqûS%d„Xª=4äöˇU∏‰≥j:´îµ˘±iã´†≤(°Äú≈eÖTß∫–œsÍ@¥èÍ±õ±¡?Nf¢å5Ç˛ VÄÙÚ¢d¢∆x(-«J¶@∑möÏﬁ4ÉÀπ&÷©ÂrÊóA˚:
+$ñ_·«u≥Úü˘¥Ôòv'»”EÉÇ£Lw˙ÛüùÜ˚;∂†Äör`…¶ƒ\óÚAb.|n«wv˛˚[ˇ> ı¿1·ô∏∫æCipó„ÅÀ\w`∫n8‡4aŸV`SNLhò˚ÎkÓ¡•ÕÙhIª{"ﬂ+_Z˚ÑË1∏ûBı\ìÌB*Ü@˙Ãæ¸µB”ZmΩfkh6i÷#µ¥Z∏ãíjæíÒ–Pg–yEÇ8WÈˇ”O>ú~8iRÂ÷™ıµîìS¬≠ßÀá≈˘˘.◊Â≥äÀrÉ|‹‚oÇ~≈tÏb5≥m¶c÷¡•Ÿ‰Ú”±‚«iÒ≥ùt|÷c“±¢Ÿj¶˛J«∑¶cª≥ÿr:∂j∂:•.#d¡˙Ê„ãóê«Ì#ÇauÁ0◊¥(≥)∂±’_<xDè÷¥à¡1s©i¡C¶Õ˘ÚAÂúU›Ì•ı%›6!⁄+¯•Eû∆¡È¬ØÓbΩç”∂ü„‘ƒœu^,a¡íj‚â@˚±H2ë\ójArCi„9*µ‡cl[∂√xCa„π≤SÙÛ\|7u◊-Aüëµë¡≥m√$oc¨ú4µ|c-[/ßT Eí¯üÎJç≥nºâ·¿b‘lb@ÖzCÎeßΩ^û≥Ä-´kUmá˚ÉœÙ÷≤ß«2∏,w—aú)Tø˝JQùN5âÅm&€h-•ø5Ökπ¨yfÔw∫⁄ıóÏ¢„º’Eô-Ø%v;?ø^•¯Ÿ‘Ö<gu÷c∫(EÛ∂Æ‡Ø.™›Em“◊÷∫( ]e&¢ù¿∆DπÁ%ii%Ω?XË¬€á¯+.fÂ@ä≤@/Íí.KUÈ˜àkE©ø^„‡v‰FNhŸÓ¿Æ90+¯≥A`°À"«ıù®èfU∞l¥≈±ks”!W£D»æ£z`}V…“PSÕ!0>FJ)yúUGŸ•LÚ©,u∞x§	˜T»Tù©Ç`êEó (z•›kÁ’{“[Sà∑Êhi˝òQ÷œß–-¨û¸'}ô‹ΩîP}∆¨	Zª—9$15‚Ãã˘„qÙñCáßÛœI'ﬁ°®Ç…∞ÄZÕ‡MÑ·…'ë*·Ì¢àÛ‚⁄CÏ9É∏ôÈÛ,˙Ÿ⁄ˇx@mÚΩPß∏q+ÙE9Ÿÿ≥r„e˜¸ÃΩ	–∂ﬁÜæÅø}s[+!˛ .Ì⁄‡∞⁄xS¸78Ó¬zL/»ˇ⁄‡xP/∏I_[Î‘›÷ê´c?À‰f´C	‘¡˙ÒË| ±#%’'MTo[‘g5ÎÒQ/ıYâ3µ[¨Œf\I’‹…ázøÀI>AûEÒÀ·Í°  fÚ~L}Y†´Ì±¸Ë´ﬁeù©?ΩCª˙2Í©ÔÛwÅØ8©èÙ’Œ7¥ò ¶NıïﬁÒ¡ÈŸ—ª]»*–4ObX∞œo^åFÍf†BóÍ‡b„^K¥Œs˘_ÙkıÒ–/√ÛΩˇÂ‡˝/_Tø	Œ?‡$◊F0ùzq%Í`¥á~ ≈˙Ãö~Ì|Ã‘÷wxöÌ¥∞;O≠∂‘ı@ÈDBŒZtº&5É»°Àjò√›
+≈% Ú
+]K¯™N©›wŸ<°`ºy¿X≠ˆW˚˜Í8Q^∆*˝*~ΩIÔYémÈm¸}~Y◊°é%ÜÚ;¢\ÅC/^?ö~E√≥%√TZ*t“\¡Øè§óK\Ÿ/Á‹	◊4\„,Ñ∏∂√âßTHΩ
+™˚]m9ô∆ÍÄ˝] ‘t©*≠ÔG√≥ØÀ∑]}Œh®∫Õí‰˝1èÅxÍz=¶sÛ$8±,Ü∑”8"Ào·m°cf†_‰Òˆˆ.Ò^öN ’Ï’ØˆÏ˘>p¯\ÑÃ«æÒPö&uÈ0€èh‘ıˆé‚æq<èQìÆqﬂ<‹≤xç"¿äW‰°œ¿ÌTÖ–2xánH÷±;‡x"IÍc”*k,ﬁÌPùÙÖ“€|ŸMætì¯˙|uøs“˝z¡«√≥ÛÛ—˘øèﬂÔ™‹óìˆ˚∑—º=Ë,õ0Ó⁄:é›N7}Êhh¬,ÇÓ•£Å°oŸòpÀ¡!s"é}È€fDr€ÒEw4p¬JÇµ…:NqßVü€xî∂ƒ7ﬂÑ¯è‚Îz/h/f~¢^¨(<f[¶àTÕ?¯ptV≥qxˆq¯„—;Ω3¢£Ó˜e/*+jn∂Y⁄íE\º2¸kûÉπ……sçâ;ÿhp—õâ∏ê÷Äéò<§üs‡Ñ¶Èÿ°+Çàﬂ6&Ê‹uümL|Ö‹oL¨Ëë{—{‹òòJAﬁ·_+–◊ù8µƒ“¿˙æÙ1∞æUì¨Ô¡Îí∫k`˝$Œ:÷ÊM ◊¿fcTA9}Sá„ãÕWj≥ŸÔ‹±ŸØ–Zß3ﬂöB}’!,cnam‹Ê≤Ω)˝zCX≈œ¶ÌÁ¬ﬁÖıò!,–d≠√¨ao¬n“◊÷Ü∞ÆAÕmÌuπÜI¨≠—vVe‡U{	‡ƒ%€ëRu{‚kÖäÑª%# m¬ÖÓeÛ∫…,∑ï◊‹ÊÚÂu≈èπ)/>c^øÎy]”$˜¶˘ü◊7Ík[y@ﬂ“û:–∂»ñ˛∑ä6±5‚¶Û/À…¶
+úÿ§ÒŒ…”ﬂø™Æã∑dE“Z§lÕ√€XìhÌN≥H;‹ºH”hŒ[WHG˚˘í≈‹bV˚›3é€\∂O*ºh1ˇPK°p˜˛™  (P

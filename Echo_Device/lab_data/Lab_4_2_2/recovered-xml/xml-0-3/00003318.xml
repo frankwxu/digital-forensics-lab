@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<packages>
+    <package name="com.android.cts.priv.ctsshim" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.knight.calendar" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="7987568" />
+    <package name="com.android.internal.display.cutout.emulation.corner" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.internal.display.cutout.emulation.double" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.providers.telephony" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.recess" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.platform.fdrw" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.providers.calendar" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.whisperplay.contracts" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.providers.media" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.device.rdmapplication" elapsedIdleTime="136857" screenIdleTime="136006" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1403848165" />
+    <package name="com.amazon.venezia" elapsedIdleTime="25607" screenIdleTime="24756" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1492897405" />
+    <package name="com.amazon.dcp.contracts.library" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.wallpapercropper" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.zordon" elapsedIdleTime="135706" screenIdleTime="134855" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1514857448" />
+    <package name="com.android.protips" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.whisperjoin.middleware" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1479370516" />
+    <package name="com.ivona.orchestrator" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="597704177" />
+    <package name="com.amazon.device.sync" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="amazon.fireos" elapsedIdleTime="133973" screenIdleTime="133122" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1517196042" />
+    <package name="com.amazon.device.smarthome.dshs.multimodalux" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.device.logmanager" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.documentsui" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.appaccesskeyprovider" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.externalstorage" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.diode.eventsender" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.htmlviewer" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.companiondevicemanager" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.quicksearchbox" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.media.session.monitor" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="7987568" />
+    <package name="com.amazon.alta.h2clientservice" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.providers.downloads" elapsedIdleTime="15680" screenIdleTime="14829" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1514857193" />
+    <package name="com.amazon.alexa.beaconbroadcaster" elapsedIdleTime="137235" screenIdleTime="136384" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="141184" />
+    <package name="com.amazon.anchordian" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="7987568" lastJobRunTime="32365661" />
+    <package name="com.amazon.comms.knightcontacts" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.symphonydeviceclient" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1496474130" />
+    <package name="com.amazon.dp.logger" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.ods.kindleconnect" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1480274293" />
+    <package name="com.android.defcontainer" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.alexa.datastore.app" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1517421459" />
+    <package name="com.android.providers.downloads.ui" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.pacprocessor" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.simappdialog" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.alexa.ms.kinex" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.sharingservice.android.client.proxy" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.tahoe.alexa.multimodal" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="7987568" />
+    <package name="com.amazon.webview" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.android.marketplace" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.internal.display.cutout.emulation.tall" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.device.smarthome.dshs.services" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.android.devicemodelinfo.resources" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.certinstaller" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.carrierconfig" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="android" elapsedIdleTime="60594" screenIdleTime="59743" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1504608277" />
+    <package name="com.amazon.prism.android.service" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1511212427" />
+    <package name="com.android.camera2" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.spotify.mediabrowserservice" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.readynowcore" elapsedIdleTime="137468" screenIdleTime="136617" lastPredictedTime="-10267" appLimitBucket="50" bucketReason="100" lastJobRunTime="141430" />
+    <package name="com.amazon.dialservice" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.client.metrics.api" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.fwp" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1481198197" />
+    <package name="com.amazon.imp" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.mlv" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1517473895" />
+    <package name="com.amazon.device.udpcontroller.services" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.comms.knightmessaging" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.mtp" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.nfc" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.launcher3" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.backupconfirm" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.csm.htmlruntime" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.theia.sm.remoteagent" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1517513026" />
+    <package name="com.amazon.csapp" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.diode" elapsedIdleTime="140978" screenIdleTime="140127" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1518177700" />
+    <package name="com.amazon.logan" elapsedIdleTime="18441" screenIdleTime="17590" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1475212965" />
+    <package name="com.amazon.swags" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="7987568" />
+    <package name="com.amazon.tcomm" elapsedIdleTime="71698" screenIdleTime="70847" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1475224299" />
+    <package name="com.android.statementservice" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.rtcsessioncontroller" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.NativeAccessorProxyServices" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.settings.intelligence" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.calendar" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.a4b.mcc" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1515019616" />
+    <package name="com.android.systemui.theme.dark" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="amazon.speech.sim" elapsedIdleTime="134089" screenIdleTime="133238" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1512134392" />
+    <package name="com.amazon.spotlight" elapsedIdleTime="36084719" screenIdleTime="32553006" lastPredictedTime="36084719" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1517119292" />
+    <package name="com.amazon.identity.auth.device.authorization" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.wirelessmetrics.service" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.providers.settings" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.kindleautomatictimezone" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.sharedstoragebackup" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.fireos.arcus.proxy" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.se" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.android.inputdevices" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.securitysyncclient" elapsedIdleTime="135647" screenIdleTime="134796" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="1516271927" />
+    <package name="com.android.bips" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.unifiedshare.actionchooser" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.alexa.visionapp" elapsedIdleTime="758052" screenIdleTime="-29516" lastPredictedTime="758052" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" />
+    <package name="com.amazon.device.messaging" elapsedIdleTime="134163" screenIdleTime="133312" lastPredictedTime="-10267" appLimitBucket="10" bucketReason="306" activeTimeoutTime="629515726" lastJobRunTime="15175

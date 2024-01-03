@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<usagestats version="1" endTime="26383297">
+    <interactive count="4" time="1698048806262" />
+    <non-interactive count="5" time="1698048140237" />
+    <keyguard-shown count="0" time="0" />
+    <keyguard-hidden count="0" time="0" />
+    <packages>
+        <package lastTimeActive="-1698026223113" package="com.amazon.whisperjoin.middleware" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.alexa.beaconbroadcaster" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="21750072" package="com.amazon.alexa.datastore.app" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.alexa.ms.kinex" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.dshs.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.imp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.android.launcher3" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.tcomm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.NativeAccessorProxyServices" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="amazon.speech.sim" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.android.se" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="android.ext.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.knight.blink" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.adapters.echo" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.adapters.mock" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.banyan.core" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="amazon.speech.davs.davcservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.knight.btavrcp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="22583600" package="com.amazon.paladin" timeActive="5700027" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.alexa.timeoutmanagerapp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.theia.sm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.adapters.ble" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.android.systemui" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="3455756" package="com.amazon.aria" timeActive="41083" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.whad" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="910808" package="com.amazon.alarms" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="4090130" package="com.amazon.bishop" timeActive="60304" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1698026223113" package="com.android.bluetooth" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.gadgetscontrolmanager" timeActive="0" lastEvent="0" />
+    </packages>
+    <configurations>
+        <config lastTimeActive="0" timeActive="0" count="1" active="true" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+    </configurations>
+    <event-log>
+        <event time="0" package="android" flags="0" type="16" />
+        <event time="463" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="189370" package="android" flags="0" type="15" />
+        <event time="189407" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="626880" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="791108" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="910808" package="com.amazon.alarms" flags="0" type="12" />
+        <event time="1796065" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="3414614" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="3414673" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="1" />
+        <event time="3455644" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3455756" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="2" />
+        <event time="3455774" package="com.amazon.bishop" class="com.amazon.alexamediaplayer.runtime.apl.APLActivity" flags="0" type="1" />
+        <event time="3456267" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3458726" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="3686263" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3690797" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3691984" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="3845718" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3847546" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="4029826" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="4031193" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="4090130" package="com.amazon.bishop" class="com.amazon.alexamediaplayer.runtime.apl.APLActivity" flags="0" type="2" />
+        <event time="4090180" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="4690853" package="android" flags="0" type="16" />
+        <event time="4691341" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="5416492" package="android" flags="0" type="15" />
+        <event time="5416527" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="6017767" package="android" flags="0" type="16" />
+        <event time="6018210" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="6154382" package="android" flags="0" type="15" />
+        <event time="6154421" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="6759145" package="android" flags="0" type="16" />
+        <event time="6759580" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="7467738" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="7468622" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="7469071" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="14788636" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="14790203" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="17270150" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="18307919" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="21749527" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="21749694" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="21750072" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="21917124" package="android" flags="0" type="15" />
+        <event time="21917246" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="22583149" package="android" flags="0" type="16" />
+        <event time="22583600" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+    </event-log>
+</usagestats>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     \Ž«·¡…t–
+¹M»Ç^ÓîÑlõÍ'‡¨’%´ãT¤Î^Ú=šh_ížu\Û¤"ùÚîÙ<¹&u»zÝàš6î›Î±1v¸>s½Ë`–„æýO}@ðOtzIÕP{H‘
+}0Üg¢2-ÉCµ—½Å¬—mÌóCbÛ6l'pi!¡†·ˆoQéÒ*rÞòò°ÓÄ(w]›êFVáðã`©D/r•y±uK|ëã@G‰›$Œóóxª¢d¢²Òß<Üp¦E…¼dnÞ|j&2Ó-¶‰JÇa¦CW¹<j\›ºá-Ê[ðšqu›™U÷™— ‡;ÿ5àÀ±–ØW”º„´Šð Ú‚-_$éì‚¹Þ|QÜ‚ü|)ß;Ý8K!M&éœMÁäNP|€¿nÒ0I!Hyˆ¶(Y¯lz@Ž)ï­<Að:wç«dswv¾#K“ÑW5@R
+›øßTÞè ñ—Èñü‰ÔÕjŽŠ¨í¿Žk›¯1_—››çxnÖÕ*°ÝÃXò•›3Ú¥ýÐ	Â\¿¦§.œ[ßÈM!jÁÑ±°³cY³¤ÝVë¶ÕËªë«6¸Ý'¤.0hÂlÃ	ú®3p©¤µª¬áB¸­•5ò’-ÈÍ§f³²Fã‰ð¶+kú\õ1]Ë¹SU³)ÞUÍ2ñ…i-ì¾Û©¨y&Ôº¢f'É–5¢APßdB0³9ûE[#¢Ù0Ÿ	¹M·ˆ¬é‰f‘v*qš?Oé¸’Ô¤=]T’šÈ]AÔv%¹Žk›JRc6ÚõZI®ª$ÅâFì–k,ab|„¯rŸõ[«…)\LÕá ª\±³šëÌzç‘ÀŒ¨&7ÞY½£¸«vV7¯Ót×)jÆ_~î¹géIÙï=+R¶*µ¯gD{ù±ç\ÏŽ×æ’lú¯—ÆëR_ÄšV›>[b»µßùí¼Å§B@ÜÜrr`/#gBîéýìŒ­¾ùÿU²çÞmEº20µÁñ/‚ÛŽàë¸¶‰àøYï|_#86…÷F/n¶<6YüÏËuù*Iþo—–dÉ¦ºŽãÙË>“Ñ^ö™lÀµM#¯ûLžÇ´¾:é”Øí3©°áýV)	w4øì×Ú A¾c:²«Ù|„}È
+¨WÙ‡(äžûÚ3ÒîÿS¬ŠÈ}ªÏÐfvZÇµMvÒ˜¯UöæÙ‰šØídï@‰M¡¯]IòPÜí>ÊÿPK+ÿY½	  8P  PK   ÇLWW            
+   Log.main_2í\moÛ8þ~¿‚_Š&‡HËIm¸ÔMw³·Iƒ&»=`±0h‰¶uµ%/%çe÷ßo(Ë/±ìØq¤ÔÀ%JgFCò™gHª[”!,Ìo`f;GÅ%Ã¯:Gíß®;íßÚr¤´ü(3Ù–ÃaWßè4‰F§ç(ŠÇ“}ººFòë+ÔBÛøodE‡ðf:C@ãÂ§×W?œ¦ãC[ýA¦ª´':;»UqÖ@w™µÈ	’ºßI£¿T‹ÐÇ²»þcû'nnÿ¥Ì¢[e·vo’FIÜ@‡CõÓd$ãïÅý¯Q6ø$e^ñH8ì’,Ñ¿#|2ÿ‡þ()õÜ’R¶Ai˜\é$PizÄ<÷EéG•© S!êÉaªÐ(L³ÆåçË³²"oƒ"Ó;_&q¬t])&1ú%J3dÜƒf/Ø€7AWZ¥*T~ñãDêJÏÓu­ômd$€ ¥ÔPv‡`ÚGY‚‚a]V–Éw–Ü¢d’™µ$$§“nè¨«t¡$m ß¡q;¿øÏÞ†Ï%ŒÔÖû Ùr$ÿJb;¨HÚéèýIÑì<l½çØÅ˜9Êr‰b–£°o‰.õ­ Ä¾ìú.á]þþ¿œì¢@Õ½´£ž‰²‡Gj(_øØLË"´|8–t=7ð¨OäjVýE­m¦Ç©O¶;ïgâ{Äô6 ÈWtš»ê"‚az+§þl ‘ÊtäÂÑLQ6ÐI–UhU?êd2>‡1úç°ÇðP‡'(j$Í½¿hx÷ý3Æ°ƒK£˜ðú°†ˆyï<5š€|Œ‹Â¾‰C)!‚8Ø;™=wFÏ–žãÜðZ˜:ŽyŠºóçÌ‡`¡ÑôÖ'c²LÀ-ä–]!Ø3Ì</¦ßÃWÕP×æq±µ²hš= Ô@“(lì#9	£$…—RúôÈðf`~1šÎÐ@‘‡†0ÓU%¾¨oÒ‰Eè#ÄƒPåaâìbJÌ;áïæO« 1ƒ]«¾	“ÔR2Í,Ð0›ù´X3+V&ÅÉòƒj@6áð g‰€JËa]×žX8=9.ŒÇIÜD#•fr4nðËe¾èuÃø¹×ƒ!¦O2•6,èx¨€ ó¹gÂçUÅÙY|«†ÉX¥y jÒ ‚ïä±LSˆ‘c¥GQj"i{ ‚oGÇûÊ[rHc	ÄGÓÇìtúœ}hµxò+BÊ3«¤”PÁÖ(Žþ0‚>%º¨°÷“WÄªÀ~±Vß™ƒ6L @sm2—D>åÚ U»‹JáJW:J4ÄÌb/÷Ø2˜7À‡€òäÏÎÆ.ipŸ"¼3JõE
+ˆ°’œ£OœÚ­MÌê,ˆÈ¸`V@Ãéà0Z;óŠ£Ë$ƒ¡ðë8”9éÓêÏ	T< €î0‚FñqÉHC×¹Š{˜ºGK£A…}Ü¦ÇèC‡ð¦mÇ[B@’#à®ÚÌ%eÎ]3Ñ7JgÙqÅï9É(¶ï¢^Ôs;C ï¹zãn(cÜÐ _-ËÁMS -‹ùÍ8‰RÕ²–h^„¾G[Ä#Íì¾gb{Ú"Ü¥Â1×2¦-Š‰©Tl‘wPý¾Îà"Žðâ_SÏš3pŸÃu ƒ–à3Bá*oOlþÊ¡NÆ-Î}J›ãÁƒé³ÖiÛ5tN‹û¸9„ ”Ýç——××´sÑ¾_‹=­ñ.àÅÍ’9.u[©’QD6(ª:UÚ¦kŸTÉÈÜ‰\¾¥J3ùsjH\¯ùîËS,ÿLîÈ½ZN9\}›nL9Œ%ÎÁX2‹m T@Ë§¿›à*»ï˜SY3ài ”N÷¸]ìŽSsGihxÄ”XŒUØ23oÌ<NY~gÚ˜¹¾Ï9
+s«hW/Z¯n²Å…á¤øÝdøHÞw¦¨ÊÜ&0 âÂÅMS³ WSµµh 3?é:¶fpIET Ê<Ô b
+Œ<ÇqJ&ºK¡ÀaÅï®¡ tº“ôP÷ }'‚ðÔòE^Îî[8/è¼ ^N¾úEQÃàx0e×“¼ÐÒ–ó6‹&K-ffÏs¯ß:9¢B­)›à€›I/·ÝâÊTðrgñÒ’&Ëž»/M_`ºë‰côKràÛd@e€ÏŸ <‡>B(§êäçyÔ0Î€šœØü x2jOCejj!8n¥Ž¤!@<Ž‹»ã „®¹ÅÃ\q8*iX‰ê¾°e3¼¤xºŠÒÁ$Ër„MÒYh:A×V*†öÃÉ¸xl‘UÇQ.CÈ%Åï¦!tó¯/§7g-rq‚Ld=A¿\íÂe»ÝDWg_ZÆƒ)´/o|×ü2mãÍÛ|þôñbÑ`þÜªe›'§À®í‘ºVd\›¯®YsÅó i¸Þ<YÈóÇw….6ƒóË¯——ç—?–¤Šú¼á³Å‚À÷\)smAëZ·Ùîú%•ýÖmÖe-ÞrªX±ý Û+/Õœl¥¢¤´ªì=ÁÉ«¦ÊÛtíC•½gÑï7ªìÙŒÌýUùLqüõ³°Ê™în@“*ì÷Øc2C¡'ùl,]]u~¾<o Ÿå­ì@'u¦Ô)ÖY:ÿŽ£Î”Û¿]EceLÿª%P\ÝÑ“øtØOr ˆ†ê£2ƒmð9¾1Cèˆa
+óöˆk?6Kû`]ØÉ¹O\zoÜ
+£t\ˆ-¶Z»“^OéÒ+ðÃØ|á6v~!Éé¬5²Žµ5£­ÌPÐ%åÈSs¸ãKkkµ†»§Uî¶éÚ'Üñg…Ð·pÇ!™©+Ül±Xëù¾XË¨_ù[úË›èùš’ù=‡Pz$‡ ”ïè$f¨”ër[ˆº:Á·qm;Î Û+O¶š¡Ð-(|JQÕPè?‘Îì…þ>
+}›Ð9s.¶SI>‘_rü`ÍºôÊ²téøç¾„ZKe9)DÏµ„b‚ç)Gl:~àÃ+TvüÀ8„íäÝŽì.o¿ã.eªçˆíJ_rü`Wy{?Øhÿal˜K¼µoþìƒÏµí Ä‹,[‚¬j`t¡ë¦2É(Nžè…W´äIR%J‡­F¶&JA|fä>	ìé–V”Âøaº„¿úz­XÞ®“µ‰åæšYÛ6]û°6#sÓqù7ÖVfmÂ&lî¯Šóí.Ø}OÔ7–
+êS±SV±ö\·ùÞ3A™C<Â¸'ÜM»…íû”¹gƒÎ§;ì&/³wÓÁî²å«z­+‡Ï•Bï'¬É‰ëF)ßô±M•±#WôÔ8ÆŽ­ºöˆ¹ÌÝWþïcø«† Õ§‡1[‰ÝCgè¹‘¯ÆÐsm‡ÎÐ‘¯~¢Â(Ýx¦¶R”}JQÕ(KÖæ:/CÙçÉ|CYb“Å:Á÷\ÁÊ-ñÄÏ;”áñšÎï™o&Üš¾¢%tí¹¦š1Ò(}½§\ÑSL®JŒ]þîûD»a¤‘ùvêlwŒ¤6Ãë¿Ý­b¦l:uV…l/p¬ª=³=>Ùíb{Ž°<‡»Ð»A`ù=éX]¬î? n°aÏLPx…ªöÌr‡¬~-ú‚=³gÈÛoÏLÉ®‹µ]éöÌv–·ÇžÙ&ûg8_´Sõ\Q[vª^fÙúªòŒôê›í/=êBØšÏg¹O+ÿ2F®žzœ¹OJêlIIYùcÝƒt	í/Šs¥¯qÈß(z’UI·Ø³¨ÑntËÈ|ûvwºÅl²H¿*If3ç N˜ƒ%¯éS ínXµ«ì¿B#ÎwØ¨6J7NÏJ1ÇÙ2g«ÄœmºöÁç‰ý7ÌÉ1çPKŒ=\  =P  PK   ÌLWW            
+   Log.main_3í\moÛ8þ~¿‚ßšl•¯i ÀµÙ´ Mƒ¶{ûa±(h‰Ž…Ú’+ÉIÛÅý÷ÊoŠ$Ç/‘b—,6h,{ž‡#Î<Crd‚»”!¬zLöwˆôÐü‡H— D	fèôj¬ÆÑû02É­>…&Êzhl²$ô/nát§S”“8ËF&pæ—Þ&ñtrôÐ·Ñ€Þ*×œ³¸ÓØ¿V9oÞ ¥à¡äÙžK1£R
+H“=ìÔÆ×Ñ³™ë¤i´çy’
+Æ‰ôää:ãg0@*¨;<tž‚Ý4’>ÌÑ	¥a~™º§cY£ø"'‹.Rdý»4„—,6,¬5,6„™ÀTu±:\+ßµÁÔr$¤^ÕöÀPöÖÞ|@6ky“âñUtæ5yîÉ¶kM;+Ïm¯Ý¥5½©¼-ZÓ+õgKñ^Üš~¡¨u­é4[Þš–‹®Žé%©¨ bxi'³ÚÌÏ€:?c›Hô\©½ÇÌo-Ö™_!sUŸù-ó+e~0^à˜?ÅÌ4á¬:Ÿ•Ô­Nö¢Åí¾¤zâ 2rF øŸ_."Ø“ò Êq£äBÏ`¬ä6
+÷ùEF~…!ùÙ-mº²˜ßkœ"k*ü}Æ©uXÛÄ)òL@‹Så8ElZÕ*È–Ó¾À«r-]ºÐQ±ÏÒŸÔU|hß>K÷ßU,d¾u7÷YjZUFGmê,¾{2³HÐl¶~¿¾¨£ßÕ@µà![Ã‡lÂ}ëï8lÁÏ/Í°§M„ÿšª^O§-¨\O£»¤p¤0Òµ™¬øÐ§øÖLÁƒâfYx›¶h´:¦ÙÖâ.~‚ÿf–{#±`»ÆÚýNG§‹À§ú5{7…&â@4qèAlX M\9³sn‹Œ•–Í0Md¥…¬*3gVÚp˜C²dVÅQ˜=Ó¸Øk~hßQxÖ6QdÊòì¼EáUQ˜ÙdÅ&¶Ý£0³9©èÅ@#{Z!½æËØÅ>°PíXæÚjcÂ¬¶±ºM$V¬Æ¾¯µ£b@äF²ÑÚÑäm·bãÚVŽ[uçAwY±ÙXÞ+6«ôŸyƒj—›—ŠZ³b³›fËWlJÏ.ã"•.™0ïðocÎEmeÞ Ÿ®áùåc‚^TgÜÆ¤¢Œì%[+ŽëüguÄøOìˆ­ÃÚ&®ó­½ÅunC¸šøûk–J IU¯‚lînÔ']º¯Æða’s&8…ÊœËk\lCÝë:˜	SÿŠ÷ÕÝÔ]µ¯¦¬ø<Ž(½Ãs€u”XYìUQZŠÒË8‡9$KZ ‡ 9Ð=û§‘½ê¨½†7±¦ìÛgx[‡µMx32ËoÝ½…·UáMØ„FxPäVU@›¿aTj`2ë>EkÙ¾+¶
+LýG8Þ1ºLÁÐïîs T(ðj¨ˆMÀªæEL¡ô,nž¦pNÏa@¹æSCq¿Û š‰u”™³P“Û JCe((ÌqÜÑÑžÀALEûl€ƒ±×‡.õÓH”Ï;xxô×¥²û~žÖœdc¨¡?Õ:†û£©øl±·
+ç-¯¯²³ãN€}'°˜”Å	øÇiÇâ.ïÀ!OHoÕÎR"¸ÙÀ»}wàÿPKvžhïè
+  P  PK   ×LWW            
+   Log.main_5í\moÛHþ~¿b¾5YØê¼kd À¥Þ¶g`›I·ûa±ÆÒ8*K®$;mw¿ý8Šc»’ß#%^ .`Ä’Ì‡¢Èg8$]‚Û”!ìu˜ê0ápO¡Ù‹©ì»rQ}c“Nõ5¼…¾é ±Î2 ±IGa–…IÜÿËÉé¿ÈzyBR„(QýÎGúGÏ¤v£ÐÄyLž†þÛ)|@w:Cù0Mò<23;õ>M&ã^ÐAXMîÈ7ÓB™?4#m‰tš½¦¯1csŒ7i²éÎ–”èøÉÈÑ…¦Îèþ2'»¿Îéö‹+ÿ0ÁŒ"ÛA©ÇV€uDæƒÉ2}kÞ%éì„s˜¼:1i=ZñJ¼7:÷‡ÝÔè<Içh:–D>JTà¯Ë4LÒ0ÿÞA¬*ŽªY¥“8ãÛâZ”…?L‡`¯ŒàÊ¹­)¡ <Up=Ôý|}Óýü«Îõ\~áüÈ×#“jÐ]çðH¯~¿¸è]¼/Kõ›ë­$±²1{|@|Gi°?hp·6 ¤ƒ…÷óý1—ˆâþ.tNMÛŸ:ƒ‰íÿüÏd¤ãO©ö¿€ñþóá;íkˆ³S4JÀæ"ÜšÿCU@ËFP¶4H.ÓÄ‡˜8aRœ¢0ûÕäÆÏv:ÊY£qÞ¹øxñvw ûô®Àìƒ»4i–Äè·0Ë?@aŒnX¦….S“™Ø†(|x?Ñ©%Ÿý°æA‚€1uê›H÷#Ð?»Ey‚üâaWdºxg™þ%“|<É—¥ƒälÒÏü4ì›t’uÐŸðå{÷ú{÷	þ{n{öj‰*ò¡	(F¯Z³¯õ‚³W.† fÜ´1¬ÍVm¯OUÛ°Ò}%ˆÛw_ý÷¯Ö. :2ß´p÷O0”¾òn{ÌóÚÜó‚¶b>ok!…/©"ÜøLÙ^œò{!N
+{WöÐùõåëól<Õ7:£¥fœ¤ù=Å£»¡ÎÏHéôöÆºÀ¡eÙŠºG³.Ä¬¨pRÕ«¯Œo –‚FzØÝIšZ•ÀŒ“|a<snˆÜàþ„0„ÞÍüÄÉEb¹ì÷q ‹¸KÍ×	œøŽIŠ¢b„âÓŠ’Ò]©¤–Î¿#ÔA“08#Sq²ä&¸5þ4;EoÂ8€Û°ß½‘èÞM|!‚"0u­JÓÇg—>5×¨"Ð¸ÖUï®®Ý†u×Z™|g™/\ë:œÍ3‡š¹Öu$WÍÉ–s½Ÿ™Ç¥jÎ‚Já…låÎÞ{p°YÓÑÈÂ+²ìÄÿbrÔ&emê!(àëjbÓ0ªÙT­ThÖqnÝT¸ë*T+ª*\G…Êabn¯Ú#…“æ¢Pàã BÐ„/êÏY!²š£ÐÄs0=y¯Ê¿Ç—/[%ùJ%›ØBX´£ßUy+‹¯› ªždÝô6ìUê^7·a²nz{mK^ÖMk¯¹73æí˜€ä¼‡²QªoˆƒE˜ƒo®sˆ«ÌúìUAsÖ	z±Mem"Gÿ#hÆ-týáê˜p Äj»Ÿá’ïQ¢ƒÌ©at‚?6©
+‘ i˜…öŽM2ŽÊ5ûÇwr<·@¼3À3:Ff4&ô“(‚ ƒ DÉ ˜ž]“·[€Oâ/qrW``)klÕbb.ûYó¯ÁB#Èöv*DœÇþVŠw—×HOm” 3ä9ž¢˜Q×ÊU–­‡ëÞÒ·K×¹p¡ðà…ç.•‹ë,w‚Á`¡@£ûCï¬?u“	Øñ‰ª)öR÷¼÷@{[/Ãx˜5cqŽ«‰Fã«ª]»ÉªsUÝTóªZ`±]œa÷UµùR˜ÛyU{ï(X4á‹]]í1+©\)»¼9àäDO‚0±-o“žŽ>í;Þ¼% xÒéïÊRãõñeª³8d¸AÙlÎQç2~±/Hñë‡©¹µì8ÉÚÒÀ6 <¸lá±+¶ä¯­e÷‡Ó.äX
+{ƒ¶r¿Í}Öo÷'Û*	¡‰Ï[h’ûŸBÈ°r=wˆ„OAŒÑìÛÀ›>°†‚ê“Üd6å ¯~ØÇz™„qþ6žš(›ìað j¶“AvÁÙCÞaƒ/ÄHŸÊí |ÙYÞƒ/kõ—+ñö|ÙWÔ–Á—Bœ{¨f+_V8`i0„b‹yLå«¤dÿ%Ëe,û˜£S²Ô®o>P·
+Ú@
+¼	¨îØbÕ<´§Ì—˜,×:jOU˜·Zöa‰'/Ï¬Â›j€ƒl±txÎG¡‰8MÔbü¬{&êà¦*KVöŠxÃ$O7pW­$oª£¬Íü6¬CHžnh³¼|•ä©ÃÝ¦*‚tyçÿÌ|à65…²Õ¢vÐg7–ÚhG×5-”|²YÔíØgQ­’+Šª/ì‰fQ §*yoÃ:d)°2w/£¿,Ì!nS…ZÖ`*ÎÁU¡ç\f˜ãò¦ÒNæ(Q¦ßåH·à?K$]E}ðšåfaW{…;ý=¯¡<Î!%o*Ñà+fó0¢žè‰z¶bÂÃüe g/æ!M´ƒl¦Žâ÷W ‰Ømu^9 a¹‹2¡#ž ælÍ„†‚á0×%žK¥Ø}Bƒ<NßuUÍË8²±!È&å?¾A¸¢NT*•„†ú¾–}Ýxƒ ÍYÐVˆDW€Q•ýÁº!—Ø«­A¸»AvkZyåŸR×Ù Æ&ÝM ÏY ´š”ÐiUî*ï€VåZK®nîÝªÜSÔ¶Vå£4[Ýª¬ð›j¬ÚÏ—©_³lá`9Ïþµ1(ª5cJ89>%ËU¨£TòÉ[¬ ªD´TPÝ©¾Å’°Iõ÷“ù’ê‡Òã¨‡³¥*vÍ-ÊÍ\L–Ã§¶wn‹™¼Eüé¢ß’;pôÛaŽ|›rµP‘¦£ŽÂ­ûIýyªgà„„l_áâÕBñdÔ*ˆM”Ù³%# ©NCmihFJ:;:ö8 l*	ÀQ<pç>„A¢ù6Óå?»x	¸;6Nò¼ðæ${ ºöScbø~”#ß‚ï—û¢‘ñF¹¼b>«ÓÉgø¿
+Ðu]ÇZÉ\niEÖIæÛ°!sùR·Ù‹Ì¥CHSÕS	L°º*Pã¼Œlp Gá	4q›ZéÜÊ(åqlFþPKS5g	  ™P  PK   ÜLWW            
+   Log.main_6í\Û

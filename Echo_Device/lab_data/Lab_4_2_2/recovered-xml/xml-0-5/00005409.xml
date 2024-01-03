@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:version="2" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="nl-NL">
+ <head>
+  <styling>
+   <style xml:id="s0" tts:fontFamily="sansSerif" tts:fontStyle="italic" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+   <style xml:id="s1" tts:fontFamily="sansSerif" tts:fontStyle="normal" tts:color="white" tts:fontWeight="normal" tts:fontSize="100%"></style>
+  </styling>
+  <layout>
+   <region xml:id="r0" tts:extent="100% 15%" tts:origin="0% 85%" tts:displayAlign="after" tts:textAlign="center"></region>
+   <region xml:id="r1" tts:extent="100% 15%" tts:origin="0% 0%" tts:displayAlign="before" tts:textAlign="center"></region>
+  </layout>
+ </head>
+ <body style="s1">
+  <div>
+   <p begin="00:01:57.458" end="00:02:00.000" region="r1">LONDEN 2099</p>
+   <p begin="00:02:39.708" end="00:02:42.208" region="r0">In wat voor puinhoop<br />ben je nu beland, Aelita?</p>
+   <p begin="00:02:42.541" end="00:02:44.875" region="r0">Je bedoelt, die jij veroorzaakt hebt?</p>
+   <p begin="00:02:47.750" end="00:02:51.000" region="r0">Wie had gedacht dat je<br />zulke gevaarlijke vrienden zou maken?</p>
+   <p begin="00:02:53.583" end="00:02:56.041" region="r0">Ik liep eens zes maanden op blote voeten.</p>
+   <p begin="00:02:56.125" end="00:02:57.291" region="r0">Weet je dat nog?</p>
+   <p begin="00:02:57.875" end="00:03:01.958" region="r0">Verbazingwekkend hoe je voetzolen<br />zich kunnen aanpassen.</p>
+   <p begin="00:03:02.041" end="00:03:05.708" region="r0">Het hangt van de omgeving af.<br />Hetzelfde geldt voor de ziel.</p>
+   <p begin="00:03:08.750" end="00:03:11.291" region="r0">Weet je wat ermee gebeurd is?<br />Mijn schoenen?</p>
+   <p begin="00:03:12.583" end="00:03:13.791" region="r0">Je gaf ze aan mij.</p>
+   <p begin="00:03:16.208" end="00:03:18.416" region="r0">Toen ik je vond, deed ik een gelofte.</p>
+   <p begin="00:03:18.708" end="00:03:20.166" region="r0">Dat ik je zou redden.</p>
+   <p begin="00:03:20.250" end="00:03:21.125" region="r0">Dat deed je.</p>
+   <p begin="00:03:22.583" end="00:03:23.458" region="r0">Ja?</p>
+   <p begin="00:03:25.166" end="00:03:26.416" region="r0">Wat ben je van plan?</p>
+   <p begin="00:03:28.958" end="00:03:30.333" region="r0">De wereld redden.</p>
+   <p begin="00:03:30.416" end="00:03:32.875" region="r0">Onze wereld is niet meer te redden.</p>
+   <p begin="00:03:32.958" end="00:03:35.000" region="r0">Ik zei niet onze wereld.</p>
+   <p begin="00:03:42.291" end="00:03:43.250" region="r0">Dag, Wolf.</p>
+   <p begin="00:03:45.041" end="00:03:45.916" region="r0">Aelita?</p>
+   <p begin="00:03:49.708" end="00:03:50.708" region="r0">Aelita?</p>
+   <p begin="00:05:14.166" end="00:05:15.333" region="r0">Goedemorgen, mama.</p>
+   <p begin="00:05:16.333" end="00:05:19.250" region="r0">Ik heb koffie voor je.<br />Pas op. Hij is warm.</p>
+   <p begin="00:05:19.333" end="00:05:20.166" region="r0">Bedankt.</p>
+   <p begin="00:05:20.250" end="00:05:23.125" region="r0">In de koelkast ligt een broodje voor je.</p>
+   <p begin="00:05:23.208" end="00:05:25.291" region="r0">Burton kan er zelf een maken.</p>
+   <p begin="00:05:25.375" end="00:05:27.791" region="r0">En niet jouw broodje opeten.</p>
+   <p begin="00:05:27.875" end="00:05:29.041" region="r0">Ik had geen honger.</p>
+   <p begin="00:05:32.291" end="00:05:33.833" region="r0">Je kunt niet blijven afvallen.</p>
+   <p begin="00:05:33.916" end="00:05:35.833" region="r0">Dan beland je weer in het ziekenhuis.</p>
+   <p begin="00:05:41.958" end="00:05:42.916" region="r0">Burton.</p>
+   <p begin="00:05:44.208" end="00:05:45.166" region="r0">Shit.</p>
+   <p begin="00:05:55.041" end="00:05:56.250" region="r0">Burton, doe open.</p>
+   <p begin="00:05:57.333" end="00:05:58.166" region="r0">Burton.</p>
+   <p begin="00:06:02.333" end="00:06:05.541" region="r0">Waarom is mams laatste Tamosene<br />maar 10 milligram?</p>
+   <p begin="00:06:05.625" end="00:06:07.333" region="r0">Neem 't over. Ik moet pissen.</p>
+   <p begin="00:06:07.416" end="00:06:08.875" region="r0">Heb je pillen geruild?</p>
+   <p begin="00:06:10.083" end="00:06:12.791" region="r0">Heb je pillen geruild met mama?</p>
+   <p begin="00:06:12.875" end="00:06:15.708" region="r0">Jezus, Flynne.<br />Denk je echt dat ik dat zou doen?</p>
+   <p begin="00:06:15.791" end="00:06:17.583" region="r0">Ze heeft een pil van 10 milligram.</p>
+   <p begin="00:06:17.666" end="00:06:19.416" region="r0">En dat is alles.</p>
+   <p begin="00:06:19.500" end="00:06:23.333" region="r0">Waarschijnlijk heb je niet alleen geruild,<br />maar ook gestolen.</p>
+   <p begin="00:06:23.416" end="00:06:24.708" region="r0">Ik heb nu geld nodig.</p>
+   <p begin="00:06:24.791" end="00:06:26.583" region="r0">-Hoeveel?<br />-Hoeveel heb je?</p>
+   <p begin="00:06:26.666" end="00:06:29.666" region="r0">Duizend, bij het volgende level.<br />Je kunt helpen.</p>
+   <p begin="00:06:29.750" end="00:06:32.708" region="r0">-Dat is maar één pil.<br />-Dat is een dag, toch?</p>
+   <p begin="00:06:33.375" end="00:06:37.375" region="r0">Ik heb vanavond iets groots,<br />dus morgen hebben we de rest.</p>
+   <p begin="00:06:38.541" end="00:06:39.375" region="r0">Praat me bij.</p>
+   <p begin="00:06:39.458" end="00:06:40.291" region="r0">HEADSET VERBONDEN</p>
+   <p begin="00:06:40.375" end="00:06:42.458" region="r0">Nazi-eenheid. Wij zijn in de schuur.</p>
+   <p begin="00:06:42.541" end="00:06:43.500" region="r0">Wie zijn 'wij'?</p>
+   <p begin="00:06:43.583" end="00:06:46.125" region="r0">Reece, ik en een kerel uit Californië.</p>
+   <p begin="00:06:46.208" end="00:06:48.208" region="r0">Hij huurde ons in om level 20 te halen.</p>
+   <p begin="00:06:48.291" end="00:06:51.166" region="r0">Hij blijft 'chill' zeggen. Bloedirritant.</p>
+   <p begin="00:06:51.250" end="00:06:52.708" region="r0">Reece draagt de baret.</p>
+   <p begin="00:06:53.916" end="00:06:56.125" region="r0">Snel. Ik ben al laat genoeg.</p>
+   <p begin="00:06:58.666" end="00:06:59.958" region="r0">SPEL HERVATTEN: EASY ICE</p>
+   <p begin="00:07:20.500" end="00:07:21.958" region="r0">Heb je geen greintje...</p>
+   <p begin="00:07:22.041" end="00:07:23.208" region="r0">Fatsoen?</p>
+   <p begin="00:07:23.958" end="00:07:25.916" region="r0">Laat die schapen tenminste vrij.</p>
+   <p begin="00:07:35.500" end="00:07:38.833" region="r0">Leuke baret, Reece. Stijlvol.</p>
+   <p begin="00:07:38.916" end="00:07:39.916" region="r0">Flynne?</p>
+   <p begin="00:07:40.000" end="00:07:41.000" region="r0"><span style="s0">Waar is Burton?</span></p>
+   <p begin="00:07:41.083" end="00:07:42.083" region="r0">Z'n neus poederen.</p>
+   <p begin="00:07:42.875" end="00:07:46.041" region="r0">-Wat zoeken we?<br />-Het zou een kaart moeten zijn.</p>
+   <p begin="00:07:47.000" end="00:07:47.875" region="r0">Gaat dat lukken?</p>
+   <p begin="00:07:50.750" end="00:07:51.958" region="r0">Wat doe je?</p>
+   <p begin="00:07:53.083" end="00:07:54.125" region="r0">Doe die deur open.</p>
+   <p begin="00:08:10.916" end="00:08:11.875" region="r0">Ik ben terug.</p>
+   <p begin="00:08:11.958" end="00:08:12.958" region="r0">Momentje.</p>
+   <p begin="00:08:14.291" end="00:08:15.625" region="r0">Vooruit.</p>
+   <p begin="00:08:45.750" end="00:08:46.666" region="r0">Chill, gast.</p>
+   <p begin="00:08:48.333" end="00:08:51.250" region="r0">Weet je waarom jullie die kaart niet<br />konden vinden? </p>
+   <p begin="00:08:51.333" end="00:08:52.916" region="r0">Hij was er nog niet.</p>
+   <p begin="00:08:58.333" end="00:08:59.958" region="r0">Stuur 't geld naar m'n telefoon.</p>
+   <p begin="00:09:01.666" end="00:09:02.750" region="r0">Graag gedaan.</p>
+   <p begin="00:09:05.791" end="00:09:06.666" region="r0">Reece.</p>
+   <p begin="00:09:08.583" end="00:09:09.958" region="r0">Wat is er gebeurd?</p>
+   <p begin="00:09:11.166" end="00:09:12.166" region="r0">Flynne.</p>
+   <p begin="00:09:50.625" end="00:09:52.166" region="r0">PINAUTOMAAT - HEFTY<br />24 UUR GELDOPNAME</p>
+   <p begin="00:09:53.041" end="00:09:53.875" region="r0">OPNAME</p>
+   <p begin="00:10:12.166" end="00:10:15.250" region="r0">Houdt Homeland Security<br />elke opname in de gaten?</p>
+   <p begin="00:10:15.333" end="00:10:17.041" region="r0">Dat zou logisch zijn.</p>
+   <p begin="00:10:17.125" end="00:10:20.208" region="r0">Als mensen cash gebruiken,<br />is 't voor iets verdachts.</p>
+   <p begin="00:10:20.291" end="00:10:24.166" region="r0">Wil je me iets vragen, Tommy?</p>
+   <p begin="00:10:26.083" end="00:10:27.541" region="r0">Hoe is het met je moeder?</p>
+   <p begin="00:10:28.333" end="00:10:29.291" region="r0">Ze is in orde.</p>
+   <p begin="00:10:29.833" end="00:10:31.250" region="r0">Bedankt voor het vragen.</p>
+   <p begin="00:10:33.291" end="00:10:34.500" region="r0">Wat doe je hier?</p>
+   <p begin="00:10:34.583" end="00:10:37.250" region="r0">Overtreden Macon en Edward<br />eindelijk de wet?</p>
+   <p begin="00:10:37.333" end="00:10:40.291" region="r0">Nog niet helemaal, maar geef ze de tijd.</p>
+   <p begin="00:10:40.791" end="00:10:43.125" region="r0">Ik heb een bestelling afgegeven<br />bij Dee Dee.</p>
+   <p begin="00:10:43.208" end="00:10:45.833" region="r0">Geprinte decoratie voor onze bruidstaart.</p>
+   <p begin="00:10:49.791" end="00:10:53.750" region="r0">Ik zal ze gaan helpen.</p>
+   <p begin="00:10:56.416" end="00:10:58.666" region="r0">Ze verpesten het<br />zonder volwassen toezicht.</p>
+   <p begin="00:10:59.583" end="00:11:03.125" region="r0">Billy Ann wacht op je. Met wat hapjes.</p>
+   <p begin="00:11:03.208" end="00:11:05.541" region="r0">-Dus je bent gewaarschuwd.<br />-Bedankt.</p>
+   <p begin="00:11:06.666" end="00:11:07.875" region="r0">Tot ziens.</p>
+   <p begin="00:11:14.791" end="00:11:16.958" region="r0"><span style="s0">Je hebt niets gezegd, hè?</span></p>
+   <p begin="00:11:17.041" end="00:11:19.541" region="r0"><span style="s0">-Wat moest ik zeggen?</span><br /><span style="s0">-Bijvoorbeeld:</span></p>
+   <p begin="00:11:21.208" end="00:11:25.250" region="r0"><span style="s0">'Ik probeer me voor te stellen</span><br /><span style="s0">hoe het is om jou te zijn,</span></p>
+   <p begin="00:11:25.791" end="00:11:26.875" region="r0">'daar zo staan.'</p>
+   <p begin="00:11:26.958" end="00:11:30.916" region="r0">Dan zeg je: 'Maar dat kan ik niet.<br />Je bent te knap.</p>
+   <p begin="00:11:31.541" end="00:11:35.000" region="r0">'Alsof ik mezelf probeer voor te stellen<br />in een leeuw.'</p>
+   <p begin="00:11:35.958" end="00:11:37.166" region="r0">Billy, een leeuw?</p>
+   <p begin="00:11:37.250" end="00:11:38.666" region="r0">Kies een dier.</p>
+   <p begin="00:11:38.750" end="00:11:41.291" region="r0">En dan, heel zwoel:</p>
+   <p begin="00:11:41.708" end="00:11:43.375" region="r0">'Hecht je waarde aan tijd?'</p>
+   <p begin="00:11:43.458" end="00:11:45.625" region="r0">Hij zegt: 'Natuurlijk.' Wat anders?</p>
+   <p begin="00:11:45.708" end="00:11:49.500" region="r0">En jij: 'Waarom deze kostbare minuten<br />verspillen met praten...'</p>
+   <p begin="00:11:49.583" end="00:11:51.333" region="r0">Ik heb Tommy's bestelling.</p>
+   <p begin="00:11:51.416" end="00:11:53.708" region="r0">'...terwijl we onze zweterige...'</p>
+   <p begin="00:11:53.791" end="00:11:56.875" region="r0">Waarom hebben ze twee bruidegoms<br />en één bruid besteld?</p>
+   <p begin="00:11:56.958" end="00:11:59.125" region="r0">'Hoi, Billy Ann. Mag ik een hapje?'</p>
+   <p begin="00:11:59.208" end="00:12:00.958" region="r0">Formulier verkeerd gelezen?</p>
+   <p begin="00:12:03.125" end="00:12:03.958" region="r0">Verdomme.</p>
+   <p begin="00:12:07.958" end="00:12:08.833" region="r0">Klaar dus.</p>
+   <p begin="00:12:11.791" end="00:12:14.083" region="r0">'Goed je te zien. Bedankt voor de hapjes.'</p>
+   <p begin="00:12:16.125" end="00:12:17.375" region="r0">Ik moet het zeggen.</p>
+   <p begin="00:12:17.458" end="00:12:21.875" region="r0">Je vaardigheden en persoonlijkheid worden<br />verspild in dit imbecielenhol.</p>
+   <p begin="00:12:21.958" end="00:12:23.041" region="r0"><span style="s0">Printer 15 zit vast.</span></p>
+   <p begin="00:12:23.125" end="00:12:26.250" region="r0">Vooral als er een lucratievere baan</p>
+   <p begin="00:12:26.333" end="00:12:27.750" region="r0">binnen handbereik is.</p>
+   <p begin="00:12:27.833" end="00:12:30.750" region="r0">Hoeveel krijgt Burton van rijke lui?</p>
+   <p begin="00:12:30.833" end="00:12:32.250" region="r0">Meer dan hij verdient.</p>
+   <p begin="00:12:32.333" end="00:12:35.250" region="r0">Jij kunt meer verdienen.<br />Als je zijn avatar gebruikt</p>
+   <p begin="00:12:35.333" end="00:12:37.291" region="r0">en ze niet weten dat 't een meid is.</p>
+   <p begin="00:12:37.375" end="00:12:40.125" region="r0">Daar ben ik klaar mee.<br />Dat heb ik je verteld.</p>
+   <p begin="00:12:40.208" end="00:12:42.875" region="r0">Ja, dat klopt. Maar niet waarom.</p>
+   <p begin="00:12:42.958" end="00:12:45.791" region="r0">En daar gaat het juist om.</p>
+   <p begin="00:12:45.875" end="00:12:46.750" region="r0">Het is nep.</p>
+   <p begin="00:12:47.583" end="00:12:50.333" region="r0">Dit is de enige wereld die ik heb.</p>
+   <p begin="00:12:53.000" end="00:12:54.083" region="r0">Nou,</p>
+   <p begin="00:12:54.916" end="00:12:59.083" region="r0">wat dat betreft, voordat ik de wereld<br />een stukje schoner maak,</p>
+   <p begin="00:12:59.166" end="00:13:01.333" region="r0">wil ik er nog één ding over zeggen.</p>
+   <p begin="00:13:01.833" end="00:13:04.333" region="r0">Als iemand interesse in mij had gehad,</p>
+   <p begin="00:13:04.416" end="00:13:06.333" region="r0">vlak voor m'n huwelijk met Jasper,</p>
+   <p begin="00:13:07.041" end="00:13:09.333" region="r0">zou ik het zeker willen weten.</p>
+   <p begin="00:13:09.916" end="00:13:12.708" region="r0">Want, zoals je zei,<br />het leven gaat snel voorbij.</p>
+   <p begin="00:13:12.791" end="00:13:15.875" region="r0">Waarom zou je tijd verspillen<br />aan verlegen zijn?</p>
+   <p begin="00:13:17.041" end="00:13:19.708" region="r0">Dat was veel meer dan één ding.</p>
+   <p begin="00:13:21.166" end="00:13:23.125" region="r0">Fijne dag, lieverd.</p>
+   <p begin="00:13:23.708" end="00:13:26.916" region="r0">Doe er iets gedurfds mee<br />en maak ons allemaal trots.</p>
+   <p begin="00:13:27.000" end="00:13:29.208" region="r0">-Dag, Billy Ann.<br />-Dag. Hé, dames.</p>
+   <p begin="00:13:51.375" end="00:13:52.625" region="r0">Shit.</p>
+   <p begin="00:14:11.250" end="00:14:12.291" region="r0">Wat?</p>
+   <p begin="00:14:16.833" end="00:14:18.666" region="r0">Dit is voor Burton.</p>
+   <p begin="00:14:19.791" end="00:14:20.666" region="r0">Wat is het?</p>
+   <p begin="00:14:20.750" end="00:14:23.291" region="r0">Het coolste dat we ooit gemaakt hebben.</p>
+   <p begin="00:14:23.375" end="00:14:25.416" region="r0">-Hoe heeft hij het betaald?<br />-Niet.</p>
+   <p begin="00:14:25.500" end="00:14:29.750" region="r0">Iets genaamd Milagros Coldiron<br />heeft het betaald.</p>
+   <p begin="00:14:29.833" end="00:14:32.250" region="r0">Plus onze overheadkosten voor de maand.</p>
+   <p begin="00:14:32.333" end="00:14:33.625" region="r0">Wat is het precies?</p>
+   <p begin="00:14:33.708" end="00:14:36.208" region="r0">Het is een op afstand bestuurbare gadget.</p>
+   <p begin="00:14:36.291" end="00:14:38.250" region="r0">Dat denken we tenminste.</p>
+   <p begin="00:14:38.333" end="00:14:41.916" region="r0">De helft van de componenten<br />heeft nog niet eens patenten.</p>
+   <p begin="00:14:42.000" end="00:14:44.208" region="r0">Ik denk dat het huurlingenshit is.</p>
+   <p begin="00:14:44.291" end="00:14:46.958" region="r0">-Waar komt dit vandaan?<br />-Milagros Coldiron.</p>
+   <p begin="00:14:47.041" end="00:14:49.041" region="r0">Een Colombiaans bedrijf.</p>
+   <p begin="00:14:49.125" end="00:14:51.791" region="r0">-Wat voor soort?<br />-Geregistreerd in Bogota.</p>
+   <p begin="00:14:51.875" end="00:14:54.375" region="r0">Meer vertellen ze niet.<br />Zoek 't lekker uit.</p>
+   <p begin="00:14:54.458" end="00:14:56.000" region="r0">Werkt Burton voor een kartel?</p>
+   <p begin="00:14:56.083" end="00:14:57.000" region="r0">Rot op.</p>
+   <p begin="00:14:57.541" end="00:15:00.666" region="r0">Weten jullie zeker<br />dat hij niets betaald heeft</p>
+   <p begin="00:15:00.750" end="00:15:02.458" region="r0">-hiervoor?<br />-Geen cent.</p>
+   <p begin="00:15:03.000" end="00:15:05.000" region="r0">Je moet er wel voor scannen.</p>
+   <p begin="00:15:06.375" end="00:15:07.875" region="r0">Wacht. Serieus?</p>
+   <p begin="00:15:08.333" end="00:15:11.208" region="r0">Niks persoonlijks.<br />De klant wil een bewakingsketen.</p>
+   <p begin="00:15:31.000" end="00:15:33.708" region="r0">Wil je met me praten over mama's pillen?</p>
+   <p begin="00:15:40.791" end="00:15:43.333" region="r0">Vooruit. Ik voel dat je het wilt.</p>
+   <p begin="00:15:43.416" end="00:15:44.250" region="r0">Wat?</p>
+   <p begin="00:15:46.833" end="00:15:48.166" region="r0">Vragen wat dit is.</p>
+   <p begin="00:15:50.208" end="00:15:52.958" region="r0">Hoe oud denk je dat ik was<br />toen dat nog werkte?</p>
+   <p begin="00:15:53.041" end="00:15:55.500" region="r0">Speelgoed geven om me af te leiden?</p>
+   <p begin="00:15:55.583" end="00:15:59.750" region="r0">Dat zal je verbazen.<br />Als het werkt, merk je het misschien niet.</p>
+   <p begin="00:15:59.833" end="00:16:01.291" region="r0">Dat is het hele punt.</p>
+   <p begin="00:16:11.041" end="00:16:12.166" region="r0">Het ziet er raar uit.</p>
+   <p begin="00:16:13.125" end="00:16:15.333" region="r0">Waar zijn die uitsteeksels voor?</p>
+   <p begin="00:16:15.875" end="00:16:16.958" region="r0">Er is geen scherm.</p>
+   <p begin="00:16:17.875" end="00:16:19.375" region="r0">Geavanceerde VR.</p>
+   <p begin="00:16:19.958" end="00:16:23.375" region="r0">Mensen willen dat ik het bètatest<br />voor een hoop geld.</p>
+   <p begin="00:16:23.458" end="00:16:24.875" region="r0">Maanden geen zorgen.</p>
+   <p begin="00:16:24.958" end="00:16:25.875" region="r0">Waarom jij?</p>
+   <p begin="00:16:25.958" end="00:16:29.583" region="r0">Ik ben een van de weinigen<br />die level 100 in <span style="s0">Halcyon </span>heeft bereikt.</p>
+   <p begin="00:16:29.666" end="00:16:32.291" region="r0">Je bent nooit verder gekomen dan level 83.</p>
+   <p begin="00:16:32.375" end="00:16:37.000" region="r0">Ja, maar iemand anders gebruikte<br />mijn avatar en speelde als Easy Ice.</p>
+   <p begin="00:16:37.083" end="00:16:40.541" region="r0">Zij heeft level 107 bereikt.</p>
+   <p begin="00:16:41.791" end="00:16:42.833" region="r0">Nee, Burton.</p>
+   <p begin="00:16:42.916" end="00:16:44.916" region="r0">Ik heb geen tijd. Ik moet koken.</p>
+   <p begin="00:16:45.000" end="00:16:47.416" region="r0">Zo kunnen we mams Tamosene betalen.</p>
+   <p begin="00:16:52.416" end="00:16:55.125" region="r0">Ik ben trots op je. Je bent er zo goed in.</p>
+   <p begin="00:16:55.208" end="00:16:56.958" region="r0">Hou je mond. Je lult.</p>
+   <p begin="00:16:57.041" end="00:16:59.333" region="r0">Hoe kun je jezelf uitstaan?</p>
+   <p begin="00:16:59.416" end="00:17:01.708" region="r0">Ik weet het. Maar het is waar.</p>
+   <p begin="00:17:03.125" end="00:17:04.208" region="r0">Ik ben trots op je.</p>
+   <p begin="00:17:14.916" end="00:17:16.333" region="r0">Betalen ze per level?</p>
+   <p begin="00:17:16.416" end="00:17:20.041" region="r0">Tijd op de klok. Hoe langer je meedoet,<br />hoe meer je verdient.</p>
+   <p begin="00:17:20.125" end="00:17:22.208" region="r0">Zoals ik zei, de missers wegwerken.</p>
+   <p begin="00:17:24.958" end="00:17:26.291" region="r0">Wat willen ze?</p>
+   <p begin="00:17:28.041" end="00:17:29.333" region="r0">Een moordenaar?</p>
+   <p begin="00:17:29.416" end="00:17:32.375" region="r0">Presteerder en ontdekkingsreiziger.<br />Jouw sterke punten.</p>
+   <p begin="00:17:36.541" end="00:

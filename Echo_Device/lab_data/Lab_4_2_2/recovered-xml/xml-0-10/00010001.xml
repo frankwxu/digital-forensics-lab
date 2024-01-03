@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<settings version="169">
+  <setting id="23" name="lock_screen_show_notifications" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="60" name="unknown_sources_default_reversed" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="33" name="enable_find_my_device" value="-2" package="android" defaultValue="-2" defaultSysSet="true" />
+  <setting id="49" name="AlexaSettings.version" value="5" package="android" defaultValue="5" defaultSysSet="true" />
+  <setting id="20" name="immersive_mode_confirmations" value="" package="android" defaultValue="" defaultSysSet="true" />
+  <setting id="92" name="CASTING_localRendering" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="47" name="accessibility_display_magnification_mode" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="102" name="default_input_method" value="com.amazon.bluestone.keyboard/.DictationIME" package="android" defaultValue="com.amazon.bluestone.keyboard/.DictationIME" defaultSysSet="true" />
+  <setting id="91" name="SMARTHOME_localRendering_additionalInfo" value="package://amzn1.ask.skill.34fa7170-88d2-40b3-87e4-ca6d81fde6e0_live/SHDashboard/presentations/DashboardPresentations/hubLandscapeMedium/presentations.tpl" package="com.android.settings" defaultValue="package://amzn1.ask.skill.34fa7170-88d2-40b3-87e4-ca6d81fde6e0_live/SHDashboard/presentations/DashboardPresentations/hubLandscapeMedium/presentations.tpl" defaultSysSet="true" />
+  <setting id="25" name="sleep_timeout" value="-1" package="android" defaultValue="-1" defaultSysSet="true" />
+  <setting id="0" name="location_providers_allowed" value="gps" package="android" defaultValue="gps" defaultSysSet="true" />
+  <setting id="24" name="lock_screen_allow_private_notifications" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="55" name="double_tap_to_wake" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="10" name="speak_password" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="87" name="hidePhotoBooth" value="true" package="com.android.settings" defaultValue="true" defaultSysSet="true" />
+  <setting id="22" name="wake_gesture_enabled" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="36" name="usage_metrics_marketing_enabled" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="30" name="a_hf_ls" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="14" name="screensaver_activate_on_sleep" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="63" name="volume_hush_gesture" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="67" name="camera_shutter_state" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="2" name="backup_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="53" name="dialogue_enhancer" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="118" name="user_setup_complete" value="0" package="com.amazon.kindle.otter.oobe" defaultValue="0" defaultSysSet="true" />
+  <setting id="46" name="Settings.version" value="2" package="android" defaultValue="2" defaultSysSet="true" />
+  <setting id="93" name="CASTING_localRendering_additionalInfo" value="package://amzn1.ask.skill.c22b56dd-a1a5-4a46-b0db-d97adaa4ba80_live/ActiveMediaList/presentations/amlPresentation.tpl" package="com.android.settings" defaultValue="package://amzn1.ask.skill.c22b56dd-a1a5-4a46-b0db-d97adaa4ba80_live/ActiveMediaList/presentations/amlPresentation.tpl" defaultSysSet="true" />
+  <setting id="65" name="manual_ringer_toggle_count" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="95" name="trust_agents_initialized" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="11" name="lockscreen.disabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="70" name="enabled_notification_assistant" value="android.ext.services/android.ext.services.notification.Assistant" package="android" defaultValue="android.ext.services/android.ext.services.notification.Assistant" defaultSysSet="true" />
+  <setting id="29" name="aot_ww_on" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="45" name="PerfBoostSettings.version" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="52" name="headphone_virtualizer" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="97" name="selected_spell_checker_subtype" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="106" name="oobe_reset_user_data" value="0" package="com.amazon.kindle.otter.oobe" defaultValue="1" defaultSysSet="true" />
+  <setting id="51" name="volume_leveler" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="8" name="long_press_timeout" value="400" package="android" defaultValue="400" defaultSysSet="true" />
+  <setting id="116" name="setting.vizzini.partial.width" value="426" package="amazon.speech.sim" defaultValue="426" defaultSysSet="true" />
+  <setting id="40" name="AmazonCaptivePortalSettingsProviderCallback.version" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="76" name="hideAlarms" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="62" name="notification_badging" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="89" name="launch_routine_skill" value="true" package="com.android.settings" defaultValue="true" defaultSysSet="true" />
+  <setting id="15" name="screensaver_components" value="com.amazon.paladin/com.amazon.displayclockface.dream.ClockDream" package="android" defaultValue="com.amazon.paladin/com.amazon.displayclockface.dream.ClockDream" defaultSysSet="true" />
+  <setting id="18" name="accessibility_display_magnification_scale" value="2.0" package="android" defaultValue="2.0" defaultSysSet="true" />
+  <setting id="64" name="hush_gesture_used" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="13" name="screensaver_activate_on_dock" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="3" name="backup_transport" value="android/com.android.internal.backup.LocalTransport" package="android" defaultValue="android/com.android.internal.backup.LocalTransport" defaultSysSet="true" />
+  <setting id="82" name="hideNotification" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="117" name="setting.vizzini.partial.height" value="800" package="amazon.speech.sim" defaultValue="800" defaultSysSet="true" />
+  <setting id="34" name="USAGE_METRICS_UPLOAD_ENABLED" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="79" name="hideDiscovery" value="true" package="com.android.settings" defaultValue="true" defaultSysSet="true" />
+  <setting id="110" name="input_methods_subtype_history" value="com.amazon.bluestone.keyboard/.DictationIME;-921088104" package="android" defaultValue="com.amazon.bluestone.keyboard/.DictationIME;-921088104" defaultSysSet="true" />
+  <setting id="54" name="AudioServiceSettings.version" value="4" package="android" defaultValue="4" defaultSysSet="true" />
+  <setting id="35" name="rdm_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="1" name="mock_location" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="104" name="to_be_launched_country" value="" package="com.amazon.kindle.otter.oobe" />
+  <setting id="74" name="bluetooth_name" value="Echo Show 8 (2nd Gen)-3SD" package="android" defaultValue="Echo Show 8 (2nd Gen)-3SD" defaultSysSet="true" />
+  <setting id="61" name="autofill_service" value="" package="android" defaultValue="" defaultSysSet="true" />
+  <setting id="43" name="parental_monitoring_light_out" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="115" name="setting.vizzini.partial.prefix" value="MMPartialScreen" package="amazon.speech.sim" defaultValue="MMPartialScreen" defaultSysSet="true" />
+  <setting id="58" name="sync_parent_sounds" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="112" name="alexa_selected_wakeword_model" value="alexa" package="amazon.speech.sim" defaultValue="alexa" defaultSysSet="true" />
+  <setting id="105" name="screensaver_enabled" value="0" package="com.amazon.knight.ecs" defaultValue="0" defaultSysSet="true" />
+  <setting id="73" name="snoozed_schedule_condition_provider" value="" package="android" defaultValue="" defaultSysSet="true" />
+  <setting id="4" name="mount_play_not_snd" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="83" name="hideWidget" value="true" package="com.android.settings" defaultValue="true" defaultSysSet="true" />
+  <setting id="7" name="mount_ums_notify_enabled" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="113" name="alexa_security_mode" value="DISABLED" package="com.amazon.device.smarthome.dshs.multimodalux" defaultValue="DISABLED" defaultSysSet="true" />
+  <setting id="78" name="hideRoutines" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="31" name="a_ww_e_sa" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="85" name="hideSkillGames" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="26" name="android_id" value="afcc768efcf748ae" package="android" defaultValue="afcc768efcf748ae" defaultSysSet="true" />
+  <setting id="90" name="SMARTHOME_localRendering" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="66" name="Ambient" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="28" name="alexa_availability" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="9" name="touch_exploration_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="41" name="AmazonDropboxSettings.version" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="77" name="hideComms" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="80" name="hideFrame" value="true" package="com.android.settings" defaultValue="true" defaultSysSet="true" />
+  <setting id="75" name="hideAml" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="81" name="hideDND" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="42" name="parental_monitoring_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="27" name="alexa_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="69" name="enabled_notification_listeners" value="com.amazon.knight.blink/com.amazon.knight.blink.BlinkNotificationListenerService:com.android.launcher3/com.android.launcher3.notification.NotificationListener" package="android" defaultValue="com.amazon.knight.blink/com.amazon.knight.blink.BlinkNotificationListenerService:com.android.launcher3/com.android.launcher3.notification.NotificationListener" defaultSysSet="true" />
+  <setting id="48" name="AccessibilitySettings.version" value="3" package="android" defaultValue="3" defaultSysSet="true" />
+  <setting id="71" name="enabled_notification_policy_access_packages" value="com.android.camera2" package="android" defaultValue="com.android.camera2" defaultSysSet="true" />
+  <setting id="109" name="ui_night_mode" value="2" package="com.amazon.kindle.otter.oobe" />
+  <setting id="99" name="selected_input_method_subtype" value="-1" package="android" defaultValue="-1" defaultSysSet="true" />
+  <setting id="88" name="launch_smart_home_skill" value="true" package="com.android.settings" defaultValue="true" defaultSysSet="true" />
+  <setting id="6" name="mount_ums_prompt" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="96" name="selected_spell_checker" value="com.amazon.bluestone.keyboard/com.amazon.inputmethod.spellcheck.FireSpellCheckerService" package="android" defaultValue="com.amazon.bluestone.keyboard/com.amazon.inputmethod.spellcheck.FireSpellCheckerService" defaultSysSet="true" />
+  <setting id="38" name="smart_home_lock_screen_access" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="16" name="screensaver_default_component" value="com.amazon.paladin/com.amazon.displayclockface.dream.ClockDream" package="android" defaultValue="com.amazon.paladin/com.amazon.displayclockface.dream.ClockDream" defaultSysSet="true" />
+  <setting id="5" name="mount_ums_autostart" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="114" name="show_note_about_notification_hiding" value="0" package="com.android.systemui" defaultValue="0" defaultSysSet="true" />
+  <setting id="39" name="AmazonAppSettings.version" value="5" package="android" defaultValue="5" defaultSysSet="true" />
+  <setting id="111" name="oobe_completed" value="0" package="com.amazon.kindle.otter.oobe" />
+  <setting id="86" name="hideVideoKids" value="true" package="com.android.settings" defaultValue="true" defaultSysSet="true" />
+  <setting id="84" name="hideSmarthomeIcon" value="false" package="com.android.settings" defaultValue="false" defaultSysSet="true" />
+  <setting id="44" name="MultipleProfileSettings.version" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="59" name="install_non_market_apps" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="94" name="bluetooth_address" value="B0:F7:C4:41:CC:93" package="android" defaultValue="B0:F7:C4:41:CC:93" defaultSysSet="true" />
+  <setting id="107" name="DEFAULT_COR" value="" package="com.amazon.kindle.otter.oobe" />
+  <setting id="108" name="DEFAULT_PFM" value="" package="com.amazon.kindle.otter.oobe" />
+  <setting id="56" name="show_ime_with_hard_keyboard" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="72" name="accessibility_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="57" name="multi_press_timeout" value="300" package="android" defaultValue="300" defaultSysSet="true" />
+  <setting id="17" name="accessibility_display_magnification_enabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="32" name="KeyPolicyManagerSettings.version" value="1" package="android" defaultValue="1" defaultSysSet="true" />
+  <setting id="103" name="launched_country" value="US|GB|DE|IN|AU|CA|JP|FR|ES|IT|MX|BR|SA" package="com.amazon.kindle.otter.oobe" />
+  <setting id="50" name="usb_audio_automatic_routing_disabled" value="0" package="android" defaultValue="0" defaultSysSet="true" />
+  <setting id="101" name="enabled_input_methods" value="com.amazon.bluestone.keyboard/.DictationIME" package="android" defaultValue="com.amazon.bluestone.keyboard/.DictationIME" defaultSysSet="true" />
+</settings>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Ÿ’˘ °c◊   |F¢Ç   	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                z 
+Ô
+%ÍOo¸z	t±                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ÿ1Å]  uUamzn1.ask.skill.c22b56dd-a1a5-4a<Å]  uUamzn1.ask.skill.c22b56dd-a1a5-4a46-b0db-d97—	  £Å]  uUamzn1.ask.skill.c22b56dd-a1a5-4a46-b0db-d97adaa4ba80_live/data/user/0/com.amazon.alexa.datastore.app/amzn1.ask.skill.c22b56dd-a1a5-4a46-b0db-d97adÇƒÅ]  uUamzn1.ask.skill.c22b56dd-a1a5-4a46-b0db-d97adaa4ba80_live/data/user/0/com.amazon.alexa.datastore.app/amzn1.ask.skill.c22b56dd-a1a5-4a46-b0db-d97adaa4ba80_live.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:35:18.269909304 +00:00Ç.√}	Å+Ç	  uUamzn1.ask.skill.1ebc00fe-0df7-4c3c-835f-8fd400405cda_live_weather.forecast.data/data/user/0/com.amazon.alexa.datastore.app/amzn1.ask.skill.1ebc00fe-0df7-4c3c-835f-8fd400405cda_live_weather.forecast.data.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:19:50.029681122 +00:00Åƒw  uUTimers/data/user/0/com.amazon.alexa.datastore.app/Timers.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:35:22.768588919 +00:00Ç√~	ÅÅw  uUamzn1.ask.skill.2f5beb44-dcc2-4a61-bfd7-809305e2b913_live_HestiaRegion/data/user/0/com.amazon.alexa.datastore.app/amzn1.ask.skill.2f5beb44-dcc2-4a61-bfd7-809305e2b913_live_HestiaRegion.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:19:50.075876199 +00:00Ç√Å]  uUamzn1.ask.skill.34fa7170-88d2-40b3-87e4-ca6d81fde6e0_live/data/user/0/com.amazon.alexa.datastore.app/amzn1.ask.skill.34fa7170-88d2-40b3-87e4-ca6d81fde6e0_live.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:19:50.106509891 +00:00Åƒ
+{  uUPackages/data/user/0/com.amazon.alexa.datastore.app/Packages.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:35:18.467487457 +00:00ÅU√wSÅ1  uUDomainApplicationLists_lists.widget/data/user/0/com.amazon.alexa.datastore.app/DomainApplicationLists_lists.widget.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:19:49.846029353 +00:00Åw√vuÅS  uUDomainApplicationCommunicationsMessaging_CommsRegion/data/user/0/com.amazon.alexa.datastore.app/DomainApplicationCommunicationsMessaging_CommsRegion.db{"exp_type":"NoExpiry","exp_metadata":{"String":""}}2023-10-09 20:19:49.811864122 +00:00Ç√{	ÅÅi  uUamzn1.ask.skill.03baeacc-1417-4568-ad

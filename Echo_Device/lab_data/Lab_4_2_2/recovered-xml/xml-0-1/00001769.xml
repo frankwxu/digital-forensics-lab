@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<usagestats version="1" endTime="85500007">
+    <interactive count="11" time="1697860050653" />
+    <non-interactive count="11" time="1697859985758" />
+    <keyguard-shown count="0" time="0" />
+    <keyguard-hidden count="0" time="0" />
+    <packages>
+        <package lastTimeActive="-1697775240571" package="com.android.providers.calendar" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="78119740" package="com.amazon.device.rdmapplication" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.whisperjoin.middleware" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.alexa.beaconbroadcaster" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="84396503" package="com.amazon.alexa.datastore.app" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="59193390" package="com.amazon.alexa.ms.kinex" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.device.smarthome.dshs.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.imp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.android.launcher3" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.tcomm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.NativeAccessorProxyServices" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="amazon.speech.sim" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.android.se" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="14374522" package="com.amazon.android.service.wifiprofilemanager" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="android.ext.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.knight.blink" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.device.smarthome.adapters.echo" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.device.smarthome.adapters.mock" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.banyan.core" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.device.software.ota" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="amazon.speech.davs.davcservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.knight.btavrcp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="84810298" package="com.amazon.paladin" timeActive="7898142" lastEvent="2" appLaunchCount="5" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.alexa.timeoutmanagerapp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.theia.sm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.device.smarthome.adapters.ble" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.android.systemui" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="59193417" package="com.amazon.aria" timeActive="134096" lastEvent="2" appLaunchCount="4" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.whad" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="59137142" package="com.amazon.alarms" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="73387819" package="com.amazon.bishop" timeActive="61950" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1697775240571" package="com.android.bluetooth" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1697775240571" package="com.amazon.device.gadgetscontrolmanager" timeActive="0" lastEvent="0" />
+    </packages>
+    <configurations />
+    <event-log>
+        <event time="3205245" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="3295445" package="com.amazon.android.service.wifiprofilemanager" flags="0" type="12" />
+        <event time="7784509" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="10286912" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="10485765" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="12863303" package="com.amazon.device.rdmapplication" flags="0" type="12" />
+        <event time="12864014" package="com.amazon.device.rdmapplication" flags="0" type="12" />
+        <event time="14374522" package="com.amazon.android.service.wifiprofilemanager" flags="0" type="12" />
+        <event time="17728673" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="17728917" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="18584708" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="23188181" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="24990376" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="26673439" package="android" flags="0" type="15" />
+        <event time="26674042" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="27273501" package="android" flags="0" type="16" />
+        <event time="27274016" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="32012083" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="32753281" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="33058222" package="android" flags="0" type="15" />
+        <event time="33058267" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="33665721" package="android" flags="0" type="16" />
+        <event time="33666168" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="38753315" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="39453897" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="39454065" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="46895540" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="46895735" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="54277309" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="54277482" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="54353293" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="55023310" package="android" flags="0" type="15" />
+        <event time="55023369" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="55096129" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="55096212" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="1" />
+        <event time="55161899" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="2" />
+        <event time="55161916" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="56593719" package="android" flags="0" type="16" />
+        <event time="56594233" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="56637898" package="android" flags="0" type="15" />
+        <event time="56637932" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="58754923" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="58755005" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="1" />
+        <event time="58757413" package="com.amazon.alarms" flags="0" type="12" />
+        <event time="58767367" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="2" />
+        <event time="58767404" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="1" />
+        <event time="58797587" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="2" />
+        <event time="58797616" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="59137142" package="com.amazon.alarms" flags="0" type="12" />
+        <event time="59167176" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="59167232" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="1" />
+        <event time="59167263" package="com.amazon.alexa.ms.kinex" flags="0" type="12" />
+        <event time="59178223" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="2" />
+        <event time="59178262" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="59178394" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="59178456" package="com.amazon.alexa.ms.kinex" flags="0" type="12" />
+        <event time="59178544" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="1" />
+        <event time="59193390" package="com.amazon.alexa.ms.kinex" flags="0" type="12" />
+        <event time="59193417" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="2" />
+        <event time="59193452" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="60328295" package="android" flags="0" type="16" />
+        <event time="60328768" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="61359065" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="61359263" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="63472080" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="63472087" package="android" flags="0" type="15" />
+        <event time="63472693" package="android" flags="0" type="16" />
+        <event time="63473257" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="68800759" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="68800946" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="69042109" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="70159999" package="android" flags="0" type="15" />
+        <event time="70160101" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="70163971" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="70164050" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="70164186" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="70164318" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="70164384" package="com.amazon.bishop" class="com.amazon.alexamediaplayer.runtime.apl.APLActivity" flags="0" type="1" />
+        <event time="70167748" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="70400668" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="70402550" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="70613230" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="70614976" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="70832454" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="70834205" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="71009053" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="71010873" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="71243635" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="71245311" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="71512142" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="71514124" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="71716469" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="71718441" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="71951941" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="71953834" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="72187760" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="72403346" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="72405321" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="72605840" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="72607600" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="72825459" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="72827237" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73020939" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="73022849" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73236082" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73325810" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="73325869" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="73326421" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73327194" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73327543" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73328613" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73329476" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="73387819" package="com.amazon.bishop" class="com.amazon.alexamediaplayer.runtime.apl.APLActivity" flags="0" type="2" />
+        <event time="73387865" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="73988304" package="android" flags="0" type="16" />
+        <event time="73988786" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="74955595" package="android" flags="0" type="15" />
+        <event time="74955628" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="75821523" package="android" flags="0" type="16" />
+        <event time="75821980" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="75942515" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="76184249" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="77252579" package="android" flags="0" type="15" />
+        <event time="77252610" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="77254063" package="android" flags="0" type="16" />
+        <event time="77254368" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="78088108" package="com.amazon.device.rdmapplication" flags="0" type="12" />
+        <event time="78119056" package="com.amazon.device.rdmapplication" flags="0" type="12" />
+        <event time="78119740" package="com.amazon.device.rdmapplication" flags="0" type="12" />
+        <event time="80853358" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="80854232" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="83264321" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="84396503" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="84686398" package="android" flags="0" type="15" />
+        <event time="84686577" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="84700614" package="android" flags="0" type="16" />
+        <event time="84700825" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="84718611" package="android" flags="0" type="15" />
+        <event time="84718705" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="84727962" package="android" flags="0" type="16" />
+        <event time="84728185" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="84745187" package="android" flags="0" type="15" />
+        <event time="84745260" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="84810082" package="android" flags="0" type="16" />
+        <event time="84810298" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+    </event-log>
+</usagestats>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

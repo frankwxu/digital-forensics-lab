@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<job-info version="0">
+    <job jobid="1025" package="com.amazon.spotlight" class="com.amazon.spotlight.service.LauncherJob" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1697964892648" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="1800000" flex="1800000" deadline="1697968492197" delay="1697966692197" />
+        <extras />
+    </job>
+    <job jobid="-331393863" package="com.amazon.spotlight" class="com.amazon.spotlight.arcus.ArcusService" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1697955927284" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="21600000" flex="21600000" deadline="1697999092198" delay="1697977492198" />
+        <extras />
+    </job>
+    <job jobid="-848196814" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.configuration.ArcusSyncJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1697929972395" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="4320000" deadline="1698020692198" delay="1698016372198" />
+        <extras />
+    </job>
+    <job jobid="-1587497751" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.modules.DataRefreshJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1697964020979" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="1200000" flex="300000" deadline="1697965492197" delay="1697965192197" />
+        <extras />
+    </job>
+    <job jobid="322050388" package="com.amazon.theia.sm.remoteagent" class="com.amazon.theia.sm.remoteagent.arcus.ArcusSyncService" sourcePackageName="com.amazon.theia.sm.remoteagent" sourceUserId="0" uid="10154" priority="0" flags="0" lastSuccessfulRunTime="1697964951370" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1697966733232" delay="1697965833232" />
+        <extras />
+    </job>
+    <job jobid="-1535370665" package="com.amazon.mlv" class="com.amazon.mlvlib.arcus.ArcusSyncService" sourcePackageName="com.amazon.mlv" sourceUserId="0" uid="10072" priority="0" flags="0" lastSuccessfulRunTime="1697964892382" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1697966023064" delay="1697965123064" />
+        <extras />
+    </job>
+    <job jobid="0" package="com.amazon.alexa.beaconbroadcaster" class="com.amazon.alexa.beaconbroadcaster.versioning.PeriodicVersionEmitter$VersionEmitterJob" sourcePackageName="com.amazon.alexa.beaconbroadcaster" sourceUserId="0" uid="10057" priority="0" flags="0" lastSuccessfulRunTime="1696279871923" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1697162120347" delay="1697162120347" />
+        <extras />
+    </job>
+    <job jobid="-317380259" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697955927105" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1697999092198" delay="1697977492198" />
+        <extras />
+    </job>
+    <job jobid="-2094627781" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697955927142" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1697999092198" delay="1697977492198" />
+        <extras />
+    </job>
+    <job jobid="-1285906452" package="com.amazon.readynowcore" class="com.amazon.readynowcore.arcus.ArcusSyncService" sourcePackageName="com.amazon.readynowcore" sourceUserId="0" uid="10019" priority="0" flags="0" lastSuccessfulRunTime="1696279872175" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="86400000" deadline="1697162120347" delay="1697162120347" />
+        <extras />
+    </job>
+    <job jobid="101258" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.serviceconfig.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697930035388" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1698020692199" delay="1698016372199" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.serviceconfig.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="101258" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="1130989070" package="com.amazon.knight.ecs" class="com.amazon.knight.ecs.arcus.ECSArcusSyncService" sourcePackageName="com.amazon.knight.ecs" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697963127480" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="3600000" flex="3600000" deadline="1697970292198" delay="1697966692198" />
+        <extras />
+    </job>
+    <job jobid="108317" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.lockersync.sync/amazon.account/AmazonSyncAccount-6957b355b974dde07bb47bf8cd86218da71f3ce800784526ba4345cda0abf63b" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697930034873" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1698020692198" delay="1698016372198" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.lockersync.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" val0\r§mûü   O   )â6    1/0/https://images-na.ssl-images-amazon.com/images/I/8180wIbWacL._AC_SX184_.pngÿØÿà JFIF      ÿÛ „ 					#!##""$'(#'5							!")"("$"","(!"#""$$#$!/"!'$*ÿÀ  ¸ ¸" ÿÄ ¯                  !1AQa"2q‘BD¡±Ò#Rbr“ÁÓ3CT’¢¤²S”³Ñ$dá                     !1"2AQ¡Ra‘Ñ¢£Áá3Bq±#b’ÂðñÿÚ   ? zSTäOTÔgés ® ÍO¾±mfÇ³ŒfêËsD;åŒó–/3ËzyŒw×V°4ïQ.ç‘”*ø–8™†g¶”H¤«£uèASU7¸-ïÐG§¬}<­™©ý[¦œ–˜ß=ªfß,#žÏ6‡¸w§¸Õ6ÿ ^¸mê 1þ³ƒë~Èï«YW]wN&5íU¥	ÖÒbyHNÊcðV%O&jþõ8–sgm‹¥À¸…“ý¤c™Øÿ ä<(¯¢[Ñßþ—}÷]å&¤Ê˜ÁX¡wpÒ¡ŠÀóÁÎ}N¸âé˜0P©žñÌÕ®ó¥´¹¸C"¾B¡“ 7›dt¸vÚ™6>€Ê§âoy4§kÛv¬ÏkÍÑ.¿–Öyg™BêräscÝ·¼ûê¿¥›‰îVp¹$¹aïæºa™ mõpk.–[AðÏêŽ¬ÇdK³ï5"™‚C(äì‚ê—õb#ÀÝX.8†âcØÆ	ÎŠ[w¸ÊžÓt»è¥7íõ!›cÉ'.x8åÓ5OŽæ-bÂAŸY° b<2zQË&»Üc1®õ8 ©R»5wX•è². #0ñt’ª4q†ÏAš¸Ï­\ØØ•‚Ox„ ¼»(º;øåý…øžê¢Øu—T¿Tb4µôQ€3úD÷S´»c®ÜÏ¨ê8h eí6¬Î ìíÐw(/à¾mSC@*%ö™?€Ãþçxð×o4æmA´ô§?š%¤Zÿ Â¬¬1=ú®|Ph<ŒÇ×>Ai´Z“ux÷ÓI4§,æ’->nD—»¼w+€ª®uLÎ•ÉÄZž‹ŠŽ‚§Dµe§cJ–©\"Ô•*„¤‹Ri"SêµË¥©ô^Tª·SešdãÁ9Å=»–(ßij·0ÛÆÛ‹J:ÃòvçÔSÝ†>’ª¾:X]<œ²–ÕS6&Sð’­|Áwÿ —ØÝ<cdR«6%¶mçëa‹gÈ
+#?¢û½óI$öé¹Ü²I2O3½>Å«ôØðý¼j›m­`Çê{òk>ºô‚ÁÏcm…î2È!fóÙÍÇÄ
+ädé=meý®/ã³ÿ Ÿò]4Z54³ñÃÍÖýM® ?jZNùcŠ+¨Ê°‘"cë£rehd$0#»x¬ƒWÒŽŠß—i’0µß³qÈ–ÍÛû€pÛ[¢3rqÈóÁ>‡ÑxÒéÁ+çfHe|uØêJ’<:ÓœU¢öÊú…´jÓ¢,Dä?N)¡ÈöOÑjŠ.›ÕÒÔuUÂí=‡¶GFÈˆt î-Áý>adº†·m­ÙÇ<
+ckhÔMmÍ¶woSÕ‘PyÊõ]rÎE*ÖØ5hÕ4Ã Ïk¥¹kiÛîË´lãwa êêëìw°ÊûKR/ø.×UG½‚Ù£ušÑ¯çÜ…§U4l¤kg§Þ™ß„ù;áä~«C*±íq¿ýådÝÜBL*Û|‡3î§,8ZŠ9nyÀÊw!ð>b¯I¨[Â6¼;¶ƒüiý;†[Yrù·Œ’ ,Øñè(.¯Ž6‚â³»H‘Ï°œ"HÊnPÛ«–]¸NÊ¤ŸR¾m­ÀÞØË9>ÌiâÎyPG£XŒ€‹¡‚{Á©¤··VšM’4q&DFU1† ~záÇ‚’Œuj%4CPqŒ\D;O6#o!ñ?º¸¢4Ý¹)”KŽ)¼–0Á7rw­¤ly*÷4¯Ð¤FO!G¯.£uŠÚÙ;;xÇ×Ì³ösÍ›¼Ò»’h’ÂË"‰;·3ŸjY<Ûä£
+*`W@Ö6Í°lÑåû®_R×TòÖ÷z%É©Š)ˆÅLADJŠ‘ÔÔZeKŽ¼¨žQRÑi”1EyUv«R+”Z’ •`H´«´ZUUk,¨ŒV·èîÜ ¿—¿tQth¤üØ“YFÜÖ¡À€Iyêý”‹îe·ÉÐ×3Ò`ÿ aao§º=lãù±ýBƒÇ÷î×iÑ·ã$„ª1ý€¤<ÍÈ'$Ö£éL)"_tÐ$ÝSº6oæUvàk/•&*ãið5~Ž>`g~ç%Ûeëãqþ¬?Tå¸.Â,àHG1Õ[è8ðd<óï	¯ApÎ úŽŸiq'´ñ®ïCXF™aqtå MìŠY¾BQ´w€Ì7áæEzIÓFeoh[&€fóÚ•t Äe„·¾.
+Ý£‰+ƒø&íýlªZ¯ YËe{WdI‹1öa2§Ñ/…~cžEQ¸'‚£Šå˜É$âÏiQ! ‚9°aVŸé»®CŸS3F…Æp	 \g„ÐÆyÊ¹NÈ°4Ù»ÙÎîU¯Ielº}l3´÷nËÿ CÇ¢dHì¸eãb=UõøÖBY¯.I÷Cüºúx"Ü€õÖ Ä?‚†ÿ ÎwŸÜïâüT¿ç;Ïî÷ñ~:çÅ¨8„ýò—ßõðL&Ú’âi·ËÍ$ìÂ)9õUNCNp£øc´g{‰¢g2.c„¯/]X€Ì¹ `SÏ)ž$º°eˆRêûƒœgÕ'ÙDcãÁd‘Ä°n]ŠCöÑ®àÞ¶pX]ã¯‡A‰±°õîuÈøý‚Þ2=k‡–å¨ÇôweýêÝÁüºûýY­Oû¸?—C¤6n–¿ê"üu÷úBoî¿ê"üt—={Ü“ñ}ÐíKïGùhŸôh>·?îàþ]t8Ô}rÝÁüº8ýÏÕ?ÔCøéÁÇrŸ©ÿ ¨‡ñ×³×½É?ÝzÔžô–ˆŽ·]¸ýÜË®¿äˆG×®?uoüº8Þsõ/õþ:èq¥Éú‘ýü?Ž§¬×ýÉ?ÝE¨ýèÿ -é}qû«å×Cƒ}~ã÷Vÿ Ë¨Œ.ÔOýÄ?Ž»Yx~ î!üuî³_÷$ü_uÑ{ÑþZ˜ÜBj3ƒÜZ
+ü@Ž«6í(kˆ'
+%·“k•äŽŽ£™]Àó^âv(Ùâ«ìr°?÷þ:g Ï5ÃšâMÏ·Ø\ ŠŠN	\’i¾Ší`Õ“T"¶ù_Ñ/ÔÛEì®Ä´É¶8ãó½¼,¥ ¥RcLÒ®¬¹sx¬’&
+rEL°¿–Úxæƒ¤lJp®ÛŒžƒ~2§¹‡5
+ša@¨¡ŽªÁ(»NÈ´ÕÏ¥™³ÇÈ^ƒÑµÛmbS¨’'²žõu<Á5øKc˜Œð/ý8¥˜ý•`ÁkK·ÖLê0%Vìå t¹†¸0`(êqµü#ç?· cóWP~B¸¹:©ÑÈMÉ¿Có]L]!¡·s°> Ýnz>—c¢‡kXq!BòÒwçœ3žxòÎ+7ã^-‰ã–ÎÙý^“J½±¡ï‘ÿ È9šÏu,º¼e™Üw¨Ä}ûK9ÿ Õ>æí¤À8F@Úª<tÇ¾µÒt6®y&¤F#{}Ðçé< û1ÎOAõçèŒØÈno |‰ÈtQÐä£¡v‰ouÄ3Üí\µåË>
+Ì+Æ‰ÕÔà©5g¯-Œ“ÜYÂ°Ï8"IA$Ä3•@Äe¶šëZî¬œ[}°	m¢Ê~µÒ¸­;òˆÿ L|ëïj¾"³øø·P?ÛµLN&¿o¬?Î«y<‡×öF=&`þB«Üsº„1È¡±CŸQÚ;Qýu#ŽöxâP±ÆB¢ŽJªž¨È
+r{ùïKßKs=’Â?(u,BV!ŸÚÉ£@Ì†F,z“F/ÆâÖ¬µú³jc‰­ñS¢8!E1È©Q­)O çSÐTx“&¥Ç^U%N´çtŠ5,Î@
+;ÍM›ò+2{{ø);¶±vê`4P¾{ùa;dìU‡UÞUX=¼¨z+»â˜mî%Íµˆ@D¤~v|÷Æqî•°U)Un§4Rõq›]=ÓtjŠsQP|qß¤]-çÖ9¦‘¶Þï°n<ªXô‹¡ï	™@ÿ ¨Bàü(gúº°ŸL›ò•_ì$ÄrŸÙq„cïXÜzD’¼ˆrÃÄÃ¸ò¬¬š×l®NŽƒ@æß«Õ67¶·è$³f_.L=ëDÕkÊIzš>Ö³r$ý0p>5è>â&â-=n$š7d”wn\Gí)˜ÒWÉ%Ù.çR=GBm0CÜá\QiW:ÇÊ•mJì±æÃS­\^BQdlÐé\›9ëB¦8¯"5ª,’ã4:I)ÙZ¹³°¹ÔçK[Hši_¢/€êÌNTw³T¼r´µ—6
+’Ôn–ÆÚÉÄ{ša1c¸©õ ÇQÒŒÝA¢h¾­ýÓÞN:ÛÙ°§“Ü¸;¼ö%V5FÛW0"[½¬p‡ˆæã“¶òK9VÎhm—>8Z™JZnôGHÕ-¯#Á0?¤—JÈÛŸ¾µmÂÝw“py})aqöÛYŽ…¤Æ’Wvò1æV²Ì^,˜ròÿ Ù©s¬T»ìÐ(V<k`Öš½¡Ó W?‘mBîMÈG}Ìå{.qroT/6ªª¶âHÉè:!œžT9ôõÓîËÆfõH(äÆH9[9£vWeóÒf´—¹'õáo!*€Éïe5,Âóc¿šð¾[am¶R %ß³RÞò9ôùM¼ñ˜Û Œà†SÑ‘†U”÷0$T æLïjÒ× G	TàHr —ÏRâºsßC ©PÕÅ”…`¸csiml,ÒèÜ±V™Ñ¦ÌC«(O6Ã 9‘Et‹¸¸€Ûêš¥'pQÑ¼µH³È0ê#Ù‘‚´^ŽÐËxøÛ›xã,	*_¶0G&ŽkEm3$² šMå ^B2üÞ\¬Ýyž´ƒP{å¤oe×i–&ñ| 7ùï%ZâŽ/KKÅ¸ƒP‰%UÁ²žcH	'ÃlR‚}Y†Aä­TÎ?°‡]²“Tµá¹µP]]@wÞ¥£w«£8«\¼+h×"þr«2!PŽÄªp@W$le •uõ“{T	ôkk;õ‘
+LáíEfRÎqìg;W»¹m¬‘tÛÙì÷€;+Ì\±=Iþ½èÚÆM'DÍÉï¥2…ðBª‰ñp»ýÍXÜ\Úé‹{$üÖ ïC·`ÄŽ½¦s¿³Ëcn;³šô¶ºê®9( t tÇÂ˜Ñ1®så²C­Jö²(HØöÔ).I9Í*Z•2²Ae^jiÍHjŠæ¡e
+ÍAîd
+	4Vv ×' jØ®^¹µ”G¨¿bØAƒŒŒÚ#÷íÞ*‹Ä<R–‰>¥–ŠßŸ”œOvãôÛ–#Nˆƒ óc’i6¿­è¡ÂñÒD4I
+€ Á…ÁÇžV¾?¤û½‚öÚÎäxËbŸzl¬˜O—ù–púz~éÃ"ˆo¢(QÈU—K·Ã#4\q#€ú%—¹LÑýÒU²ÎëHäF“û®®?£¶G{§Óî¼ëÊ±h¶Àlœ®0Tyz½*ì1Uí#V´üá
+ªˆÄ‘<®Ø^åÕ‚ÓQ²ž4qf£pèeŸ÷Pä'ƒé÷AóU}bÅ© úÊõ[ñçšÙunqˆ¬mí¬’}òV{¨qtûÊ-µ¤ £žÐY£*	Ü_‘<¾5v½á¼)Øªþ®Ìâ=*ët‘vŸ›*»ä·bpÛ?Uº2tï­Fë€.â·{«fíU-¯e ½NYÝ•&°äâ­VI2n™	îŒ,_ìUÅj:ûòšþä¶ÞjC#ÿ Tœš lÙƒo$s²™cˆ´™Ï
+l
+õ©žt=[<Ï,Ôèž˜„¤«Ï	ki£^‰æ!bt)# ¬AßîBoÉ«ž³§\X\™’òN¤˜¥"hÛ>ñ½|¶2YÌ9Xí­bm³ê?|pgiÇí€[ÌSx{H“TÓë<«
+ÜÎ–ÑïÞ#†,*[$úÙïÂô 
+ækê-SË8ƒò]®“£KMCÒžþà|[g¹ÖûNKÈVgÆüag§ÀÖ’±y.T©9²#ú¥›ÃË¼Ôn&Ó§²Œ«]È»ó´Š¯¶ù* ïcî5AÑ}K«Äf·†IŽ2\xŸ$.k3p”ëü2¡ñäÛù’»â¾<†âÆ]>Á®
+¼ç( \ ñeOrŠÕtA¯ôÍ*y9³ÚÃ¸ø•Ý^rÕx~îÊèi¦ü¨°-Êùí 1·#=KkÑVðË[K"Á¼1¡#¡*=b>4â‚1wð¹jRLlx" Ò¦”©’4%ÍB”Ó²H(tÓUVvµFè4ïS'˜h$ÒÕIZXÅÜP%Ì‚)9«‡È÷)5˜¦ž»FÖ+Èt$VƒÞ¿/Ñ“ýU ESîS.SP›Ûên\ynÏßš!ö±'!tß%ü4Àj•k.Ö«Õ‹£¬–	Ä-ƒÓ|“ðÕ4Þ*o¬¿É?Ð,]âYe»‚Üw+»3üB«î&­”ZÇÉõ«QîW?†¤ãæ}P»^CÑgÒpçKýmÓ|Ö¨\G£êÌ{—o-æ·ÍZÂÝÿ €àt·?óÖÄ|AÜ§k‰ˆ8ªœqÜÿ u-Ë%NÑa“œ¬O_-aXÑFª€< €iVÏg5äXdˆfEÚËv:_
+œ²ô÷¸Qb£dŽÐV1>M[8KGmvú;Pp€”ç#Blë–9 VuÆ´¯G|Em¢Ï}5Ë…ª‚9“¿'ÝŽñô¾5½”ï|}äzVÉ<l«Þ½ÃèqÜjîK›G;Yz‹adg%%ï-ÔàÓÞŒu^¼›P˜$V·³a²{UIûªn©¨iü[cq`—f.Ù
+—M¬À7^G‘ÈåOèÜeÃÖÑ¥„mrÑÊÓHÃí	½¶Â¯° 0Ìµá¹d7;.Ùõ/’DãÁi Û‹|9òU-;„.x’î]GZC«ãe¡õe•ÙVúQ§FzÑõ;+{ÈVóqRf†Žƒjä<+Ôý#jñj‰§6•>é‰]LFB ³,°¾¬Rêš·fÆK&Œc™3 #ýõáK!Ü+¾·®p{kØäI6‰i<On,"›v¡†s.[*@À‘ë(\—Øš…'_NòB"*óspÒ¹'– `óƒCæŸiÔÒG³àð¹]ZX¤¸náÊ±	iPAsJ˜b”ÙCšb´2yë—’‡ÊÇy±¦¦ž…K.MH”šýô2V†µuÝ&ß—ý@ î«6–òn„Kÿ ê¯%ECV¨¸+¶éNÚ¯i,(z3®}Ã™¦ØàWØ[kÄ|	ûAâŠ¦Cjú§ç¤$îî”à@J~B3´T¾u0)n@wô¤Al&|cpçÌtåT¼vä/ur“Øi+¼Ðê¯Oc²¶nÒEÉØß*¦&‹{z[°·v¿nÑó8ƒ Œn
+#Y)ÚÆè·¢ùJ¾³'kØÏËÜ¦¤ÀÙT>*¿u|ôslDú¼½ÑXO»Ë!…qõ#òUû«D=Å’£”AZŽè: Ó/­®Ý7¬LIOÊSÝË9ªâµ>Qˆiiàì³µåkÛÈí+±w¦<ÅôËW†F=S0¢“ßú4´K—Ú4Ík¨.à‡Ûè71@x“Nvžäð®=Ùl]Q§Ã@øÞÛ§tõ5U%­ÈÙz—Oô‰¦ë–æ%Â¸ý"1æ¬*|Áª\sÅ–ºe¹KK–rÃú¢æUøëž+Íñéedb„ŽîUÝÍ”ˆrä±æ°5k®Òš*œMÛ²µèš£^5Öyê@ï ¿Â¬!ë+ÓïÂËôz7šž¿.µ¦ƒOhê3‹È\¶¥Bb¨ÈwNê`”Ò¨á©V´ºÉ¶ ‚Fc­'8¨ÅËšÎJ€9OZ#TÛ€A46CBr3B—¤É²éw$ÿ øž«iÉGº¬º<2´ý¬q³,K6÷
+J&bi½‘Ö«@U¼Î
+ÕØ¯Ò¾ ;r;ˆ<ºòëHÓöÖ¨#tE|Ó%¼Òm`X4çžßlöÍÛ£x— eÄ>(·å6÷»ÆÖÄûLÂÿ (Êî>üÕ~ËMx›¶´šHõhÜ¥[­5^$Œ„‹VŸâÛ«+´[›´­l×œÁ‹€!3m­Ú@Ë¥¥ÕäŸõ$ŽfAþG“ä”Nön$¸MÖñv õM¸ýåÁQSÝø¢t;õy«)×,.Dø¸¸y	ï&¨4QÉ*OHë€ßMÓ¢Ð4½f{»´š÷Pk¬d2¡;°¹rX³•Ê ZÎ³³ÕðŽZiËLàsÁõ3îÉª}íÔ°NÊÃnìÜ¸Ü09©å‘ç[,Ø÷1ÓŒ+Sªô+™ESñ"¤	åï‹äÕ"±ˆf†DzÆ¼žeäf‘ä.~«W¤WÓª${QG‚ Ú*³ÃVWš¥Ükkƒ£4ÇÕHpC[Ç½W™4gŠJG{>dQ–$díÎãŒŠÁ\×ÊXè÷h¸+¥èÓ †Y›9ä]6hväw
+î{Uu9¦§½‰$É™ä}0~ÌÓRê‘Bnl÷ãæqYcÓê%=†ºš_O§ië¥hù…M¿¶ì˜ŒU³DŸ}¤9mÅAË>áUVVsÏïÍJá·"9Çë¯Ú)Í5éÍäïp¸SU†¬Úœvºº‡¥PƒšU³$šËã=¢ÞqPšúØá·y(-\¹‚>aó<ê$—Ç¢rò°§x-Ó˜9+ä·NÄ•‰½í…¡³I1êU~ljKGs7D?_~)¦Ó%>Ûöšë\ˆéÃüo¤Ûðå†‹¬FéÅ!0.îlì®]9ï]ÕŸÝpŽ‘9Î“­Û¸îŽr`´-U¢i’ÜÚ¿çbÙQ½S<ÉG+»¼ÊOuWMÄPÈ†E`¡ÔàçAéìÕ„Xn6óR$WÉ=êøÌQ$À÷Å*ÈNÔlœídŒò¼ª»ymq+J²±'$0ng<ÎÑV.×´™{ÝªqÈÜ>E¨×<…öW+â@0R;‰Å[´ëË(Ø4—(óqAgâÛ7–#%ò:Œî¾AäqœHÎ	â…i¼EiÀË{2y™TÑKî9_{-a¸KtŒ|2´ÍuÍ>mNs-´.SôÙ%ù°c—ôxPÜ¬[îˆkšÍ´—­7hÌÆc%`…•‡*ÍeÏU·°³·@ºüëÞ¢Q$¿\š!Ä\g¡K¢\é:u£\¡‰¿ù3É`Ø¤¬±©üée#Ø¬¯’åÿ 3ÕfèH@ žƒ¯Jƒuy2‰mŽC°`:¶ÓŽlI8åœCxï’Qš1á¶°šXÖD ‚:†sá¸Ö§Ìû¢µ‹ÛppÎ{’3â{Ûè2)ŸGZT—hü¹õr3älZÎ·‹n°Ä}‘ËÄø“æMXRbÞ*‚­×~]Ñ²ïXÕí4+Qmj‹¨;QyüI=ääšóþ§tú¬â$C,³6RM5¯k¯pìÎÕoô_¦ —¼Ã™,ùí{ý­à6™˜7w”ævNî…aÓxOÒàSvÓã,ä€ø"øÌÕ[YŠÍI&ÜxU‹ˆuÍÙE5—j¤ƒG……ÍåGæìZ„ßÊ»Ž;¨ÿ ÜÚ[@ðÞA¸JÛ»E%%– V<UNHg™Zçú y¨8/ŽìŽcßGø•ôëszxerNC>áŒg'=Ç*Ô'—°Yâ›é°RœÅG•‘{P†{+£4^œ©ûKßï«4MRhtr`ùƒJ²6©Öí\wÐÇ‘êÈ-ZàÓ!N£>óR£µØOÀùò`ÎøëìÓ¢Íß¢Ÿ{z£äyý”Ø1£€§J­µ±òiùUì‹xýßû5ukw=Ã?iÇÝ]1;Áoyþ—ì¯bª*,³[›'@L ÁNI ødÎµE¸iOkOÕ¯F‹U>ªþªØø
+jãA[µÛ,@Ö<þÌýâ…%6bÀ£Ç©aÈXcÚ«±[áPu-‚FT¶¹xUJÛÎW¯«°3áÔW&ôo,yc"ûØâ„i\Æ¥7%dÁ|u²µ5ôqxýÄú£íæ~ ÔÈ½\iÅPQ½\ê1‘„§JÉ'3–ä9“žB¶ûFJ¾ÛÑë>´“ÌtùòQó«Š#âPÎ­á`Ë äTü³Z“ÁrjÓµÌÊR3´œŒÈnåï­–Ï†-mðB¨Ç€Þ~g
+?ÍGD¦=\Ÿ?\ü²>
+(­§Öi5bE™² ÞÜÜèËä1n…”¨éÏÃ{$ŒVI¬ëÓÎÌdÁóév~Ôr:hrüH ·¼/ç9§É›ð“QË	s9á:ÑˆkÆÜ¯$ÜM$Í€I òO +ÐwS&‹go§Ä©Œ/½º¹ø±&Ô}ÛJeÖ«Sð.«xØIž\wž`{Ûÿ ÜÕY“dÎMÖ¯m‰ìÅ†Êµw’ÌÇªeÕÑ°#¸V»¢»©Èüªåp;†H«žèûN°örI>¨¢ÍRù;,Ø!
+˜bÜ›•ç«M*òèúŠEZ´ÿ G“Íí©¯CAe(ñ*¯éãjŸqæÍï 1RÅ²o×÷¨=ÉÏüÛ¨@;»uWjïþAeŽØú<ND`ùýŸÃ4«a™ún=N Ëyò|…*·VÐíÒÐqÄ00€û”št@O²‡â6ó`Ÿ€4©U®…átà³sÔ…÷ÇæqþÚëò(‡´7~ÑÝör_²•*•Û0\/!à:|—¯ÈW=ƒ¿Ñø±ìÇË›ý”©T]M¶ºìZ~“|l3“òÛ]¤IÊ(Ç«ˆå©R©UÈ¡÷ºÅ–{y•Hú9Üßá5O¼ô‹g„æ9“üiR¬“U½®Ä&´º\2F$~å[4½N¿ £€Çºb	?³ý‘øs£·QÂ»æpª>“°U¥J‰¥Ì.+5U#"™¬gSµ>;²µÈˆ™OîÓærÇàµšê|y}u"vm±†Q	@ãÀžlsJ•e}SÝµÓ(ôÈ"±çâ‹Eé*á@R® îG»Õ>IYö‡ø£?zšTª¢wŽ
+#©aw,	Øý%BQËÛn“'
+Y„~Y\òñcU][ŽoïÔ‚çor)ì£[W™ö¥J¼g{¹*GØÐ¯/ÙYØÚÀ¬›• ¾Ó½½g,¤sóòÍYmø›Nsë—,9úÊ®˜E,¼†>t©UÅ[À²‡hôï%Ö±;ªÞ©é& Ä[¯xË0Þíî\…_‹åB›ÒY ìN|ð >ç¥Jªj¤;ÝxiÔíâvž‘ž"y)-ÔÈ„9òÜ­€<¹
+T©W½¦O5'O§<°/ÿÙØA—Eoúô   \Ù]è"      x  eGëîÔ¯íf/ ™
+×¯íf/ Ë  HTTP/1.1 200 content-type:image/jpeg content-length:8936 server:Server date:Tue, 03 Oct 2023 00:25:18 GMT x-amz-ir-id:e5a4a775-b407-4779-af8b-13e67b75cc59 cache-control:max-age=630720000,public last-modified:Wed, 07 Jun 2023 13:52:50 GMT access-control-allow-origin:* timing-allow-origin:https://www.amazon.in, https://www.amazon.com edge-cache-tag:x-cache-283,/images/I/8180wIbWacL expires:Sun, 27 Sep 2043 02:44:42 GMT surrogate-key:x-cache-283 /images/I/8180wIbWacL x-nginx-cache-status:HIT accept-ranges:bytes x-cache:Hit from cloudfront via:1.1 3542174e2d71e2c3dffc0069aa7cbb34.cloudfront.net (CloudFront) x-amz-cf-pop:IAD12-P2 x-amz-cf-id:pXCCDX4jSk6yB5bOQnIp3cfycu6Eq2PkprnhH2bAzoRakKbK1-B7ww== age:1728630        0‚0‚÷ Àôª4ÒŠÞ¡vÓ—¾lË0	*†H†÷ 0D10	UUS10U
+DigiCert Inc10UDigiCert Global CA G20230809000000Z240724235959Z0*1(0&Uimages-na.ssl-images-amazon.com0‚"0	*†H†÷ ‚ 0‚
+‚ ™\Ú+®xëd{o_‡ê_q	JŸ¦jå›ÿ¶\t¥y.L°2S²¢BTœú‹[|Z.IµTT\iáTf’ßZ#(v
+«i¾›©-r¿ÿw èÓjï²Á!úÇ—wý,¡1ý¯;f;÷î˜¢ÐÍŸ^×?—D¿òÑSUÑÌ˜É}ÞÂR×Æ÷5§˜ÀÛG0rƒ°¿"šK{ž€þE^±Ýöwê5¶Q!-¿8Ÿˆ¥Uú)@äþ’5$’QP¨?&Ôú{ø¤|ã_´AÎ™­Ãé
+pù©ëH™Âc†%Ã’YAqXAn´Õ/ÃDóçqÙ¥“'š W.r%Ów`¦WˆP27 £‚0‚0U#0€$n+-Ðj’QQ%iªšG¦‰ç@ 0UÅ=£¹Ëò±Æ
+ìT:¸³%á£0àUØ0Õ‚images-na.ssl-images-amazon.com‚m.media-amazon.com‚images-fe.ssl-images-amazon.com‚images-eu.ssl-images-amazon.com‚ia.media-imdb.com‚f.media-amazon.com‚images.amazon.com‚g-images.amazon.com‚img.amazon.ca0Uÿ 0U%0++0wUp0n05 3 1†/http://crl3.digicert.com/DigiCertGlobalCAG2.crl05 3 1†/http://crl4.digicert.com/DigiCertGlobalCAG2.crl0>U 70503g0)0'+http://www.digicert.com/CPS0t+h0f0$+0†http://ocsp.digicert.com0>+0†2http://cacerts.digicert.com/DigiCertGlobalCAG2.crt0Uÿ0 0‚~
++Öy‚n‚jh v îÍÐdÕÛÎÅ\·´Í¢2‡F|¼ìÞÃQHYFqµ›  ‰Û¸žœ   G0E "˜D½"´Ò b[eÖÎJˆJ‰Ñ²Oƒ‰¸ïVƒ! à’‹œlø¹™ßjSCäA»„WªÜ_«-y!EE v H°ãkÚ¦G4åjú0ëRËVÝ,Ù»¿«9Ø„s  ‰Û¸žÏ   G0E % q»oì1×ÞJvîUô‚@¢€~Ù´Wr+åï! ·]RpÑZ!’v÷õ9ø"JåÚµäL"të‹ v Ú¶¿k?µ¶"Ÿ›Â»\kèp‘ql»Q„…4½¤=0H×û«  ‰Û¸ž   G0E x‚ùì3oýÁ{PjiH¬ªµ-zTKMÉò! Ð™N˜zÆ´°õÝšô5'ö^FãŸ•G>J¡ËZZ‚<R0	*†H†÷ ‚ F04¥H½Ž‘…™9ò¼‹ùèþ’ŠÆ>è„±6øÂP—cÓ7‚%ƒ"@7Z(wÒîjùC½O€Ú¶CJ)¶ƒJàbZ¶Ó›AÜcëÁÞ;4UÔ¿¶7ëw ½~o#ÚÏ£ð°ZðI9uq0¤yøLTzpc´â+!‚?¨ðO*Þ¾›¼»~1Mk¤G7
+¼}‰þãyxj÷ú(ET]ž‹ªodÁ×Ø*9ÓÇøT7,˜ŸÁŒlV.0á”¾S×µËæ"vY0…=PoOl1ûèdL@ßn5[Wòø#Œg}"ÖŠ'q lSYÒÎçÅ"íÐ   0‚‹0‚s ŽàÉj‰ˆâAù¯0	*†H†÷ 0a10	UUS10U
+DigiCert Inc10Uwww.digicert.com1 0UDigiCert Global Root G20130801120000Z280801120000Z

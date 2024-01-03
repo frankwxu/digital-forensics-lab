@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<package-restrictions>
+    <pkg name="com.android.cts.priv.ctsshim" ceDataInode="-4294828947" />
+    <pkg name="com.amazon.knight.calendar" ceDataInode="-4294828943" />
+    <pkg name="com.android.internal.display.cutout.emulation.corner" ceDataInode="-4294828940" />
+    <pkg name="com.android.internal.display.cutout.emulation.double" ceDataInode="-4294828937" />
+    <pkg name="com.android.providers.telephony" ceDataInode="-4294829055" />
+    <pkg name="com.amazon.recess" ceDataInode="-4294828934" />
+    <pkg name="com.amazon.platform.fdrw" ceDataInode="-4294828931" />
+    <pkg name="com.android.providers.calendar" ceDataInode="-4294828928" />
+    <pkg name="com.amazon.whisperplay.contracts" ceDataInode="-4294828925" />
+    <pkg name="com.android.providers.media" ceDataInode="-4294828922" />
+    <pkg name="com.amazon.device.rdmapplication" ceDataInode="-4294828919" />
+    <pkg name="com.amazon.venezia" ceDataInode="-4294828915" />
+    <pkg name="com.amazon.dcp.contracts.library" ceDataInode="-4294828912" />
+    <pkg name="com.android.wallpapercropper" ceDataInode="-4294828909" />
+    <pkg name="com.amazon.zordon" ceDataInode="-4294828906" />
+    <pkg name="com.android.protips" ceDataInode="-4294828902" />
+    <pkg name="com.ivona.orchestrator" ceDataInode="-4294828899" />
+    <pkg name="com.amazon.device.sync" ceDataInode="-4294828896" />
+    <pkg name="amazon.fireos" ceDataInode="-4294829052" />
+    <pkg name="com.amazon.device.smarthome.dshs.multimodalux" ceDataInode="-4294828893" />
+    <pkg name="com.amazon.device.logmanager" ceDataInode="-4294828890" />
+    <pkg name="com.android.documentsui" ceDataInode="-4294828887" />
+    <pkg name="com.android.externalstorage" ceDataInode="-4294828884" />
+    <pkg name="com.android.htmlviewer" ceDataInode="-4294828881" />
+    <pkg name="com.android.companiondevicemanager" ceDataInode="-4294828878" />
+    <pkg name="com.android.quicksearchbox" ceDataInode="-4294828875" />
+    <pkg name="com.amazon.media.session.monitor" ceDataInode="-4294829049" />
+    <pkg name="com.amazon.alta.h2clientservice" ceDataInode="-4294828872" />
+    <pkg name="com.android.providers.downloads" ceDataInode="-4294828869" />
+    <pkg name="com.amazon.alexa.beaconbroadcaster" ceDataInode="-4294828866" />
+    <pkg name="com.amazon.anchordian" ceDataInode="-4294828863" />
+    <pkg name="com.amazon.comms.knightcontacts" ceDataInode="-4294828859" />
+    <pkg name="com.amazon.symphonydeviceclient" ceDataInode="-4294828856" />
+    <pkg name="com.amazon.dp.logger" ceDataInode="-4294828853" />
+    <pkg name="com.android.defcontainer" ceDataInode="-4294829042" />
+    <pkg name="com.android.providers.downloads.ui" ceDataInode="-4294828850" />
+    <pkg name="com.android.pacprocessor" ceDataInode="-4294828847" />
+    <pkg name="com.android.simappdialog" ceDataInode="-4294828843" />
+    <pkg name="com.amazon.sharingservice.android.client.proxy" ceDataInode="-4294828840" />
+    <pkg name="com.amazon.tahoe.alexa.multimodal" ceDataInode="-4294828837" />
+    <pkg name="com.amazon.webview" ceDataInode="-4294828834" />
+    <pkg name="com.amazon.android.marketplace" ceDataInode="-4294828831" />
+    <pkg name="com.android.internal.display.cutout.emulation.tall" ceDataInode="-4294828828" />
+    <pkg name="com.amazon.device.smarthome.dshs.services" ceDataInode="-4294828825" />
+    <pkg name="com.android.certinstaller" ceDataInode="-4294828822" />
+    <pkg name="com.android.carrierconfig" ceDataInode="-4294828819" />
+    <pkg name="android" ceDataInode="-4294829035" />
+    <pkg name="com.android.camera2" ceDataInode="-4294828816" />
+    <pkg name="com.amazon.readynowcore" ceDataInode="-4294828812" />
+    <pkg name="com.amazon.client.metrics.api" ceDataInode="-4294829032" />
+    <pkg name="com.amazon.imp" ceDataInode="-4294828809">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService" />
+            <item name="com.amazon.identity.auth.device.storage.DirtyDataSyncingService" />
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.amazon.mlv" ceDataInode="-4294828806" />
+    <pkg name="com.amazon.comms.knightmessaging" ceDataInode="-4294828803" />
+    <pkg name="com.android.mtp" ceDataInode="-4294828800" />
+    <pkg name="com.android.nfc" ceDataInode="-4294828797" />
+    <pkg name="com.android.launcher3" ceDataInode="-4294828793" />
+    <pkg name="com.android.backupconfirm" ceDataInode="-4294828790" />
+    <pkg name="com.amazon.csm.htmlruntime" ceDataInode="-4294828787" />
+    <pkg name="com.amazon.csapp" ceDataInode="-4294828784" />
+    <pkg name="com.amazon.diode" ceDataInode="-4294828781" />
+    <pkg name="com.amazon.logan" ceDataInode="-4294829029" />
+    <pkg name="com.amazon.swags" ceDataInode="-4294828778" />
+    <pkg name="com.amazon.tcomm" ceDataInode="-4294828774" />
+    <pkg name="com.android.statementservice" ceDataInode="-4294828771" />
+    <pkg name="com.amazon.rtcsessioncontroller" ceDataInode="-4294828768" />
+    <pkg name="com.android.settings.intelligence" ceDataInode="-4294828764" />
+    <pkg name="com.android.calendar" ceDataInode="-4294828761" />
+    <pkg name="com.android.systemui.theme.dark" ceDataInode="-4294828758" />
+    <pkg name="amazon.speech.sim" ceDataInode="-4294828755" />
+    <pkg name="com.amazon.identity.auth.device.authorization" ceDataInode="-4294828751" />
+    <pkg name="com.amazon.wirelessmetrics.service" ceDataInode="-4294828748" />
+    <pkg name="com.android.providers.settings" ceDataInode="-4294829023" />
+    <pkg name="com.amazon.kindleautomatictimezone" ceDataInode="-4294828745" />
+    <pkg name="com.android.sharedstoragebackup" ceDataInode="-4294828742" />
+    <pkg name="com.fireos.arcus.proxy" ceDataInode="-4294829020" />
+    <pkg name="com.android.se" ceDataInode="-4294828739" />
+    <pkg name="com.android.inputdevices" ceDataInode="-4294829014" />
+    <pkg name="com.amazon.securitysyncclient" ceDataInode="-4294828736" />
+    <pkg name="com.android.bips" ceDataInode="-4294828733" />
+    <pkg name="com.amazon.unifiedshare.actionchooser" ceDataInode="-4294828729">
+        <disabled-components>
+            <item name="com.amazon.unifiedshare.actionchooser.receivers.BootCompletedReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.amazon.device.messaging" ceDataInode="-4294828726" />
+    <pkg name="com.amazon.device.metrics" ceDataInode="-4294828723" />
+    <pkg name="com.amazon.device.messaging.sdk.internal.library" ceDataInode="-4294828720" />
+    <pkg name="com.amazon.kindle.otter.oobe" ceDataInode="-4294828717">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+            <item name="com.amazon.kindle.otter.oobe.modules.languagePickerModule.VoicesReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService" />
+            <item name="com.amazon.identity.auth.device.storage.DirtyDataSyncingService" />
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.musicfx" ceDataInode="-4294828714" />
+    <pkg name="android.ext.shared" ceDataInode="-4294829008" />
+    <pkg name="com.android.onetimeinitializer" ceDataInode="-4294828711" />
+    <pkg name="com.amazon.edgecvs" ceDataInode="-4294828708" />
+    <pkg name="com.android.keychain" ceDataInode="-4294828704" />
+    <pkg name="com.android.printservice.recommendation" ceDataInode="-4294828701" />
+    <pkg name="com.amazon.cardinal" ceDataInode="-4294828698" />
+    <pkg name="com.amazon.comms.multimodaltachyonarm" ceDataInode="-4294828694" />
+    <pkg name="android.ext.services" ceDataInode="-4294829002" />
+    <pkg name="com.android.calllogbackup" ceDataInode="-4294828690" />
+    <pkg name="com.android.packageinstaller" ceDataInode="-4294828996" />
+    <pkg name="com.svox.pico" ceDataInode="-4294828993" />
+    <pkg name="com.amazon.tcomm.client" ceDataInode="-4294828687" />
+    <pkg name="com.amazon.selector.clock.resources" ceDataInode="-4294828684" />
+    <pkg name="com.amazon.knight.blink" ceDataInode="-4294828681">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService" />
+            <item name="com.amazon.identity.auth.device.storage.DirtyDataSyncingService" />
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.amazon.client.metrics" ceDataInode="-4294828678" />
+    <pkg name="com.amazon.device.settings.sdk.internal.library" ceDataInode="-4294828989" />
+    <pkg name="com.android.proxyhandler" ceDataInode="-4294828983" />
+    <pkg name="com.amazon.glorialist" ceDataInode="-4294828675" />
+    <pkg name="amazon.jackson19" ceDataInode="-4294828671" />
+    <pkg name="com.amazon.device.smarthome.adapters.echo" ceDataInode="-4294828668" />
+    <pkg name="com.android.managedprovisioning" ceDataInode="-4294828664" />
+    <pkg name="com.amazon.banyan.core" ceDataInode="-4294828661" />
+    <pkg name="com.amazon.device.software.ota" ceDataInode="-4294828658" />
+    <pkg name="com.amazon.d3" ceDataInode="-4294828655" />
+    <pkg name="com.amazon.gloria.smarthome" ceDataInode="-4294828652" />
+    <pkg name="com.amazon.wifilocker" ceDataInode="-4294828648" />
+    <pkg name="com.amazon.dcp.contracts.framework.library" ceDataInode="-4294828645" />
+    <pkg name="com.android.smspush" ceDataInode="-4294828642" />
+    <pkg name="com.amazon.whisperlink.core.android" ceDataInode="-4294828639" />
+    <pkg name="com.amazon.device.messaging.sdk.library" ceDataInode="-4294828636" />
+    <pkg name="com.android.wallpaper.livepicker" ceDataInode="-4294828633" />
+    <pkg name="amazon.speech.davs.davcservice" ceDataInode="-4294828630" />
+    <pkg name="com.android.storagemanager" ceDataInode="-4294828627" />
+    <pkg name="com.android.bookmarkprovider" ceDataInode="-4294828624" />
+    <pkg name="com.android.settings" ceDataInode="-4294828980" />
+    <pkg name="com.amazon.minerva.client.api" ceDataInode="-4294828977" />
+    <pkg name="com.amazon.knight.btavrcp" ceDataInode="-4294828621" />
+    <pkg name="android.amazon.perm" ceDataInode="-4294828974" />
+    <pkg name="com.amazon.paladin" ceDataInode="-4294828618">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+            <item name="com.amazon.paladin.messaging.client.data.HouseholdInboxReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService" />
+            <item name="com.amazon.paladin.config.service.receivers.AnchorRefreshDirectiveReceiver" />
+            <item name="com.amazon.identity.auth.device.storage.DirtyDataSyncingService" />
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.amazon.alexa.webmediaplayer.fireos" ceDataInode="-4294828614" />
+    <pkg name="com.android.cts.ctsshim" ceDataInode="-4294828611" />
+    <pkg name="com.amazon.device.echoaudioservice" ceDataInode="-4294828608" />
+    <pkg name="com.amazon.alexa.timeoutmanagerapp" ceDataInode="-4294828605" />
+    <pkg name="com.amazon.logpullhandler" ceDataInode="-4294828602" />
+    <pkg name="com.amazon.providers.contentsupport" ceDataInode="-4294828599" />
+    <pkg name="com.android.vpndialogs" ceDataInode="-4294828596" />
+    <pkg name="com.amazon.ava.shopping.android" ceDataInode="-4294828593" />
+    <pkg name="com.amazon.device.crashmanager" ceDataInode="-4294828590" />
+    <pkg name="com.amazon.whisperjoin.middleware.np" ceDataInode="-4294828587" />
+    <pkg name="com.amazon.application.compatibility.enforcer" ceDataInode="-4294828584" />
+    <pkg name="com.android.email" ceDataInode="-4294828581" />
+    <pkg name="com.amazon.whisperplay.service.install" ceDataInode="-4294828578" />
+    <pkg name="com.ivona.tts.oem" ceDataInode="-4294828971" />
+    <pkg name="com.android.music" ceDataInode="-4294828575" />
+    <pkg name="com.android.shell" ceDataInode="-4294828964" />
+    <pkg name="com.android.wallpaperbackup" ceDataInode="-4294828572" />
+    <pkg name="com.amazon.knightwebview" ceDataInode="-4294828569" />
+    <pkg name="com.android.providers.userdictionary" ceDataInode="-4294828566" />
+    <pkg name="com.amazon.device.software.ota.override" ceDataInode="-4294828563" />
+    <pkg name="com.amazon.knight.ecs" ceDataInode="-4294828560" />
+    <pkg name="com.amazon.device.smarthome.adapters.ble" ceDataInode="-4294828557" />
+    <pkg name="com.android.location.fused" ceDataInode="-4294828958" />
+    <pkg name="com.android.deskclock" ceDataInode="-4294828554" />
+    <pkg name="com.android.systemui" ceDataInode="-4294828951" />
+    <pkg name="com.android.bluetoothmidiservice" ceDataInode="-4294828551" />
+    <pkg name="com.amazon.assetsync.service" ceDataInode="-4294828548" />
+    <pkg name="com.amazon.aria" ceDataInode="-4294828545" />
+    <pkg name="com.amazon.avod" ceDataInode="-4294828541" />
+    <pkg name="com.amazon.shpm" ceDataInode="-4294828537" />
+    <pkg name="com.amazon.whad" ceDataInode="-4294828534" />
+    <pkg name="com.amazon.communication.discovery" ceDataInode="-4294828530" />
+    <pkg name="com.amazon.alexa.externalmediaplayer.fireos" ceDataInode="-4294828527" />
+    <pkg name="com.android.traceur" ceDataInode="-4294828524" />
+    <pkg name="com.amazon.alarms" ceDataInode="-4294828521">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.device.storage.DatabaseCleaner$DatabaseCleaningService" />
+            <item name="com.amazon.identity.auth.device.storage.DirtyDataSyncingService" />
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.amazon.bishop" ceDataInode="-4294828518" />
+    <pkg name="com.amazon.device.smarthome.ota" ceDataInode="-4294828514" />
+    <pkg name="com.amazon.device.settings" ceDataInode="-4294828511" />
+    <pkg name="com.amazon.device.sync.sdk.internal" ceDataInode="-4294828508" />
+    <pkg name="com.amazon.wifi.sync" ceDataInode="-4294828505" />
+    <pkg name="com.amazon.alexaviz" ceDataInode="-4294828502" />
+    <pkg name="com.android.bluetooth" ceDataInode="-4294828494" />
+    <pkg name="com.android.wallpaperpicker" ceDataInode="-4294828490" />
+    <pkg name="com.android.captiveportallogin" ceDataInode="-4294828487" />
+    <pkg name="com.amazon.webview.chromium" ceDataInode="-4294828484" />
+    <pkg name="com.amazon.bluejay" ceDataInode="-4294828480" />
+    <pkg name="com.amazon.alexa.awaservice" ceDataInode="-4294828477" />
+    <pkg name="com.amazon.device.gadgetscontrolmanager" ceDataInode="-4294820513" />
+    <pkg name="com.amazon.alexa.youtube.app" ceDataInode="-4294820506" />
+    <pkg name="com.amazon.bluestone.keyboard" ceDataInode="-4294820500" />
+    <pkg name="com.amazon.application.compatibility.enforcer.sdk.library" ceDataInode="-4294820493" />
+    <preferred-activities />
+    <persistent-preferred-activities />
+    <crossProfile-intent-filters />
+    <default-apps />
+</package-restrictions>
+                                                                                                                                                                                                                                                                    <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<notification-policy version="1">
+<zen version="8" user="0">
+<allow calls="true" repeatCallers="true" messages="false" reminders="false" events="false" callsFrom="2" messagesFrom="1" alarms="true" media="true" system="false" />
+<disallow visualEffects="511" />
+<automatic ruleId="EVENTS_DEFAULT_RULE" enabled="false" snoozing="false" name="Event" zen="1" component="android/com.android.server.notification.EventConditionProvider" conditionId="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" creationTime="1262304328518" id="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" summary="..." line1="..." line2="..." icon="0" state="0" flags="2" />
+<automatic ruleId="EVERY_NIGHT_DEFAULT_RULE" enabled="false" snoozing="false" name="Sleeping" zen="1" component="android/com.android.server.notification.ScheduleConditionProvider" conditionId="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" creationTime="1262304328518" id="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" summary="..." line1="..." line2="..." icon="0" state="1" flags="2" />
+<state areChannelsBypassingDnd="false" />
+</zen>
+<ranking version="1">
+<package name="com.amazon.edgecvs" show_badge="true" app_user_locked_fields="0" uid="10025">
+<channel id="com.amazon.edgecvs" name="Edge Computer Vision Service" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" fgservice="true" show_badge="true" />
+</package>
+<package name="android" show_badge="true" app_user_locked_fields="0" uid="1000">
+<channel id="DEVICE_ADMIN" name="Device administration" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="NETWORK_ALERTS" name="Network alerts" importance="4" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DEVELOPER" name="Developer messages" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="NETWORK_STATUS" name="Network status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="PHYSICAL_KEYBOARD" name="Physical keyboard" importance="3" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="SYSTEM_CHANGES" name="System changes" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="HEAVY_WEIGHT_APP" name="App running" importance="3" usage="10" content_type="4" flags="0" />
+<channel id="ACCOUNT" name="Account status" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="FOREGROUND_SERVICE" name="Apps consuming battery" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" blockable_system="true" />
+<channel id="DO_NOT_DISTURB" name="Do Not Disturb" importance="2" sound="content://settings/system/notification_sound" usage="5" content_type="4" flags="0" show_badge="true" />
+<channel id="USB" name="USB connection" importance="1" sound="content://settings/system/notification_sound" usa

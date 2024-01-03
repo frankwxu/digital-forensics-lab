@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<usagestats version="1" endTime="18307966">
+    <interactive count="3" time="1698032982258" />
+    <non-interactive count="4" time="1698032377495" />
+    <keyguard-shown count="0" time="0" />
+    <keyguard-hidden count="0" time="0" />
+    <packages>
+        <package lastTimeActive="-1698026223113" package="com.amazon.whisperjoin.middleware" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.alexa.beaconbroadcaster" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="18307919" package="com.amazon.alexa.datastore.app" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.alexa.ms.kinex" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.dshs.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.imp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.android.launcher3" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.tcomm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.NativeAccessorProxyServices" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="amazon.speech.sim" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.android.se" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="android.ext.services" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.knight.blink" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.adapters.echo" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.adapters.mock" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.banyan.core" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="amazon.speech.davs.davcservice" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.knight.btavrcp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="6759580" package="com.amazon.paladin" timeActive="5033673" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.alexa.timeoutmanagerapp" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.theia.sm" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.smarthome.adapters.ble" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.android.systemui" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="3455756" package="com.amazon.aria" timeActive="41083" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.whad" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="910808" package="com.amazon.alarms" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="4090130" package="com.amazon.bishop" timeActive="60304" lastEvent="2" appLaunchCount="1" />
+        <package lastTimeActive="-1698026223113" package="com.android.bluetooth" timeActive="0" lastEvent="0" />
+        <package lastTimeActive="-1698026223113" package="com.amazon.device.gadgetscontrolmanager" timeActive="0" lastEvent="0" />
+    </packages>
+    <configurations>
+        <config lastTimeActive="0" timeActive="0" count="1" active="true" fs="1065353216" locales="en-US" touch="3" key="1" keyHid="1" hardKeyHid="2" nav="1" navHid="2" ori="2" scrLay="268435795" clrMod="5" ui="50" width="961" height="528" sw="600" density="213" />
+    </configurations>
+    <event-log>
+        <event time="0" package="android" flags="0" type="16" />
+        <event time="463" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="189370" package="android" flags="0" type="15" />
+        <event time="189407" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="626880" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="791108" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="910808" package="com.amazon.alarms" flags="0" type="12" />
+        <event time="1796065" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="3414614" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="3414673" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="1" />
+        <event time="3455644" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3455756" package="com.amazon.aria" class="com.amazon.aria.AriaActivity" flags="0" type="2" />
+        <event time="3455774" package="com.amazon.bishop" class="com.amazon.alexamediaplayer.runtime.apl.APLActivity" flags="0" type="1" />
+        <event time="3456267" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3458726" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="3686263" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3690797" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3691984" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="3845718" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="3847546" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="4029826" package="com.amazon.bishop" flags="0" type="12" />
+        <event time="4031193" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="4090130" package="com.amazon.bishop" class="com.amazon.alexamediaplayer.runtime.apl.APLActivity" flags="0" type="2" />
+        <event time="4090180" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="4690853" package="android" flags="0" type="16" />
+        <event time="4691341" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="5416492" package="android" flags="0" type="15" />
+        <event time="5416527" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="6017767" package="android" flags="0" type="16" />
+        <event time="6018210" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="6154382" package="android" flags="0" type="15" />
+        <event time="6154421" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="1" />
+        <event time="6759145" package="android" flags="0" type="16" />
+        <event time="6759580" package="com.amazon.paladin" class="com.amazon.paladin.app.MMLauncherActivity" flags="0" type="2" />
+        <event time="7467738" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="7468622" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="7469071" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="14788636" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="14790203" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="17270150" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+        <event time="18307919" package="com.amazon.alexa.datastore.app" flags="0" type="12" />
+    </event-log>
+</usagestats>
+           <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="locationDeviceSerialNumberUUID">GgbWui23QXjFPnKT8qF3yQ==</string>
+    <string name="nonAnonymousSessionIDKey">993-0371443-7170334</string>
+    <long name="logMetricsLastReadTimestamp" value="1698044789579" />
+    <string name="locationCustomerIDKey">218492813</string>
+    <string name="locationSessionIDKey">804-4303004-5135503</string>
+    <string name="nonAnonymousDeviceSerialNumberUUID">ygRutKR6YG84QJhRRp/4Zw==</string>
+    <string name="anonymousSessionIDKey">837-9576967-5994676</string>
+    <string name="anonymousDeviceSerialNumberUUID">yvYPTloLU0fqlhjV4qAP8w==</string>
+    <string name="anonymousCustomerIDKey">494191948</string>
+    <string name="nonAnonymousCustomerIDKey">522710880</string>
+</map>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="locationDeviceSerialNumberUUID">GgbWui23QXjFPnKT8qF3yQ==</string>
+    <string name="nonAnonymousSessionIDKey">993-0371443-7170334</string>
+    <long name="logMetricsLastReadTimestamp" value="1698045069010" />
+    <string name="locationCustomerIDKey">218492813</string>
+    <string name="locationSessionIDKey">804-4303004-5135503</string>
+    <string name="nonAnonymousDeviceSerialNumberUUID">ygRutKR6YG84QJhRRp/4Zw==</string>
+    <string name="anonymousSessionIDKey">837-9576967-5994676</string>
+    <string name="anonymousDeviceSerialNumberUUID">yvYPTloLU0fqlhjV4qAP8w==</string>
+    <string name="anonymousCustomerIDKey">494191948</string>
+    <string name="nonAnonymousCustomerIDKey">522710880</string>
+</map>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="locationDeviceSerialNumberUUID">GgbWui23QXjFPnKT8qF3yQ==</string>
+    <string name="nonAnonymousSessionIDKey">993-0371443-7170334</string>
+    <long name="logMetricsLastReadTimestamp" value="1698045362078" />
+    <string name="locationCustomerIDKey">218492813</string>
+    <string name="locationSessionIDKey">804-4303004-5135503</string>
+    <string name="nonAnonymousDeviceSerialNumberUUID">ygRutKR6YG84QJhRRp/4Zw==</string>
+    <string name="anonymousSessionIDKey">837-9576967-5994676</string>
+    <string name="anonymousDeviceSerialNumberUUID">yvYPTloLU0fqlhjV4qAP8w==</string>
+    <string name="anonymousCustomerIDKey">494191948</string>
+    <string name="nonAnonymousCustomerIDKey">522710880</string>
+</map>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

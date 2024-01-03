@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="com.amazon.fwp">
+        <string>{application=com.amazon.fwp, namespace=Alexa.Presentation.APL, type=EVENT, target=com.amazon.fwp}</string>
+        <string>{application=com.amazon.fwp, namespace=Alexa.Presentation.APL, type=DEVICE_CONTEXT, target=com.amazon.fwp}</string>
+    </set>
+    <set name="com.amazon.alexa.datastore.app" />
+    <set name="android.uid.system">
+        <string>{application=android.uid.system, namespace=NavigationManager, type=DEVICE_CONTEXT, target=android.uid.system}</string>
+        <string>{application=android.uid.system, namespace=System, type=DEVICE_CONTEXT, target=android.uid.system}</string>
+        <string>{application=android.uid.system, namespace=System, type=EVENT, target=android.uid.system}</string>
+        <string>{application=android.uid.system, namespace=Bluetooth, type=DEVICE_CONTEXT, target=android.uid.system}</string>
+        <string>{application=android.uid.system, namespace=ContentManager, type=DEVICE_CONTEXT, target=android.uid.system}</string>
+        <string>{application=android.uid.system, namespace=EqualizerController, type=DEVICE_CONTEXT, target=android.uid.system}</string>
+        <string>{application=android.uid.system, namespace=Settings, type=EVENT, target=android.uid.system}</string>
+        <string>{application=android.uid.system, namespace=Bluetooth, type=EVENT, target=android.uid.system}</string>
+    </set>
+    <set name="com.amazon.ava.shopping.android">
+        <string>{application=com.amazon.ava.shopping.android, namespace=AvaPhysicalShopping, type=DEVICE_CONTEXT, target=com.amazon.ava.shopping.android}</string>
+    </set>
+    <set name="com.amazon.paladin">
+        <string>{application=com.amazon.paladin, namespace=KnightHome, type=DIRECTIVE, target=com.amazon.paladin.messaging.client.data}</string>
+        <string>{application=com.amazon.paladin, namespace=Text, type=EVENT, target=com.amazon.paladin}</string>
+        <string>{application=com.amazon.paladin, namespace=Photos, type=EVENT, target=com.amazon.paladin}</string>
+        <string>{application=com.amazon.paladin, namespace=DeviceMessaging, type=EVENT, target=com.amazon.paladin}</string>
+    </set>
+    <set name="com.amazon.knight.calendar">
+        <string>{application=com.amazon.knight.calendar, namespace=Calendar, type=DEVICE_CONTEXT, target=com.amazon.knight.calendar}</string>
+    </set>
+    <set name="com.amazon.alexa.ms.kinex">
+        <string>{application=com.amazon.alexa.ms.kinex, namespace=Alexa.NaturalTurnTakingController, type=DEVICE_CONTEXT, target=com.amazon.alexa.ms.kinex}</string>
+    </set>
+    <set name="com.amazon.knight.blink">
+        <string>{application=com.amazon.knight.blink, namespace=NotificationIndicator, type=DIRECTIVE, target=com.amazon.knight.blink.cloudAdapter}</string>
+    </set>
+    <set name="amazon.speech.sim">
+        <string>{application=amazon.speech.sim, namespace=Alexa.ApiGateway, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.Input.GestureRecognizer, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.Camera.LiveViewController, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.Identity.Enrollment.Face, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.Localization, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.Discovery, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.SmartMotion, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.ProactiveStateReporter, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.DataFormat.Time, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.ProactiveStateReporter, type=DIRECTIVE, target=amazon.speech.propertyreporter}</string>
+        <string>{application=amazon.speech.sim, namespace=CSM.Internal, type=DIRECTIVE, target=com.amazon.speechui}</string>
+        <string>{application=amazon.speech.sim, namespace=Alexa.Accessibility.TapToAlexa, type=EVENT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=LocalMediaPlayer, type=DEVICE_CONTEXT, target=amazon.speech.sim}</string>
+        <string>{application=amazon.speech.sim, namespace=AudioPlayer, type=DIRECTIVE, target=amazon.speech.sim}</string>
+    </set>
+    <set name="com.amazon.bishop">
+        <string>{application=com.amazon.bishop, namespace=PlaybackController, type=EVENT, target=com.amazon.bishop}</string>
+        <string>{application=com.amazon.bishop, namespace=CardRenderer, type=DIRECTIVE, target=com.amazon.alexamediaplayer.runtime.broadcastreceiver}</string>
+        <string>{application=com.amazon.bishop, namespace=Spotify, type=EVENT, target=com.amazon.bishop}</string>
+        <string>{application=com.amazon.bishop, namespace=NavigationManager, type=DEVICE_CONTEXT, target=com.amazon.bishop}</string>
+    </set>
+    <set name="com.amazon.glorialist" />
+    <set name="com.amazon.gloria.smarthome">
+        <string>{application=com.amazon.gloria.smarthome, namespace=Multimodal, type=DIRECTIVE, target=com.amazon.multimodal.smarthome.presenters.discovery}</string>
+        <string>{application=com.amazon.gloria.smarthome, namespace=Multimodal, type=DEVICE_CONTEXT, target=com.amazon.gloria.smarthome}</string>
+    </set>
+    <set name="com.android.systemui" />
+    <set name="android.uid.systemui">
+        <string>{application=android.uid.systemui, namespace=Speaker, type=EVENT, target=android.uid.systemui}</string>
+        <string>{application=android.uid.systemui, namespace=Photos, type=EVENT, target=android.uid.systemui}</string>
+        <string>{application=android.uid.systemui, namespace=Speaker, type=DEVICE_CONTEXT, target=android.uid.systemui}</string>
+        <string>{application=android.uid.systemui, namespace=AlexaNotifications, type=EVENT, target=android.uid.systemui}</string>
+        <string>{application=android.uid.systemui, namespace=DeviceMessaging, type=EVENT, target=android.uid.systemui}</string>
+        <string>{application=android.uid.systemui, namespace=ListRenderer, type=EVENT, target=android.uid.systemui}</string>
+    </set>
+    <set name="com.amazon.kindle.otter.oobe">
+        <string>{application=com.amazon.kindle.otter.oobe, namespace=NesoSpeechlet, type=DEVICE_CONTEXT, target=com.amazon.kindle.otter.oobe}</string>
+        <string>{application=com.amazon.kindle.otter.oobe, namespace=DeviceSetup, type=EVENT, target=com.amazon.kindle.otter.oobe}</string>
+        <string>{application=com.amazon.kindle.otter.oobe, namespace=NavigationManager, type=DEVICE_CONTEXT, target=com.amazon.kindle.otter.oobe}</string>
+        <string>{application=com.amazon.kindle.otter.oobe, namespace=Settings, type=EVENT, target=com.amazon.kindle.otter.oobe}</string>
+    </set>
+    <set name="com.amazon.device.smarthome.dshs.services">
+        <string>{application=com.amazon.device.smarthome.dshs.services, namespace=SmartCloud, type=EVENT, target=com.amazon.device.smarthome.dshs.services}</string>
+        <string>{application=com.amazon.device.smarthome.dshs.services, namespace=BLEMesh.Adapter, type=DIRECTIVE, target=com.amazon.device.smarthome.dshs.services.mediators.alexamediator}</string>
+        <string>{application=com.amazon.device.smarthome.dshs.services, namespace=BLEMesh.Adapter, type=EVENT, target=com.amazon.device.smarthome.dshs.services}</string>
+        <string>{application=com.amazon.device.smarthome.dshs.services, namespace=SmartCloud, type=DIRECTIVE, target=com.amazon.device.smarthome.dshs.services.mediators.alexamediator}</string>
+    </set>
+    <set name="com.amazon.knight.ecs">
+        <string>{application=com.amazon.knight.ecs, namespace=Alexa.EventDetectionSensor, type=DIRECTIVE, target=com.amazon.knight.ecs.hdnl.sharedpreferences}</string>
+    </set>
+    <set name="com.amazon.whad">
+        <string>{application=com.amazon.whad, namespace=WholeHomeAudio, type=DIRECTIVE, target=com.amazon.whad.receiver}</string>
+        <string>{application=com.amazon.whad, namespace=WholeHomeAudio, type=EVENT, target=com.amazon.whad}</string>
+    </set>
+    <set name="com.amazon.avod">
+        <string>{application=com.amazon.avod, namespace=NavigationManager, type=DEVICE_CONTEXT, target=com.amazon.avod}</string>
+    </set>
+    <set name="com.amazon.aria" />
+    <set name="com.amazon.alarms">
+        <string>{application=com.amazon.alarms, namespace=NotificationsApp, type=EVENT, target=com.amazon.alarms}</string>
+        <string>{application=com.amazon.alarms, namespace=Notifications, type=EVENT, target=com.amazon.alarms}</string>
+        <string>{application=com.amazon.alarms, namespace=Notifications, type=DIRECTIVE, target=amazon.alexa.alerts.receiver}</string>
+        <string>{application=com.amazon.alarms, namespace=Notifications, type=DEVICE_CONTEXT, target=com.amazon.alarms}</string>
+    </set>
+    <set name="com.amazon.alexa.youtube.app">
+        <string>{application=com.amazon.alexa.youtube.app, namespace=MediaPlayer, type=DIRECTIVE, target=com.amazon.alexa.youtube.app.Receiver}</string>
+    </set>
+    <set name="com.amazon.knightwebview">
+        <string>{application=com.amazon.knightwebview, namespace=NavigationManager, type=DEVICE_CONTEXT, target=com.amazon.knightwebview}</string>
+    </set>
+    <set name="com.amazon.alexa.externalmediaplayer.fireos" />
+    <set name="com.amazon.zordon">
+        <string>{application=com.amazon.zordon, namespace=NavigationManager, type=DEVICE_CONTEXT, target=com.amazon.zordon}</string>
+    </set>
+    <set name="com.amazon.comms.knightcontacts">
+        <string>{application=com.amazon.comms.knightcontacts, namespace=KnightContacts, type=EVENT, target=com.amazon.comms.knightcontacts}</string>
+    </set>
+    <set name="com.amazon.comms.multimodaltachyonarm">
+        <string>{application=com.amazon.comms.multimodaltachyonarm, namespace=SipClient, type=DIRECTIVE, target=com.amazon.comms.devicecalling.receiver}</string>
+        <string>{application=com.amazon.comms.multimodaltachyonarm, namespace=DeviceMessaging, type=DIRECTIVE, target=com.amazon.comms.messaging.app.receiver}</string>
+        <string>{application=com.amazon.comms.multimodaltachyonarm, namespace=SipClient, type=EVENT, target=com.amazon.comms.multimodaltachyonarm}</string>
+    </set>
+    <set name="com.amazon.a4b.mcc" />
+    <set name="com.android.settings">
+        <string>{application=com.android.settings, namespace=RA.Assistants.Alexa.Voice, type=DIRECTIVE, target=com.amazon.scf.uss.directive}</string>
+        <string>{application=com.android.settings, namespace=Alexa.Input.GestureRecognizer, type=DIRECTIVE, target=com.amazon.scf.uss.directive}</string>
+        <string>{application=com.android.settings, namespace=Bluetooth, type=DIRECTIVE, target=com.android.settings.bluetooth}</string>
+    </set>
+    <set name="com.amazon.theia.sm.remoteagent">
+        <string>{application=com.amazon.theia.sm.remoteagent, namespace=Alexa, type=EVENT, target=com.amazon.theia.sm.remoteagent}</string>
+    </set>
+</map>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       7‚ -â       ¡rm§ÐAùu´±Í        ¡rm§Ðˆ•"ìì„SQLite format 3   @                                                                    .°   § §                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         W--ctableandroid_metadataandr7‚ -â       ÒA%Ýi x²Dåâ<ó      ÒA%Ýi x*Ájñ:ø°   ª ª                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ’S ¤WM{"nttConfig":{"version":1,"directnessScoreThreshold":0.91,"lookBackTimeMs":700,"minLookBackTimeMs":500,"lookBackFrames":4,"engagementTimeoutMs":1000,"mouthActivityScoreNormalizeTarget":0.5,"deviceDirectednessScoreNormalizeTarget":0.91,"mouthActivityNormalize":1,"lumThreshold":50,"distanceThreshold":8,"conversationModeTimeoutSec":30},"dataCollectionConfig":{"version":2,"dataCollectionEnabled":false,"maxBufferLength":30,"postSessionTimeSec":3,"nearMissNumPreviousFrames":5,"nearMissEventMaxAgeMin":1,"timeOutMin":15},"mlisConfig":{"version":1,"contentType":"SESSION_METADATA","namespace":"ALEXA_MULTISENSORY_THEIA","resourceId":"ntt_engagement_session.json","uploadType":"MULTISENSORY_DEVICE_UPLOAD","baseUrl":"https://mlis.amazon.com/v1/uploads/","partId":1},"mapConfig":{"version":1,"tokenTimeoutSec":20,"tokenRefreshTimeIfAccountRegisteredMin":30,"tokenRefreshTimeIfAccountNotRegisteredSec":60},"featureEngagementConfig":{"version":1,"telemetryFeatureEnabled":true,"useSimpleMedianEnagementScorer":false,"simpleMedianDirectnessScoreThreshold":0.94,"lookBackTimeMs":900,"minLookBackTimeMs":400,"lookBackFrames":4,"lumThreshold":50,"heartbeatMinMs":500,"maxSessionLengthMs":1800000,"medianDistanceFrameCountMin":2,"medianDistanceThreshold":1.0E-4,"medianDistanceDefault":1,"medianEngagementFrameCountMin":2,"medianEngagementThreshold":0,"medianEngagementDefault":-1,"medianDirectednessFrameCountMin":2,"medianDirectednessThreshold":0,"medianDirectednessDefault":-1,"distanceFtThresholds":["6.0","100.0"],"engagementScoreThresholds":["0.0","0.65","1.0"],"directednessScoreThresholds":["0.0","0.94","1.0"],"confidenceScoreLookupTable":{"0":{"0":["0.00","0.23","0.62"],"1":["0.47","0.23","0.60"],"2":["0.63","0.19","0.69"]},"1":{"0":["0.00","0.21","0.62"],"1":["0.31","0.15","0.54"],"2":["0.50","0.27","0.65"]}},"confidenceLevelThresholds":["0.

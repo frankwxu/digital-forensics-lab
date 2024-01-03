@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:version="2" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="eng">
+ <head>
+  <styling>
+   <style xml:id="AmazonDefaultStyle" tts:fontFamily="monospace" tts:color="white" tts:fontSize="1c"></style>
+  </styling>
+  <layout>
+   <region xml:id="AmazonDefaultRegion" tts:extent="80% 15%" tts:origin="10% 80%" tts:displayAlign="after" tts:textAlign="center"></region>
+  </layout>
+ </head>
+ <body>
+  <div>
+   <p begin="00:00:18.015" end="00:00:24.188" region="AmazonDefaultRegion" style="AmazonDefaultStyle">["Black Bear Pictures Theme"<br />playing]</p>
+   <p begin="00:00:36.198" end="00:00:39.167" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[waves crashing]</p>
+   <p begin="00:00:42.103" end="00:00:45.206" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[music playing]</p>
+   <p begin="00:00:45.340" end="00:00:49.243" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[car engines rumbling]</p>
+   <p begin="00:00:57.717" end="00:01:01.788" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[car accelerates]</p>
+   <p begin="00:01:07.326" end="00:01:10.829" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[somber music plays]</p>
+   <p begin="00:01:11.162" end="00:01:13.531" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[car engine]</p>
+   <p begin="00:01:22.172" end="00:01:24.340" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[key twisting]</p>
+   <p begin="00:01:25.717" end="00:01:28.986" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[somber music plays]</p>
+   <p begin="00:01:31.888" end="00:01:33.357" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Alex exhales]</p>
+   <p begin="00:01:33.691" end="00:01:35.459" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[tires screeching]</p>
+   <p begin="00:01:35.792" end="00:01:38.294" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[loud hip-hop music]</p>
+   <p begin="00:01:39.462" end="00:01:40.896" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[tires screech]</p>
+   <p begin="00:01:42.632" end="00:01:44.366" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[car doors open]</p>
+   <p begin="00:01:48.870" end="00:01:50.505" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door slams shut]</p>
+   <p begin="00:01:51.005" end="00:01:52.407" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[car alarm beeps]</p>
+   <p begin="00:01:53.807" end="00:01:55.909" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[chatter]</p>
+   <p begin="00:01:58.445" end="00:01:59.813" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Good afternoon.</p>
+   <p begin="00:02:00.648" end="00:02:03.816" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I swear you get lovelier every<br />day.</p>
+   <p begin="00:02:04.451" end="00:02:05.518" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Claudia.</p>
+   <p begin="00:02:06.852" end="00:02:08.454" region="AmazonDefaultRegion" style="AmazonDefaultStyle">You're very kind.</p>
+   <p begin="00:02:09.756" end="00:02:11.490" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I... I can't.</p>
+   <p begin="00:02:12.257" end="00:02:13.125" region="AmazonDefaultRegion" style="AmazonDefaultStyle">That's good,</p>
+   <p begin="00:02:13.191" end="00:02:15.126" region="AmazonDefaultRegion" style="AmazonDefaultStyle">because they're not for you.</p>
+   <p begin="00:02:15.193" end="00:02:16.528" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[laughs]</p>
+   <p begin="00:02:18.029" end="00:02:21.031" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[medical announcement]</p>
+   <p begin="00:02:21.466" end="00:02:22.600" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door closes]</p>
+   <p begin="00:02:23.000" end="00:02:26.036" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[elevator doors opening]</p>
+   <p begin="00:02:29.939" end="00:02:33.242" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[heartrate monitor beeping]</p>
+   <p begin="00:02:35.344" end="00:02:37.146" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[respirator sounds]</p>
+   <p begin="00:02:44.052" end="00:02:46.187" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Could we have the room?</p>
+   <p begin="00:02:46.254" end="00:02:48.022" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Of course .</p>
+   <p begin="00:02:50.424" end="00:02:52.092" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[speaking Spanish]</p>
+   <p begin="00:02:54.928" end="00:02:56.296" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[wire unwinds]</p>
+   <p begin="00:02:57.197" end="00:02:59.566" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[gasping]</p>
+   <p begin="00:03:02.468" end="00:03:03.603" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[silence]</p>
+   <p begin="00:03:03.703" end="00:03:06.538" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[beeping intensifies]</p>
+   <p begin="00:03:07.840" end="00:03:11.042" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[dramatic music]</p>
+   <p begin="00:03:11.276" end="00:03:14.045" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[fast beeping]</p>
+   <p begin="00:03:17.615" end="00:03:20.484" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[heavy breathing]</p>
+   <p begin="00:03:20.751" end="00:03:23.587" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[dramatic music intensifies]</p>
+   <p begin="00:03:30.760" end="00:03:33.028" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[texting]</p>
+   <p begin="00:03:40.901" end="00:03:44.038" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[intense music continues]</p>
+   <p begin="00:03:51.444" end="00:03:53.513" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[music pauses]</p>
+   <p begin="00:04:04.556" end="00:04:06.892" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Oh, sh...shit!</p>
+   <p begin="00:04:06.991" end="00:04:09.293" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[thunder]</p>
+   <p begin="00:04:16.533" end="00:04:18.935" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[scribbling]</p>
+   <p begin="00:04:20.169" end="00:04:22.204" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[glasses clinking]</p>
+   <p begin="00:04:27.710" end="00:04:30.145" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[exhales]</p>
+   <p begin="00:04:34.482" end="00:04:36.450" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[distant thunder]</p>
+   <p begin="00:04:39.887" end="00:04:42.155" region="AmazonDefaultRegion" style="AmazonDefaultStyle">You are...nervous?</p>
+   <p begin="00:04:43.957" end="00:04:45.124" region="AmazonDefaultRegion" style="AmazonDefaultStyle">It's OK.</p>
+   <p begin="00:04:45.258" end="00:04:47.861" region="AmazonDefaultRegion" style="AmazonDefaultStyle">When I first saw you, I<br />said to myself,</p>
+   <p begin="00:04:47.928" end="00:04:50.596" region="AmazonDefaultRegion" style="AmazonDefaultStyle">"This is a man that knows<br />what he wants."</p>
+   <p begin="00:04:53.232" end="00:04:55.901" region="AmazonDefaultRegion" style="AmazonDefaultStyle">He's just... afraid.</p>
+   <p begin="00:04:56.001" end="00:04:57.603" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Ah, I'm not afraid, it's just<br />that...</p>
+   <p begin="00:04:57.669" end="00:05:01.673" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I know, I know. It is just<br />the way things are.</p>
+   <p begin="00:05:03.007" end="00:05:06.109" region="AmazonDefaultRegion" style="AmazonDefaultStyle">But a man must pay to get<br />what he wants.</p>
+   <p begin="00:05:06.210" end="00:05:07.277" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Hmm?</p>
+   <p begin="00:05:07.611" end="00:05:10.146" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[clock ticking]</p>
+   <p begin="00:05:10.480" end="00:05:14.751" region="AmazonDefaultRegion" style="AmazonDefaultStyle">That is why...we're all<br />here, yes?</p>
+   <p begin="00:05:18.588" end="00:05:20.489" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[rustling]</p>
+   <p begin="00:05:20.923" end="00:05:23.225" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Yeah.</p>
+   <p begin="00:05:27.995" end="00:05:30.064" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Go talk to her.</p>
+   <p begin="00:05:31.632" end="00:05:33.834" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Come on!</p>
+   <p begin="00:05:34.067" end="00:05:36.570" region="AmazonDefaultRegion" style="AmazonDefaultStyle">She's very sweet.</p>
+   <p begin="00:05:36.837" end="00:05:38.371" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[man] You'll see.</p>
+   <p begin="00:05:42.976" end="00:05:44.176" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[exhales]</p>
+   <p begin="00:05:44.243" end="00:05:47.112" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[distant thunder]</p>
+   <p begin="00:05:48.080" end="00:05:50.482" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[scribbling]</p>
+   <p begin="00:05:51.082" end="00:05:53.384" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[footsteps]</p>
+   <p begin="00:05:59.624" end="00:06:01.091" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Beatriz!</p>
+   <p begin="00:06:02.159" end="00:06:03.727" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Be nice to him.</p>
+   <p begin="00:06:09.632" end="00:06:10.700" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door closing]</p>
+   <p begin="00:06:10.767" end="00:06:11.834" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[speaking Spanish]</p>
+   <p begin="00:06:11.901" end="00:06:13.636" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Hi.</p>
+   <p begin="00:06:16.204" end="00:06:18.540" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Wanna show me what you're<br />drawing?</p>
+   <p begin="00:06:19.040" end="00:06:21.309" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I'd rather not.</p>
+   <p begin="00:06:23.745" end="00:06:25.379" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[scribbling]</p>
+   <p begin="00:06:29.149" end="00:06:31.050" region="AmazonDefaultRegion" style="AmazonDefaultStyle">It's Beatriz, right?</p>
+   <p begin="00:06:33.921" end="00:06:36.055" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Bedroom.</p>
+   <p begin="00:06:42.094" end="00:06:44.496" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door creaks]</p>
+   <p begin="00:06:47.833" end="00:06:51.235" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Ah, listen, why, why<br />don't we just talk first?</p>
+   <p begin="00:06:51.302" end="00:06:52.203" region="AmazonDefaultRegion" style="AmazonDefaultStyle">OK?</p>
+   <p begin="00:06:52.269" end="00:06:54.238" region="AmazonDefaultRegion" style="AmazonDefaultStyle">You don't want to waste<br />time with talking.</p>
+   <p begin="00:06:54.338" end="00:06:55.439" region="AmazonDefaultRegion" style="AmazonDefaultStyle">It's OK.</p>
+   <p begin="00:06:55.973" end="00:06:57.541" region="AmazonDefaultRegion" style="AmazonDefaultStyle">How old are you?</p>
+   <p begin="00:06:57.608" end="00:06:58.942" region="AmazonDefaultRegion" style="AmazonDefaultStyle">How old do you like?</p>
+   <p begin="00:06:59.009" end="00:07:00.377" region="AmazonDefaultRegion" style="AmazonDefaultStyle">No, that's not what I meant.</p>
+   <p begin="00:07:00.443" end="00:07:02.712" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I just want to get to<br />know... you...</p>
+   <p begin="00:07:02.779" end="00:07:03.713" region="AmazonDefaultRegion" style="AmazonDefaultStyle">get to know who you are.</p>
+   <p begin="00:07:03.780" end="00:07:05.448" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-You like thirteen?<br />-Come on, no, please!</p>
+   <p begin="00:07:05.514" end="00:07:07.282" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Twelve?<br />-No.</p>
+   <p begin="00:07:08.083" end="00:07:10.019" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Papá , he has something!</p>
+   <p begin="00:07:10.085" end="00:07:11.687" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Papá! Papá!</p>
+   <p begin="00:07:11.954" end="00:07:12.955" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Shit!</p>
+   <p begin="00:07:13.022" end="00:07:14.188" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door bursts open]</p>
+   <p begin="00:07:14.389" end="00:07:16.424" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz] Papá! Papá!</p>
+   <p begin="00:07:17.025" end="00:07:18.359" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[gunshot]</p>
+   <p begin="00:07:18.526" end="00:07:19.761" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[heavy rain]</p>
+   <p begin="00:07:19.861" end="00:07:20.962" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[grunts]</p>
+   <p begin="00:07:21.128" end="00:07:22.463" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[heavy rain]</p>
+   <p begin="00:07:24.665" end="00:07:25.499" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door opens]</p>
+   <p begin="00:07:25.565" end="00:07:28.635" region="AmazonDefaultRegion" style="AmazonDefaultStyle">FBI! Drop it right now, asshole!<br />Drop it!</p>
+   <p begin="00:07:28.702" end="00:07:30.369" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Calm down.</p>
+   <p begin="00:07:30.436" end="00:07:32.072" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Fuck you!<br />-Fuck you too, pal!</p>
+   <p begin="00:07:32.137" end="00:07:34.106" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-I die, she dies.<br />-Hey, Leon!</p>
+   <p begin="00:07:34.173" end="00:07:35.240" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Listen to me.</p>
+   <p begin="00:07:35.340" end="00:07:38.844" region="AmazonDefaultRegion" style="AmazonDefaultStyle">It's over. If this<br />gets ugly we all lose.</p>
+   <p begin="00:07:38.911" end="00:07:40.712" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Investigator? From Mexico?</p>
+   <p begin="00:07:40.779" end="00:07:42.413" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-Yes.<br />-[Leon] PFM?</p>
+   <p begin="00:07:42.480" end="00:07:43.381" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Calm down.</p>
+   <p begin="00:07:43.448" end="00:07:44.949" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Fuck you, I'm not going back.</p>
+   <p begin="00:07:45.016" end="00:07:46.084" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Put the gun down. Put it down!</p>
+   <p begin="00:07:46.150" end="00:07:47.451" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Nobody said anything about<br />going back.</p>
+   <p begin="00:07:47.518" end="00:07:50.253" region="AmazonDefaultRegion" style="AmazonDefaultStyle">We can talk about all<br />that, when everybody's safe, OK?</p>
+   <p begin="00:07:50.320" end="00:07:52.222" region="AmazonDefaultRegion" style="AmazonDefaultStyle">You've lied! You all lied!</p>
+   <p begin="00:07:52.289" end="00:07:55.191" region="AmazonDefaultRegion" style="AmazonDefaultStyle">You don't want to hurt<br />her, man. She's your daughter.</p>
+   <p begin="00:07:55.258" end="00:07:56.259" region="AmazonDefaultRegion" style="AmazonDefaultStyle">OK? She needs you.</p>
+   <p begin="00:07:56.325" end="00:07:57.861" region="AmazonDefaultRegion" style="AmazonDefaultStyle">You don't know shit.</p>
+   <p begin="00:07:57.927" end="00:07:59.228" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I know you don't want this.</p>
+   <p begin="00:07:59.295" end="00:08:01.397" region="AmazonDefaultRegion" style="AmazonDefaultStyle">None of us wants this, OK?</p>
+   <p begin="00:08:01.463" end="00:08:03.131" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Come on, you're a father.</p>
+   <p begin="00:08:03.198" end="00:08:04.633" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Vincent] Put the gun down.</p>
+   <p begin="00:08:04.967" end="00:08:05.968" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[gun shot]</p>
+   <p begin="00:08:06.035" end="00:08:07.869" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[window shatters]</p>
+   <p begin="00:08:08.036" end="00:08:09.738" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[crashing noise]</p>
+   <p begin="00:08:11.138" end="00:08:12.640" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz] Papá! Papá!</p>
+   <p begin="00:08:12.774" end="00:08:14.709" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz speaking Spanish]</p>
+   <p begin="00:08:14.842" end="00:08:16.443" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Papá!</p>
+   <p begin="00:08:16.811" end="00:08:17.845" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz] Papá!</p>
+   <p begin="00:08:17.912" end="00:08:18.979" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz] Let go of me!</p>
+   <p begin="00:08:19.046" end="00:08:20.080" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Linda] Beatriz no, come on,<br />get back!</p>
+   <p begin="00:08:20.146" end="00:08:21.281" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz] Papá! Papá!</p>
+   <p begin="00:08:21.347" end="00:08:23.216" region="AmazonDefaultRegion" style="AmazonDefaultStyle">-[Linda] Get her back!<br />-[Beatriz] Let go!</p>
+   <p begin="00:08:23.282" end="00:08:24.784" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz] Papá!</p>
+   <p begin="00:08:24.851" end="00:08:26.352" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[Beatriz] Let go!</p>
+   <p begin="00:08:26.920" end="00:08:27.987" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[door closes]</p>
+   <p begin="00:08:28.187" end="00:08:29.922" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[radio chatter]</p>
+   <p begin="00:08:32.024" end="00:08:33.792" region="AmazonDefaultRegion" style="AmazonDefaultStyle">[radio chatter]</p>
+   <p begin="00:08:38.830" end="00:08:40.197" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Papá Leon?</p>
+   <p begin="00:08:41.999" end="00:08:43.267" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Yeah, I...</p>
+   <p begin="00:08:43.333" end="00:08:45.602" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Hold on Serra, I wanna<br />make sure I'm clear on this.</p>
+   <p begin="00:08:45.669" end="00:08:47.938" region="AmazonDefaultRegion" style="AmazonDefaultStyle">The lynchpin, the key<br />to your whole investigation</p>
+   <p begin="00:08:48.005" end="00:08:49.906" region="AmazonDefaultRegion" style="AmazonDefaultStyle">is laying in a meat wagon with<br />his brains smashed in?</p>
+   <p begin="00:08:49.973" end="00:08:52.909" region="AmazonDefaultRegion" style="AmazonDefaultStyle">Vincent saved lives sir.<br />The fucker was going out messy.</p>
+   <p begin="00:08:52.976" end="00:08:54.276" region="AmazonDefaultRegion" style="AmazonDefaultStyle">I don't care, Amistead.</p>
+   <p begin="00:08:54.343" end="00:08:56.612" region="AmazonDefaultRegion" style="AmazonDefaultStyle">What I care about, is<br />an eleven month investigation</p>
+   <p begin="00:08:56.679" end="00:08:58.380" region="AmazonDefaultRegion" style="AmazonDefaultStyle">that has taken considerable<br />resources</p>
+   <p begin="00:08:58.447" end="00:08:59.915" region="AmazonDefaultRegion" style="AmazonDefaultStyle">on both sides of the border,</p>
+   <p begin="00:08:59.982" end="00:09:01.683" region="AmazonDefaultRegion" style="AmazonDefaultStyle

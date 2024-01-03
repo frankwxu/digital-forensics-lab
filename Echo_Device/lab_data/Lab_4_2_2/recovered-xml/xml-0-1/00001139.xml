@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<job-info version="0">
+    <job jobid="1025" package="com.amazon.spotlight" class="com.amazon.spotlight.service.LauncherJob" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1697759727420" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="1800000" flex="1800000" deadline="1697763292196" delay="1697761492196" />
+        <extras />
+    </job>
+    <job jobid="-331393863" package="com.amazon.spotlight" class="com.amazon.spotlight.arcus.ArcusService" sourcePackageName="com.amazon.spotlight" sourceUserId="0" uid="10177" priority="0" flags="0" lastSuccessfulRunTime="1697739927246" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="21600000" flex="21600000" deadline="1697783092197" delay="1697761492197" />
+        <extras />
+    </job>
+    <job jobid="-1587497751" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.modules.DataRefreshJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1697760523645" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="1200000" flex="300000" deadline="1697761492196" delay="1697761192196" />
+        <extras />
+    </job>
+    <job jobid="-848196814" package="com.amazon.alexa.datastore.app" class="com.amazon.alexa.datastore.configuration.ArcusSyncJobService" sourcePackageName="com.amazon.alexa.datastore.app" sourceUserId="0" uid="10167" priority="0" flags="0" lastSuccessfulRunTime="1697757211409" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="4320000" deadline="1697847892197" delay="1697843572197" />
+        <extras />
+    </job>
+    <job jobid="322050388" package="com.amazon.theia.sm.remoteagent" class="com.amazon.theia.sm.remoteagent.arcus.ArcusSyncService" sourcePackageName="com.amazon.theia.sm.remoteagent" sourceUserId="0" uid="10154" priority="0" flags="0" lastSuccessfulRunTime="1697759733264" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1697761533231" delay="1697760633231" />
+        <extras />
+    </job>
+    <job jobid="-1535370665" package="com.amazon.mlv" class="com.amazon.mlvlib.arcus.ArcusSyncService" sourcePackageName="com.amazon.mlv" sourceUserId="0" uid="10072" priority="0" flags="0" lastSuccessfulRunTime="1697760523260" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="900000" flex="900000" deadline="1697761723063" delay="1697760823063" />
+        <extras />
+    </job>
+    <job jobid="0" package="com.amazon.alexa.beaconbroadcaster" class="com.amazon.alexa.beaconbroadcaster.versioning.PeriodicVersionEmitter$VersionEmitterJob" sourcePackageName="com.amazon.alexa.beaconbroadcaster" sourceUserId="0" uid="10057" priority="0" flags="0" lastSuccessfulRunTime="1696279871923" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1697162120346" delay="1697162120346" />
+        <extras />
+    </job>
+    <job jobid="-317380259" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697739927101" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1697783092197" delay="1697761492197" />
+        <extras />
+    </job>
+    <job jobid="-2094627781" package="com.amazon.alarms" class="amazon.alexa.alerts.adau.arcus.ArcusService" sourcePackageName="com.amazon.alarms" sourceUserId="0" uid="10043" priority="0" flags="0" lastSuccessfulRunTime="1697739927115" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="21600000" flex="21600000" deadline="1697783092197" delay="1697761492197" />
+        <extras />
+    </job>
+    <job jobid="-1285906452" package="com.amazon.readynowcore" class="com.amazon.readynowcore.arcus.ArcusSyncService" sourcePackageName="com.amazon.readynowcore" sourceUserId="0" uid="10019" priority="0" flags="0" lastSuccessfulRunTime="1696279872175" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="86400000" deadline="1697162120346" delay="1697162120346" />
+        <extras />
+    </job>
+    <job jobid="1130989070" package="com.amazon.knight.ecs" class="com.amazon.knight.ecs.arcus.ECSArcusSyncService" sourcePackageName="com.amazon.knight.ecs" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697757927450" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="3600000" flex="3600000" deadline="1697765092199" delay="1697761492199" />
+        <extras />
+    </job>
+    <job jobid="911" package="amazon.fireos" class="com.amazon.android.settings.amazondropbox.LogRetentionJobService" sourcePackageName="amazon.fireos" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697675127033" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1697847892199" delay="1697761492199" />
+        <extras />
+    </job>
+    <job jobid="109688" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.featureconfig.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697757212396" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1697847892199" delay="1697843572199" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.featureconfig.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109688" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="108317" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.lockersync.sync/amazon.account/AmazonSyncAccount-6957b355b974dde07bb47bf8cd86218da71f3ce800784526ba4345cda0abf63b" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697757272534" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1697847892199" delay="1697843572199" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.lockersync.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="108317" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">AmazonSyncAccount-6957b355b974dde07bb47bf8cd86218da71f3ce800784526ba4345cda0abf63b</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <string name="packagePlusVersion">com.amazon.venezia-2710</string>
+                <string name="syncIntent">#Intent;action=com.amazon.mas.client.locker.service.lockersync.PERIODIC_LOCKER_SYNC;component=com.amazon.venezia/com.amazon.mas.client.locker.service.lockersync.LockerSyncService;S.lockersync.syncType=PERIODIC_SYNC;S.lockerSync.doNotRetry=UnusedValue;S.lockerSync.sort=purchase_date;end</string>
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="105311" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.uploadMeasurements.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697759804016" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="50400000" flex="2520000" deadline="1697812723630" delay="1697810203630" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.uploadMeasurements.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="50400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="105311" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="2016000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="109532" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.tokenrefresh.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="1728000000" flex="86400000" deadline="1698614400799" delay="1698528000799" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.tokenrefresh.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="1728000000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109532" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="109523" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.syncConfiguration.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697758972471" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="50400000" flex="2520000" deadline="1697811892199" delay="1697809372199" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.syncConfiguration.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="50400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109523" />
+            <int name="owningUid" value="10118" />
+            <long name="flexMillis" value="2016000" />
+            <string name="accountName">AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71</string>
+            <string name="accountType">amazon.account</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="101258" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.amazon.venezia" sourceTag="com.amazon.mas.client.serviceconfig.sync/amazon.account/AmazonSyncAccount-cba1f8294651551b7d9d16bef0970fdd79fca92f414c3338137185f6acf40f71" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1697757272743" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1697847892198" delay="1697843572198" />
+        <extras>
+            <string name="provider">com.amazon.mas.client.serviceconfig.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.amazon.venezia</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId#˚·I#!… Ù˜:åÄm7¬`	√yZM˚}ÈöwX∂Õû)NOîì‘U`~ ZÑ∞∑,Xû[E˛èÙoa‹Ë®õpy“j√*©ÜE+öØ}V?ƒèf9)yÜ∞v◊º“K≥Œ¥Äc2,íüíÚdªí|åèü!@
+∂√&„ºQ”—4l‘6ux£…9-‹TAáÄ´(¸`§É»d+Œ;yiVû *x= ÈÅSC’Uﬁ†œå2Õ
+<çã®Av|NºÛ‘˚^ﬂ“]K∏Ì¬ê◊SS0ûVçÒ¡$vd˜J≤ãÚç£5o¸—≥Ôuè±S’‘R¡[í,∞wî¥âÉŸè„ErãÕªaZ˘`⁄zæ˜ÍmÈ◊˜j$R≠ÚW∫Û\‚<‹Úé⁄»·ˆÆàÈ-Àg]Œ®2OMU":ÕS‡bW=∑ºººL∏≥X+˚ÆÜ=“˚]~…A4Ùâ-MUd…›gõÑ@øëåµ?“Ë–ÌªÓﬁıhûX√üŒ	cpß·èÜæ˙l˝çöZõy”	p‡/.√ú¨[%<Æ±u	ﬁ»<ÑÉ`-];L®;Ú+rìY—õåÑ£`ê´+L≠"À<•i]?'ı÷√˚'È»Xg∑·ƒO‡@.ÏŸ¶s£$1oŒ:™¨èÈ”¥ú¥B4SpûuíIµ’"Ÿ0'Å¢È,–”4î»K¬¥Ï PXH™ {cpJ†aqÀHk5e—ÜH|«h…ˇ ú˝oÖ”üOA;F<‹ì>óÙ“˜&J7{F¿@g|î2#Ω§`1¡òd‘k7A—ª•–´•Aq˝⁄Öí,Æax?8Ëù-JIKYîã3EJÃ¨—§ågbà=¨¬Ö≈Z√÷ @Ó	VëïJ≤û‚¥–=êì4vlY&Í@Û“|N∞7»Îg%¢”æÜ—ë∏`!ÁYtÊ€C∞∫ZQD5ë∆Ó◊!ï»]›.ÿ‰tB›˙d”≠+R#SryÃn@…ñ˝‡üÚ1∫ﬁ¿ÿå©∏æ÷'@
+TÕøï’eÃcë$›úØË∫#÷$è:ƒ=›ëQ{ﬂ€ç}_Dπ¥íI&◊©Å©¶1CÊXæïÈ-∂c‘ÇyÊI[µLÇ3O"¬ÌwëîbŸ5¶>öÏr*I¡π∫∏$?u>I˚7Ù_ñPWt¡gﬁË‹†tåUxügVÜDlπo}hjˆa·"â
+Ö¸IV“∑Úˆ¢?q¢Ää∫‹˝9∞hqŸdñ‰ºYÁøÿÖ‰-¶º–≥?n92çó5|Å¸CV4ª‚”ƒêµ%4∏gí"“±sì\è8ã˚/KKU!
+\ùN]X}ÊÆ2Z`.•K/$+|≠Ä
+@ uúˆ““◊ó™ó5;i›ÿ”øÀ*Å˝Ù¥µ)⁄eR3NΩ“ùo≤ÓQ≈C[OOO:%ñwÇ)a®?ÁwB—πˇ 3o∫xÆ∑Ù›'Y<cwŸ´Ö$©,»‘…KÑ]∏ŸÉÅ#yP!∂8∑œ --gªâá™¢ﬁ:ö∂æójIƒ1œÙ}ƒéHfí≠‰äfëìñU{´≠ 9jV˚∏Ì[}ULõ¥4â<J´πIlı¢≠ö ¿ü≈àÓë´Âô»≠-B'y‰qÌÖyëç˛÷áx¶›*˜)Ê°MΩÜTÜ¶1£∫.lë¨fV/bˆE‰/⁄¸˙l;ª$îÊ¿Ãf( 2l£"»„›√|DC˜<••¨]Z0›-èPVæúÔﬂ>ÀEY:»ybSëás/s≤√ÕB&π\Ç@‚î∫ ÷n‚
+”5JqÆ`L"F23,ÜI¿Ãòîà+¢§ä§∂eî--'È—¬»wd_n‡]!®‘∫I$i‡cË´+∑ykÜöõ¥ù¯j2*¬Ôà”N™&ÕöD<§ û9ÉÑ¶‹ªUOW$Ü(◊∑L¬z…^¢%Gé\Xò⁄3ãò˘PW"--E⁄Hﬁ÷∞èò¥ﬂ7ˆ«≤0NÊºr–HY_QÍ‡®€)D.\EÿR›∑âIeÕQú]H$4}›Í j ˜ `Q∆X»^LÄƒ•èã»[ß%•ÆŒéÑ“Œ»èÌk¶s®ö'…È_˙∞{gXSPÓ_W¡9Ìi{äaBÿ‹3÷S¿6”;∑XÌÙ53EΩ—f-ãdr§ñæññÜä_çÑ…©ŒÜ3BÿüµòˇŸÿAóEo˙Ù   G¨:      ÿ  eGåH∏Ìf/ ˇ*∏Ìf/ Ë  HTTP/1.1 200 content-type:image/jpeg x-amz-ir-id:1973e564-e874-43c3-8bd7-12d64b6a4f7e cache-control:max-age=630720000,public last-modified:Mon, 24 Oct 2022 11:42:12 GMT access-control-allow-origin:* expires:Mon, 31 Aug 2043 09:48:12 GMT x-nginx-cache-status:HIT accept-ranges:bytes date:Mon, 23 Oct 2023 00:38:07 GMT age:1703738 x-served-by:cache-iad-kiad7000164-IAD timing-allow-origin:https://www.amazon.com x-cache:HIT from fastly server-timing:provider;desc="fy" content-length:5690     i  0Çe0ÇM†q«ãªıÀâ`Ë5à_¶0	*ÜHÜ˜ 0D10	UUS10U
+DigiCert Inc10UDigiCert Global CA G20230908000000Z240621235959Z0*1(0&Uimages-na.ssl-images-amazon.com0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ´Î8 bNáŸ≠„6˘2B€†òVä∞8œ«Lü∑ëe+(ÏR ªR#fOÕUArÂ ÅHä÷ùç„¬ûÖTZ˙ÎÀÔ)⁄ƒa¥ÏÓ¢◊Kê¢™c⁄9}>8lw•¬\w©≠Ô@f5eo∫æò¸€~”[ˆ‚?‰mºGb˚/
+‰¨®∑|”ƒ3mñ∫É?)MÕ©˛6‚yˇ‘ˆ¯.È30?il¶uuÌ†EÂµjï‡πmz˛‹àa‹\Ëq’R„„^ˆRñÂƒæ§æ´œåYÇ U)¶j{h’…ÅÑ3œË∞˚«ê&¢©› à}À)t2ëßP≠÷⁄∏ö	Æp} £Çk0Çg0U#0Ä$n+-–jíQQ%i™öG¶âÁ@ 0Uú$π∫?¬_À9—¬ËÂœàêûœ0Ç5UÇ,0Ç(Çecx.images-amazon.comÇf.media-amazon.comÇg-ec2.images-amazon.comÇg-ecx.images-amazon.comÇg-images.amazon.comÇia.media-imdb.comÇimages-eu.ssl-images-amazon.comÇimages-fe.ssl-images-amazon.comÇimages-na.ssl-images-amazon.comÇimages.amazon.comÇm.media-amazon.comÇz-ecx.images-amazon.com0>U 70503gÅ0)0'+http://www.digicert.com/CPS0Uˇ†0U%0++0wUp0n05†3†1Ü/http://crl3.digicert.com/DigiCertGlobalCAG2.crl05†3†1Ü/http://crl4.digicert.com/DigiCertGlobalCAG2.crl0t+h0f0$+0Ühttp://ocsp.digicert.com0>+0Ü2http://cacerts.digicert.com/DigiCertGlobalCAG2.crt0Uˇ0 0Ç~
++÷yÇnÇjh u vˇà?
+∂˚ïQ¬aÃıá∫4¥§Õª)‹hB
+üÊgLZ:t  äv3
+†   F0D F°∆ZÓI[˛VÓey–%`5]ôdŒDêP◊π9À Y;À7ÖıP%Á–´$îZfû≈ö	I˚>˚À}Ô v H∞„k⁄¶
