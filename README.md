@@ -393,10 +393,6 @@ The dataset includes logical files extracted from a DJI controller (mobile devic
 
 [![Star History Chart](https://api.star-history.com/svg?repos=frankwxu/digital-forensics-lab&type=Date)](https://star-history.com/#frankwxu/digital-forensics-lab&Date)
 
-<script async src="//static.getclicky.com/101329461.js"></script>
-
-<img width="1" height="1" src="//in.getclicky.com/101329461ns.gif" />
-
 <a href="https://trackgit.com">
 <img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/ksb44j1gmfoc4ht18prk" alt="trackgit-views" />
 </a>
