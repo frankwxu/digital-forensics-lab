@@ -255,8 +255,8 @@ The case study outlines the use of the chip-off technique to extract evidence fr
 
 **eMMC Images**
 
-- [Echo Show eMMC Image](https://miya.teracloud.jp/share/11d194c7357b5632)
-- [Echo Show Userdata Partition Image](https://miya.teracloud.jp/share/11d1383648f71cf7)
+- [Echo Show eMMC Image](https://miya.teracloud.jp/share/11d1e631cf6f8456)
+- [Echo Show Userdata Partition Image](https://miya.teracloud.jp/share/11d15342aae11912)
 
 **Topics Covered**
 
