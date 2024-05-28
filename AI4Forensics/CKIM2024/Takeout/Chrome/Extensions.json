@@ -1,0 +1,416 @@
+{
+    "Extensions": [
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "ikgjglmlehllifdekcggaapkaplbdpje",
+            "version": "13.931.18.11840",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "TechSmith Snagit (Extension)",
+            "id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "version": "2.1.2.277",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "pdnenlnelpdomajfejgapbdpmjkfpjkp",
+            "version": "4.0.7",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "fidlffpkjchmiflngkkakcmbjmehkdbg",
+            "version": "12.202.10.30607",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "installed_by_custodian": false,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "FatWallet Express",
+            "id": "mogoohcaeegmfbiijjanepaeaimohkmn",
+            "version": "6.4.0.0",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "dpioikmjnfipgphjldakcaocbbpnfabl",
+            "version": "7.1",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "installed_by_custodian": false,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "Free Games Zone",
+            "id": "oppjbdkgpfhhllancffaoaemplhkngoc",
+            "version": "1.8",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "bmnlcjabgnpnenekpadlanbbkooimhnj",
+            "version": "16.5.2",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "olabgcgapnojmfnajlkgkfajpmjepjcc",
+            "version": "1.7.2",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 3,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "becfinhbfclcgokjlobojlnldbfillpf",
+            "version": "4.1.2",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+            "version": "1.56.0",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "kbfnbcaeplbcioakkpcpgfkobkghlhen",
+            "version": "14.1160.0",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
+            "version": "2.0.13",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "goficmpcgcnombioohjcgdhbaloknabb",
+            "version": "8.2.2",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "chhjbpecpncaggjpdakmflnfcopglcmi",
+            "version": "5.39.3",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "FastestFox for Chrome",
+            "id": "mmffncokckfccddfenhkhnllmlobdahm",
+            "version": "8.3.0",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "ldipcbpaocekfooobnbcddclnhejkcpn",
+            "version": "3.3",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "http://clients2.google.com/service/update2/crx",
+            "name": "AutoPager Chrome",
+            "id": "mmgagnmbebdebebbcleklifnobamjonh",
+            "version": "0.8.0.4",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "ghbmnnjooekpmoecnnnilnnbdlolhkhi",
+            "version": "1.62.0",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "dhdgffkkebhmkfjojejmpbldmpobfkfo",
+            "version": "5.0.1",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "http://clients2.google.com/service/update2/crx",
+            "name": "Google Chrome to Phone Extension [DEPRECATED]",
+            "id": "oadboiipflhobonjjffjbfekfjcgkhco",
+            "version": "2.4.1",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "nnnmhgkokpalnmbeighfomegjfkklkle",
+            "version": "2.7.0",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "gbghmolkliahkeekflofoaiofibligjf",
+            "version": "1.0.0",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "Retrogamer",
+            "id": "gjjcikpknngnligmfglfojkhjkdcmdim",
+            "version": "12.20.9.6365",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 3,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "ldfbhjdnnfkhjjfgpodhciohomgdpcgd",
+            "version": "5.0.10.0",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "phidhnmbkbkbkbknhldmpmnacgicphkf",
+            "version": "1.1.28",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "ddlbpiadoechcolndfeaonajmngmhblj",
+            "version": "1.7.6",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "installed_by_custodian": false,
+            "update_url": "http://clients2.google.com/service/update2/crx",
+            "name": "OWA Chrome Companion",
+            "id": "gmloogbeidmnmkdeoibnfcglaenjcmah",
+            "version": "0.1.3.1",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "installed_by_custodian": false,
+            "update_url": "http://clients2.google.com/service/update2/crx",
+            "name": "HP Product Detection Plugin",
+            "id": "aelbknmfcacjffmgnoaaonhgoghlmlkp",
+            "version": "1.0.19.2",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "jgjaeacdkonaoafenlfkkkmbaopkbilf",
+            "version": "4.3.10",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "Pixlr Grabber - Screen capture/image grabbing",
+            "id": "cjjghkapdciaiogkeofggpblmbbnjinn",
+            "version": "1.0.1",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "ponfpcnoihfmfllpaingbgckeeldkhle",
+            "version": "2.0.123",
+            "enabled": false
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "kcnhkahnjcbndmmehfkdnkjomaanaooo",
+            "version": "3.0.11",
+            "enabled": false
+}
+    ],
+    "Extension Settings": [
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "false",
+            "key": "recordAudio"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "false",
+            "key": "undefined"
+},
+        {
+            "extension_id": "pdnenlnelpdomajfejgapbdpmjkfpjkp",
+            "value": "\"4a61364e-1e21-4e9d-bdf7-bbbcb472361d\"",
+            "key": "anonId"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "true",
+            "key": "cameraFound"
+},
+        {
+            "extension_id": "nnnmhgkokpalnmbeighfomegjfkklkle",
+            "value": "\"chicago-author-date\"",
+            "key": "style"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "false",
+            "key": "audioPermissionAllowed"
+},
+        {
+            "extension_id": "ldfbhjdnnfkhjjfgpodhciohomgdpcgd",
+            "value": "\"2015-12-13\"",
+            "key": "offersLastUpdate"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "true",
+            "key": "whatsNew_shouldShowLink"
+},
+        {
+            "extension_id": "pdnenlnelpdomajfejgapbdpmjkfpjkp",
+            "value": "\"2023-06-18T20:55:58.404Z\"",
+            "key": "openAI_expires"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "true",
+            "key": "askedAudioVideoPermission"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "0",
+            "key": "captureCountdown"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "\"0BwPQffeSCDPrMnUwcmVJRlQ4NUk\"",
+            "key": "driveStorageFolderId"
+},
+        {
+            "extension_id": "bmnlcjabgnpnenekpadlanbbkooimhnj",
+            "value": "\"\\\"8933369308910994232\\\"\"",
+            "key": "device:primaryDeviceId"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "true",
+            "key": "extensionInstalled"
+},
+        {
+            "extension_id": "bmnlcjabgnpnenekpadlanbbkooimhnj",
+            "value": "\"\\\"8252483044623406520\\\"\"",
+            "key": "user:userId"
+},
+        {
+            "extension_id": "pdnenlnelpdomajfejgapbdpmjkfpjkp",
+            "value": "\"8e898737-9678-4bcc-9cb5-5e4be20593e8\"",
+            "key": "userIdBrowserSyncStorage"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "false",
+            "key": "audioVideoPermissionAllowed"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "true",
+            "key": "askedAudioPermission"
+},
+        {
+            "extension_id": "pdnenlnelpdomajfejgapbdpmjkfpjkp",
+            "value": "\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJmcmFua3d4dUB5YWhvby5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJ1c2VyX2lkIjoidXNlci1OMHRwcWVmNzY1cEwyVG5QRVZ0azRvbjcifSwiaXNzIjoiaHR0cHM6Ly9hdXRoMC5vcGVuYWkuY29tLyIsInN1YiI6ImF1dGgwfDYzOTAwMzkxNDIxOTVjOTFhNzZmODY5NyIsImF1ZCI6WyJodHRwczovL2FwaS5vcGVuYWkuY29tL3YxIiwiaHR0cHM6Ly9vcGVuYWkub3BlbmFpLmF1dGgwYXBwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2ODMzMjI4NDksImV4cCI6MTY4NDUzMjQ0OSwiYXpwIjoiVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEciLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIG1vZGVsLnJlYWQgbW9kZWwucmVxdWVzdCBvcmdhbml6YXRpb24ucmVhZCBvZmZsaW5lX2FjY2VzcyJ9.ChDaY_A_p5hZOuVhS8lFJz7HDsbWgT1hA97wSxZCOyfoAi3zaAozxI9NPA5_Mftx2YxHOonY0bVE_eRg6hP4m8iifo0uYY4rR5ZtxBl7fnKI6JCjx6XCJko7KGTvf-Hp5TPEvWCQXi_bXbhr0scCXTVUk-yzOGczWayvFIQgDLfwx2D6m5mztdj6RqpH2dj3ro_CuS5m2mJvJUlt52JQAyYr1h7Z-bpBa-khyhsuiqrtFc636L9vJnPCcpg7GBYX_1JGscViG27e6cH-R1dQZKaYpNJKgyZXTJC4OeiPiGuawYkpat123DMSH5-wyFZDC5ALbE9PkJoZOpdlSgHs_A\"",
+            "key": "openAI_accessToken"
+},
+        {
+            "extension_id": "annopcfmbiofommjmcmcfmhklhgbhkce",
+            "value": "false",
+            "key": "showCaptureOnboarding"
+}
+    ]
+}
