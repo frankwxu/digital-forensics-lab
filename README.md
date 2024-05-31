@@ -353,7 +353,7 @@ Our dataset: [a set of email summaries](/AI4Forensics/CKIM2024/HillaryEmails/res
 
 Our results: [Code in Jupyter Notebook](/AI4Forensics/CKIM2024/HillaryEmails/email_analysis_political_insight.ipynb).
 
-Screenshot: <img src="/AI4Forensics/CKIM2024/HillaryEmails/political_insight_2024-05-31_10-29-52.jpg" width="150">
+Screenshot: <img src="/AI4Forensics/CKIM2024/HillaryEmails/political_insight_2024-05-31_10-29-52.jpg">
 
 ---
 
