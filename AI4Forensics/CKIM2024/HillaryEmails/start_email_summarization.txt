@@ -1,0 +1,1 @@
+The first email is from Hillary Clinton's private email server. If the email is not related to Israel or Israeli, don't output anything. 

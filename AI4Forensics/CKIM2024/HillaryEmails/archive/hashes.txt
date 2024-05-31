@@ -1,0 +1,9 @@
+Current git commit:
+b7bbe29f3fb9e6c300824308b3139afa433e96a5
+
+Current ouput md5 hashes:
+MD5 (output/Aliases.csv) = f8a57f482023e54865a5ffb95921c2c7
+MD5 (output/EmailReceivers.csv) = 349e5a27ec2ea974451a3fff1bdd1bc9
+MD5 (output/Emails.csv) = e91226f2d61c72d92d4a0a303b8f7a1c
+MD5 (output/Persons.csv) = e058a8acf53b74630225878270b5393b
+MD5 (output/database.sqlite) = d62448386bc43dde3f8df46936a26713
