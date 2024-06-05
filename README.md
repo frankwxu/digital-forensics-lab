@@ -397,7 +397,8 @@ Here are some political insights based on the leaked email summaries obtained fr
 - PI of the project
   - Dr. Frank Xu (Email: fxu at ubalt dot edu)
 - Students:
-  - Sarfraz Shaikh (Echo Show)
+  - Eric Xu: University of Maryland (LLM for Digital Forensics)
+  - Sarfraz Shaikh: University of Baltimore (Echo Show)
   - Danny Ferreira (iPhone)
   - Harleen Kaur (Partial of Android)
   - Malcolm Hayward (P2P Leakage)
