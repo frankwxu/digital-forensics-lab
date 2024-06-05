@@ -83,7 +83,7 @@ or in BibTeX
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
 - AI for Forensics
   - [Identifying IP Addresses using a Fine-tuned AI Model](/AI4Forensics/IP_Identifier_Fine_Tuning/IP_Identifer_Fine_Tuning.pptx)
-  - [Profiling Suspects Leveraging LLMs (Browser History)](/AI4Forensics/CKIM2024/Takeout/browser_analysis.ipynb)
+  - [Profiling Suspects Leveraging LLMs (Browser History)](/AI4Forensics/CKIM2024/Takeout/browser_analysis.ipynb) [colab](https://colab.research.google.com/drive/1tzRRTr-UmHdjdJ3yh_VCGycMEs4YDwlV)
   - [Political Insight Analysis Leveraging LLMs (Email)](#political-insight-analysis-leveraging-llms)
 
 ## Tool Installation
