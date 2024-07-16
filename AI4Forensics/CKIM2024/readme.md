@@ -62,3 +62,9 @@ Eric Xu, Wenbin Zhang, and Weifeng Xu, "Transforming Digital Forensics with Larg
 Honghe Zhou and Weifeng Xu and Josh Dehlinger and Suranjan Chakraborty and Lin Deng, "An LLM approach to gain cybercrime insights with evidence networks," in <em>Proceedings of the 20th Symposium on Usable Privacy and Security (SOUP 2024), Philadelphia, PA, August 11-13 2024</em>
 
 Daniel Addai and Sarfraz Shaikh and Eric Xu and Wenbin Zhang and Xu, Weifeng, "A graph-based approach for discovering evidence relationships across multiple devices in group crimes," in <em>Proceedings of the 24th IEEE International Conference on Software Quality, Reliability, and Security (QRS2024-Fast Abstract), Cambridge, United Kingdom, July 1-5 2024</em>
+
+---
+
+<a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lyoeafuy6tjs5hhavlly" alt="trackgit-views" />
+</a>
