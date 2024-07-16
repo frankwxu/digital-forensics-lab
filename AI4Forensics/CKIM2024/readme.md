@@ -15,7 +15,7 @@ In the pursuit of justice and accountability in the digital age, the integration
 
 ---
 
-## Speaking
+## Speakers
 
 - Eric Xu, University of Maryland, College Park, Email: exu17288 at terpmail.umd.edu
 - Wenbin Zhang, Ph.D., Assistant Professor in AI, Florida International University, Email: wenbin.zhang at fiu.edu
@@ -35,6 +35,6 @@ In the pursuit of justice and accountability in the digital age, the integration
 
 ---
 
-Please cite our [paper](/papers/compsac2022.pdf):
+Please cite our [paper](/papers/cikm2024.pdf):
 
 Eric Xu, Wenbin Zhang, and Weifeng Xu, "Transforming Digital Forensics with Large Language Models: Unlocking Automation, Insights, and Justice," in <em>Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM), Boise, USA, 2024</em>
