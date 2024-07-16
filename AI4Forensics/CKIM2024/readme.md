@@ -26,9 +26,9 @@ In the pursuit of justice and accountability in the digital age, the integration
 ## Table of Contents
 
 - Introduction
-- Forensics evidence entity recognition
+- Forensic evidence entity recognition
 - Profiling based on browser history
-- Insight analysis based on Email
+- Insights analysis based on Hillary's leaked Emails
 - Evidence knowledge reconstruction
 - Challenges and Limitations of Leveraging LLM in Digital Forensics
 - Conclusion
