@@ -1,0 +1,26 @@
+digraph PhishingIncident {
+    node [shape=box];
+
+    Identity [label="Identity: OurCompany"];
+    EmailAddress [label="Email Address: hr-dept@ourcompany-security.com"];
+    EmailMessage [label="Email Message: Urgent Benefits Package Update"];
+    URL [label="URL: http://phishing-link.com/login"];
+    UserAccount [label="User Account: Taylor"];
+    ObservableEmail [label="Observable: Email Address"];
+    ObservableURL [label="Observable: URL"];
+    Indicator [label="Indicator: Phishing Email Indicator"];
+    Incident [label="Incident: Phishing Attack on OurCompany"];
+    RelationshipIndicates [label="Relationship: indicates"];
+    RelationshipAttributedTo [label="Relationship: attributed-to"];
+    RelationshipUses [label="Relationship: uses"];
+
+    EmailAddress -> EmailMessage [label="from"];
+    EmailMessage -> URL [label="contains link"];
+    URL -> UserAccount [label="requests credentials"];
+    EmailMessage -> ObservableEmail [label="matches"];
+    URL -> ObservableURL [label="matches"];
+    Indicator -> Incident [label="indicates"];
+    Incident -> Identity [label="attributed to"];
+    Incident -> URL [label="uses"];
+    Incident -> UserAccount [label="affected asset"];
+}

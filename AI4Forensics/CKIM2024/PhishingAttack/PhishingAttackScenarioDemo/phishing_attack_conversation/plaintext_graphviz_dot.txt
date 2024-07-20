@@ -1,0 +1,24 @@
+digraph EvidenceGraph {
+    Email [label="support@banksecure.com"];
+    IP [label="192.168.10.45"];
+    Domain1 [label="banksecure.com"];
+    Domain2 [label="banksecure-verification.com"];
+    URL1 [label="http://banksecure-verification.com/login"];
+    URL2 [label="http://banksecure-verification.com/account-details"];
+    Timestamp1 [label="10:15 AM"];
+    Timestamp2 [label="10:17 AM"];
+    Timestamp3 [label="10:20 AM"];
+    File [label="AccountDetails.exe"];
+    Hash [label="e99a18c428cb38d5f260853678922e03"];
+
+    Email -> IP;
+    IP -> Domain1;
+    IP -> Domain2;
+    Domain2 -> URL1;
+    Domain2 -> URL2;
+    URL1 -> Timestamp1;
+    URL2 -> Timestamp2;
+    URL2 -> File;
+    File -> Timestamp3;
+    File -> Hash;
+}

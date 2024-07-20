@@ -1,0 +1,5 @@
+digraph file_not_found {
+  File [label="File" shape="rectangle" color="blue"]
+  NotFound [label="Not Found" shape="ellipse" color="red"]
+  File -> NotFound [label="Indicator"]
+}

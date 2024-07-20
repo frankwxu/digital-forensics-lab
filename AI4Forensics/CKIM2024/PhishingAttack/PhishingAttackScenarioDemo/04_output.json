@@ -1,0 +1,88 @@
+[
+    {
+        "type": "identity",
+        "id": "identity--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f",
+        "name": "OurCompany",
+        "identity_class": "organization",
+        "sectors": [
+            "technology"
+        ],
+        "contact_information": "info@ourcompany.com"
+    },
+    {
+        "type": "email-addr",
+        "id": "email-addr--0c0d2094-df97-45a7-9e9c-223569a9e798",
+        "value": "hr-dept@ourcompany-security.com"
+    },
+    {
+        "type": "email-message",
+        "id": "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97",
+        "is_multipart": false,
+        "subject": "Urgent Benefits Package Update",
+        "from_ref": "email-addr--0c0d2094-df97-45a7-9e9c-223569a9e798",
+        "body": "Please click the link to review the changes to your benefits package."
+    },
+    {
+        "type": "url",
+        "id": "url--4c3b-4c4b-bb6c-ded6b2a4a567",
+        "value": "http://phishing-link.com/login"
+    },
+    {
+        "type": "user-account",
+        "id": "user-account--bd5631cf-2af6-4bba-bc92-37c60d020400",
+        "user_id": "Taylor",
+        "account_login": "taylor@ourcompany.com"
+    },
+    {
+        "type": "observable",
+        "id": "observable--001",
+        "observable_type": "email",
+        "observable_value": "hr-dept@ourcompany-security.com"
+    },
+    {
+        "type": "observable",
+        "id": "observable--002",
+        "observable_type": "url",
+        "observable_value": "http://phishing-link.com/login"
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f",
+        "name": "Phishing Email Indicator",
+        "pattern": "[email-message:subject = 'Urgent Benefits Package Update']",
+        "valid_from": "2024-07-17T00:00:00Z"
+    },
+    {
+        "type": "incident",
+        "id": "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857",
+        "name": "Phishing Attack on OurCompany",
+        "description": "A phishing attack where a suspicious email was sent to an employee of OurCompany.",
+        "first_seen": "2024-07-17T08:00:00Z",
+        "last_seen": "2024-07-17T08:10:00Z",
+        "status": "ongoing",
+        "affected_assets": [
+            "user-account--bd5631cf-2af6-4bba-bc92-37c60d020400"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3f1a8d8b-6a6e-4b5d-8e15-2d6d9a2b3f1d",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f",
+        "target_ref": "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4b6e65f3-743d-40c2-9194-3b5e38b3efed",
+        "relationship_type": "attributed-to",
+        "source_ref": "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857",
+        "target_ref": "identity--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5c9b6eaf-27a6-4b2b-9b17-49e3b00f6051",
+        "relationship_type": "uses",
+        "source_ref": "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857",
+        "target_ref": "url--4c3b-4c4b-bb6c-ded6b2a4a567"
+    }
+]

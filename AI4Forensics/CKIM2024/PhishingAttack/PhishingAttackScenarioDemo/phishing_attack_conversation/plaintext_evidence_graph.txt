@@ -1,0 +1,20 @@
+Entities:
+
+Email Address: support@banksecure.com
+IP Address: 192.168.10.45
+Domain: banksecure.com
+Domain: banksecure-verification.com
+URL: http://banksecure-verification.com/login
+URL: http://banksecure-verification.com/account-details
+File Name: AccountDetails.exe
+Hash: e99a18c428cb38d5f260853678922e03
+Timestamps: 10:15 AM, 10:17 AM, 10:20 AM
+
+Relationships:
+
+Email Address -> IP Address (origin of email)
+IP Address -> Domain (registered to IP address)
+Domain -> URL (composed URLs)
+URL -> Timestamp (visited at specific time)
+URL -> File Name (downloaded file)
+File Name -> Hash (MD5 hash of file)

@@ -1,0 +1,18 @@
+{
+    "Email Sender": "support@banksecure.com",
+    "Email Subject": "Urgent: Verify Your Account Now",
+    "IP Address": "192.168.10.45",
+    "Domain": "banksecure.com",
+    "Domain Registration": "Russia",
+    "URL": "http://banksecure-verification.com/login",
+    "URL Registration Date": "Two days ago",
+    "File Name": "AccountDetails.exe",
+    "File Creation Timestamp": "10:20 AM",
+    "MD5 Hash": "e99a18c428cb38d5f260853678922e03"
+}{
+    "Email Header Analysis": "IP Address -> Domain",
+    "URL Analysis": "URL -> Domain",
+    "Browser History Analysis": "URL -> Timestamp",
+    "File Analysis": "File Name -> Timestamp, File Name -> MD5 Hash",
+    "Malware Analysis": "MD5 Hash -> Malware Database"
+}

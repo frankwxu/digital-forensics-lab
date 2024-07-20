@@ -1,0 +1,75 @@
+{
+  "type": "email-addr",
+  "id": "email-addr--9c7ef4f7-4655-448e-aeb8-97f623b82948",
+  "value": "support@banksecure.com"
+},
+{
+  "type": "ipv4-addr",
+  "id": "ipv4-addr--a539bfe7-1c82-4d3b-9b5e-6cf2c6a2b4cf",
+  "value": "192.168.10.45"
+},
+{
+  "type": "domain-name",
+  "id": "domain-name--b1c2b7f3-4b14-4ae7-8d6f-54d36b07380c",
+  "value": "banksecure.com"
+},
+{
+  "type": "domain-name",
+  "id": "domain-name--5d4ed8d1-2e45-4c6b-a5c9-f45c3131e3e2",
+  "value": "banksecure-verification.com"
+},
+{
+  "type": "url",
+  "id": "url--0cf22d29-b3bb-46a2-b92e-16f92d39b290",
+  "value": "http://banksecure-verification.com/login"
+},
+{
+  "type": "url",
+  "id": "url--bda54241-9bde-4f4e-a447-9fbfd03fbc5f",
+  "value": "http://banksecure-verification.com/account-details"
+},
+{
+  "type": "file",
+  "id": "file--3ac1c982-ff0a-45c3-8127-5d1b2d2fd06c",
+  "name": "AccountDetails.exe",
+  "hashes": {
+    "MD5": "e99a18c428cb38d5f260853678922e03"
+  }
+},
+{
+  "type": "observed-data",
+  "id": "observed-data--1ff3c3a7-424f-4879-a9f3-1f6b7d6c75d4",
+  "first_observed": "2024-07-18T10:15:00Z",
+  "last_observed": "2024-07-18T10:20:00Z",
+  "number_observed": 1,
+  "objects": {
+    "0": {
+      "type": "email-addr",
+      "id": "email-addr--9c7ef4f7-4655-448e-aeb8-97f623b82948"
+    },
+    "1": {
+      "type": "ipv4-addr",
+      "id": "ipv4-addr--a539bfe7-1c82-4d3b-9b5e-6cf2c6a2b4cf"
+    },
+    "2": {
+      "type": "domain-name",
+      "id": "domain-name--b1c2b7f3-4b14-4ae7-8d6f-54d36b07380c"
+    },
+    "3": {
+      "type": "domain-name",
+      "id": "domain-name--5d4ed8d1-2e45-4c6b-a5c9-f45c3131e3e2"
+    },
+    "4": {
+      "type": "url",
+      "id": "url--0cf22d29-b3bb-46a2-b92e-16f92d39b290"
+    },
+    "5": {
+      "type": "url",
+      "id": "url--bda54241-9bde-4f4e-a447-9fbfd03fbc5f"
+    },
+    "6": {
+      "type": "file",
+      "id": "file--3ac1c982-ff0a-45c3-8127-5d1b2d2fd06c"
+    }
+  }
+}

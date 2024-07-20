@@ -1,0 +1,41 @@
+[
+    {
+        "email": {
+            "sender": "support@banksecure.com",
+            "subject": "Urgent: Verify Your Account Now",
+            "headers": {
+                "IP_address": "192.168.10.45",
+                "domain": "banksecure.com",
+                "registered_to": "Russia"
+            },
+            "links_clicked": [
+                {
+                    "URL": "http://banksecure-verification.com/login",
+                    "timestamp": "10:15 AM"
+                },
+                {
+                    "URL": "http://banksecure-verification.com/account-details",
+                    "timestamp": "10:17 AM"
+                }
+            ],
+            "attachments": [
+                {
+                    "file_name": "AccountDetails.exe",
+                    "created_at": "10:20 AM",
+                    "MD5_hash": "e99a18c428cb38d5f260853678922e03",
+                    "status": "known_malware"
+                }
+            ]
+        }
+    },
+    {
+        "actions_taken": [
+            "Clear browser history and cache",
+            "Run full antivirus scan",
+            "Provide browser history entries and cookies",
+            "Quarantine suspicious file",
+            "Check network connections",
+            "Reset passwords and enable two-factor authentication"
+        ]
+    }
+]

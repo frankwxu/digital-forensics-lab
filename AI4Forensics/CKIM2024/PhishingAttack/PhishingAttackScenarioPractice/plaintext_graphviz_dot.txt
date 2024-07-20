@@ -1,0 +1,24 @@
+digraph PhishingIncident {
+    Email [label="Email"];
+    EmailDomain [label="Email Domain"];
+    SuspiciousLink [label="Suspicious Link"];
+    LoginPage [label="Login Page"];
+    Credentials [label="Credentials"];
+    Alert [label="Security Alert"];
+    EmployeeAccount [label="Employee Account"];
+    ForwardedEmail [label="Forwarded Email"];
+    NetworkScan [label="Network Scan"];
+    TeamNotification [label="Team Notification"];
+    ITSecuritySpecialist [label="IT Security Specialist"];
+
+    Email -> EmailDomain [label="from"];
+    Email -> SuspiciousLink [label="contains"];
+    SuspiciousLink -> LoginPage [label="redirects to"];
+    LoginPage -> Credentials [label="requests"];
+    Credentials -> Alert [label="triggered"];
+    Alert -> EmployeeAccount [label="related to"];
+    Email -> ForwardedEmail [label="forwarded by Taylor"];
+    ForwardedEmail -> ITSecuritySpecialist [label="received by"];
+    ITSecuritySpecialist -> NetworkScan [label="initiates"];
+    ITSecuritySpecialist -> TeamNotification [label="sends"];
+}

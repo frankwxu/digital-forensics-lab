@@ -1,0 +1,8 @@
+digraph Phishing_Attack {
+    "OurCompany" -> "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857" [label="attributed-to"];
+    "email-addr--0c0d2094-df97-45a7-9e9c-223569a9e798" -> "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97" [label="from"];
+    "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97" -> "url--4c3b-4c4b-bb6c-ded6b2a4a567" [label="contains"];
+    "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97" -> "observable--001" [label="observable"];
+    "url--4c3b-4c4b-bb6c-ded6b2a4a567" -> "observable--002" [label="observable"];
+    "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857" -> "indicator--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f" [label="indicates"];
+}

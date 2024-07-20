@@ -1,0 +1,23 @@
+Nodes:
+Email (Entity: Email)
+Email Domain (Entity: Domain)
+Suspicious Link (Entity: URL)
+Login Page (Entity: Web Page)
+Credentials (Entity: Username/Password)
+Alert (Entity: Security Alert)
+Employee Account (Entity: Account)
+Forwarded Email (Entity: Email)
+Network Scan (Entity: Network Activity)
+Team Notification (Entity: Communication)
+
+Edges:
+Email -> Email Domain (Relationship: "from")
+Email -> Suspicious Link (Relationship: "contains")
+Suspicious Link -> Login Page (Relationship: "redirects to")
+Login Page -> Credentials (Relationship: "requests")
+Credentials -> Alert (Relationship: "triggered")
+Alert -> Employee Account (Relationship: "related to")
+Email -> Forwarded Email (Relationship: "forwarded by Taylor")
+Forwarded Email -> IT Security Specialist (Relationship: "received by")
+IT Security Specialist -> Network Scan (Relationship: "initiates")
+IT Security Specialist -> Team Notification (Relationship: "sends")
