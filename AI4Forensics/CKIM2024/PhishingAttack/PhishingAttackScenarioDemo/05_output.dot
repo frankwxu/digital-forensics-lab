@@ -1,8 +1,21 @@
-digraph Phishing_Attack {
-    "OurCompany" -> "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857" [label="attributed-to"];
-    "email-addr--0c0d2094-df97-45a7-9e9c-223569a9e798" -> "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97" [label="from"];
-    "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97" -> "url--4c3b-4c4b-bb6c-ded6b2a4a567" [label="contains"];
-    "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97" -> "observable--001" [label="observable"];
-    "url--4c3b-4c4b-bb6c-ded6b2a4a567" -> "observable--002" [label="observable"];
-    "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857" -> "indicator--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f" [label="indicates"];
+digraph phishing_attack {
+    "identity--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f" [label="OurCompany", shape="ellipse"];
+    "email-addr--0c0d2094-df97-45a7-9e9c-223569a9e798" [label="hr-dept@ourcompany-security.com", shape="ellipse"];
+    "email-message--c79b6bde-4f4c-4b38-a8c8-fb82921d6b97" [label="Urgent Benefits Package Update", shape="box"];
+    "url--4c3b-4c4b-bb6c-ded6b2a4a567" [label="http://phishing-link.com/login", shape="ellipse"];
+    "user-account--bd5631cf-2af6-4bba-bc92-37c60d020400" [label="Taylor (taylor@ourcompany.com)", shape="ellipse"];
+    
+    "observable--001" [label="hr-dept@ourcompany-security.com", shape="ellipse"];
+    "observable--002" [label="http://phishing-link.com/login", shape="ellipse"];
+    
+    "indicator--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f" [label="Phishing Email Indicator", shape="diamond"];
+    
+    "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857" [label="Phishing Attack on OurCompany", shape="box"];
+    
+    "relationship--3f1a8d8b-6a6e-4b5d-8e15-2d6d9a2b3f1d" -> "indicator--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f";
+    "relationship--3f1a8d8b-6a6e-4b5d-8e15-2d6d9a2b3f1d" -> "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857";
+    "relationship--4b6e65f3-743d-40c2-9194-3b5e38b3efed" -> "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857";
+    "relationship--4b6e65f3-743d-40c2-9194-3b5e38b3efed" -> "identity--1cba2e3c-4bdb-4d0b-a87b-2d504ad5923f";
+    "relationship--5c9b6eaf-27a6-4b2b-9b17-49e3b00f6051" -> "incident--7a2b252e-c3e5-4bc2-bc6f-cb917ecf7857";
+    "relationship--5c9b6eaf-27a6-4b2b-9b17-49e3b00f6051" -> "url--4c3b-4c4b-bb6c-ded6b2a4a567";
 }

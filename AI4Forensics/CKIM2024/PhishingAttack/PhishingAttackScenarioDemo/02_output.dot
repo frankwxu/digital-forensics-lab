@@ -1,5 +1,17 @@
-digraph file_not_found {
-  File [label="File" shape="rectangle" color="blue"]
-  NotFound [label="Not Found" shape="ellipse" color="red"]
-  File -> NotFound [label="Indicator"]
+digraph phishing_incident {
+    "Email from support@banksecure.com" -> "IP address 192.168.10.45";
+    "Email from support@banksecure.com" -> "Domain banksecure.com";
+    "Domain banksecure.com" -> "Registered to someone in Russia";
+    "URL http://banksecure-verification.com/login" -> "Domain registered two days ago";
+    "URL http://banksecure-verification.com/account-details" -> "Domain registered two days ago";
+    "Browser history entries" -> "Visited at 10:15 AM: http://banksecure-verification.com/login";
+    "Browser history entries" -> "Visited at 10:17 AM: http://banksecure-verification.com/account-details";
+    "Downloaded file AccountDetails.exe" -> "Created at 10:20 AM";
+    "Downloaded file AccountDetails.exe" -> "MD5 hash e99a18c428cb38d5f260853678922e03";
+    "MD5 hash e99a18c428cb38d5f260853678922e03" -> "Matches known malware in database";
+    "IP address 192.168.10.45" -> "Network connections established";
+    "Security measures" -> "Clear browser history and cache";
+    "Security measures" -> "Run full antivirus scan";
+    "Security measures" -> "Reset passwords from different device";
+    "Security measures" -> "Enable two-factor authentication";
 }

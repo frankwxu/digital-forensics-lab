@@ -1,0 +1,19 @@
+digraph phishing_attack {
+    "OurCompany" [label="OurCompany\norganization"]
+    "hr-dept@ourcompany-security.com" [label="hr-dept@ourcompany-security.com\nemail-addr"]
+    "Urgent Benefits Package Update" [label="Urgent Benefits Package Update\nemail-message"]
+    "http://phishing-link.com/login" [label="http://phishing-link.com/login\nurl"]
+    "Taylor" [label="Taylor\nuser-account"]
+    
+    "OurCompany" -> "hr-dept@ourcompany-security.com" [label="email"]
+    "hr-dept@ourcompany-security.com" -> "Urgent Benefits Package Update" [label="email"]
+    "Urgent Benefits Package Update" -> "http://phishing-link.com/login" [label="link"]
+    "Taylor" -> "hr-dept@ourcompany-security.com" [label="login"]
+    
+    "Urgent Benefits Package Update" -> "Phishing Email Indicator" [label="indicator"]
+    "http://phishing-link.com/login" -> "Phishing Email Indicator" [label="indicator"]
+    
+    "Phishing Email Indicator" -> "Phishing Attack on OurCompany" [label="indicates"]
+    "Phishing Attack on OurCompany" -> "OurCompany" [label="attributed-to"]
+    "Phishing Attack on OurCompany" -> "http://phishing-link.com/login" [label="uses"]
+}
