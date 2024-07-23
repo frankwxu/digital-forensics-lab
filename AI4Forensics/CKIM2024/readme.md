@@ -48,7 +48,8 @@ By fostering a collaborative learning environment, this tutorial aims to empower
 
 The cyber incident report documents a conversation between an IT Security Specialist and an Employee about an email phishing attack. We use LLMs to identify evidence entities and relationships and to construct digital forensic knowledge graphs.
 
-Here is an example of a reconstructed digital forensics knowledge graph: <img src="PhishingAttack/PhishingAttackScenarioDemo/05_output_viz.png" width="400">
+Here is an example of a reconstructed digital forensics knowledge graph:
+<img src="PhishingAttack/PhishingAttackScenarioDemo/05_output_viz.png" width="400">
 
 ### Political Insight Analysis Leveraging LLMs
 
