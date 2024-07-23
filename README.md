@@ -82,6 +82,7 @@ or in BibTeX
   - [Email forensics](/STIX_for_digital_forensics/Email_Harassment)
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
 - AI for Forensics
+  - Tutorial session on [CKIM2024](https://cikm2024.org/tutorials/). You can access [hands-on lab](AI4Forensics/CKIM2024/readme.md)
   - [Identifying IP Addresses using a Fine-tuned AI Model](/AI4Forensics/IP_Identifier_Fine_Tuning/IP_Identifer_Fine_Tuning.pptx)
   - [Profiling Suspects Leveraging LLMs (Browser History)](/AI4Forensics/CKIM2024/Takeout/browser_analysis.ipynb) [colab](/AI4Forensics/CKIM2024/Takeout/profile_browser_history_colab.ipynb)
   - [Political Insight Analysis Leveraging LLMs (Email)](#political-insight-analysis-leveraging-llms)

@@ -21,9 +21,9 @@ By fostering a collaborative learning environment, this tutorial aims to empower
 
 ## Speakers
 
-- Eric Xu, University of Maryland, College Park, Email: exu17288 at terpmail.umd.edu
-- Wenbin Zhang, Ph.D., Assistant Professor in AI, Florida International University, Email: wenbin.zhang at fiu.edu
-- Weifeng Xu, Ph.D., Professor in Cyber Forensics, University of Baltimore, Email: wxu at ubalt.edu
+- Eric Xu, University of Maryland, College Park, Email: exu17288 at terpmail.umd dot edu
+- Wenbin Zhang, Ph.D., Assistant Professor in AI, Florida International University, Email: wenbin.zhang at fiu dot edu
+- Weifeng Xu, Ph.D., Professor in Cyber Forensics, University of Baltimore, Email: wxu at ubalt dot edu
 
 ---
 
@@ -51,6 +51,8 @@ The cyber incident report documents a conversation between an IT Security Specia
 Here is an example of a reconstructed digital forensics knowledge graph:
 
 <img src="PhishingAttack/PhishingAttackScenarioDemo/05_output_viz.png" width="400">
+
+---
 
 ### Political Insight Analysis Leveraging LLMs
 
