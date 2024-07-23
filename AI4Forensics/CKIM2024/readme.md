@@ -31,12 +31,12 @@ By fostering a collaborative learning environment, this tutorial aims to empower
 
 - Introduction
 - [Forensic evidence entity recognition (hands-on lab)](#forensic-evidence-analysis)
-  - [Evidence entity recognition](PhishingAttack\PhishingAttackScenarioDemo\01_evidence_entity_recognition.ipynb)
-  - [Visualize evidence and their relations](PhishingAttackScenarioDemo\02_evidence_knowledge_dot_generator.ipynb)
+  - [Evidence entity recognition](PhishingAttack/PhishingAttackScenarioDemo/01_evidence_entity_recognition.ipynb)
+  - [Visualize evidence and their relations](PhishingAttack/PhishingAttackScenarioDemo/02_evidence_knowledge_dot_generator.ipynb)
 - [Evidence knowledge graphs reconstruction (hands-on lab)](#forensic-evidence-analysis)
-  - [Construct a knowledge graph in STIX (zero-shot)](PhishingAttackScenarioDemo\03_evidence_stix_zeroshot.ipynb)
-  - [Construct a knowledge graph in STIX (one-shot)](PhishingAttackScenarioDemo\04_evidence_stix_oneshot.ipynb)
-  - [Compare one-shot vs. zero-shot](PhishingAttackScenarioDemo\05_evidence_stix_dot_generator.ipynb)
+  - [Construct a knowledge graph in STIX (zero-shot)](PhishingAttack/PhishingAttackScenarioDemo/03_evidence_stix_zeroshot.ipynb)
+  - [Construct a knowledge graph in STIX (one-shot)](PhishingAttack/PhishingAttackScenarioDemo/04_evidence_stix_oneshot.ipynb)
+  - [Compare one-shot vs. zero-shot](PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
 - Profiling suspect based on browser history (hands-on lab)
 - [Political insights analysis based on Hillary's leaked Emails (hands-on lab)](#political-insight-analysis-leveraging-llms)
 - Challenges and Limitations of Leveraging LLM in Digital Forensics
@@ -48,7 +48,7 @@ By fostering a collaborative learning environment, this tutorial aims to empower
 
 The cyber incident report documents a conversation between an IT Security Specialist and an Employee about an email phishing attack. We use LLMs to identify evidence entities and relationships and to construct digital forensic knowledge graphs.
 
-Here is an example of a reconstructed digital forensics knowledge graph: <img src="PhishingAttackScenarioDemo\05_output_viz.png">
+Here is an example of a reconstructed digital forensics knowledge graph: <img src="PhishingAttack/PhishingAttackScenarioDemo/05_output_viz.png">
 
 ### Political Insight Analysis Leveraging LLMs
 
@@ -62,7 +62,7 @@ Our dataset: [a set of email summaries](/AI4Forensics/CKIM2024/HillaryEmails/res
 
 Our results: [Code in Jupyter Notebook](/AI4Forensics/CKIM2024/HillaryEmails/email_analysis_political_insight.ipynb).
 
-Here are some political insights based on the leaked email summaries obtained from Hillary Clinton's private email server that are related to Israel: <img src="/AI4Forensics/CKIM2024/HillaryEmails/political_insight_2024-05-31_10-29-52.jpg">
+Here are some political insights based on the leaked email summaries obtained from Hillary Clinton's private email server that are related to Israel: <img src="HillaryEmails/political_insight_2024-05-31_10-29-52.jpg">
 
 ---
 
