@@ -1,3 +1,4 @@
 openai_api_key.txt
 openai_api_key.env
 openai_api_key
+my_config.env

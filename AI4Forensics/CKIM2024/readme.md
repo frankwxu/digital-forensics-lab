@@ -70,7 +70,7 @@ Here are some political insights based on the leaked email summaries obtained fr
 
 ---
 
-Please cite our [paper](/papers/cikm2024.pdf):
+Please cite our [paper](/papers/CIKM2024.pdf):
 
 Eric Xu, Wenbin Zhang, and Weifeng Xu, "Transforming Digital Forensics with Large Language Models: Unlocking Automation, Insights, and Justice," in <em>Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM), Boise, USA, October 21-25, 2024</em>
 
