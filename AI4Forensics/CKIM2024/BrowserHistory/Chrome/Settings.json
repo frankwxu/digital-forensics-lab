@@ -1,0 +1,1536 @@
+{
+    "Apps": [
+        {
+            "app_launch_ordinal": "zxn",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "onlkggianjhjenigcpigpjehhpplldkc",
+                        "version": "13.0.1",
+                        "enabled": true
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "u",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "nhbmpilemgmpbdaniehhmodkkppkelec",
+                        "version": "15",
+                        "enabled": false
+            },
+            "page_ordinal": "t"
+},
+        {
+            "app_launch_ordinal": "t",
+            "extension": {
+                        "incognito_enabled": true,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "update_url": "",
+                        "id": "ahfgeienlihckogmohjhadlkjgocpleb",
+                        "version": "0.2",
+                        "enabled": true
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "w",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "installed_by_custodian": false,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "name": "Unblock Youku",
+                        "id": "hnahlbkbkepobkmmmjfbbefpbpopajnh",
+                        "version": "3.2.4",
+                        "enabled": false
+            },
+            "page_ordinal": "t"
+},
+        {
+            "app_launch_ordinal": "x",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "apboafhkiegglekeafbckfjldecefkhn",
+                        "version": "22.3",
+                        "enabled": false
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "tn",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "update_url": "http://clients2.google.com/service/update2/crx",
+                        "id": "nielaigelomefgdoljcpfgbdbfefhdjc",
+                        "version": "1.1.0.0",
+                        "enabled": false
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "q",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "update_url": "http://clients2.google.com/service/update2/crx",
+                        "name": "PBS Kids PLAY!",
+                        "id": "mhkmpnidbgboeiebfgmoibgjhopampkj",
+                        "version": "1.0.3",
+                        "enabled": false
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "zt",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "fiombgjlkfpdpkbhfioofeeinbehmajg",
+                        "version": "2.0",
+                        "enabled": false
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "zp",
+            "extension": {
+                        "incognito_enabled": true,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "installed_by_custodian": false,
+                        "update_url": "",
+                        "name": "Chrome",
+                        "id": "mgndgikekgjfcpckkfioiadnlibdjbkf",
+                        "version": "0.1",
+                        "enabled": true
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "wn",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "ejnkaeblpdcamcioiiabclakabcbjmbl",
+                        "version": "1.2.2",
+                        "enabled": true
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "n",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "efgciaombdjbpmepfcndmfidlklafhcc",
+                        "version": "4.1",
+                        "enabled": true
+            },
+            "page_ordinal": "t"
+},
+        {
+            "app_launch_ordinal": "x",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "installed_by_custodian": false,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "name": "Unblock Youku",
+                        "id": "dabnoiggkonkjmjjjbioihdlbdfemnde",
+                        "version": "3.2.4",
+                        "enabled": false
+            },
+            "page_ordinal": "t"
+},
+        {
+            "app_launch_ordinal": "zs",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "name": "TechSmith Snagit",
+                        "id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+                        "version": "2.0.3.354",
+                        "enabled": false
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "zv",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "mdafamggmaaaginooondinjgkgcbpnhp",
+                        "version": "2.0",
+                        "enabled": true
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "zzm",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 1,
+                        "update_url": "https://clients2.google.com/service/update2/crx",
+                        "id": "mkaakpdehdafacodkgkpghoibnmamcme",
+                        "version": "1.1",
+                        "enabled": false
+            },
+            "page_ordinal": "n"
+}
+    ],
+    "App Settings": [
+        {"extension_setting": {
+            "extension_id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+            "value": "\"0BwPQffeSCDPrMnUwcmVJRlQ4NUk\"",
+            "key": "driveStorageFolderId"
+}},
+        {"extension_setting": {
+            "extension_id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+            "value": "true",
+            "key": "recordAudio"
+}},
+        {"extension_setting": {
+            "extension_id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+            "value": "true",
+            "key": "showedExtensionLink"
+}},
+        {"extension_setting": {
+            "extension_id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+            "value": "true",
+            "key": "extensionInstalled"
+}},
+        {"extension_setting": {
+            "extension_id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+            "value": "true",
+            "key": "useAnalytics"
+}},
+        {"extension_setting": {
+            "extension_id": "mkaemigholebcgchlkbankmihknojeak",
+            "value": "\"1B2M2Y8AsgTpgAmY7PhCfg==\"",
+            "key": "syncedHashV1"
+}},
+        {"extension_setting": {
+            "extension_id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+            "value": "false",
+            "key": "enableBeta"
+}}
+    ],
+    "Preferences": [
+        {
+            "name": "browser.clear_data.media_licenses",
+            "value": "true"
+},
+        {
+            "name": "settings.a11y.apply_page_colors_only_on_increased_contrast",
+            "value": "true"
+},
+        {
+            "name": "browser.clear_data.form_data",
+            "value": "true"
+},
+        {
+            "name": "translate_whitelists",
+            "value": "{\"ko\":\"en\"}"
+},
+        {
+            "name": "profile.content_settings.exceptions.metro_switch_to_desktop",
+            "value": "{}"
+},
+        {
+            "name": "hats.survey_metadata",
+            "value": "{\"any_last_survey_started_time\":\"13283553534831887\",\"autofill-card\":{\"last_major_version\":96,\"last_survey_check_time\":\"13283553533047251\",\"last_survey_started_time\":\"13283553534831886\"},\"permissions-post-prompt\":{\"last_survey_check_time\":\"13323231409984156\"},\"whats-new\":{\"last_survey_check_time\":\"13353452813519602\"}}"
+},
+        {
+            "name": "sharing.vapid_key",
+            "value": "{\"vapid_creation_timestamp\":\"13212694308800809\",\"vapid_private_key\":\"MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgkj9Rp/Q5vGSqMZg2usg7hlJucNHo3tQD5NKvm7HokkuhRANCAASBNUFUEijGeDsGqlzikMctX8x504pgupmkjY5yJPfxwGh5mB1f7wfpCqOE9F4ZuBY4r3g18c/dbTUFF2/fUzO5\"}"
+},
+        {
+            "name": "net.easter_egg_high_score",
+            "value": "57649"
+},
+        {
+            "name": "settings.a11y.is_default_page_colors_on_high_contrast",
+            "value": "true"
+},
+        {
+            "name": "instant.confirm_dialog_shown",
+            "value": "true"
+},
+        {
+            "name": "safebrowsing.enabled",
+            "value": "false"
+},
+        {
+            "name": "ios.prerender.network_prediction_settings",
+            "value": "2"
+},
+        {
+            "name": "profile.content_settings.pattern_pairs",
+            "value": "{}"
+},
+        {
+            "name": "browser.clear_data.download_history",
+            "value": "true"
+},
+        {
+            "name": "profile.password_manager_enabled",
+            "value": "true"
+},
+        {
+            "name": "profile.content_settings.exceptions.popups",
+            "value": "{\"[*.]angel.gannon.edu,*\":{\"setting\":1},\"[*.]book.getawayasap.com,*\":{\"setting\":1},\"[*.]bookdl.com,*\":{\"setting\":1},\"[*.]careers.ift.org,*\":{\"setting\":1},\"[*.]help.newegg.com,*\":{\"setting\":1},\"[*.]moviesunus.org,*\":{\"setting\":1},\"[*.]www.ibm.com,*\":{\"setting\":1},\"[*.]www.pearsonhighered.com,*\":{\"setting\":1},\"[*.]www.wechat.com,*\":{\"setting\":1},\"[*.]www.wgu.edu,*\":{\"setting\":1},\"http://angel.gannon.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://book.getawayasap.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://bookdl.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://careers.ift.org:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://customprinting.officedepot.com:80,*\":{\"setting\":1},\"http://ecomm.dell.com:80,*\":{\"setting\":1},\"http://help.newegg.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://ieee-trustcom.org:80,*\":{\"last_modified\":\"13233075266400047\",\"setting\":1},\"http://moviesunus.org:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://my.ctrip.com:80,*\":{\"last_modified\":\"13176869785813725\",\"setting\":1},\"http://mycallpilot.ubalt.edu:80,*\":{\"last_modified\":\"13185580394075791\",\"setting\":1},\"http://www.fatwallet.com:80,*\":{\"setting\":1},\"http://www.ibm.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.pearsonhighered.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.ubalt.edu:80,*\":{\"last_modified\":\"13195864132591167\",\"setting\":1},\"http://www.wechat.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.wgu.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://[*.]bsuonline.blackboard.com:443,*\":{\"setting\":1},\"https://[*.]careers.dunkinbrands.com:443,*\":{\"setting\":1},\"https://[*.]checkin.usairways.com:443,*\":{\"setting\":1},\"https://[*.]email.gannon.edu:443,*\":{\"setting\":1},\"https://[*.]gems.fastmail.usf.edu:4440,*\":{\"setting\":1},\"https://[*.]guxpress.gannon.edu:443,*\":{\"setting\":1},\"https://[*.]multifolder.appspot.com:443,*\":{\"setting\":1},\"https://[*.]online.americanexpress.com:443,*\":{\"setting\":1},\"https://[*.]staffps.bowiestate.edu:8082,*\":{\"setting\":1},\"https://[*.]support.skype.com:443,*\":{\"setting\":1},\"https://[*.]www.aa.com:443,*\":{\"setting\":1},\"https://[*.]www.deltadentalins.com:443,*\":{\"setting\":1},\"https://[*.]www.mir-swamp.org:443,*\":{\"setting\":1},\"https://access.usbank.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://account.microsoft.com:443,*\":{\"last_modified\":\"13197178655340828\",\"setting\":1},\"https://apm.activecommunities.com:443,*\":{\"last_modified\":\"13195800188217827\",\"setting\":1},\"https://app.lucidchart.com:443,*\":{\"last_modified\":\"13234996685629371\",\"setting\":1},\"https://bsuonline.blackboard.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://businessexpress.maryland.gov:443,*\":{\"last_modified\":\"13222400794718132\",\"setting\":1},\"https://buyertrade.taobao.com:443,*\":{\"expiration\":\"0\",\"last_modified\":\"13307313123537061\",\"model\":0,\"setting\":1},\"https://careers.dunkinbrands.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://checkin.usairways.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://email.gannon.edu:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://gems.fastmail.usf.edu:4440,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://guxpress.gannon.edu:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://interactive.marylandtaxes.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://interactive.marylandtaxes.gov:443,*\":{\"expiration\":\"0\",\"last_modified\":\"13293502198751039\",\"model\":0,\"setting\":1},\"https://learner.pnl.gov:443,*\":{\"last_modified\":\"13173210856587750\",\"setting\":1},\"https://leidos.taleo.net:443,*\":{\"setting\":1},\"https://mail.google.com:443,*\":{\"last_modified\":\"13194221591111396\",\"setting\":1},\"https://mc.manuscriptcentral.com:443,*\":{\"setting\":1},\"https://multifolder.appspot.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://myub.ubalt.edu:443,*\":{\"last_modified\":\"13179810014999340\",\"setting\":1},\"https://nsf-my.sharepoint.com:443,*\":{\"last_modified\":\"13351730483860145\",\"setting\":1},\"https://online.americanexpress.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://outlook.office.com:443,*\":{\"last_modified\":\"13332291368213270\",\"setting\":1},\"https://staff.bowiestate.edu:443,*\":{\"setting\":1},\"https://staffps.bowiestate.edu:8082,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://support.skype.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://ubalt.zoom.us:443,*\":{\"last_modified\":\"13229619754166184\",\"setting\":1},\"https://ubonline.ubalt.edu:443,*\":{\"last_modified\":\"13228951620324639\",\"setting\":1},\"https://www.aa.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://www.deltadentalins.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://www.hotels.com:443,*\":{\"last_modified\":\"13205382877584116\",\"setting\":1},\"https://www.journals.elsevier.com:443,*\":{\"setting\":1},\"https://www.mir-swamp.org:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://www.springer.com:443,*\":{\"setting\":1},\"https://www.ups.com:443,*\":{\"setting\":1}}"
+},
+        {
+            "name": "ios.ntp.supervised.content_suggestions_enabled",
+            "value": "true"
+},
+        {
+            "name": "media_router.firstrunflow.acknowledged",
+            "value": "true"
+},
+        {
+            "name": "pinned_launcher_apps",
+            "value": "[{\"id\":\"AppShelfIDPlaceholder--------\"},{\"id\":\"blpcfgokakmgnkcojhhkbfbldkacnbeo\"},{\"id\":\"pjkljhegncpnkpknbcohdijeoejaedia\"},{\"id\":\"aohghmighlieiainnegkcijnfilokake\"}]"
+},
+        {
+            "name": "session.urls_to_restore_on_startup",
+            "value": "[\"http://www.google.com/\",\"https://www.google.com/\",\"http://www.dregol.com/?f=7&a=drg_ir_15_16&cd=2XzuyEtN2Y1L1Qzu0EtD0D0ByDyD0EyBzzyB0FyDyCtD0AtCtN0D0Tzu0StCtCzyzytN1L2XzutAtFzytFzztFtBtN1L1CzutCyEtBzytDyD1V1TtN1L1G1B1V1N2Y1L1Qzu2SyD0EtD0E0DyB0CyDtG0DyByByBtGtA0CzyzztG0A0BtDyDtGtD0FyEtC0DyC0BtAtBzytA0B2QtN1M1F1B2Z1V1N2Y1L1Qzu2SzztAtB0EtCzy0E0EtG0D0FyCzztGyEzyyDyBtGzzyB0A0AtGyEzzyE0E0AtD0C0ByCtCzyzy2QtN0A0LzutBtN1B2Z1V1T1S1NzuyBtDtA&cr=630931824&ir=\"]"
+},
+        {
+            "name": "local_discovery.notifications_enabled",
+            "value": "true"
+},
+        {
+            "name": "profile.content_settings.exceptions.images",
+            "value": "{}"
+},
+        {
+            "name": "intl.accept_languages",
+            "value": "\"en-US,en,zh-CN,zh-TW\""
+},
+        {
+            "name": "profile.content_settings.exceptions.local_fonts",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.window_placement",
+            "value": "{\"https://horizon.ubalt.edu:443,*\":{\"last_modified\":\"13339780477527493\",\"last_visit\":\"13354588800000000\",\"setting\":1}}"
+},
+        {
+            "name": "translate_site_blocklist_with_time",
+            "value": "{}"
+},
+        {
+            "name": "hotword.search_enabled",
+            "value": "true"
+},
+        {
+            "name": "settings.language.enabled_extension_imes_syncable",
+            "value": "\"\""
+},
+        {
+            "name": "session.startup_urls",
+            "value": "[\"http://youtube.com/\"]"
+},
+        {
+            "name": "translate_denied_count_for_language",
+            "value": "{\"ar\":1,\"de\":1,\"el\":0,\"en\":1,\"es\":0,\"fr\":0,\"hi\":7,\"id\":0,\"it\":1,\"ja\":10,\"ko\":0,\"no\":2,\"pt\":1,\"ru\":0,\"so\":1,\"sv\":0,\"tr\":0,\"vi\":0,\"zh-CN\":4,\"zh-TW\":1}"
+},
+        {
+            "name": "browser.clear_data.time_period",
+            "value": "1"
+},
+        {
+            "name": "browser.clear_data.browsing_history",
+            "value": "true"
+},
+        {
+            "name": "translate_allowlists",
+            "value": "{\"ko\":\"en\",\"ru\":\"en\"}"
+},
+        {
+            "name": "profile.content_settings.clear_on_exit_migrated",
+            "value": "true"
+},
+        {
+            "name": "profile.content_settings.exceptions.cookies",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.storage_access",
+            "value": "{}"
+},
+        {
+            "name": "synced_notification.initialized_sending_services",
+            "value": "[\"Google+\"]"
+},
+        {
+            "name": "toolbar.pinned_actions",
+            "value": "[\"kActionSidePanelShowSearchCompanion\"]"
+},
+        {
+            "name": "profile.content_settings.exceptions.protocol_handlers",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.push_messaging",
+            "value": "{\"https://johnkasich.com:443,https://johnkasich.com:443\":{\"setting\":1}}"
+},
+        {
+            "name": "browser.clear_data.cache",
+            "value": "true"
+},
+        {
+            "name": "autofill.profile_enabled",
+            "value": "true"
+},
+        {
+            "name": "browser.clear_data.time_period_basic",
+            "value": "4"
+},
+        {
+            "name": "profile.content_settings.exceptions.plugins",
+            "value": "{\"*,*\":{\"per_resource\":{\"adobe-flash-player\":1,\"npsitesafety.dll\":1}},\"[*.]algs4.cs.princeton.edu,*\":{\"setting\":1},\"[*.]cs.smith.edu,*\":{\"setting\":1},\"[*.]docs.oracle.com,*\":{\"setting\":1},\"[*.]gamedev.tutsplus.com,*\":{\"setting\":1},\"[*.]java.com,*\":{\"setting\":1},\"[*.]jung.sourceforge.net,*\":{\"setting\":1},\"[*.]keepvid.com,*\":{\"setting\":1},\"[*.]midisheetmusic.sourceforge.net,*\":{\"setting\":1},\"[*.]ruwix.com,*\":{\"setting\":1},\"[*.]tv.sohu.com,*\":{\"setting\":1},\"[*.]vip.cs.utsa.edu,*\":{\"setting\":1},\"[*.]www.addictinggames.com,*\":{\"setting\":1},\"[*.]www.apl.jhu.edu,*\":{\"setting\":1},\"[*.]www.cs.duke.edu,*\":{\"setting\":1},\"[*.]www.cs.umd.edu,*\":{\"setting\":1},\"[*.]www.google.com,*\":{\"setting\":1},\"[*.]www.jaapsch.net,*\":{\"setting\":1},\"[*.]www.javaworld.com,*\":{\"setting\":1},\"[*.]www.ladamic.com,*\":{\"setting\":1},\"[*.]www.math.hmc.edu,*\":{\"setting\":1},\"[*.]www.math.purdue.edu,*\":{\"setting\":1},\"[*.]www.math.ucla.edu,*\":{\"setting\":1},\"[*.]www.merriam-webster.com,*\":{\"setting\":1},\"[*.]www.percederberg.net,*\":{\"setting\":1},\"[*.]www.qire123.net,*\":{\"setting\":1},\"[*.]www.randelshofer.ch,*\":{\"setting\":1},\"[*.]www.screencast-o-matic.com,*\":{\"setting\":1},\"[*.]www.speedcubing.com,*\":{\"setting\":1},\"[*.]www.touchgraph.net,*\":{\"setting\":1},\"[*.]www.wordle.net,*\":{\"setting\":1},\"http://algs4.cs.princeton.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://cs.smith.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://docs.oracle.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://gamedev.tutsplus.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://java.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://jung.sourceforge.net:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://keepvid.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://midisheetmusic.sourceforge.net:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://ruwix.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://tv.sohu.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://vip.cs.utsa.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.addictinggames.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.apl.jhu.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.cs.duke.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.cs.umd.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.google.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.jaapsch.net:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.javaworld.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.ladamic.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.le.com:80,*\":{\"setting\":1},\"http://www.math.hmc.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.math.purdue.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.math.ucla.edu:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.merriam-webster.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.percederberg.net:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.qire123.net:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.randelshofer.ch:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.screencast-o-matic.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.speedcubing.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.touchgraph.net:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"http://www.wordle.net:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://[*.]cas1.gannon.edu:443,*\":{\"setting\":1},\"https://[*.]mail.google.com:443,*\":{\"setting\":1},\"https://[*.]plus.google.com:443,*\":{\"setting\":1},\"https://[*.]vpn.gannon.edu:443,*\":{\"setting\":1},\"https://cas1.gannon.edu:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://mail.google.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://plus.google.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://vpn.gannon.edu:443,*\":{\"last_modified\":\"0\",\"setting\":1}}"
+},
+        {
+            "name": "media_router.cloudservices.prefset",
+            "value": "true"
+},
+        {
+            "name": "ios.speechinput.voicesearch_locale",
+            "value": "\"\""
+},
+        {
+            "name": "homepage",
+            "value": "\"http://www.hccs.com/\""
+},
+        {
+            "name": "profile.avatar_index",
+            "value": "0"
+},
+        {
+            "name": "profile.content_settings.exceptions.automatic_downloads",
+            "value": "{\"[*.]www.softsea.com,*\":{\"setting\":1},\"http://ec2-34-207-154-191.compute-1.amazonaws.com:80,*\":{\"last_modified\":\"13339183561118432\",\"setting\":2},\"http://www.kupin.net:80,*\":{\"last_modified\":\"13230996744254076\",\"setting\":1},\"http://www.softsea.com:80,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://[*.]mail.google.com:443,*\":{\"setting\":2},\"https://[*.]www.microsoft.com:443,*\":{\"setting\":1},\"https://developer.microsoft.com:443,*\":{\"last_modified\":\"13182443082405097\",\"setting\":1},\"https://docs.google.com:443,*\":{\"setting\":1},\"https://drive.google.com:443,*\":{\"last_modified\":\"13180220224576990\",\"setting\":1},\"https://github.com:443,*\":{\"last_modified\":\"13349716764990776\",\"setting\":1},\"https://mail.google.com:443,*\":{\"last_modified\":\"13214792556169739\",\"setting\":1},\"https://opentoonz.github.io:443,*\":{\"last_modified\":\"13162844634403402\",\"setting\":1},\"https://unsplash.com:443,*\":{\"last_modified\":\"13228622294179713\",\"setting\":1},\"https://www.dropbox.com:443,*\":{\"expiration\":\"0\",\"last_modified\":\"13281372445798096\",\"model\":0,\"setting\":1},\"https://www.icloud.com:443,*\":{\"last_modified\":\"13314286682708353\",\"setting\":1},\"https://www.lg.com:443,*\":{\"expiration\":\"0\",\"last_modified\":\"13252643102689303\",\"model\":0,\"setting\":1},\"https://www.microsoft.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://www.pexels.com:443,*\":{\"last_modified\":\"13228623086316298\",\"setting\":1},\"https://www.youtube.com:443,*\":{\"setting\":1}}"
+},
+        {
+            "name": "autofill.enabled",
+            "value": "true"
+},
+        {
+            "name": "autofill.last_version_deduped",
+            "value": "121"
+},
+        {
+            "name": "profile.content_settings.exceptions.mixed_script",
+            "value": "{}"
+},
+        {
+            "name": "toolbar_icon_surfacing_bubble_acknowledged",
+            "value": "true"
+},
+        {
+            "name": "translate_site_blacklist",
+            "value": "[]"
+},
+        {
+            "name": "shelf_alignment",
+            "value": "\"Right\""
+},
+        {
+            "name": "translate_denied_count",
+            "value": "{\"de\":4,\"es\":0,\"fr\":3,\"it\":3,\"ja\":5,\"ko\":0,\"nl\":1,\"pt\":2,\"ru\":0,\"tl\":0,\"zh-CN\":3,\"zh-TW\":1}"
+},
+        {
+            "name": "translate_accepted_count",
+            "value": "{\"ar\":0,\"de\":0,\"el\":1,\"en\":0,\"es\":1,\"fr\":2,\"hi\":0,\"id\":1,\"it\":0,\"ja\":0,\"ko\":5,\"nl\":0,\"no\":0,\"pt\":0,\"ru\":7,\"so\":0,\"sv\":1,\"tl\":2,\"tr\":2,\"vi\":4,\"zh-CN\":0,\"zh-TW\":0}"
+},
+        {
+            "name": "autofill.credit_card_enabled",
+            "value": "true"
+},
+        {
+            "name": "synced_notification.enabled_sending_services",
+            "value": "[\"Google+\"]"
+},
+        {
+            "name": "profile.content_settings.exceptions.midi_sysex",
+            "value": "{\"https://openload.co:443,http://moviesunusa.net:80\":{\"setting\":2}}"
+},
+        {
+            "name": "profile.content_settings.exceptions.javascript",
+            "value": "{}"
+},
+        {
+            "name": "translate_too_often_denied_for_language",
+            "value": "{\"es\":true,\"hi\":true,\"ja\":true,\"ko\":true,\"pt\":true,\"zh-CN\":true}"
+},
+        {
+            "name": "browser.clear_data.cache_basic",
+            "value": "true"
+},
+        {
+            "name": "session.restore_on_startup",
+            "value": "1"
+},
+        {
+            "name": "download.prompt_for_download_android",
+            "value": "2"
+},
+        {
+            "name": "profile.content_settings.exceptions.flash_data",
+            "value": "{}"
+},
+        {
+            "name": "settings.a11y.page_colors",
+            "value": "0"
+},
+        {
+            "name": "profile.content_settings.plugin_whitelist",
+            "value": "{\"adobe-flash-player\":true,\"java-runtime-environment\":false,\"npsitesafety\":{\"dll\":true}}"
+},
+        {
+            "name": "autofill.last_version_disused_addresses_deleted",
+            "value": "70"
+},
+        {
+            "name": "webkit.webprefs.uses_universal_detector",
+            "value": "true"
+},
+        {
+            "name": "browser.enable_spellchecking",
+            "value": "false"
+},
+        {
+            "name": "profile.content_settings.exceptions.get_display_media_set_select_all_screens",
+            "value": "{}"
+},
+        {
+            "name": "browser.clear_data.browsing_history_basic",
+            "value": "true"
+},
+        {
+            "name": "profile.content_settings.exceptions.anti_abuse",
+            "value": "{}"
+},
+        {
+            "name": "browser.clear_data.cookies",
+            "value": "true"
+},
+        {
+            "name": "browser.clear_data.cookies_basic",
+            "value": "true"
+},
+        {
+            "name": "download.prompt_for_download",
+            "value": "true"
+},
+        {
+            "name": "NewTabPage.DisabledModules",
+            "value": "[\"recipe_tasks\"]"
+},
+        {
+            "name": "sharing.synced_devices",
+            "value": "{\"08ulZ5BXPA5SYfryz1N4hQ==\":{\"device_auth_secret\":\"ivom6STNaRExXzfgJc6mrA==\",\"device_capabilities\":3,\"device_fcm_token\":\"crJesvn4TxM:APA91bHqOOE0RhIP2v6cB-YNQC_9V-2lxQufTLJ9ArAupGCSHOo6Uemoje2VB4ff8H4dm79srVSuGxdBFLKz0esznslKZgcwNhEXMtHqcEXquJinKsT8KxY-SSBiPA-mbS5_tsft375u\",\"device_p256dh\":\"BACJPDWgltvbvApfk5fke2DiXiGyDmHt6QEHnHvToHGfG4viLwIHC73gYeBHYgQEDI0NBpXF14oKbLzFG3bjytM=\"},\"3vma/k9FNRKKu8rafReFkw==\":{\"device_auth_secret\":\"JeUt4jIk9KePugtOESWNJA==\",\"device_capabilities\":2,\"device_fcm_token\":\"eodi1BwpMNc:APA91bERNowlMmFyJPthnm7nWL6xCCArUNXcUJ1hz_RPzOX745BsuCCqPkqHTUBuFl7NDjTVfQwG_pJtRyNE4aSiuApF_0b7F4PbBKb8PqR6_w3dpKDfYplwJrsZLfEMj5lyOi5lAFkS\",\"device_p256dh\":\"BOHJOiKaK160s5HMgUXAhVstatMCYM6pCoH63ZmgrA9yN5VjE/xqOeuedUBbISw12YrirI0e4eykd7Colqqm6NE=\"},\"Kdf7WYqox1EK3+qBlCTVkA==\":{\"device_auth_secret\":\"vi3J+77gZ4VSy1QIu2JEKw==\",\"device_capabilities\":3,\"device_fcm_token\":\"fe3bbgDM0bc:APA91bFnV1CFAOT3dLC6annqPGuTha2a3XD9WzbyzDG6aoBadlVAtKBnjLR6TPGfpm874htA37kL1vezZ7sHx2ItJ7EUCAHjOfZQJqD2qDW7TvZJJw-kQfWTbhhcIG8Zl7mZ0p9Z4Xwk\",\"device_p256dh\":\"BL4jII24yu8cFyeAh/Z/3r4SB6W82+rjR0jKmHWyMgYo/Xle0lLti9q28F0wQrypVXh2pRZGyAa9HzfTKFjVKaU=\"},\"LorWCGSl0BqpO6zqg53UeA==\":{\"device_auth_secret\":\"xpoWLJ8Eos96zGgG4F2Nag==\",\"device_capabilities\":2,\"device_fcm_token\":\"ew2__rJPUJA:APA91bEtTLWi7INVERzPPx8_U0oOVy8dRIXdiUooP_DlnA6iaCbYV5eu7Qom8-v9bgw-O7LIfogHmBfDBB5WeSF-K-0_OffAPWm1lvJFUkb1Vr88tBjL7t-3EndbFG7VoqjmBjch3pos\",\"device_p256dh\":\"BE2wuj+CHvGUy+4E5671OkiadUjp3cenmrT+cTsp3P5Vs5wne4sDp7Lhr1ZPENW1V9THwnNjNNz+JWzqfM6YC8M=\"},\"RPo5GpSEhva5qDs1Iukxxw==\":{\"device_auth_secret\":\"UsFEK1EzeF1KM4Qs0gMckg==\",\"device_capabilities\":2,\"device_fcm_token\":\"edTfphHr8dE:APA91bHyv_ViM8CU4y-jjXCkwY_csAzEE2XxP5nHeU9fdtYxiKFwJa-5cHWBqFmieVUcv7Ft-VNMq3BCU-LS1jMhCCsOtv6jbAd1warRmmaL6JUbo2FfJC-yylQgtOJx15u-TVk-muN2\",\"device_p256dh\":\"BD07MnsJ02k148BVlcBv83iKKohEXxN36YHywLfsnmVQvtHbzTgf+PuV/vaNov1OAFiZKlmVKWsW9d2ITNCfssw=\"},\"tGBIboh5uzvMY/ebwVaCRw==\":{\"device_auth_secret\":\"vjmIri34K4mpKrph3v9Y8g==\",\"device_capabilities\":2,\"device_fcm_token\":\"dkULGBjdV68:APA91bEz1AvV3YPIoQKphqLZZsambqFD3XowLbZzP50z51XaKAvTCg3MkJ24O32d0PNCKAg8hPRaADfUZzPRFMuJYyuzX0MGUY-KZcdqAyEekUVK3yKQVsgPv2ShZKVCuZGWpeLTBgeD\",\"device_p256dh\":\"BELTG8Bq4VRQO1SCCAlKm2/8tM6CnVTp+CNabBuhBHqM8A5c4k6oga6CfrZmv8bkQlj59s/680GYvo5mBZqgLuc=\"}}"
+},
+        {
+            "name": "shelf_chrome_icon_index",
+            "value": "1"
+},
+        {
+            "name": "browser.clear_data.passwords",
+            "value": "false"
+},
+        {
+            "name": "instant.enabled",
+            "value": "true"
+},
+        {
+            "name": "sync.demographics_birth_year_offset",
+            "value": "-1"
+},
+        {
+            "name": "auto_hide_behavior",
+            "value": "\"Never\""
+},
+        {
+            "name": "autofill.profile_use_dates_fixed",
+            "value": "true"
+},
+        {
+            "name": "translate_too_often_denied",
+            "value": "true"
+},
+        {
+            "name": "profile.migrated_default_content_settings",
+            "value": "false"
+},
+        {
+            "name": "intl.selected_languages",
+            "value": "\"en-US,en,zh-CN,zh-TW\""
+},
+        {
+            "name": "translate_site_blacklist_with_time",
+            "value": "{\"www.mitbbs.com\":\"13279887156620761\",\"www.morefun.tv\":\"13279887156620758\",\"www.rencai8.com\":\"13279887156620760\",\"www.youtube.com\":\"13279887156620759\"}"
+},
+        {
+            "name": "extensions.toolbar",
+            "value": "[\"cpngackimfmofbokmjmljamhdncknpmg\",\"aapbdbdomjkkjkaonfhkkikfgjllcleb\",\"cjjghkapdciaiogkeofggpblmbbnjinn\",\"clcbnchcgjcjphmnpndoelbdhakdlfkk\",\"gmloogbeidmnmkdeoibnfcglaenjcmah\",\"aoiidodopnnhiflaflbfeblnojefhigh\",\"annopcfmbiofommjmcmcfmhklhgbhkce\",\"cgdjpilhipecahhcilnafpblkieebhea\",\"dhdgffkkebhmkfjojejmpbldmpobfkfo\",\"oadboiipflhobonjjffjbfekfjcgkhco\",\"ldfbhjdnnfkhjjfgpodhciohomgdpcgd\",\"ghbmnnjooekpmoecnnnilnnbdlolhkhi\",\"oppjbdkgpfhhllancffaoaemplhkngoc\",\"kdkpllchojjkbgephbbeacaahecgfpga\",\"chhjbpecpncaggjpdakmflnfcopglcmi\",\"mgijmajocgfcbeboacabfgobmjgjcoja\",\"mogoohcaeegmfbiijjanepaeaimohkmn\",\"pdnfnkhpgegpcingjbfihlkjeighnddk\",\"boadgeojelhgndaghljhdicfkmllpafd\",\"jngkenaoceimiimeokpdbmejeonaaami\",\"mclkkofklkfljcocdinagocijmpgbhab\",\"plpdjbappofmfbgdmhoaabefbobddchk\",\"bkdgflcldnnnapblkhphbgpggdiikppg\",\"kbfnbcaeplbcioakkpcpgfkobkghlhen\",\"goficmpcgcnombioohjcgdhbaloknabb\",\"emngkmlligggbbiioginlkphcmffbncb\",\"nlbejmccbhkncgokjcmghpfloaajcffj\",\"fdpohaocaechififmbbbbbknoalclacl\",\"ljfjnlcnpmabfcgcmffkmgainghokdpl\",\"hehijbfgiekmjfkfjpbkbammjbdenadd\",\"cjpalhdlnbpafiamejdnhcphjbkeiagm\",\"inlikjemeeknofckkjolnjbpehgadgge\",\"nnnmhgkokpalnmbeighfomegjfkklkle\",\"nkbihfbeogaeaoehlefnkodbefgpgknn\",\"kcnhkahnjcbndmmehfkdnkjomaanaooo\",\"efaidnbmnnnibpcajpcglclefindmkaj\",\"bmnlcjabgnpnenekpadlanbbkooimhnj\",\"oofgbpoabipfcfjapgnbbjjaenockbdp\",\"dpioikmjnfipgphjldakcaocbbpnfabl\",\"pbjikboenpfhbbejgkoklgkhjpfogcam\",\"pmnhcgfcafcnkbengdcanjablaabjplo\",\"omdakjcmkglenbhjadbccaookpfjihpa\",\"cocfojppfigjeefejbpfmedgjbpchcng\",\"gkojfkhlekighikafcpjkiklfbnlmeio\",\"media_router_action\",\"phkhmhjoaliekidocmibncjbepgflmdp\",\"lmjegmlicamnimmfhcmpkclmigmmcbeh\",\"gocklaboggjfkolaknpbhddbaopcepfp\"]"
+},
+        {
+            "name": "settings.language.preferred_languages_syncable",
+            "value": "\"en-US,en\""
+},
+        {
+            "name": "hotword.search_enabled_2",
+            "value": "true"
+},
+        {
+            "name": "bookmark_bar.show_on_all_tabs",
+            "value": "false"
+},
+        {
+            "name": "profile.managed_user_id",
+            "value": "\"\""
+},
+        {
+            "name": "ntp.custom_background_dict",
+            "value": "{\"attribution_action_url\":\"\",\"attribution_line_1\":\"Indigo\",\"attribution_line_2\":\"\",\"background_main_color\":-12627531,\"background_url\":\"https://lh6.googleusercontent.com/proxy/aLyaEiSXI0FShBEOqFu_4TWguSewaZ8xIMZDGcbsJMefMVHn1MVW_BhNUExbisnqfjiPcgUqgrKKk5wmWdm606McL__0XYdA90iJ=w3840-h2160-p-k-no-nd-mv\",\"collection_id\":\"\",\"refresh_timestamp\":0,\"resume_token\":\"\"}"
+},
+        {
+            "name": "hotword.audio_logging_enabled",
+            "value": "true"
+},
+        {
+            "name": "price_tracking.email_notifications_enabled",
+            "value": "true"
+},
+        {
+            "name": "translate_blocked_languages",
+            "value": "[\"zh-TW\",\"zh-CN\"]"
+},
+        {
+            "name": "profile.content_settings.exceptions.font_access",
+            "value": "{}"
+},
+        {
+            "name": "translate_recent_target",
+            "value": "\"en\""
+},
+        {
+            "name": "browser.clear_data.site_settings",
+            "value": "true"
+},
+        {
+            "name": "browser.back_shortcut_bubble_shown_count",
+            "value": "5"
+},
+        {
+            "name": "browser.clear_data.hosted_apps_data",
+            "value": "true"
+},
+        {
+            "name": "message_center.welcome_notification_dismissed",
+            "value": "true"
+},
+        {
+            "name": "translate_ignored_count_for_language",
+            "value": "{\"ar\":4,\"bg\":1,\"ca\":6,\"cs\":4,\"da\":1,\"de\":0,\"el\":0,\"es\":4,\"fa\":2,\"fr\":6,\"ga\":1,\"hi\":10,\"hu\":1,\"id\":0,\"it\":0,\"iw\":1,\"ja\":19,\"ko\":0,\"mt\":2,\"no\":1,\"pl\":3,\"pt\":10,\"ru\":0,\"sm\":1,\"sv\":0,\"th\":3,\"tr\":1,\"uk\":2,\"vi\":0,\"zh-TW\":4,\"zu\":1}"
+},
+        {
+            "name": "profile.name",
+            "value": "\"First user\""
+},
+        {
+            "name": "profile.content_settings.exceptions.fullscreen",
+            "value": "{}"
+},
+        {
+            "name": "settings.language.preload_engines_syncable",
+            "value": "\"xkb:us::eng\""
+},
+        {
+            "name": "profile.content_settings.exceptions.keygen",
+            "value": "{}"
+},
+        {
+            "name": "history.menu_promo_shown",
+            "value": "true"
+},
+        {
+            "name": "extensions.sideload_wipeout_bubble_shown",
+            "value": "3"
+},
+        {
+            "name": "extensions.commands",
+            "value": "{\"chromeos:Alt+Shift+R\":{\"command_name\":\"revert\",\"extension\":\"mclkkofklkfljcocdinagocijmpgbhab\",\"global\":false},\"chromeos:Ctrl+Shift+4\":{\"command_name\":\"_execute_browser_action\",\"extension\":\"annopcfmbiofommjmcmcfmhklhgbhkce\",\"global\":false},\"chromeos:Ctrl+Shift+E\":{\"command_name\":\"toggle-enable\",\"extension\":\"dhdgffkkebhmkfjojejmpbldmpobfkfo\",\"global\":false},\"linux:Alt+Shift+M\":{\"command_name\":\"_execute_browser_action\",\"extension\":\"nkbihfbeogaeaoehlefnkodbefgpgknn\",\"global\":false},\"linux:Alt+Shift+N\":{\"command_name\":\"next\",\"extension\":\"mclkkofklkfljcocdinagocijmpgbhab\",\"global\":false},\"linux:Alt+Shift+P\":{\"command_name\":\"_execute_browser_action\",\"extension\":\"fdpohaocaechififmbbbbbknoalclacl\",\"global\":false},\"linux:Alt+Shift+R\":{\"command_name\":\"revert\",\"extension\":\"mclkkofklkfljcocdinagocijmpgbhab\",\"global\":false},\"linux:Ctrl+Shift+1\":{\"command_name\":\"nueva-nota-web\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":false},\"linux:Ctrl+Shift+2\":{\"command_name\":\"captura-pantalla-activa\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":false},\"linux:Ctrl+Shift+3\":{\"command_name\":\"captura-pantalla\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":false},\"linux:Ctrl+Shift+4\":{\"command_name\":\"captura-pantalla-video\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":false},\"linux:Ctrl+Shift+U\":{\"command_name\":\"toggle-tunnelling\",\"extension\":\"omdakjcmkglenbhjadbccaookpfjihpa\",\"global\":false},\"mac:Command+Shift+1\":{\"command_name\":\"toggle-feature-foo\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":false},\"mac:Command+Shift+2\":{\"command_name\":\"captura-pantalla\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":true},\"mac:Command+Shift+3\":{\"command_name\":\"captura-pantalla-video\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":true},\"mac:Command+Shift+4\":{\"command_name\":\"_execute_browser_action\",\"extension\":\"annopcfmbiofommjmcmcfmhklhgbhkce\",\"global\":false},\"mac:Command+Shift+E\":{\"command_name\":\"toggle-enable\",\"extension\":\"dhdgffkkebhmkfjojejmpbldmpobfkfo\",\"global\":false},\"windows:Ctrl+B\":{\"command_name\":\"run-monica\",\"extension\":\"jgjaeacdkonaoafenlfkkkmbaopkbilf\",\"global\":false},\"windows:Ctrl+D\":{\"command_name\":\"_execute_page_action\",\"extension\":\"gmlllbghnfkpflemihljekbapjopfjik\",\"global\":false},\"windows:Ctrl+Shift+1\":{\"command_name\":\"toggle-feature-foo\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":false},\"windows:Ctrl+Shift+2\":{\"command_name\":\"captura-pantalla\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":true},\"windows:Ctrl+Shift+3\":{\"command_name\":\"captura-pantalla-video\",\"extension\":\"goficmpcgcnombioohjcgdhbaloknabb\",\"global\":true},\"windows:Ctrl+Shift+4\":{\"command_name\":\"_execute_browser_action\",\"extension\":\"annopcfmbiofommjmcmcfmhklhgbhkce\",\"global\":false},\"windows:Ctrl+Shift+E\":{\"command_name\":\"toggle-enable\",\"extension\":\"dhdgffkkebhmkfjojejmpbldmpobfkfo\",\"global\":false}}"
+},
+        {
+            "name": "custom_links.initialized",
+            "value": "true"
+},
+        {
+            "name": "profile.is_managed",
+            "value": "false"
+},
+        {
+            "name": "extensions.ui.developer_mode",
+            "value": "false"
+},
+        {
+            "name": "browser.clear_data.preferences_migrated_to_basic",
+            "value": "true"
+},
+        {
+            "name": "language.app_language_prompt_shown",
+            "value": "true"
+},
+        {
+            "name": "hotword.previous_language",
+            "value": "\"en-US\""
+},
+        {
+            "name": "custom_links.list",
+            "value": "[{\"isMostVisited\":false,\"title\":\"独播\",\"url\":\"https://www.duboku.tv/\"}]"
+},
+        {
+            "name": "ntp.app_page_names",
+            "value": "[\"Apps\"]"
+},
+        {
+            "name": "dns_prefetching.enabled",
+            "value": "false"
+},
+        {
+            "name": "default_search_provider.synced_guid",
+            "value": "\"4DD92EEF-4313-462D-A39F-5D3851E9F5E4\""
+},
+        {
+            "name": "translate_language_blacklist",
+            "value": "[\"zh-CN\",\"zh-CN\",\"zh-TW\"]"
+},
+        {
+            "name": "search.contextual_search_enabled",
+            "value": "\"true\""
+},
+        {
+            "name": "net.network_prediction_options",
+            "value": "2"
+},
+        {
+            "name": "extensions.pinned_extensions",
+            "value": "[\"aapbdbdomjkkjkaonfhkkikfgjllcleb\",\"cjpalhdlnbpafiamejdnhcphjbkeiagm\",\"kcnhkahnjcbndmmehfkdnkjomaanaooo\",\"kbfnbcaeplbcioakkpcpgfkobkghlhen\",\"nnnmhgkokpalnmbeighfomegjfkklkle\",\"phidhnmbkbkbkbknhldmpmnacgicphkf\",\"becfinhbfclcgokjlobojlnldbfillpf\",\"bmnlcjabgnpnenekpadlanbbkooimhnj\"]"
+},
+        {
+            "name": "profile.content_settings.exceptions.mouselock",
+            "value": "{}"
+},
+        {
+            "name": "media_router.cloudservices.enabled",
+            "value": "true"
+}
+    ],
+    "Priority Preferences": [
+        {"preference": {
+            "name": "billing_customer_number",
+            "value": "952583554664"
+}},
+        {"preference": {
+            "name": "profile.was_auto_sign_in_first_run_experience_shown",
+            "value": "true"
+}},
+        {"preference": {
+            "name": "credentials_enable_sync",
+            "value": "true"
+}},
+        {"preference": {
+            "name": "credentials_need_first_time_welcome",
+            "value": "false"
+}},
+        {"preference": {
+            "name": "credentials_last_password_checkup_time",
+            "value": "2022-09-02T14:08:53.871107Z"
+}},
+        {"preference": {
+            "name": "settings.first_run_tutorial_shown",
+            "value": "true"
+}},
+        {"preference": {
+            "name": "credentials_password_manager_warm_welcome_last_seen",
+            "value": "2020-01-13T02:09:25.759450624Z"
+}},
+        {"preference": {
+            "name": "user_image_info",
+            "value": "{\"image_index\":-2}"
+}},
+        {"preference": {
+            "name": "intl.app_locale",
+            "value": "\"en-US\""
+}},
+        {"preference": {
+            "name": "settings.touchpad.natural_scroll",
+            "value": "true"
+}},
+        {"preference": {
+            "name": "credentials_enable_service",
+            "value": "true"
+}},
+        {"preference": {
+            "name": "sync.demographics",
+            "value": "{\"gender\":1,\"birth_year\":1971}"
+}},
+        {"preference": {
+            "name": "profile.credentials_last_password_checkup_time",
+            "value": "\"13354332065431538\""
+}}
+    ],
+    "Themes": [
+        {
+            "autogenerated_theme": {"color": -13154481},
+            "use_system_theme_by_default": false,
+            "use_custom_theme": false
+}
+    ],
+    "App Lists": [
+        {
+            "item_id": "joodangkbfjnajiiifokapkpmhfnpleo",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Calculator",
+            "item_ordinal": "nzzz"
+},
+        {
+            "item_pin_ordinal": "",
+            "item_id": "gaglhcanejjcmkpkobnoicppdcnoacjm",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Sites",
+            "item_ordinal": ""
+},
+        {
+            "item_id": "apboafhkiegglekeafbckfjldecefkhn",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Lucidchart Diagrams - Online",
+            "item_ordinal": "nx"
+},
+        {
+            "item_id": "hkhhlkdconhgemhegnplaldnmnmkaemd",
+            "item_type": "TYPE_REMOVE_DEFAULT_APP",
+            "parent_id": "",
+            "item_name": "Get Started",
+            "item_ordinal": "nzzs"
+},
+        {
+            "item_id": "icppfcnhkcmnfdhfhphakoifcfokfdhg",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Play Music",
+            "item_ordinal": "nzzv"
+},
+        {
+            "item_id": "hacdkmchihbbeghflllnecdpppcmccfh",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Drawings",
+            "item_ordinal": "tyn"
+},
+        {
+            "item_id": "hclgbbaloijjnkpigapgmocdpoblnlec",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Sniper Team",
+            "item_ordinal": "nyt"
+},
+        {
+            "item_id": "lneaknkopdijkpnocmklfnjbeapigfbh",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Maps",
+            "item_ordinal": "nzm"
+},
+        {
+            "item_id": "ahfgeienlihckogmohjhadlkjgocpleb",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Store",
+            "item_ordinal": "nn"
+},
+        {
+            "item_id": "cnciopoikihiagdjbjpnocolokfelagl",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Videostream for Google Chromecast™",
+            "item_ordinal": "nzyn"
+},
+        {
+            "item_id": "nbpmfockaepbhlnhgopdadpdfedbgfbf",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "HelloFax",
+            "item_ordinal": "tzm"
+},
+        {
+            "item_id": "fcnghgbgmemnlbckdipnmelbanpgneik",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "__MSG_appName__",
+            "item_ordinal": "nzs"
+},
+        {
+            "item_id": "gbchcmhmhahfdphkhkmpfmihenigjmpp",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Chrome Remote Desktop",
+            "item_ordinal": "nzzzm"
+},
+        {
+            "item_id": "fppdphmgcddhjeddoeghpjefkdlccljb",
+            "item_type": "TYPE_REMOVE_DEFAULT_APP",
+            "parent_id": "",
+            "item_name": "Google Play Movies",
+            "item_ordinal": "nzzy"
+},
+        {
+            "item_id": "maedcandllooadefbglncpnejbmhcean",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "ZIP Extractor",
+            "item_ordinal": "tzs"
+},
+        {
+            "item_id": "hhaomjibdihmijegdhdafkllkbggdgoj",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Files",
+            "item_ordinal": "nzzm"
+},
+        {
+            "item_id": "mdafamggmaaaginooondinjgkgcbpnhp",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "PowerPoint Online",
+            "item_ordinal": "nzv"
+},
+        {
+            "item_id": "felcaaldnbdncclmgdcncolpebgiejap",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Sheets",
+            "item_ordinal": "nzxn"
+},
+        {
+            "item_id": "aohghmighlieiainnegkcijnfilokake",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Docs",
+            "item_ordinal": "nw"
+},
+        {
+            "item_id": "blpcfgokakmgnkcojhhkbfbldkacnbeo",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "YouTube",
+            "item_ordinal": "nz"
+},
+        {
+            "item_id": "dlppkpafhbajpcmmoheippocdidnckmm",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google+",
+            "item_ordinal": "nzyt"
+},
+        {
+            "item_id": "pjkljhegncpnkpknbcohdijeoejaedia",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Gmail",
+            "item_ordinal": "ny"
+},
+        {
+            "item_id": "fiombgjlkfpdpkbhfioofeeinbehmajg",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Word Online",
+            "item_ordinal": "nzt"
+},
+        {
+            "item_id": "mgndgikekgjfcpckkfioiadnlibdjbkf",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Chrome",
+            "item_ordinal": "nzm"
+},
+        {
+            "item_id": "hmjkmjkepdijhoojdojkdfohbdgmmhki",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Keep - notes and lists",
+            "item_ordinal": "tz"
+},
+        {
+            "item_id": "mhkmpnidbgboeiebfgmoibgjhopampkj",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "PBS Kids PLAY!",
+            "item_ordinal": "nq"
+},
+        {
+            "item_id": "hcglmfcclpfgljeaiahehebeoaiicbko",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Photos",
+            "item_ordinal": "nzyt"
+},
+        {
+            "item_id": "ejnkaeblpdcamcioiiabclakabcbjmbl",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Box - 10GB of FREE storage",
+            "item_ordinal": "nwn"
+},
+        {
+            "item_id": "nielaigelomefgdoljcpfgbdbfefhdjc",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Amazon Windowshop",
+            "item_ordinal": "ntn"
+},
+        {
+            "item_id": "hfhhnacclhffhdffklopdkcgdhifgngh",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Camera",
+            "item_ordinal": "nzzyn"
+},
+        {
+            "item_id": "mmimngoggfoobjdlefbcabngfnmieonb",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Play Books",
+            "item_ordinal": "nzzx"
+},
+        {
+            "item_id": "efgciaombdjbpmepfcndmfidlklafhcc",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Free Rider 3",
+            "item_ordinal": "tn"
+},
+        {
+            "item_id": "kbpgddbgniojgndnhlkjbkpknjhppkbk",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Hangouts call",
+            "item_ordinal": "nzz"
+},
+        {
+            "item_id": "ejjicmeblgpmajnghnpcppodonldlgfn",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Calendar",
+            "item_ordinal": "nyn"
+},
+        {
+            "item_id": "ljoammodoonkhnehlncldjelhidljdpi",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Get Help",
+            "item_ordinal": "tn"
+},
+        {
+            "item_id": "bpoagfhjfpobepeipcmkncplegidfaee",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Forms",
+            "item_ordinal": "tt"
+},
+        {
+            "item_id": "nhbmpilemgmpbdaniehhmodkkppkelec",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "InspirARTion - Sketch & Draw!",
+            "item_ordinal": "tt"
+},
+        {
+            "item_id": "nblhppmcboecjlnphpnklanlmhofgbgl",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google My Maps",
+            "item_ordinal": "tx"
+},
+        {
+            "item_id": "knegnmjmhjjnmpfidlhnjcajmbmhdnbm",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Touch Drawing App",
+            "item_ordinal": "nzy"
+},
+        {
+            "item_pin_ordinal": "y",
+            "item_id": "cnbgggchhmkkdmeppjobngjoejnihlei",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "",
+            "item_ordinal": ""
+},
+        {
+            "item_id": "coobgpohoikkiipiblmjeljniedjpjpf",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Search",
+            "item_ordinal": "nyn"
+},
+        {
+            "item_id": "aapocclcgogkmnckokdopfmhonfmgoek",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Slides",
+            "item_ordinal": "nzy"
+},
+        {
+            "item_id": "efjnaogkjbogokcnohkmnjdojkikgobo",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google+ Photos",
+            "item_ordinal": "tzm"
+},
+        {
+            "item_id": "gdijeikdkaembjbdobgfkoidjkpbmlkd",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Play Movies & TV",
+            "item_ordinal": "nzzw"
+},
+        {
+            "item_id": "onlkggianjhjenigcpigpjehhpplldkc",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "__MSG_appName__",
+            "item_ordinal": "nzx"
+},
+        {
+            "item_id": "ojmfijnhekjjeomgkcpnoghnehkojcdd",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Lucidchart Diagrams",
+            "item_ordinal": "tzv"
+},
+        {
+            "item_id": "apdfllckaahabafndbhieahigkjlhalf",
+            "item_type": "TYPE_APP",
+            "parent_id": "",
+            "item_name": "Google Drive",
+            "item_ordinal": "nxn"
+}
+    ],
+    "Web Apps": [
+        {
+            "relative_manifest_id": "?feature=ytca",
+            "theme_color": -65536,
+            "icon_infos": [
+                        {
+                                    "purpose": "ANY",
+                                    "url": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png",
+                                    "size_in_px": 144
+                        },
+                        {
+                                    "purpose": "ANY",
+                                    "url": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_192x192.png",
+                                    "size_in_px": 192
+                        },
+                        {
+                                    "purpose": "MONOCHROME",
+                                    "url": "https://www.gstatic.com/youtube/img/web/monochrome/logo_16x16.png",
+                                    "size_in_px": 16
+                        },
+                        {
+                                    "purpose": "MONOCHROME",
+                                    "url": "https://www.gstatic.com/youtube/img/web/monochrome/logo_32x32.png",
+                                    "size_in_px": 32
+                        },
+                        {
+                                    "purpose": "MONOCHROME",
+                                    "url": "https://fonts.gstatic.com/s/i/googlematerialicons/video_youtube/v11/white-48dp/1x/gm_video_youtube_white_48dp.png",
+                                    "size_in_px": 48
+                        },
+                        {
+                                    "purpose": "MONOCHROME",
+                                    "url": "https://www.gstatic.com/youtube/img/web/monochrome/logo_512x512.png",
+                                    "size_in_px": 512
+                        }
+            ],
+            "user_launch_ordinal": "y",
+            "scope": "https://www.youtube.com/",
+            "start_url": "https://www.youtube.com/?feature=ytca",
+            "name": "YouTube",
+            "user_display_mode_default": "BROWSER",
+            "user_page_ordinal": "n"
+},
+        {
+            "relative_manifest_id": "?lfhs=2",
+            "theme_color": -920588,
+            "icon_infos": [
+                        {
+                                    "purpose": "ANY",
+                                    "url": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_16dp.png",
+                                    "size_in_px": 16
+                        },
+                        {
+                                    "purpose": "ANY",
+                                    "url": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_96dp.png",
+                                    "size_in_px": 96
+                        },
+                        {
+                                    "purpose": "ANY",
+                                    "url": "https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_96dp.png",
+                                    "size_in_px": 192
+                        }
+            ],
+            "user_launch_ordinal": "zzs",
+            "scope": "https://drive.google.com/",
+            "start_url": "https://drive.google.com/?lfhs=2",
+            "name": "Google Drive",
+            "user_display_mode_default": "BROWSER",
+            "user_page_ordinal": "n"
+},
+        {
+            "relative_manifest_id": "maps?force=tt&source=ttpwa",
+            "theme_color": -15043608,
+            "icon_infos": [
+                        {
+                                    "purpose": "ANY",
+                                    "url": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_192x192.png",
+                                    "size_in_px": 192
+                        },
+                        {
+                                    "purpose": "ANY",
+                                    "url": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_512x512.png",
+                                    "size_in_px": 512
+                        }
+            ],
+            "user_launch_ordinal": "zz",
+            "scope": "https://www.google.com/maps",
+            "start_url": "https://www.google.com/maps?force=tt&source=ttpwa",
+            "name": "Google Maps",
+            "user_display_mode_default": "STANDALONE",
+            "user_page_ordinal": "n"
+}
+    ],
+    "Search Engines": [
+        {
+            "suggestions_url": "",
+            "favicon_url": "",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_TRUE",
+            "date_created": 13310603280530176,
+            "starter_pack_id": 3,
+            "url": "chrome://tabs/?q={searchTerms}",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "ec205736-edd7-4022-a9a3-b431fc000003",
+            "short_name": "Tabs",
+            "keyword": "@tabs",
+            "input_encodings": "",
+            "prepopulate_id": 0,
+            "last_modified": 13310603280530176
+},
+        {
+            "suggestions_url": "https://search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas_sfp&command={searchTerms}",
+            "favicon_url": "https://search.yahoo.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 0,
+            "starter_pack_id": 0,
+            "url": "https://search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas_sfp&p={searchTerms}",
+            "new_tab_url": "https://search.yahoo.com?fr=crmas_sfp",
+            "originating_url": "",
+            "sync_guid": "EA89D250-C567-40A0-B0C1-BA873228B602",
+            "short_name": "Yahoo!",
+            "keyword": "yahoo.com",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 2,
+            "last_modified": 13353452792650920
+},
+        {
+            "suggestions_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
+            "favicon_url": "https://duckduckgo.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 0,
+            "starter_pack_id": 0,
+            "url": "https://duckduckgo.com/?q={searchTerms}",
+            "new_tab_url": "https://duckduckgo.com/chrome_newtab",
+            "originating_url": "",
+            "sync_guid": "485bf7d3-0215-45af-87dc-538868000092",
+            "short_name": "DuckDuckGo",
+            "keyword": "duckduckgo.com",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 92,
+            "last_modified": 13353452792650925
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "date_created": 13274724885623072,
+            "url": "https://www.amazon.com/s/ref=nb_sb_ss_ts-doa-p_1_13?url=search-alias%3Daps&field-keywords={searchTerms}&sprefix=andriod+watch%2Caps%2C176&crid=RIELZZP9S2KR",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "ce1ebd5f-17fc-4e8c-bc9c-f9f1a4ffa0f8",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com_________",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13274724885623072
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_TRUE",
+            "date_created": 13310603280530170,
+            "starter_pack_id": 2,
+            "url": "chrome://history/?q={searchTerms}",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "ec205736-edd7-4022-a9a3-b431fc000002",
+            "short_name": "History",
+            "keyword": "@history",
+            "input_encodings": "",
+            "prepopulate_id": 0,
+            "last_modified": 13310603280530170
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_TRUE",
+            "date_created": 13310603280530158,
+            "starter_pack_id": 1,
+            "url": "chrome://bookmarks/?q={searchTerms}",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "ec205736-edd7-4022-a9a3-b431fc000001",
+            "short_name": "Bookmarks",
+            "keyword": "@bookmarks",
+            "input_encodings": "",
+            "prepopulate_id": 0,
+            "last_modified": 13310603280530158
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "date_created": 13275007778455138,
+            "url": "https://www.amazon.com/s/ref=nb_sb_ss_ts-doa-p_1_6?url=search-alias%3Daps&field-keywords={searchTerms}&sprefix=cpu+fa%2Caps%2C168&crid=1YXSJHXDF2RWP",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "dc1068d3-c2a6-4dc6-8d41-7111d82189be",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com_________",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13275007778455138
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 13326774586250997,
+            "starter_pack_id": 0,
+            "url": "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={searchTerms}&crid=2FHEYF15C9HR4&sprefix=au+stoplight+lux%2Caps%2C75",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "925e27bb-a742-4225-8e6b-552fbd7be231",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13326774586250997
+},
+        {
+            "suggestions_url": "https://suggest.yandex.com/suggest-ff.cgi?part={searchTerms}&{google:cursorPosition}&uil=en&v=3&sn=5",
+            "image_url_post_params": "upfile={google:imageThumbnail},original_width={google:imageOriginalWidth},original_height={google:imageOriginalHeight},prg=1",
+            "favicon_url": "https://yastatic.net/lego/_/rBTjd6UOPk5913OSn5ZQVYMTQWQ.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 0,
+            "image_url": "https://yandex.com/images/search?rpt=imageview",
+            "starter_pack_id": 0,
+            "url": "https://yandex.com/search/?text={searchTerms}&from=os&clid=1836588",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "de5aa2c8-3684-4fba-bbc8-ec449b9bc325",
+            "short_name": "Yandex",
+            "keyword": "yandex.com",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 15,
+            "last_modified": 13353452792650927
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "date_created": 13273769295273159,
+            "url": "https://www.amazon.com/s/ref=nb_sb_ss_ts-doa-p_1_30?url=search-alias%3Daps&field-keywords={searchTerms}&sprefix=Intel%C2%AE+Core%E2%84%A2+X-series+Processors%2Caps%2C176&crid=1RKA21J1XG79X",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "f4e176c0-e941-4612-927d-57edae9b87c1",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com_________",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13273769295273159
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "date_created": 13273443803921286,
+            "url": "https://www.amazon.com/s/ref=nb_sb_ss_ts-doa-p_3_5?url=search-alias%3Daps&field-keywords={searchTerms}&sprefix=pixel+5%2Caps%2C183&crid=FG49V7LBH9SV",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "79e9b83b-7fb3-4b24-b8a0-bcd85687fac1",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com_________",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13273443803921286
+},
+        {
+            "suggestions_url": "{google:baseSuggestURL}search?{google:searchFieldtrialParameter}client={google:suggestClient}&gs_ri={google:suggestRid}&xssi=t&q={searchTerms}&{google:inputType}{google:omniboxFocusType}{google:cursorPosition}{google:currentPageUrl}{google:pageClassification}{google:clientCacheTimeToLive}{google:searchVersion}{google:sessionToken}{google:prefetchQuery}sugkey={google:suggestAPIKeyParameter}",
+            "image_url_post_params": "encoded_image={google:imageThumbnail},image_url={google:imageURL},sbisrc={google:imageSearchSource},original_width={google:imageOriginalWidth},original_height={google:imageOriginalHeight},processed_image_dimensions={google:processedImageDimensions}",
+            "favicon_url": "https://www.google.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 0,
+            "image_url": "{google:baseSearchByImageURL}upload",
+            "starter_pack_id": 0,
+            "url": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:prefetchSource}{google:searchClient}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "4DD92EEF-4313-462D-A39F-5D3851E9F5E4",
+            "short_name": "Google",
+            "keyword": "google.com",
+            "input_encodings": "UTF-8",
+            "alternate_urls": [
+                        "{google:baseURL}#q={searchTerms}",
+                        "{google:baseURL}search#q={searchTerms}",
+                        "{google:baseURL}webhp#q={searchTerms}",
+                        "{google:baseURL}s#q={searchTerms}",
+                        "{google:baseURL}s?q={searchTerms}"
+            ],
+            "prepopulate_id": 1,
+            "last_modified": 0
+},
+        {
+            "suggestions_url": "https://www.bing.com/osjson.aspx?query={searchTerms}&language={language}&PC=U316",
+            "image_url_post_params": "imageBin={google:imageThumbnailBase64}",
+            "favicon_url": "https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 0,
+            "image_url": "https://www.bing.com/images/detail/search?iss=sbiupload&FORM=CHROMI#enterInsights",
+            "starter_pack_id": 0,
+            "url": "https://www.bing.com/search?q={searchTerms}&PC=U316&FORM=CHROMN",
+            "new_tab_url": "https://www.bing.com/chrome/newtab",
+            "originating_url": "",
+            "sync_guid": "5CF6ACB1-92FA-4248-A9DE-3C05EFF10FF3",
+            "short_name": "Bing",
+            "keyword": "bing.com",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 3,
+            "last_modified": 13353452792650915
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "date_created": 13273640696930492,
+            "url": "https://www.amazon.com/s/ref=nb_sb_ss_ts-doa-p_1_3?url=search-alias%3Daps&field-keywords={searchTerms}&sprefix=pix%2Caps%2C179&crid=3OUB686TPLYET",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "12ef2fd5-8944-4e24-9ebc-00ea4366beae",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com_________",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13273640696930492
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 13293637522639112,
+            "url": "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={searchTerms}&ref=nb_sb_noss_1&crid=1GR43LI8NE8PT&sprefix=gpu%2Caps%2C67",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "e68e2fbb-3aae-46d3-aa0f-a3e2c68c1a60",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13293637522639112
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.youtube.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "is_active": "ACTIVE_STATUS_UNSPECIFIED",
+            "date_created": 13354763564354748,
+            "starter_pack_id": 0,
+            "url": "https://www.youtube.com/results?search_query={searchTerms}&page={startPage?}&utm_source=opensearch",
+            "new_tab_url": "",
+            "originating_url": "https://www.youtube.com/opensearch?locale=en_US",
+            "sync_guid": "8b9795ef-abd6-4e86-a82d-8980b9f9fc07",
+            "short_name": "YouTube",
+            "keyword": "youtube.com",
+            "input_encodings": "",
+            "prepopulate_id": 0,
+            "last_modified": 13354763564354748
+},
+        {
+            "suggestions_url": "",
+            "favicon_url": "https://www.amazon.com/favicon.ico",
+            "safe_for_autoreplace": true,
+            "date_created": 13224094043385367,
+            "url": "https://www.amazon.com/s/ref=nb_sb_ss_i_1_4?url=search-alias%3Daps&field-keywords={searchTerms}&sprefix=batt%2Caps%2C157&crid=1MVU5XPPTVKEY",
+            "new_tab_url": "",
+            "originating_url": "",
+            "sync_guid": "73991bd8-f270-415b-9cbc-29ad9feb885f",
+            "short_name": "amazon.com",
+            "keyword": "amazon.com_________",
+            "input_encodings": "UTF-8",
+            "prepopulate_id": 0,
+            "last_modified": 13224094043385367
+}
+    ]
+}

@@ -37,7 +37,7 @@ By fostering a collaborative learning environment, this tutorial aims to empower
   - [Construct a knowledge graph in STIX (zero-shot)](PhishingAttack/PhishingAttackScenarioDemo/03_evidence_stix_zeroshot.ipynb)
   - [Construct a knowledge graph in STIX (one-shot)](PhishingAttack/PhishingAttackScenarioDemo/04_evidence_stix_oneshot.ipynb)
   - [Compare one-shot vs. zero-shot](PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
-- Profiling suspect based on browser history (hands-on lab)
+- [Profiling suspect based on browser history (hands-on lab)](BrowserHistory/Eric/profile_browser_history_Eric.ipynb)
 - [Political insights analysis based on Hillary's leaked Emails (hands-on lab)](#political-insight-analysis-leveraging-llms)
 - Challenges and Limitations of Leveraging LLM in Digital Forensics
 - Conclusion
