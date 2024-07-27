@@ -31,13 +31,13 @@ By fostering a collaborative learning environment, this tutorial aims to empower
 
 - Introduction
 - [Forensic evidence entity recognition (hands-on lab)](#forensic-evidence-analysis)
-  - [Evidence entity recognition](PhishingAttack/PhishingAttackScenarioDemo/01_evidence_entity_recognition.ipynb)
-  - [Visualize evidence and their relations](PhishingAttack/PhishingAttackScenarioDemo/02_evidence_knowledge_dot_generator.ipynb)
+  - [Evidence entity recognition](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/PhishingAttack/PhishingAttackScenarioDemo/01_evidence_entity_recognition.ipynb)
+  - [Visualize evidence and their relations](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/PhishingAttack/PhishingAttackScenarioDemo/02_evidence_knowledge_dot_generator.ipynb)
 - [Evidence knowledge graphs reconstruction (hands-on lab)](#forensic-evidence-analysis)
-  - [Construct a knowledge graph in STIX (zero-shot)](PhishingAttack/PhishingAttackScenarioDemo/03_evidence_stix_zeroshot.ipynb)
-  - [Construct a knowledge graph in STIX (one-shot)](PhishingAttack/PhishingAttackScenarioDemo/04_evidence_stix_oneshot.ipynb)
-  - [Compare one-shot vs. zero-shot](PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
-- [Profiling suspect based on browser history (hands-on lab)](BrowserHistory/Eric/profile_browser_history_Eric.ipynb)
+  - [Construct a knowledge graph in STIX (zero-shot)](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/PhishingAttack/PhishingAttackScenarioDemo/03_evidence_stix_zeroshot.ipynb)
+  - [Construct a knowledge graph in STIX (one-shot)](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/PhishingAttack/PhishingAttackScenarioDemo/04_evidence_stix_oneshot.ipynb)
+  - [Compare one-shot vs. zero-shot](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
+- [Profiling suspect based on browser history (hands-on lab)](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/BrowserHistory/Eric/profile_browser_history_Eric.ipynb)
 - [Political insights analysis based on Hillary's leaked Emails (hands-on lab)](#political-insight-analysis-leveraging-llms)
 - Challenges and Limitations of Leveraging LLM in Digital Forensics
 - Conclusion
