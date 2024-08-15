@@ -39,7 +39,7 @@ By fostering a collaborative learning environment, this tutorial aims to empower
   - [Compare one-shot vs. zero-shot](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
 - Profiling suspect based on browser history (hands-on lab)
   - [Profiling](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/BrowserHistory/Eric/profile_browser_history_Eric.ipynb)
-  - [Data Preprocessing](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/BrowserHistory/Eric/Eric/browser_proprocess.ipynb)
+  - [Data Preprocessing](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/BrowserHistory/Eric/browser_proprocess.ipynb)
 - [Political insights analysis based on Hillary's leaked Emails (hands-on lab)](#political-insight-analysis-leveraging-llms)
 - Challenges and Limitations of Leveraging LLM in Digital Forensics
 - Conclusion
