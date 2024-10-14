@@ -395,8 +395,10 @@ Here are some political insights based on the leaked email summaries obtained fr
 
 ## Contribution
 
-- PI of the project
+- PIs of the project
   - Dr. Frank Xu (Email: fxu at ubalt dot edu)
+  - Dr. Debra L. Stanley
+  - Dr. Lin Deng; Twoson University
 - Students:
   - Eric Xu: University of Maryland (LLM for Digital Forensics)
   - Sarfraz Shaikh: University of Baltimore (Echo Show)
