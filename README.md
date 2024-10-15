@@ -34,7 +34,7 @@ or in BibTeX
 
 ---
 
-## Table of Contents (Major Holidy release Dec 25, 2023: Echo Show investigations preview)
+## Table of Contents (new release Oct 15, 2024: Eufy investigations)
 
 - Basic Computer Skills for Digital Forensics
 
@@ -74,6 +74,7 @@ or in BibTeX
   - [Investigating Hacking Case](#investigating-hacking-case)
   - [Investigating Morris Worm Attack](#investigating-morris-worm-attack) (updated on Jan 2023, [POSTER](/papers/poster_Morris_Worm_Attack.pdf))
 - Mobile/IoT Forensics Case Study
+  - [Investigating Eufy Doorbell](#investigating-Eufy-Doorbell) (added on 10/15/2024)
   - [Investigating Echo Show 8](#investigating-echo-show-8) (added on 12/25/2023)
   - [Investigating Android 10](#investigating-android-10) (added on 10/24/2021)
   - [Investigating iPhone iOS 13](#investigating-iphone-ios-13) (updated on 6/18/2022)
@@ -252,6 +253,30 @@ The case study is an investigation of the [Morris Worm Attacking](https://seedse
 
 ---
 
+### Investigating Eufy Doorbell
+
+This case study examines the forensic analysis of a Eufy doorbell and HomeBase system using advanced extraction techniques, including the chip-off method. The process starts with disassembly, chip-off, image acquisition, and concludes with analysis. Key directories, such as those containing camera footage, SQLite databases, and various logs, are analyzed to extract evidence. This approach helps reconstruct timelines, identify evidence of user interactions and system activity, and provides valuable insights for security investigations. Note that this study focuses on HomeBase 2, but the latest version is HomeBase 3.
+
+**eMMC Images**
+
+- [Door Bell eMMC Image](https://drive.google.com/file/d/1H2pHr2IsgaJrRvuJSIa5Cujz5orWR4dy/view?usp=sharing)
+
+**Topics Covered**
+
+| Labs  | Topics Covered                                                                                        |
+| ----- | ----------------------------------------------------------------------------------------------------- |
+| Lab 0 | [Doorbell Introduction](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)                        |
+| Lab 1 | [Doorbell Scenario Simulation](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)                 |
+| Lab 2 | [Doorbell Teardown Chip-off Image Acquisition](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx) |
+| Lab 3 | [Doorbell Image Analysis and Mounting](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)         |
+| Lab 4 | [Doorbell Evidence Extraction](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)                 |
+| Lab 5 | [Doorbell p2p Communication Log](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)               |
+| Lab 6 | [Doorbell Daily(Sec) Logo](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptxx)                    |
+| Lab 7 | [Doorbell Analysing Camera Directory](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)          |
+| Lab 8 | [Doorbell Analysing sqliteDirectory](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)           |
+
+---
+
 ### Investigating Echo Show 8
 
 The case study outlines the use of the chip-off technique to extract evidence from an Amazon Echo Show device. Different types of evidence are produced and inserted into the Echo Show 8 (2nd generation). The investigative process includes the utilization of a reverse engineering approach to retrieve the implanted evidence from the embedded MultiMediaCard (eMMC) of the Echo Show device.
@@ -401,7 +426,7 @@ Here are some political insights based on the leaked email summaries obtained fr
   - Dr. Lin Deng; Twoson University
 - Students:
   - Eric Xu: University of Maryland (LLM for Digital Forensics)
-  - Sarfraz Shaikh: University of Baltimore (Echo Show)
+  - Sarfraz Shaikh: University of Baltimore (Echo Show, Eufy Doorbell)
   - Danny Ferreira (iPhone)
   - Harleen Kaur (Partial of Android)
   - Malcolm Hayward (P2P Leakage)
