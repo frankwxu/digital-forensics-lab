@@ -265,15 +265,15 @@ This case study examines the forensic analysis of a Eufy doorbell and HomeBase s
 
 | Labs  | Topics Covered                                                                                        |
 | ----- | ----------------------------------------------------------------------------------------------------- |
-| Lab 0 | [Doorbell Introduction](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)                        |
-| Lab 1 | [Doorbell Scenario Simulation](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)                 |
-| Lab 2 | [Doorbell Teardown Chip-off Image Acquisition](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx) |
-| Lab 3 | [Doorbell Image Analysis and Mounting](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)         |
-| Lab 4 | [Doorbell Evidence Extraction](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)                 |
-| Lab 5 | [Doorbell p2p Communication Log](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)               |
-| Lab 6 | [Doorbell Daily(Sec) Logo](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptxx)                    |
-| Lab 7 | [Doorbell Analysing Camera Directory](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)          |
-| Lab 8 | [Doorbell Analysing sqliteDirectory](/Eufy_Doorbell/PPTS/0_Eufy_Doorbell_Introduction.pptx)           |
+| Lab 0 | [Doorbell Introduction](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                        |
+| Lab 1 | [Doorbell Scenario Simulation](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                 |
+| Lab 2 | [Doorbell Teardown Chip-off Image Acquisition](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx) |
+| Lab 3 | [Doorbell Image Analysis and Mounting](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)         |
+| Lab 4 | [Doorbell Evidence Extraction](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                 |
+| Lab 5 | [Doorbell p2p Communication Log](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)               |
+| Lab 6 | [Doorbell Daily(Sec) Logo](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptxx)                    |
+| Lab 7 | [Doorbell Analysing Camera Directory](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)          |
+| Lab 8 | [Doorbell Analysing sqliteDirectory](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)           |
 
 ---
 
