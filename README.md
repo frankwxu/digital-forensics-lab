@@ -424,6 +424,7 @@ Here are some political insights based on the leaked email summaries obtained fr
   - Dr. Frank Xu (Email: fxu at ubalt dot edu)
   - Dr. Debra L. Stanley
   - Dr. Lin Deng; Twoson University
+  - Dr. Wenbin Zhang; FIU
 - Students:
   - Eric Xu: University of Maryland (LLM for Digital Forensics)
   - Sarfraz Shaikh: University of Baltimore (Echo Show, Eufy Doorbell)
