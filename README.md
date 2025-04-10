@@ -311,22 +311,22 @@ The image is created by Joshua Hickman and hosted by [digitalcorpora](https://di
 
 | Labs      | Topics Covered                                                                                         | Size of PPTs |
 | --------- | ------------------------------------------------------------------------------------------------------ | ------------ |
-| Lab 0     | [Intro Pixel 3](Andriod10/0_Intro_Pixel3_Andriod10.pptx)                                               | 3M           |
-| Lab 1     | [Pixel 3 Image](Andriod10/1_Pixel3_Image.pptx)                                                         | 2M           |
-| Lab 2     | [Pixel 3 Device](Andriod10/2_Pixel3_Device_Investigation.pptx)                                         | 4M           |
-| Lab 3     | [Pixel 3 System Setting](Andriod10/3_Pixel3_System_settings.pptx)                                      | 5M           |
-| Lab 4     | [Overview: App Life Cycle](Andriod10/4_Overivew_App_Life_Cycle.pptx)                                   | 11M          |
-| Lab 5.1.1 | [AOSP App Investigations: Messaging](Andriod10/5_1_1_AOSP_App_Investigations_Messaging.pptx)           | 4M           |
-| Lab 5.1.2 | [AOSP App Investigations: Contacts](Andriod10/5_1_2_AOSP_App_Investigations_Contacts.pptx)             | 3M           |
-| Lab 5.1.3 | [AOSP App Investigations: Calendar](Andriod10/5_2_1_GMS_App_Investigations_Messaging.pptx)             | 1M           |
-| Lab 5.2.1 | [GMS App Investigations: Messaging](Andriod10/5_2_2_GMS_App_Investigations_Dialer.pptx)                | 6M           |
-| Lab 5.2.2 | [GMS App Investigations: Dialer](Andriod10/5_2_2_GMS_App_Investigations_Dialer.pptx)                   | 2M           |
-| Lab 5.2.3 | [GMS App Investigations: Maps](Andriod10/5_2_3_GMS_App_Investigations_Maps.pptx)                       | 8M           |
-| Lab 5.2.4 | [GMS App Investigations: Photos](Andriod10/5_2_4_GMS_App_Investigations_Photos.pptx)                   | 6M           |
-| Lab 5.3.1 | [Third-Party App Investigations: Kik](Andriod10/5_3_1_Third_Party_App_Investigation_kik.pptx)          | 4M           |
+| Lab 0     | [Intro Pixel 3](Android10/0_Intro_Pixel3_Android10.pptx)                                               | 3M           |
+| Lab 1     | [Pixel 3 Image](Android10/1_Pixel3_Image.pptx)                                                         | 2M           |
+| Lab 2     | [Pixel 3 Device](Android10/2_Pixel3_Device_Investigation.pptx)                                         | 4M           |
+| Lab 3     | [Pixel 3 System Setting](Android10/3_Pixel3_System_settings.pptx)                                      | 5M           |
+| Lab 4     | [Overview: App Life Cycle](Android10/4_Overivew_App_Life_Cycle.pptx)                                   | 11M          |
+| Lab 5.1.1 | [AOSP App Investigations: Messaging](Android10/5_1_1_AOSP_App_Investigations_Messaging.pptx)           | 4M           |
+| Lab 5.1.2 | [AOSP App Investigations: Contacts](Android10/5_1_2_AOSP_App_Investigations_Contacts.pptx)             | 3M           |
+| Lab 5.1.3 | [AOSP App Investigations: Calendar](Android10/5_2_1_GMS_App_Investigations_Messaging.pptx)             | 1M           |
+| Lab 5.2.1 | [GMS App Investigations: Messaging](Android10/5_2_2_GMS_App_Investigations_Dialer.pptx)                | 6M           |
+| Lab 5.2.2 | [GMS App Investigations: Dialer](Android10/5_2_2_GMS_App_Investigations_Dialer.pptx)                   | 2M           |
+| Lab 5.2.3 | [GMS App Investigations: Maps](Android10/5_2_3_GMS_App_Investigations_Maps.pptx)                       | 8M           |
+| Lab 5.2.4 | [GMS App Investigations: Photos](Android10/5_2_4_GMS_App_Investigations_Photos.pptx)                   | 6M           |
+| Lab 5.3.1 | [Third-Party App Investigations: Kik](Android10/5_3_1_Third_Party_App_Investigation_kik.pptx)          | 4M           |
 | Lab 5.3.2 | [Third-Party App Investigations: textnow](5_3_2_Third_Party_App_Investigation%20_textnow.pptx)         | 1M           |
-| Lab 5.3.3 | [Third-Party App Investigations: whatapp](Andriod10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
-| Lab 6     | [Pixel 3 Rooting](Andriod10/6_Pixel3_rooting.pptx)                                                     | 5M           |
+| Lab 5.3.3 | [Third-Party App Investigations: whatapp](Android10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
+| Lab 6     | [Pixel 3 Rooting](Android10/6_Pixel3_rooting.pptx)                                                     | 5M           |
 
 ---
 
