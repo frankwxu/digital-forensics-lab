@@ -427,9 +427,12 @@ Here are some political insights based on the leaked email summaries obtained fr
   - Dr. Wenbin Zhang; FIU
 - Students:
   - Eric Xu: University of Maryland (LLM for Digital Forensics)
-  - Sarfraz Shaikh: University of Baltimore (Echo Show, Eufy Doorbell)
+  - Jeel Khatiwala (Evaluating the Reliability of Digital Forensic Evidence Discovered by LLMs)
+  - Mohit Dhabuwala (Opensource mobile forensic handbook)
+  - Daniel Addai ([CTF](https://github.com/frankwxu/digital-forensics-lab-p2))
+  - Sarfraz Shaikh (Echo Show, Eufy Doorbell)
   - Danny Ferreira (iPhone)
-  - Harleen Kaur (Partial of Android)
+  - Harleen Kaur: (Partial of Android)
   - Malcolm Hayward (P2P Leakage)
   - Richard (Max) Wheeless (Hacking case)
   - Chimezie Onwuegbuchulem (Docker for Digital Forensics)
