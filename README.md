@@ -87,6 +87,10 @@ or in BibTeX
   - [Identifying IP Addresses using a Fine-tuned AI Model](/AI4Forensics/IP_Identifier_Fine_Tuning/IP_Identifer_Fine_Tuning.pptx)
   - [Profiling Suspects Leveraging LLMs (Browser History)](/AI4Forensics/CKIM2024/Takeout/browser_analysis.ipynb) [colab](/AI4Forensics/CKIM2024/Takeout/profile_browser_history_colab.ipynb)
   - [Political Insight Analysis Leveraging LLMs (Email)](#political-insight-analysis-leveraging-llms)
+- [Group Crimes using Cellebrite’s 2022 Capture-the-Flag (CTF) competition dataset](https://github.com/frankwxu/digital-forensics-lab-p2). You can request a pdf lab instructions if you are a fauclty member.
+  - Beth's iPhone
+  - Heisenberg 's Andriod Phone
+  - Marsha's iPhone
 
 ## Tool Installation
 
