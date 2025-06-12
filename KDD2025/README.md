@@ -30,31 +30,31 @@ Email: [ldeng@towson.edu](mailto:ldeng@towson.edu)
 
 ## Table of Contents
 
-Introducing Digital Forensics
+- Introducing Digital Forensics
 
-Recognizing Entities from SQLite Forensic Databases
+- Recognizing Entities from SQLite Forensic Databases
 
-Reconstructing Evidence Knowledge Graphs
+- Reconstructing Evidence Knowledge Graphs
 
-Building STIX-Based Knowledge Graphs (k-Shot Learning)
+  - Building STIX-Based Knowledge Graphs (k-Shot Learning)
 
-Comparing k-Shot Learning
+  - Comparing k-Shot Learning
 
-Profiling Suspects Using Browser History
+- Profiling Suspects Using Browser History
 
-Preprocessing Data Techniques
+  - Preprocessing Data Techniques
 
-Demonstrating Live Profiling
+  - Demonstrating Live Profiling
 
-Analyzing Political Insights from Hillary’s Leaked Emails
+- Analyzing Political Insights from Hillary’s Leaked Emails
 
-Dealing with Extra Long Content
+  - Dealing with Extra Long Content
 
-Revealing Political Opinions in Emails
+  - Revealing Political Opinions in Emails
 
-Addressing Challenges and Limits of LLMs in Digital Forensics
+- Addressing Challenges and Limits of LLMs in Digital Forensics
 
-Concluding with Future Directions
+- Concluding with Future Directions
 
 
 ---
