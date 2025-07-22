@@ -22,9 +22,17 @@ Toronto, Canada
 
 ## Speakers
 
+**Eric Xu**  
+University of Maryland, College Park
+Email: [exu17288@terpmail.umd.edu](mailto:exu17288@terpmail.umd.edu)
+
 **Dr. Lin Deng**  
 Associate Professor, Towson University  
 Email: [ldeng@towson.edu](mailto:ldeng@towson.edu)
+
+**Damodar Dhital**  
+Towson University
+Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
 
 ---
 
