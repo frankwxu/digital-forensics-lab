@@ -52,7 +52,6 @@ Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
   - [Profiling lab](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/BrowserHistory/Eric/profile_browser_history_Eric.ipynb) and [video](https://youtu.be/flfKG2Cbmu4)
   - [Data Preprocessing](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/BrowserHistory/Eric/profile_browser_history_Eric_dataprocess.ipynb)
   - [Student Practice](/AI4Forensics/CKIM2024/BrowserHistory/Eric/HistoryProfilingLLMsLab.docx)
-- [Political insights analysis based on Hillary's leaked Emails (hands-on lab)](
 - Challenges and Limitations of Leveraging LLM in Digital Forensics
 - Conclusion
 
