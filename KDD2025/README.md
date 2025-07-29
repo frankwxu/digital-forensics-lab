@@ -53,7 +53,8 @@ Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
   - [Profiling lab](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/profile_browser_history_Eric.ipynb) and [video](https://youtu.be/flfKG2Cbmu4)
   - [Data Preprocessing](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/profile_browser_history_Eric_dataprocess.ipynb)
   - [Student Practice](/AI4Forensics/CKIM2024/BrowserHistory/Eric/HistoryProfilingLLMsLab.docx)
-- [Challenges and Limitations of Leveraging LLM in Digital Forensics](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/LLMForensicRansomwareDemo.ipynb)
+- [Insight on LLM Forensic Ransomware](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/LLMForensicRansomwareDemo.ipynb)
+- Challenges and Limitations of Leveraging LLM in Digital Forensics
 - Conclusion
 
 
