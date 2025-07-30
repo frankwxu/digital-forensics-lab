@@ -40,7 +40,7 @@ Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
 
 
 - Introduction
-- [Forensic evidence entity recognition (hands-on lab)]
+- Forensic evidence entity recognition (hands-on lab)
   - [Evidence entity recognition](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/01_evidence_entity_recognition.ipynb)
   - [Visualize evidence and their relations](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/02_evidence_knowledge_dot_generator.ipynb)
 
