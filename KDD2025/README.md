@@ -44,7 +44,7 @@ Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
   - [Evidence entity recognition](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/01_evidence_entity_recognition.ipynb)
   - [Visualize evidence and their relations](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/02_evidence_knowledge_dot_generator.ipynb)
 
-- [Evidence knowledge graphs reconstruction (hands-on lab)](#forensic-evidence-analysis)
+- Evidence knowledge graphs reconstruction (hands-on lab)
   - [Construct a knowledge graph in STIX (zero-shot)](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/03_evidence_stix_zeroshot.ipynb)
   - [Construct a knowledge graph in STIX (one-shot)](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/04_evidence_stix_oneshot.ipynb)
   - [Compare one-shot vs. zero-shot](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
