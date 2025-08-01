@@ -16,7 +16,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/HSERANSOMEWARE.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/HSERANSOMEWARE.ipynb)
 
 
 
