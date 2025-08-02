@@ -38,31 +38,25 @@ Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
 
 ## Table of Contents
 
-- Introducing Digital Forensics
 
-- Recognizing Entities from SQLite Forensic Databases
+- Introduction [KDD2025(PPTX)](https://github.com/damodar344/digital-forensics-lab/blob/main/KDD2025/Slides/KDD2025.pdf)
+- Forensic evidence entity recognition (hands-on lab)
+  - [Evidence entity recognition](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/01_evidence_entity_recognition.ipynb)
+  - [Visualize evidence and their relations](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/02_evidence_knowledge_dot_generator.ipynb)
 
-- Reconstructing Evidence Knowledge Graphs
+- Evidence knowledge graphs reconstruction (hands-on lab)
+  - [Construct a knowledge graph in STIX (zero-shot)](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/03_evidence_stix_zeroshot.ipynb)
+  - [Construct a knowledge graph in STIX (one-shot)](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/04_evidence_stix_oneshot.ipynb)
+  - [Compare one-shot vs. zero-shot](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/PhishingAttack/PhishingAttackScenarioDemo/05_evidence_stix_dot_generator.ipynb)
+- Profiling suspect based on browser history (hands-on lab)
+  - [Intro](/AI4Forensics/CKIM2024/BrowserHistory/Eric/HistoryProfilingLLMsIntro.pptx)
+  - [Profiling lab](https://colab.research.google.com/github/frankwxu/digital-forensics-lab/blob/main/AI4Forensics/CKIM2024/BrowserHistory/Eric/profile_browser_history_Eric.ipynb) and [video](https://youtu.be/flfKG2Cbmu4)
+  - [Data Preprocessing](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/profile_browser_history_Eric_dataprocess.ipynb)
+  - [Student Practice](/AI4Forensics/CKIM2024/BrowserHistory/Eric/HistoryProfilingLLMsLab.docx)
+- [Insight on LLM Forensic Ransomware](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/LLMForensicRansomwareDemo.ipynb)
+- Challenges and Limitations of Leveraging LLM in Digital Forensics
+- Conclusion
 
-  - Building STIX-Based Knowledge Graphs (k-Shot Learning)
-
-  - Comparing k-Shot Learning
-
-- Profiling Suspects Using Browser History
-
-  - Preprocessing Data Techniques
-
-  - Demonstrating Live Profiling
-
-- Analyzing Political Insights from Hillary’s Leaked Emails
-
-  - Dealing with Extra Long Content
-
-  - Revealing Political Opinions in Emails
-
-- Addressing Challenges and Limits of LLMs in Digital Forensics
-
-- Concluding with Future Directions
 
 
 ---
