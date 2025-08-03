@@ -57,6 +57,8 @@ Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
 - [Ireland’s Health Service Executive Ransomware](https://colab.research.google.com/github/damodar344/digital-forensics-lab/blob/main/KDD2025/BrowserHistory/HSERANSOMEWARE.ipynb)
 - Challenges and Limitations of Leveraging LLM in Digital Forensics
 - Conclusion
+-  **🔑 Key for `openai_api_key.txt`**: [Click here to download](https://tu-my.sharepoint.com/:t:/g/personal/ldeng_towson_edu/EUc5xTHr8jxAuc8ncRcGHW0BlLKmU3re2vVmAbfe9EDnfg?e=YXUuLb)
+
 
 
 
