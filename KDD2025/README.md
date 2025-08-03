@@ -60,7 +60,10 @@ Email: [ddhital1@students.towson.edu](mailto:ddhital1@students.towson.edu)
 -  **🔑 Key for `openai_api_key.txt`**: [Click here to download](https://tu-my.sharepoint.com/:t:/g/personal/ldeng_towson_edu/EUc5xTHr8jxAuc8ncRcGHW0BlLKmU3re2vVmAbfe9EDnfg?e=YXUuLb)
 
 
+- link for logs:
+https://tu-my.sharepoint.com/:u:/g/personal/ldeng_towson_edu/EWWNBkqtHDhOt078KoEbSB8B6sYm0eMyc8NG1ZivKTeSiw?e=QZudeN
 
+https://tu-my.sharepoint.com/:u:/g/personal/ldeng_towson_edu/Eev0pTwtl8pIsNN2p6SrGvEBnXyc-fGLe_I9NVJnx6vgCA?e=ZcvGQR
 
 ---
 
