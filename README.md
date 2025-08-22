@@ -16,21 +16,9 @@ _For feedback or to express your usage of the course materials, please reach out
 
 ---
 
-Please cite our [paper](/papers/compsac2022.pdf):
+[<img src="https://m.media-amazon.com/images/I/61LdoajOH6L._SY425_.jpg" width="150">](hhttps://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
 
-W. Xu, L. Deng, and D. Xu, "Towards Designing Shared Digital Forensics Instructional Materials," in <em>Proceeding of the 46st Annual International Computer Software and Applications Conference (COMPSAC 2022),</em> pp. 117-122, July 2022. ([Video Presentation](https://youtu.be/ypKuTauuQdk))
-
-or in BibTeX
-
-@inproceedings{xu2022forensics, \
-&emsp;title={Towards Designing Shared Digital Forensics Instructional Materials}, \
-&emsp;author={Xu, Weifeng and Deng, Lin, and Xu, Dianxiang}, \
-&emsp;booktitle={46st Annual International Computer Software and Applications Conference (COMPSAC 2022)},\
-&emsp;volume={1},\
-&emsp;pages={117--122},\
-&emsp;year={2022},\
-&emsp;organization={IEEE}\
-}
+The PowerPoints of the book can be found the first and second section of the Table of Contents below.
 
 ---
 
@@ -44,6 +32,17 @@ or in BibTeX
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/3_Linux_command_line_tutorial.pptx)
   - [Advanced Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/4_Advanced_linux_command_line.pptx)
 
+- Computer and Digital Forensics (updated on Oct. 2021)
+
+  - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
+  - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
+  - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
+  - [Evidence Search - A Pattern Match Game](/Basic_Computer_Skills_for_Forensics/8_1_Evidence_search_a_pattern_match_game.pptx) (updated on May 2022)
+  - [Evidence Search - File Metadata](/Basic_Computer_Skills_for_Forensics/8_2_Evidence_search_file_metadata.pptx)
+  - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
+  - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
+  - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
+
 - Basic Networking Skills for Digital Forensics (added 3/17/2023. Use Paython Scapy and netfilterqueue libraries.)
 
   - [HTTP Analysis using Wireshark (text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)
@@ -56,15 +55,6 @@ or in BibTeX
   - [DNS Spoofing Forensics](Networking_Forensics/80_DNS_Spoof_Forensics.pptx)
   - [WEP40 Wireless Aircrack](Networking_Forensics/90_Wireless_aircrack_WEP40_1.pptx)
 
-- Computer and Digital Forensics (updated on Oct. 2021)
-  - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
-  - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
-  - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
-  - [Evidence Search - A Pattern Match Game](/Basic_Computer_Skills_for_Forensics/8_1_Evidence_search_a_pattern_match_game.pptx) (updated on May 2022)
-  - [Evidence Search - File Metadata](/Basic_Computer_Skills_for_Forensics/8_2_Evidence_search_file_metadata.pptx)
-  - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
-  - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
-  - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
 - Computer Forensics Case Study
   - [Investigating NIST Data Leakage (Windows XP)](#investigating-nist-data-leakage)
   - [Investigating P2P Data Leakage (Windows 10)](#investigating-p2p-data-leakage)
@@ -91,6 +81,26 @@ or in BibTeX
   - Beth's iPhone
   - Heisenberg 's Andriod Phone
   - Marsha's iPhone
+
+---
+
+Please cite our [paper](/papers/compsac2022.pdf):
+
+W. Xu, L. Deng, and D. Xu, "Towards Designing Shared Digital Forensics Instructional Materials," in <em>Proceeding of the 46st Annual International Computer Software and Applications Conference (COMPSAC 2022),</em> pp. 117-122, July 2022. ([Video Presentation](https://youtu.be/ypKuTauuQdk))
+
+or in BibTeX
+
+@inproceedings{xu2022forensics, \
+&emsp;title={Towards Designing Shared Digital Forensics Instructional Materials}, \
+&emsp;author={Xu, Weifeng and Deng, Lin, and Xu, Dianxiang}, \
+&emsp;booktitle={46st Annual International Computer Software and Applications Conference (COMPSAC 2022)},\
+&emsp;volume={1},\
+&emsp;pages={117--122},\
+&emsp;year={2022},\
+&emsp;organization={IEEE}\
+}
+
+---
 
 ## Tool Installation
 
@@ -425,10 +435,11 @@ Here are some political insights based on the leaked email summaries obtained fr
 ## Contribution
 
 - PIs of the project
+
   - Dr. Frank Xu (Email: fxu at ubalt dot edu)
   - Dr. Debra L. Stanley
   - Dr. Lin Deng; Twoson University
-  - Dr. Wenbin Zhang; FIU
+
 - Students:
   - Eric Xu: University of Maryland (LLM for Digital Forensics)
   - Jeel Khatiwala (Evaluating the Reliability of Digital Forensic Evidence Discovered by LLMs)
