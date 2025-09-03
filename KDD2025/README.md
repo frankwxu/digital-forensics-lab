@@ -76,8 +76,7 @@ By leveraging LLMs in digital investigations, this tutorial empowers professiona
 
 ## Citation
 
-Xu, Eric, and Deng, Lin. "Enhancing Digital Forensics Evidence Analysis with Large Language Models." In _Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2_, pp. 6251-6252. 2025.
-
+Xu, Eric, and Deng, Lin. "Enhancing Digital Forensics Evidence Analysis with Large Language Models." In _Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2_, pp. 6251-6252. 2025. (https://dl.acm.org/doi/abs/10.1145/3711896.3737600)
 
 ## Acknowledgments
 
