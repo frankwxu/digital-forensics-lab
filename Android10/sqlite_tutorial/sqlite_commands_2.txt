@@ -1,0 +1,51 @@
+CREATE TABLE users (
+    user_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT
+);
+
+CREATE TABLE orders (
+    order_id INTEGER PRIMARY KEY,
+    user_id INTEGER,
+    product TEXT,
+    amount REAL,
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+
+INSERT INTO users (name, email) VALUES
+('Alice', 'alice@example.com'),
+('Bob', 'bob@example.com'),
+('Charlie', 'charlie@example.com');
+
+INSERT INTO orders (user_id, product, amount) VALUES
+(1, 'Laptop', 999.99),
+(1, 'Mouse', 29.99),
+(2, 'Keyboard', 59.99);
+
+SELECT * FROM users;
+SELECT * FROM orders;
+
+SELECT users.name, orders.product, orders.amount
+FROM users
+INNER JOIN orders
+ON users.user_id = orders.user_id;
+
+SELECT users.name, orders.product, orders.amount
+FROM users
+LEFT JOIN orders
+ON users.user_id = orders.user_id;
+
+SELECT users.name, orders.product, orders.amount
+FROM users
+INNER JOIN orders
+ON users.user_id = orders.user_id
+WHERE orders.amount > 100;
+
+SELECT users.name
+FROM users
+LEFT JOIN orders
+ON users.user_id = orders.user_id
+WHERE orders.user_id IS NULL;
+
+INSERT INTO orders (user_id, product, amount)
+VALUES (3, 'Tablet', 299.99);
