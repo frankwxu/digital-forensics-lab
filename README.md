@@ -16,7 +16,7 @@ _For feedback or to express your usage of the course materials, please reach out
 
 ---
 
-[<img src="https://m.media-amazon.com/images/I/61LdoajOH6L._SY425_.jpg" width="150">](hhttps://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
+[<img src="https://m.media-amazon.com/images/I/61LdoajOH6L._SY425_.jpg" width="150">](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
 
 The PowerPoint slides are available in the first two sections of the Table of Contents.
 
