@@ -396,6 +396,7 @@ Here are some political insights based on the leaked email summaries obtained fr
 
 ---
 
+[Dark-Moon](https://github.com/ASCIT31/Dark-Moon): open source (GPL-3.0) autonomous AI penetration testing platform (web, API, Active Directory, Kubernetes), self hosted with proof of exploitation, a complementary offensive tool for students practising on authorized labs.
 ### Tools
 
 | Name                    | Command           | Repository                                                      | Installation Method |
