@@ -16,9 +16,22 @@ _For feedback or to express your usage of the course materials, please reach out
 
 ---
 
-[<img src="https://m.media-amazon.com/images/I/61LdoajOH6L._SY425_.jpg" width="150">](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
+## Digital Forensics Basics: Second Version and Companion Materials
 
-The PowerPoint slides are available in the first two sections of the Table of Contents.
+[<img src="https://m.media-amazon.com/images/I/71a9y0+-ctL._SL1500_.jpg" width="150" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
+
+The **649-page second version** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7) expands and refines the foundational material in this repository. It offers enhanced content, clearer explanations, stronger connections between concepts and investigative workflows, and more carefully sequenced hands-on activities. These improvements create a more cohesive reading experience and make the material easier to follow for beginners, independent learners, and instructors building a course.
+
+The book is supported by a dedicated [companion-materials repository](https://github.com/frankwxu/Digital-Forensics-Basic-Book) that extends the reading experience beyond the text. It includes:
+
+- **Chapter-aligned PowerPoint presentations** for reviewing key concepts, diagrams, terminology, and lab workflows
+- **Downloadable lab and evidence files** organized by chapter for convenient hands-on practice
+- **Expanded evidence-search materials**, including separate presentations on pattern matching, file metadata, and advanced search techniques
+- **A supplemental Windows command-line tutorial** for readers who want additional foundational practice
+- **Study and lab guidance** covering evidence notes, reproducibility, authorization, privacy, and the safe handling of forensic media
+- **Curated tool references** for Autopsy, The Sleuth Kit, Wireshark, 7-Zip, and other utilities used throughout the exercises
+
+Together, the book and its supplemental materials provide a more complete learning path: read the explanation, review the chapter presentation, download the corresponding practice files, and reinforce each concept through guided investigation.
 
 Faculty members are eligible for a complimentary desk copy. To request the PDF, please contact me from your institutional email address and include a link to your faculty profile or university webpage.
 
