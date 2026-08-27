@@ -20,7 +20,7 @@ _For feedback or to express your usage of the course materials, please reach out
 
 [<img src="https://m.media-amazon.com/images/I/71a9y0+-ctL._SL1500_.jpg" width="150" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
 
-The **649-page second version** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7) expands and refines the foundational material in this repository. It offers enhanced content, clearer explanations, stronger connections between concepts and investigative workflows, and more carefully sequenced hands-on activities. These improvements create a more cohesive reading experience and make the material easier to follow for beginners, independent learners, and instructors building a course.
+The **649-page second version** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7) is organized around selected instructional content from this GitHub repository. Rather than reproducing the repository as-is, the book reorganizes, expands, and refines that material into its own cohesive, chapter-by-chapter learning path. It offers enhanced content, clearer explanations, stronger connections between concepts and investigative workflows, and more carefully sequenced hands-on activities. These improvements create a smoother reading experience and make the material easier to follow for beginners, independent learners, and instructors building a course.
 
 The book is supported by a dedicated [companion-materials repository](https://github.com/frankwxu/Digital-Forensics-Basic-Book) that extends the reading experience beyond the text. It includes:
 
@@ -37,7 +37,9 @@ Faculty members are eligible for a complimentary desk copy. To request the PDF, 
 
 ---
 
-## Table of Contents (new release Oct 15, 2024: Eufy investigations)
+## Repository Materials: Table of Contents
+
+The links below are the table of contents for this **digital-forensics-lab repository**, not the table of contents of the book. They index the labs, presentations, case studies, datasets, and other instructional resources available here. *(Latest noted repository addition: Eufy investigations, October 15, 2024.)*
 
 - Basic Computer Skills for Digital Forensics
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx) (add Python code for data conversion 1/2023)
