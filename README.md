@@ -16,7 +16,7 @@ _To provide feedback or tell us how you use the course materials, please email w
 
 ---
 
-## Digital Forensics Basics: Second Edition and Companion Materials
+## ![NEW](https://img.shields.io/badge/NEW-red) Digital Forensics Basics: Second Edition and Companion Materials
 
 [<img src="https://m.media-amazon.com/images/I/71a9y0+-ctL._SL1500_.jpg" width="150" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
 
