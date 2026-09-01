@@ -18,22 +18,15 @@ _To provide feedback or tell us how you use the course materials, please email w
 
 ## ![NEW](https://img.shields.io/badge/NEW-red) Digital Forensics Basics: Second Edition and Companion Materials
 
-[<img src="https://m.media-amazon.com/images/I/71RQiqOsP3L._SL1500_.jpg" width="150" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/dp/B0HH8WQSMK)
+[<img src="https://m.media-amazon.com/images/I/71RQiqOsP3L._SL1500_.jpg" width="140" align="left" hspace="15" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/dp/B0HH8WQSMK)
 
-The **649-page second edition** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/dp/B0HH8WQSMK) is organized around selected instructional content from this GitHub repository. Rather than reproducing the repository as-is, the book reorganizes, expands, and refines that material into its own cohesive, chapter-by-chapter learning path. It offers enhanced content, clearer explanations, stronger connections between concepts and investigative workflows, and more carefully sequenced hands-on activities. These improvements create a smoother reading experience and make the material easier to follow for beginners, independent learners, and instructors building a course.
+The **649-page second edition** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/dp/B0HH8WQSMK) builds on selected content from this repository, reorganizing and expanding it into a structured, chapter-by-chapter learning path for beginners, independent learners, and instructors.
 
-The book is supported by a dedicated [companion materials repository](https://github.com/frankwxu/Digital-Forensics-Basic-Book) that extends the reading experience beyond the text. It includes:
-
-- **Chapter-aligned PowerPoint presentations** for reviewing key concepts, diagrams, terminology, and lab workflows
-- **Downloadable lab and evidence files** organized by chapter for convenient hands-on practice
-- **Expanded evidence-search materials**, including separate presentations on pattern matching, file metadata, and advanced search techniques
-- **A supplemental Windows command-line tutorial** for readers who want additional foundational practice
-- **Study and lab guidance** covering evidence notes, reproducibility, authorization, privacy, and the safe handling of forensic media
-- **Curated tool references** for Autopsy, The Sleuth Kit, Wireshark, 7-Zip, and other utilities used throughout the exercises
-
-Together, the book and its supplemental materials provide a more complete learning path: read the explanation, review the chapter presentation, download the corresponding practice files, and reinforce each concept through guided investigation.
+A dedicated [companion materials repository](https://github.com/frankwxu/Digital-Forensics-Basic-Book) provides chapter-aligned presentations, downloadable lab and evidence files, expanded evidence-search materials, a Windows command-line tutorial, study and lab guidance, and curated tool references.
 
 Faculty members are eligible for a complimentary desk copy. To request the PDF, please contact me from your institutional email address and include a link to your faculty profile or university webpage.
+
+<br clear="left">
 
 ---
 
