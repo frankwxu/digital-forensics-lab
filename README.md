@@ -91,26 +91,6 @@ The list below serves as the table of contents for this **digital-forensics-lab 
 
 ---
 
-Please cite our [paper](/papers/compsac2022.pdf):
-
-W. Xu, L. Deng, and D. Xu, "Towards Designing Shared Digital Forensics Instructional Materials," in <em>Proceedings of the 46th Annual International Computer Software and Applications Conference (COMPSAC 2022),</em> pp. 117-122, July 2022. ([Video Presentation](https://youtu.be/ypKuTauuQdk))
-
-Alternatively, use the following BibTeX entry:
-
-```bibtex
-@inproceedings{xu2022forensics,
-  title={Towards Designing Shared Digital Forensics Instructional Materials},
-  author={Xu, Weifeng and Deng, Lin, and Xu, Dianxiang},
-  booktitle={46th Annual International Computer Software and Applications Conference (COMPSAC 2022)},
-  volume={1},
-  pages={117--122},
-  year={2022},
-  organization={IEEE}
-}
-```
-
----
-
 ## Tool Installation
 
 ### Method 1: Importing a Customized Kali VM Image
