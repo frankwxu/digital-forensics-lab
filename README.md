@@ -18,9 +18,9 @@ _To provide feedback or tell us how you use the course materials, please email w
 
 ## ![NEW](https://img.shields.io/badge/NEW-red) Digital Forensics Basics: Second Edition and Companion Materials
 
-[<img src="https://m.media-amazon.com/images/I/71a9y0+-ctL._SL1500_.jpg" width="150" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7)
+[<img src="https://m.media-amazon.com/images/I/71RQiqOsP3L._SL1500_.jpg" width="150" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/dp/B0HH8WQSMK)
 
-The **649-page second edition** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/Digital-Forensics-Basics-Step-Step-ebook/dp/B0FKZMJLV7) is organized around selected instructional content from this GitHub repository. Rather than reproducing the repository as-is, the book reorganizes, expands, and refines that material into its own cohesive, chapter-by-chapter learning path. It offers enhanced content, clearer explanations, stronger connections between concepts and investigative workflows, and more carefully sequenced hands-on activities. These improvements create a smoother reading experience and make the material easier to follow for beginners, independent learners, and instructors building a course.
+The **649-page second edition** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/dp/B0HH8WQSMK) is organized around selected instructional content from this GitHub repository. Rather than reproducing the repository as-is, the book reorganizes, expands, and refines that material into its own cohesive, chapter-by-chapter learning path. It offers enhanced content, clearer explanations, stronger connections between concepts and investigative workflows, and more carefully sequenced hands-on activities. These improvements create a smoother reading experience and make the material easier to follow for beginners, independent learners, and instructors building a course.
 
 The book is supported by a dedicated [companion materials repository](https://github.com/frankwxu/Digital-Forensics-Basic-Book) that extends the reading experience beyond the text. It includes:
 
