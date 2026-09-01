@@ -445,12 +445,6 @@ The following image presents political insights derived from summaries of emails
 
 ---
 
-## Star History
+## GitHub Stars
 
-<a href="https://www.star-history.com/?repos=frankwxu%2Fdigital-forensics-lab&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=frankwxu/digital-forensics-lab&type=date&theme=dark&legend=top-left&sealed_token=QLG2IoC6rGLOmppzMTNZ6GUua_bQOcXoSDc94I_z0Tql-_Y5LoI_iYQ6VKqdFbNJecrH_ZgiM0pKnUuCZ9QpDTibmDIIuwEaMBMC1TKV4Zk4TpUl4nOrJCQyBtaxArRRs4uOHhtpylhwoxbbpscj__P_VvC7HHMwS-mEfDOZG4MTUIQlX7jtD4BidhAu" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=frankwxu/digital-forensics-lab&type=date&legend=top-left&sealed_token=QLG2IoC6rGLOmppzMTNZ6GUua_bQOcXoSDc94I_z0Tql-_Y5LoI_iYQ6VKqdFbNJecrH_ZgiM0pKnUuCZ9QpDTibmDIIuwEaMBMC1TKV4Zk4TpUl4nOrJCQyBtaxArRRs4uOHhtpylhwoxbbpscj__P_VvC7HHMwS-mEfDOZG4MTUIQlX7jtD4BidhAu" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=frankwxu/digital-forensics-lab&type=date&legend=top-left&sealed_token=QLG2IoC6rGLOmppzMTNZ6GUua_bQOcXoSDc94I_z0Tql-_Y5LoI_iYQ6VKqdFbNJecrH_ZgiM0pKnUuCZ9QpDTibmDIIuwEaMBMC1TKV4Zk4TpUl4nOrJCQyBtaxArRRs4uOHhtpylhwoxbbpscj__P_VvC7HHMwS-mEfDOZG4MTUIQlX7jtD4BidhAu" />
- </picture>
-</a>
+[![GitHub stars](https://img.shields.io/github/stars/frankwxu/digital-forensics-lab?style=for-the-badge&logo=github)](https://github.com/frankwxu/digital-forensics-lab/stargazers)
