@@ -24,7 +24,7 @@ The **649-page second edition** of [*Digital Forensics Basics: A Step-by-Step Gu
 
 A dedicated [companion materials repository](https://github.com/frankwxu/Digital-Forensics-Basic-Book) provides chapter-aligned presentations, downloadable lab and evidence files, expanded evidence-search materials, a Windows command-line tutorial, study and lab guidance, and curated tool references.
 
-Faculty members are eligible for a complimentary desk copy. To request the PDF, please contact me from your institutional email address and include a link to your faculty profile or university webpage.
+Faculty members are eligible for a complimentary desk copy. To request the PDF, please email **ldeng at towson dot edu** from your institutional email address and include a link to your faculty profile or university webpage.
 
 <br clear="left">
 
