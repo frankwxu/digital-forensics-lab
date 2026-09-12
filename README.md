@@ -18,7 +18,7 @@ _To provide feedback or tell us how you use the course materials, please email w
 
 ## ![NEW](https://img.shields.io/badge/NEW-red) Digital Forensics Basics: Second Edition and Companion Materials
 
-[<img src="https://m.media-amazon.com/images/I/71RQiqOsP3L._SL1500_.jpg" width="140" align="left" hspace="15" alt="Digital Forensics Basics: A Step-by-Step Guide for Beginners book cover">](https://www.amazon.com/dp/B0HH8WQSMK)
+[](https://www.amazon.com/dp/B0HH8WQSMK)
 
 The **649-page second edition** of [*Digital Forensics Basics: A Step-by-Step Guide for Beginners*](https://www.amazon.com/dp/B0HH8WQSMK) builds on selected content from this repository, reorganizing and expanding it into a structured, chapter-by-chapter learning path for beginners, independent learners, and instructors.
 
@@ -35,13 +35,14 @@ Faculty members are eligible for a complimentary desk copy. To request the PDF, 
 The list below serves as the table of contents for this **digital-forensics-lab repository**, not for the book. It indexes the labs, presentations, case studies, datasets, and other instructional resources available here. *(Latest noted repository addition: Eufy investigations, October 15, 2024.)*
 
 - Basic Computer Skills for Digital Forensics
+
   - [Number Systems](/Basic_Computer_Skills_for_Forensics/0_Number_Systems.pptx) (Python data-conversion code added in January 2023)
   - [PC Introduction](/Basic_Computer_Skills_for_Forensics/1_PC_Introduction.pptx)
   - [Windows Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/2_Win_command_line_tutorial.pptx)
   - [Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/3_Linux_command_line_tutorial.pptx)
   - [Advanced Linux Command Line Tutorial](/Basic_Computer_Skills_for_Forensics/4_Advanced_linux_command_line.pptx)
-
 - Computer and Digital Forensics (updated in October 2021)
+
   - [Introduction to Digital Forensics](/Basic_Computer_Skills_for_Forensics/5_Introduction_to_digital_forensics.pptx)
   - [Sleuth Kit Tutorial](/Basic_Computer_Skills_for_Forensics/6_Sleuth_Kit_Tutorial.pptx)
   - [USB Image Acquisition](/Basic_Computer_Skills_for_Forensics/7_USB_Image_Acquisition.pptx)
@@ -50,8 +51,8 @@ The list below serves as the table of contents for this **digital-forensics-lab 
   - [Data Carving](/Basic_Computer_Skills_for_Forensics/9_Data_Carving.pptx)
   - [Steganography](/Basic_Computer_Skills_for_Forensics/10_Steganography.pptx)
   - [Forensic Report Template](/Basic_Computer_Skills_for_Forensics/Forensic_Report_Template.pdf)
-
 - Basic Networking Skills for Digital Forensics (added on March 17, 2023; uses the Python Scapy and NetfilterQueue libraries)
+
   - [HTTP Analysis Using Wireshark (Text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)
   - [HTTP Analysis Using Wireshark (Image)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_2_image.pptx)
   - [SYN Flood Attack Investigation Using TShark](Networking_Forensics/20_HTTP_tshark_Forensics_1_SYN_Flood.pptx)
@@ -61,30 +62,34 @@ The list below serves as the table of contents for this **digital-forensics-lab 
   - [DNS Introduction](Networking_Forensics/70_DNS.pptx)
   - [DNS Spoofing Forensics](Networking_Forensics/80_DNS_Spoof_Forensics.pptx)
   - [WEP40 Wireless Aircrack](Networking_Forensics/90_Wireless_aircrack_WEP40_1.pptx)
-
 - Computer Forensics Case Studies
+
   - [Investigating NIST Data Leakage (Windows XP)](#investigating-nist-data-leakage)
   - [Investigating P2P Data Leakage (Windows 10)](#investigating-p2p-data-leakage)
-  - [Investigating Illegal Possession of Images ("Networking forensics")](#investigating-illegal-possession-of-images)
+  - [Investigating Illegal Possession of Images (&#34;Networking forensics&#34;)](#investigating-illegal-possession-of-images)
   - [Investigating Email Harassment](#investigating-email-harassment) (updated in February 2023)
   - [Investigating an Illegal File Transfer (Memory Forensics)](#investigating-an-illegal-file-transfer)
   - [Investigating a Hacking Case](#investigating-a-hacking-case)
   - [Investigating the Morris Worm Attack](#investigating-the-morris-worm-attack) (updated in January 2023; [poster](/papers/poster_Morris_Worm_Attack.pdf))
 - Mobile/IoT Forensics Case Studies
+
   - [Investigating Eufy Doorbell](#investigating-eufy-doorbell) (added on October 15, 2024)
   - [Investigating Echo Show 8](#investigating-echo-show-8) (added on December 25, 2023)
   - [Investigating Android 10](#investigating-android-10) (added on October 24, 2021)
   - [Investigating iPhone iOS 13](#investigating-iphone-ios-1341) (updated on June 18, 2022)
   - [Investigating a DJI Drone](#investigating-a-dji-drone) (added on December 7, 2021)
 - Forensic Intelligence Repository
+
   - [Email Forensics](/STIX_for_digital_forensics/Email_Harassment)
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
 - AI for Forensics
+
   - [CIKM 2024 tutorial session](https://cikm2024.org/tutorials/) with an accompanying [hands-on lab](AI4Forensics/CKIM2024/readme.md)
   - [Identifying IP Addresses Using a Fine-Tuned AI Model](/AI4Forensics/IP_Identifier_Fine_Tuning/IP_Identifer_Fine_Tuning.pptx)
   - [Profiling Suspects Using LLMs (Browser History)](/AI4Forensics/CKIM2024/Takeout/browser_analysis.ipynb) ([Colab version](/AI4Forensics/CKIM2024/Takeout/profile_browser_history_colab.ipynb))
   - [Political Insight Analysis Leveraging LLMs (Email)](#political-insight-analysis-leveraging-llms)
-- [Investigating Group Crimes Using Cellebrite's 2022 Capture-the-Flag (CTF) Competition Dataset](https://github.com/frankwxu/digital-forensics-lab-p2). Faculty members may request PDF lab instructions.
+- [Investigating Group Crimes Using Cellebrite&#39;s 2022 Capture-the-Flag (CTF) Competition Dataset](https://github.com/frankwxu/digital-forensics-lab-p2). Faculty members may request PDF lab instructions.
+
   - Beth's iPhone
   - Heisenberg's Android phone
   - Marsha's iPhone
@@ -105,9 +110,7 @@ The customized VM combines [Kali Linux 2021.4](http://old.kali.org/kali-images/k
 The script has been tested only on Kali Linux 2021.4. It installs the tools required to complete most of the labs listed above, except for the P2P data leakage case, which uses a separate script described in the presentations. Please let us know if you would like us to add more tools to the script.
 
 - Install [VirtualBox](https://www.virtualbox.org/).
-
 - Install [Kali Linux 2021.4](http://old.kali.org/kali-images/kali-2021.4/). We recommend configuring the VM with an 80 GB virtual disk because each data-leakage case image may exceed 30 GB.
-
 - Follow the [tool-installation instructions](https://raw.githubusercontent.com/frankwxu/digital-forensics-lab/main/Help/Tool_installation.pptx), or run the commands below:
 
 ```
@@ -137,22 +140,22 @@ This [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/NI
 
 **Topics Covered**
 
-| Labs   | Topics Covered (Command Line)                                                                                                | Python Version                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Lab 0  | [Environment Setup](NIST_Data_Leakage_Case/NIST_Data_Leakage_00_Env_Setting.pptx)                                            |                                                                                          |
-| Lab 1  | [Windows Registry](NIST_Data_Leakage_Case/NIST_Data_Leakage_01_Registry.pptx)                                                |                                                                                          |
-| Lab 2  | [Windows Event and XML](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                        | [Python version](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML_Python.pptx)    |
-| Lab 3  | [Web History and SQL](NIST_Data_Leakage_Case/NIST_Data_Leakage_03_WebHistory_SQL.pptx)                                       | [Python version](NIST_Data_Leakage_Case/NIST_Data_Leakage_03_WebHistory_SQL_Python.pptx) |
-| Lab 4  | [Email Investigation](NIST_Data_Leakage_Case/NIST_Data_Leakage_04_Email_USB.pptx)                                            | [Python version](NIST_Data_Leakage_Case/NIST_Data_Leakage_04_Email_USB_Python.pptx)      |
-| Lab 5  | [File Change History and USN Journal](NIST_Data_Leakage_Case/NIST_Data_Leakage_05_USNJournaling.pptx)                        |                                                                                          |
-| Lab 6  | [Network Evidence, Shellbags, and Jump Lists](NIST_Data_Leakage_Case/NIST_Data_Leakage_06_Network_Shellbag_Jumplist.pptx)     |                                                                                          |
-| Lab 7  | [Network Drive and Cloud](NIST_Data_Leakage_Case/NIST_Data_Leakage_07_NetworkDrive_Cloud.pptx)                               |                                                                                          |
-| Lab 8  | [Master File Table ($MFT) and Log File ($LogFile) Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)       |                                                                                          |
-| Lab 9  | [Windows Search History](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)                                         |                                                                                          |
-| Lab 10 | [Windows Volume Shadow Copy Analysis and SQL Database Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_10_Vol_Shadow_Copy.pptx) |                                                                                       |
-| Lab 11 | [Recycle Bin and Anti-Forensics](NIST_Data_Leakage_Case/NIST_Data_Leakage_11_RecycleBin_AntiForensics.pptx)                  |                                                                                          |
-| Lab 12 | [Data Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_12_CD-R_Data_Carving.pptx)                                           |                                                                                          |
-| Lab 13 | [Cracking Windows Passwords](NIST_Data_Leakage_Case/NIST_Data_Leakage_13_Crack_Win10_Login_Password.pptx)                    |                                                                                          |
+| Labs   | Topics Covered (Command Line)                                                                                                    | Python Version                                                                           |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Lab 0  | [Environment Setup](NIST_Data_Leakage_Case/NIST_Data_Leakage_00_Env_Setting.pptx)                                                |                                                                                          |
+| Lab 1  | [Windows Registry](NIST_Data_Leakage_Case/NIST_Data_Leakage_01_Registry.pptx)                                                    |                                                                                          |
+| Lab 2  | [Windows Event and XML](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML.pptx)                                            | [Python version](NIST_Data_Leakage_Case/NIST_Data_Leakage_02._WinEvt_XML_Python.pptx)    |
+| Lab 3  | [Web History and SQL](NIST_Data_Leakage_Case/NIST_Data_Leakage_03_WebHistory_SQL.pptx)                                           | [Python version](NIST_Data_Leakage_Case/NIST_Data_Leakage_03_WebHistory_SQL_Python.pptx) |
+| Lab 4  | [Email Investigation](NIST_Data_Leakage_Case/NIST_Data_Leakage_04_Email_USB.pptx)                                                | [Python version](NIST_Data_Leakage_Case/NIST_Data_Leakage_04_Email_USB_Python.pptx)      |
+| Lab 5  | [File Change History and USN Journal](NIST_Data_Leakage_Case/NIST_Data_Leakage_05_USNJournaling.pptx)                            |                                                                                          |
+| Lab 6  | [Network Evidence, Shellbags, and Jump Lists](NIST_Data_Leakage_Case/NIST_Data_Leakage_06_Network_Shellbag_Jumplist.pptx)        |                                                                                          |
+| Lab 7  | [Network Drive and Cloud](NIST_Data_Leakage_Case/NIST_Data_Leakage_07_NetworkDrive_Cloud.pptx)                                   |                                                                                          |
+| Lab 8  | [Master File Table ($MFT) and Log File ($LogFile) Analysis](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)          |                                                                                          |
+| Lab 9  | [Windows Search History](NIST_Data_Leakage_Case/NIST_Data_Leakage_08_CD_%24MFT.pptx)                                             |                                                                                          |
+| Lab 10 | [Windows Volume Shadow Copy Analysis and SQL Database Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_10_Vol_Shadow_Copy.pptx) |                                                                                          |
+| Lab 11 | [Recycle Bin and Anti-Forensics](NIST_Data_Leakage_Case/NIST_Data_Leakage_11_RecycleBin_AntiForensics.pptx)                      |                                                                                          |
+| Lab 12 | [Data Carving](NIST_Data_Leakage_Case/NIST_Data_Leakage_12_CD-R_Data_Carving.pptx)                                               |                                                                                          |
+| Lab 13 | [Cracking Windows Passwords](NIST_Data_Leakage_Case/NIST_Data_Leakage_13_Crack_Win10_Login_Password.pptx)                        |                                                                                          |
 
 ---
 
@@ -168,7 +171,7 @@ The [P2P data leakage case study](https://github.com/frankwxu/digital-forensics-
 
 | Labs   | Topics Covered                                                                                        | Size of PPTs |
 | ------ | ----------------------------------------------------------------------------------------------------- | ------------ |
-| Lab 0  | [Lab Environment Setup](P2P_Leakage/Presentation/ID00_Lab_Setup.pptx)                               | 4M           |
+| Lab 0  | [Lab Environment Setup](P2P_Leakage/Presentation/ID00_Lab_Setup.pptx)                                 | 4M           |
 | Lab 1  | [Disk Image and Partitions](P2P_Leakage/Presentation/ID01_Disk_Image_and_Partitions.pptx)             | 5M           |
 | Lab 2  | [Windows Registry and File Directory](P2P_Leakage/Presentation/ID02_Registry_and_File_Directory.pptx) | 15M          |
 | Lab 3  | [MFT Timeline](P2P_Leakage/Presentation/ID03_MFT_Timeline.pptx)                                       | 6M           |
@@ -188,13 +191,13 @@ This [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Il
 
 **Topics Covered**
 
-| Labs  | Topics Covered                                                                                                                                | Size of PPTs |
-| ----- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Lab 1 | [Reviewing HTTP Analysis Using Wireshark (Text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)                               | 3M           |
-| Lab 2 | [Rhino Possession Investigation 1: File Recovery](Illegal_Possession_Images/Rhion_Possession_1_File_Recovering.pptx)                            | 9M           |
-| Lab 3 | [Rhino Possession Investigation 2: Steganography](Illegal_Possession_Images/Rhion_Possession_2_Steganography.pptx)                              | 4M           |
+| Labs  | Topics Covered                                                                                                                                   | Size of PPTs |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| Lab 1 | [Reviewing HTTP Analysis Using Wireshark (Text)](Illegal_Possession_Images/HTTP_Wireshark_Forensics_1_text.pptx)                                 | 3M           |
+| Lab 2 | [Rhino Possession Investigation 1: File Recovery](Illegal_Possession_Images/Rhion_Possession_1_File_Recovering.pptx)                             | 9M           |
+| Lab 3 | [Rhino Possession Investigation 2: Steganography](Illegal_Possession_Images/Rhion_Possession_2_Steganography.pptx)                               | 4M           |
 | Lab 4 | [Rhino Possession Investigation 3: Extracting Evidence from FTP Traffic](Illegal_Possession_Images/Rhion_Possession_3_FTP_Traffic_crackzip.pptx) | 3M           |
-| Lab 5 | [Rhino Possession Investigation 4: Extracting Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)      | 5M           |
+| Lab 5 | [Rhino Possession Investigation 4: Extracting Evidence from HTTP Traffic](Illegal_Possession_Images/Rhion_Possession_4_HTTP_Traffic.pptx)        | 5M           |
 
 ---
 
@@ -204,11 +207,11 @@ This [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Em
 
 **Topics Covered**
 
-| Labs  | Topics Covered                                                                                                   | Size of PPTs |
-| ----- | ---------------------------------------------------------------------------------------------------------------- | ------------ |
+| Labs  | Topics Covered                                                                                                    | Size of PPTs |
+| ----- | ----------------------------------------------------------------------------------------------------------------- | ------------ |
 | Lab 0 | [Investigating a Harassing Email Using Wireshark](Email_Harassment/0_Investigate_Harassment_Email_Wireshark.pptx) | 3M           |
 | Lab 1 | [Introduction to TShark Forensics](Email_Harassment/1_tshark_forensics_Introduction.pptx)                         | 7M           |
-| Lab 2 | [Investigating a Harassing Email Using TShark](2_Investigate_Harassment_Email_TShark.pptx)                       | 2M           |
+| Lab 2 | [Investigating a Harassing Email Using TShark](2_Investigate_Harassment_Email_TShark.pptx)                        | 2M           |
 
 ---
 
@@ -221,14 +224,14 @@ This [case study](https://github.com/frankwxu/digital-forensics-lab/tree/main/Il
 | Labs   | Topics Covered                                                 | Size of PPTs |
 | ------ | -------------------------------------------------------------- | ------------ |
 | Lab 0  | [Memory Forensics](Illegal_File_Transferring_Memory_Forensics) | 11M          |
-| Part 1 | Understanding the Suspect and Accounts                          |              |
-| Part 2 | Understanding the Suspect's PC                                  |              |
-| Part 3 | Network Forensics                                               |              |
-| Part 4 | Investigating Command History                                   |              |
-| Part 5 | Investigating the Suspect's USB Device                          |              |
-| Part 6 | Investigating Internet Explorer History                         |              |
-| Part 7 | Investigating File Explorer History                             |              |
-| Part 8 | Timeline Analysis                                               |              |
+| Part 1 | Understanding the Suspect and Accounts                         |              |
+| Part 2 | Understanding the Suspect's PC                                 |              |
+| Part 3 | Network Forensics                                              |              |
+| Part 4 | Investigating Command History                                  |              |
+| Part 5 | Investigating the Suspect's USB Device                         |              |
+| Part 6 | Investigating Internet Explorer History                        |              |
+| Part 7 | Investigating File Explorer History                            |              |
+| Part 8 | Timeline Analysis                                              |              |
 
 ---
 
@@ -267,17 +270,17 @@ This case study examines a Eufy doorbell and HomeBase system using advanced fore
 
 **Topics Covered**
 
-| Labs  | Topics Covered                                                                                        |
-| ----- | ----------------------------------------------------------------------------------------------------- |
-| Lab 0 | [Doorbell Introduction](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                        |
-| Lab 1 | [Doorbell Scenario Simulation](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                 |
+| Labs  | Topics Covered                                                                                            |
+| ----- | --------------------------------------------------------------------------------------------------------- |
+| Lab 0 | [Doorbell Introduction](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                            |
+| Lab 1 | [Doorbell Scenario Simulation](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                     |
 | Lab 2 | [Doorbell Teardown and Chip-Off Image Acquisition](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx) |
-| Lab 3 | [Doorbell Image Analysis and Mounting](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)         |
-| Lab 4 | [Doorbell Evidence Extraction](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                 |
-| Lab 5 | [Doorbell P2P Communication Log](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)               |
-| Lab 6 | [Doorbell Daily (Sec) Log](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptxx)                   |
-| Lab 7 | [Analyzing the Doorbell Camera Directory](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)      |
-| Lab 8 | [Analyzing the Doorbell SQLite Directory](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)      |
+| Lab 3 | [Doorbell Image Analysis and Mounting](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)             |
+| Lab 4 | [Doorbell Evidence Extraction](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                     |
+| Lab 5 | [Doorbell P2P Communication Log](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)                   |
+| Lab 6 | [Doorbell Daily (Sec) Log](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptxx)                        |
+| Lab 7 | [Analyzing the Doorbell Camera Directory](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)          |
+| Lab 8 | [Analyzing the Doorbell SQLite Directory](/Eufy_Doorbell/PPTs/0_Eufy_Doorbell_Introduction.pptx)          |
 
 ---
 
@@ -292,20 +295,20 @@ This case study demonstrates the use of the chip-off technique to extract eviden
 
 **Topics Covered**
 
-| Labs      | Topics Covered                                                                                                     | Lab Data                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
-| Lab 0     | [Echo Show Introduction](/Echo_Device/ppts/0_Echo_Show_Introduction.pptx)                                          |                                         |
-| Lab 1     | [Echo Show Evidence Planting](/Echo_Device/ppts/1_Echo_Show_Evidence_Planting.pptx)                                |                                         |
-| Lab 2     | [Device Teardown and eMMC Chip-off](/Echo_Device/ppts/2_Device_Teardown_and_eMMC_Chip-off.pptx)                    |                                         |
-| Lab 3     | [Image Acquisition and Mounting](/Echo_Device/ppts/3_Image_Acquisition_and_Mounting.pptx)                          |                                         |
-| Lab 4.1.1 | [Specifications: Device and OS Information](/Echo_Device/ppts/4_1_1_Specifications%20_Device_and_OS_Info.pptx)     | [Link](/Echo_Device/lab_data/Lab_4_1_1) |
-| Lab 4.1.2 | [Specifications: User Information](/Echo_Device/ppts/4_1_2_Specifications%20User_info.pptx)                       | [Link](/Echo_Device/lab_data/Lab_4_1_2) |
+| Labs      | Topics Covered                                                                                                            | Lab Data                                |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| Lab 0     | [Echo Show Introduction](/Echo_Device/ppts/0_Echo_Show_Introduction.pptx)                                                 |                                         |
+| Lab 1     | [Echo Show Evidence Planting](/Echo_Device/ppts/1_Echo_Show_Evidence_Planting.pptx)                                       |                                         |
+| Lab 2     | [Device Teardown and eMMC Chip-off](/Echo_Device/ppts/2_Device_Teardown_and_eMMC_Chip-off.pptx)                           |                                         |
+| Lab 3     | [Image Acquisition and Mounting](/Echo_Device/ppts/3_Image_Acquisition_and_Mounting.pptx)                                 |                                         |
+| Lab 4.1.1 | [Specifications: Device and OS Information](</Echo_Device/ppts/4_1_1_Specifications%20_Device_and_OS_Info.pptx>)          | [Link](/Echo_Device/lab_data/Lab_4_1_1) |
+| Lab 4.1.2 | [Specifications: User Information](</Echo_Device/ppts/4_1_2_Specifications%20User_info.pptx>)                             | [Link](/Echo_Device/lab_data/Lab_4_1_2) |
 | Lab 4.1.3 | [Specifications: Network Connectivity Information](/Echo_Device/ppts/4_1_3_Specifications_Network_Connectivity_Info.pptx) | [Link](/Echo_Device/lab_data/Lab_4_1_3) |
-| Lab 4.2.1 | [Web Activity](/Echo_Device/ppts/4_2_1_Web_Activity.pptx)                                                          | [Link](/Echo_Device/lab_data/Lab_4_2_1) |
-| Lab 4.2.2 | [Phone Communication](/Echo_Device/ppts/4_2_2_Phone_Communication.pptx)                                            | [Link](/Echo_Device/lab_data/Lab_4_2_2) |
-| Lab 4.3.1 | [Multimedia: Photos and Related Data](/Echo_Device/ppts/4_3_1_Multimedia_Photos_and_Related_Data.pptx)             | [Link](/Echo_Device/lab_data/Lab_4_3_1) |
-| Lab 4.3.2 | [Multimedia: Videos and Related Data](/Echo_Device/ppts/4_3_2_Multimedia_Videos_and_Related_Data.pptx)             | [Link](/Echo_Device/lab_data/Lab_4_3_3) |
-| Lab 4.3.3 | [Multimedia: Audio and Related Data](/Echo_Device/ppts/4_3_3_Multimedia_Audio_and_Related_Data.pptx)               | [Link](/Echo_Device/lab_data/Lab_4_3_3) |
+| Lab 4.2.1 | [Web Activity](/Echo_Device/ppts/4_2_1_Web_Activity.pptx)                                                                 | [Link](/Echo_Device/lab_data/Lab_4_2_1) |
+| Lab 4.2.2 | [Phone Communication](/Echo_Device/ppts/4_2_2_Phone_Communication.pptx)                                                   | [Link](/Echo_Device/lab_data/Lab_4_2_2) |
+| Lab 4.3.1 | [Multimedia: Photos and Related Data](/Echo_Device/ppts/4_3_1_Multimedia_Photos_and_Related_Data.pptx)                    | [Link](/Echo_Device/lab_data/Lab_4_3_1) |
+| Lab 4.3.2 | [Multimedia: Videos and Related Data](/Echo_Device/ppts/4_3_2_Multimedia_Videos_and_Related_Data.pptx)                    | [Link](/Echo_Device/lab_data/Lab_4_3_3) |
+| Lab 4.3.3 | [Multimedia: Audio and Related Data](/Echo_Device/ppts/4_3_3_Multimedia_Audio_and_Related_Data.pptx)                      | [Link](/Echo_Device/lab_data/Lab_4_3_3) |
 
 ---
 
@@ -313,24 +316,24 @@ This case study demonstrates the use of the chip-off technique to extract eviden
 
 The image was created by Joshua Hickman and is hosted by [Digital Corpora](https://digitalcorpora.org/corpora/cell-phones/android-10).
 
-| Labs      | Topics Covered                                                                                         | Size of PPTs |
-| --------- | ------------------------------------------------------------------------------------------------------ | ------------ |
-| Lab 0     | [Introduction to the Pixel 3](Android10/0_Intro_Pixel3_Android10.pptx)                                 | 3M           |
-| Lab 1     | [Pixel 3 Image](Android10/1_Pixel3_Image.pptx)                                                         | 2M           |
-| Lab 2     | [Pixel 3 Device](Android10/2_Pixel3_Device_Investigation.pptx)                                         | 4M           |
-| Lab 3     | [Pixel 3 System Settings](Android10/3_Pixel3_System_settings.pptx)                                     | 5M           |
+| Labs      | Topics Covered                                                                                          | Size of PPTs |
+| --------- | ------------------------------------------------------------------------------------------------------- | ------------ |
+| Lab 0     | [Introduction to the Pixel 3](Android10/0_Intro_Pixel3_Android10.pptx)                                  | 3M           |
+| Lab 1     | [Pixel 3 Image](Android10/1_Pixel3_Image.pptx)                                                          | 2M           |
+| Lab 2     | [Pixel 3 Device](Android10/2_Pixel3_Device_Investigation.pptx)                                          | 4M           |
+| Lab 3     | [Pixel 3 System Settings](Android10/3_Pixel3_System_settings.pptx)                                      | 5M           |
 | Lab 4     | [Overview: App Lifecycle](Android10/4_Overivew_App_Life_Cycle.pptx)                                     | 11M          |
-| Lab 5.1.1 | [AOSP App Investigations: Messaging](Android10/5_1_1_AOSP_App_Investigations_Messaging.pptx)           | 4M           |
-| Lab 5.1.2 | [AOSP App Investigations: Contacts](Android10/5_1_2_AOSP_App_Investigations_Contacts.pptx)             | 3M           |
-| Lab 5.1.3 | [AOSP App Investigations: Calendar](Android10/5_2_1_GMS_App_Investigations_Messaging.pptx)             | 1M           |
-| Lab 5.2.1 | [GMS App Investigations: Messaging](Android10/5_2_2_GMS_App_Investigations_Dialer.pptx)                | 6M           |
-| Lab 5.2.2 | [GMS App Investigations: Dialer](Android10/5_2_2_GMS_App_Investigations_Dialer.pptx)                   | 2M           |
-| Lab 5.2.3 | [GMS App Investigations: Maps](Android10/5_2_3_GMS_App_Investigations_Maps.pptx)                       | 8M           |
-| Lab 5.2.4 | [GMS App Investigations: Photos](Android10/5_2_4_GMS_App_Investigations_Photos.pptx)                   | 6M           |
-| Lab 5.3.1 | [Third-Party App Investigations: Kik](Android10/5_3_1_Third_Party_App_Investigation_kik.pptx)          | 4M           |
-| Lab 5.3.2 | [Third-Party App Investigations: TextNow](5_3_2_Third_Party_App_Investigation%20_textnow.pptx)         | 1M           |
-| Lab 5.3.3 | [Third-Party App Investigations: WhatsApp](Android10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M          |
-| Lab 6     | [Pixel 3 Rooting](Android10/6_Pixel3_rooting.pptx)                                                     | 5M           |
+| Lab 5.1.1 | [AOSP App Investigations: Messaging](Android10/5_1_1_AOSP_App_Investigations_Messaging.pptx)            | 4M           |
+| Lab 5.1.2 | [AOSP App Investigations: Contacts](Android10/5_1_2_AOSP_App_Investigations_Contacts.pptx)              | 3M           |
+| Lab 5.1.3 | [AOSP App Investigations: Calendar](Android10/5_2_1_GMS_App_Investigations_Messaging.pptx)              | 1M           |
+| Lab 5.2.1 | [GMS App Investigations: Messaging](Android10/5_2_2_GMS_App_Investigations_Dialer.pptx)                 | 6M           |
+| Lab 5.2.2 | [GMS App Investigations: Dialer](Android10/5_2_2_GMS_App_Investigations_Dialer.pptx)                    | 2M           |
+| Lab 5.2.3 | [GMS App Investigations: Maps](Android10/5_2_3_GMS_App_Investigations_Maps.pptx)                        | 8M           |
+| Lab 5.2.4 | [GMS App Investigations: Photos](Android10/5_2_4_GMS_App_Investigations_Photos.pptx)                    | 6M           |
+| Lab 5.3.1 | [Third-Party App Investigations: Kik](Android10/5_3_1_Third_Party_App_Investigation_kik.pptx)           | 4M           |
+| Lab 5.3.2 | [Third-Party App Investigations: TextNow](<5_3_2_Third_Party_App_Investigation%20_textnow.pptx>)        | 1M           |
+| Lab 5.3.3 | [Third-Party App Investigations: WhatsApp](Android10/5_3_3_Third_Party_App_Investigation_whatsapp.pptx) | 3M           |
+| Lab 6     | [Pixel 3 Rooting](Android10/6_Pixel3_rooting.pptx)                                                      | 5M           |
 
 ---
 
@@ -340,11 +343,11 @@ The image was created by Joshua Hickman and is hosted by [Digital Corpora](https
 
 | Labs   | Topics Covered                                                        | Size of PPTs |
 | ------ | --------------------------------------------------------------------- | ------------ |
-| Lab 0  | [Introduction to iPhone iOS 13](iOS/0_Intro_iPhone_iOS13.pptx)         | 5M           |
+| Lab 0  | [Introduction to iPhone iOS 13](iOS/0_Intro_iPhone_iOS13.pptx)        | 5M           |
 | Lab 1  | [iOS 13.4.1 Image](iOS/1_iOS_13.4.1_Image.pptx)                       | 5M           |
 | Lab 2  | [iPhone Device Investigation](iOS/2_iPhone_Device_Investigation.pptx) | 3M           |
 | Lab 3  | [iOS System Settings](iOS/3_iOS_System_settings.pptx)                 | 3M           |
-| Lab 4  | [Overview of the App Lifecycle](iOS/4_Overivew_App_Life_Cycle.pptx)    | 2M           |
+| Lab 4  | [Overview of the App Lifecycle](iOS/4_Overivew_App_Life_Cycle.pptx)   | 2M           |
 | Lab 5  | [Messages Investigation](iOS/5_Messages_Investigations.pptx)          | 3M           |
 | Lab 6  | [Contacts Investigation](iOS/6_Contacts_Investigation.pptx)           | 3M           |
 | Lab 7  | [Calendar Investigation](iOS/7_Calender_Investigation.pptx)           | 2M           |
@@ -383,54 +386,74 @@ Our dataset is [a set of email summaries](/AI4Forensics/CKIM2024/HillaryEmails/r
 
 Our results and code are available in a [Jupyter Notebook](/AI4Forensics/CKIM2024/HillaryEmails/email_analysis_political_insight.ipynb).
 
-The following image presents political insights derived from summaries of emails related to Israel: <img src="/AI4Forensics/CKIM2024/HillaryEmails/political_insight_2024-05-31_10-29-52.jpg">
+The following image presents political insights derived from summaries of emails related to Israel: 
 
 ---
 
 ### Tools
 
-| Name                    | Command           | Repository                                                      | Installation Method |
-| ----------------------- | ----------------- | --------------------------------------------------------------- | ------------------- |
-| Wine                    | wine --version    | https://source.winehq.org/git/wine.git/                         | Custom              |
-| Vinetto                 | vinetto -h        | https://github.com/AtesComp/Vinetto                             | Custom              |
-| imgclip                 | imgclip -h        | https://github.com/Arthelon/imgclip                             | apt install         |
-| RegRipper               | rip.pl -h         | https://github.com/keydet89/RegRipper3.0                        | Customized script   |
-| Windows-Prefetch-Parser | prefetch.py -h    | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  | Custom              |
-| python-evtx             | evtx_dump.py -h   | https://github.com/williballenthin/python-evtx                  | apt install         |
-| libesedb-utils          | esedbexport -h    | https://github.com/libyal/libesedb                              | apt install         |
-| libpff                  | pffexport -h      | https://github.com/libyal/libpff                                | apt install         |
-| USN-Record-Carver       | usncarve.py -h    | https://github.com/PoorBillionaire/USN-Record-Carver            | apt install         |
-| USN-Journal-Parser      | usn.py -h         | https://github.com/PoorBillionaire/USN-Journal-Parser           | apt install         |
-| time_decode             | time_decode.py -h | https://github.com/digitalsleuth/time_decode                    | Git clone           |
-| analyzeMFT              | analyzeMFT.py -h  | https://github.com/dkovar/analyzeMFT                            | Customized script   |
-| libvshadow              | vshadowinfo -h    | https://github.com/libyal/libvshadow                            | Customized script   |
-| INDXParse               | INDXParse.py -    |                                                                 | Customized script   |
-| Carving SQLite database files      | undark -h         | https://github.com/inflex/undark.git                            | Customized script   |
-| stegdetect              | stegdetect -V     |                                                                 | Customized script   |
-| stegbreak               | stegbreak -V      |                                                                 | Customized script   |
-| stego-toolkit           | jphide            |                                                                 | Customized script   |
-| jpsestego-toolkitek     | jpseek            |                                                                 | Customized script   |
-| volatility-2            | vol.py -h         | https://github.com/volatilityfoundation/volatility.git          | Customized script   |
-| liblnk-utils            | lnkinfo -h        |                                                                 | apt install         |
-| JLECmd                  |                   | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip | Git clone           |
-| recentfilecache-parser  |                   | https://github.com/prolsen/recentfilecache-parser               |                     |
-| LogFileParser           |                   | https://github.com/jschicht/LogFileParser.git                   | Git clone           |
-| UsnJrnl2Csv             |                   | ttps://github.com/jschicht/UsnJrnl2Csv.git                      | Git clone           |
+| Name                          | Command           | Repository                                                      | Installation Method |
+| ----------------------------- | ----------------- | --------------------------------------------------------------- | ------------------- |
+| Wine                          | wine --version    | https://source.winehq.org/git/wine.git/                         | Custom              |
+| Vinetto                       | vinetto -h        | https://github.com/AtesComp/Vinetto                             | Custom              |
+| imgclip                       | imgclip -h        | https://github.com/Arthelon/imgclip                             | apt install         |
+| RegRipper                     | rip.pl -h         | https://github.com/keydet89/RegRipper3.0                        | Customized script   |
+| Windows-Prefetch-Parser       | prefetch.py -h    | https://github.com/PoorBillionaire/Windows-Prefetch-Parser.git  | Custom              |
+| python-evtx                   | evtx_dump.py -h   | https://github.com/williballenthin/python-evtx                  | apt install         |
+| libesedb-utils                | esedbexport -h    | https://github.com/libyal/libesedb                              | apt install         |
+| libpff                        | pffexport -h      | https://github.com/libyal/libpff                                | apt install         |
+| USN-Record-Carver             | usncarve.py -h    | https://github.com/PoorBillionaire/USN-Record-Carver            | apt install         |
+| USN-Journal-Parser            | usn.py -h         | https://github.com/PoorBillionaire/USN-Journal-Parser           | apt install         |
+| time_decode                   | time_decode.py -h | https://github.com/digitalsleuth/time_decode                    | Git clone           |
+| analyzeMFT                    | analyzeMFT.py -h  | https://github.com/dkovar/analyzeMFT                            | Customized script   |
+| libvshadow                    | vshadowinfo -h    | https://github.com/libyal/libvshadow                            | Customized script   |
+| INDXParse                     | INDXParse.py -    |                                                                 | Customized script   |
+| Carving SQLite database files | undark -h         | https://github.com/inflex/undark.git                            | Customized script   |
+| stegdetect                    | stegdetect -V     |                                                                 | Customized script   |
+| stegbreak                     | stegbreak -V      |                                                                 | Customized script   |
+| stego-toolkit                 | jphide            |                                                                 | Customized script   |
+| jpsestego-toolkitek           | jpseek            |                                                                 | Customized script   |
+| volatility-2                  | vol.py -h         | https://github.com/volatilityfoundation/volatility.git          | Customized script   |
+| liblnk-utils                  | lnkinfo -h        |                                                                 | apt install         |
+| JLECmd                        |                   | https://f001.backblazeb2.com/file/EricZimmermanTools/JLECmd.zip | Git clone           |
+| recentfilecache-parser        |                   | https://github.com/prolsen/recentfilecache-parser               |                     |
+| LogFileParser                 |                   | https://github.com/jschicht/LogFileParser.git                   | Git clone           |
+| UsnJrnl2Csv                   |                   | ttps://github.com/jschicht/UsnJrnl2Csv.git                      | Git clone           |
 
 - Other tools installed using `apt install`:
   python3-pip, leafpad, terminator, sqlite3, tree, xmlstarlet, libhivex-bin, pasco, libhivex-bin, npm, binwalk, foremost, hashdeep, ewf-tools, nautilus
 
 ---
 
+## Citing This Repository
+
+If you use this repository's labs, datasets, or instructional materials in your work, please cite it as follows:
+
+> Frank Xu and contributors. *Digital Forensics Lab & Shared Cyber Forensic Intelligence Repository*. GitHub. https://github.com/frankwxu/digital-forensics-lab.
+
+```bibtex
+@misc{xu_digital_forensics_lab,
+  author       = {Xu, Frank and {contributors}},
+  title        = {Digital Forensics Lab \& Shared Cyber Forensic Intelligence Repository},
+  howpublished = {GitHub},
+  url          = {https://github.com/frankwxu/digital-forensics-lab}
+}
+```
+
+Include the date you accessed the repository and, when applicable, the commit hash of the version you used.
+
+---
+
 ## Contributors
 
 - Principal investigators
+
   - Dr. Frank Xu (Email: fxu at ubalt dot edu)
   - Dr. Debra L. Stanley
   - Dr. Lin Deng; Towson University
   - Dr. Wenbin Zhang; Florida International University
-
 - Students:
+
   - Eric Xu: University of Maryland (LLM for Digital Forensics)
   - Jeel Khatiwala (Evaluating the Reliability of Digital Forensic Evidence Discovered by LLMs)
   - Mohit Dhabuwala (Open-source mobile forensics handbook)
