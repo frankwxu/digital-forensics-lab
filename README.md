@@ -468,6 +468,14 @@ Include the date you accessed the repository and, when applicable, the commit ha
 
 ---
 
-## GitHub Stars
+## Star History
 
 [![GitHub stars](https://img.shields.io/github/stars/frankwxu/digital-forensics-lab?style=for-the-badge&logo=github)](https://github.com/frankwxu/digital-forensics-lab/stargazers)
+
+<a href="https://www.star-history.com/?repos=frankwxu%2Fdigital-forensics-lab&amp;type=date&amp;legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=frankwxu/digital-forensics-lab&amp;type=date&amp;legend=top-left&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=frankwxu/digital-forensics-lab&amp;type=date&amp;legend=top-left" />
+    <img alt="Star history chart showing GitHub stars over time for frankwxu/digital-forensics-lab" src="https://api.star-history.com/chart?repos=frankwxu/digital-forensics-lab&amp;type=date&amp;legend=top-left" />
+  </picture>
+</a>
