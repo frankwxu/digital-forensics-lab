@@ -1,0 +1,40 @@
+{
+  "browser_history": [
+    {
+      "timestamp": "2024-11-02T03:12:00",
+      "url": "hxxp://phishy.site/invoice_tool.exe",
+      "action": "download"
+    }
+  ],
+  "powershell_logs": [
+    {
+      "timestamp": "2024-11-02T03:14:00",
+      "command": "Start-Process invoice_tool.exe"
+    }
+  ],
+  "filesystem_changes": [
+    {
+      "timestamp": "2024-11-02T03:16:00",
+      "path": "/finance",
+      "action": "encrypt"
+    },
+    {
+      "timestamp": "2024-11-02T03:43:00",
+      "path": "/desktop/ransom_note.txt",
+      "action": "create"
+    }
+  ],
+  "registry_changes": [
+    {
+      "timestamp": "2024-11-02T03:20:00",
+      "key": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "value": "invoice_tool.exe"
+    }
+  ],
+  "system_events": [
+    {
+      "timestamp": "2024-11-02T03:45:00",
+      "event": "reboot"
+    }
+  ]
+}
