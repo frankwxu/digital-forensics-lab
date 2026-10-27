@@ -1,4 +1,49 @@
+# Local secrets and configuration
 openai_api_key.txt
 openai_api_key.env
 openai_api_key
 my_config.env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# LaTeX build files (keep source .tex files)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Generated PDFs for the Android 10 SQLite tutorial
+!/Android10/sqlite_tutorial/*.pdf
+
+# Office temporary files
+~$*
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

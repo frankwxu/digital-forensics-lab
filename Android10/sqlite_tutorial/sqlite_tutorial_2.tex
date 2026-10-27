@@ -1,0 +1,191 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{textcomp} % For \textquotesingle
+
+% Define colors for SQL code
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Configure the listings package for SQL syntax highlighting
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{SQLite Tutorial: Demonstrating INNER and LEFT JOINs}
+\author{Dr. Frank Xu}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+This tutorial demonstrates the use of \textbf{INNER JOIN} and \textbf{LEFT JOIN} in SQLite using a dataset with three users: two with orders (Alice and Bob) and one without (Charlie). We will create tables, insert data, display the data after insertion, and compare the results of both JOIN operations to highlight their differences.
+
+\section*{Step 1: Create the Tables}
+We create two tables: \texttt{users} to store user information and \texttt{orders} to store order details.
+
+\begin{lstlisting}[language=SQL]
+-- Create users table
+CREATE TABLE users (
+    user_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT
+);
+
+-- Create orders table
+CREATE TABLE orders (
+    order_id INTEGER PRIMARY KEY,
+    user_id INTEGER,
+    product TEXT,
+    amount REAL,
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+\end{lstlisting}
+
+\section*{Step 2: Insert Data for Three Users}
+We insert three users---Alice, Bob, and Charlie---and orders for only Alice and Bob. Charlie has no orders.
+
+\begin{lstlisting}[language=SQL]
+-- Insert three users
+INSERT INTO users (name, email) VALUES 
+('Alice', 'alice@example.com'),
+('Bob', 'bob@example.com'),
+('Charlie', 'charlie@example.com');
+
+-- Insert orders for Alice and Bob only
+INSERT INTO orders (user_id, product, amount) VALUES 
+(1, 'Laptop', 999.99),  -- Alice's order
+(1, 'Mouse', 29.99),    -- Alice's order
+(2, 'Keyboard', 59.99); -- Bob's order
+\end{lstlisting}
+
+\subsection{Results After Step 2}
+We display the contents of both tables after inserting the data.
+
+\subsubsection{Users Table}
+\begin{lstlisting}[language=SQL]
+SELECT * FROM users;
+\end{lstlisting}
+
+\textbf{Result}:
+\begin{verbatim}
+user_id  name     email
+1        Alice    alice@example.com
+2        Bob      bob@example.com
+3        Charlie  charlie@example.com
+\end{verbatim}
+
+\subsubsection{Orders Table}
+\begin{lstlisting}[language=SQL]
+SELECT * FROM orders;
+\end{lstlisting}
+
+\textbf{Result}:
+\begin{verbatim}
+order_id  user_id  product    amount
+1         1        Laptop     999.99
+2         1        Mouse      29.99
+3         2        Keyboard   59.99
+\end{verbatim}
+
+\textbf{Explanation}: The \texttt{users} table contains three users: Alice (\texttt{user\_id = 1}), Bob (\texttt{user\_id = 2}), and Charlie (\texttt{user\_id = 3}). The \texttt{orders} table contains three orders: two for Alice (\texttt{user\_id = 1}, Laptop and Mouse) and one for Bob (\texttt{user\_id = 2}, Keyboard). Charlie (\texttt{user\_id = 3}) has no orders.
+
+\section*{Step 3: INNER JOIN Example}
+An \textbf{INNER JOIN} returns only rows where there is a match in both tables.
+
+\begin{lstlisting}[language=SQL]
+SELECT users.name, orders.product, orders.amount
+FROM users
+INNER JOIN orders
+ON users.user_id = orders.user_id;
+\end{lstlisting}
+
+\textbf{Result}:
+\begin{verbatim}
+name    product     amount
+Alice   Laptop      999.99
+Alice   Mouse       29.99
+Bob     Keyboard    59.99
+\end{verbatim}
+
+\textbf{Explanation}: Only users with orders appear (Alice and Bob). Charlie has no orders, so he is excluded because there is no matching \texttt{user\_id = 3} in the \texttt{orders} table. The INNER JOIN shows only rows where \texttt{users.user\_id} equals \texttt{orders.user\_id}.
+
+\bigskip
+\noindent\textbf{Old-Style Equivalent (for reference)}:
+\begin{lstlisting}[language=SQL]
+-- Older implicit join syntax (not recommended)
+SELECT users.name, orders.product, orders.amount
+FROM users, orders
+WHERE users.user_id = orders.user_id;
+\end{lstlisting}
+
+\textbf{Note}: The old-style query produces the same result as the modern \texttt{INNER JOIN}, but it is harder to read and can lead to mistakes if the \texttt{WHERE} condition is omitted. Always use the explicit \texttt{JOIN ... ON ...} form in modern SQL.
+
+\section*{Step 4: LEFT JOIN Example}
+A \textbf{LEFT JOIN} returns all rows from the left table (\texttt{users}), with matching rows from the right table (\texttt{orders}). If there is no match, NULL values are returned for the right table’s columns.
+
+\begin{lstlisting}[language=SQL]
+SELECT users.name, orders.product, orders.amount
+FROM users
+LEFT JOIN orders
+ON users.user_id = orders.user_id;
+\end{lstlisting}
+
+\textbf{Result}:
+\begin{verbatim}
+name    product     amount
+Alice   Laptop      999.99
+Alice   Mouse       29.99
+Bob     Keyboard    59.99
+Charlie NULL        NULL
+\end{verbatim}
+
+\textbf{Explanation}: All users are included because \texttt{users} is the left table. Alice and Bob have orders, so their rows show the corresponding \texttt{product} and \texttt{amount}. Charlie has no orders, so his row shows \texttt{NULL} for \texttt{product} and \texttt{amount}. The LEFT JOIN preserves all rows from \texttt{users}, even when there is no match in \texttt{orders}.
+
+\section*{Key Differences Between INNER JOIN and LEFT JOIN}
+\begin{itemize}
+    \item \textbf{INNER JOIN}:
+    \begin{itemize}
+        \item Only includes rows with matches in both tables.
+        \item Excludes Charlie because he has no orders.
+        \item Result: 3 rows (Alice’s two orders, Bob’s one order).
+    \end{itemize}
+    \item \textbf{LEFT JOIN}:
+    \begin{itemize}
+        \item Includes all rows from the left table (\texttt{users}).
+        \item Shows Charlie with \texttt{NULL} for order details.
+        \item Result: 4 rows (Alice’s two orders, Bob’s one order, Charlie’s \texttt{NULL} row).
+    \end{itemize}
+\end{itemize}
+
+\section*{Try It Yourself}
+To practice:
+\begin{enumerate}
+    \item Modify the INNER JOIN to show only orders with \texttt{amount > 100}.
+    \item Use LEFT JOIN to find users with no orders (hint: add \texttt{WHERE orders.user\_id IS NULL}).
+    \item Add an order for Charlie and rerun both JOINs to see how the results change.
+\end{enumerate}
+
+You can run these queries in DB Browser for SQLite or \texttt{sqliteonline.com}.
+
+\end{document}

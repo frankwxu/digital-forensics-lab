@@ -1,0 +1,274 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{textcomp} % For \textquotesingle
+
+% Define colors for SQL code
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+% Configure the listings package for SQL syntax highlighting
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{SQLite Tutorial: Managing a Library System}
+\author{Dr. Frank Xu}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+
+In this tutorial, we will create a simple SQLite database to manage a library system. The database will store information about books, including their title, author, publication year, and genre.
+
+\section*{Step 1: Create a New SQLite Database}
+
+Open your terminal or command prompt and create a new SQLite database called \texttt{library.db}:
+
+\begin{lstlisting}[language=bash]
+sqlite3 library.db
+\end{lstlisting}
+
+Once you run the above command, you should see something like this in your terminal:
+
+\begin{lstlisting}[language=bash]
+user@linux:~$ sqlite3 library.db
+SQLite version 3.37.2 2022-01-06 13:25:41
+Enter ".help" for usage hints.
+sqlite> 
+\end{lstlisting}
+
+This indicates that SQLite has successfully created the \texttt{library.db} file and opened the SQLite shell. You can now start executing SQL commands directly in this shell.
+
+\section*{Step 2: Create a Table}
+
+Now, let's create a table called \texttt{books} to store information about the books in our library. The table will have the following columns:
+
+\begin{itemize}
+    \item \texttt{id}: A unique identifier for each book (Primary Key).
+    \item \texttt{title}: The title of the book.
+    \item \texttt{author}: The author of the book.
+    \item \texttt{year}: The year the book was published.
+    \item \texttt{genre}: The genre of the book.
+\end{itemize}
+
+Run the following SQL command to create the table (REAL type for float type):
+
+\begin{lstlisting}[language=SQL]
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    year INTEGER,
+    genre TEXT
+);
+\end{lstlisting}
+
+After running the command, you won't see any output, but the table will be created. To verify the table schema, use the `.schema` command:
+
+\begin{lstlisting}[language=bash]
+sqlite> .schema books
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    year INTEGER,
+    genre TEXT
+);
+\end{lstlisting}
+
+The `.schema` command displays the exact SQL statement used to create the table, allowing you to confirm its structure.
+
+You use a different command `PRAGMA table\_info` to inspect the structure of a table.
+\begin{lstlisting}[language=bash]
+sqlite> PRAGMA table_info(books);
+
+\end{lstlisting}
+
+\section*{Step 3: Insert Data into the Table}
+
+Now that we have a table, let's insert some sample data into it.
+
+\begin{lstlisting}[language=SQL]
+INSERT INTO books (title, author, year, genre) 
+VALUES ('To Kill a Mockingbird', 'Harper Lee', 1960, 'Fiction');
+
+INSERT INTO books (title, author, year, genre) 
+VALUES ('1984', 'George Orwell', 1949, 'Dystopian');
+
+INSERT INTO books (title, author, year, genre) 
+VALUES ('The Great Gatsby', 'F. Scott Fitzgerald', 1925, 'Classic');
+
+INSERT INTO books (title, author, year, genre) 
+VALUES ('Pride and Prejudice', 'Jane Austen', 1813, 'Romance');
+\end{lstlisting}
+
+After inserting the data, you won't see any output, but you can verify the data by running a `SELECT` query:
+
+\begin{lstlisting}[language=bash]
+sqlite> SELECT * FROM books;
+1|To Kill a Mockingbird|Harper Lee|1960|Fiction
+2|1984|George Orwell|1949|Dystopian
+3|The Great Gatsby|F. Scott Fitzgerald|1925|Classic
+4|Pride and Prejudice|Jane Austen|1813|Romance
+\end{lstlisting}
+
+\section*{Step 4: Query the Data}
+
+Now that we have some data in the table, let's query it.
+
+\subsection*{1. Select All Books}
+
+To retrieve all the books in the library, run:
+
+\begin{lstlisting}[language=SQL]
+SELECT * FROM books;
+\end{lstlisting}
+
+The result will look like this:
+
+\begin{lstlisting}[language=bash]
+sqlite> SELECT * FROM books;
+1|To Kill a Mockingbird|Harper Lee|1960|Fiction
+2|1984|George Orwell|1949|Dystopian
+3|The Great Gatsby|F. Scott Fitzgerald|1925|Classic
+4|Pride and Prejudice|Jane Austen|1813|Romance
+\end{lstlisting}
+
+\subsection*{2. Select Books Published After 1900}
+
+To find books published after the year 1900, run:
+
+\begin{lstlisting}[language=SQL]
+SELECT * FROM books WHERE year > 1900;
+\end{lstlisting}
+
+The result will look like this:
+
+\begin{lstlisting}[language=bash]
+sqlite> SELECT * FROM books WHERE year > 1900;
+1|To Kill a Mockingbird|Harper Lee|1960|Fiction
+2|1984|George Orwell|1949|Dystopian
+3|The Great Gatsby|F. Scott Fitzgerald|1925|Classic
+\end{lstlisting}
+
+\subsection*{3. Select Books by Genre}
+
+To find all books in the "Fiction" genre, run:
+
+\begin{lstlisting}[language=SQL]
+SELECT * FROM books WHERE genre = 'Fiction';
+\end{lstlisting}
+
+The result will look like this:
+
+\begin{lstlisting}[language=bash]
+sqlite> SELECT * FROM books WHERE genre = 'Fiction';
+1|To Kill a Mockingbird|Harper Lee|1960|Fiction
+\end{lstlisting}
+
+\section*{Step 5: Update Data}
+
+Let's say we want to update the genre of "1984" from "Dystopian" to "Science Fiction". We can do this with the \texttt{UPDATE} statement:
+
+\begin{lstlisting}[language=SQL]
+UPDATE books SET genre = 'Science Fiction' WHERE title = '1984';
+\end{lstlisting}
+
+After running the command, you won't see any output, but you can verify the change by querying the data again:
+
+\begin{lstlisting}[language=bash]
+sqlite> SELECT * FROM books WHERE title = '1984';
+2|1984|George Orwell|1949|Science Fiction
+\end{lstlisting}
+
+\section*{Step 6: Delete Data}
+
+If we want to remove a book from the library, we can use the \texttt{DELETE} statement. For example, to delete "Pride and Prejudice":
+
+\begin{lstlisting}[language=SQL]
+DELETE FROM books WHERE title = 'Pride and Prejudice';
+\end{lstlisting}
+
+After running the command, you won't see any output, but you can verify the deletion by querying the data again:
+
+\begin{lstlisting}[language=bash]
+sqlite> SELECT * FROM books;
+1|To Kill a Mockingbird|Harper Lee|1960|Fiction
+2|1984|George Orwell|1949|Science Fiction
+3|The Great Gatsby|F. Scott Fitzgerald|1925|Classic
+\end{lstlisting}
+
+\section*{Step 7: Drop the Table (Optional)}
+
+If you want to delete the entire table (including all its data), you can use the \texttt{DROP TABLE} command:
+
+\begin{lstlisting}[language=SQL]
+DROP TABLE books;
+\end{lstlisting}
+
+After running the command, you won't see any output, but you can verify that the table is gone by listing all tables:
+
+\begin{lstlisting}[language=bash]
+sqlite> .tables
+\end{lstlisting}
+
+Since the table has been dropped, no tables will be listed.
+
+
+
+\section*{Step 8: Other Useful Commands}
+
+You can try other useful commands
+
+\begin{lstlisting}[language=SQL]
+.open library.db  
+SELECT * FROM books WHERE genre like '%F%';
+SELECT * FROM books WHERE lower(genre) like '%f%';
+SELECT * FROM books WHERE lower(genre) like '%f%' limit 2;
+\end{lstlisting}
+
+
+\section*{Step 9: Exit SQLite}
+
+Once you're done working with the database, you can exit the SQLite shell by typing:
+
+\begin{lstlisting}[language=bash]
+.exit
+\end{lstlisting}
+
+The terminal will return to the normal command prompt:
+
+\begin{lstlisting}[language=bash]
+sqlite> .exit
+user@linux:~$
+\end{lstlisting}
+
+\section*{Conclusion}
+
+In this tutorial, we created a simple SQLite database to manage a library system. We learned how to create a table, verify its schema, insert data, query data, update records, and delete records. SQLite is a lightweight, serverless database engine that is perfect for small applications, prototyping, and learning SQL.
+
+Feel free to experiment with more complex queries and operations as you become more comfortable with SQLite!
+
+\end{document}

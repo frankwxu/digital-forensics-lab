@@ -1,0 +1,133 @@
+-- Step 1: Create and open the database
+sqlite3 contacts.db
+
+-- Make query results easier to read
+.headers on
+.mode column
+.nullvalue NULL
+
+-- Step 2: Begin with one contact table
+CREATE TABLE contacts_flat (
+    contact_id   INTEGER PRIMARY KEY,
+    account_name TEXT NOT NULL,
+    name         TEXT NOT NULL,
+    phone        TEXT,
+    email        TEXT
+);
+
+INSERT INTO contacts_flat
+    (contact_id, account_name, name, phone, email)
+VALUES
+    (101, 'Personal', 'John Smith',
+     '+1 555-1234', 'john@gmail.com');
+
+SELECT * FROM contacts_flat;
+
+-- Step 3: Add a second phone number
+ALTER TABLE contacts_flat ADD COLUMN phone2 TEXT;
+
+UPDATE contacts_flat
+SET phone2 = '+1 555-9876'
+WHERE contact_id = 101;
+
+SELECT contact_id, name, phone, phone2
+FROM contacts_flat;
+
+-- Step 4: Create the EAV tables
+CREATE TABLE attributes (
+    attribute_id   INTEGER PRIMARY KEY,
+    attribute_name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE contacts (
+    contact_id   INTEGER PRIMARY KEY,
+    account_name TEXT NOT NULL
+);
+
+CREATE TABLE data (
+    data_id    INTEGER PRIMARY KEY,
+    contact_id INTEGER NOT NULL,
+    attribute_id INTEGER NOT NULL,
+    value      TEXT NOT NULL
+);
+
+-- Inspect the table definitions
+.schema contacts
+.schema data
+.schema attributes
+
+-- Step 5: Insert the attributes
+INSERT INTO attributes (attribute_id, attribute_name) VALUES
+    (1, 'Name'),
+    (2, 'Phone'),
+    (3, 'Email');
+
+SELECT * FROM attributes ORDER BY attribute_id;
+
+-- Step 6: Insert a contact and its attributes
+INSERT INTO contacts (contact_id, account_name)
+VALUES (101, 'Personal');
+
+INSERT INTO data (data_id, contact_id, attribute_id, value) VALUES
+    (301, 101, 1, 'John Smith'),
+    (302, 101, 2, '+1 555-1234'),
+    (303, 101, 3, 'john@gmail.com');
+
+SELECT * FROM contacts;
+SELECT * FROM data ORDER BY data_id;
+
+-- Step 7: Reconstruct a readable contact with JOINs
+SELECT c.contact_id,
+       c.account_name,
+       a.attribute_name,
+       d.value
+FROM contacts AS c
+JOIN data AS d
+  ON d.contact_id = c.contact_id
+JOIN attributes AS a
+  ON a.attribute_id = d.attribute_id
+WHERE c.contact_id = 101
+ORDER BY d.data_id;
+
+-- Step 8: Store another attribute of the same type
+INSERT INTO data (data_id, contact_id, attribute_id, value)
+VALUES (304, 101, 2, '+1 555-9876');
+
+SELECT d.data_id, d.value AS phone
+FROM data AS d
+JOIN attributes AS a
+  ON a.attribute_id = d.attribute_id
+WHERE d.contact_id = 101
+  AND a.attribute_name = 'Phone'
+ORDER BY d.data_id;
+
+-- Step 9: Useful queries
+-- Find values containing "john"
+SELECT c.contact_id,
+       c.account_name,
+       a.attribute_name,
+       d.value
+FROM data AS d
+JOIN contacts AS c ON c.contact_id = d.contact_id
+JOIN attributes AS a ON a.attribute_id = d.attribute_id
+WHERE lower(d.value) LIKE '%john%';
+
+-- Count attributes for each contact
+SELECT c.contact_id,
+       c.account_name,
+       COUNT(d.data_id) AS attribute_count
+FROM contacts AS c
+LEFT JOIN data AS d
+  ON d.contact_id = c.contact_id
+GROUP BY c.contact_id, c.account_name
+ORDER BY c.contact_id;
+
+-- Find contacts with no data rows
+SELECT c.*
+FROM contacts AS c
+LEFT JOIN data AS d
+  ON d.contact_id = c.contact_id
+WHERE d.data_id IS NULL;
+
+-- Exit SQLite
+.exit
