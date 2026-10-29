@@ -16,6 +16,14 @@ _To provide feedback or tell us how you use the course materials, please email w
 
 ---
 
+## ![NEW](https://img.shields.io/badge/NEW-red) Agentic AI4 Forensics Labs
+
+[Agentic AI4 Forensics Labs](https://github.com/frankwxu/agentic-AI4-forensics) is a standalone, student-facing collection for cybersecurity and digital forensics learners, including those with limited programming experience.
+
+The labs provide beginner onboarding in Python, LLM foundations, and AI agents before introducing five agentic AI patterns—Reflection, Tool Use, ReAct, Planning, and Multiagent—with support for locally hosted open-source models through Ollama.
+
+---
+
 ## ![NEW](https://img.shields.io/badge/NEW-red) Digital Forensics Basics: Second Edition and Companion Materials
 
 [](https://www.amazon.com/dp/B0HH8WQSMK)
@@ -84,6 +92,7 @@ The list below serves as the table of contents for this **digital-forensics-lab 
   - [Illegal Possession of Images](/STIX_for_digital_forensics/Illegal_Possession_Images)
 - AI for Forensics
 
+  - [Agentic AI4 Forensics Labs](https://github.com/frankwxu/agentic-AI4-forensics)
   - [CIKM 2024 tutorial session](https://cikm2024.org/tutorials/) with an accompanying [hands-on lab](AI4Forensics/CKIM2024/readme.md)
   - [Identifying IP Addresses Using a Fine-Tuned AI Model](/AI4Forensics/IP_Identifier_Fine_Tuning/IP_Identifer_Fine_Tuning.pptx)
   - [Profiling Suspects Using LLMs (Browser History)](/AI4Forensics/CKIM2024/Takeout/browser_analysis.ipynb) ([Colab version](/AI4Forensics/CKIM2024/Takeout/profile_browser_history_colab.ipynb))
